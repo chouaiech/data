@@ -1,0 +1,509 @@
+# Docker compose project used to startup the test environment.
+#
+# Usage:
+#     Start:    docker-compose up -d | docker-compose -f docker-compose-local-scen1.yml up --build -d
+version: '3.9'
+
+networks:
+  elastic-nw:
+    name: elastic-network
+  mongo-nw:
+    name: mongo-network
+  virtuoso-repo-nw:
+    name: virtuoso-repo-network
+  search-repo-nw:
+    name: search-repo-network
+  #shacl-repo-nw:
+    #name: shacl-repo-network
+  data-upload-repo-nw:
+    name: data-upload-network
+  ui-search-nw:
+    name: ui-search-network
+  ui-repo-nw:
+    name: ui-repo-network
+  ui-virtuoso-nw:
+    name: "ui-virtuoso-network"
+  ui-data-upload-nw:
+    name: "ui-data-upload-network"
+  statistic-db-nw:
+    name: "statistic-db-network"
+  search-statistic-nw:
+    name: "search-statistic-network"
+  statistics-ui-nw:
+    name: "statistics-ui-network"
+  proxy-ui-nw:
+    name: "proxy-ui-network"
+  mqa-dataset-sim-virtuoso-nw:
+    name: "mqa-dataset-sim-virtuoso-network"
+  mqa-cashe-virtuoso-nw:
+    name: "mqa-cashe-virtuoso-network"
+  mqa-cashe-mongo-nw:
+    name: "mqa-cashe-mongo-network"
+  mqa-reporter-quick-nw:
+    name: "mqa-reporter-quick-network"
+  mqa-nw:
+    name: "mqa-network"
+  hub-repo-nw:
+    external: true ##needs to be created manually: docker network create hub-repo-nw
+    
+services:
+
+  reverse-proxy:
+    container_name: httpd-proxy
+    build:
+      context: .
+      dockerfile: Dockerfile_scenario1    
+    ports:
+      - '80:80'
+    depends_on:
+      - piveau-ui
+      - hub-statistics-ui
+      - mqa-shacl-validation-ui
+      - piveau-hub-repo
+    networks:
+      proxy-ui-nw: {}
+    
+  piveau-ui:
+    logging:
+      options:
+        max-size: "50m"
+    container_name: piveau-ui
+    build: ../ui
+    ports:
+      - 8080:8080
+    environment:
+      - JAVA_OPTS=-Xms300m -Xmx1g
+    depends_on:
+      - piveau-hub-repo
+      - hub-statistics-ui
+      - mqa-metrics-ui
+    networks:
+      ui-search-nw: {}
+      ui-repo-nw: {}
+      ui-virtuoso-nw: {}
+      ui-data-upload-nw: {}
+      proxy-ui-nw: {}
+      
+  piveau-hub-repo:
+    logging:
+      options:
+        max-size: "50m"
+    container_name: piveau-hub-repo
+    build: ../repo/
+    ports:
+      - 9080:8080
+    environment:
+      - JAVA_OPTS=-Xms300m -Xmx1g
+    env_file:
+      - ../repo/conf/repo-env.properties
+    depends_on:
+      - hub-search
+      #- mqa-shacl-validation
+      - hub-data-upload
+      - virtuoso
+      - shadow-virtuoso
+    networks:
+      virtuoso-repo-nw: {}
+      search-repo-nw: {}
+      #shacl-repo-nw: {}
+      data-upload-repo-nw: {}
+      ui-repo-nw: {}
+      hub-repo-nw: {}
+      proxy-ui-nw: {}
+      
+  hub-search:
+    logging:
+      options:
+        max-size: "50m"
+    container_name: piveau-hub-search
+    build: ../search/
+    networks:
+      elastic-nw: {}
+      search-repo-nw: {}
+      ui-search-nw: {}
+      search-statistic-nw: {}
+      proxy-ui-nw: {}
+    depends_on:
+      - elasticsearch
+    environment:
+      - JAVA_OPTS=-Xms300m -Xmx1g
+    env_file:
+      - ../search/conf/search-elastic-env.properties
+      - ../search/conf/search-env.properties
+    ports:
+      - 8082:8080
+      - 8083:8081
+
+  hub-data-upload:
+    container_name: piveau-hub-simple-store
+    logging:
+      options:
+        max-size: "50m"
+    networks:
+      mongo-nw: {}
+      data-upload-repo-nw: {}
+      ui-data-upload-nw: {}
+      proxy-ui-nw: {}
+    build: ../simple-store/
+    depends_on:
+      - mongodb
+    environment:
+      - JAVA_OPTS=-Xms300m -Xmx1g
+    env_file:
+      - ../simple-store/conf/store-env.properties
+    ports:
+      - 8081:8080
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.17.2
+    container_name: elasticsearch
+    logging:
+      options:
+        max-size: "50m"
+    volumes:
+      - elasticsearch:/usr/share/elasticsearch/data
+    environment:
+      - ES_JAVA_OPTS=-Xms2G -Xmx4G
+    env_file:
+      - ../search/conf/search-elastic-env.properties
+      - ../search/conf/elastic-env.properties
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    networks:
+      elastic-nw: {}
+    ports:
+      - 9200:9200
+      - 9300:9300
+
+  mongodb:
+    image: mongo:4.0-xenial
+    container_name: mongodb
+    logging:
+      options:
+        max-size: "50m"
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    networks:
+      mongo-nw: {}
+      mqa-cashe-mongo-nw: {}
+
+  virtuoso:
+    image: tenforce/virtuoso
+    container_name: virtuoso
+    logging:
+      options:
+        max-size: "50m"
+    ports:
+      - 8890:8890
+      - 1111:1111
+    networks:
+      virtuoso-repo-nw: {}
+      ui-virtuoso-nw: {}
+      mqa-dataset-sim-virtuoso-nw: {}
+      mqa-cashe-virtuoso-nw: {}
+      proxy-ui-nw: {}
+    volumes:
+      - virtuoso:/usr/local/virtuoso-opensource/var/lib/virtuoso/db
+    environment:
+      - DBA_PASSWORD=dba
+
+  shadow-virtuoso:
+    image: tenforce/virtuoso
+    container_name: shadow-virtuoso
+    logging:
+      options:
+        max-size: "50m"
+    ports:
+      - 9890:8890
+      - 9111:1111
+    networks:
+      virtuoso-repo-nw: {}
+    volumes:
+      - shadow-virtuoso:/usr/local/virtuoso-opensource/var/lib/virtuoso/db
+    environment:
+      - DBA_PASSWORD=dba
+      
+  hub-statistics-ui:
+    container_name: piveau-hub-statistics-ui
+    build: ../statistics-ui/
+    ports:
+      - 9092:8080
+    environment:
+      - VUE_APP_ROOT_API=http://localhost:9090
+      - VUE_APP_TRACKER_IS_PIWIK_PRO=true
+      - VUE_APP_TRACKER_TRACKER_URL=https://opanalytics.containers.piwik.pro/
+      - VUE_APP_TRACKER_SITE_ID=fed9dbb7-42d1-4ebc-a8bf-3c0b8fd03e09
+      - VUE_APP_SHOW_SPARQL=true
+    depends_on:
+      - hub-statistics
+    restart: always
+    networks:
+      statistics-ui-nw: {}
+      proxy-ui-nw: {}
+    
+  hub-statistics:
+    container_name: piveau-hub-statistics
+#    image: dockerhub.fokus.fraunhofer.de:5000/piveau/piveau-hub-statistics
+    build: ../statistics/
+    ports:
+      - 9090:9090
+    environment:
+      - HUB_MAIN_URL=http://piveau-hub-search:8080/search
+#      - HUB_MAIN_URL=https://data.europa.eu/api/hub/search/search
+      - HUB_CATALOG_URI=filter=catalogue&limit=1000
+      #- HUB_DATASET_URI=q=&filter=dataset&facets='{"catalog"=[{0}]}'
+      - FILE_UPLOAD_API=
+      - FILE_UPLOAD_AUTH=
+      - DIST_API=
+      - DIST_API_AUTH=
+      - HUB_AUTH_REQUIRED=false
+      - HUB_USER=
+      - HUB_PASSWORD=
+      - DB_USER=db_user
+      - DB_PASSWORD=wqwdqwefsdaw34%
+      - DB=statistics_db
+      - DB_HOST=statistic-db
+      - DB_PORT=5432
+      - DB_IN_DOCKER=true
+    depends_on:
+      - statistic-db
+      - hub-search
+    networks:
+      statistic-db-nw: {}
+      search-statistic-nw: {}
+      statistics-ui-nw: {}
+      proxy-ui-nw: {}
+    restart: always
+
+  statistic-db:
+    image: postgres:latest
+    container_name: statistic-db
+    volumes:
+      - /tmp/pgdata/:/var/lib/postgresql
+    ports:
+      - 5442:5432
+    command: postgres -c 'max_connections=250' -c 'shared_buffers=2GB'
+    environment:
+      - POSTGRES_USER=db_user
+      - POSTGRES_PASSWORD=wqwdqwefsdaw34%
+      - POSTGRES_DB=statistics_db
+    networks:
+      statistic-db-nw: {}
+    restart: always
+    
+  statistics-db-pgadmin4:
+    container_name: pgadmin4-client
+    image: dpage/pgadmin4
+    ports:
+      - "7080:80"
+    environment:
+      PGADMIN_DEFAULT_EMAIL: ansinuno@gmail.com
+      PGADMIN_DEFAULT_PASSWORD: 1qaz#WSX
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin
+    networks:
+      statistic-db-nw: {}
+    restart: always
+#######################
+#  mqa componetes
+#######################
+
+  mqa-dataset-similarities:
+    logging:
+      options:
+        max-size: "50m"
+    container_name: mqa-dataset-similarities
+    build: ../../mqa/dataset-similarities/
+    ports:
+      - 9010:8080
+    environment:
+      PORT: 8080
+      SPARQL_URL: http://virtuoso:8890
+      DEFAULT_RESULT_SIZE: 10
+      SCHEDULES: '[{"countries": ["EUE", "DEU"], "cron": ""0 */5 * ? * *""}, {"languages": ["ENG", "FRA"], "cron": ""0 */5 * ? * *""}]'
+      JAVA_OPTS: -Xms300m -Xmx1g
+      PIVEAU_PIPE_LOG_LEVEL: debug
+      PIVEAU_LOG_LEVEL: debug
+      PIVEAU_PIPE_LOG_PATH: logs/piveau-pipe.%d{yyyy-MM-dd}.log
+    depends_on:
+      - virtuoso
+    networks:
+      mqa-dataset-sim-virtuoso-nw: {}
+      mqa-nw: {}
+      proxy-ui-nw: {}
+      
+  mqa-cashe:
+    logging:
+      options:
+        max-size: "50m"
+    container_name: mqa-cashe
+    build: ../../mqa/cache/
+    ports:
+      - 9011:8080
+      - 9005:9005
+    environment:
+      PORT: 8080
+      BASE_URI: http://piveau.io
+      CACHE_APIKEY: 3b6fc74e-8bc9-47e3-8ab9-7b6a4f0a2a12
+      CACHE_CORS_DOMAINS: '["healthdata-local.com", "localhost"]'
+      MONGODB_CONNECTION: mongodb://mongodb:27017
+      MONGODB_SERVER_HOST: mongodb
+      MONGODB_SERVER_PORT: 27017
+      MONGODB_USERNAME: ''
+      MONGODB_PASSWORD: ''
+      MONGODB_DB_NAME: metrics
+      PIVEAU_TRIPLESTORE_CONFIG: '{"address":"http://virtuoso:8890", "queryEndpoint": "/sparql", "queryAuthEndpoint":"/sparql-auth", "graphEndpoint":"/sparql-graph-crud", "graphAuthEndpoint":"/sparql-graph-crud-auth", "partitionSize":2500, "username":"dba", "password":"dba"}'
+      PIVEAU_DCATAP_SCHEMA_CONFIG: '{"baseUri" : "http://piveau.io/", "catalogueContext" : "id/catalogue/", "datasetContext" : "set/data/", "distributionContext" : "set/distribution/", "historyMetricsContext" : "id/history_metrics/", "metricsContext" : "id/metrics/", "recordContext" : "set/record/"}'
+      PIVEAU_IMPRINT_URL: /
+      PIVEAU_PRIVACY_URL: /
+      PIVEAU_LOG_LEVEL: debug
+      PIVEAU_CACHE_LOG_LEVEL: debug
+    depends_on:
+      - mongodb
+      - virtuoso
+    networks:
+      mqa-cashe-virtuoso-nw: {}
+      mqa-cashe-mongo-nw: {}
+      mqa-nw: {}
+      proxy-ui-nw: {}
+    
+  mqa-shacl-validation:
+    container_name: mqa-shacl-validation
+    build: ../../mqa/validating-shacl/
+    logging:
+      options:
+        max-size: "50m"
+    ports:
+      - 9012:8080
+    environment:
+      PIVEAU_SHACL_VERTICLE_INSTANCES: 1
+      PIVEAU_SHACL_WORKER_POOL_SIZE: 20
+      PIVEAU_SHACL_SHAPES_CONFIG: '{}'
+      PIVEAU_PIPE_ENDPOINT_PORT: 8080
+      PIVEAU_IMPRINT_URL: /shacl
+      PIVEAU_PRIVACY_URL: /shacl
+      PIVEAU_PIPE_LOG_LEVEL: debug
+      PIVEAU_LOG_LEVEL: debug
+    networks:
+      proxy-ui-nw: {}
+      mqa-nw: {}
+      #shacl-repo-nw: {}
+      
+  mqa-shacl-validation-ui:
+    container_name: mqa-shacl-validation-ui
+    build: ../../mqa/validating-shacl-ui/
+    logging:
+      options:
+        max-size: "50m"
+    ports:
+      - 9014:8080
+    environment:
+      NODE_ENV: production
+      VUE_APP_SHACL_API_URL: http://healthdata-local.com/shacl/    
+      VUE_APP_CORSPROXY_API_URL:
+      VUE_APP_PIWIK_ID: fed9dbb7-42d1-4ebc-a8bf-3c0b8fd03e09
+      VUE_APP_TRACKER_IS_PIWIK_PRO: true
+      VUE_APP_TRACKER_TRACKER_URL: https://opanalytics.containers.piwik.pro/
+      VUE_APP_TRACKER_SITE_ID: fed9dbb7-42d1-4ebc-a8bf-3c0b8fd03e09
+    depends_on:
+      - mqa-shacl-validation
+    networks:
+      proxy-ui-nw: {}
+      mqa-nw: {}
+      
+  mqa-quickchart:
+    container_name: mqa-quickchart
+    image: ianw/quickchart
+    logging:
+      options:
+        max-size: "50m"
+    ports:
+      - 9015:3400
+    networks:
+      mqa-reporter-quick-nw: {}  
+      
+  
+  mqa-reporter:
+    container_name: mqa-reporter
+    build: ../../mqa/reporter/
+    logging:
+      options:
+        max-size: "50m"
+    ports:
+      - 9016:8080
+    environment:
+      PORT: 8080
+      API_KEY: c0b28562-79d3-4f8e-8a17-11b752fb0e8f
+      QUICKCHART_ADDRESS: http://mqa-quickchart:3400
+      METRICS_CATALOGUES_ADDRESS: http://mqa-cashe:8080/
+      SCHEDULES: '[{"languages": ["bg", "cs", "da", "de", "el", "en", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "no", "pl", "pt", "ro", "sk", "sl", "sv"], "cron": "0 */5 * ? * *"}]'
+      CORS_DOMAINS: '["healthdata-local.com", "localhost"]'
+      PIVEAU_IMPRINT_URL: /
+      PIVEAU_PRIVACY_URL: /
+      FONT_REGULAR: Roboto-Regular.ttf
+      FONT_BOLD: Roboto-Bold.ttf
+      FONT_ITALIC: Roboto-Italic.ttf
+      FONT_BOLD_ITALIC: Roboto-BoldItalic.ttf
+      HEADER_IMAGE: report_header.png
+      SHACL_URL: http://mqa-shacl-validation:8080/shacl/
+      METHODOLOGY_URL: http://healthdata-local.com/mqa/methodology
+      PIVEAU_LOG_LEVEL: debug
+      PIVEAU_PIPE_LOG_LEVEL: debug
+    depends_on:
+      - mqa-quickchart
+      - mqa-cashe
+      - mqa-shacl-validation
+    networks:
+      mqa-reporter-quick-nw: {}
+      mqa-nw: {}
+      proxy-ui-nw: {}
+      
+  mqa-metrics-ui:
+    container_name: mqa-metrics-ui
+    build:
+      context: ../../mqa/ui/
+      dockerfile: Dockerfile
+    logging:
+      options:
+        max-size: "50m"
+    ports:
+      - 9017:8080
+    environment:
+      - VUE_APP_ROOT_API=http://healthdata-local.com/mqa/api/cache/            
+      - VUE_APP_ROOT_URL=http://healthdata-local.com/mqa
+      - VUE_APP_DATA_URL=http://healthdata-local.com/data/datasets
+      - VUE_APP_TRACKER_IS_PIWIK_PRO=true
+      - VUE_APP_TRACKER_TRACKER_URL=https://opanalytics.containers.piwik.pro/
+      - VUE_APP_TRACKER_SITE_ID=fed9dbb7-42d1-4ebc-a8bf-3c0b8fd03e09
+      - VUE_APP_MATOMO_URL=https://ppe.data.europa.eu/piwik/
+      - VUE_APP_PIWIK_ID=fed9dbb7-42d1-4ebc-a8bf-3c0b8fd03e09
+      - VUE_APP_REPORT_URL=http://healthdata-local.com/mqa/api/reporter/
+      - VUE_APP_SHACL_VALIDATOR_URL=/shacl-validator-ui
+      - VUE_APP_SHACL_API_URL=http://healthdata-local.com/shacl/
+      - VUE_APP_DEBUG_DEV=true
+      - VUE_APP_SCORING_START_DATE=2020-01-24
+      - VUE_APP_SCORING_STEP_SIZE=10
+      - VUE_APP_SCORING_MAX_POINTS=405
+      - VUE_APP_HISTORY_START_DATE=2020-01-24
+      - VUE_APP_HISTORY_RESOLUTION=month
+      - VUE_APP_SHOW_SPARQL=true
+      - JAVA_OPTS=-Xms300m -Xmx1g
+    depends_on:
+      - mqa-shacl-validation-ui
+      - mqa-reporter
+      - mqa-cashe
+    networks:
+      mqa-nw: {}
+      proxy-ui-nw: {}   
+  
+volumes:
+  elasticsearch:
+  mongo_data:
+  virtuoso: 
+  shadow-virtuoso:
+  pgadmin_data:
+

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dcat="http://www.w3.org/ns/dcat#"
+         xmlns:dqv="http://www.w3.org/ns/dqv#"
+         xmlns:dc="http://purl.org/dc/terms/"
+         xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:ns0="https://spdx.org/rdf/terms/#">
+
+  <dcat:Distribution rdf:about="https://example.eu/set/distribution/0fdd318d-bf60-49ad-8599-385a4e2fb68d">
+    <dcat:accessURL rdf:resource="https://statistik.leipzig.de/opendata/api/values?kategorie_nr=8&amp;rubrik_nr=8&amp;periode=y&amp;format=json"/>
+    <dc:license rdf:resource="http://dcat-ap.de/def/licenses/dl-by-de/2.0"/>
+    <dcat:mediaType>application/ld+json</dcat:mediaType>
+    <dc:description>Test distribution 1</dc:description>
+    <dc:identifier>af95c05c-89dd-4433-89a5-b2e74a910112</dc:identifier>
+  </dcat:Distribution>
+
+  <dcat:Distribution rdf:about="https://example.eu/set/distribution/4fb2dd90-5de0-4485-afe8-fd7859de194f">
+    <dc:format>CSV</dc:format>
+    <dcat:accessURL rdf:resource="https://statistik.leipzig.de/opendata/api/values?kategorie_nr=8&amp;rubrik_nr=8&amp;periode=y&amp;format=csv"/>
+    <dc:license rdf:resource="http://dcat-ap.de/def/licenses/dl-by-de/2.0"/>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dc:description>Test distribution 2</dc:description>
+    <dc:identifier>da60fa28-3423-46ba-b3f6-62f1e1bb590b</dc:identifier>
+  </dcat:Distribution>
+
+  <dcat:Dataset rdf:about="https://example.eu/set/data/test-dataset-2">
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-17T00:00:00</dc:modified>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-23T00:00:00</dc:issued>
+    <dcat:distribution rdf:resource="https://example.eu/set/distribution/0fdd318d-bf60-49ad-8599-385a4e2fb68d"/>
+    <dcat:distribution rdf:resource="https://example.eu/set/distribution/4fb2dd90-5de0-4485-afe8-fd7859de194f"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dcat:contactPoint>
+      <vcard:Individual rdf:about="https://example.de/def/contact/fokus">
+        <vcard:hasEmail rdf:resource="mailto:max@mustermann.de"/>
+        <vcard:fn>Max Mustermann</vcard:fn>
+      </vcard:Individual>
+    </dcat:contactPoint>
+
+    <dc:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
+    <dc:description>This is an example Dataset</dc:description>
+    <dc:publisher>
+      <foaf:Organization rdf:about="https://example.de/def/publisher/fokus">
+        <foaf:homepage>http://www.fokus.fraunhofer.de</foaf:homepage>
+        <foaf:name>Fraunhofer FOKUS</foaf:name>
+      </foaf:Organization>
+    </dc:publisher>
+
+    <dc:title xml:lang="es">Title in spanish</dc:title>
+    <dc:title xml:lang="de">Title in german</dc:title>
+    <dc:title>Test Dataset</dc:title>
+    <dc:identifier>test-dataset-2</dc:identifier>
+  </dcat:Dataset>
+
+  <dcat:CatalogRecord rdf:about="https://example.eu/set/record/test-dataset-2">
+    <dc:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-12-06T18:26:37Z</dc:created>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-12-06T18:26:37Z</dc:modified>
+    <foaf:primaryTopic rdf:resource="https://example.eu/set/data/test-dataset-2"/>
+    <ns0:checksum>
+      <ns0:Checksum>
+        <ns0:algorithm rdf:resource="https://spdx.org/rdf/terms/#checksumAlgorithm_md5"/>
+        <ns0:checksumValue>63a7cfe25a79dc4a2b66b0c00f43054d</ns0:checksumValue>
+      </ns0:Checksum>
+    </ns0:checksum>
+    <dqv:hasQualityMetadata rdf:resource="https://example.eu/id/metrics/test-dataset-2"/>
+    <dc:identifier>test-dataset-2</dc:identifier>
+  </dcat:CatalogRecord>
+
+</rdf:RDF>

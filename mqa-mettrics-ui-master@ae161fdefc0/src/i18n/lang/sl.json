@@ -1,0 +1,525 @@
+{
+    "message": {
+        "navigation": {
+            "dashboard": "Nadzorna plošča",
+            "download_report": {
+                "help": "Prenesite celotno poročilo o tem katalogu.",
+                "second_ods": "Open Document Spreadsheet (.ods)",
+                "direct": "Naloži kot poročilo",
+                "second_xls": "Microsoft Excel (.xlsx)",
+                "second_pdf": "Portable Document Format (.pdf)"
+            },
+            "catalogues": "Katalogi",
+            "about": "Dokumentacija",
+            "methodology": "Metodologija",
+            "validation": "potrjevanje"
+        },
+        "dashboard": {
+            "overview": {
+                "header": {
+                    "allCatalogues": "vsi katalogi",
+                    "topNumber": "Prvi {number}",
+                    "topNumberCatalogues": "Prvi {number} katalogi"
+                },
+                "table_tooltip": {
+                    "dcat_ap": "Odstotek metapodatkov, ki so skladni z DCAT-AP. To preverjanje se izvaja samo za portale, ki dobavljajo DCAT-AP, na primer prek podaljška CKANEXT-DCAT.",
+                    "machine_readability": "Odstotek distribucij, ki postanejo format za strojno interpretacijo.",
+                    "accessibility_download_url": "Odstotek razpoložljivih URL-jev za prenos. Dostopnost se določi z uporabo metode HTTP GET. Ker DownloadURL ni obvezen podatek, v primeru manjkajočih informacij ni mogoče preveriti.",
+                    "known_licenses": "Odstotek znanih uporabljenih licenc. Več informacij o znanih licencah najdete v naslednjih razdelkih. Ker licenca ni obvezna, preverjanje ni mogoče, če manjkajo informacije.",
+                    "accessibility_access_url": "Odstotek dostopnih AccessURL. Dostopnost se določi z uporabo metode HTTP GET."
+                },
+                "headline": "Pregled",
+                "table_title": {
+                    "desc": "Opis",
+                    "known_licences": "Znane licence",
+                    "dcat_ap": "Skladnost z DCAT-AP",
+                    "accessibility_access_url": "Dostopnost naslova URL za dostop",
+                    "accessibility_download_url": "Dostopnost naslova URL za prenos",
+                    "country": "Država",
+                    "scoring": "Ocena",
+                    "machine_readability": "Strojna berljivost",
+                    "rating": "Ocena",
+                    "name": "Ime"
+                },
+                "table_description": "Naslednja tabela vsebuje pregled štirih omenjenih meril. Tabelo lahko razvrstite tako, da kliknete na glave stolpcev. Upoštevajte, da lahko MQA interpretira samo informacije, ki jih zagotavljajo izvorni portali. Distribucije, URL za prenos in informacije o licenci niso obvezne, MQA pa manjkajoče informacije označi z minusom »-«. Upoštevajte tudi, da se lahko skladnost z DCAT-AP določi le, če izvorni portal zagotavlja svoje metapodatke v podatkih, povezanih z DCAT-AP. Druge oblike so označene z minusom »-«."
+            },
+            "interoperability": {
+                "plots": {
+                    "title": {
+                        "formatMediaTypeAlignment": "Vrsta formata/medija iz slovarja",
+                        "formatMediaTypeNonProprietary": "Nelastniško",
+                        "mediaTypeAvailability": "Vrsta medija",
+                        "formatAvailability": "Oblika zapisa",
+                        "dcatApCompliance": "Skladnost z DCAT-AP",
+                        "formatMediaTypeMachineReadable": "Strojno berljivo"
+                    }
+                },
+                "description": "To so kazalniki, zaradi katerih zbirka podatkov postane medobratovalna.",
+                "title": "Medobratovalnost"
+            },
+            "reusability": {
+                "description": "V naslednji preglednici so opisane metrike, ki se uporabljajo za preverjanje ponovne uporabljivosti podatkov. Največje število točk na tem področju je 75.",
+                "plots": {
+                    "title": {
+                        "accessRightsAlignment": "Slovar omejitev dostopa",
+                        "contactPointAvailability": "Kontaktna točka",
+                        "licenceAlignment": "Slovar licence",
+                        "publisherAvailability": "Objavitelj",
+                        "licenceAvailability": "Podatki o licenci",
+                        "accessRightsAvailability": "Omejitve dostopa"
+                    }
+                },
+                "title": "Ponovna uporabljivost"
+            },
+            "show_history": "Prikaži zgodovino",
+            "contextuality": {
+                "description": "Informacije, s pomočjo katerih uporabnik dobi vpogled v kontekst",
+                "plots": {
+                    "title": {
+                        "dateIssuedAvailability": "Datum izdaje",
+                        "rightsAvailability": "Pravice",
+                        "byteSizeAvailability": "Velikost datoteke",
+                        "dateModifiedAvailability": "Datum spremembe"
+                    }
+                },
+                "title": "Kontekstualnost"
+            },
+            "accessibility": {
+                "plots": {
+                    "title": {
+                        "accessibilityOfDistributions": "Dostopnost distribucij",
+                        "accessUrlAvailability": "URL za dostop, ki je na voljo",
+                        "existingDownloadUrl": "Obstoječi URL-ji za prenos",
+                        "accessibilityAccessUrl": "Dostopnost URL-jev za dostop",
+                        "accessUrl": "URL za dostop",
+                        "accessUrlStatusCodes": "Najpogostejše kode stanja URL-jev za dostop",
+                        "downloadUrlStatusCodes": "Najpogostejše kode stanja URL-jev za prenos",
+                        "downloadUrlAvailability": "URL za prenos",
+                        "statusErrorCode": "Kode stanja napak",
+                        "accessibilityDownloadUrl": "Dostopnost URL-jev za prenos"
+                    }
+                },
+                "title": "Dostopnost",
+                "headline": "Dostopne distribucije",
+                "description": "Naslednji diagrami zagotavljajo informacije o dostopnosti distribucij. Za vsak URL distribucije se izvede zahteva HTTP HEAD in preveri odziv. Prosimo, upoštevajte, da je naslov URL za prenos neobvezen skladno z DCAT-AP  in mora biti kot tak jasno naveden na izvornem portalu. To lahko velja le za izvorne portale, ki zagotavljajo svoje metapodatke v DCAT-AP."
+            },
+            "site_title": "Evropski podatkovni portal | MQA | Pregledna plošča",
+            "findability": {
+                "title": "Najdljivost",
+                "plots": {
+                    "title": {
+                        "keywordAvailability": "Uporaba ključnih besed",
+                        "spatialAvailability": "Geografsko iskanje",
+                        "temporalAvailability": "Iskanje, ki temelji na času",
+                        "categoryAvailability": "Kategorije"
+                    }
+                },
+                "description": "To so kazalniki, ki ljudem in strojem pomagajo pri iskanju po zbirkah podatkov."
+            },
+            "scoring": {
+                "description": "Z oceno je označena splošna kakovost metapodatkov vseh dimenzij.",
+                "plots": {
+                    "known": "znano",
+                    "unknown": "neznano",
+                    "title": {
+                        "timeBasedScoring": "Spreminjanje ocen"
+                    }
+                },
+                "title": "Spreminjanje ocen"
+            },
+            "show_today": "Prikaži danes",
+            "weight": "Teža",
+            "points": "Točke",
+            "intro": {
+                "desc": "<p>Zagotavljanje kakovosti metapodatkov je namenjeno zagotavljanju pomoči ponudnikom podatkov in portalom podatkov pri preverjanju njihovih metapodatkov z različnimi kazalniki. Za informacije o tem, katere meritve uporabljamo za meritve kazalnikov, si oglejte našo stran metodologije.</p>\n<p>Ta stran ponuja splošen pregled vseh metapodatkov, ki so na voljo data.europa.eu. Za podroben pregled vsakega posameznega kataloga uporabite stran Katalogi in izberite želeni katalog.</p>"
+            },
+            "dimensions": "Dimenzije"
+        },
+        "catalogue_detail": {
+            "introduction": "Ta stran prikazuje splošni status kataloga glede distribucij in skladnosti z DCAT-AP.",
+            "harvesting": {
+                "run": {
+                    "updated": "Posodobljeno",
+                    "duration": "Trajanje (dnevi ure:minute:sekunde)",
+                    "show_log": "Prikaz dnevniškega vnosa zadnjega izvajanja",
+                    "end": "Čas zaključka",
+                    "start": "Čas začetka",
+                    "log_noattachment": "Med pridobivanjem priponke je prišlo do napake",
+                    "skipped": "Izpuščeno",
+                    "log": "{0} Dnevniki {1} do {2} od {3}",
+                    "deleted": "Izbrisano",
+                    "no_runs": "Izvajanja preteklih zajemalcev niso na voljo ali še niso predvidena.",
+                    "rejected": "Zavrnjeno",
+                    "added": "Dodano"
+                },
+                "repository_harvester": "Izvorni katalog repozitorija",
+                "show_script": "Prikaži skripto transformacije",
+                "show_information": "Prikaži informacije o zajemalcu",
+                "publisher": "Izdajatelj",
+                "next_schedule": "Naslednji razpored",
+                "default_language": "Privzeti jezik",
+                "homepage": "Domača stran",
+                "email_address": "Elektronski naslov",
+                "incremental": "Progresiven",
+                "frequency": "Pogostost",
+                "type": "Vrsta",
+                "transformation_script": "{0} Skripta transformacije",
+                "title": "Zbiranje informacij",
+                "not_present": "Ta katalog ni zajet, zato ni na voljo nobenih informacij o zajemanju.",
+                "last_run": "Zadnje izvajanje zbiranja"
+            },
+            "violations": {
+                "location": "Lokacija kršitve",
+                "non_compliant": "Neskladno",
+                "resultPath": "Pot rezultata",
+                "subheadline": "Kršitve nabora podatkov",
+                "title": "Neskladne zbirke podatkov",
+                "value": "Vrednost",
+                "desc": "Opis kršitve",
+                "site_title": "Evropski podatkovni portal | MQA | Kršitve",
+                "introduction": "V tem pogledu je na voljo seznam vseh naborov podatkov, ki niso skladni s pravili SHACL DCAT-AP.",
+                "own_headline": "Kršitve sheme DCAT-AP",
+                "resultMessage": "Sporočilo rezultata"
+            },
+            "distributions": {
+                "introduction": "V tem pogledu je na voljo seznam vseh zbirk podatkov z nedostopnimi distribucijami.",
+                "help": "Poglejte nedostopne distribucije iz izbranega kataloga.",
+                "mediatype_checked": "Vrsta nosilcev (iz preskusa)",
+                "desc": "Zbirke podatkov z nedostopnimi distribucijami",
+                "not_available_access": "Ni razpoložljivega naslova URL za dostop",
+                "title": "Težave z dostopnostjo distribucije",
+                "format": {
+                    "not_machine_readable": "Ni strojno berljivo",
+                    "name": "Oblika zapisa"
+                },
+                "not_available_dl": "Ni razpoložljivega naslova URL za prenos ",
+                "download_url": "URL za prenos",
+                "mediatype_given": "Vrsta nosilcev (iz preskusa)",
+                "nodistributions": "Na voljo ni nobenih distribucij za preverjanje.",
+                "access_url": "Access URL",
+                "site_title": "Evropski podatkovni portal | MQA | Distribucije",
+                "availability_checked_on": "Razpoložljivost preverjena dne {date}"
+            },
+            "call_to_action": "Izberite katalog za podrobnosti",
+            "title": "Pregledna plošča za kataloge",
+            "site_title": "Evropski podatkovni portal | MQA | Pregledna plošča"
+        },
+        "common": {
+            "compliant": "Skladno",
+            "json": "CKAN JSON",
+            "deu": {
+                "url": "www.data.europa.eu",
+                "title": "data.europa.eu"
+            },
+            "site_title_violations": "Kršitev sheme DCAT-AP",
+            "all": "vse",
+            "close": "Zapri",
+            "affacteddatasets": "Poškodovane zbirke podatkov",
+            "cataloguedetails": "Pogled Podrobnosti o katalogu",
+            "previous": "Prejšnji",
+            "violation": "Kršitev sheme DCAT-AP",
+            "edp": {
+                "title": "Evropski podatkovni portal"
+            },
+            "yes": "Da",
+            "error": "Napaka",
+            "portal_page": "Stran portala",
+            "since": "Od",
+            "site_title": "Kakovost metapodatkov | Uradni portal za evropske podatke",
+            "version": "Različica",
+            "ok": "V redu",
+            "distributions": "Distribucije",
+            "no": "Ne",
+            "violations": "Kršitve sheme DCAT-AP",
+            "download_url": "URL za prenos",
+            "datasets": "Zbirke podatkov",
+            "site_title_distributions": "Težave z dostopnostjo distribucije",
+            "home": "Domov",
+            "page": "Stran",
+            "notavailable": "Ni dostopa",
+            "status": "Stanje"
+        },
+        "methodology": {
+            "dimensions": {
+                "reuse": {
+                    "main_text": " <p>V naslednji preglednici so opisane metrike, ki se uporabljajo za preverjanje ponovne uporabljivosti podatkov. Največje število točk na tem področju je 75.</p>",
+                    "keywords_name_6": "Objavitelj",
+                    "keywords_name_5": "Kontaktna točka",
+                    "keywords_name_4": "Slovar omejitev dostopa",
+                    "keywords_name_3": "Omejitve dostopa",
+                    "keywords_name_2": "Slovar licence",
+                    "keywords_name_1": "Informacije o licenci",
+                    "keywords_metric_6": "Preverjeno je, ali je lastnost nastavljena ali ne.",
+                    "keywords_metric_5": "Preverjeno je, ali je lastnost nastavljena ali ne.",
+                    "keywords_metric_4": "<p>Preverjeno je, ali je uporabljen <a href='https://publications.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/access-right' target='_blank'>nadzorovani slovar za pravice do dostopa</a> .</p>",
+                    "keywords_metric_3": "Preverjeno je, ali je lastnost nastavljena ali ne.",
+                    "keywords_metric_2": "<p>Ta oddelek opisuje vse dimenzije, ki jih MQA preučuje, da bi določila kakovost. Dimenzije izhajajo iz <a target=’_blank’ href=’https://www.go-fair.org/fair-principles/'>FAIR principles <i class=’fas fa-external-link-alt fa-sm’></i></a>.</p>\n\n<p>MQA priporoča in priznava uporabo nadzorovanih besednjakov. Portal data.europa.eu objavlja svoje nadzorovane besedišča v <a href=‚https://gitlab.com/european-data-portal/edp-vocabularies‘ target=‚_blank‘>GitLab</a>. Besedišča izhajajo iz <a href=‚https://op.europa.eu/en/web/eu-vocabularies/authority-tables‘ target=‚_blank‘>EU Vocabularies</a>.</p>",
+                    "keywords_metric_1": "Preverjeno je, ali je lastnost nastavljena ali ne.",
+                    "dcat_name_6": "dct:Publisher",
+                    "dcat_name_5": "dcat:ContactPoint",
+                    "dcat_name_4": "dct:AccessRights",
+                    "dcat_name_3": "dct:AccessRights",
+                    "dcat_name_2": "dct:License",
+                    "dcat_name_1": "dct:License",
+                    "keywords_desc_6": "Objavitelj je oseba ali organizacija, ki je objavila podatke.",
+                    "keywords_desc_5": "Kontaktna točka vsebuje informacije o tem, na koga se je treba obrniti v primeru vprašanj glede podatkov.",
+                    "keywords_desc_4": "Z uporabo nadzorovanega slovarja se poviša stopnja ponovne uporabljivosti.",
+                    "keywords_desc_3": "V tem polju je navedeno, ali je dostop do podatkov javen ali omejen.",
+                    "keywords_desc_2": "Želimo omejiti pojavljanje nepravilnih informacij o licencah. Naletimo namreč na številne licence CC, pri katerih shranjevanje različic ni mogoče.",
+                    "keywords_desc_1": "Licenca je pomembna informacija za ponovno uporabo podatkov."
+                },
+                "contextual": {
+                    "main_text": "V naslednji preglednici je navedenih nekaj lahkih lastnosti, s katerimi uporabnik dobi več konteksta. Največje število točk na tem področju je 20.",
+                    "keywords_metric_4": "Preverjeno je, ali je lastnost nastavljena ali ne.",
+                    "keywords_metric_3": "Preverjeno je, ali je lastnost nastavljena ali ne.",
+                    "keywords_metric_2": "Preverjeno je, ali je lastnost nastavljena ali ne.",
+                    "keywords_metric_1": "Preverjeno je, ali je lastnost nastavljena ali ne.",
+                    "keywords_name_4": "Datum spremembe",
+                    "keywords_name_3": "Datum izdaje",
+                    "keywords_name_2": "Velikost datoteke",
+                    "keywords_name_1": "Pravice",
+                    "keywords_desc_4": "Datum, na katerega je bila zbirka podatkov ali distribucija nazadnje spremenjena.",
+                    "keywords_desc_3": "Datum, na katerega je bila zbirka podatkov ali distribucija objavljena.",
+                    "keywords_desc_2": "Navedba velikosti datoteke v bajtih.",
+                    "keywords_desc_1": "V nekaterih primerih se določene licence ne da uporabiti za zbirko podatkov. Polje »Pravice« se lahko uporabi za določanje sklicevanja na vir, kjer lahko uporabnik prebere o pravicah, ki jih ima med uporabo zbirke podatkov.",
+                    "dcat_name_4": "dcat:Modified",
+                    "dcat_name_3": "dct:Issued",
+                    "dcat_name_2": "dcat:ByteSize",
+                    "dcat_name_1": "dcat:Rights"
+                },
+                "table": {
+                    "metric_name": "Kazalnik",
+                    "dataset_and_distribution": "Zbirka podatkov in distribucija",
+                    "metric": "Metrika",
+                    "dataset": "Zbirka podatkov",
+                    "desc": "Opis",
+                    "distribution": "Distribucija",
+                    "weight": "Teža"
+                },
+                "accessible": {
+                    "main_text": " <p>V naslednji preglednici so opisane metrike, s pomočjo katerih je določeno, ali je dostop do podatkov, na katere se sklicujejo distribucije, zagotovljen. Največje število točk na tem področju je 100.</p>",
+                    "dcat_name_3": "dcat:downloadURL",
+                    "dcat_name_2": "dcat:downloadURL",
+                    "dcat_name_1": "dcat:accessURL",
+                    "keywords_desc_3": "Če obstaja URL za prenos, je preverjena njegova dostopnost.",
+                    "keywords_desc_2": "URL za prenos je neposredna povezava do referenčnih podatkov.",
+                    "keywords_desc_1": "URL za dostop ni nujno neposredna povezava do podatkov, pač pa se lahko navezuje tudi na URL, preko katerega je mogoč dostop do zbirke podatkov ali kjer je na voljo več informacij o zbirki podatkov.",
+                    "keywords_metric_3": "S pomočjo zahteve HTTP HEAD je preverjeno, ali je podani URL dostopen. Če je povratna koda stanja v razponu 200 ali 300, je dostopnost vira ocenjena s pozitivno oceno.",
+                    "keywords_metric_2": "Preverjeno je, ali je lastnost nastavljena ali ne.",
+                    "keywords_metric_1": "S pomočjo zahteve HTTP HEAD je preverjeno, ali je podani URL dostopen. Če je povratna koda stanja v razponu 200 ali 300, je dostopnost vira ocenjena s pozitivno oceno.",
+                    "keywords_name_3": "Dostopnost URL-ja za prenos",
+                    "keywords_name_2": "URL za prenos",
+                    "keywords_name_1": "Dostopnost URL-ja za dostop"
+                },
+                "interoperable": {
+                    "main_text": " <p>V naslednji tabeli so opisane metrike, s pomočjo katerih je določeno, ali distribucija šteje kot medobratovalna. V skladu z domnevo »enaka vsebina z različnimi distribucijami« je za preračunavanje točk uporabljena le distribucija z najvišjim številom točk. Največje število točk na tem področju je 110.</p>",
+                    "keywords_desc_6": "Skladnost <p>DCAT-AP se izračuna za vse vire in nabore podatkov, ki so na voljo v katalogu. To preverjanje se izvede le, če so metapodatki prvotno zbrani kot DCAT-AP ali kot veljaven derivat.</p><p><a href=‚https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe‘ target=‚_blank‘>DCAT-AP</a> je specifikacija za opis povezanih javnih podatkov v Evropi. Portal data.europa.eu lahko zbira tudi metapodatke, ki niso v celoti skladni z DCAT-AP. Da bi se povečala skladnost z DCAT-AP, MQA preveri skladnost z DCAT-AP.</p>",
+                    "keywords_desc_5": "Preveri, ali je format distribucije strojno berljiv.",
+                    "keywords_desc_4": "Preveri, ali je format distribucije nelastniški.",
+                    "keywords_desc_3": "Preveri, ali vrsta formata in medija pripada nadzorovanemu slovarju.",
+                    "keywords_desc_2": "V tem polju je opisana vrsta medija distribucije.",
+                    "keywords_desc_1": "V tem polju je opisana oblika zapisa datoteke distribucije.",
+                    "keywords_metric_6": "<p> Metapodatki so potrjeni glede na niz <a href=‚https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe/releases‘ target=‚_blank‘>SHACL oblik</a>. Metapodatki niso skladni, če potrditev SHACL poroča o vsaj eni izdaji.</p>\n\n<p>MQA uporablja <a href=‚/shacl‘ target=‚_blank‘>data.europa.eu je DCAT-AP SHACL</a> storitev potrjevanja.</p> \n\n<p><a href=‚https://www.w3.org/TR/shacl/‘ target=‚_blank‘>SHACL</a> je priporočilo W3C in se uporablja za potrjevanje RDF grafov glede na niz oblik.</p>",
+                    "keywords_metric_5": "Distribucija se šteje za strojno berljivo, če je določena oblika zapisa vsebovana v ustreznem data.europa.eu <a href=‚https://gitlab.com/european-data-portal/edp-vocabularies‘ target=‚_blank‘>GitLab repozitorij</a> besednjak.",
+                    "keywords_metric_4": "Distribucija se šteje za nelastniško, če je določena oblika zapisa vsebovana v ustreznem data.europa.eu <a href=‚https://gitlab.com/european-data-portal/edp-vocabularies‘ target=‚_blank‘>GitLab repozitorij</a> besednjak.",
+                    "keywords_metric_3": "<p>Izraz formata najdete v data.europa.eu <a href=‚https://gitlab.com/european-data-portal/edp-vocabularies‘ target=‚_blank‘>GitLab repozitorij</a>.</p>\n\n<p>Vrsta medija je preverjanje glede na <a href=‚https://www.iana.org/assignments/media-types/media-types.xhtml‘ target=‚_blank‘>seznam IANA</a></p>",
+                    "keywords_metric_2": "<p>Preverjeno je, ali je lastnost nastavljena ali ne.</p>",
+                    "keywords_metric_1": "<p>Preverjeno je, ali je lastnost nastavljena ali ne.</p>",
+                    "keywords_name_6": "Skladnost z DCAT-AP",
+                    "keywords_name_5": "Strojno berljivo",
+                    "keywords_name_4": "Nelastniško",
+                    "keywords_name_3": "Vrsta formata/medija iz slovarja",
+                    "keywords_name_2": "Vrsta medija",
+                    "keywords_name_1": "Format",
+                    "dcat_name_6": "Zbirka podatkov in distribucija",
+                    "dcat_name_5": "DCT:Format dcat:MediaType ali/podlastništvo □",
+                    "dcat_name_4": "DCT:Format dcat:MediaType ali/podlastništvo □",
+                    "dcat_name_3": "DCT:Format dcat:MediaType ali/podlastništvo □",
+                    "dcat_name_2": "dcat:MediaType or subproperty of dct:Format",
+                    "dcat_name_1": "dct:Format"
+                },
+                "findability": {
+                    "keywords_desc_4": "Uporaba časovnih informacij bi uporabnikom omogočila iskanje glede na časovno dimenzijo.",
+                    "keywords_desc_3": "Uporaba prostorskih informacij bi uporabnikom omogočila iskanje zbirke podatkov glede na geografsko dimenzijo.",
+                    "keywords_desc_2": "Kategorije so uporabnikom v pomoč pri tematskem raziskovanju zbirke podatkov.",
+                    "keywords_desc_1": "Ključne besede so pri iskanju v neposredno podporo in tako povečajo najdljivost zbirke podatkov določenega podatka.",
+                    "keywords_metric_4": "Preverjeno je, ali je lastnost nastavljena ali ne.",
+                    "keywords_metric_3": "Preverjeno je, ali je lastnost nastavljena ali ne.",
+                    "keywords_metric_2": "Preverjeno je, ali je zbirki podatkov dodeljena ena ali več kategorij. Število dodeljenih kategorij ne vpliva na rezultat.",
+                    "keywords_metric_1": "Sistem preveri, ali so ključne besede opredeljene. Število ključnih besed ne vpliva na rezultat.",
+                    "keywords_name_4": "Iskanje, ki temelji na času",
+                    "keywords_name_3": "Geografsko iskanje",
+                    "keywords_name_2": "Kategorije",
+                    "keywords_name_1": "Uporaba ključnih besed",
+                    "dcat_name_4": " dcat:temporal",
+                    "dcat_name_3": "dcat:spatial",
+                    "dcat_name_2": "dcat:theme",
+                    "dcat_name_1": "dcat:Keyword",
+                    "main_text": "<p> V naslednji tabeli so opisane metrike, ki ljudem in strojem pomagajo pri iskanju zbirk podatkov. Največje število točk na tem področju je 100.</p>"
+                },
+                "main_text": "<p>V tem razdelku so opisane vse dimenzije, ki jih sistem MQA preveri za določanje kakovosti. Dimenzije so pridobljene iz <a target='_blank' href='https://www.go-fair.org/fair-principles/'>načel FAIR <i class='fas fa-external-link-alt fa-sm'></i></a>.</p>"
+            },
+            "scoring": {
+                "table": {
+                    "bad": "Slabo",
+                    "range": "Razpon točk",
+                    "sufficient": "Zadostno",
+                    "scoring_cat": "Ocena",
+                    "good": "Dobro",
+                    "max_points": "Največje število točk",
+                    "excellent": "Odlično",
+                    "sum": "Vsota",
+                    "dimension": "Dimenzija"
+                },
+                "main_text": "Skupna ocena zbirke podatkov je seštevek točk iz vsake posamezne dimenzije.",
+                "text": "Končna ocena je rezultat štirih skupin za ocenjevanje. Razvrščanje točk v določeno kategorijo ocenjevanja je prikazano v spodnji preglednici. Predstavitev ocene v orodju MQA je izražena izključno prek kategorij ocenjevanja. To ponudnikom omogoči, da lahko dosežejo najvišjo oceno, tudi z odbitkom nekaj točk.",
+                "headline": "Ocena"
+            },
+            "headline": "Metodologija za ocenjevanje kakovosti metapodatkov",
+            "cover": {
+                "validator_service": "Storitev validacije DCAT-AP SHACL API",
+                "main_text": " <p> MQA je omejena z metapodatki, ki jih lahko pregleda. Preiskava je omejena izključno na metapodatke, ki jih data.europa.eu zbira med postopkom nabiranja. Če so v izvirnih metapodatkih napake, lahko te ponarejajo skupni rezultat. Da bi omejili to možnost napake, MQA zagotavlja storitev potrjevanja, ki jo lahko ponudniki podatkov uporabijo za potrditev svojih metapodatkov za veljavne formate in skladno DCAT-AP, preden jih vključijo v postopek zbiranja.",
+                "validator_ui": "Spletna stran storitve potrjevanja DCAT-AP SHACL ",
+                "headline": "Česa ne pokrivamo"
+            },
+            "process": {
+                "main_text": "<p> Ob vsakem pobiranju so metapodatki preverjeni tudi v orodju MQA. Orodje MQA meri kakovost različnih kazalnikov, ki so pojasnjeni v spodnjih preglednicah. Rezultati preverjanj so shranjeni kot slovar kakovosti podatkov <a href='https://www.w3.org/TR/vocab-dqv/'>(DQV) <i class='fas fa-external-link-alt fa-sm'></i></a>. Slovar kakovosti podatkov je specifikacija W3C, ki se uporablja za opis kakovosti zbirke podatkov.</p>\n<p>Ker se dostopnost lahko spreminja, je treba redno izvajati preverjanja URL-ja za dostop in URL-ja za prenos. Iz tega razloga orodje MQA redno preverja dostopnost vseh distribucij. V primerjavi s preverjanjem drugih kazalnikov je pri tem čas izvajanja daljši, ker se distribucije preverjajo prek HTTP, vsak zahtevani URL pa ima lahko daljši odzivni čas. Orodje MQA ima mehanizem, ki upošteva dejstvo, da je v nekaj tednih po zadnjem pregledu treba ponovno preveriti dostopnost vsakega URL-ja. </p>",
+                "headline": "Postopek MQA"
+            },
+            "scope": {
+                "main_text": "<p> Z orodjem MQA želimo odgovoriti na naslednje vprašanje: <br> Kakšna je kakovost metapodatkov za podatke iz javnega sektorja v vseevropski regiji in katere so največje ovire pri doseganju boljše kakovosti? </p><p>Na osnovi tega se orodje MQA trenutno uporablja za preverjanje naslednjih konkretnih vprašanj:</p><ul><li> Skladnost z aplikacijskim profilom DCAT in derivati aplikacijskega profila DCAT </li><li> Razkritje informacij, ki niso obvezne za aplikacijski profil DCAT</li><li> Dostopnost podatkov, na katere se sklicujejo metapodatki prek URL-ja za dostop in URL-ja za prenos</li><li> Strojna berljivost referenčnih podatkov </li><li> Uporaba licenc</li></ul><p> Vsako vprašanje nato ponovno sproži individualne preiskave, ki so podrobno opisane v nadaljevanju.</p>",
+                "headline": "Obseg raziskav"
+            },
+            "assumptions": {
+                "main_text": "<p> MQA temelji na naslednjih predpostavkah.</p><h6> Uporaba neobveznih polj</h6><p> Menimo, da samo izpolnjevanje obveznih polj DCAT-AP ne zadostuje za zagotavljanje visoko kakovostnih metapodatkov. Zato se pri ocenjevanju preverijo tudi polja, ki niso določena kot obvezna v skladu z DCAT-AP. Točna polja, ki so preverjena, so navedena spodaj.</p><h6> \n\nIdentična vsebina za več distribucij</h6><p>Če nabor podatkov vsebuje več kot eno distribucijo, so vse distribucije enake po vsebini, se razlikujejo le v prikazu podatkov. Na primer, podatkovni niz ima lahko dve distribuciji, od katerih ena ponuja podatke v obliki PDF, drugi pa enake podatke kot strojno berljiva RDF/XML. Ta opredelitev je odvisna od tega, kako so nabori podatkov ocenjeni v MQA (nekakšna „najboljša praksa“), vendar se ne bi smela šteti za standardno opredelitev porazdelitev.</p>",
+                "headline": "Domneve"
+            },
+            "intro_text": "<p><strong>The Metadata Quality Assessment (MQA) je orodje, ki ga je razvil konzorcij data.europa.eu za preučevanje kakovosti metapodatkov, zbranih s data.europa.eu.</strong> Namenjen je pomoči ponudnikom podatkov in portalom podatkov pri preverjanju kakovosti metapodatkov in prejemanju predlogov za izboljšave. Rezultati so predstavljeni prek MQA in so na voljo tudi kot prenos. V nadaljevanju opisujemo funkcionalnost MQA in metodologijo, ki jo uporablja.</p>\n<p> Če ta stran še vedno ne odgovori na vsa vaša vprašanja, nas kontaktirajte prek obrazca za povratne informacije na koncu strani. </p>",
+            "sub_headline": "Kako data.europa.eu meri kakovost vseh shranjenih metapodatkov"
+        },
+        "header": {
+            "navigation": {
+                "usingData": {
+                    "checklistForUsingData": "Kontrolni seznam uporabe podatkov",
+                    "useCases": "Primeri uporabe",
+                    "tellUsYourStory": "Povejte nam svojo zgodbo",
+                    "title": "Uporaba podatkov",
+                    "benefitsOfUsingData": "Koristi uporabe podatkov"
+                },
+                "impactStudies": {
+                    "useCases": "Primeri uporabe",
+                    "overview": "Pregled",
+                    "opendatamaturity": "Zrelost odprtih podatkov",
+                    "countryInsights": "Vpogled po državah",
+                    "tellUsYourStory": "Povejte nam svojo zgodbo",
+                    "studies": "Identical content for multiple distributions</h6><p>If a dataset contains more than one distribution, all distributions are identical in content, they differ only in the representation of the data. For example, a dataset can have two distributions, one offering the data as PDF and the other offering the identical data as machine-readable RDF/XML.This definition is relative to how datasets are rated in the MQA (a sort of “best practice”) but should not be considered as the standard definition of distributions.</p>",
+                    "opendataimpact": "Vpliv odprtih podatkov",
+                    "title": "Vpliv in študije"
+                },
+                "training": {
+                    "dataProvidersGuide": "Vodnik za ponudnike podatkov",
+                    "whatIsOpenData": "Kaj so odprti podatki",
+                    "title": "Usposabljanje",
+                    "elearning": "E-učenje",
+                    "moreTrainingMaterial": "Več gradiv za usposabljanje",
+                    "licensingAssistant": "Pomočnik za licence"
+                },
+                "data": {
+                    "datasets": "Zbirke podatkov",
+                    "sparqlsearch": "Iskanje SPARQL",
+                    "metadataQuality": "Kakovost metapodatkov",
+                    "licensingAssistant": "Pomočnik za licence",
+                    "title": "Podatki",
+                    "statistics": "Statistika",
+                    "euInternationalData": "Podatki EU in mednarodni podatki",
+                    "sparqlManager": "SPARQL Manager",
+                    "catalogues": "Katalogi",
+                    "countryData": "Podatki o državi"
+                },
+                "resources": {
+                    "moreTrainingMaterial": "Več gradiv za usposabljanje",
+                    "title": "Viri",
+                    "elearning": "E-učenje",
+                    "trainingCompanion": "Priročnik za usposabljanje",
+                    "reportsAboutOpenData": "Poročila o odprtih podatkih"
+                },
+                "providingData": {
+                    "beHarvestedByUs": "Dovolite nam, da zberemo vaše podatke",
+                    "title": "Zagotavljanje podatkov",
+                    "cataloguesHarvestedByUs": "Katalogi, ki smo jih zajeli",
+                    "practicalGuide": "Zlata knjiga"
+                },
+                "whatWeDo": {
+                    "openDataMaturity": "Zrelost odprtih podatkov",
+                    "ourActivities": "Naše dejavnosti",
+                    "factsheetsAndReports": "Preglednice in poročila",
+                    "title": "Kaj počnemo",
+                    "calendar": "Koledar",
+                    "featuredHighlights": "Osrednji povzetki",
+                    "news": "Novice"
+                },
+                "about": {
+                    "beHarvestedByUs": "Dovolite nam, da zajamemo vaše podatke",
+                    "documentation": "Dokumentacija",
+                    "title": "O nas",
+                    "europeanDataPortal": "Evropski Podatkovni Portal"
+                },
+                "newsEvents": {
+                    "title": "Novice in dogodki",
+                    "events": "Dogodki",
+                    "news": "Novice"
+                }
+            },
+            "subnav": {
+                "contact": "Kontakt",
+                "legalNotice": "Pravno obvestilo",
+                "search": "Išči",
+                "newsletter": "Glasilo",
+                "cookies": "Piškotki",
+                "login": "Vpis",
+                "faq": "Pogosta vprašanja"
+            },
+            "searchInputPlaceholder": "Iskanje vsebine spletnega mesta ...",
+            "european": "Evropski",
+            "searchOptions": {
+                "siteContent": "Vsebina strani",
+                "datasets": "Zbirke podatkov"
+            },
+            "dataPortal": "podatkovni portal"
+        },
+        "footer": {
+            "links": {
+                "search": "Išči",
+                "newsletter": "Glasilo",
+                "faq": "Pogosta vprašanja",
+                "contact": "Kontakt",
+                "subscribe": "Naroči me",
+                "cookies": "Piškotki",
+                "login": "Vpis",
+                "legalNotice": "Pravno obvestilo"
+            },
+            "managedBy": "Upravlja Urad za publikacije Evropske unije.",
+            "fundedBy": "Financira Evropska unija",
+            "newsletter": "Naročite se na naš novičnik",
+            "helpUsImproveText": "Vaše povratne informacije nam bodo pomagale izboljšati celotno uporabniško izkušnjo. \nAli imate kakšen predlog?",
+            "newsletterText": "Naročite se na naš novičnik",
+            "subscribe": "Naroči",
+            "followUs": "Spremljajte nas na",
+            "lastUpdate": "Zadnjič posodobljeno",
+            "helpUsImprove": "Pomagajte nam izboljšati"
+        },
+        "maintenance_message": "Dobre novice! Izboljšujemo svoj sistem. Medtem ostaja ta element v načinu vzdrževanja, zato morda ne bo prikazoval vseh razpoložljivih podatkov.",
+        "catalogue_list": {
+            "description": "Izberite katalog za podrobnosti",
+            "search": {
+                "placeholder": "Iskanje imena kataloga ali opisa"
+            }
+        },
+        "title": "Metadata Quality Assurance",
+        "empty": "",
+        "no_data": "Za ta kazalnik ni na voljo nobena meritev",
+        "meta": {
+            "description": "Orodje Metadata Quality Assurance ponuja splošen pregled vseh metapodatkov, ki so po posameznih kazalnikih na voljo na portalu odprtih podatkov data.europa.eu."
+        }
+    }
+}

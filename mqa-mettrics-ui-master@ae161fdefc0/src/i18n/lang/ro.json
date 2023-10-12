@@ -1,0 +1,525 @@
+{
+    "message": {
+        "navigation": {
+            "dashboard": "Tablou de bord",
+            "download_report": {
+                "help": "Descărcați raportul complet pentru acest catalog.",
+                "second_ods": "Open Document Spreadsheet (.ods)",
+                "direct": "Descărcare ca raport",
+                "second_xls": "Microsoft Excel (.xlsx)",
+                "second_pdf": "Portable Document Format (.pdf)"
+            },
+            "catalogues": "Cataloage",
+            "about": "Documentație",
+            "methodology": "Metodologie",
+            "validation": "validare"
+        },
+        "dashboard": {
+            "overview": {
+                "header": {
+                    "allCatalogues": "toate cataloagele",
+                    "topNumber": "Top {number}",
+                    "topNumberCatalogues": "Top {number} cataloage"
+                },
+                "table_tooltip": {
+                    "dcat_ap": "Procentajul metadatelor compatibile cu DCAT-AP. Această verificare se efectuează numai pentru portalurile care furnizează DCAT-AP, de exemplu prin extensia CKANEXT-DCAT.",
+                    "machine_readability": "Procentajul distribuirilor care devin un format lizibil automat.",
+                    "accessibility_download_url": "Procentajul URL-urilor de descărcare disponibile. Accesibilitatea este determinată utilizând o metodă HTTP GET. Deoarece URL-ul de descărcare nu este o informație obligatorie, nu se poate efectua o verificare în cazul în care informațiile lipsesc.",
+                    "known_licenses": "Procentajul licențelor cunoscute utilizate. Pentru mai multe informații despre licențele cunoscute, consultați secțiunile următoare. Deoarece licența nu este obligatorie, o verificare nu poate avea loc dacă lipsesc informațiile.",
+                    "accessibility_access_url": "Procentajul URL-urilor de acces care pot fi accesate. Accesibilitatea este determinată utilizând o metodă HTTP GET."
+                },
+                "headline": "Prezentare generală",
+                "table_title": {
+                    "desc": "Descriere",
+                    "known_licences": "Licențe cunoscute",
+                    "dcat_ap": "Conformitatea cu DCAT-AP",
+                    "accessibility_access_url": "Accesibilitatea URL-ului de acces",
+                    "accessibility_download_url": "Accesibilitatea URL-ului de descărcare",
+                    "country": "Țara",
+                    "scoring": "Rating",
+                    "machine_readability": "Lizibilitatea automată",
+                    "rating": "Rating",
+                    "name": "Denumire"
+                },
+                "table_description": "Următorul tabel oferă o prezentare generală a celor patru criterii menționate. Puteți sorta tabelul dând clic pe titlurile coloanelor. A se reține că MQA poate interpreta numai informații furnizate de portalurile de date. Distribuirile, URL-ul de descărcare și informațiile despre licențe nu sunt obligatorii, iar MQA indică informațiile care lipsesc prin semnul minus „-”. A se reține, de asemenea, că conformitatea cu DCAT-AP poate fi determinată numai dacă portalul-sursă pune la dispoziție metadatele în formatul de date DCAT-AP. Alte formate sunt indicate cu semnul minus „-”."
+            },
+            "interoperability": {
+                "plots": {
+                    "title": {
+                        "formatMediaTypeAlignment": "Tip de format / media din vocabular",
+                        "formatMediaTypeNonProprietary": "Neproprietar",
+                        "mediaTypeAvailability": "Tip media",
+                        "formatAvailability": "Format",
+                        "dcatApCompliance": "Conformitatea cu DCAT-AP",
+                        "formatMediaTypeMachineReadable": "Lizibil automat"
+                    }
+                },
+                "description": "Aceștia sunt indicatori care examinează interoperabilitatea unui set de date",
+                "title": "Interoperabilitate"
+            },
+            "reusability": {
+                "description": "Următorul tabel descrie parametrii folosiți pentru a verifica posibilitățile de reutilizare a datelor. Se pot obține maximum 75 de puncte aici.",
+                "plots": {
+                    "title": {
+                        "accessRightsAlignment": "Vocabular pentru restricțiile de acces",
+                        "contactPointAvailability": "Punct de contact",
+                        "licenceAlignment": "Vocabular pentru licențe",
+                        "publisherAvailability": "Autorul publicării",
+                        "licenceAvailability": "Informații despre licență",
+                        "accessRightsAvailability": "Restricții de acces"
+                    }
+                },
+                "title": "Posibilitățile de reutilizare"
+            },
+            "show_history": "Afișează istoricul",
+            "contextuality": {
+                "description": "Informații care oferă mai mult context utilizatorului",
+                "plots": {
+                    "title": {
+                        "dateIssuedAvailability": "Data publicării",
+                        "rightsAvailability": "Drepturi",
+                        "byteSizeAvailability": "Dimensiunea fișierului",
+                        "dateModifiedAvailability": "Data modificării"
+                    }
+                },
+                "title": "Contextualitate"
+            },
+            "accessibility": {
+                "plots": {
+                    "title": {
+                        "accessibilityOfDistributions": "Accesibilitatea distribuirilor",
+                        "accessUrlAvailability": "URL de acces disponibil",
+                        "existingDownloadUrl": "URL-uri de descărcare existente",
+                        "accessibilityAccessUrl": "Accesibilitatea URL-urilor de acces",
+                        "accessUrl": "URL de acces ",
+                        "accessUrlStatusCodes": "Cele mai frecvente coduri de stare pentru URL-urile de acces",
+                        "downloadUrlStatusCodes": "Cele mai frecvente coduri de stare pentru URL-urile de descărcare",
+                        "downloadUrlAvailability": "Latausosoite",
+                        "statusErrorCode": "Coduri de eroare pentru stare",
+                        "accessibilityDownloadUrl": "Accesibilitatea URL-urilor de descărcare"
+                    }
+                },
+                "title": "Accesibilitate",
+                "headline": "Distribuiri disponibile",
+                "description": "Următoarele diagrame oferă informații despre accesibilitatea distribuirilor. Pentru fiecare URL al unei distribuiri, se execută o interogare HTTP HEAD și se verifică răspunsul. A se reține că URL-ul de descărcare (DownloadURL) este opțional potrivit DCAT-AP și trebuie indicat clar ca atare din portalul sursei. Acest lucru ar putea fi valabil doar pentru portalurile de surse care pun la dispoziție metadatele în format DCAT-AP."
+            },
+            "site_title": "Portalul european de date | MQA | Tablou de bord",
+            "findability": {
+                "title": "Ușurința găsirii",
+                "plots": {
+                    "title": {
+                        "keywordAvailability": "Utilizarea de cuvinte-cheie",
+                        "spatialAvailability": "Căutare geografică",
+                        "temporalAvailability": "Căutare temporală",
+                        "categoryAvailability": "Categorii"
+                    }
+                },
+                "description": "Aceștia sunt indicatori care ajută persoanele și dispozitivele automate să găsească seturi de date"
+            },
+            "scoring": {
+                "description": "Ratingul indică calitatea generală a metadatelor de toate dimensiunile.",
+                "plots": {
+                    "known": "cunoscută",
+                    "unknown": "necunoscută",
+                    "title": {
+                        "timeBasedScoring": "Evoluția ratingului"
+                    }
+                },
+                "title": "Evoluția ratingului"
+            },
+            "show_today": "Afișează azi",
+            "weight": "Greutate",
+            "points": "Puncte",
+            "intro": {
+                "desc": "<p>Asigurarea calității metadatelor este menită să ajute furnizorii de date și portalurile de date să își verifice metadatele în raport cu diferiți indicatori. Pentru informații cu privire la indicatorii pe care îi folosim pentru măsurarea indicatorilor, vă rugăm să consultați pagina metodologiei noastre.</p>\n<p>Această pagină oferă o prezentare generală a tuturor metadatelor disponibile pentru data.europa.eu. Pentru o vizualizare detaliată a fiecărui catalog în parte, vă rugăm să utilizați pagina Cataloge și să selectați catalogul dorit.</p>"
+            },
+            "dimensions": "Dimensiuni"
+        },
+        "catalogue_detail": {
+            "introduction": "Această pagină arată starea generală a catalogului în ceea ce privește distribuirile și conformitatea DCAT-AP.",
+            "harvesting": {
+                "run": {
+                    "updated": "Actualizat",
+                    "duration": "Durata (zile ore:minute:secunde)",
+                    "show_log": "Afișare intrări de jurnal pentru ultima execuție",
+                    "end": "Data încheierii",
+                    "start": "Data începerii",
+                    "log_noattachment": "A apărut o eroare la preluarea atașamentului",
+                    "skipped": "Ignorat",
+                    "log": "{0} Înregistrare {1} până la {2} din {3}",
+                    "deleted": "Șters",
+                    "no_runs": "Nu sunt disponibile execuții anterioare ale culegătorului sau acestea nu au fost încă programate.",
+                    "rejected": "Respins",
+                    "added": "Adăugat"
+                },
+                "repository_harvester": "Catalogul de surse ale registrului",
+                "show_script": "Afișare script de transformare",
+                "show_information": "Afișare informații culegător",
+                "publisher": "Autorul publicării",
+                "next_schedule": "Următoarea programare",
+                "default_language": "Limba implicită",
+                "homepage": "Pagina principală",
+                "email_address": "Adresa de e-mail",
+                "incremental": "Gradual",
+                "frequency": "Frecvență",
+                "type": "Tip",
+                "transformation_script": "{0} Script de transformare",
+                "title": "Informații culegere",
+                "not_present": "Acesta nu este un catalog de unde se culeg metadate, astfel că nu sunt disponibile informații despre culegere.",
+                "last_run": "Ultima execuție de culegere"
+            },
+            "violations": {
+                "location": "Localizarea încălcării",
+                "non_compliant": "Neconform",
+                "resultPath": "Cale rezultat",
+                "subheadline": "Încălcări seturi de date",
+                "title": "Seturi de date neconforme",
+                "value": "Valoare",
+                "desc": "Descrierea încălcării",
+                "site_title": "Portalul european de date | MQA | Încălcări",
+                "introduction": "Această vizualizare prezintă toate seturile de date neconforme cu regulile SHACL pentru DCAT-AP.",
+                "own_headline": "Încălcări ale schemei DCAT-AP",
+                "resultMessage": "Mesaj rezultat"
+            },
+            "distributions": {
+                "introduction": "Această vizualizare prezintă toate seturile de date cu distribuiri neaccesibile.",
+                "help": "Examinați distribuirile neaccesibile ale catalogului selectat.",
+                "mediatype_checked": "Tip media (din test)",
+                "desc": "Seturi de date cu distribuiri neaccesibile",
+                "not_available_access": "URL de acces indisponibil",
+                "title": "Probleme de accesibilitate la distribuție",
+                "format": {
+                    "not_machine_readable": "Nelizibil automat",
+                    "name": "Format"
+                },
+                "not_available_dl": "URL de descărcare indisponibil",
+                "download_url": "Latausosoite",
+                "mediatype_given": "Tip media (din test)",
+                "nodistributions": "Nu există distribuiri disponibile pentru verificare.",
+                "access_url": "Access URL",
+                "site_title": "Portalul european de date | MQA | Distribuiri",
+                "availability_checked_on": "Disponibilitate verificată pe {date}"
+            },
+            "call_to_action": "Selectați catalogul pentru detalii",
+            "title": "Tabloul de bord pentru cataloage",
+            "site_title": "Portalul european de date | MQA | Tablou de bord"
+        },
+        "common": {
+            "compliant": "Conform",
+            "json": "CKAN JSON",
+            "deu": {
+                "url": "www.data.europa.eu",
+                "title": "data.europa.eu"
+            },
+            "site_title_violations": "Încălcare a schemei DCAT-AP",
+            "all": "toate",
+            "close": "Închidere",
+            "affacteddatasets": "Seturi de date afectate",
+            "cataloguedetails": "Vizualizare detalii catalog",
+            "previous": "Anterior",
+            "violation": "Încălcare a schemei DCAT-AP",
+            "edp": {
+                "title": "Portalul european de date"
+            },
+            "yes": "Da",
+            "error": "Eroare",
+            "portal_page": "Pagina portalului",
+            "since": "De la",
+            "site_title": "Calitatea metadatelor | Portalul oficial de date UE",
+            "version": "Versiune",
+            "ok": "OK",
+            "distributions": "Distribuiri",
+            "no": "Nu",
+            "violations": "Încălcări ale schemei DCAT-AP",
+            "download_url": "URL de descărcare",
+            "datasets": "Seturi de date",
+            "site_title_distributions": "Probleme de accesibilitate la distribuție",
+            "home": "Pagina principală",
+            "page": "Pagina",
+            "notavailable": "Neaccesibil",
+            "status": "Stare"
+        },
+        "methodology": {
+            "dimensions": {
+                "reuse": {
+                    "main_text": " <p>Tabelul următor descrie parametrii utilizați pentru a verifica posibilitățile de reutilizare a datelor. Aici se poate obține un punctaj maxim de 75 de puncte.</p>",
+                    "keywords_name_6": "Autorul publicării",
+                    "keywords_name_5": "Punct de contact",
+                    "keywords_name_4": "Vocabular pentru restricțiile de acces",
+                    "keywords_name_3": "Restricții de acces",
+                    "keywords_name_2": "Vocabular pentru licențe",
+                    "keywords_name_1": "Informații despre licență",
+                    "keywords_metric_6": "Se verifică dacă este setată sau nu proprietatea.",
+                    "keywords_metric_5": "Se verifică dacă este setată sau nu proprietatea.",
+                    "keywords_metric_4": "<p>Se verifică dacă este utilizat <a href='https://publications.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/access-right' target='_blank'>vocabularul controlat pentru drepturile de acces</a>.</p>",
+                    "keywords_metric_3": "Se verifică dacă este setată sau nu proprietatea.",
+                    "keywords_metric_2": "<p>Această secțiune descrie toate dimensiunile pe care MQA le examinează pentru a determina calitatea. Dimensiunile sunt derivate din <a target=’_blank’ href=’https://www.go-fair.org/fair-principles/'>FAIR principles <i class=’fas fa-external-link-alt fa-sm’></i></a>.</p>\n\n<p>MQA recomandă și creditează utilizarea de vocabulare controlate. Portalul data.europa.eu își publică vocabularele controlate în <a href=«https://gitlab.com/european-data-portal/edp-vocabularies» target=«_blank»>GitLab</a>. Vocabularele provin din <a href=«https://op.europa.eu/en/web/eu-vocabularies/authority-tables» target=«_blank»>EU Vocabularies</a>.</p>",
+                    "keywords_metric_1": "Se verifică dacă este setată sau nu proprietatea.",
+                    "dcat_name_6": "dct:Publisher",
+                    "dcat_name_5": "dcat:ContactPoint",
+                    "dcat_name_4": "dct:AccessRights",
+                    "dcat_name_3": "dct:AccessRights",
+                    "dcat_name_2": "dct:License",
+                    "dcat_name_1": "dct:License",
+                    "keywords_desc_6": "Autorul publicării este persoana sau organizația care a publicat datele.",
+                    "keywords_desc_5": "Punctul de contact conține informații despre cine trebuie contactat în cazul unor întrebări legate de date.",
+                    "keywords_desc_4": "Utilizarea unui vocabular controlat sporește posibilitățile de reutilizare.",
+                    "keywords_desc_3": "Această rubrică arată dacă accesul la date este public sau restricționat.",
+                    "keywords_desc_2": "Dorim să limităm indicarea unor informații incorecte despre licențe. De exemplu, întâlnim multe licențe CC care nu stipulează versiunea.",
+                    "keywords_desc_1": "O licență înseamnă informații valoroase pentru reutilizarea datelor."
+                },
+                "contextual": {
+                    "main_text": "Tabelul următor arată unele proprietăți obișnuite care îi oferă utilizatorului mai mult context. Aici se poate obține un punctaj maxim de 20 de puncte.",
+                    "keywords_metric_4": "Se verifică dacă este setată sau nu proprietatea.",
+                    "keywords_metric_3": "Se verifică dacă este setată sau nu proprietatea.",
+                    "keywords_metric_2": "Se verifică dacă este setată sau nu proprietatea.",
+                    "keywords_metric_1": "Se verifică dacă este setată sau nu proprietatea.",
+                    "keywords_name_4": "Data modificării",
+                    "keywords_name_3": "Data publicării",
+                    "keywords_name_2": "Dimensiunea fișierului",
+                    "keywords_name_1": "Drepturi",
+                    "keywords_desc_4": "Data la care a fost modificat(ă) ultima oară setul de date sau distribuirea.",
+                    "keywords_desc_3": "Data la care a fost publicat(ă) setul de date sau distribuirea.",
+                    "keywords_desc_2": "Indică dimensiunea fișierului în bytes.",
+                    "keywords_desc_1": "În unele cazuri, nu se poate aplica o licență specifică unui anumit set de date. Rubrica „Drepturi” poate fi folosită pentru a indica o trimitere la o resursă care informează utilizatorul despre drepturile pe care le are atunci când utilizează setul respectiv de date.",
+                    "dcat_name_4": "dcat:Modified",
+                    "dcat_name_3": "dct:Issued",
+                    "dcat_name_2": "dcat:ByteSize",
+                    "dcat_name_1": "dcat:Rights"
+                },
+                "table": {
+                    "metric_name": "Indicator",
+                    "dataset_and_distribution": "Set de date și distribuire",
+                    "metric": "Parametri",
+                    "dataset": "Set de date",
+                    "desc": "Descriere",
+                    "distribution": "Distribuire",
+                    "weight": "Pondere"
+                },
+                "accessible": {
+                    "main_text": " <p>Următorul tabel descrie parametrii utilizați pentru a determina dacă este garantat accesul la datele specificate de distribuiri. Aici se poate obține un punctaj maxim de 100 de puncte.</p>",
+                    "dcat_name_3": "dcat:spatial",
+                    "dcat_name_2": "dcat:downloadURL",
+                    "dcat_name_1": "dcat:accessURL",
+                    "keywords_desc_3": "Dacă există un URL de descărcare, se verifică accesibilitatea.",
+                    "keywords_desc_2": "URL-ul de descărcare este un link direct către datele respective.",
+                    "keywords_desc_1": "URL-ul de acces nu este neapărat un link direct către datele respective, ci poate fi și un URL care oferă acces la setul de date sau unde sunt disponibile mai multe informații despre setul de date.",
+                    "keywords_metric_3": "Accesibilitatea URL-ului specificat se verifică printr-o interogare HTTP HEAD. În cazul în care codul de stare primit ca răspuns este în intervalul 200 sau 300, accesibilitatea resursei este evaluată pozitiv.",
+                    "keywords_metric_2": "Se verifică dacă este setată sau nu proprietatea.",
+                    "keywords_metric_1": "Accesibilitatea URL-ului specificat se verifică printr-o interogare HTTP HEAD. În cazul în care codul de stare primit ca răspuns este în intervalul 200 sau 300, accesibilitatea resursei este evaluată pozitiv.",
+                    "keywords_name_3": "Accesibilitatea URL-ului de descărcare",
+                    "keywords_name_2": "URL de descărcare",
+                    "keywords_name_1": "Accesibilitatea URL-ului de acces"
+                },
+                "interoperable": {
+                    "main_text": " <p>Tabelul următor descrie parametrii utilizați pentru a determina dacă o distribuire poate fi considerată interoperabilă. În concordanță cu prezumția „conținutului identic pentru mai multe distribuiri”, numai distribuirea cu cel mai mare număr de puncte este folosită pentru a calcula punctajul. Aici se poate obține un punctaj maxim de 110 puncte.</p>",
+                    "keywords_desc_6": "Conformitatea <p>DCAT-AP este calculată pentru toate sursele și seturile de date disponibile într-un catalog. Această verificare se efectuează numai dacă metadatele sunt recoltate inițial ca DCAT-AP sau ca un derivat valabil.</p><p><a href=«https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe» target=«_blank»>DCAT-AP</a> este o specificație pentru descrierea datelor publice legate în Europa. Portalul data.europa.eu poate recolta, de asemenea, metadate care nu sunt pe deplin conforme cu DCAT-AP. Pentru a spori conformitatea cu DCAT-AP, MQA verifică fiecare metadate pentru conformitatea sa DCAT-AP.</p>",
+                    "keywords_desc_5": "Se verifică dacă formatul distribuirii este lizibil automat.",
+                    "keywords_desc_4": "Se verifică dacă formatul distribuirii este neproprietar.",
+                    "keywords_desc_3": "Se verifică dacă formatul și tipul media aparțin unui vocabular controlat.",
+                    "keywords_desc_2": "Această rubrică indică tipul media al distribuirii.",
+                    "keywords_desc_1": "Această rubrică indică formatul de fișier al distribuirii.",
+                    "keywords_metric_6": "<p> Metadatele sunt validate în raport cu un set de <a href=«https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe/releases» target=«_blank»>Forme SHACL</a>. Metadatele nu sunt conforme, dacă validarea SHACL raportează cel puțin o problemă.</p>\n\n<p>MQA utilizează <a href=«/shacl» target=«_blank»>data.europa.eu’s DCAT-AP SHACL</a> serviciul de validare.</p> \n\n<p><a href=«https://www.w3.org/TR/shacl/» target=«_blank»>SHACL</a> este o recomandare din partea W3C și este utilizat pentru validarea graficelor RDF împotriva unui set de forme.</p>",
+                    "keywords_metric_5": "Distribuția este considerată lizibilă automat dacă formatul specificat este conținut în vocabularul corespunzător.europa.eu <a href=«https://gitlab.com/european-data-portal/edp-vocabularies» target=«_blank»>GitLab repository</a> vocabular.",
+                    "keywords_metric_4": "Distribuția este considerată nebrevetată dacă formatul specificat este conținut în vocabularul corespunzător.europa.eu <a href=«https://gitlab.com/european-data-portal/edp-vocabularies» target=«_blank»>GitLab repository</a> vocabular.",
+                    "keywords_metric_3": "Vocabularul formatului poate fi găsit în data.europa.eu <a href=«https://gitlab.com/european-data-portal/edp-vocabularies» target=«_blank»>GitLab repository</a>.</p>\n\n<p>Tipul media este verificat în raport cu <a href=«https://www.iana.org/assignments/media-types/media-types.xhtml» target=«_blank»>lista IANA</a></p>",
+                    "keywords_metric_2": "<p>Se verifică dacă este setată sau nu proprietatea.</p>",
+                    "keywords_metric_1": "<p>Se verifică dacă este setată sau nu proprietatea.</p>",
+                    "keywords_name_6": "Conformitatea cu DCAT-AP",
+                    "keywords_name_5": "Lizibil automat",
+                    "keywords_name_4": "Neproprietar",
+                    "keywords_name_3": "Tip de format / media din vocabular",
+                    "keywords_name_2": "Tip media",
+                    "keywords_name_1": "Format",
+                    "dcat_name_6": "Set de date și distribuire",
+                    "dcat_name_5": "DCT:Format dcat:MediaType sau/subproprietate a dct:Format",
+                    "dcat_name_4": "DCT:Format dcat:MediaType sau/subproprietate a dct:Format",
+                    "dcat_name_3": "DCT:Format dcat:MediaType sau/subproprietate a dct:Format",
+                    "dcat_name_2": "dcat:MediaType or subproperty of dct:Format",
+                    "dcat_name_1": "dct:Format"
+                },
+                "findability": {
+                    "keywords_desc_4": "Folosirea informațiilor temporale le permite utilizatorilor să efectueze o căutare bazată pe indicatori temporali.",
+                    "keywords_desc_3": "Folosirea informațiilor spațiale le permite utilizatorilor să găsească un set de date printr-o căutare geografică.",
+                    "keywords_desc_2": "Categoriile ajută utilizatorii să exploreze seturile de date dintr-o perspectivă tematică.",
+                    "keywords_desc_1": "Cuvintele-cheie sprijină în mod direct căutarea și ușurează astfel găsirea unui set de date.",
+                    "keywords_metric_4": "Se verifică dacă este setată sau nu proprietatea.",
+                    "keywords_metric_3": "Se verifică dacă este setată sau nu proprietatea.",
+                    "keywords_metric_2": "Se verifică dacă s-au atribuit setului de date una sau mai multe categorii. Numărul de categorii atribuite nu influențează punctajul.",
+                    "keywords_metric_1": "Sistemul verifică dacă au fost definite cuvinte-cheie. Numărul de cuvinte-cheie nu influențează punctajul.",
+                    "keywords_name_4": "Căutare temporală",
+                    "keywords_name_3": "Căutare geografică",
+                    "keywords_name_2": "Categorii",
+                    "keywords_name_1": "Utilizarea de cuvinte-cheie",
+                    "dcat_name_4": " dcat:temporal",
+                    "dcat_name_3": "dcat:spatial",
+                    "dcat_name_2": "dcat:theme",
+                    "dcat_name_1": "dcat:Keyword",
+                    "main_text": "<p> Tabelul următor descrie parametrii meniți să ajute persoanele și dispozitivele automate să găsească seturi de date. Aici se poate obține un punctaj maxim de 100 de puncte.</p>"
+                },
+                "main_text": "<p>Această secțiune descrie toate dimensiunile examinate de MQA pentru a determina calitatea. Dimensiunile sunt derivate din <a target='_blank' href='https://www.go-fair.org/fair-principles/'>principiile FAIR<i class='fas fa-external-link-alt fa-sm'></i></a>.</p>"
+            },
+            "scoring": {
+                "table": {
+                    "bad": "Slab",
+                    "range": "Intervalul de punctaje",
+                    "sufficient": "Îndeajuns",
+                    "scoring_cat": "Rating",
+                    "good": "Bun",
+                    "max_points": "Punctaje maxime",
+                    "excellent": "Excelent",
+                    "sum": "Sumă",
+                    "dimension": "Dimensiune"
+                },
+                "main_text": "Punctajul general al unui set de date este suma punctelor aferente fiecărei dimensiuni.",
+                "text": "Ratingul final înseamnă patru grupe de rating. Asocierea punctajelor cu categoria de rating este arătată în tabelul de mai jos. Reprezentarea ratingului în MQA este exprimată exclusiv prin categoriile de rating. Aceasta le permite furnizorilor să obțină cel mai ridicat rating chiar și cu o ușoară deducere de puncte.",
+                "headline": "Rating"
+            },
+            "headline": "Metodologia de evaluare a calității metadatelor",
+            "cover": {
+                "validator_service": "DCAT-AP SHACL serviciu de validare API",
+                "main_text": " <p> MQA este limitat de metadatele pe care le poate examina. Investigația se limitează exclusiv la metadatele colectate de data.europa.eu în timpul procesului de recoltare. Dacă există erori în metadatele sursei, acestea pot falsifica rezultatul global. Pentru a limita acest potențial de eroare, MQA oferă un serviciu de validare care poate fi utilizat de furnizorii de date pentru a-și valida metadatele pentru formate valide și DCAT-AP conforme înainte de a le integra în procesul de recoltare.",
+                "validator_ui": "Pagina web a serviciului de validare DCAT-AP SHACL ",
+                "headline": "Ce nu acoperim"
+            },
+            "process": {
+                "main_text": "<p> Odată cu fiecare culegere, metadatele sunt verificate și de MQA. MQA măsoară calitatea mai multor indicatori, aceștia fiind explicați în tabelele de mai jos. Rezultatele verificărilor sunt stocate sub forma vocabularului de calitate a datelor <a href='https://www.w3.org/TR/vocab-dqv/'>(DQV) <i class='fas fa-external-link-alt fa-sm'></i></a>. DQV este o specificație a W3C utilizată pentru a descrie calitatea unui set de date.</p>\n\n<p>Întrucât accesibilitatea poate fi volatilă, sunt necesare verificări repetate ale URL-urilor de acces și ale URL-urilor de descărcare. Acesta este motivul pentru care MQA verifică periodic accesibilitatea tuturor distribuirilor. Spre deosebire de verificarea celorlalți indicatori, acest proces are un timp de execuție mai îndelungat, deoarece distribuirile sunt verificate prin HTTP și fiecare URL solicitat ar putea avea un timp de răspuns mai mare. MQA folosește un mecanism prin care se reexaminează accesibilitatea fiecărui URL în decurs de câteva săptămâni de la ultima examinare.</p>",
+                "headline": "Procesul MQA"
+            },
+            "scope": {
+                "main_text": "<p> Prin MQA, dorim să răspundem la următoarea întrebare: <br> Care este calitatea metadatelor pentru datele din sectorul public din regiunea paneuropeană și care sunt cele mai însemnate obstacole în calea unei mai bune calități? </p><p>Plecând de la aceasta, MQA examinează în prezent următoarele aspecte concrete:</p><ul><li> Conformitatea cu DCAT-AP și derivatele DCAT-AP </li><li> Dezvăluirea de informații neobligatorii în temeiul DCAT-AP </li><li> Accesibilitatea datelor la care fac trimitere metadatele prin URL-urile de acces și de descărcare </li><li> Lizibilitatea automată a datelor specificate </li><li> Utilizarea licențelor</li></ul><p> Fiecare aspect menționat duce la rândul său la examinări individuale detaliate mai jos.</p>",
+                "headline": "Sfera cercetării"
+            },
+            "assumptions": {
+                "main_text": "<p> MQA se bazează pe următoarele ipoteze.</p><h6> Utilizarea câmpurilor neobligatorii</h6><p> Credem că completarea câmpurilor obligatorii DCAT-AP nu este suficientă pentru a furniza metadate de înaltă calitate. Din acest motiv, evaluarea verifică, de asemenea, câmpurile care nu sunt specificate ca fiind obligatorii în conformitate cu DCAT-AP. Câmpurile exacte care sunt verificate sunt enumerate mai jos.</p><h6> \n\nConținut identic pentru distribuții multiple</h6><p>Dacă un set de date conține mai mult de o distribuție, toate distribuțiile sunt identice în conținut, ele diferă numai în ceea ce privește reprezentarea datelor. De exemplu, un set de date poate avea două distribuții, una oferind datele în format PDF și cealaltă oferind date identice ca RDF/XML care pot fi citite automat. Această definiție se referă la modul în care seturile de date sunt evaluate în MQA (un fel de „cele mai bune practici”), dar nu ar trebui considerate ca fiind definiția standard a distribuțiilor.</p>",
+                "headline": "Prezumții"
+            },
+            "intro_text": "<p><strong>Evaluarea calității metadatelor (MQA) este un instrument dezvoltat de consorțiul de date.europa.eu pentru a studia calitatea metadatelor recoltate de data.europa.eu.</strong> Este destinat să ajute furnizorii de date și portalurile de date să verifice calitatea metadatelor și să primească sugestii pentru îmbunătățiri. Rezultatele sunt prezentate prin intermediul MQA și sunt, de asemenea, disponibile ca descărcare. În cele ce urmează descriem funcționalitatea MQA și metodologia pe care o utilizează.</p>\n<p> Dacă această pagină nu răspunde încă la toate întrebările dvs., vă rugăm să nu ezitați să ne contactați prin intermediul formularului nostru de feedback de la sfârșitul paginii. & lt;/p>",
+            "sub_headline": "Cum măsoară data.europa.eu calitatea tuturor metadatelor stocate"
+        },
+        "header": {
+            "navigation": {
+                "usingData": {
+                    "checklistForUsingData": "Listă de verificare pentru utilizarea datelor ",
+                    "useCases": "Cazuri de utilizare",
+                    "tellUsYourStory": "Împărtășiți-ne povestea dvs.",
+                    "title": "Utilizarea datelor",
+                    "benefitsOfUsingData": "Beneficiile utilizării datelor"
+                },
+                "impactStudies": {
+                    "useCases": "Cazuri de utilizare",
+                    "overview": "Prezentare generală",
+                    "opendatamaturity": "Maturitatea datelor cu acces liber",
+                    "countryInsights": "Detalii țări",
+                    "tellUsYourStory": "Împărtășiți-ne povestea dvs.",
+                    "studies": "Studii",
+                    "opendataimpact": "Impactul datelor deschise",
+                    "title": "Impact și studii"
+                },
+                "training": {
+                    "dataProvidersGuide": "Ghidul furnizorilor de date",
+                    "whatIsOpenData": "Ce sunt datele deschise",
+                    "title": "Formare",
+                    "elearning": "E-learning",
+                    "moreTrainingMaterial": "Mai multe materiale de formare",
+                    "licensingAssistant": "Asistent de licențe"
+                },
+                "data": {
+                    "datasets": "Seturi de date",
+                    "sparqlsearch": "Căutare SPARQL",
+                    "metadataQuality": "Calitatea metadatelor",
+                    "licensingAssistant": "Asistent de licențe ",
+                    "title": "Date",
+                    "statistics": "Statistici",
+                    "euInternationalData": "Date ale UE și internaționale",
+                    "sparqlManager": "Manager SPARQL",
+                    "catalogues": "Cataloage",
+                    "countryData": "Date ale țărilor"
+                },
+                "resources": {
+                    "moreTrainingMaterial": "Mai multe materiale de formare",
+                    "title": "Resurse",
+                    "elearning": "E-learning",
+                    "trainingCompanion": "Asistent pentru formare",
+                    "reportsAboutOpenData": "Rapoarte despre datele deschise"
+                },
+                "providingData": {
+                    "beHarvestedByUs": "Puneți-ne la dispoziție datele dvs.",
+                    "title": "Furnizarea de date",
+                    "cataloguesHarvestedByUs": "Cataloage culese de noi ",
+                    "practicalGuide": "Ghid practic"
+                },
+                "whatWeDo": {
+                    "openDataMaturity": "Maturitatea datelor deschise",
+                    "ourActivities": "Activitățile noastre",
+                    "factsheetsAndReports": "Fișe informative și rapoarte",
+                    "title": "Misiune",
+                    "calendar": "Calendar",
+                    "featuredHighlights": "Evidențieri",
+                    "news": "Știri"
+                },
+                "about": {
+                    "beHarvestedByUs": "Punerea la dispoziție a datelor dvs.",
+                    "documentation": "Documentație",
+                    "title": "Despre",
+                    "europeanDataPortal": "Portalul european de date"
+                },
+                "newsEvents": {
+                    "title": "Știri și evenimente",
+                    "events": "Evenimente",
+                    "news": "Știri"
+                }
+            },
+            "subnav": {
+                "contact": "Contact",
+                "legalNotice": "Aviz juridic",
+                "search": "Căutare",
+                "newsletter": "Buletin informativ",
+                "cookies": "Cookie-uri",
+                "login": "Autentificare",
+                "faq": "Întrebări frecvente"
+            },
+            "searchInputPlaceholder": "Căutare în conținutul site-ului…",
+            "european": "european",
+            "searchOptions": {
+                "siteContent": "Conținutul site-ului",
+                "datasets": "Seturi de date"
+            },
+            "dataPortal": "Portalul de date"
+        },
+        "footer": {
+            "links": {
+                "search": "Căutare",
+                "newsletter": "Buletin informativ",
+                "faq": "Întrebări frecvente",
+                "contact": "Contact",
+                "subscribe": "Abonare",
+                "cookies": "Cookie-uri",
+                "login": "Autentificare",
+                "legalNotice": "Aviz juridic"
+            },
+            "managedBy": "Gestionat de Oficiul pentru Publicații al Uniunii Europene.",
+            "fundedBy": "Finanțat de Uniunea Europeană",
+            "newsletter": "Abonați-vă la buletinul nostru informativ",
+            "helpUsImproveText": "Feedbackul dvs. ne va ajuta să îmbunătățim experiența generală a utilizatorilor. Aveți sugestii?",
+            "newsletterText": "Abonați-vă la buletinul nostru informativ",
+            "subscribe": "Abonare",
+            "followUs": "Urmăriți-ne pe",
+            "lastUpdate": "Ultima actualizare",
+            "helpUsImprove": "Ajutați-ne să ne îmbunătățim"
+        },
+        "maintenance_message": "Vești bune! Ne îmbunătățim sistemul. Între timp, această componentă este în modul de întreținere și poate să nu afișeze toate datele disponibile.",
+        "catalogue_list": {
+            "description": "Selectați catalogul pentru detalii",
+            "search": {
+                "placeholder": "Căutați după numele sau descrierea catalogului"
+            }
+        },
+        "title": "Metadata Quality Assurance",
+        "empty": "",
+        "no_data": "Nu sunt disponibile măsurători pentru acest indicator",
+        "meta": {
+            "description": "Secțiunea „Asigurarea calității metadatelor” oferă o prezentare generală a tuturor metadatelor disponibile pe Portalul de date deschise data.europa.eu, pe indicatori."
+        }
+    }
+}

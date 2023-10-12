@@ -1,0 +1,280 @@
+@prefix dcat:   <http://www.w3.org/ns/dcat#> .
+@prefix dct:    <http://purl.org/dc/terms/> .
+@prefix dc:     <http://purl.org/dc/elements/1.1/> .
+@prefix dcatap: <http://data.europa.eu/r5r/> .
+@prefix stat: <http://data.europa.eu/s1n/> .
+@prefix foaf:   <http://xmlns.com/foaf/0.1/> .
+@prefix locn:   <http://www.w3.org/ns/locn#> .
+@prefix odrl:   <https://www.w3.org/TR/odrl-vocab/#> .
+@prefix owl:    <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix gsp:    <http://www.opengis.net/ont/geosparql#> .
+@prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
+@prefix time:   <http://www.w3.org/2006/time> .
+@prefix vcard:  <http://www.w3.org/2006/vcard/ns#> .
+@prefix xml:    <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix adms:   <http://www.w3.org/ns/adms#> .
+@prefix spdx:   <http://spdx.org/rdf/terms#> .
+@prefix prov:   <http://www.w3.org/ns/prov#> .
+@prefix edp:    <https://europeandataportal.eu/voc#> .
+@prefix dcatapde: <http://dcat-ap.de/def/dcatde/> .
+@prefix senias: <http://senias.de/ns/sis#> .
+
+
+<https://piveau.io/catalogue/test-catalog>
+    a                  dcat:Catalog ;
+    dct:type           "dcat-ap-2" ;
+    dct:title          "Example Catalog"@en ;
+    dct:description    "This is an example Catalog"@en ;
+    dct:publisher      <http://publications.europa.eu/resource/authority/corporate-body/CCC> ;
+    foaf:homepage      <http://www.catalog-homepage.com> ;
+    dct:language       <http://publications.europa.eu/resource/authority/language/ENG> ;
+    dct:license        <http://europeandataportal.eu/ontologies/od-licenses#CC-BY-SA3.0NL> ;
+    dct:issued         "2015-08-27T22:00:00Z"^^xsd:dateTime ;
+    dct:modified       "2018-04-03T11:48:21.950626Z"^^xsd:dateTime ;
+    dcat:themeTaxonomy <http://publications.europa.eu/resource/authority/data-theme> ;
+    dct:spatial        <http://publications.europa.eu/resource/authority/country/DEU> ;
+    dct:hasPart        <https://piveau.eu/id/catalogue/test-catalog> ;
+    dct:isPartOf       <https://piveau.eu/id/catalogue/test-catalog> ;
+    dcat:catalog       <https://piveau.eu/id/catalogue/test-catalog> ;
+    dct:creator        <https://piveau.eu/def/creator> ;
+    dct:rights         [ a          dct:RightsStatement ;
+                         rdfs:label ":public" ] ;
+    dcat:dataset       <https://piveau.eu/set/data/test-dataset> .
+
+<https://piveau.eu/set/service/test-service>
+    a                        dcat:DataService ;
+    dcat:endpointURL         <http://example.com/service/api/endpoint> ;
+    dcat:endpointDescription <http://example.com/service/api/manual> ;
+    dcat:servesDataset       <https://piveau.eu/set/data/test-dataset> ;
+    dct:accessRights         <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+    dct:description          "This is an example Data Service"@en ;
+    dct:license              <http://europeandataportal.eu/ontologies/od-licenses#CC-BY-SA3.0NL> ;
+    dct:title                "Example Data Service"@en .
+
+<https://piveau.io/set/data/test-dataset>
+    a                              dcat:Dataset ;
+    dct:type                       <https://piveau.eu/def/type/dataset> ;
+    dct:title                      "Example Dataset"@en ;
+    dct:title                      "Beispieldatensatz"@de ;
+    dct:language                   <http://publications.europa.eu/resource/authority/language/ENG> ;
+    dct:language                   <http://publications.europa.eu/resource/authority/language/DEU> ;
+    dct:description                "This is an example Dataset."@en ;
+    dct:description                "Das ist ein Beispieldatensatz."@de ;
+    dcat:theme                     <http://publications.europa.eu/resource/authority/data-theme/ENVI> ;
+    dcat:theme                     <http://publications.europa.eu/resource/authority/data-theme/AGRI> ;
+    dct:subject                    <http://eurovoc.europa.eu/10> ;
+    dct:issued                     "2015-08-27T22:00:00Z"^^xsd:dateTime ;
+    dct:modified                   "2018-04-03T11:48:21.950626Z"^^xsd:dateTime ;
+    dct:accessRights               <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+    dct:creator                    [ a         foaf:Agent ;
+                                     foaf:name "Example Creator"  ] ;
+    dcat:landingPage               <http://landingpage.de> ;
+    dct:spatial                    [ a dct:Location ;
+                                     locn:geometry
+                                       "<gml:Envelope srsName=\"http://www.opengis.net/def/EPSG/0/4326\"><gml:lowerCorner>53.1485 12.915</gml:lowerCorner><gml:upperCorner>53.1985 12.9983</gml:upperCorner></gml:Envelope>"^^<http://www.opengis.net/ont/geosparql#gmlLiteral> ] ;
+    dct:spatial                    <https://piveau.eu/def/example-location> ;
+    dcat:spatialResolutionInMeters "10"^^xsd:decimal ;
+    dct:temporal                   [ a              dct:PeriodOfTime ;
+                                     dcat:endDate   "2015-06-12T09:00:00Z"^^xsd:dateTime ;
+                                     dcat:startDate "2015-06-09T08:00:00Z"^^xsd:dateTime ] ;
+    dcat:temporalResolution        "P20M"^^xsd:duration ;
+    dcat:contactPoint              [ a              vcard:Kind ;
+                                     a              vcard:Individual ;
+                                     vcard:hasEmail <mailto:john@doe.de> ;
+                                     vcard:hasAddress <https://piveau.eu/address> ;
+                                     vcard:fn       "John Doe" ] ;
+    dcat:contactPoint              <https://contact-point.eu/person1> ;
+    dcat:contactPoint              <https://example.de/def/contact/point> ;
+    dct:publisher                  <https://example.de/def/publisher/fokus> ;
+    dcat:keyword                   "piveau"@en, "open data"@en ;
+    dct:conformsTo                 [ a          dct:Standard ;
+                                     rdfs:label "Conforms To" ] ;
+    dct:conformsTo                 <https://piveau.eu/conforms-to> ;
+    dct:provenance                 [ a          dct:ProvenanceStatement ;
+                                     rdfs:label "This is a provenance statement"@en ] ;
+    dct:provenance                 <https://piveau.eu/provenance> ;
+    prov:qualifiedAttribution      [ a          prov:Attribution ;
+                                     prov:agent [ a              prov:Agent, prov:Person ;
+                                                  foaf:givenName "Responsible Agent"^^xsd:string ;
+                                                  foaf:mbox      <mailto:agent@example.org> ;
+                                                  foaf:homePage  <http://agent.example.com> ; ] ; ] ;
+    prov:wasGeneratedBy            [ a                  prov:Activity ;
+                                     prov:startedAtTime "2012-04-15T13:00:00-04:00"^^xsd:dateTime ;
+                                     prov:endedAtTime   "2012-04-15T14:30:00-04:00"^^xsd:dateTime ; ] ;
+    dct:accrualPeriodicity         <http://publications.europa.eu/resource/authority/frequency/ANNUAL> ;
+    foaf:page                      <http://www.documentation.com> ;
+    dct:identifier                 "123456789" ;
+    dct:hasVersion                 <https://piveau.io/set/data/test-dataset-2> ;
+    dct:isVersionOf                <https://piveau.eu/set/data/test-dataset-3> ;
+    dct:isReferencedBy             <http://example/reference-description> ;
+    dcat:qualifiedRelation         <https://piveau.eu/def/relationship> ;
+    dct:source                     <https://piveau.eu/set/data/test-dataset-4> ;
+    adms:identifier                <https://piveau.eu/doi/123456789> ;
+    dct:relation                   <http://relation.com> ;
+    adms:sample                    <https://piveau.eu/set/distribution/1> ;
+    owl:versionInfo                "1.0.0" ;
+    adms:versionNotes              "Release"@en ;
+    dcatapde:legalBase             "Legal Base" ;
+    dcatapde:geocodingDescription  "Geocoding Description" ;
+    senias:deadline                "2019-11-30"^^xsd:date ;
+    dcat:distribution              <https://piveau.io/set/distribution/1> ;
+    stat:attribute                 <http://some.attribute.1.example.com> , <http://some.attribute.2.example.com> ;
+    stat:dimension                 <http://some.dimension.1.example.com> , <http://some.dimension.2.example.com> ;
+    stat:numSeries                 "42"^^xsd:integer ;
+    stat:hasQualityAnnotation      <http://some.quality.annotation.1.example.com> , <http://some.quality.annotation.2.example.com> ;
+    stat:statUnitMeasure           <http://some.unit.measure.1.example.com> , <http://some.unit.measure.2.example.com> .
+
+<https://piveau.eu/doi/123456789>
+    a adms:Identifier ;
+    skos:notation "123456789"^^<http://purl.org/spar/datacite/doi> .
+
+<http://publications.europa.eu/resource/authority/country/DEU>
+    a dct:Location .
+
+<https://piveau.io/set/distribution/1>
+    a                              dcat:Distribution ;
+    dcat:accessService             <https://piveau.eu/set/service/test-service> ;
+    dcatap:availability            [ a              skos:Concept ;
+                                     skos:prefLabel "stable" ; ] ;
+    dct:title                      "Example Distribution"@en ;
+    dct:description                "This is a example Distribution"@en ;
+    dcat:accessURL                 <http://accessurl.com> ;
+    dcat:downloadURL               <http://download.de/file1.csv> ;
+    dcat:downloadURL               <http://download.de/file2.pdf> ;
+    dcat:mediaType                 <http://www.iana.org/assignments/media-types/text/csv> ;
+    dct:issued                     "2015-08-27T22:00:00Z"^^xsd:dateTime ;
+    dct:modified                   "2018-04-03T11:48:21.950626Z"^^xsd:dateTime ;
+    dct:format                     <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcat:compressFormat            <http://www.iana.org/assignments/media-types/application/gzip> ;
+    dcat:packageFormat             <http://www.iana.org/assignments/media-types/application/gzip> ;
+    dct:license                    <http://europeandataportal.eu/ontologies/od-licenses#CC-BY-SA3.0NL> ;
+    dct:language                   <http://publications.europa.eu/resource/authority/language/ENG> ;
+    dct:language                   <http://publications.europa.eu/resource/authority/language/DEU> ;
+    dcat:spatialResolutionInMeters "10"^^xsd:decimal ;
+    dcat:temporalResolution        "P20M"^^xsd:duration ;
+    odrl:hasPolicy                 [ a               odrl:Policy ;
+                                     odrl:permission [ odrl:action "publish" ] ] ;
+    dct:rights                     [ a          dct:RightsStatement ;
+                                     rdfs:label "public" ] ;
+    dct:conformsTo                 [ a          dct:Standard ;
+                                     rdfs:label "Distribution Standard" ] ;
+    foaf:page                      <http://www.documentation2.com> ;
+    adms:status                    <http://purl.org/adms/status/Completed> ;
+    dcat:byteSize                  "25255"^^xsd:decimal ;
+    spdx:checksum                  [ a                  spdx:Checksum ;
+                                     spdx:algorithm     spdx:checksumAlgorithm_md5 ;
+                                     spdx:checksumValue "4c3a106cf3925d14d986d2b0839f5d1e" ] .
+
+<http://europeandataportal.eu/ontologies/od-licenses#CC-BY-SA3.0NL>
+    a dct:LicenseDocument .
+
+<http://www.iana.org/assignments/media-types/text/csv>
+    a dct:MediaType .
+
+<http://www.iana.org/assignments/media-types/application/gzip>
+    a dct:MediaType .
+
+<http://landingpage.de>
+    a foaf:Document .
+
+<http://publications.europa.eu/resource/authority/language/ENG>
+    a dct:LinguisticSystem .
+
+<http://publications.europa.eu/resource/authority/file-type/CSV>
+    a          dct:MediaTypeOrExtent ;
+    rdfs:label "CSV" .
+
+<http://www.documentation.com>
+    a foaf:Document ;
+    dct:format      <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dct:description "This is an example page"@en ;
+    dct:description "Das ist eine Beispielseite"@de ;
+    dct:title       "Example page 1"@en ;
+    dct:title       "Beispielseite 1"@de .
+
+<http://www.documentation2.com>
+    a foaf:Document ;
+    dct:format      <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dct:description "This is an example page"@en ;
+    dct:description "Das ist eine Beispielseite"@de ;
+    dct:title       "Example page 2"@en ;
+    dct:title       "Beispielseite 2"@de .
+
+<http://www.catalog-homepage.com>
+    a foaf:Document .
+
+<http://publications.europa.eu/resource/dataset/data-theme>
+    a         skos:ConceptScheme ;
+    dct:title "EU Data Themes"@en .
+
+
+<http://publications.europa.eu/resource/authority/corporate-body/CCC>
+    a         foaf:Agent ;
+    foaf:name "Customs Cooperation Council" .
+
+<https://example.de/def/contact/point>
+    a              vcard:Individual ;
+    vcard:hasEmail <mailto:example@example.de> ;
+    vcard:fn       "Max Mustermann" ;
+    vcard:hasTelephone [
+                       vcard:hasValue <tel:+61755555555>
+        ] ;
+    vcard:hasAddress [
+                         vcard:street-address "111 Lake Drive" ;
+                         vcard:locality "WonderCity" ;
+                         vcard:postal-code "5555" ;
+                         vcard:country-name "Australia" ; ] .
+
+<https://example.de/def/publisher/fokus>
+    a             foaf:Organization ;
+    foaf:homepage "http://www.fokus.fraunhofer.de" ;
+    foaf:mbox      <mailto:info@fokus.fraunhofer.de> ;
+    foaf:name     "Fraunhofer FOKUS" .
+
+<https://piveau.eu/def/creator>
+    a         foaf:Agent ;
+    foaf:name "Example Creator" .
+
+<https://piveau.eu/def/relationship>
+    a            dcat:Relationship ;
+    dct:relation <https://piveau.eu/set/data/test-dataset-2> ;
+    dcat:hadRole <http://www.iana.org/assignments/relation/original> .
+
+<https://piveau.eu/def/type/dataset>
+    a              skos:Concept ;
+    skos:prefLabel "DCAT-AP 2.0.0 Dataset" .
+
+<http://publications.europa.eu/resource/authority/frequency/ANNUAL>
+    a dct:Frequency .
+
+<https://piveau.eu/def/example-location>
+    a         dct:Location ;
+    dcat:bbox "POLYGON((-180 90,180 90,180 -90,-180 -90,-180 90))"^^gsp:wktLiteral .
+
+<https://piveau.eu/set/data/test-dataset-2>
+    dct:title       "Example Dataset 2"@en ;
+    dct:description "This is an example Dataset"@en .
+
+<https://piveau.eu/set/data/test-dataset-3>
+    dct:title       "Example Dataset 3"@en ;
+    dct:description "This is an example Dataset"@en .
+
+<https://piveau.eu/set/data/test-dataset-4>
+    dct:title       "Example Dataset 4"@en ;
+    dct:description "This is an example Dataset"@en .
+
+<https://piveau.eu/conforms-to>
+    a          dct:Standard ;
+    rdfs:label "Conforms To 2" .
+
+<https://piveau.eu/provenance>
+    a          dct:ProvenanceStatement ;
+    rdfs:label "This is another provenance statement"@en .
+
+<https://piveau.eu/address>
+    vcard:street-address "111 Lake Drive" ;
+    vcard:country-name "Australia" .

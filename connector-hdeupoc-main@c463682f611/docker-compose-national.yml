@@ -1,0 +1,37 @@
+version: '2.1'
+
+services:
+  nationalconnector-datapermit:
+    build: datapermit
+    mem_limit: 350m
+    extra_hosts:
+      - host.docker.internal:host-gateway
+    volumes:
+      - ${PWD}/config.yml:/usr/src/app/config.yml
+      - ${PWD}/db:/usr/src/app/db
+      - ~/.domibuspass:/root/.domibuspass
+      - ${PWD}/db/:/usr/src/app/db/
+      - /etc/ssl/localcerts/:/etc/ssl/localcerts/
+
+  nationalconnector-gateway:
+    build: gateway
+    mem_limit: 350m
+    ports:
+      - "8100:8100"
+    extra_hosts:
+      - host.docker.internal:host-gateway
+    volumes:
+      - ${PWD}/config.yml:/usr/src/app/config.yml
+      - ${PWD}/keys/apikeys.json:/usr/src/app/keys/apikeys.json
+      - ~/.domibuspass:/root/.domibuspass
+      - /etc/ssl/localcerts/:/etc/ssl/localcerts/
+
+  nationalconnector-messagechecker:
+    build: messagechecker
+    mem_limit: 350m
+    extra_hosts:
+      - host.docker.internal:host-gateway
+    volumes:
+      - ${PWD}/config.yml:/usr/src/app/config.yml
+      - ~/.domibuspass:/root/.domibuspass
+      - /etc/ssl/localcerts/:/etc/ssl/localcerts/

@@ -1,0 +1,525 @@
+{
+    "message": {
+        "navigation": {
+            "dashboard": "Informācijas panelis",
+            "download_report": {
+                "help": "Lejupielādēt pilnīgu ziņojumu par šo katalogu.",
+                "second_ods": "Open Document Spreadsheet (.ods)",
+                "direct": "Lejupielādēt kā ziņojumu",
+                "second_xls": "Microsoft Excel (.xlsx)",
+                "second_pdf": "Portable Document Format (.pdf)"
+            },
+            "catalogues": "Katalogi",
+            "about": "Dokumentācija",
+            "methodology": "Metodika",
+            "validation": "validācija"
+        },
+        "dashboard": {
+            "overview": {
+                "header": {
+                    "allCatalogues": "visi katalogi",
+                    "topNumber": "Top {number}",
+                    "topNumberCatalogues": "Top {number} katalogi"
+                },
+                "table_tooltip": {
+                    "dcat_ap": "DCAT-AP atbilstošo metadatu procentuālais daudzums. Šī pārbaude tiek veikta tikai portāliem, kas nodrošina DCAT-AP, piemēram, ar paplašinājumu CKANEXT-DCAT.",
+                    "machine_readability": "Procentuālais sadalījums, kas kļūst par mašīnlasāmu formātu.",
+                    "accessibility_download_url": "Pieejamo lejupielādes URL procentuālais daudzums. Pieejamība tiek noteikta, izmantojot HTTP GET metodi. Tā kā DownloadURL nav obligāta informācija, trūkstošās informācijas gadījumā čeku nevar veikt.",
+                    "known_licenses": "Zināmo izmantoto licenču procentuālā daļa. Lai iegūtu plašāku informāciju par zināmām licencēm, lūdzu, skatiet tālāk minētās sadaļas. Tā kā licence nav obligāta, pārbaude nevar notikt, ja trūkst informācijas.",
+                    "accessibility_access_url": "Pieejamo AccessURL procentuālā daļa. Pieejamība tiek noteikta, izmantojot HTTP GET metodi."
+                },
+                "headline": "Pārskats",
+                "table_title": {
+                    "desc": "Apraksts",
+                    "known_licences": "Zināmās licences",
+                    "dcat_ap": "DCAT AP atbilstība",
+                    "accessibility_access_url": "Piekļuves URL pieejamība",
+                    "accessibility_download_url": "Lejupielādes URL pieejamība",
+                    "country": "Valsts",
+                    "scoring": "Vērtējums",
+                    "machine_readability": "Mašīnlasāmība",
+                    "rating": "Vērtējums",
+                    "name": "Nosaukums"
+                },
+                "table_description": "Tālākā tabula sniedz pārskatu ar četriem minētajiem kritērijiem. Tabulu var kategorizēt, klikšķinot uz kolonnu galvenēm. Lūdzu, ņemiet vērā, ka MQA spēj interpretēt tikai to informāciju, kuru sniedz avota portāli. Sadalījumu, lejupielādes URL un licenču informācija nav obligāta, un MQA uz iztrūkstošo informāciju norāda ar \"-\". Tāpat ņemiet vērā, ka DCAT-AP atbilstība var tikt noteikta, ja avota portāls sniedz savus metadatus ar DCAT-AP saistītiem datiem. Citi formāti tiek norādīti ar \"-\". "
+            },
+            "interoperability": {
+                "plots": {
+                    "title": {
+                        "formatMediaTypeAlignment": "Formāts/multivides veids no vārdnīcas",
+                        "formatMediaTypeNonProprietary": "Nepatentēts",
+                        "mediaTypeAvailability": "Multivides veids",
+                        "formatAvailability": "Formāts",
+                        "dcatApCompliance": "DCAT-AP atbilstība",
+                        "formatMediaTypeMachineReadable": "Mašīnlasāmība"
+                    }
+                },
+                "description": "Šie ir indikatori, kas iegūst datu kopas savietojamību",
+                "title": "Savietojamība"
+            },
+            "reusability": {
+                "description": "Tālāk tabulā aprakstīts, kādi rādītāji izmantoti datu atkārtotas izmantojamības pārbaudīšanai. Šeit iespējams iegūt maksimāli 75 punktus.",
+                "plots": {
+                    "title": {
+                        "accessRightsAlignment": "Piekļuves ierobežojumu vārdnīca",
+                        "contactPointAvailability": "Kontaktpunkts",
+                        "licenceAlignment": "Licences vārdnīca",
+                        "publisherAvailability": "Publicētājs",
+                        "licenceAvailability": "Licences informācija",
+                        "accessRightsAvailability": "Piekļuves ierobežojumi"
+                    }
+                },
+                "title": "Atkārtota izmantojamība"
+            },
+            "show_history": "Rādīt vēsturi",
+            "contextuality": {
+                "description": "Informācija, kas sniedz lietotājam plašāku kontekstu",
+                "plots": {
+                    "title": {
+                        "dateIssuedAvailability": "Izdošanas datums",
+                        "rightsAvailability": "Tiesības",
+                        "byteSizeAvailability": "Faila lielums",
+                        "dateModifiedAvailability": "Modificēšanas datums"
+                    }
+                },
+                "title": "Kontekstualitāte"
+            },
+            "accessibility": {
+                "plots": {
+                    "title": {
+                        "accessibilityOfDistributions": "Sadalījumu pieejamība",
+                        "accessUrlAvailability": "Pieejamais piekļuves URL",
+                        "existingDownloadUrl": "Esošie lejupielādes URL",
+                        "accessibilityAccessUrl": "Piekļuves URL pieejamība",
+                        "accessUrl": "Piekļuves URL",
+                        "accessUrlStatusCodes": "Biežākās piekļuves URL statusa kodi",
+                        "downloadUrlStatusCodes": "Biežākās lejupielādes URL statusa kodi",
+                        "downloadUrlAvailability": "Latausosoite",
+                        "statusErrorCode": "Kļūdu statusa kodi",
+                        "accessibilityDownloadUrl": "Lejupielādes URL pieejamība"
+                    }
+                },
+                "title": "Pieejamība",
+                "headline": "Pieejami sadalījumi",
+                "description": "Turpmākās diagrammas sniedz informāciju par sadalīšanas pieejamību. Par katru sadales URL tiek veikts HTTP HEAD pieprasījums un pārbaudīta atbilde. Lūdzu, ņemiet vērā, ka DownloadURL ir izvēles atbilstoši DCAT-AP, un tas skaidri jānorāda kā tāds no avota portāla. Tas var būt tikai repozitoriju avota portālu gadījumā, kuri sniedz savus metadatus DCAT-AP."
+            },
+            "site_title": "Eiropas datu portāls | MQA | Informācijas panelis",
+            "findability": {
+                "title": "Atrodamība",
+                "plots": {
+                    "title": {
+                        "keywordAvailability": "Atslēgvārdu izmantošana",
+                        "spatialAvailability": "Ģeogrāfiskā meklēšana",
+                        "temporalAvailability": "Uz laiku balstīta meklēšana",
+                        "categoryAvailability": "Kategorijas"
+                    }
+                },
+                "description": "Šie ir indikatori, kas palīdz cilvēkiem un mašīnām atrast datu kopas"
+            },
+            "scoring": {
+                "description": "Vērtējums norāda visu dimensiju metadatu vispārējo kvalitāti.",
+                "plots": {
+                    "known": "zināms",
+                    "unknown": "nezināms",
+                    "title": {
+                        "timeBasedScoring": "Vērtējuma gaita"
+                    }
+                },
+                "title": "Vērtējuma gaita"
+            },
+            "show_today": "Rādīt šodienas vērtību",
+            "weight": "Svars",
+            "points": "Punkti",
+            "intro": {
+                "desc": "<p>Metadatu kvalitātes nodrošināšanas mērķis ir palīdzēt datu sniedzējiem un datu portāliem pārbaudīt savus metadatus, salīdzinot tos ar dažādiem rādītājiem. Lai iegūtu informāciju par to, kādus rādītājus mēs izmantojam rādītāju mērīšanai, lūdzu, iepazīstieties ar mūsu metodikas lapu.</p>\n<p>Šī lapa sniedz vispārēju pārskatu par visiem metadatiem, kas pieejami data.europa.eu. Lai detalizēti apskatītu katru atsevišķo katalogu, lūdzu, izmantojiet lapu Katalogi un izvēlieties vēlamo katalogu.</p>"
+            },
+            "dimensions": "Dimensijas"
+        },
+        "catalogue_detail": {
+            "introduction": "Šī lapa rāda vispārīgo kataloga statusu attiecībā uz  izplatīšanu un atbilstību DCAT-AP.",
+            "harvesting": {
+                "run": {
+                    "updated": "Atjaunināta",
+                    "duration": "Ilgums (dienas stundas:minūtes:sekundes)",
+                    "show_log": "Parādīt pēdējās izpildes žurnāla ierakstus",
+                    "end": "Beigu laiks",
+                    "start": "Sākuma laiks",
+                    "log_noattachment": "Pielikuma izgūšanas laikā radās kļūda",
+                    "skipped": "Izlaista",
+                    "log": "{0} Žurnāli {1} līdz {2} no {3}",
+                    "deleted": "Dzēsts",
+                    "no_runs": "Nav iepriekšējas rasmotāja izpildes vai tās vēl nav ieplānotas.",
+                    "rejected": "Noraidīts",
+                    "added": "Pievienota"
+                },
+                "repository_harvester": "Repozitorija avota katalogs",
+                "show_script": "Parādīt transformācijas skriptu",
+                "show_information": "Parādīt rasmotāja informāciju",
+                "publisher": "Publicētājs",
+                "next_schedule": "Nākamais grafiks",
+                "default_language": "Noklusējuma valoda",
+                "homepage": "Sākumlapa",
+                "email_address": "E-pasta adrese",
+                "incremental": "Inkrementāla",
+                "frequency": "Biežums",
+                "type": "Tips",
+                "transformation_script": "{0} Transformācijas skripts",
+                "title": "Informācijas ievākšana",
+                "not_present": "Šis nav rasmots katalogs, tāpēc nav pieejama rasmošanas informācija.",
+                "last_run": "Pēdējā rasmošanas izpilde"
+            },
+            "violations": {
+                "location": "Pārkāpuma vieta",
+                "non_compliant": "Neatbilstošs",
+                "resultPath": "Rezultāta ceļš",
+                "subheadline": "Datu kopu pārkāpumi",
+                "title": "Neatbilstošas datu kopas",
+                "value": "Vērtība",
+                "desc": "Pārkāpumu apraksts",
+                "site_title": "Eiropas datu portāls | MQA | Pārkāpumi",
+                "introduction": "Šajā skatā parādītas visas datu kopas, kas neatbilst DCAT-AP JSON shēmai.",
+                "own_headline": "Pārkāpumi",
+                "resultMessage": "Ziņojums par rezultātu"
+            },
+            "distributions": {
+                "introduction": "Šajā skatā parādītas visas datu kopas, kam ir nepieejami sadalījumi.",
+                "help": "Skatīt nepieejamus sadalījumus no atlasītā kataloga.",
+                "mediatype_checked": "Medija tips (no testa)",
+                "desc": "Datu kopas ar nepieejamiem sadalījumiem",
+                "not_available_access": "AccessURL nav pieejams",
+                "title": "Izplatīšanas pieejamības jautājumi",
+                "format": {
+                    "not_machine_readable": "Nav mašīnlasāms",
+                    "name": "Formāts"
+                },
+                "not_available_dl": "DownloadURL nav pieejams",
+                "download_url": "Latausosoite",
+                "mediatype_given": "Medija tips (no testa)",
+                "nodistributions": "Pārbaudei nav pieejami sadalījumi.",
+                "access_url": "Access URL",
+                "site_title": "Eiropas datu portāls | MQA | Sadalījumi",
+                "availability_checked_on": "Pieejamība pārbaudīta {date}"
+            },
+            "call_to_action": "Atlasiet katalogu detalizētai informācijai",
+            "title": "Kataloga informācijas panelis",
+            "site_title": "Eiropas datu portāls | MQA | Informācijas panelis"
+        },
+        "common": {
+            "compliant": "Atbilstošs",
+            "json": "CKAN JSON",
+            "deu": {
+                "url": "www.data.europa.eu",
+                "title": "data.europa.eu"
+            },
+            "site_title_violations": "DCAT-AP shēmas pārkāpums",
+            "all": "viss",
+            "close": "Aizvērt",
+            "affacteddatasets": "Ietekmētās datu kopas",
+            "cataloguedetails": "Kataloga informācija",
+            "previous": "Atpakaļ",
+            "violation": "DCAT-AP shēmas pārkāpums",
+            "edp": {
+                "title": "Eiropas datu portāls"
+            },
+            "yes": "Jā",
+            "error": "Kļūda",
+            "portal_page": "Portāla lapa",
+            "since": "Kopš",
+            "site_title": "Metadatu kvalitāte | ES datu oficiālais portāls | data.europa.eu",
+            "version": "Versija",
+            "ok": "Labi",
+            "distributions": "Sadalījumi",
+            "no": "Nē",
+            "violations": "DCAT-AP shēmas pārkāpumi",
+            "download_url": "Lejupielādes URL",
+            "datasets": "Datu kopas",
+            "site_title_distributions": "Izplatīšanas pieejamības jautājumi",
+            "home": "Sākumlapa",
+            "page": "Lapa",
+            "notavailable": "Nav pieejams",
+            "status": "Statuss"
+        },
+        "methodology": {
+            "dimensions": {
+                "reuse": {
+                    "main_text": " <p>Tālāk tabulā aprakstīts, kādi rādītāji izmantoti datu atkārtotas izmantojamības pārbaudīšanai. Šeit iespējams iegūt maksimāli 75 punktus.</p>",
+                    "keywords_name_6": "Publicētājs",
+                    "keywords_name_5": "Kontaktpunkts",
+                    "keywords_name_4": "Piekļuves ierobežojumu vārdnīca",
+                    "keywords_name_3": "Piekļuves ierobežojumi",
+                    "keywords_name_2": "Licences vārdnīca",
+                    "keywords_name_1": "Licences informācija",
+                    "keywords_metric_6": "Tiek pārbaudīts, vai vērtība ir iestatīta vai nav.",
+                    "keywords_metric_5": "Tiek pārbaudīts, vai vērtība ir iestatīta vai nav.",
+                    "keywords_metric_4": "<p>Tiek pārbaudīts, vai tiesību piekļuvei tiek izmantota <a href='https://publications.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/access-right' target=”_blank”>kontrolētā vārdnīca</a>.</p>",
+                    "keywords_metric_3": "Tiek pārbaudīts, vai vērtība ir iestatīta vai nav.",
+                    "keywords_metric_2": "<p>Šī sadaļa apraksta visas dimensijas, kas MQA pārbauda, lai noteiktu kvalitāti. Izmēri ir atvasināti no <a target=’_blank’ href=’https://www.go-fair.org/fair-principles/'>FAIR principles <i class=’fas fa-external-link-alt fa-sm’></i><</a>.</p>\n\n<p>MQA iesaka un kredīti izmantošanu kontrolētas vārdnīcas. Portāls data.europa.eu publicē kontrolētās vārdnīcas <a href=“https://gitlab.com/european-data-portal/edp-vocabularies” target=“_blank”>GitLab</a>. Vārdnīcas ir atvasinātas no <a href=“https://op.europa.eu/en/web/eu-vocabularies/authority-tables” target=“_blank”>EU Vocabularies</a>.</p>",
+                    "keywords_metric_1": "Tiek pārbaudīts, vai vērtība ir iestatīta vai nav.",
+                    "dcat_name_6": "dct:Publisher",
+                    "dcat_name_5": "dcat:ContactPoint",
+                    "dcat_name_4": "dct:AccessRights",
+                    "dcat_name_3": "dct:AccessRights",
+                    "dcat_name_2": "dct:License",
+                    "dcat_name_1": "dct:License",
+                    "keywords_desc_6": "Publicētājs ir persona vai organizācija, kas publicējusi datus.",
+                    "keywords_desc_5": "Kontaktpunkts satur informāciju, pie kā vērsties, ja rodas jautājumi par datiem.",
+                    "keywords_desc_4": "Kontrolētas vārdnīcas izmantošana palielina atkārtotu izmantojamību.",
+                    "keywords_desc_3": "Šis lauks norāda, vai piekļuve datiem ir publiska vai ierobežota.",
+                    "keywords_desc_2": "Mēs vēlētos ierobežot nepareizas licences informācijas ierobežošanu. Piemēram, mēs saskaramies ar daudzām CC licencēm, kurām trūkst versiju.",
+                    "keywords_desc_1": "Licence ir vērtīga informācija atkārtotai datu izmantošanai."
+                },
+                "contextual": {
+                    "main_text": "Tālāk tabulā norādīti daži rekvizīti, kas sniedz lietotājam plašāku kontekstu. Šeit iespējams iegūt maksimāli 20 punktus.",
+                    "keywords_metric_4": "Tiek pārbaudīts, vai vērtība ir iestatīta vai nav.",
+                    "keywords_metric_3": "Tiek pārbaudīts, vai vērtība ir iestatīta vai nav.",
+                    "keywords_metric_2": "Tiek pārbaudīts, vai vērtība ir iestatīta vai nav.",
+                    "keywords_metric_1": "Tiek pārbaudīts, vai vērtība ir iestatīta vai nav.",
+                    "keywords_name_4": "Modificēšanas datums",
+                    "keywords_name_3": "Izdošanas datums",
+                    "keywords_name_2": "Faila lielums",
+                    "keywords_name_1": "Tiesības",
+                    "keywords_desc_4": "Datums, kurā pēdējoreiz mainīta datu kopa vai sadalījums.",
+                    "keywords_desc_3": "Datums, kurā izlaista datu kopa vai sadalījums.",
+                    "keywords_desc_2": "Norāda faila lielumu baitos.",
+                    "keywords_desc_1": "Atsevišķos gadījumos datu kopai nevar piešķirt konkrētu licenci. Lauku „Tiesības” var izmantot, lai pievienotu resursam atsauci, kas informēs lietotāju par to, kādas ir viņa tiesības, izmantojot datu kopu.",
+                    "dcat_name_4": "dcat:Modified",
+                    "dcat_name_3": "dct:Issued",
+                    "dcat_name_2": "dcat:ByteSize",
+                    "dcat_name_1": "dcat:Rights"
+                },
+                "table": {
+                    "metric_name": "Kritērijs",
+                    "dataset_and_distribution": "Datu kopa un sadalījums",
+                    "metric": "Rādītāji",
+                    "dataset": "Datu kopa",
+                    "desc": "Apraksts",
+                    "distribution": "Sadalījums",
+                    "weight": "Svars"
+                },
+                "accessible": {
+                    "main_text": " <p>Tālāk tabulā aprakstīts, kādi rādītāji izmantoti, lai noteiktu, vai ir piešķirta piekļuve datiem, uz ko atsaucas sadalījumi. Šeit iespējams iegūt maksimāli 100 punktus.</p>",
+                    "dcat_name_3": "dcat:spatial",
+                    "dcat_name_2": "dcat:downloadURL",
+                    "dcat_name_1": "dcat:accessURL",
+                    "keywords_desc_3": "Ja eksistē lejupielādes URL, tiek pārbaudīta pieejamība.",
+                    "keywords_desc_2": "Lejupielādes URL ir tiešā saite uz atsauces datiem.",
+                    "keywords_desc_1": "Piekļuves URL ne vienmēr ir tieša saite uz datiem. Tas var būt arī URL, kas sniedz piekļuvi datu kopai vai vietai, kur pieejama plašāka informācija par datu kopu.",
+                    "keywords_metric_3": "Attiecīgā URL pieejamība tiek pārbaudīta, izmantojot HTTP HEAD pieprasījumu. Ja atbildētā statusa kods ir robežās no 200 līdz 300, resursa pieejamība tiek novērtēta kā pozitīva.",
+                    "keywords_metric_2": "Tiek pārbaudīts, vai vērtība ir iestatīta vai nav.",
+                    "keywords_metric_1": "Attiecīgā URL pieejamība tiek pārbaudīta, izmantojot HTTP HEAD pieprasījumu. Ja atbildētā statusa kods ir robežās no 200 līdz 300, resursa pieejamība tiek novērtēta kā pozitīva.",
+                    "keywords_name_3": "Lejupielādes URL pieejamība",
+                    "keywords_name_2": "Lejupielādes URL",
+                    "keywords_name_1": "Piekļuves URL pieejamība"
+                },
+                "interoperable": {
+                    "main_text": " <p>Tālāk tabulā aprakstīti rādītāji, ko izmanto, lai noteiktu, vai sadalījums uzskatāms par sadarbspējīgu. Saskaņā ar pieņēmumu „identisks saturs ar vairākiem sadalījumiem” punktu aprēķināšanai tiek izmantots tikai sadalījums ar augstāko punktu skaitu. Šeit iespējams iegūt maksimāli 110 punktus.</p>",
+                    "keywords_desc_6": "<p>DCAT-AP atbilstība tiek aprēķināta visiem avotiem un datu kopām, kas pieejamas katalogā. Šo pārbaudi veic tikai tad, ja metadati sākotnēji ir iegūti kā DCAT-AP vai kā derīgs atvasinājums.</p><p>< a href=“https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe” target=“_blank”>DCAT-AP</a> ir specifikācija saistīto publisko datu aprakstīšanai Eiropā. Portālā data.europa.eu var ievākt arī metadatus, kas pilnībā neatbilst DCAT-AP. Lai palielinātu atbilstību DCAT-AP, MQA pārbauda katru metadatu par atbilstību DCAT-AP.</p>",
+                    "keywords_desc_5": "Pārbauda, vai sadalījuma formāts ir mašīnlasāms.",
+                    "keywords_desc_4": "Pārbauda, vai sadalījuma formāts ir nepatentēts.",
+                    "keywords_desc_3": "Pārbauda, vai formāts un multivides veids pieder kontrolētai vārdnīcai.",
+                    "keywords_desc_2": "Šis lauks norāda sadalījuma multivides veidu.",
+                    "keywords_desc_1": "Šis lauks norāda sadalījuma faila formātu.",
+                    "keywords_metric_6": "<p> Metadatus validē, izmantojot <a href=“https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe/releases” target=“_blank”>SHACL shapes</a>. Metadati nav atbilstīgi, ja SHACL validācijas ziņojumā ir vismaz viens jautājums.</p>\n\n<p>MQA izmanto <a href=“/shacl” target=“_blank”>data.europa.eu’s DCAT-AP SHACL</a> validācijas pakalpojums.</p> \n\n<p><a href=“https://www.w3.org/TR/shacl/” target=“_blank”>SHACL</a> ir W3C ieteikums, un to izmanto RDF grafiku validēšanai attiecībā pret formu kopumu.</p>",
+                    "keywords_metric_5": "Izplatīšanu uzskata par mašīnlasāmu, ja norādītais formāts ir ietverts attiecīgajos datos.europa.eu <a href=“https://gitlab.com/european-data-portal/edp-vocabularies” target=“_blank”>GitLab repository</a> vārdnīcā.",
+                    "keywords_metric_4": "Izplatīšanu uzskata par nepatentētu, ja norādītais formāts ir ietverts attiecīgajos datos.europa.eu <a href=“https://gitlab.com/european-data-portal/edp-vocabularies” target=“_blank”>GitLab repository</a> leksikā.",
+                    "keywords_metric_3": "<p> Formāta vārdnīca ir atrodama data.europa.eu <a href=“https://gitlab.com/european-data-portal/edp-vocabularies” target=“_blank”>GitLab repository</a>.</p>\n\n<p>Medija veids ir pārbaudīt, salīdzinot ar <a href=“https://www.iana.org/assignments/media-types/media-types.xhtml” target=“_blank”>IANA list</a></p>",
+                    "keywords_metric_2": "<p>Tiek pārbaudīts, vai rekvizīts ir iestatīts vai nav.</p>",
+                    "keywords_metric_1": "<p>Tiek pārbaudīts, vai rekvizīts ir iestatīts vai nav.</p>",
+                    "keywords_name_6": "DCAT-AP atbilstība",
+                    "keywords_name_5": "Mašīnlasāmība",
+                    "keywords_name_4": "Nepatentēts",
+                    "keywords_name_3": "Formāts/multivides veids no vārdnīcas",
+                    "keywords_name_2": "Multivides veids",
+                    "keywords_name_1": "Formāts",
+                    "dcat_name_6": "Datu kopa un sadalījums",
+                    "dcat_name_5": "DCT:Format dcat:MediaType vai/apakšīpašums",
+                    "dcat_name_4": "DCT:Format dcat:MediaType vai/apakšīpašums",
+                    "dcat_name_3": "DCT:Format dcat:MediaType vai/apakšīpašums",
+                    "dcat_name_2": "dcat:MediaType or subproperty of dct:Format",
+                    "dcat_name_1": "dct:Format"
+                },
+                "findability": {
+                    "keywords_desc_4": "Pagaidu informācijas izmantošana palīdzētu lietotājiem veikt uz laiku balstītu meklēšanu.",
+                    "keywords_desc_3": "Telpiskās informācijas izmantošana palīdzētu lietotājiem atrast datu kopu, izmantojot uz ģeogrāfiskajiem parametriem balstītu meklēšanu.",
+                    "keywords_desc_2": "Kategorijas palīdz lietotājiem iepazīties ar datu kopām tematiski.",
+                    "keywords_desc_1": "Meklēšanas laukā ieteicams ievadīt atslēgvārdus, tādējādi palielinot datu kopas atrašanas iespējamību.",
+                    "keywords_metric_4": "Tiek pārbaudīts, vai vērtība ir iestatīta vai nav.",
+                    "keywords_metric_3": "Tiek pārbaudīts, vai vērtība ir iestatīta vai nav.",
+                    "keywords_metric_2": "Tiek pārbaudīts, vai datu kopai ir piešķirta viena vai vairākas kategorijas. Piešķirto kategoriju skaits neietekmē rezultātu.",
+                    "keywords_metric_1": "Sistēma pārbauda, vai ir definēti atslēgvārdi. Atslēgvārdu skaits neietekmē rezultātu.",
+                    "keywords_name_4": "Uz laiku balstīta meklēšana",
+                    "keywords_name_3": "Ģeogrāfiskā meklēšana",
+                    "keywords_name_2": "Kategorijas",
+                    "keywords_name_1": "Atslēgvārdu izmantošana",
+                    "dcat_name_4": " dcat:temporal",
+                    "dcat_name_3": "dcat:spatial",
+                    "dcat_name_2": "dcat:theme",
+                    "dcat_name_1": "dcat:Keyword",
+                    "main_text": "<p> Tālāk tabulā aprakstīti rādītāji, kas palīdz cilvēkiem un mašīnām atrast datu kopas. Šeit iespējams iegūt maksimāli 100 punktus.</p>"
+                },
+                "main_text": "<p>Šajā sadaļā aprakstītas visas dimensijas, ko MKN pārbauda, lai noteiktu kvalitāti. Dimensijas ir atvasinātas no <a target='_blank' href='https://www.go-fair.org/fair-principles/'>FAIR principiem <i class='fas fa-external-link-alt fa-sm'></i></a>.</p>"
+            },
+            "scoring": {
+                "table": {
+                    "bad": "Slikti",
+                    "range": "Punktu diapazons",
+                    "sufficient": "Pietiekami",
+                    "scoring_cat": "Vērtējums",
+                    "good": "Labi",
+                    "max_points": "Maksimālais punktu skaits",
+                    "excellent": "Teicami",
+                    "sum": "Summa",
+                    "dimension": "Dimensija"
+                },
+                "main_text": "Datu kopas kopējo punktu skaitu veido punktu pievienošana par katru dimensiju.",
+                "text": "Galīgais vērtējums tiek noteikts, izmantojot četras vērtēšanas grupas. Punktu kartēšana vērtējuma kategorijā ir parādīta tālāk tabulā. Vērtējuma attēlojums MKN tiek izteikts, izmantojot tikai vērtējuma kategorijas. Tas ļauj sniedzējiem iegūt augstāko vērtējumu arī tad, ja nedaudz tiek atskaitīti punkti.",
+                "headline": "Vērtējums"
+            },
+            "headline": "Metadatu kvalitātes novērtējuma metodika",
+            "cover": {
+                "validator_service": "DCAT-AP SHACL validācijas pakalpojums API",
+                "main_text": " <p> MQA ierobežo metadati, ko tā var pārbaudīt. Izmeklēšana attiecas tikai uz metadatiem, ko dati.europa.eu vāc ražas novākšanas laikā. Ja avota metadatos ir kļūdas, tās var falsificēt kopējo rezultātu. Lai ierobežotu šo kļūdu potenciālu, MQA nodrošina validācijas pakalpojumu, ko datu sniedzēji var izmantot, lai validētu savus metadatus derīgiem formātiem un atbilstīgiem DCAT-AP pirms to integrēšanas ieguves procesā.",
+                "validator_ui": "DCAT-AP SHACL validācijas pakalpojuma tīmekļa lapa ",
+                "headline": "Ko mēs neaptveram"
+            },
+            "process": {
+                "main_text": "<p> Līdz ar katru metadatu ievākšanas reizi tos pārbauda arī MKN. MKN mēra dažādu kritēriju kvalitāti; katrs kritērijs ir izskaidrots tālāk esošajās tabulās. Pārbaužu rezultāti tiek saglabāti kā datu kvalitātes vārdnīca <a href='https://www.w3.org/TR/vocab-dqv/”>(DKV) <i class='fas fa-external-link-alt fa-sm'></i></a>. DKV ir globālā tīmekļa konsorcija specifikācija, ko izmanto datu kopas kvalitātes aprakstīšanai.</p>\n\n<p>Tā kā pieejamība var būt mainīga, nepieciešamas piekļuves URL un lejupielādes URL atkārtotas pārbaudes. Šī iemesla dēļ MKN regulāri pārbauda sadalījumu pieejamību. Salīdzinot ar citu kritēriju verifikāciju, šim ir lielāks izpildlaiks, jo sadalījumi tiek pārbaudīti, izmantojot HTTP, un katram pieprasītajam URL var būt ilgāks atbildes laiks. MKN izmanto mehānismu, kas ņem vērā to, ka katra URL pieejamība tiek atkārtoti pārbaudīta pāris nedēļu laikā kopš pēdējās pārbaudes.</p>",
+                "headline": "MKN process"
+            },
+            "scope": {
+                "main_text": "<p> Izmantojot MKN, vēlamies atbildēt uz šādu jautājumu: <br> Kāda ir publiskā sektora datu metadatu kvalitāte Eiropas mērogā un kādi ir lielākie šķēršļi labākas kvalitātes iegūšanai? </p><p>Balstoties uz to, MKN šobrīd pēta šādus konkrētus jautājumus:</p><ul><li> atbilstību DCAT-AP un DCAT-AP atvasinājumiem; </li><li> tādas informācijas atklāšanu, ko DCAT-AP nav pienākums izpaust;</li><li> metadatos norādīto datu pieejamību, izmantojot piekļuves un lejupielādes URL;</li><li> atsauces datu mašīnlasāmību; </li><li> licenču izmantošanu.</li></ul><p> Katrs jautājums atkal noved pie individuālas izskatīšanas, kas plašāk aprakstīta tālāk.</p>",
+                "headline": "Izpētes joma"
+            },
+            "assumptions": {
+                "main_text": "<p> MQA pamatā ir šādi pieņēmumi.</p><h6> Neobligātu lauku izmantošana</h6><p>Mēs uzskatām, ka DCAT-AP obligāto lauku aizpildīšana vien nav pietiekama, lai nodrošinātu augstas kvalitātes metadatus. Šā iemesla dēļ novērtējumā pārbauda arī laukus, kas nav norādīti kā obligāti saskaņā ar DCAT-AP. Precīzi pārbaudītie lauki ir uzskaitīti zemāk.</p>< h6> \n\nIdentisks saturs vairākiem distribūcijām</h6><p>Ja datu kopa satur vairāk nekā vienu izplatīšanu, visi izplatīšanas veidi ir identiski satura ziņā, tie atšķiras tikai pēc datu attēlojuma. Piemēram, datu kopai var būt divas sadales, no kurām viena piedāvā datus PDF formātā un otra piedāvā identiskus datus kā mašīnlasāmu RDF/XML. Šī definīcija ir saistīta ar to, kā datu kopas tiek novērtētas MQA (tāda veida “paraugprakse”), bet tā nebūtu jāuzskata par sadales standarta definīciju.</p>",
+                "headline": "Pieņēmumi"
+            },
+            "intro_text": "<p><strong> Metadatu kvalitātes novērtējums (MQA) ir rīks, ko izstrādājis data.europa.eu konsorcijs, lai pētītu ar data.europa.eu ievākto metadatu kvalitāti.</strong> Tas ir paredzēts, lai palīdzētu datu sniedzējiem un datu portāliem pārbaudīt metadatu kvalitāti un saņemt ieteikumus uzlabojumiem. Rezultāti tiek prezentēti, izmantojot MQA, un ir pieejami arī kā lejupielāde. Tālāk mēs raksturojam MQA funkcionalitāti un tās izmantoto metodiku.</p>\nJa šī lapa joprojām neatbild uz visiem jūsu jautājumiem, lūdzu, sazinieties ar mums, izmantojot mūsu atsauksmju veidlapu lapas beigās. </p>",
+            "sub_headline": "Kā data.europa.eu mēra visu saglabāto metadatu kvalitāti"
+        },
+        "header": {
+            "navigation": {
+                "usingData": {
+                    "checklistForUsingData": "Kontrolsaraksts datu izmantošanai",
+                    "useCases": "Izmantošanas gadījumi",
+                    "tellUsYourStory": "Pastāstiet mums savu stāstu",
+                    "title": "Datu izmantošana",
+                    "benefitsOfUsingData": "Ieguvumi no datu izmantošanas"
+                },
+                "impactStudies": {
+                    "useCases": "Izmantošanas gadījumi",
+                    "overview": "Pārskats",
+                    "opendatamaturity": "Situācija atklāto datu jomā",
+                    "countryInsights": "Informācija par valsti",
+                    "tellUsYourStory": "Pastāstiet mums savu stāstu",
+                    "studies": "Pētījumi",
+                    "opendataimpact": "Atvērto datu ietekme",
+                    "title": "Ietekme un pētījumi"
+                },
+                "training": {
+                    "dataProvidersGuide": "Datu sniedzēja ceļvedis",
+                    "whatIsOpenData": "Kas ir atvērtie dati",
+                    "title": "Apmācības",
+                    "elearning": "E-mācības",
+                    "moreTrainingMaterial": "Papildu mācību materiāli",
+                    "licensingAssistant": "Licencēšanas palīgs"
+                },
+                "data": {
+                    "datasets": "Datu kopas ",
+                    "sparqlsearch": "SPARQL meklēšana",
+                    "metadataQuality": "Metadatu kvalitāte",
+                    "licensingAssistant": "Licencēšanas palīgs",
+                    "title": "Dati",
+                    "statistics": "Statistika",
+                    "euInternationalData": "ES un starptautiskie dati",
+                    "sparqlManager": "SPARQL pārvaldnieks",
+                    "catalogues": "Katalogi",
+                    "countryData": "Valsts dati"
+                },
+                "resources": {
+                    "moreTrainingMaterial": "Papildu mācību materiāli",
+                    "title": "Resursi",
+                    "elearning": "E-mācības",
+                    "trainingCompanion": "Apmācības palīgs",
+                    "reportsAboutOpenData": "Ziņojumi par atvērtajiem datiem"
+                },
+                "providingData": {
+                    "beHarvestedByUs": "Pieteikties rasmošanai",
+                    "title": "Datu sniegšana",
+                    "cataloguesHarvestedByUs": "Mūsu rasmotie katalogi",
+                    "practicalGuide": "Rokasgrāmata"
+                },
+                "whatWeDo": {
+                    "openDataMaturity": "Situācija atvērto datu jomā",
+                    "ourActivities": "Mūsu darbības",
+                    "factsheetsAndReports": "Faktu lapas un ziņojumi",
+                    "title": "Ko mēs darām",
+                    "calendar": "Kalendārs",
+                    "featuredHighlights": "Aktuālie raksti",
+                    "news": "Ziņas"
+                },
+                "about": {
+                    "beHarvestedByUs": "Pieteikties rasmošanai",
+                    "documentation": "Dokumentācija",
+                    "title": "Par",
+                    "europeanDataPortal": "Eiropas Datu Portāls"
+                },
+                "newsEvents": {
+                    "title": "Ziņas un notikumi",
+                    "events": "Notikumi",
+                    "news": "Ziņas"
+                }
+            },
+            "subnav": {
+                "contact": "Kontakti",
+                "legalNotice": "Juridisks paziņojums",
+                "search": "Meklēt",
+                "newsletter": "Biļetens",
+                "cookies": "Sīkdatnes",
+                "login": "Pieteikties",
+                "faq": "BUJ"
+            },
+            "searchInputPlaceholder": "Meklēt vietnes saturā",
+            "european": "Eiropas",
+            "searchOptions": {
+                "siteContent": "Vietnes saturs",
+                "datasets": "Datu kopas"
+            },
+            "dataPortal": "datu portāls"
+        },
+        "footer": {
+            "links": {
+                "search": "Meklēt",
+                "newsletter": "Biļetens",
+                "faq": "BUJ",
+                "contact": "Kontakti",
+                "subscribe": "Pierakstīties",
+                "cookies": "Sīkdatnes",
+                "login": "Pieteikties",
+                "legalNotice": "Juridisks paziņojums"
+            },
+            "managedBy": "Pārvalda Eiropas Savienības Publikāciju birojs.",
+            "fundedBy": "Finansē Eiropas Savienība",
+            "newsletter": "Abonējiet mūsu biļetenu",
+            "helpUsImproveText": "Jūsu atsauksmes palīdzēs mums uzlabot lietotāja pieredzi. Vai varat ko ieteikt?",
+            "newsletterText": "Abonējiet mūsu biļetenu",
+            "subscribe": "Abonēt",
+            "followUs": "Sekojiet mums",
+            "lastUpdate": "Pēdējoreiz atjaunināta",
+            "helpUsImprove": "Palīdziet mums pilnveidoties"
+        },
+        "maintenance_message": "Labas ziņas! Mēs uzlabojam mūsu sistēmu. Tikmēr šis komponents ir uzturēšanas režīmā un nevar parādīt visus pieejamos datus.",
+        "catalogue_list": {
+            "description": "Atlasiet katalogu detalizētai informācijai",
+            "search": {
+                "placeholder": "Meklējiet pēc kataloga nosaukuma vai apraksta"
+            }
+        },
+        "title": "Metadata Quality Assurance",
+        "empty": "",
+        "no_data": "Šim kritērijam nav mērījumu",
+        "meta": {
+            "description": "Metadatu kvalitātes nodrošināšanas rīks, kas, izmantojot dažādus rādītājus, sniedz vispārēju pārskatu par visiem data.europa.eu atvērto datu portālā pieejamajiem metadatiem."
+        }
+    }
+}

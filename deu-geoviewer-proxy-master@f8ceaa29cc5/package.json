@@ -1,0 +1,35 @@
+{
+  "name": "ckan-proxy",
+  "version": "1.0.0",
+  "description": "CKAN CORS Proxy",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/52North/ckan-proxy",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/52North/ckan-proxy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/52North/ckan-proxy/issues"
+  },
+  "author": {
+    "name": "Christian Autermann",
+    "github": "https://github.com/autermann",
+    "email": "c.autermann@52north.org"
+  },
+  "contributors": [
+    {
+      "name": "Christian Autermann",
+      "github": "https://github.com/autermann",
+      "email": "c.autermann@52north.org"
+    }
+  ],
+  "main": "./lib/proxy.js",
+  "type": "module",
+  "bin": "./bin/index.js",
+  "dependencies": {
+    "bunyan": "^1.8.15",
+    "extend": "^2.0.2",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}

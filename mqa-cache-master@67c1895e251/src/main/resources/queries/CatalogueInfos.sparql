@@ -1,0 +1,38 @@
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX edp: <https://europeandataportal.eu/voc#>
+
+SELECT DISTINCT ?catalogue ?title ?description ?spatial ?type WHERE
+{
+    GRAPH ?g
+    {
+        ?catalogue a dcat:Catalog
+
+        OPTIONAL
+        {
+            ?catalogue dct:title ?title
+        }
+
+        OPTIONAL
+        {
+            ?catalogue dct:description ?description
+        }
+
+        OPTIONAL
+        {
+            ?catalogue dct:spatial ?spatial
+        }
+
+        OPTIONAL
+        {
+            ?catalogue dct:type ?type
+        }
+
+        OPTIONAL
+        {
+            ?catalogue edp:visibility ?visibility
+        }
+
+        FILTER (!BOUND(?visibility) || ?visibility != edp:hidden)
+    }
+}

@@ -1,0 +1,213 @@
+{
+  "accessibility" : {
+    "score" : {
+      "points" : 35.0,
+      "percentage" : 35.0
+    },
+    "accessUrlStatusCodes" : [ {
+      "name" : "200",
+      "percentage" : 48.0
+    }, {
+      "name" : "400",
+      "percentage" : 3.0
+    }, {
+      "name" : "403",
+      "percentage" : 1.0
+    }, {
+      "name" : "1100",
+      "percentage" : 44.0
+    }, {
+      "name" : "404",
+      "percentage" : 1.0
+    }, {
+      "name" : "405",
+      "percentage" : 3.0
+    } ],
+    "downloadUrlStatusCodes" : [ {
+      "name" : "200",
+      "percentage" : 38.0
+    }, {
+      "name" : "1100",
+      "percentage" : 62.0
+    } ],
+    "downloadUrlAvailability" : [ {
+      "name" : "yes",
+      "percentage" : 31.0
+    }, {
+      "name" : "no",
+      "percentage" : 69.0
+    } ]
+  },
+  "contextuality" : {
+    "score" : {
+      "points" : 6.0,
+      "percentage" : 30.0
+    },
+    "rightsAvailability" : [ {
+      "name" : "yes",
+      "percentage" : 17.0
+    }, {
+      "name" : "no",
+      "percentage" : 83.0
+    } ],
+    "byteSizeAvailability" : [ {
+      "name" : "yes",
+      "percentage" : 35.0
+    }, {
+      "name" : "no",
+      "percentage" : 65.0
+    } ],
+    "dateIssuedAvailability" : [ {
+      "name" : "yes",
+      "percentage" : 100.0
+    }, {
+      "name" : "no",
+      "percentage" : 0.0
+    } ],
+    "dateModifiedAvailability" : [ {
+      "name" : "yes",
+      "percentage" : 34.0
+    }, {
+      "name" : "no",
+      "percentage" : 66.0
+    } ]
+  },
+  "findability" : {
+    "score" : {
+      "points" : 84.0,
+      "percentage" : 84.0
+    },
+    "keywordAvailability" : [ {
+      "name" : "yes",
+      "percentage" : 94.0
+    }, {
+      "name" : "no",
+      "percentage" : 6.0
+    } ],
+    "categoryAvailability" : [ {
+      "name" : "yes",
+      "percentage" : 94.0
+    }, {
+      "name" : "no",
+      "percentage" : 6.0
+    } ],
+    "spatialAvailability" : [ {
+      "name" : "yes",
+      "percentage" : 82.0
+    }, {
+      "name" : "no",
+      "percentage" : 18.0
+    } ],
+    "temporalAvailability" : [ {
+      "name" : "yes",
+      "percentage" : 57.0
+    }, {
+      "name" : "no",
+      "percentage" : 43.0
+    } ]
+  },
+  "info" : {
+    "id" : "govdata",
+    "title" : "GovData",
+    "description" : "Open Data Portal Germany",
+    "spatial" : "DEU",
+    "type" : "dcat-ap"
+  },
+  "interoperability" : {
+    "score" : {
+      "points" : 50.0,
+      "percentage" : 45.0
+    },
+    "formatAvailability" : [ {
+      "name" : "yes",
+      "percentage" : 93.0
+    }, {
+      "name" : "no",
+      "percentage" : 7.0
+    } ],
+    "mediaTypeAvailability" : [ {
+      "name" : "yes",
+      "percentage" : 20.0
+    }, {
+      "name" : "no",
+      "percentage" : 80.0
+    } ],
+    "formatMediaTypeAlignment" : [ {
+      "name" : "yes",
+      "percentage" : 13.0
+    }, {
+      "name" : "no",
+      "percentage" : 87.0
+    } ],
+    "formatMediaTypeNonProprietary" : [ {
+      "name" : "yes",
+      "percentage" : 67.0
+    }, {
+      "name" : "no",
+      "percentage" : 33.0
+    } ],
+    "formatMediaTypeMachineReadable" : [ {
+      "name" : "yes",
+      "percentage" : 56.0
+    }, {
+      "name" : "no",
+      "percentage" : 44.0
+    } ],
+    "dcatApCompliance" : [ {
+      "name" : "yes",
+      "percentage" : 0.0
+    }, {
+      "name" : "no",
+      "percentage" : 100.0
+    } ]
+  },
+  "reusability" : {
+    "score" : {
+      "points" : 61.0,
+      "percentage" : 81.0
+    },
+    "licenceAvailability" : [ {
+      "name" : "yes",
+      "percentage" : 100.0
+    }, {
+      "name" : "no",
+      "percentage" : 0.0
+    } ],
+    "licenceAlignment" : [ {
+      "name" : "yes",
+      "percentage" : 87.0
+    }, {
+      "name" : "no",
+      "percentage" : 13.0
+    } ],
+    "accessRightsAvailability" : [ {
+      "name" : "yes",
+      "percentage" : 62.0
+    }, {
+      "name" : "no",
+      "percentage" : 38.0
+    } ],
+    "accessRightsAlignment" : [ {
+      "name" : "yes",
+      "percentage" : 0.0
+    }, {
+      "name" : "no",
+      "percentage" : 100.0
+    } ],
+    "contactPointAvailability" : [ {
+      "name" : "yes",
+      "percentage" : 77.0
+    }, {
+      "name" : "no",
+      "percentage" : 23.0
+    } ],
+    "publisherAvailability" : [ {
+      "name" : "yes",
+      "percentage" : 100.0
+    }, {
+      "name" : "no",
+      "percentage" : 0.0
+    } ]
+  },
+  "score" : 236.0
+}

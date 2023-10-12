@@ -1,0 +1,30 @@
+PREFIX dct:  <http://purl.org/dc/terms/>
+
+SELECT ?preferred ?default ?empty ?any WHERE
+{
+    GRAPH ?g
+    {
+        OPTIONAL
+        {
+            <%1$s> dct:title ?preferred
+            FILTER(LANGMATCHES(LANG(?preferred), '%2$s'))
+        }
+
+        OPTIONAL
+        {
+            <%1$s> dct:title ?default
+            FILTER(LANGMATCHES(LANG(?default), '%3$s'))
+        }
+
+        OPTIONAL
+        {
+            <%1$s> dct:title ?empty
+            FILTER(LANGMATCHES(LANG(?empty), ''))
+        }
+
+        OPTIONAL
+        {
+            <%1$s> dct:title ?any
+        }
+    }
+} LIMIT 1

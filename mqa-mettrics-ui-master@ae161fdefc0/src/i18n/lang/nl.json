@@ -1,0 +1,525 @@
+{
+    "message": {
+        "navigation": {
+            "dashboard": "Dashboard",
+            "download_report": {
+                "help": "Download het volledige rapport van deze catalogus",
+                "second_ods": "Open Document Spreadsheet (.ods)",
+                "direct": "Download als rapport",
+                "second_xls": "Microsoft Excel (.xlsx)",
+                "second_pdf": "Portable Document Format (.pdf)"
+            },
+            "catalogues": "Catalogi",
+            "about": "Documentatie",
+            "methodology": "Methodologie",
+            "validation": "bevestiging"
+        },
+        "dashboard": {
+            "overview": {
+                "header": {
+                    "allCatalogues": "alle catalogi",
+                    "topNumber": "Top {number}",
+                    "topNumberCatalogues": "Top {number} catalogi"
+                },
+                "table_tooltip": {
+                    "dcat_ap": "Het percentage DCAT-AP-conforme metagegevens. Deze controle wordt alleen uitgevoerd voor portalen die DCAT-AP leveren, bijvoorbeeld via de CKANEXT-DCAT-uitbreiding.",
+                    "machine_readability": "Het percentage distributies dat een machine-interpretabel formaat wordt.",
+                    "accessibility_download_url": "Het percentage beschikbare download URL's. De toegankelijkheid wordt bepaald met behulp van een HTTP GET-methode. Omdat de DownloadURL geen verplichte informatie is, kan er geen controle plaatsvinden in geval van ontbrekende informatie.",
+                    "known_licenses": "Het percentage bekende gebruikte licenties. Voor meer informatie over bekende licenties, zie de volgende paragrafen. Omdat de licentie niet verplicht is, kan er geen controle plaatsvinden als er informatie ontbreekt.",
+                    "accessibility_access_url": "Het percentage toegankelijke AccessURLs. De toegankelijkheid wordt bepaald met behulp van een HTTP GET-methode."
+                },
+                "headline": "Overzicht",
+                "table_title": {
+                    "desc": "Beschrijving",
+                    "known_licences": "Bekende licenties",
+                    "dcat_ap": "DCAT-AP-conformiteit",
+                    "accessibility_access_url": "Toegankelijkheid toegangs-URL",
+                    "accessibility_download_url": "Toegankelijkheid download-URL",
+                    "country": "Land",
+                    "scoring": "Score",
+                    "machine_readability": "Machineleesbaarheid",
+                    "rating": "Score",
+                    "name": "Naam"
+                },
+                "table_description": "In de volgende tabel wordt een overzicht gegeven van de vier genoemde criteria. U kunt de tabel sorteren door op de kopjes van de kolommen te klikken. De MQA kan alleen informatie interpreteren die is verstrekt door de bronportalen. Distributies, de download-URL en licentie-informatie zijn niet verplicht en de MQA geeft ontbrekende informatie aan met een minteken (\"-\"). De DCAT-AP-conformiteit kan alleen worden bepaald als het bronportaal metadata verschaft in de vorm van DCAT-AP-gekoppelde gegevens. Andere formaten worden aangemerkt met een minteken (\"-\")."
+            },
+            "interoperability": {
+                "plots": {
+                    "title": {
+                        "formatMediaTypeAlignment": "Formaat / Mediatype uit vocabulaire",
+                        "formatMediaTypeNonProprietary": "Niet-eigendom",
+                        "mediaTypeAvailability": "Mediatype",
+                        "formatAvailability": "Formaat",
+                        "dcatApCompliance": "DCAT-AP-conformiteit",
+                        "formatMediaTypeMachineReadable": "Machineleesbaar"
+                    }
+                },
+                "description": "Dit zijn indicatoren die de interoperabiliteit van een dataset verkrijgen",
+                "title": "Interoperabiliteit"
+            },
+            "reusability": {
+                "description": "In de volgende tabel wordt omschreven welke maatstaven worden gebruikt om de herbruikbaarheid van de data te controleren. Er kunnen maximaal 75 punten worden gescoord op dit gebied.",
+                "plots": {
+                    "title": {
+                        "accessRightsAlignment": "Toegangsrestricties vocabulaire",
+                        "contactPointAvailability": "Contactpunt",
+                        "licenceAlignment": "Licentie-vocabulaire",
+                        "publisherAvailability": "Uitgever",
+                        "licenceAvailability": "Informatie over licenties",
+                        "accessRightsAvailability": "Toegangsrestricties"
+                    }
+                },
+                "title": "Herbruikbaarheid"
+            },
+            "show_history": "Geschiedenis tonen",
+            "contextuality": {
+                "description": "Informatie die meer context biedt aan de gebruiker",
+                "plots": {
+                    "title": {
+                        "dateIssuedAvailability": "Datum van afgifte",
+                        "rightsAvailability": "Rechten",
+                        "byteSizeAvailability": "Bestandsgrootte",
+                        "dateModifiedAvailability": "Datum van bewerking"
+                    }
+                },
+                "title": "Contextgebondenheid"
+            },
+            "accessibility": {
+                "plots": {
+                    "title": {
+                        "accessibilityOfDistributions": "Beschikbaarheid van Distributies",
+                        "accessUrlAvailability": "AccessURL beschikbaar",
+                        "existingDownloadUrl": "Bestaande download-URL's",
+                        "accessibilityAccessUrl": "Beschikbaarheid van Access-URL's",
+                        "accessUrl": "AccessURL",
+                        "accessUrlStatusCodes": "Meest voorkomende accessURL-statuscodes",
+                        "downloadUrlStatusCodes": "Meest voorkomende downloadURL-statuscodes",
+                        "downloadUrlAvailability": "Download-URL",
+                        "statusErrorCode": "Foutstatuscodes",
+                        "accessibilityDownloadUrl": "Beschikbaarheid van Download-URL's"
+                    }
+                },
+                "title": "Toegankelijkheid",
+                "headline": "Beschikbare distributies",
+                "description": "De volgende diagrammen verschaffen informatie over de toegankelijkheid van distributies. Voor elke URL van een distributie wordt een HTTP HEAD-verzoek uitgevoerd en de reactie gecontroleerd. De download-URL is facultatief op grond van DCAT-AP en moet duidelijk als zodanig worden aangemerkt op het bronportaal. Dit kan alleen voor bronportalen die hun metadata in DCAT-AP verstrekken."
+            },
+            "site_title": "European Data Portal | MQA | Dashboard",
+            "findability": {
+                "title": "Vindbaarheid",
+                "plots": {
+                    "title": {
+                        "keywordAvailability": "Trefwoordgebruik",
+                        "spatialAvailability": "Zoeken op geografie",
+                        "temporalAvailability": "Zoeken op tijd",
+                        "categoryAvailability": "Categorieën"
+                    }
+                },
+                "description": "Dit zijn indicatoren die mensen en machines helpen bij het vinden van datasets"
+            },
+            "scoring": {
+                "description": "De score geeft de algemene kwaliteit van de metadata aan voor alle dimensies.",
+                "plots": {
+                    "known": "bekend",
+                    "unknown": "onbekend",
+                    "title": {
+                        "timeBasedScoring": "Evolutie score"
+                    }
+                },
+                "title": "Evolutie score"
+            },
+            "show_today": "Vandaag weergeven",
+            "weight": "Gewicht",
+            "points": "Punten",
+            "intro": {
+                "desc": "<p>De Metadata Quality Assurance is bedoeld om dataproviders en dataportalen te helpen hun metadata te controleren aan de hand van verschillende indicatoren. Voor informatie over welke metrics we gebruiken voor indicatormetingen, kijk dan op onze methodiekpagina.</p>\n<p>Deze pagina geeft een algemeen overzicht van alle metadata die beschikbaar zijn voor data.europa.eu. Voor een gedetailleerde weergave van elke afzonderlijke catalogus, gebruik de catalogus pagina en selecteer de gewenste catalogus.</p>"
+            },
+            "dimensions": "Dimensies"
+        },
+        "catalogue_detail": {
+            "introduction": "Op deze pagina is de algemene status van de catalogus te zien wat betreft distributies en DCAT-AP-conformiteit.",
+            "harvesting": {
+                "run": {
+                    "updated": "Bijgewerkt",
+                    "duration": "Duur (dagen uren:minuten:seconden)",
+                    "show_log": "Logboekvermeldingen van laatste uitvoering weergeven",
+                    "end": "Eindtijd",
+                    "start": "Starttijd",
+                    "log_noattachment": "Er is een fout opgetreden bij het ophalen van de bijlage",
+                    "skipped": "Overgeslagen",
+                    "log": "{0} Logboeken {1} tot {2} van {3}",
+                    "deleted": "Gewist",
+                    "no_runs": "Geen oude vergaringen beschikbaar of nog geen vergaringen gepland.",
+                    "rejected": "Geweigerd",
+                    "added": "Toegevoegd"
+                },
+                "repository_harvester": "Broncatalogus gegevensbank",
+                "show_script": "Transformatiescript weergeven",
+                "show_information": "Vergaardergegevens weergeven",
+                "publisher": "Uitgever",
+                "next_schedule": "Volgend schema",
+                "default_language": "Standaardtaal",
+                "homepage": "Startpagina",
+                "email_address": "E-mailadres",
+                "incremental": "Oplopend",
+                "frequency": "Frequentie",
+                "type": "Type",
+                "transformation_script": "{0} Transformatiescript",
+                "title": "Informatie aan het vergaren",
+                "not_present": "Dit is geen vergaarde catalogus. Er is derhalve geen vergaringsinformatie beschikbaar.",
+                "last_run": "Laatste vergaring"
+            },
+            "violations": {
+                "location": "Locatie van overtreding",
+                "non_compliant": "Niet geldig",
+                "resultPath": "Resultaatpad",
+                "subheadline": "Overtredingen dataset",
+                "title": "Niet-geldige datasets",
+                "value": "Waarde",
+                "desc": "Beschrijving van overtreding",
+                "site_title": "European Data Portal | MQA | Overtredingen",
+                "introduction": "Deze weergave toont alle datasets die niet conform de SHACL DCAT-AP-regels zijn.",
+                "own_headline": "Overtredingen DCAT-AP-schema",
+                "resultMessage": "Resultaatbericht"
+            },
+            "distributions": {
+                "introduction": "Deze pagina toont alle datasets waarvoor geen toegankelijke distributies bestaan",
+                "help": "Kijk naar niet-toegankelijke distributies uit de gekozen catalogus",
+                "mediatype_checked": "MediaType (uit test)",
+                "desc": "Datasets met niet-toegankelijke distributies",
+                "not_available_access": "Geen toegangs-URL beschikbaar",
+                "title": "Toegankelijkheidsproblemen met distributie",
+                "format": {
+                    "not_machine_readable": "Niet machineleesbaar",
+                    "name": "Formaat"
+                },
+                "not_available_dl": "Geen download-URL beschikbaar",
+                "download_url": "Download-URL",
+                "mediatype_given": "MediaType (uit test)",
+                "nodistributions": "Geen distributies beschikbaar voor controle",
+                "access_url": "Access URL",
+                "site_title": "European Data Portal | MQA | distributies",
+                "availability_checked_on": "Beschikbaarheid gecontroleerd op {date}"
+            },
+            "call_to_action": "Catalogus voor details selecteren",
+            "title": "Catalogus Dashboard",
+            "site_title": "European Data Portal | MQA | Dashboard"
+        },
+        "common": {
+            "compliant": "Conform",
+            "json": "CKAN JSON",
+            "deu": {
+                "url": "www.data.europa.eu",
+                "title": "data.europa.eu"
+            },
+            "site_title_violations": "Overtreding DCAT-AP-schema",
+            "all": "allemaal",
+            "close": "Sluiten",
+            "affacteddatasets": "De betreffende datasets",
+            "cataloguedetails": "Weergave met catalogusdetails",
+            "previous": "Vorige",
+            "violation": "Overtreding DCAT-AP-schema",
+            "edp": {
+                "title": "European Data Portal"
+            },
+            "yes": "Ja",
+            "error": "Fout",
+            "portal_page": "Portaal pagina",
+            "since": "Sinds",
+            "site_title": "Kwaliteit van metadata | Officieel portaal voor EU-data",
+            "version": "Versie",
+            "ok": "Ok",
+            "distributions": "Distributies",
+            "no": "Nee",
+            "violations": "Overtredingen DCAT-AP-schema",
+            "download_url": "Download-URL",
+            "datasets": "Datasets",
+            "site_title_distributions": "Toegankelijkheidsproblemen met distributie",
+            "home": "Home",
+            "page": "Pagina",
+            "notavailable": "Niet bereikbaar",
+            "status": "Status"
+        },
+        "methodology": {
+            "dimensions": {
+                "reuse": {
+                    "main_text": "<p>In de volgende tabel worden de maatstaven omschreven die worden gebruikt om de herbruikbaarheid van de data te controleren. Er kunnen maximaal 75 punten gescoord worden op dit gebied.</p>",
+                    "keywords_name_6": "Uitgever",
+                    "keywords_name_5": "Contactpunt",
+                    "keywords_name_4": "Toegangsrestricties vocabulaire",
+                    "keywords_name_3": "Toegangsrestricties",
+                    "keywords_name_2": "Licentie-vocabulaire",
+                    "keywords_name_1": "Licentie-informatie",
+                    "keywords_metric_6": "Er wordt gecontroleerd of de eigenschap is ingesteld of niet.",
+                    "keywords_metric_5": "Er wordt gecontroleerd of de eigenschap is ingesteld of niet.",
+                    "keywords_metric_4": "<p>Er wordt gecontroleerd of het <a href='https://publications.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/access-right' target='_blank'>gecontroleerd vocabulaire voor toegangsrechten</a> is gebruikt.</p>",
+                    "keywords_metric_3": "Er wordt gecontroleerd of de eigenschap is ingesteld of niet.",
+                    "keywords_metric_2": "<p>Dit gedeelte beschrijft alle dimensies die de MQA onderzoekt om de kwaliteit te bepalen. De afmetingen zijn afgeleid van de <a target='_blank' href='https://www.go-fair.org/fair-principles/'>FAIR principes <i class='fas fa-external-link-alt fa-sm'></i></a>.</p>\n\n<p>De MQA adviseert en crediteert het gebruik van gecontroleerde vocabularies. Het data.europa.eu-portaal publiceert zijn gecontroleerde vocabulaires in <a href=„https://gitlab.com/european-data-portal/edp-vocabularies” target=„_blank”>GitLab</a>. De woordenschats zijn afgeleid van de <a href=„https://op.europa.eu/en/web/eu-vocabularies/authority-tables” target=„_blank”>EU Vocabularies</a>.</p>",
+                    "keywords_metric_1": "Er wordt gecontroleerd of de eigenschap is ingesteld of niet.",
+                    "dcat_name_6": "dct:Publisher",
+                    "dcat_name_5": "dcat:ContactPoint",
+                    "dcat_name_4": "dct:AccessRights",
+                    "dcat_name_3": "dct:AccessRights",
+                    "dcat_name_2": "dct:License",
+                    "dcat_name_1": "dct:License",
+                    "keywords_desc_6": "De uitgever is een persoon of organisatie die de data gepubliceerd heeft.",
+                    "keywords_desc_5": "Het contactpunt bevat informatie over degene aan wie vragen gesteld kunnen worden over de data.",
+                    "keywords_desc_4": "Het gebruik van een gecontroleerd vocabulaire verhoogt bruikbaarheid.",
+                    "keywords_desc_3": "Dit veld geeft aan of toegang tot de data openbaar of beperkt is.",
+                    "keywords_desc_2": "We willen graag de indicatie van incorrecte licentie-informatie beperken. We zien bijvoorbeeld veel CC-licenties zonder versiebeheer.",
+                    "keywords_desc_1": "Een licentie is waardevolle informatie voor het hergebruik van data."
+                },
+                "contextual": {
+                    "main_text": "In de volgende tabel wordt een aantal lichtgewicht eigenschappen getoond die de gebruiker meer context bieden. Er kunnen maximaal 20 punten worden gescoord op dit gebied.",
+                    "keywords_metric_4": "Er wordt gecontroleerd of de eigenschap is ingesteld of niet.",
+                    "keywords_metric_3": "Er wordt gecontroleerd of de eigenschap is ingesteld of niet.",
+                    "keywords_metric_2": "Er wordt gecontroleerd of de eigenschap is ingesteld of niet.",
+                    "keywords_metric_1": "Er wordt gecontroleerd of de eigenschap is ingesteld of niet.",
+                    "keywords_name_4": "Datum van bewerking",
+                    "keywords_name_3": "Datum van afgifte",
+                    "keywords_name_2": "Bestandsgrootte",
+                    "keywords_name_1": "Rechten",
+                    "keywords_desc_4": "De datum waarop de dataset of distributie voor het laatst is gewijzigd.",
+                    "keywords_desc_3": "De datum waarop de dataset of distributie is uitgebracht.",
+                    "keywords_desc_2": "Geeft de grootte van het bestand aan in bytes.",
+                    "keywords_desc_1": "In sommige gevallen kan een specifieke licentie niet worden toegepast op een dataset. Het veld 'Rechten' kan worden gebruikt om een verwijzing naar een bron op te geven die een gebruiker informeert over de rechten die hij/zij heeft bij het gebruiken van de dataset.",
+                    "dcat_name_4": "dcat:Modified",
+                    "dcat_name_3": "dct:Issued",
+                    "dcat_name_2": "dcat:ByteSize",
+                    "dcat_name_1": "dcat:Rights"
+                },
+                "table": {
+                    "metric_name": "Indicator",
+                    "dataset_and_distribution": "Dataset en Distributie",
+                    "metric": "Maatstaven",
+                    "dataset": "Dataset",
+                    "desc": "Omschrijving",
+                    "distribution": "Distributie",
+                    "weight": "Gewicht"
+                },
+                "accessible": {
+                    "main_text": "<p>In de volgende tabel wordt omschreven welke maatstaven worden gebruikt om te bepalen of de toegang tot de data waarnaar wordt verwezen door de distributies wordt gegarandeerd. Er kunnen maximaal 100 punten worden gescoord op dit gebied.</p>",
+                    "dcat_name_3": "dcat:spatial",
+                    "dcat_name_2": "dcat:downloadURL",
+                    "dcat_name_1": "dcat:accessURL",
+                    "keywords_desc_3": "Als er een downloadURL bestaat, wordt de toegang gecontroleerd.",
+                    "keywords_desc_2": "De downloadURL is een directe link naar de data waarnaar verwezen wordt.",
+                    "keywords_desc_1": "De AccessURL is niet per se een directe link naar de data, maar kan ook verwijzen naar een URL die toegang geeft naar de dataset of waarop meer informatie over de dataset beschikbaar is.",
+                    "keywords_metric_3": "De opgegeven URL wordt gecontroleerd op toegankelijkheid via een HTTP HEAD-aanvraag. Als de teruggezonden statuscode zich in het 200- of 300-bereik bevindt, wordt de toegankelijkheid van de bron positief beoordeeld.",
+                    "keywords_metric_2": "Er wordt gecontroleerd of de eigenschap is ingesteld of niet.",
+                    "keywords_metric_1": "De opgegeven URL wordt gecontroleerd op toegankelijkheid via een HTTP HEAD-aanvraag. Als de teruggezonden statuscode zich in het 200- of 300-bereik bevindt, wordt de toegankelijkheid van de bron positief beoordeeld.",
+                    "keywords_name_3": "Toegankelijkheid downloadURL",
+                    "keywords_name_2": "DownloadURL",
+                    "keywords_name_1": "Toegankelijkheid accessURL"
+                },
+                "interoperable": {
+                    "main_text": "<p>In de volgende tabel worden de maatstaven omschreven die gebruikt worden om te bepalen of een distributie wordt beschouwd als interoperabel. Volgens de aanname 'identieke content met verscheidene distributies', wordt alleen de distributie met het hoogste puntenaantal gebruikt om de punten te berekenen. Er kunnen maximaal 110 punten worden gescoord op dit gebied.</p>",
+                    "keywords_desc_6": "<p>DCAT-AP compliance wordt berekend voor alle bronnen en datasets die beschikbaar zijn in een catalogus. Deze controle wordt alleen uitgevoerd als de metagegevens oorspronkelijk zijn geoogst als DCAT-AP of als een geldig derivaat.</p><p><a href=„https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe” target=„_blank”>DCAT-AP</a> is een specificatie voor de beschrijving van gekoppelde openbare gegevens in Europa. Het data.europa.eu-portaal kan ook metadata oogsten die niet volledig in overeenstemming zijn met DCAT-AP. Om de conformiteit met DCAT-AP te verbeteren, controleert de MQA elke metagegevens op de naleving van de DCAT-AP.</p>",
+                    "keywords_desc_5": "Controleert of het formaat van de distributie machineleesbaar is.",
+                    "keywords_desc_4": "Controleert of het formaat van de distributie geen eigendom is.",
+                    "keywords_desc_3": "Controleert of formaat en mediatype behoren tot een gecontroleerd vocabulaire.",
+                    "keywords_desc_2": "In dit veld wordt het mediatype van de distributie opgegeven.",
+                    "keywords_desc_1": "In dit veld wordt het bestandsformaat van de distributie opgegeven.",
+                    "keywords_metric_6": "<p>De metadata worden gevalideerd aan de hand van een set van <a href=„https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe/releases” target=„_blank”>SHACL shapes</a>. De metagegevens voldoen niet, als de SHACL-validatie ten minste één probleem rapporteert.</p>\n\n<p>De MQA maakt gebruik van <a href=„/shacl” target=„_blank”>data.europa.eu’s DCAT-AP SHACL</a> validatieservice.</p> \n\n<p><a href=„https://www.w3.org/TR/shacl/” target=„_blank”>SHACL</a> is een aanbeveling van de W3C en wordt gebruikt voor het valideren van RDF-grafieken tegen een reeks vormen.</p>",
+                    "keywords_metric_5": "De distributie wordt als machineleesbaar beschouwd als het opgegeven formaat is opgenomen in de overeenkomstige data.europa.eu <a href=„https://gitlab.com/european-data-portal/edp-vocabularies” target=„_blank”>GitLab repository</a> woordenschat.",
+                    "keywords_metric_4": "De verspreiding wordt als niet-eigendom beschouwd als het opgegeven formaat is opgenomen in de overeenkomstige data.europa.eu <a href=„https://gitlab.com/european-data-portal/edp-vocabularies” target=„_blank”>GitLab repository</a> woordenschat.",
+                    "keywords_metric_3": "<p>Het formaat woordenschat is te vinden in de data.europa.eu <a href=„https://gitlab.com/european-data-portal/edp-vocabularies” target=„_blank”>GitLab repository</a>.</p>\n\n<p>Het mediatype wordt gecontroleerd aan de hand van de <a href=„https://www.iana.org/assignments/media-types/media-types.xhtml” target=„_blank”>IANA list</a></p>",
+                    "keywords_metric_2": "<p>Er wordt gecontroleerd of de eigenschap is ingesteld of niet.</p>",
+                    "keywords_metric_1": "<p>Er wordt gecontroleerd of de eigenschap is ingesteld of niet.</p>",
+                    "keywords_name_6": "DCAT-AP-conformiteit",
+                    "keywords_name_5": "Machineleesbaar",
+                    "keywords_name_4": "Niet-eigendom",
+                    "keywords_name_3": "Formaat / Mediatype uit vocabulaire",
+                    "keywords_name_2": "Mediatype",
+                    "keywords_name_1": "Formaat",
+                    "dcat_name_6": "Dataset en Distributie",
+                    "dcat_name_5": "Dct:Format dcat:MediaType of / subeigenschap van dct:Format",
+                    "dcat_name_4": "Dct:Format dcat:MediaType of / subeigenschap van dct:Format",
+                    "dcat_name_3": "Dct:Format dcat:MediaType of / subeigenschap van dct:Format",
+                    "dcat_name_2": "dcat:MediaType or subproperty of dct:Format",
+                    "dcat_name_1": "dct:Format"
+                },
+                "findability": {
+                    "keywords_desc_4": "Gebruik van tijdsinformatie stelt gebruikers in staat een zoekopdracht voor een specifieke periode uit te voeren.",
+                    "keywords_desc_3": "Gebruik van ruimtelijke informatie stelt gebruikers in staat om de dataset te vinden met een geografische zoekopdracht.",
+                    "keywords_desc_2": "Categorieën helpen gebruikers datasets op thema te doorzoeken.",
+                    "keywords_desc_1": "Trefwoorden ondersteunen de zoekopdracht direct en verhogen dus de vindbaarheid van de dataset.",
+                    "keywords_metric_4": "Er wordt gecontroleerd of de eigenschap is ingesteld of niet.",
+                    "keywords_metric_3": "Er wordt gecontroleerd of de eigenschap is ingesteld of niet.",
+                    "keywords_metric_2": "Er wordt gecontroleerd of er een of meer categorieën zijn toegewezen aan de dataset. Het aantal toegewezen categorieën heeft geen impact op de score.",
+                    "keywords_metric_1": "Het systeem controleert of er trefwoorden zijn opgegeven. Het aantal trefwoorden heeft geen impact op de score.",
+                    "keywords_name_4": "Zoeken op tijd",
+                    "keywords_name_3": "Zoeken op geografie",
+                    "keywords_name_2": "Categorieën",
+                    "keywords_name_1": "Trefwoordgebruik",
+                    "dcat_name_4": " dcat:temporal",
+                    "dcat_name_3": "dcat:spatial",
+                    "dcat_name_2": "dcat:theme",
+                    "dcat_name_1": "dcat:Keyword",
+                    "main_text": "<p>In de volgende tabel worden de maatstaven omschreven die mensen en machines helpen bij het zoeken naar datasets. Er kunnen maximaal 100 punten worden gescoord op dit gebied.</p>"
+                },
+                "main_text": "<p>Deze paragraaf omschrijft alle dimensies die de MQA beoordeelt om de kwaliteit te bepalen. De dimensies zijn afgeleid uit de <a target='_blank' href='https://www.go-fair.org/fair-principles/'>FAIR-principes <i class='fas fa-external-link-alt fa-sm'></i></a>.</p>"
+            },
+            "scoring": {
+                "table": {
+                    "bad": "Slecht",
+                    "range": "Puntenreeks",
+                    "sufficient": "Net voldoende",
+                    "scoring_cat": "Score",
+                    "good": "Goed",
+                    "max_points": "Maximaal puntenaantal",
+                    "excellent": "Uitstekend",
+                    "sum": "Som",
+                    "dimension": "Dimensie"
+                },
+                "main_text": "De algehele score van een dataset is gelijk aan de som van de punten voor elke dimensie.",
+                "text": "De uiteindelijke beoordeling gebeurt met vier beoordelingsgroepen. Het geven van punten aan de beoordelingscategorie wordt getoond in de onderstaande tabel. De representatie van de beoordeling in de MQA wordt exclusief uitgedrukt via de beoordelingscategorieën. Hierdoor kunnen leveranciers de hoogste score behalen, zelfs met een kleine puntenaftrek.",
+                "headline": "Score"
+            },
+            "headline": "Methodologie kwaliteitsborging voor metadata",
+            "cover": {
+                "validator_service": "DCAT-AP SHACL validatie service API",
+                "main_text": " <p> De MQA wordt beperkt door de metadata die het kan onderzoeken. Het onderzoek is uitsluitend beperkt tot de metagegevens die data.europa.eu verzamelt tijdens het oogstproces. Als er fouten zijn in de bronmetagegevens, kunnen deze het totale resultaat vervalsen. Om dit foutenpotentieel te beperken, biedt de MQA een validatieservice die door dataproviders kan worden gebruikt om hun metadata te valideren voor geldige formaten en conforme DCAT-AP voordat deze in het oogstproces worden geïntegreerd.",
+                "validator_ui": "DCAT-AP SHACL validatie service webpagina ",
+                "headline": "Wat we niet dekken"
+            },
+            "process": {
+                "main_text": "<p> Bij elke verzameling wordt de metadata ook gecontroleerd door de MQA. De MQA meet de kwaliteit van de verscheidene indicatoren. Elke indicator wordt in de onderstaande tabellen uitgelegd. De resultaten van de controles worden opgeslagen als Datakwaliteitsvocabulaire (Data Quality Vocabulary) <a href='https://www.w3.org/TR/vocab-dqv/'>(DQV) <i class='fas fa-external-link-alt fa-sm'></i></a>. DQV is een specificatie van de W3C die wordt gebruikt om de kwaliteit van een dataset te omschrijven.</p>\n\n<p>Aangezien toegang onzeker kan zijn, zijn herhaalde controles voor de accessURL en downloadURL nodig. Daarom controleert de MQA de toegang van alle distributies regelmatig. In tegenstelling tot de verificatie van de andere indicatoren heeft dit een hogere runtime, aangezien de distributies gecontroleerd worden via HTTP en elke opgevraagde URL kan een langere responstijd hebben. De MQA gebruikt een mechanisme dat rekening houdt met het feit dat elke URL binnen een paar weken na de laatste beoordeling opnieuw beoordeeld wordt op toegankelijkheid. </p>",
+                "headline": "Het MQA-proces"
+            },
+            "scope": {
+                "main_text": "<p> Met de MQA willen we de volgende vraag beantwoorden: <br> Wat is de kwaliteit van de metadata voor data uit de publieke sector in de pan-Europese regio en wat zijn de grootste obstakels die het behalen van betere kwaliteit in de weg staan? </p><p>Op basis hiervan is de MQA momenteel de volgende concrete vragen aan het onderzoeken:</p><ul><li> Voldoet aan DCAT-AP en afgeleiden van DCAT-AP </li><li> Vrijgeven van informatie waar DCAT-AP niet aan gebonden is</li><li> Verwezen naar de toegankelijkheid van de data in de metadata via de Access- en Download-URL</li><li> Machineleesbaarheid van de data waarnaar wordt verwezen </li><li> Gebruik van licenties</li></ul><p> Elke vraag resulteert opnieuw in individuele onderzoeken, die hieronder in detail worden omschreven.</p>",
+                "headline": "Omvang van het onderzoek"
+            },
+            "assumptions": {
+                "main_text": "<p> De MQA is gebaseerd op de volgende veronderstellingen.</p><h6> Gebruik van niet-verplichte velden</h6><p>Wij zijn van mening dat het invullen van de verplichte velden van DCAT-AP op zich niet volstaat om metagegevens van hoge kwaliteit te verstrekken. Daarom controleert de evaluatie ook velden die volgens DCAT-AP niet verplicht zijn. De exacte velden die zijn aangevinkt staan hieronder vermeld.</p><h6> \n\nIdentieke inhoud voor meerdere distributies</h6><p>Als een dataset meer dan één distributie bevat, zijn alle distributies identiek qua inhoud, ze verschillen alleen in de weergave van de gegevens. Een dataset kan bijvoorbeeld twee distributies hebben, de ene biedt de gegevens als PDF en de andere biedt de identieke gegevens aan als machineleesbare RDF/XML. Deze definitie hangt af van de manier waarop datasets worden beoordeeld in de MQA (een soort „beste praktijk”) maar moet niet worden beschouwd als de standaarddefinitie van distributies.</p>",
+                "headline": "Aannamen"
+            },
+            "intro_text": "<p><strong>De Metadata Quality Assessment (MQA) is een tool ontwikkeld door het consortium van data.europa.eu om de kwaliteit van de door data.europa.eu geoogste metadata te bestuderen.europa.eu./strong> Het is bedoeld om gegevensverstrekkers en dataportalen te helpen hun metagegevenskwaliteit te controleren en suggesties voor verbeteringen te ontvangen. De resultaten worden gepresenteerd via de MQA en zijn ook beschikbaar als download. Hieronder beschrijven we de functionaliteit van de MQA en de methodologie die het gebruikt.</p>\n<p> Als deze pagina nog steeds niet al uw vragen beantwoordt, neem dan gerust contact met ons op via ons feedbackformulier aan het einde van de pagina. </p>",
+            "sub_headline": "Hoe data.europa.eu de kwaliteit van alle opgeslagen metagegevens meet"
+        },
+        "header": {
+            "navigation": {
+                "usingData": {
+                    "checklistForUsingData": "Checklist voor het gebruik van data",
+                    "useCases": "Use cases",
+                    "tellUsYourStory": "Vertel ons uw verhaal",
+                    "title": "Data gebruiken",
+                    "benefitsOfUsingData": "De voordelen van Open Data"
+                },
+                "impactStudies": {
+                    "useCases": "Use cases",
+                    "overview": "Overzicht",
+                    "opendatamaturity": "Open Data Maturity",
+                    "countryInsights": "Inzichten landen",
+                    "tellUsYourStory": "Vertel ons uw verhaal",
+                    "studies": "Identical content for multiple distributions</h6><p>If a dataset contains more than one distribution, all distributions are identical in content, they differ only in the representation of the data. For example, a dataset can have two distributions, one offering the data as PDF and the other offering the identical data as machine-readable RDF/XML. This definition is relative to how datasets are rated in the MQA (a sort of “best practice”) but should not be considered as the standard definition of distributions.</p>",
+                    "opendataimpact": "Impact van open data",
+                    "title": "Impact en onderzoeken"
+                },
+                "training": {
+                    "dataProvidersGuide": "Handleiding voor dataverstrekkers",
+                    "whatIsOpenData": "Wat is open data",
+                    "title": "Training",
+                    "elearning": "eLearning",
+                    "moreTrainingMaterial": "Meer trainingsmateriaal",
+                    "licensingAssistant": "Licentieassistent"
+                },
+                "data": {
+                    "datasets": "Datasets",
+                    "sparqlsearch": "SPARQL-zoekopdracht",
+                    "metadataQuality": "Kwaliteit metadata",
+                    "licensingAssistant": "Licentie assistent",
+                    "title": "Data",
+                    "statistics": "Statistieken",
+                    "euInternationalData": "EU en internationale data",
+                    "sparqlManager": "SPARQL Manager",
+                    "catalogues": "Catalogi",
+                    "countryData": "Data over landen"
+                },
+                "resources": {
+                    "moreTrainingMaterial": "Meer trainingsmateriaal",
+                    "title": "Bronnen",
+                    "elearning": "eLearning",
+                    "trainingCompanion": "Trainingspartner",
+                    "reportsAboutOpenData": "Rapporten over open data"
+                },
+                "providingData": {
+                    "beHarvestedByUs": "Wordt door ons vergaard",
+                    "title": "Data verstrekken",
+                    "cataloguesHarvestedByUs": "Door ons vergaarde catalogi",
+                    "practicalGuide": "Praktische handleiding"
+                },
+                "whatWeDo": {
+                    "openDataMaturity": "Volwassenheid op het gebied van open data",
+                    "ourActivities": "Onze activiteiten",
+                    "factsheetsAndReports": "Factsheets en rapporten",
+                    "title": "Wat we doen",
+                    "calendar": "Agenda",
+                    "featuredHighlights": "Topthema",
+                    "news": "Nieuws"
+                },
+                "about": {
+                    "beHarvestedByUs": "Word door ons vergaard",
+                    "documentation": "Documentatie",
+                    "title": "Over",
+                    "europeanDataPortal": "Europees Data Portaal"
+                },
+                "newsEvents": {
+                    "title": "Nieuws en evenementen",
+                    "events": "Evenementen",
+                    "news": "Nieuws"
+                }
+            },
+            "subnav": {
+                "contact": "Contact",
+                "legalNotice": "Juridische mededeling",
+                "search": "Zoeken",
+                "newsletter": "Nieuwsbrief",
+                "cookies": "Cookies",
+                "login": "Inloggen",
+                "faq": "Veelgestelde vragen"
+            },
+            "searchInputPlaceholder": "Inhoud site doorzoeken …",
+            "european": "Europees",
+            "searchOptions": {
+                "siteContent": "Site-content",
+                "datasets": "Datasets"
+            },
+            "dataPortal": "Dataportaal"
+        },
+        "footer": {
+            "links": {
+                "search": "Zoeken",
+                "newsletter": "Nieuwsbrief",
+                "faq": "Veelgestelde vragen",
+                "contact": "Contact",
+                "subscribe": "Abonneer",
+                "cookies": "Cookies",
+                "login": "Inloggen",
+                "legalNotice": "Juridische mededeling"
+            },
+            "managedBy": "Beheerd door het Bureau voor publicaties van de Europese Unie.",
+            "fundedBy": "Gefinancierd door de Europese Unie",
+            "newsletter": "Meld u aan voor onze nieuwsbrief",
+            "helpUsImproveText": "Met uw feedback kunnen we de algehele gebruikerservaring verbeteren. Hebt u misschien suggesties?",
+            "newsletterText": "Meld u aan voor onze nieuwsbrief",
+            "subscribe": "Abonneren",
+            "followUs": "Volg ons op",
+            "lastUpdate": "Voor het laatst bijgewerkt",
+            "helpUsImprove": "Help ons om beter te worden"
+        },
+        "maintenance_message": "Goed nieuws! We zijn bezig ons systeem te verbeteren. In de tussentijd staat dit onderdeel in de onderhoudsmodus en wordt mogelijk niet alle beschikbare data weergegeven.",
+        "catalogue_list": {
+            "description": "Catalogus voor details selecteren",
+            "search": {
+                "placeholder": "De naam of beschrijving van de catalogus zoeken"
+            }
+        },
+        "title": "Metadata Quality Assurance",
+        "empty": "",
+        "no_data": "Geen metingen beschikbaar voor deze indicator",
+        "meta": {
+            "description": "De kwaliteitsborging voor metadata biedt een algemeen overzicht van alle metadata die op het opendataportaal opendata.europa.eu beschikbaar zijn, op basis van verschillende indicatoren."
+        }
+    }
+}

@@ -1,0 +1,31 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dqv:  <http://www.w3.org/ns/dqv#>
+
+SELECT (COUNT(DISTINCT(?dist)) as ?count) ?value WHERE
+{
+    GRAPH ?g3
+    {
+        ?dist dqv:hasQualityMeasurement [
+            dqv:isMeasurementOf <%2$s> ;
+                dqv:value ?value
+        ]
+    }
+    {
+        SELECT ?dist WHERE
+        {
+            GRAPH ?g2
+            {
+                ?ds dcat:distribution ?dist
+            }
+            {
+                SELECT ?ds WHERE
+                {
+                    GRAPH ?g1
+                    {
+                        <%1$s> dcat:dataset ?ds
+                    }
+                }
+            }
+        }
+    }
+} GROUP BY ?value

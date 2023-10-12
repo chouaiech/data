@@ -1,0 +1,4 @@
+SELECT ?dataset WHERE
+{
+    ?dataset a <http://www.w3.org/ns/dcat#Dataset>
+} LIMIT 10

@@ -1,0 +1,3412 @@
+{
+  "success": true,
+  "result": {
+    "index": "dataset",
+    "count": 1378207,
+    "facets": [
+      {
+        "id": "dataScope",
+        "title": "Data scope",
+        "items": [
+          {
+            "id": "eu",
+            "title": "EU data",
+            "count": 18328
+          },
+          {
+            "id": "io",
+            "title": "International data",
+            "count": 2
+          },
+          {
+            "id": "countryData",
+            "title": "Country data",
+            "count": 1359877
+          }
+        ]
+      },
+      {
+        "id": "country",
+        "title": "Countries",
+        "items": [
+          {
+            "count": 415616,
+            "id": "de",
+            "title": "Germany"
+          },
+          {
+            "count": 337626,
+            "id": "cz",
+            "title": "Czechia"
+          },
+          {
+            "count": 205630,
+            "id": "fr",
+            "title": "France"
+          },
+          {
+            "count": 66647,
+            "id": "es",
+            "title": "Spain"
+          },
+          {
+            "count": 61673,
+            "id": "it",
+            "title": "Italy"
+          },
+          {
+            "count": 51902,
+            "id": "gb",
+            "title": "United Kingdom"
+          },
+          {
+            "count": 38713,
+            "id": "ua",
+            "title": "Ukraine"
+          },
+          {
+            "count": 36659,
+            "id": "at",
+            "title": "Austria"
+          },
+          {
+            "count": 23924,
+            "id": "nl",
+            "title": "Netherlands"
+          },
+          {
+            "count": 18328,
+            "id": "eu",
+            "title": "EU institutions"
+          },
+          {
+            "count": 17571,
+            "id": "ie",
+            "title": "Ireland"
+          },
+          {
+            "count": 15084,
+            "id": "pl",
+            "title": "Poland"
+          },
+          {
+            "count": 11192,
+            "id": "be",
+            "title": "Belgium"
+          },
+          {
+            "count": 10688,
+            "id": "gr",
+            "title": "Greece"
+          },
+          {
+            "count": 9444,
+            "id": "ch",
+            "title": "Switzerland"
+          },
+          {
+            "count": 8838,
+            "id": "se",
+            "title": "Sweden"
+          },
+          {
+            "count": 8413,
+            "id": "bg",
+            "title": "Bulgaria"
+          },
+          {
+            "count": 8089,
+            "id": "si",
+            "title": "Slovenia"
+          },
+          {
+            "count": 5329,
+            "id": "fi",
+            "title": "Finland"
+          },
+          {
+            "count": 4805,
+            "id": "pt",
+            "title": "Portugal"
+          },
+          {
+            "count": 2805,
+            "id": "sk",
+            "title": "Slovakia"
+          },
+          {
+            "count": 2636,
+            "id": "ro",
+            "title": "Romania"
+          },
+          {
+            "count": 2401,
+            "id": "dk",
+            "title": "Denmark"
+          },
+          {
+            "count": 2128,
+            "id": "ee",
+            "title": "Estonia"
+          },
+          {
+            "count": 1988,
+            "id": "no",
+            "title": "Norway"
+          },
+          {
+            "count": 1896,
+            "id": "lu",
+            "title": "Luxembourg"
+          },
+          {
+            "count": 1606,
+            "id": "lt",
+            "title": "Lithuania"
+          },
+          {
+            "count": 1533,
+            "id": "hr",
+            "title": "Croatia"
+          },
+          {
+            "count": 1255,
+            "id": "rs",
+            "title": "Serbia"
+          },
+          {
+            "count": 1177,
+            "id": "md",
+            "title": "Moldova"
+          },
+          {
+            "count": 1107,
+            "id": "cy",
+            "title": "Cyprus"
+          },
+          {
+            "count": 532,
+            "id": "lv",
+            "title": "Latvia"
+          },
+          {
+            "count": 390,
+            "id": "is",
+            "title": "Iceland"
+          },
+          {
+            "count": 299,
+            "id": "mt",
+            "title": "Malta"
+          },
+          {
+            "count": 134,
+            "id": "me",
+            "title": "Montenegro"
+          },
+          {
+            "count": 90,
+            "id": "li",
+            "title": "Liechtenstein"
+          },
+          {
+            "count": 57,
+            "id": "hu",
+            "title": "Hungary"
+          },
+          {
+            "count": 2,
+            "id": "io",
+            "title": "International organisations"
+          }
+        ]
+      },
+      {
+        "id": "catalog",
+        "title": "Catalogues",
+        "items": [
+          {
+            "count": 365814,
+            "id": "gdi-de",
+            "title": "GDI-DE"
+          },
+          {
+            "count": 200779,
+            "id": "cuzk",
+            "title": "Geoportal Czech Office for Surveying, Mapping and Cadastre"
+          },
+          {
+            "count": 167202,
+            "id": "geocatalogue-fr",
+            "title": "Geocatalogue France"
+          },
+          {
+            "count": 136276,
+            "id": "nkod-opendata-cz",
+            "title": "Czech National Open Data Portal"
+          },
+          {
+            "count": 51013,
+            "id": "data-gov-uk",
+            "title": "data.gov.uk"
+          },
+          {
+            "count": 49802,
+            "id": "govdata",
+            "title": "GovData"
+          },
+          {
+            "count": 47023,
+            "id": "datos-gob-es",
+            "title": "datos.gob.es"
+          },
+          {
+            "count": 39693,
+            "id": "dati-gov-it",
+            "title": "dati.gov.it"
+          },
+          {
+            "count": 38713,
+            "id": "data-gov-ua",
+            "title": "data.gov.ua"
+          },
+          {
+            "count": 38006,
+            "id": "plateforme-ouverte-des-donnees-publiques-francaises",
+            "title": "Plateforme ouverte des donn\u00e9es publiques fran\u00e7aises"
+          },
+          {
+            "count": 35052,
+            "id": "data-gv-at",
+            "title": "data.gv.at"
+          },
+          {
+            "count": 21980,
+            "id": "rndt",
+            "title": "Italian Catalogue of metadata for Spatial Data"
+          },
+          {
+            "count": 17571,
+            "id": "data-gov-ie",
+            "title": "Data.gov.ie"
+          },
+          {
+            "count": 17370,
+            "id": "european-union-open-data-portal",
+            "title": "EU institutions data"
+          },
+          {
+            "count": 16286,
+            "id": "dataportaal-van-de-nederlandse-overheid",
+            "title": "Dataportaal van de Nederlandse overheid"
+          },
+          {
+            "count": 12134,
+            "id": "idee",
+            "title": "IDEE"
+          },
+          {
+            "count": 11192,
+            "id": "data-gov-be",
+            "title": "data.gov.be"
+          },
+          {
+            "count": 10658,
+            "id": "open-data-greece",
+            "title": "Open Data Greece - Ministry of Administrative Reconstruction"
+          },
+          {
+            "count": 9444,
+            "id": "opendata-swiss",
+            "title": "opendata.swiss"
+          },
+          {
+            "count": 9056,
+            "id": "podgik",
+            "title": "Geo-System metadata catalogue"
+          },
+          {
+            "count": 8413,
+            "id": "open-data-bulgaria",
+            "title": "Open Data Bulgaria"
+          },
+          {
+            "count": 7887,
+            "id": "odprti-podatki-slovenije",
+            "title": "Odprti podatki Slovenije"
+          },
+          {
+            "count": 7638,
+            "id": "ngr-nl",
+            "title": "National Georegister of the Netherlands"
+          },
+          {
+            "count": 7478,
+            "id": "oppnadata",
+            "title": "\u00d6ppnadata"
+          },
+          {
+            "count": 5087,
+            "id": "ideandalucia",
+            "title": "IDEAndalucia"
+          },
+          {
+            "count": 4805,
+            "id": "dados-gov-pt",
+            "title": "dados.gov.pt"
+          },
+          {
+            "count": 4052,
+            "id": "opole",
+            "title": "Geoportal Opole Province"
+          },
+          {
+            "count": 3454,
+            "id": "fmi",
+            "title": "FMI Catalog"
+          },
+          {
+            "count": 2640,
+            "id": "data-gov-sk",
+            "title": "data.gov.sk"
+          },
+          {
+            "count": 2384,
+            "id": "data-gov-ro",
+            "title": "data.gov.ro"
+          },
+          {
+            "count": 1892,
+            "id": "avaandmete-portaal",
+            "title": "Avaandmete portaal"
+          },
+          {
+            "count": 1875,
+            "id": "open-data-finland",
+            "title": "Open Data Finland"
+          },
+          {
+            "count": 1586,
+            "id": "data-norge-no",
+            "title": "data.norge.no"
+          },
+          {
+            "count": 1548,
+            "id": "geodata-info-dk",
+            "title": "Danske Geoportal"
+          },
+          {
+            "count": 1533,
+            "id": "la-plateforme-de-donnees-luxembourgeoise",
+            "title": "La plateforme de donn\u00e9es luxembourgeoise"
+          },
+          {
+            "count": 1484,
+            "id": "navarra",
+            "title": "Infrastructura de Datos Espaciales de Navarra"
+          },
+          {
+            "count": 1463,
+            "id": "data-gov-lt",
+            "title": "data-gov-lt"
+          },
+          {
+            "count": 1459,
+            "id": "dane-gov-pl",
+            "title": "dane.gov.pl"
+          },
+          {
+            "count": 1360,
+            "id": "geodata-se",
+            "title": "Geodata Portal Sweden"
+          },
+          {
+            "count": 1255,
+            "id": "open-data-portal-serbia",
+            "title": "Open Data Portal Serbia"
+          },
+          {
+            "count": 1177,
+            "id": "government-open-data-portal-moldova",
+            "title": "Government Open Data Portal Moldova"
+          },
+          {
+            "count": 1170,
+            "id": "portal-otvorenih-podataka",
+            "title": "Portal otvorenih podataka"
+          },
+          {
+            "count": 1161,
+            "id": "bmlfuw-at",
+            "title": "inspire.gv.at"
+          },
+          {
+            "count": 1107,
+            "id": "national-open-data-portal-cyprus",
+            "title": "National Open Data Portal Cyprus"
+          },
+          {
+            "count": 919,
+            "id": "ign",
+            "title": "Spanish National Geographic Institute"
+          },
+          {
+            "count": 889,
+            "id": "london-datastore",
+            "title": "London Datastore"
+          },
+          {
+            "count": 853,
+            "id": "open-data-dk",
+            "title": "OPEN DATA DK"
+          },
+          {
+            "count": 769,
+            "id": "pn",
+            "title": "EUMETSAT Product Navigator"
+          },
+          {
+            "count": 532,
+            "id": "data-gov-lv",
+            "title": "data.gov.lv"
+          },
+          {
+            "count": 446,
+            "id": "open-data-portal-austria",
+            "title": "opendataportal.at"
+          }
+        ]
+      },
+      {
+        "id": "categories",
+        "title": "Categories",
+        "items": [
+          {
+            "count": 253803,
+            "id": "AGRI",
+            "title": {
+              "no": "Jordbruk, fiskeri, skogbruk og mat",
+              "de": "Landwirtschaft, Fischerei, Forstwirtschaft und Nahrungsmittel",
+              "fi": "Maatalous, kalastus, mets\u00e4talous ja elintarvikkeet",
+              "pt": "Agricultura, pesca, silvicultura e alimenta\u00e7\u00e3o",
+              "bg": "\u0421\u0435\u043b\u0441\u043a\u043e \u0441\u0442\u043e\u043f\u0430\u043d\u0441\u0442\u0432\u043e, \u0440\u0438\u0431\u0430\u0440\u0441\u0442\u0432\u043e, \u0433\u043e\u0440\u0441\u043a\u043e \u0441\u0442\u043e\u043f\u0430\u043d\u0441\u0442\u0432\u043e \u0438 \u0445\u0440\u0430\u043d\u0438",
+              "lt": "\u017dem\u0117s \u016bkis, \u017euvininkyst\u0117, mi\u0161kininkyst\u0117 ir maistas",
+              "hr": "Poljoprivreda, ribarstvo, \u0161umarstvo i hrana",
+              "lv": "Lauksaimniec\u012bba, zivsaimniec\u012bba, me\u017esaimniec\u012bba un p\u0101rtika",
+              "fr": "Agriculture, p\u00eache, sylviculture et alimentation",
+              "hu": "Mez\u0151gazdas\u00e1g, hal\u00e1szat, erd\u00e9szet \u00e9s \u00e9lelmiszer",
+              "sk": "Po\u013enohospod\u00e1rstvo, rybn\u00e9 hospod\u00e1rstvo, lesn\u00edctvo a potravin\u00e1rstvo",
+              "sl": "Kmetijstvo, ribi\u0161tvo, gozdarstvo in prehrana",
+              "ga": "Talmha\u00edocht, iascach, foraoiseacht agus bia",
+              "sv": "Jordbruk, fiske, skogsbruk och livsmedel",
+              "mt": "Agrikoltura, sajd, forestrija u ikel",
+              "el": "\u0393\u03b5\u03c9\u03c1\u03b3\u03af\u03b1, \u03b1\u03bb\u03b9\u03b5\u03af\u03b1, \u03b4\u03b1\u03c3\u03bf\u03ba\u03bf\u03bc\u03af\u03b1 \u03ba\u03b1\u03b9 \u03c4\u03c1\u03cc\u03c6\u03b9\u03bc\u03b1",
+              "en": "Agriculture, fisheries, forestry and food",
+              "it": "Agricoltura, pesca, silvicoltura e prodotti alimentari",
+              "es": "Agricultura, pesca, silvicultura y alimentaci\u00f3n",
+              "et": "P\u00f5llumajandus, kalandus, metsandus ja toiduained",
+              "cs": "Zem\u011bd\u011blstv\u00ed, rybolov, lesnictv\u00ed a v\u00fd\u017eiva",
+              "pl": "Rolnictwo, rybo\u0142\u00f3wstwo, le\u015bnictwo i \u017cywno\u015b\u0107",
+              "da": "Landbrug, fiskeri, skovbrug og f\u00f8devarer",
+              "ro": "Agricultur\u0103, pescuit, silvicultur\u0103 \u015fi hran\u0103",
+              "nl": "Landbouw, visserij, bosbouw en voeding"
+            },
+            "resource": "http://publications.europa.eu/resource/authority/data-theme/AGRI"
+          },
+          {
+            "count": 191181,
+            "id": "JUST",
+            "title": {
+              "de": "Justiz, Rechtssystem und \u00f6ffentliche Sicherheit",
+              "no": "Justis, rettssystem og allmenn sikkerhet",
+              "fi": "Oikeus, oikeusj\u00e4rjestelm\u00e4 ja yleinen turvallisuus",
+              "pt": "Justi\u00e7a, sistema judici\u00e1rio e seguran\u00e7a p\u00fablica",
+              "bg": "\u041f\u0440\u0430\u0432\u043e\u0441\u044a\u0434\u0438\u0435, \u0441\u044a\u0434\u0435\u0431\u043d\u0430 \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u0438 \u043e\u0431\u0449\u0435\u0441\u0442\u0432\u0435\u043d\u0430 \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442",
+              "lt": "Teisingumas, teis\u0117s sistema ir visuomen\u0117s sauga",
+              "lv": "Tieslietas, ties\u012bbu sist\u0113ma un sabiedr\u012bbas dro\u0161\u012bba",
+              "hr": "Pravosu\u0111e, pravni sustav i javna sigurnost",
+              "fr": "Justice, syst\u00e8me juridique et s\u00e9curit\u00e9 publique",
+              "hu": "Igazs\u00e1g\u00fcgy, jogrendszer \u00e9s k\u00f6zbiztons\u00e1g",
+              "sk": "Spravodlivos\u0165, pr\u00e1vny syst\u00e9m a verejn\u00e1 bezpe\u010dnos\u0165",
+              "sl": "Pravosodje, pravni sistem in javna varnost",
+              "ga": "Ceartas, c\u00f3ras dl\u00ed agus s\u00e1bh\u00e1ilteacht an phobail",
+              "sv": "R\u00e4ttvisa, r\u00e4ttsliga system och allm\u00e4n s\u00e4kerhet",
+              "el": "\u0394\u03b9\u03ba\u03b1\u03b9o\u03c3\u03cd\u03bd\u03b7, \u03bd\u03bf\u03bc\u03b9\u03ba\u03cc \u03c3\u03cd\u03c3\u03c4\u03b7\u03bc\u03b1 \u03ba\u03b1\u03b9 \u03b4\u03b7\u03bc\u03cc\u03c3\u03b9\u03b1 \u03b1\u03c3\u03c6\u03ac\u03bb\u03b5\u03b9\u03b1",
+              "mt": "\u0120ustizzja, sistema legali u sigurt\u00e0 pubblika",
+              "en": "Justice, legal system and public safety",
+              "it": "Giustizia, sistema giuridico e sicurezza pubblica",
+              "es": "Justicia, sistema judicial y seguridad p\u00fablica",
+              "et": "\u00d5igusem\u00f5istmine, \u00f5iguss\u00fcsteem ja avalik turvalisus",
+              "cs": "Spravedlnost, pr\u00e1vn\u00ed syst\u00e9m a ve\u0159ejn\u00e1 bezpe\u010dnost",
+              "pl": "Sprawiedliwo\u015b\u0107, ustr\u00f3j s\u0105d\u00f3w i bezpiecze\u0144stwo publiczne",
+              "da": "Retf\u00e6rdighed, retssystem og offentlig sikkerhed",
+              "ro": "Justi\u021bie, sistem juridic \u0219i siguran\u021b\u0103 public\u0103",
+              "nl": "Justitie, rechtsstelsel en openbare veiligheid"
+            },
+            "resource": "http://publications.europa.eu/resource/authority/data-theme/JUST"
+          },
+          {
+            "count": 131093,
+            "id": "ENVI",
+            "title": {
+              "no": "Milj\u00f8",
+              "de": "Umwelt",
+              "fi": "Ymp\u00e4rist\u00f6",
+              "pt": "Ambiente",
+              "bg": "\u041e\u043a\u043e\u043b\u043d\u0430 \u0441\u0440\u0435\u0434\u0430",
+              "lt": "Aplinka",
+              "lv": "Vide",
+              "hr": "Okoli\u0161",
+              "fr": "Environnement",
+              "hu": "K\u00f6rnyezet",
+              "sk": "\u017divotn\u00e9 prostredie",
+              "sl": "Okolje",
+              "ga": "Comhshaol",
+              "sv": "Milj\u00f6",
+              "mt": "Ambjent",
+              "el": "\u03a0\u03b5\u03c1\u03b9\u03b2\u03ac\u03bb\u03bb\u03bf\u03bd",
+              "en": "Environment",
+              "it": "Ambiente",
+              "es": "Medio ambiente",
+              "et": "Keskkond",
+              "cs": "\u017divotn\u00ed prost\u0159ed\u00ed",
+              "pl": "\u015arodowisko",
+              "ro": "Mediu",
+              "da": "Milj\u00f8",
+              "nl": "Milieu"
+            },
+            "resource": "http://publications.europa.eu/resource/authority/data-theme/ENVI"
+          },
+          {
+            "count": 76652,
+            "id": "TECH",
+            "title": {
+              "de": "Wissenschaft und Technologie",
+              "no": "Vitenskap og teknologi",
+              "fi": "Tiede ja teknologia",
+              "pt": "Ci\u00eancia e tecnologia",
+              "bg": "\u041d\u0430\u0443\u043a\u0430 \u0438 t\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0438",
+              "lt": "Mokslas ir technologijos",
+              "hr": "Znanost i tehnologija",
+              "lv": "Zin\u0101tne un tehnolo\u0123ija",
+              "fr": "Science et technologie",
+              "hu": "Tudom\u00e1ny \u00e9s technol\u00f3gia",
+              "sk": "Veda a technika",
+              "sl": "Znanost in tehnologija",
+              "ga": "Eola\u00edocht agus teicneola\u00edocht",
+              "sv": "Vetenskap och teknik",
+              "el": "\u0395\u03c0\u03b9\u03c3\u03c4\u03ae\u03bc\u03b7 \u03ba\u03b1\u03b9 \u03c4\u03b5\u03c7\u03bd\u03bf\u03bb\u03bf\u03b3\u03af\u03b1",
+              "mt": "Xjenza u teknolo\u0121ija",
+              "en": "Science and technology",
+              "it": "Scienza e tecnologia",
+              "es": "Ciencia y tecnolog\u00eda",
+              "et": "Teadus ja tehnoloogia",
+              "cs": "V\u011bda a technika",
+              "pl": "Nauka i technologia",
+              "da": "Videnskab og teknologi",
+              "ro": "\u015etiin\u0163\u0103 \u015fi tehnologie",
+              "nl": "Wetenschap en technologie"
+            },
+            "resource": "http://publications.europa.eu/resource/authority/data-theme/TECH"
+          },
+          {
+            "count": 72879,
+            "id": "GOVE",
+            "title": {
+              "no": "Forvaltning og offentlig sektor",
+              "de": "Regierung und \u00f6ffentlicher Sektor",
+              "fi": "Valtioneuvosto ja julkinen sektori",
+              "pt": "Governo e setor p\u00fablico",
+              "bg": "\u041f\u0440\u0430\u0432\u0438\u0442\u0435\u043b\u0441\u0442\u0432\u043e \u0438 \u043f\u0443\u0431\u043b\u0438\u0447\u0435\u043d \u0441\u0435\u043a\u0442\u043e\u0440",
+              "lt": "Vyriausyb\u0117 ir vie\u0161asis sektorius",
+              "hr": "Vlada i javni sektor",
+              "lv": "Vald\u012bba un sabiedriskais sektors",
+              "fr": "Gouvernement et secteur public",
+              "hu": "Korm\u00e1nyzat \u00e9s k\u00f6zszf\u00e9ra",
+              "sk": "Vl\u00e1da a verejn\u00fd sektor",
+              "sl": "Vlada in javni sektor",
+              "ga": "Rialtas agus earn\u00e1il phoibl\u00ed",
+              "sv": "Regeringen och den offentliga sektorn",
+              "el": "\u039a\u03c5\u03b2\u03ad\u03c1\u03bd\u03b7\u03c3\u03b7 \u03ba\u03b1\u03b9 \u03b4\u03b7\u03bc\u03cc\u03c3\u03b9\u03bf\u03c2 \u03c4\u03bf\u03bc\u03ad\u03b1\u03c2",
+              "mt": "Gvern u settur pubbliku",
+              "en": "Government and public sector",
+              "it": "Governo e settore pubblico",
+              "es": "Gobierno y sector p\u00fablico",
+              "et": "Valitsus ja avalik sektor",
+              "cs": "Vl\u00e1da a ve\u0159ejn\u00fd sektor",
+              "pl": "Rz\u0105d i sektor publiczny",
+              "ro": "Guvern \u015fi sector public",
+              "da": "Regeringen og den offentlige sektor",
+              "nl": "Overheid en publieke sector"
+            },
+            "resource": "http://publications.europa.eu/resource/authority/data-theme/GOVE"
+          },
+          {
+            "count": 60588,
+            "id": "ECON",
+            "title": {
+              "de": "Wirtschaft und Finanzen",
+              "no": "\u00d8konomi og finans",
+              "fi": "Talous ja raha-asiat",
+              "pt": "Economia e finan\u00e7as",
+              "bg": "\u0418\u043a\u043e\u043d\u043e\u043c\u0438\u043a\u0430 \u0438 \u0444\u0438\u043d\u0430\u043d\u0441\u0438",
+              "lt": "Ekonomika ir finansai",
+              "hr": "Ekonomija i financije",
+              "lv": "Ekonomika un finanses",
+              "fr": "\u00c9conomie et finances",
+              "hu": "Gazdas\u00e1g \u00e9s p\u00e9nz\u00fcgy",
+              "sk": "Hospod\u00e1rstvo a financie",
+              "sl": "Gospodarstvo in finance",
+              "ga": "Geilleagar agus airgeadas",
+              "sv": "Ekonomi och finans",
+              "mt": "Ekonomija u finanzi",
+              "el": "\u039f\u03b9\u03ba\u03bf\u03bd\u03bf\u03bc\u03af\u03b1 \u03ba\u03b1\u03b9 \u03c7\u03c1\u03b7\u03bc\u03b1\u03c4\u03bf\u03bf\u03b9\u03ba\u03bf\u03bd\u03bf\u03bc\u03b9\u03ba\u03ac \u03b8\u03ad\u03bc\u03b1\u03c4\u03b1",
+              "en": "Economy and finance",
+              "it": "Economia e finanze",
+              "es": "Econom\u00eda y finanzas",
+              "et": "Majandus ja rahandus",
+              "cs": "Hospod\u00e1\u0159stv\u00ed a finance",
+              "pl": "Gospodarka i finanse",
+              "ro": "Economie \u015fi finan\u0163e",
+              "da": "\u00d8konomi og finanser",
+              "nl": "Economie en financi\u00ebn"
+            },
+            "resource": "http://publications.europa.eu/resource/authority/data-theme/ECON"
+          },
+          {
+            "count": 44961,
+            "id": "TRAN",
+            "title": {
+              "no": "Transport",
+              "de": "Verkehr",
+              "fi": "Liikenne",
+              "pt": "Transportes",
+              "bg": "\u0422\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442",
+              "lt": "Transportas",
+              "hr": "Promet",
+              "lv": "Transports",
+              "fr": "Transports",
+              "hu": "K\u00f6zleked\u00e9s",
+              "sk": "Doprava",
+              "sl": "Transport",
+              "ga": "Iompar",
+              "sv": "Transport",
+              "mt": "Trasport",
+              "el": "\u039c\u03b5\u03c4\u03b1\u03c6\u03bf\u03c1\u03ad\u03c2",
+              "en": "Transport",
+              "it": "Trasporti",
+              "es": "Transporte",
+              "et": "Transport",
+              "cs": "Doprava",
+              "pl": "Transport",
+              "ro": "Transport",
+              "da": "Transport",
+              "nl": "Vervoer"
+            },
+            "resource": "http://publications.europa.eu/resource/authority/data-theme/TRAN"
+          },
+          {
+            "count": 43610,
+            "id": "SOCI",
+            "title": {
+              "de": "Bev\u00f6lkerung und Gesellschaft",
+              "no": "Befolkning og samfunn",
+              "fi": "V\u00e4est\u00f6 ja yhteiskunta",
+              "pt": "Popula\u00e7\u00e3o e sociedade",
+              "bg": "\u041d\u0430\u0441\u0435\u043b\u0435\u043d\u0438\u0435 \u0438 \u043e\u0431\u0449\u0435\u0441\u0442\u0432\u043e",
+              "lt": "Gyventoj\u0173 skai\u010dius ir visuomen\u0117",
+              "hr": "Stanovni\u0161tvo i dru\u0161tvo",
+              "lv": "Iedz\u012bvot\u0101ji un sabiedr\u012bba",
+              "fr": "Population et soci\u00e9t\u00e9",
+              "hu": "N\u00e9pess\u00e9g \u00e9s t\u00e1rsadalom",
+              "sk": "Obyvate\u013estvo a spolo\u010dnos\u0165",
+              "sl": "Prebivalstvo in dru\u017eba",
+              "ga": "Daonra agus socha\u00ed",
+              "sv": "Befolkning och samh\u00e4lle",
+              "el": "\u03a0\u03bb\u03b7\u03b8\u03c5\u03c3\u03bc\u03cc\u03c2 \u03ba\u03b1\u03b9 \u03ba\u03bf\u03b9\u03bd\u03c9\u03bd\u03af\u03b1",
+              "mt": "Popolazzjoni u so\u010bjet\u00e0",
+              "en": "Population and society",
+              "it": "Popolazione e societ\u00e0",
+              "es": "Poblaci\u00f3n y sociedad",
+              "et": "Elanikkond ja \u00fchiskond",
+              "cs": "Populace a spole\u010dnost",
+              "pl": "Ludno\u015b\u0107 i spo\u0142ecze\u0144stwo",
+              "ro": "Popula\u0163ie \u015fi societate",
+              "da": "Befolkning og samfund",
+              "nl": "Bevolking en samenleving"
+            },
+            "resource": "http://publications.europa.eu/resource/authority/data-theme/SOCI"
+          },
+          {
+            "count": 26846,
+            "id": "REGI",
+            "title": {
+              "no": "Regioner og byer",
+              "de": "Regionen und St\u00e4dte",
+              "fi": "Alueet ja kaupungit",
+              "pt": "Regi\u00f5es e cidades",
+              "bg": "\u0420\u0435\u0433\u0438\u043e\u043d\u0438 \u0438 \u0433\u0440\u0430\u0434\u043e\u0432\u0435",
+              "lt": "Regionai ir miestai",
+              "hr": "Regije i gradovi",
+              "lv": "Re\u0123ioni un pils\u0113tas",
+              "fr": "R\u00e9gions et villes",
+              "hu": "R\u00e9gi\u00f3k \u00e9s v\u00e1rosok",
+              "sk": "Regi\u00f3ny a mest\u00e1",
+              "sl": "Regije in mesta",
+              "ga": "R\u00e9igi\u00fain agus cathracha",
+              "sv": "Regioner och st\u00e4der",
+              "el": "\u03a0\u03b5\u03c1\u03b9\u03c6\u03ad\u03c1\u03b5\u03b9\u03b5\u03c2 \u03ba\u03b1\u03b9 \u03c0\u03cc\u03bb\u03b5\u03b9\u03c2",
+              "mt": "Re\u0121juni u bliet",
+              "en": "Regions and cities",
+              "it": "Regioni e citt\u00e0",
+              "es": "Regiones y ciudades",
+              "et": "Piirkonnad ja linnad",
+              "cs": "Regiony a m\u011bsta",
+              "pl": "Regiony i miasta",
+              "da": "Regioner og byer",
+              "ro": "Regiuni \u015fi ora\u0219e",
+              "nl": "Regio's en steden"
+            },
+            "resource": "http://publications.europa.eu/resource/authority/data-theme/REGI"
+          },
+          {
+            "count": 17531,
+            "id": "EDUC",
+            "title": {
+              "de": "Bildung, Kultur und Sport",
+              "no": "Utdanning, kultur og sport",
+              "fi": "Koulutus, kulttuuri ja urheilu",
+              "pt": "Educa\u00e7\u00e3o, cultura e desporto",
+              "bg": "\u041e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u0435, \u043a\u0443\u043b\u0442\u0443\u0440\u0430 \u0438 \u0441\u043f\u043e\u0440\u0442",
+              "lt": "\u0160vietimas, kult\u016bra ir sportas",
+              "hr": "Obrazovanje, kultura i sport",
+              "lv": "Izgl\u012bt\u012bba, kult\u016bra un sports",
+              "fr": "\u00c9ducation, culture et sport",
+              "hu": "Oktat\u00e1s, kult\u00fara \u00e9s sport",
+              "sk": "Vzdel\u00e1vanie, kult\u00fara a \u0161port",
+              "sl": "Izobra\u017eevanje, kultura in \u0161port",
+              "ga": "Oideachas, cult\u00far agus sp\u00f3rt",
+              "sv": "Utbildning, kultur och sport",
+              "mt": "Edukazzjoni, kultura u sport",
+              "el": "\u03a0\u03b1\u03b9\u03b4\u03b5\u03af\u03b1, \u03c0\u03bf\u03bb\u03b9\u03c4\u03b9\u03c3\u03c4\u03b9\u03ba\u03ac \u03b8\u03ad\u03bc\u03b1\u03c4\u03b1 \u03ba\u03b1\u03b9 \u03b1\u03b8\u03bb\u03b7\u03c4\u03b9\u03c3\u03bc\u03cc\u03c2",
+              "en": "Education, culture and sport",
+              "it": "Istruzione, cultura e sport",
+              "es": "Educaci\u00f3n, cultura y deportes",
+              "et": "Haridus, kultuur ja sport",
+              "cs": "Vzd\u011bl\u00e1v\u00e1n\u00ed, kultura a sport",
+              "pl": "Edukacja, kultura i sport",
+              "da": "Uddannelse, kultur og sport",
+              "ro": "Educa\u0163ie, cultur\u0103 \u015fi sport",
+              "nl": "Onderwijs, cultuur en sport"
+            },
+            "resource": "http://publications.europa.eu/resource/authority/data-theme/EDUC"
+          },
+          {
+            "count": 15307,
+            "id": "HEAL",
+            "title": {
+              "de": "Gesundheit",
+              "no": "Helse",
+              "fi": "Terveys",
+              "pt": "Sa\u00fade",
+              "bg": "\u0417\u0434\u0440\u0430\u0432\u0435",
+              "lt": "Sveikata",
+              "hr": "Zdravlje",
+              "lv": "Vesel\u012bba",
+              "fr": "Sant\u00e9",
+              "hu": "Eg\u00e9szs\u00e9g\u00fcgy",
+              "sk": "Zdravotn\u00edctvo",
+              "sl": "Zdravje",
+              "ga": "Sl\u00e1inte",
+              "sv": "H\u00e4lsa",
+              "el": "\u03a5\u03b3\u03b5\u03af\u03b1",
+              "mt": "Sa\u0127\u0127a",
+              "en": "Health",
+              "it": "Salute",
+              "es": "Salud",
+              "et": "Tervis",
+              "cs": "Zdrav\u00ed",
+              "pl": "Zdrowie",
+              "da": "Sundhed",
+              "ro": "S\u0103n\u0103tate",
+              "nl": "Gezondheid"
+            },
+            "resource": "http://publications.europa.eu/resource/authority/data-theme/HEAL"
+          },
+          {
+            "count": 7042,
+            "id": "ENER",
+            "title": {
+              "de": "Energie",
+              "no": "Energi",
+              "fi": "Energia",
+              "pt": "Energia",
+              "bg": "\u0415\u043d\u0435\u0440\u0433\u0435\u0442\u0438\u043a\u0430",
+              "lt": "Energetika",
+              "hr": "Energetika",
+              "lv": "Ener\u0123\u0113tika",
+              "fr": "\u00c9nergie",
+              "hu": "Energia",
+              "sk": "Energetika",
+              "sl": "Energetika",
+              "ga": "Fuinneamh",
+              "sv": "Energi",
+              "el": "\u0395\u03bd\u03ad\u03c1\u03b3\u03b5\u03b9\u03b1",
+              "mt": "Ener\u0121ija",
+              "en": "Energy",
+              "it": "Energia",
+              "es": "Energ\u00eda",
+              "et": "Energeetika",
+              "cs": "Energie",
+              "pl": "Energia",
+              "ro": "Energie",
+              "da": "Energi",
+              "nl": "Energie"
+            },
+            "resource": "http://publications.europa.eu/resource/authority/data-theme/ENER"
+          },
+          {
+            "count": 1037,
+            "id": "INTR",
+            "title": {
+              "de": "Internationale Themen",
+              "no": "Internasjonale temaer",
+              "fi": "Kansainv\u00e4liset kysymykset",
+              "pt": "Quest\u00f5es internacionais",
+              "bg": "\u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u0438 \u0432\u044a\u043f\u0440\u043e\u0441\u0438",
+              "lt": "Tarptautiniai klausimai",
+              "lv": "Starptautiski jaut\u0101jumi",
+              "hr": "Me\u0111unarodni pitanja",
+              "fr": "Questions internationales",
+              "hu": "Nemzetk\u00f6zi \u00fcgyek",
+              "sk": "Medzin\u00e1rodn\u00e9 ot\u00e1zky",
+              "sl": "Mednarodna vpra\u0161anja",
+              "ga": "Saincheisteanna idirn\u00e1isi\u00fanta",
+              "sv": "Internationella fr\u00e5gor",
+              "el": "\u0394\u03b9\u03b5\u03b8\u03bd\u03ae \u03b8\u03ad\u03bc\u03b1\u03c4\u03b1",
+              "mt": "Kwistjonijiet internazzjonali",
+              "en": "International issues",
+              "it": "Tematiche internazionali",
+              "es": "Asuntos internacionales",
+              "et": "Rahvusvahelised k\u00fcsimused",
+              "cs": "Mezin\u00e1rodn\u00ed ot\u00e1zky",
+              "pl": "Kwestie mi\u0119dzynarodowe",
+              "da": "Internationale sp\u00f8rgsm\u00e5l",
+              "ro": "Chestiuni interna\u021bionale",
+              "nl": "Internationale vraagstukken"
+            },
+            "resource": "http://publications.europa.eu/resource/authority/data-theme/INTR"
+          }
+        ]
+      },
+      {
+        "id": "keywords",
+        "title": "Keywords",
+        "items": [
+          {
+            "count": 176549,
+            "id": "inspireidentifiziert",
+            "title": "inspireidentifiziert"
+          },
+          {
+            "count": 107489,
+            "id": "infomapaccessservice",
+            "title": "infoMapAccessService"
+          },
+          {
+            "count": 103521,
+            "id": "katastra-lni-parcely",
+            "title": "Katastr\u00e1ln\u00ed parcely"
+          },
+          {
+            "count": 96318,
+            "id": "adresy",
+            "title": "Adresy"
+          },
+          {
+            "count": 91064,
+            "id": "katastra-lni-parcela",
+            "title": "katastr\u00e1ln\u00ed parcela"
+          },
+          {
+            "count": 88185,
+            "id": "infofeatureaccessservice",
+            "title": "infoFeatureAccessService"
+          },
+          {
+            "count": 84783,
+            "id": "pozemek",
+            "title": "pozemek"
+          },
+          {
+            "count": 84781,
+            "id": "hranice",
+            "title": "hranice"
+          },
+          {
+            "count": 84761,
+            "id": "informac-ni-syste-m-katastru-nemovitosti-iskn-",
+            "title": "informa\u010dn\u00ed syst\u00e9m katastru nemovitost\u00ed (ISKN)"
+          },
+          {
+            "count": 84760,
+            "id": "nemovitost-nemovita-ve-c",
+            "title": "nemovitost, nemovit\u00e1 v\u011bc"
+          },
+          {
+            "count": 84294,
+            "id": "parcela",
+            "title": "parcela"
+          },
+          {
+            "count": 78502,
+            "id": "hranice-parcely",
+            "title": "hranice parcely"
+          },
+          {
+            "count": 65438,
+            "id": "katastra-lni-mapa",
+            "title": "katastr\u00e1ln\u00ed mapa"
+          },
+          {
+            "count": 65433,
+            "id": "digita-lni-katastra-lni-mapa",
+            "title": "digit\u00e1ln\u00ed katastr\u00e1ln\u00ed mapa"
+          },
+          {
+            "count": 65433,
+            "id": "digitalizovana-katastra-lni-mapa",
+            "title": "digitalizovan\u00e1 katastr\u00e1ln\u00ed mapa"
+          },
+          {
+            "count": 65433,
+            "id": "katastr-nemovitosti-c-r",
+            "title": "katastr nemovitost\u00ed \u010cR"
+          },
+          {
+            "count": 65433,
+            "id": "katastr-nemovitosti-kn-",
+            "title": "katastr nemovitost\u00ed (KN)"
+          },
+          {
+            "count": 65409,
+            "id": "katastra-lni-pracovis-te-kp-",
+            "title": "Katastr\u00e1ln\u00ed pracovi\u0161t\u011b (KP)"
+          },
+          {
+            "count": 61130,
+            "id": "bebauungsplan",
+            "title": "Bebauungsplan"
+          },
+          {
+            "count": 59781,
+            "id": "archival-maps",
+            "title": "archival maps"
+          },
+          {
+            "count": 59781,
+            "id": "archivni-mapy",
+            "title": "archivn\u00ed mapy"
+          },
+          {
+            "count": 59781,
+            "id": "central-archive-of-surveying-and-cadastre",
+            "title": "Central Archive of Surveying and Cadastre"
+          },
+          {
+            "count": 59781,
+            "id": "u-str-edni-archiv-zeme-me-r-ictvi-a-katastru",
+            "title": "\u00dast\u0159edn\u00ed archiv zem\u011bm\u011b\u0159ictv\u00ed a katastru"
+          },
+          {
+            "count": 56838,
+            "id": "me-r-i-tko-1-2-880",
+            "title": "m\u011b\u0159\u00edtko 1:2 880"
+          },
+          {
+            "count": 56838,
+            "id": "scale-1-2-880",
+            "title": "scale 1:2,880"
+          },
+          {
+            "count": 56836,
+            "id": "mapy-stabilni-ho-katastru",
+            "title": "mapy stabiln\u00edho katastru"
+          },
+          {
+            "count": 56836,
+            "id": "stable-cadastre-maps",
+            "title": "stable cadastre maps"
+          },
+          {
+            "count": 56833,
+            "id": "ci-sar-ske-povinne-otisky",
+            "title": "c\u00edsa\u0159sk\u00e9 povinn\u00e9 otisky"
+          },
+          {
+            "count": 56833,
+            "id": "imperial-obligatory-imprints",
+            "title": "Imperial Obligatory Imprints"
+          },
+          {
+            "count": 50294,
+            "id": "-",
+            "title": "..."
+          },
+          {
+            "count": 50244,
+            "id": "registr-u-zemni-identifikace-adres-a-nemovitosti-ru-ian-",
+            "title": "Registr \u00fazemn\u00ed identifikace, adres a nemovitost\u00ed (R\u00daIAN)"
+          },
+          {
+            "count": 48210,
+            "id": "bauleitplan",
+            "title": "Bauleitplan"
+          },
+          {
+            "count": 44384,
+            "id": "definic-ni-bod-reprezentac-ni-bod-centroid",
+            "title": "defini\u010dn\u00ed bod, reprezenta\u010dn\u00ed bod, centroid"
+          },
+          {
+            "count": 43983,
+            "id": "obec",
+            "title": "obec"
+          },
+          {
+            "count": 43973,
+            "id": "me-stsky-obvod-me-stska-c-a-st-momc-",
+            "title": "m\u011bstsk\u00fd obvod/m\u011bstsk\u00e1 \u010d\u00e1st (MOMC)"
+          },
+          {
+            "count": 43969,
+            "id": "adresni-mi-sto",
+            "title": "adresn\u00ed m\u00edsto"
+          },
+          {
+            "count": 37603,
+            "id": "ulice",
+            "title": "ulice"
+          },
+          {
+            "count": 37592,
+            "id": "adresa",
+            "title": "adresa"
+          },
+          {
+            "count": 37574,
+            "id": "me-stsky-obvod-v-praze-mop-",
+            "title": "m\u011bstsk\u00fd obvod v Praze (MOP)"
+          },
+          {
+            "count": 37557,
+            "id": "c-a-st-obce",
+            "title": "\u010d\u00e1st obce"
+          },
+          {
+            "count": 37421,
+            "id": "opendata",
+            "title": "OpenData"
+          },
+          {
+            "count": 36909,
+            "id": "wms-1-3-0",
+            "title": "WMS 1.3.0"
+          },
+          {
+            "count": 36692,
+            "id": "wms-1-1-1",
+            "title": "WMS 1.1.1"
+          },
+          {
+            "count": 35122,
+            "id": "wfs-1-1-0",
+            "title": "WFS 1.1.0"
+          },
+          {
+            "count": 32553,
+            "id": "5000",
+            "title": "5000"
+          },
+          {
+            "count": 32536,
+            "id": "5-000",
+            "title": "5,000"
+          },
+          {
+            "count": 32536,
+            "id": "me-r-i-tko-1-5-000",
+            "title": "m\u011b\u0159\u00edtko 1:5 000"
+          },
+          {
+            "count": 32536,
+            "id": "scale-1-5-000",
+            "title": "scale 1:5,000"
+          },
+          {
+            "count": 32533,
+            "id": "me-r-i-tko-1-5000",
+            "title": "m\u011b\u0159\u00edtko 1:5000"
+          },
+          {
+            "count": 32531,
+            "id": "cadastral-component",
+            "title": "cadastral component"
+          }
+        ]
+      },
+      {
+        "id": "scoring",
+        "title": "Scoring",
+        "items": [
+          {
+            "id": "excellentScoring",
+            "title": "Excellent Scoring",
+            "count": 69,
+            "from": 351.0,
+            "to": 406.0
+          },
+          {
+            "id": "goodScoring",
+            "title": "Good Scoring",
+            "count": 180715,
+            "from": 221.0,
+            "to": 351.0
+          },
+          {
+            "id": "sufficientScoring",
+            "title": "Sufficient Scoring",
+            "count": 659454,
+            "from": 121.0,
+            "to": 221.0
+          },
+          {
+            "id": "badScoring",
+            "title": "Bad Scoring",
+            "count": 456887,
+            "from": 0.0,
+            "to": 121.0
+          }
+        ]
+      },
+      {
+        "id": "format",
+        "title": "Formats",
+        "items": [
+          {
+            "count": 181041,
+            "id": "CSV",
+            "title": "CSV"
+          },
+          {
+            "count": 169595,
+            "id": "WFS",
+            "title": "WFS"
+          },
+          {
+            "count": 166444,
+            "id": "WMS",
+            "title": "WMS"
+          },
+          {
+            "count": 84000,
+            "id": "JSON",
+            "title": "JSON"
+          },
+          {
+            "count": 63002,
+            "id": "HTML",
+            "title": "HTML"
+          },
+          {
+            "count": 52257,
+            "id": "ZIP",
+            "title": "ZIP"
+          },
+          {
+            "count": 52080,
+            "id": "XLSX",
+            "title": "Excel XLSX"
+          },
+          {
+            "count": 49422,
+            "id": "GML",
+            "title": "GML"
+          },
+          {
+            "count": 47880,
+            "id": "XLS",
+            "title": "Excel XLS"
+          },
+          {
+            "count": 46994,
+            "id": "SHP",
+            "title": "Esri Shape"
+          },
+          {
+            "count": 34756,
+            "id": "PDF",
+            "title": "PDF"
+          },
+          {
+            "count": 27741,
+            "id": "XML",
+            "title": "XML"
+          },
+          {
+            "count": 13319,
+            "id": "KML",
+            "title": "KML"
+          },
+          {
+            "count": 12866,
+            "id": "TIFF",
+            "title": "TIFF"
+          },
+          {
+            "count": 12499,
+            "id": "WMS_SRVC",
+            "title": "WMS"
+          },
+          {
+            "count": 11815,
+            "id": "TSV",
+            "title": "TSV"
+          },
+          {
+            "count": 11251,
+            "id": "px",
+            "title": "px"
+          },
+          {
+            "count": 11249,
+            "id": "json-stat",
+            "title": "json-stat"
+          },
+          {
+            "count": 9972,
+            "id": "GEOJSON",
+            "title": "GeoJSON"
+          },
+          {
+            "count": 9628,
+            "id": "WFS_SRVC",
+            "title": "WFS"
+          },
+          {
+            "count": 6040,
+            "id": "ATOM",
+            "title": "Atom Feed"
+          },
+          {
+            "count": 5818,
+            "id": "TXT",
+            "title": "Plain text"
+          },
+          {
+            "count": 5313,
+            "id": "application/json",
+            "title": "application/json"
+          },
+          {
+            "count": 5001,
+            "id": "document",
+            "title": "document"
+          },
+          {
+            "count": 4879,
+            "id": "Karte",
+            "title": "Karte"
+          },
+          {
+            "count": 4878,
+            "id": "Webanwendung",
+            "title": "Webanwendung"
+          },
+          {
+            "count": 4028,
+            "id": "GZIP",
+            "title": "GNU zip"
+          },
+          {
+            "count": 3986,
+            "id": "RDF",
+            "title": "RDF"
+          },
+          {
+            "count": 3654,
+            "id": "ODS",
+            "title": "ODS"
+          },
+          {
+            "count": 3442,
+            "id": "DOC",
+            "title": "Word DOC"
+          },
+          {
+            "count": 3072,
+            "id": "DOCX",
+            "title": "Word DOCX"
+          },
+          {
+            "count": 2769,
+            "id": "OP_DATPRO",
+            "title": "Provisional data"
+          },
+          {
+            "count": 2709,
+            "id": "KMZ",
+            "title": "KMZ"
+          },
+          {
+            "count": 1970,
+            "id": "Diverse",
+            "title": "Diverse"
+          },
+          {
+            "count": 1877,
+            "id": "MAP_SRVC",
+            "title": "ArcGIS Map Service"
+          },
+          {
+            "count": 1706,
+            "id": "XPlanGML",
+            "title": "XPlanGML"
+          },
+          {
+            "count": 1698,
+            "id": "RDF_XML",
+            "title": "RDF XML"
+          },
+          {
+            "count": 1677,
+            "id": "SERVICE",
+            "title": "SERVICE"
+          },
+          {
+            "count": 1585,
+            "id": "view",
+            "title": "view"
+          },
+          {
+            "count": 1561,
+            "id": ".xlsx",
+            "title": ".xlsx"
+          },
+          {
+            "count": 1431,
+            "id": "download",
+            "title": "download"
+          },
+          {
+            "count": 1404,
+            "id": "\u0445lsx",
+            "title": "\u0445lsx"
+          },
+          {
+            "count": 1258,
+            "id": "OWL",
+            "title": "OWL"
+          },
+          {
+            "count": 1042,
+            "id": "RDF_TURTLE",
+            "title": "RDF Turtle"
+          },
+          {
+            "count": 1007,
+            "id": "JPEG",
+            "title": "JPEG"
+          },
+          {
+            "count": 979,
+            "id": "PNG",
+            "title": "PNG"
+          },
+          {
+            "count": 852,
+            "id": "image",
+            "title": "image"
+          },
+          {
+            "count": 819,
+            "id": "OCTET",
+            "title": "Octet Stream"
+          },
+          {
+            "count": 818,
+            "id": "MAP_PRVW",
+            "title": "ArcGIS Map Preview"
+          },
+          {
+            "count": 765,
+            "id": "Esri REST",
+            "title": "Esri REST"
+          }
+        ]
+      },
+      {
+        "id": "license",
+        "title": "Licenses",
+        "items": [
+          {
+            "count": 46572,
+            "id": "CC_BY_4_0",
+            "title": "Creative Commons Attribution 4.0 International"
+          },
+          {
+            "count": 33391,
+            "id": "DLDE_BY_2_0",
+            "title": "Data licence Germany \u2013 attribution \u2013 Version 2.0"
+          },
+          {
+            "count": 30715,
+            "id": "https://creativecommons.org/licenses/by/4.0/deed.de",
+            "title": "https://creativecommons.org/licenses/by/4.0/deed.de"
+          },
+          {
+            "count": 29682,
+            "id": "OGL_3_0",
+            "title": "Open Government Licence 3.0"
+          },
+          {
+            "count": 23457,
+            "id": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+            "title": "https://www.etalab.gouv.fr/licence-ouverte-open-licence"
+          },
+          {
+            "count": 18695,
+            "id": "CC_BY",
+            "title": "Creative Commons Attribution 4.0 International"
+          },
+          {
+            "count": 8487,
+            "id": "notspecified",
+            "title": "License not specified"
+          },
+          {
+            "count": 8140,
+            "id": "https://www.ine.es/aviso_legal",
+            "title": "https://www.ine.es/aviso_legal"
+          },
+          {
+            "count": 8104,
+            "id": "CC0",
+            "title": "Creative Commons CC0 1.0 Universal"
+          },
+          {
+            "count": 7756,
+            "id": "cc-zero",
+            "title": "cc-zero"
+          },
+          {
+            "count": 7475,
+            "id": "http://www.gobiernodecanarias.org/istac/aviso_legal.html",
+            "title": "http://www.gobiernodecanarias.org/istac/aviso_legal.html"
+          },
+          {
+            "count": 6331,
+            "id": "http://creativecommons.org/licenses/by/4.0/deed.nl",
+            "title": "http://creativecommons.org/licenses/by/4.0/deed.nl"
+          },
+          {
+            "count": 6027,
+            "id": "http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+            "title": "http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0"
+          },
+          {
+            "count": 5545,
+            "id": "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf",
+            "title": "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf"
+          },
+          {
+            "count": 5502,
+            "id": "http://creativecommons.org/publicdomain/zero/1.0/deed.nl",
+            "title": "http://creativecommons.org/publicdomain/zero/1.0/deed.nl"
+          },
+          {
+            "count": 5415,
+            "id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+            "title": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)"
+          },
+          {
+            "count": 4663,
+            "id": "COM_REUSE",
+            "title": "European Commission reuse notice"
+          },
+          {
+            "count": 3794,
+            "id": "http://opendatacommons.org/licenses/odbl/summary/",
+            "title": "http://opendatacommons.org/licenses/odbl/summary/"
+          },
+          {
+            "count": 3428,
+            "id": "DLDE_ZERO_2_0",
+            "title": "Data licence Germany - Zero - Version 2.0"
+          },
+          {
+            "count": 3335,
+            "id": "http://creativecommons.org/publicdomain/mark/1.0/deed.nl",
+            "title": "http://creativecommons.org/publicdomain/mark/1.0/deed.nl"
+          },
+          {
+            "count": 3304,
+            "id": "",
+            "title": ""
+          },
+          {
+            "count": 2994,
+            "id": "Italian Open Data License 2.0 (IODL 2.0)",
+            "title": "Italian Open Data License 2.0 (IODL 2.0)"
+          },
+          {
+            "count": 2515,
+            "id": "other-open",
+            "title": "Other (Open)"
+          },
+          {
+            "count": 2499,
+            "id": "http://www.igme.es/Ayuda/CondiUso.htm",
+            "title": "http://www.igme.es/Ayuda/CondiUso.htm"
+          },
+          {
+            "count": 2160,
+            "id": "iodl2",
+            "title": "iodl2"
+          },
+          {
+            "count": 1946,
+            "id": "ODC_PDDL",
+            "title": "Open Data Commons Public Domain Dedication and License 1.0"
+          },
+          {
+            "count": 1719,
+            "id": "cc-by-3.0-it",
+            "title": "cc-by-3.0-it"
+          },
+          {
+            "count": 1696,
+            "id": "Creative Commons Attribuzione 2.5 Generica (CC BY 2.5)",
+            "title": "Creative Commons Attribuzione 2.5 Generica (CC BY 2.5)"
+          },
+          {
+            "count": 1651,
+            "id": "CC_BY_3_0",
+            "title": "Creative Commons Attribution 3.0 Unported"
+          },
+          {
+            "count": 1591,
+            "id": "https://opendata.euskadi.eus/AVComun/r01gContainerVA/html/opendata/r01gLicencia_es.html",
+            "title": "https://opendata.euskadi.eus/AVComun/r01gContainerVA/html/opendata/r01gLicencia_es.html"
+          },
+          {
+            "count": 1345,
+            "id": "http://www.cis.es/cis/opencms/ES/2_bancodatos/Productos.html",
+            "title": "http://www.cis.es/cis/opencms/ES/2_bancodatos/Productos.html"
+          },
+          {
+            "count": 1342,
+            "id": "CC_BY_3_0_DE",
+            "title": "Creative Commons Namensnennung 3.0 Deutschland"
+          },
+          {
+            "count": 1126,
+            "id": "cc-by",
+            "title": "Creative Commons Attribution"
+          },
+          {
+            "count": 1081,
+            "id": "Creative Commons Attribuzione 2.5 Italia (CC BY 2.5 IT)",
+            "title": "Creative Commons Attribuzione 2.5 Italia (CC BY 2.5 IT)"
+          },
+          {
+            "count": 1056,
+            "id": "CC_PDM_1_0",
+            "title": "Public Domain Mark 1.0"
+          },
+          {
+            "count": 1054,
+            "id": "CC_BYSA_4_0",
+            "title": "Creative Commons Attribution\u2013ShareAlike 4.0 International"
+          },
+          {
+            "count": 1003,
+            "id": "other-nc",
+            "title": "other-nc"
+          },
+          {
+            "count": 980,
+            "id": "Licenza Sconosciuta",
+            "title": "Licenza Sconosciuta"
+          },
+          {
+            "count": 971,
+            "id": "https://creativecommons.org/licenses/by/3.0/at/deed.de",
+            "title": "https://creativecommons.org/licenses/by/3.0/at/deed.de"
+          },
+          {
+            "count": 970,
+            "id": "CC_BYSA",
+            "title": "Creative Commons Attribution\u2013ShareAlike 4.0 International"
+          },
+          {
+            "count": 946,
+            "id": "https://www.universidades.gob.es/portal/site/universidades/menuitem.096178ad30eadc35c7d86f10026041a0/?vgnextoid=302b289195750710VgnVCM1000002006140aRCRD",
+            "title": "https://www.universidades.gob.es/portal/site/universidades/menuitem.096178ad30eadc35c7d86f10026041a0/?vgnextoid=302b289195750710VgnVCM1000002006140aRCRD"
+          },
+          {
+            "count": 926,
+            "id": "http://www.cis.es/cis/opencms/ES/Avisolegal.html",
+            "title": "http://www.cis.es/cis/opencms/ES/Avisolegal.html"
+          },
+          {
+            "count": 886,
+            "id": "License IODL v2.0",
+            "title": "License IODL v2.0"
+          },
+          {
+            "count": 782,
+            "id": "CC_BYNCND_3_0",
+            "title": "Creative Commons Attribution\u2013NonCommercial\u2013NoDerivs 3.0 Unported"
+          },
+          {
+            "count": 711,
+            "id": "http://dcat-ap.de/def/licenses/other-closed",
+            "title": "http://dcat-ap.de/def/licenses/other-closed"
+          },
+          {
+            "count": 693,
+            "id": "http://standaarden.overheid.nl/owms/terms/geslotenlicentie",
+            "title": "http://standaarden.overheid.nl/owms/terms/geslotenlicentie"
+          },
+          {
+            "count": 672,
+            "id": "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf",
+            "title": "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+          },
+          {
+            "count": 633,
+            "id": "OP_DATPRO",
+            "title": "Provisional data"
+          },
+          {
+            "count": 631,
+            "id": "CC0 1.0",
+            "title": "Other (Public Domain)"
+          },
+          {
+            "count": 629,
+            "id": "ODC_BL",
+            "title": "Open Data Commons Open Database License v1.0"
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "country": {
+          "title": "Czechia",
+          "id": "cz"
+        },
+        "keywords": [
+          {
+            "title": "pozemek",
+            "language": "cs",
+            "id": "pozemek"
+          },
+          {
+            "title": "katastr\u00e1ln\u00ed parcela",
+            "language": "cs",
+            "id": "katastra-lni-parcela"
+          },
+          {
+            "title": "digitalizovan\u00e1 katastr\u00e1ln\u00ed mapa",
+            "language": "cs",
+            "id": "digitalizovana-katastra-lni-mapa"
+          },
+          {
+            "title": "nemovitost, nemovit\u00e1 v\u011bc",
+            "language": "cs",
+            "id": "nemovitost-nemovita-ve-c"
+          },
+          {
+            "title": "informa\u010dn\u00ed syst\u00e9m katastru nemovitost\u00ed (ISKN)",
+            "language": "cs",
+            "id": "informac-ni-syste-m-katastru-nemovitosti-iskn-"
+          },
+          {
+            "title": "parcela",
+            "language": "cs",
+            "id": "parcela"
+          },
+          {
+            "title": "Katastr\u00e1ln\u00ed parcely",
+            "language": "cs",
+            "id": "katastra-lni-parcely"
+          },
+          {
+            "title": "hranice",
+            "language": "cs",
+            "id": "hranice"
+          },
+          {
+            "title": "polygon",
+            "language": "cs",
+            "id": "polygon"
+          },
+          {
+            "title": "digit\u00e1ln\u00ed katastr\u00e1ln\u00ed mapa",
+            "language": "cs",
+            "id": "digita-lni-katastra-lni-mapa"
+          },
+          {
+            "title": "katastr nemovitost\u00ed \u010cR",
+            "language": "cs",
+            "id": "katastr-nemovitosti-c-r"
+          },
+          {
+            "title": "katastr\u00e1ln\u00ed mapa",
+            "language": "cs",
+            "id": "katastra-lni-mapa"
+          },
+          {
+            "title": "hranice parcely",
+            "language": "cs",
+            "id": "hranice-parcely"
+          },
+          {
+            "title": "vektorov\u00e1 mapa",
+            "language": "cs",
+            "id": "vektorova-mapa"
+          },
+          {
+            "title": "katastr nemovitost\u00ed (KN)",
+            "language": "cs",
+            "id": "katastr-nemovitosti-kn-"
+          },
+          {
+            "title": "Katastr\u00e1ln\u00ed pracovi\u0161t\u011b (KP)",
+            "language": "cs",
+            "id": "katastra-lni-pracovis-te-kp-"
+          },
+          {
+            "title": "Adresy",
+            "language": "cs",
+            "id": "adresy"
+          }
+        ],
+        "catalog": {
+          "license": null,
+          "country": {
+            "title": "Czechia",
+            "id": "cz"
+          },
+          "spatial_resource": null,
+          "description": {
+            "en": "Czech National Open Data Portal"
+          },
+          "publisher": {
+            "type": "Agent"
+          },
+          "modified": "2019-04-25T15:02:35Z",
+          "language": [
+            "cs"
+          ],
+          "id": "nkod-opendata-cz",
+          "title": {
+            "en": "Czech National Open Data Portal"
+          },
+          "spatial": null,
+          "issued": "2021-06-24T10:06:00.981444Z",
+          "homepage": null
+        },
+        "translation_meta": {
+          "full_available_languages": [
+            "cs"
+          ],
+          "details": {
+            "cs": {
+              "issued": "2021-04-03T10:58:51Z",
+              "machine_translated": false
+            }
+          },
+          "status": "processing"
+        },
+        "description": {
+          "cs": "Datov\u00e1 sada pro poskytov\u00e1n\u00ed star\u0161\u00ed formy katastr\u00e1ln\u00ed mapy v digit\u00e1ln\u00ed form\u011b. Tyto mapy nejsou beze\u0161v\u00e9, a proto nejsou vedeny v datab\u00e1zi ISKN (Informa\u010dn\u00ed syst\u00e9m katastru nemovitost\u00ed). Jejich obsah je nicm\u00e9n\u011b shodn\u00fd s datovou s\u00e9ri\u00ed katastr\u00e1ln\u00ed mapy v digit\u00e1ln\u00ed podob\u011b (viz Katastr\u00e1ln\u00ed mapa \u010cR ve form\u00e1tu VFK distribuovan\u00e1 po katastr\u00e1ln\u00edch \u00fazem\u00edch). Jsou postupn\u011b p\u0159epracov\u00e1v\u00e1ny do beze\u0161v\u00e9 podoby a importov\u00e1ny do datab\u00e1ze ISKN. Datov\u00e1 sada je poskytov\u00e1na jako otev\u0159en\u00e1 data (licence CC-BY 4.0). Data vych\u00e1z\u00ed z ISKN (Informa\u010dn\u00edho syst\u00e9mu katastru nemovitost\u00ed). Data se poskytuj\u00ed po katastr\u00e1ln\u00edch \u00fazem\u00edch v sou\u0159adnicov\u00e9m syst\u00e9mu JTSK. (EPSG:5514) (k 12. 10. 2020 je to pouze 19 katastr\u00e1ln\u00edch \u00fazem\u00ed). Pro sta\u017een\u00ed jsou data komprimov\u00e1na (ZIP). Data jsou poskytov\u00e1na v textov\u00e9m form\u00e1tu VKM (star\u0161\u00ed \u010desk\u00fd n\u00e1rodn\u00ed standard). Popis form\u00e1tu je publikov\u00e1n na webov\u00fdch str\u00e1nk\u00e1ch \u010cesk\u00e9ho \u00fa\u0159adu zem\u011bm\u011b\u0159ick\u00e9ho a katastr\u00e1ln\u00edho. V\u00edce katastr\u00e1ln\u00ed z\u00e1kon 256/2013 Sb., vyhl\u00e1\u0161ka o katastru nemovitost\u00ed \u010d. 357/2013 Sb., vyhl\u00e1\u0161ka o poskytov\u00e1n\u00ed \u00fadaj\u016f \u010d. 358/2013 Sb. v platn\u00e9m zn\u011bn\u00ed."
+        },
+        "language": null,
+        "version_notes": null,
+        "source": null,
+        "title": {
+          "cs": "Katastr\u00e1ln\u00ed mapa pro katastr\u00e1ln\u00ed \u00fazem\u00ed: Nepod\u0159ice [626911]"
+        },
+        "has_version": null,
+        "type": null,
+        "accrual_periodicity": "daily",
+        "geocoding_description": null,
+        "access_right": null,
+        "other_identifiers": null,
+        "frequency": null,
+        "legal_base": null,
+        "provenance": null,
+        "modification_date": null,
+        "spatial_resource": null,
+        "id": "cz-00025712-cuzk_km-ku-vkm_626911",
+        "categories": null,
+        "spatial": [],
+        "deadline": null,
+        "temporal": null,
+        "identifier": [
+          "CZ-00025712-CUZK_KM-KU-VKM_626911"
+        ],
+        "is_version_of": null,
+        "creator": null,
+        "landing_page": null,
+        "version_info": null,
+        "distributions": [
+          {
+            "download_url": [
+              "http://services.cuzk.cz/vkm/ku/aktualni/626911.zip"
+            ],
+            "license": {
+              "title": "https://data.gov.cz/zdroj/datov\u00e9-sady/https---atom.cuzk.cz-api-3-action-package_show-id-cz-00025712-cuzk_km-ku-vkm_626911/distribuce/06218ffad74a2d70b39753fcc1920813/podm\u00ednky-u\u017eit\u00ed",
+              "resource": "https://data.gov.cz/zdroj/datov\u00e9-sady/https---atom.cuzk.cz-api-3-action-package_show-id-cz-00025712-cuzk_km-ku-vkm_626911/distribuce/06218ffad74a2d70b39753fcc1920813/podm\u00ednky-u\u017eit\u00ed",
+              "id": "https://data.gov.cz/zdroj/datov\u00e9-sady/https---atom.cuzk.cz-api-3-action-package_show-id-cz-00025712-cuzk_km-ku-vkm_626911/distribuce/06218ffad74a2d70b39753fcc1920813/podm\u00ednky-u\u017eit\u00ed"
+            },
+            "id": "0182eba8-b93b-4b6c-9411-84bc45f488e0",
+            "title": {
+              "cs": "Katastr\u00e1ln\u00ed mapa pro katastr\u00e1ln\u00ed \u00fazem\u00ed: Nepod\u0159ice [626911]"
+            },
+            "access_url": "http://services.cuzk.cz/vkm/ku/aktualni/626911.zip"
+          },
+          {
+            "download_url": [
+              "http://services.cuzk.cz/vkm/ku_zdroje/aktualni/626911.zip"
+            ],
+            "license": {
+              "title": "https://data.gov.cz/zdroj/datov\u00e9-sady/https---atom.cuzk.cz-api-3-action-package_show-id-cz-00025712-cuzk_km-ku-vkm_626911/distribuce/edc3307d081f0a54d47fee2b35fb6b79/podm\u00ednky-u\u017eit\u00ed",
+              "resource": "https://data.gov.cz/zdroj/datov\u00e9-sady/https---atom.cuzk.cz-api-3-action-package_show-id-cz-00025712-cuzk_km-ku-vkm_626911/distribuce/edc3307d081f0a54d47fee2b35fb6b79/podm\u00ednky-u\u017eit\u00ed",
+              "id": "https://data.gov.cz/zdroj/datov\u00e9-sady/https---atom.cuzk.cz-api-3-action-package_show-id-cz-00025712-cuzk_km-ku-vkm_626911/distribuce/edc3307d081f0a54d47fee2b35fb6b79/podm\u00ednky-u\u017eit\u00ed"
+            },
+            "id": "0f05d7bd-e348-4870-89f4-1ee8f7934087",
+            "title": {
+              "cs": "Katastr\u00e1ln\u00ed mapa pro katastr\u00e1ln\u00ed \u00fazem\u00ed: Nepod\u0159ice [626911]"
+            },
+            "access_url": "http://services.cuzk.cz/vkm/ku_zdroje/aktualni/626911.zip"
+          }
+        ],
+        "quality_meas": null,
+        "related_resources": null,
+        "release_date": null,
+        "conforms_to": null,
+        "publisher": {
+          "name": "\u010cesk\u00fd \u00fa\u0159ad zem\u011bm\u011b\u0159ick\u00fd a katastr\u00e1ln\u00ed",
+          "type": "Agent",
+          "resource": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/org\u00e1n-ve\u0159ejn\u00e9-moci/00025712"
+        },
+        "page": null,
+        "contact_point": [
+          {
+            "name": "\u010cesk\u00fd \u00fa\u0159ad zem\u011bm\u011b\u0159ick\u00fd a katastr\u00e1ln\u00ed",
+            "type": "Organization",
+            "resource": "https://data.gov.cz/zdroj/datov\u00e9-sady/https---atom.cuzk.cz-api-3-action-package_show-id-cz-00025712-cuzk_km-ku-vkm_626911/kontaktn\u00ed-bod",
+            "email": "mailto:cuzk.helpdesk@cuzk.cz"
+          }
+        ]
+      },
+      {
+        "country": {
+          "title": "Czechia",
+          "id": "cz"
+        },
+        "keywords": [
+          {
+            "title": "katastr nemovitost\u00ed (KN)",
+            "language": "cs",
+            "id": "katastr-nemovitosti-kn-"
+          },
+          {
+            "title": "parcela",
+            "language": "cs",
+            "id": "parcela"
+          },
+          {
+            "title": "Katastr\u00e1ln\u00ed parcely",
+            "language": "cs",
+            "id": "katastra-lni-parcely"
+          },
+          {
+            "title": "digit\u00e1ln\u00ed katastr\u00e1ln\u00ed mapa",
+            "language": "cs",
+            "id": "digita-lni-katastra-lni-mapa"
+          },
+          {
+            "title": "hranice parcely",
+            "language": "cs",
+            "id": "hranice-parcely"
+          },
+          {
+            "title": "katastr\u00e1ln\u00ed parcela",
+            "language": "cs",
+            "id": "katastra-lni-parcela"
+          },
+          {
+            "title": "hranice",
+            "language": "cs",
+            "id": "hranice"
+          },
+          {
+            "title": "Katastr\u00e1ln\u00ed pracovi\u0161t\u011b (KP)",
+            "language": "cs",
+            "id": "katastra-lni-pracovis-te-kp-"
+          },
+          {
+            "title": "Adresy",
+            "language": "cs",
+            "id": "adresy"
+          },
+          {
+            "title": "katastr nemovitost\u00ed \u010cR",
+            "language": "cs",
+            "id": "katastr-nemovitosti-c-r"
+          },
+          {
+            "title": "katastr\u00e1ln\u00ed mapa",
+            "language": "cs",
+            "id": "katastra-lni-mapa"
+          },
+          {
+            "title": "nemovitost, nemovit\u00e1 v\u011bc",
+            "language": "cs",
+            "id": "nemovitost-nemovita-ve-c"
+          },
+          {
+            "title": "digitalizovan\u00e1 katastr\u00e1ln\u00ed mapa",
+            "language": "cs",
+            "id": "digitalizovana-katastra-lni-mapa"
+          },
+          {
+            "title": "pozemek",
+            "language": "cs",
+            "id": "pozemek"
+          },
+          {
+            "title": "informa\u010dn\u00ed syst\u00e9m katastru nemovitost\u00ed (ISKN)",
+            "language": "cs",
+            "id": "informac-ni-syste-m-katastru-nemovitosti-iskn-"
+          }
+        ],
+        "catalog": {
+          "license": null,
+          "country": {
+            "title": "Czechia",
+            "id": "cz"
+          },
+          "spatial_resource": null,
+          "description": {
+            "en": "Czech National Open Data Portal"
+          },
+          "publisher": {
+            "type": "Agent"
+          },
+          "modified": "2019-04-25T15:02:35Z",
+          "language": [
+            "cs"
+          ],
+          "id": "nkod-opendata-cz",
+          "title": {
+            "en": "Czech National Open Data Portal"
+          },
+          "spatial": null,
+          "issued": "2021-06-24T10:06:00.981444Z",
+          "homepage": null
+        },
+        "translation_meta": {
+          "full_available_languages": [
+            "cs"
+          ],
+          "details": {
+            "cs": {
+              "issued": "2021-05-22T08:26:39Z",
+              "machine_translated": false
+            }
+          },
+          "status": "processing"
+        },
+        "description": {
+          "cs": "Datov\u00e1 sada pro poskytov\u00e1n\u00ed star\u0161\u00ed formy katastr\u00e1ln\u00ed mapy v digit\u00e1ln\u00ed form\u011b. Tyto mapy nejsou beze\u0161v\u00e9, a proto nejsou vedeny v datab\u00e1zi ISKN (Informa\u010dn\u00ed syst\u00e9m katastru nemovitost\u00ed). Jejich obsah je nicm\u00e9n\u011b shodn\u00fd s datovou s\u00e9ri\u00ed katastr\u00e1ln\u00ed mapy v digit\u00e1ln\u00ed podob\u011b (viz Katastr\u00e1ln\u00ed mapa \u010cR ve form\u00e1tu VFK distribuovan\u00e1 po katastr\u00e1ln\u00edch \u00fazem\u00edch). Jsou postupn\u011b p\u0159epracov\u00e1v\u00e1ny do beze\u0161v\u00e9 podoby a importov\u00e1ny do datab\u00e1ze ISKN. Datov\u00e1 sada je poskytov\u00e1na jako otev\u0159en\u00e1 data (licence CC-BY 4.0). Data vych\u00e1z\u00ed z ISKN (Informa\u010dn\u00edho syst\u00e9mu katastru nemovitost\u00ed). Data se poskytuj\u00ed po katastr\u00e1ln\u00edch \u00fazem\u00edch v sou\u0159adnicov\u00e9m syst\u00e9mu JTSK. (EPSG:5514) (k 12. 04. 2021 je to pouze 16 katastr\u00e1ln\u00edch \u00fazem\u00ed). Pro sta\u017een\u00ed jsou data komprimov\u00e1na (ZIP). Data jsou poskytov\u00e1na v textov\u00e9m form\u00e1tu VKM (star\u0161\u00ed \u010desk\u00fd n\u00e1rodn\u00ed standard). Popis form\u00e1tu je publikov\u00e1n na webov\u00fdch str\u00e1nk\u00e1ch \u010cesk\u00e9ho \u00fa\u0159adu zem\u011bm\u011b\u0159ick\u00e9ho a katastr\u00e1ln\u00edho. V\u00edce katastr\u00e1ln\u00ed z\u00e1kon 256/2013 Sb., vyhl\u00e1\u0161ka o katastru nemovitost\u00ed \u010d. 357/2013 Sb., vyhl\u00e1\u0161ka o poskytov\u00e1n\u00ed \u00fadaj\u016f \u010d. 358/2013 Sb. v platn\u00e9m zn\u011bn\u00ed."
+        },
+        "language": null,
+        "version_notes": null,
+        "source": null,
+        "title": {
+          "cs": "Katastr\u00e1ln\u00ed mapa pro katastr\u00e1ln\u00ed \u00fazem\u00ed: Z\u00e1lezly u \u010ckyn\u011b [790656]"
+        },
+        "has_version": null,
+        "type": null,
+        "accrual_periodicity": "daily",
+        "geocoding_description": null,
+        "access_right": null,
+        "other_identifiers": null,
+        "frequency": null,
+        "legal_base": null,
+        "provenance": null,
+        "modification_date": null,
+        "spatial_resource": null,
+        "id": "cz-00025712-cuzk_km-ku-vkm_790656",
+        "categories": null,
+        "spatial": [],
+        "deadline": null,
+        "temporal": null,
+        "identifier": [
+          "CZ-00025712-CUZK_KM-KU-VKM_790656"
+        ],
+        "is_version_of": null,
+        "creator": null,
+        "landing_page": null,
+        "version_info": null,
+        "distributions": [
+          {
+            "download_url": [
+              "http://services.cuzk.cz/vkm/ku/aktualni/790656.zip"
+            ],
+            "license": {
+              "title": "https://data.gov.cz/zdroj/datov\u00e9-sady/https---atom.cuzk.cz-api-3-action-package_show-id-cz-00025712-cuzk_km-ku-vkm_790656/distribuce/7036b3fe3a628ff349e0a4e8338a41ce/podm\u00ednky-u\u017eit\u00ed",
+              "resource": "https://data.gov.cz/zdroj/datov\u00e9-sady/https---atom.cuzk.cz-api-3-action-package_show-id-cz-00025712-cuzk_km-ku-vkm_790656/distribuce/7036b3fe3a628ff349e0a4e8338a41ce/podm\u00ednky-u\u017eit\u00ed",
+              "id": "https://data.gov.cz/zdroj/datov\u00e9-sady/https---atom.cuzk.cz-api-3-action-package_show-id-cz-00025712-cuzk_km-ku-vkm_790656/distribuce/7036b3fe3a628ff349e0a4e8338a41ce/podm\u00ednky-u\u017eit\u00ed"
+            },
+            "id": "cf1ed9e9-85f8-4e11-8838-ef0adabc4e4d",
+            "title": {
+              "cs": "Katastr\u00e1ln\u00ed mapa pro katastr\u00e1ln\u00ed \u00fazem\u00ed: Z\u00e1lezly u \u010ckyn\u011b [790656]"
+            },
+            "access_url": "http://services.cuzk.cz/vkm/ku/aktualni/790656.zip"
+          },
+          {
+            "download_url": [
+              "http://services.cuzk.cz/vkm/ku_zdroje/aktualni/790656.zip"
+            ],
+            "license": {
+              "title": "https://data.gov.cz/zdroj/datov\u00e9-sady/https---atom.cuzk.cz-api-3-action-package_show-id-cz-00025712-cuzk_km-ku-vkm_790656/distribuce/30741a4098b5d8cd56162322434d65f0/podm\u00ednky-u\u017eit\u00ed",
+              "resource": "https://data.gov.cz/zdroj/datov\u00e9-sady/https---atom.cuzk.cz-api-3-action-package_show-id-cz-00025712-cuzk_km-ku-vkm_790656/distribuce/30741a4098b5d8cd56162322434d65f0/podm\u00ednky-u\u017eit\u00ed",
+              "id": "https://data.gov.cz/zdroj/datov\u00e9-sady/https---atom.cuzk.cz-api-3-action-package_show-id-cz-00025712-cuzk_km-ku-vkm_790656/distribuce/30741a4098b5d8cd56162322434d65f0/podm\u00ednky-u\u017eit\u00ed"
+            },
+            "id": "4853b8d9-2a77-4fce-9375-faa053816950",
+            "title": {
+              "cs": "Katastr\u00e1ln\u00ed mapa pro katastr\u00e1ln\u00ed \u00fazem\u00ed: Z\u00e1lezly u \u010ckyn\u011b [790656]"
+            },
+            "access_url": "http://services.cuzk.cz/vkm/ku_zdroje/aktualni/790656.zip"
+          }
+        ],
+        "quality_meas": null,
+        "related_resources": null,
+        "release_date": null,
+        "conforms_to": null,
+        "publisher": {
+          "name": "\u010cesk\u00fd \u00fa\u0159ad zem\u011bm\u011b\u0159ick\u00fd a katastr\u00e1ln\u00ed",
+          "type": "Agent",
+          "resource": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/org\u00e1n-ve\u0159ejn\u00e9-moci/00025712"
+        },
+        "page": null,
+        "contact_point": [
+          {
+            "name": "\u010cesk\u00fd \u00fa\u0159ad zem\u011bm\u011b\u0159ick\u00fd a katastr\u00e1ln\u00ed",
+            "type": "Organization",
+            "resource": "https://data.gov.cz/zdroj/datov\u00e9-sady/https---atom.cuzk.cz-api-3-action-package_show-id-cz-00025712-cuzk_km-ku-vkm_790656/kontaktn\u00ed-bod",
+            "email": "mailto:cuzk.helpdesk@cuzk.cz"
+          }
+        ]
+      },
+      {
+        "country": {
+          "title": "Czechia",
+          "id": "cz"
+        },
+        "keywords": [
+          {
+            "title": "katastr nemovitost\u00ed \u010cR",
+            "language": "cs",
+            "id": "katastr-nemovitosti-c-r"
+          },
+          {
+            "title": "katastr\u00e1ln\u00ed mapa",
+            "language": "cs",
+            "id": "katastra-lni-mapa"
+          },
+          {
+            "title": "nemovitost, nemovit\u00e1 v\u011bc",
+            "language": "cs",
+            "id": "nemovitost-nemovita-ve-c"
+          },
+          {
+            "title": "hranice parcely",
+            "language": "cs",
+            "id": "hranice-parcely"
+          },
+          {
+            "title": "polygon",
+            "language": "cs",
+            "id": "polygon"
+          },
+          {
+            "title": "digitalizovan\u00e1 katastr\u00e1ln\u00ed mapa",
+            "language": "cs",
+            "id": "digitalizovana-katastra-lni-mapa"
+          },
+          {
+            "title": "parcela",
+            "language": "cs",
+            "id": "parcela"
+          },
+          {
+            "title": "hranice",
+            "language": "cs",
+            "id": "hranice"
+          },
+          {
+            "title": "Adresy",
+            "language": "cs",
+            "id": "adresy"
+          },
+          {
+            "title": "digit\u00e1ln\u00ed katastr\u00e1ln\u00ed mapa",
+            "language": "cs",
+            "id": "digita-lni-katastra-lni-mapa"
+          },
+          {
+            "title": "vektorov\u00e1 mapa",
+            "language": "cs",
+            "id": "vektorova-mapa"
+          },
+          {
+            "title": "katastr\u00e1ln\u00ed parcela",
+            "language": "cs",
+            "id": "katastra-lni-parcela"
+          },
+          {
+            "title": "pozemek",
+            "language": "cs",
+            "id": "pozemek"
+          },
+          {
+            "title": "informa\u010dn\u00ed syst\u00e9m katastru nemovitost\u00ed (ISKN)",
+            "language": "cs",
+            "id": "informac-ni-syste-m-katastru-nemovitosti-iskn-"
+          },
+          {
+            "title": "katastr nemovitost\u00ed (KN)",
+            "language": "cs",
+            "id": "katastr-nemovitosti-kn-"
+          },
+          {
+            "title": "Katastr\u00e1ln\u00ed pracovi\u0161t\u011b (KP)",
+            "language": "cs",
+            "id": "katastra-lni-pracovis-te-kp-"
+          },
+          {
+            "title": "Katastr\u00e1ln\u00ed parcely",
+            "language": "cs",
+            "id": "katastra-lni-parcely"
+          }
+        ],
+        "catalog": {
+          "license": null,
+          "country": {
+            "title": "Czechia",
+            "id": "cz"
+          },
+          "spatial_resource": null,
+          "description": {
+            "en": "Czech National Open Data Portal"
+          },
+          "publisher": {
+            "type": "Agent"
+          },
+          "modified": "2019-04-25T15:02:35Z",
+          "language": [
+            "cs"
+          ],
+          "id": "nkod-opendata-cz",
+          "title": {
+            "en": "Czech National Open Data Portal"
+          },
+          "spatial": null,
+          "issued": "2021-06-24T10:06:00.981444Z",
+          "homepage": null
+        },
+        "translation_meta": {
+          "full_available_languages": [
+            "cs"
+          ],
+          "details": {
+            "cs": {
+              "issued": "2021-04-03T10:58:52Z",
+              "machine_translated": false
+            }
+          },
+          "status": "processing"
+        },
+        "description": {
+          "cs": "Datov\u00e1 sada pro poskytov\u00e1n\u00ed star\u0161\u00ed formy katastr\u00e1ln\u00ed mapy v digit\u00e1ln\u00ed form\u011b. Tyto mapy nejsou beze\u0161v\u00e9, a proto nejsou vedeny v datab\u00e1zi ISKN (Informa\u010dn\u00ed syst\u00e9m katastru nemovitost\u00ed). Jejich obsah je nicm\u00e9n\u011b shodn\u00fd s datovou s\u00e9ri\u00ed katastr\u00e1ln\u00ed mapy v digit\u00e1ln\u00ed podob\u011b (viz Katastr\u00e1ln\u00ed mapa \u010cR ve form\u00e1tu VFK distribuovan\u00e1 po katastr\u00e1ln\u00edch \u00fazem\u00edch). Jsou postupn\u011b p\u0159epracov\u00e1v\u00e1ny do beze\u0161v\u00e9 podoby a importov\u00e1ny do datab\u00e1ze ISKN. Datov\u00e1 sada je poskytov\u00e1na jako otev\u0159en\u00e1 data (licence CC-BY 4.0). Data vych\u00e1z\u00ed z ISKN (Informa\u010dn\u00edho syst\u00e9mu katastru nemovitost\u00ed). Data se poskytuj\u00ed po katastr\u00e1ln\u00edch \u00fazem\u00edch v sou\u0159adnicov\u00e9m syst\u00e9mu JTSK. (EPSG:5514) (k 12. 10. 2020 je to pouze 19 katastr\u00e1ln\u00edch \u00fazem\u00ed). Pro sta\u017een\u00ed jsou data komprimov\u00e1na (ZIP). Data jsou poskytov\u00e1na v textov\u00e9m form\u00e1tu VKM (star\u0161\u00ed \u010desk\u00fd n\u00e1rodn\u00ed standard). Popis form\u00e1tu je publikov\u00e1n na webov\u00fdch str\u00e1nk\u00e1ch \u010cesk\u00e9ho \u00fa\u0159adu zem\u011bm\u011b\u0159ick\u00e9ho a katastr\u00e1ln\u00edho. V\u00edce katastr\u00e1ln\u00ed z\u00e1kon 256/2013 Sb., vyhl\u00e1\u0161ka o katastru nemovitost\u00ed \u010d. 357/2013 Sb., vyhl\u00e1\u0161ka o poskytov\u00e1n\u00ed \u00fadaj\u016f \u010d. 358/2013 Sb. v platn\u00e9m zn\u011bn\u00ed."
+        },
+        "language": null,
+        "version_notes": null,
+        "source": null,
+        "title": {
+          "cs": "Katastr\u00e1ln\u00ed mapa pro katastr\u00e1ln\u00ed \u00fazem\u00ed: Ol\u0161any [636410]"
+        },
+        "has_version": null,
+        "type": null,
+        "accrual_periodicity": "daily",
+        "geocoding_description": null,
+        "access_right": null,
+        "other_identifiers": null,
+        "frequency": null,
+        "legal_base": null,
+        "provenance": null,
+        "modification_date": null,
+        "spatial_resource": null,
+        "id": "cz-00025712-cuzk_km-ku-vkm_636410",
+        "categories": null,
+        "spatial": [],
+        "deadline": null,
+        "temporal": null,
+        "identifier": [
+          "CZ-00025712-CUZK_KM-KU-VKM_636410"
+        ],
+        "is_version_of": null,
+        "creator": null,
+        "landing_page": null,
+        "version_info": null,
+        "distributions": [
+          {
+            "download_url": [
+              "http://services.cuzk.cz/vkm/ku_zdroje/aktualni/636410.zip"
+            ],
+            "license": {
+              "title": "https://data.gov.cz/zdroj/datov\u00e9-sady/https---atom.cuzk.cz-api-3-action-package_show-id-cz-00025712-cuzk_km-ku-vkm_636410/distribuce/31592b8fe8263e430bf603c92e59c79a/podm\u00ednky-u\u017eit\u00ed",
+              "resource": "https://data.gov.cz/zdroj/datov\u00e9-sady/https---atom.cuzk.cz-api-3-action-package_show-id-cz-00025712-cuzk_km-ku-vkm_636410/distribuce/31592b8fe8263e430bf603c92e59c79a/podm\u00ednky-u\u017eit\u00ed",
+              "id": "https://data.gov.cz/zdroj/datov\u00e9-sady/https---atom.cuzk.cz-api-3-action-package_show-id-cz-00025712-cuzk_km-ku-vkm_636410/distribuce/31592b8fe8263e430bf603c92e59c79a/podm\u00ednky-u\u017eit\u00ed"
+            },
+            "id": "7c275a72-3a87-4768-a42f-1b640aa19e40",
+            "title": {
+              "cs": "Katastr\u00e1ln\u00ed mapa pro katastr\u00e1ln\u00ed \u00fazem\u00ed: Ol\u0161any [636410]"
+            },
+            "access_url": "http://services.cuzk.cz/vkm/ku_zdroje/aktualni/636410.zip"
+          },
+          {
+            "download_url": [
+              "http://services.cuzk.cz/vkm/ku/aktualni/636410.zip"
+            ],
+            "license": {
+              "title": "https://data.gov.cz/zdroj/datov\u00e9-sady/https---atom.cuzk.cz-api-3-action-package_show-id-cz-00025712-cuzk_km-ku-vkm_636410/distribuce/64b996c28dda7cc46794016474ae25e7/podm\u00ednky-u\u017eit\u00ed",
+              "resource": "https://data.gov.cz/zdroj/datov\u00e9-sady/https---atom.cuzk.cz-api-3-action-package_show-id-cz-00025712-cuzk_km-ku-vkm_636410/distribuce/64b996c28dda7cc46794016474ae25e7/podm\u00ednky-u\u017eit\u00ed",
+              "id": "https://data.gov.cz/zdroj/datov\u00e9-sady/https---atom.cuzk.cz-api-3-action-package_show-id-cz-00025712-cuzk_km-ku-vkm_636410/distribuce/64b996c28dda7cc46794016474ae25e7/podm\u00ednky-u\u017eit\u00ed"
+            },
+            "id": "fd456729-3888-41e0-b131-45554ab5c855",
+            "title": {
+              "cs": "Katastr\u00e1ln\u00ed mapa pro katastr\u00e1ln\u00ed \u00fazem\u00ed: Ol\u0161any [636410]"
+            },
+            "access_url": "http://services.cuzk.cz/vkm/ku/aktualni/636410.zip"
+          }
+        ],
+        "quality_meas": null,
+        "related_resources": null,
+        "release_date": null,
+        "conforms_to": null,
+        "publisher": {
+          "name": "\u010cesk\u00fd \u00fa\u0159ad zem\u011bm\u011b\u0159ick\u00fd a katastr\u00e1ln\u00ed",
+          "type": "Agent",
+          "resource": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/org\u00e1n-ve\u0159ejn\u00e9-moci/00025712"
+        },
+        "page": null,
+        "contact_point": [
+          {
+            "name": "\u010cesk\u00fd \u00fa\u0159ad zem\u011bm\u011b\u0159ick\u00fd a katastr\u00e1ln\u00ed",
+            "type": "Organization",
+            "resource": "https://data.gov.cz/zdroj/datov\u00e9-sady/https---atom.cuzk.cz-api-3-action-package_show-id-cz-00025712-cuzk_km-ku-vkm_636410/kontaktn\u00ed-bod",
+            "email": "mailto:cuzk.helpdesk@cuzk.cz"
+          }
+        ]
+      },
+      {
+        "country": {
+          "title": "Czechia",
+          "id": "cz"
+        },
+        "keywords": [
+          {
+            "title": "obec",
+            "language": "cs",
+            "id": "obec"
+          },
+          {
+            "title": "m\u011bstsk\u00fd obvod/m\u011bstsk\u00e1 \u010d\u00e1st (MOMC)",
+            "language": "cs",
+            "id": "me-stsky-obvod-me-stska-c-a-st-momc-"
+          },
+          {
+            "title": "Adresy",
+            "language": "cs",
+            "id": "adresy"
+          },
+          {
+            "title": "volebn\u00ed okrsek",
+            "language": "cs",
+            "id": "volebni-okrsek"
+          },
+          {
+            "title": "Registr \u00fazemn\u00ed identifikace, adres a nemovitost\u00ed (R\u00daIAN)",
+            "language": "cs",
+            "id": "registr-u-zemni-identifikace-adres-a-nemovitosti-ru-ian-"
+          },
+          {
+            "title": "adresn\u00ed m\u00edsto",
+            "language": "cs",
+            "id": "adresni-mi-sto"
+          },
+          {
+            "title": "Statistick\u00e9 jednotky",
+            "language": "cs",
+            "id": "statisticke-jednotky"
+          }
+        ],
+        "catalog": {
+          "license": null,
+          "country": {
+            "title": "Czechia",
+            "id": "cz"
+          },
+          "spatial_resource": null,
+          "description": {
+            "en": "Czech National Open Data Portal"
+          },
+          "publisher": {
+            "type": "Agent"
+          },
+          "modified": "2019-04-25T15:02:35Z",
+          "language": [
+            "cs"
+          ],
+          "id": "nkod-opendata-cz",
+          "title": {
+            "en": "Czech National Open Data Portal"
+          },
+          "spatial": null,
+          "issued": "2021-06-24T10:06:00.981444Z",
+          "homepage": null
+        },
+        "translation_meta": {
+          "full_available_languages": [
+            "cs"
+          ],
+          "details": {
+            "cs": {
+              "issued": "2021-05-15T08:25:21Z",
+              "machine_translated": false
+            }
+          },
+          "status": "processing"
+        },
+        "description": {
+          "cs": "Datov\u00e1 sada obsahuje p\u0159edp\u0159ipraven\u00fd soubor obsahuj\u00edc\u00ed seznam adresn\u00edch m\u00edst a jejich p\u0159\u00edslu\u0161nost k volebn\u00edm okrsk\u016fm. Adresn\u00ed m\u00edsta jsou \u010dlen\u011bna po obc\u00edch a m\u011bstsk\u00fdch obvodech/m\u011bstsk\u00fdch \u010d\u00e1stech (MOMC) pro \u00fazemn\u011b \u010dlen\u011bn\u00e1 statut\u00e1rn\u00ed m\u011bsta. Datov\u00e1 sada je poskytov\u00e1na jako otev\u0159en\u00e1 data (licence CC-BY 4.0). Data vych\u00e1z\u00ed z R\u00daIAN (registru \u00fazemn\u00ed identifikace, adres a nemovitost\u00ed). Data jsou vytv\u00e1\u0159ena 1x m\u011bs\u00ed\u010dn\u011b a poskytov\u00e1na ve form\u00e1tu SHP. Pro sta\u017een\u00ed jsou komprimov\u00e1na (ZIP). V\u00edce v z\u00e1kon\u011b \u010d. 111/2009 Sb., o z\u00e1kladn\u00edch registrech, ve vyhl\u00e1\u0161ce \u010d. 359/2011 Sb., o z\u00e1kladn\u00edm registru \u00fazemn\u00ed identifikace, adres a nemovitost\u00ed."
+        },
+        "language": null,
+        "version_notes": null,
+        "source": null,
+        "title": {
+          "cs": "Volebn\u00ed okrsky: Drozdov [531154]"
+        },
+        "has_version": null,
+        "type": null,
+        "accrual_periodicity": "daily",
+        "geocoding_description": null,
+        "access_right": null,
+        "other_identifiers": null,
+        "frequency": null,
+        "legal_base": null,
+        "provenance": null,
+        "modification_date": null,
+        "spatial_resource": null,
+        "id": "cz-00025712-cuzk_vo_531154",
+        "categories": null,
+        "spatial": [],
+        "deadline": null,
+        "temporal": null,
+        "identifier": [
+          "CZ-00025712-CUZK_VO_531154"
+        ],
+        "is_version_of": null,
+        "creator": null,
+        "landing_page": null,
+        "version_info": null,
+        "distributions": [
+          {
+            "license": {
+              "title": "https://data.gov.cz/zdroj/datov\u00e9-sady/https---atom.cuzk.cz-api-3-action-package_show-id-cz-00025712-cuzk_vo_531154/distribuce/718f624c5ca018cd46127dcb7ea5051b/podm\u00ednky-u\u017eit\u00ed",
+              "resource": "https://data.gov.cz/zdroj/datov\u00e9-sady/https---atom.cuzk.cz-api-3-action-package_show-id-cz-00025712-cuzk_vo_531154/distribuce/718f624c5ca018cd46127dcb7ea5051b/podm\u00ednky-u\u017eit\u00ed",
+              "id": "https://data.gov.cz/zdroj/datov\u00e9-sady/https---atom.cuzk.cz-api-3-action-package_show-id-cz-00025712-cuzk_vo_531154/distribuce/718f624c5ca018cd46127dcb7ea5051b/podm\u00ednky-u\u017eit\u00ed"
+            },
+            "media_type": "text/csv",
+            "access_url": "http://services.cuzk.cz/sestavy/VO/531154.zip",
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            },
+            "download_url": [
+              "http://services.cuzk.cz/sestavy/VO/531154.zip"
+            ],
+            "id": "bfbb0e31-bc1f-41fe-a6ec-b1b08ad14f96",
+            "title": {
+              "cs": "Volebn\u00ed okrsky: Drozdov [531154]"
+            }
+          }
+        ],
+        "quality_meas": {
+          "scoring": 280
+        },
+        "related_resources": null,
+        "release_date": null,
+        "conforms_to": null,
+        "publisher": {
+          "name": "\u010cesk\u00fd \u00fa\u0159ad zem\u011bm\u011b\u0159ick\u00fd a katastr\u00e1ln\u00ed",
+          "type": "Agent",
+          "resource": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/org\u00e1n-ve\u0159ejn\u00e9-moci/00025712"
+        },
+        "page": null,
+        "contact_point": [
+          {
+            "name": "\u010cesk\u00fd \u00fa\u0159ad zem\u011bm\u011b\u0159ick\u00fd a katastr\u00e1ln\u00ed",
+            "type": "Organization",
+            "resource": "https://data.gov.cz/zdroj/datov\u00e9-sady/https---atom.cuzk.cz-api-3-action-package_show-id-cz-00025712-cuzk_vo_531154/kontaktn\u00ed-bod",
+            "email": "mailto:cuzk.helpdesk@cuzk.cz"
+          }
+        ]
+      },
+      {
+        "country": {
+          "title": "Czechia",
+          "id": "cz"
+        },
+        "keywords": [
+          {
+            "title": "Registr \u00fazemn\u00ed identifikace, adres a nemovitost\u00ed (R\u00daIAN)",
+            "language": "cs",
+            "id": "registr-u-zemni-identifikace-adres-a-nemovitosti-ru-ian-"
+          },
+          {
+            "title": "Adresy",
+            "language": "cs",
+            "id": "adresy"
+          },
+          {
+            "title": "adresn\u00ed m\u00edsto",
+            "language": "cs",
+            "id": "adresni-mi-sto"
+          },
+          {
+            "title": "Statistick\u00e9 jednotky",
+            "language": "cs",
+            "id": "statisticke-jednotky"
+          },
+          {
+            "title": "volebn\u00ed okrsek",
+            "language": "cs",
+            "id": "volebni-okrsek"
+          },
+          {
+            "title": "m\u011bstsk\u00fd obvod/m\u011bstsk\u00e1 \u010d\u00e1st (MOMC)",
+            "language": "cs",
+            "id": "me-stsky-obvod-me-stska-c-a-st-momc-"
+          },
+          {
+            "title": "obec",
+            "language": "cs",
+            "id": "obec"
+          }
+        ],
+        "catalog": {
+          "license": null,
+          "country": {
+            "title": "Czechia",
+            "id": "cz"
+          },
+          "spatial_resource": null,
+          "description": {
+            "en": "Czech National Open Data Portal"
+          },
+          "publisher": {
+            "type": "Agent"
+          },
+          "modified": "2019-04-25T15:02:35Z",
+          "language": [
+            "cs"
+          ],
+          "id": "nkod-opendata-cz",
+          "title": {
+            "en": "Czech National Open Data Portal"
+          },
+          "spatial": null,
+          "issued": "2021-06-24T10:06:00.981444Z",
+          "homepage": null
+        },
+        "translation_meta": {
+          "full_available_languages": [
+            "cs"
+          ],
+          "details": {
+            "cs": {
+              "issued": "2021-05-15T08:25:20Z",
+              "machine_translated": false
+            }
+          },
+          "status": "processing"
+        },
+        "description": {
+          "cs": "Datov\u00e1 sada obsahuje p\u0159edp\u0159ipraven\u00fd soubor obsahuj\u00edc\u00ed seznam adresn\u00edch m\u00edst a jejich p\u0159\u00edslu\u0161nost k volebn\u00edm okrsk\u016fm. Adresn\u00ed m\u00edsta jsou \u010dlen\u011bna po obc\u00edch a m\u011bstsk\u00fdch obvodech/m\u011bstsk\u00fdch \u010d\u00e1stech (MOMC) pro \u00fazemn\u011b \u010dlen\u011bn\u00e1 statut\u00e1rn\u00ed m\u011bsta. Datov\u00e1 sada je poskytov\u00e1na jako otev\u0159en\u00e1 data (licence CC-BY 4.0). Data vych\u00e1z\u00ed z R\u00daIAN (registru \u00fazemn\u00ed identifikace, adres a nemovitost\u00ed). Data jsou vytv\u00e1\u0159ena 1x m\u011bs\u00ed\u010dn\u011b a poskytov\u00e1na ve form\u00e1tu SHP. Pro sta\u017een\u00ed jsou komprimov\u00e1na (ZIP). V\u00edce v z\u00e1kon\u011b \u010d. 111/2009 Sb., o z\u00e1kladn\u00edch registrech, ve vyhl\u00e1\u0161ce \u010d. 359/2011 Sb., o z\u00e1kladn\u00edm registru \u00fazemn\u00ed identifikace, adres a nemovitost\u00ed."
+        },
+        "language": null,
+        "version_notes": null,
+        "source": null,
+        "title": {
+          "cs": "Volebn\u00ed okrsky: Neveklov [530310]"
+        },
+        "has_version": null,
+        "type": null,
+        "accrual_periodicity": "daily",
+        "geocoding_description": null,
+        "access_right": null,
+        "other_identifiers": null,
+        "frequency": null,
+        "legal_base": null,
+        "provenance": null,
+        "modification_date": null,
+        "spatial_resource": null,
+        "id": "cz-00025712-cuzk_vo_530310",
+        "categories": null,
+        "spatial": [],
+        "deadline": null,
+        "temporal": null,
+        "identifier": [
+          "CZ-00025712-CUZK_VO_530310"
+        ],
+        "is_version_of": null,
+        "creator": null,
+        "landing_page": null,
+        "version_info": null,
+        "distributions": [
+          {
+            "license": {
+              "title": "https://data.gov.cz/zdroj/datov\u00e9-sady/https---atom.cuzk.cz-api-3-action-package_show-id-cz-00025712-cuzk_vo_530310/distribuce/7d84d26ff814d4fa3f44095ba2ab84b3/podm\u00ednky-u\u017eit\u00ed",
+              "resource": "https://data.gov.cz/zdroj/datov\u00e9-sady/https---atom.cuzk.cz-api-3-action-package_show-id-cz-00025712-cuzk_vo_530310/distribuce/7d84d26ff814d4fa3f44095ba2ab84b3/podm\u00ednky-u\u017eit\u00ed",
+              "id": "https://data.gov.cz/zdroj/datov\u00e9-sady/https---atom.cuzk.cz-api-3-action-package_show-id-cz-00025712-cuzk_vo_530310/distribuce/7d84d26ff814d4fa3f44095ba2ab84b3/podm\u00ednky-u\u017eit\u00ed"
+            },
+            "media_type": "text/csv",
+            "access_url": "http://services.cuzk.cz/sestavy/VO/530310.zip",
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            },
+            "download_url": [
+              "http://services.cuzk.cz/sestavy/VO/530310.zip"
+            ],
+            "id": "0cb62dd0-4ff2-4103-9f46-d4595994f085",
+            "title": {
+              "cs": "Volebn\u00ed okrsky: Neveklov [530310]"
+            }
+          }
+        ],
+        "quality_meas": {
+          "scoring": 280
+        },
+        "related_resources": null,
+        "release_date": null,
+        "conforms_to": null,
+        "publisher": {
+          "name": "\u010cesk\u00fd \u00fa\u0159ad zem\u011bm\u011b\u0159ick\u00fd a katastr\u00e1ln\u00ed",
+          "type": "Agent",
+          "resource": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/org\u00e1n-ve\u0159ejn\u00e9-moci/00025712"
+        },
+        "page": null,
+        "contact_point": [
+          {
+            "name": "\u010cesk\u00fd \u00fa\u0159ad zem\u011bm\u011b\u0159ick\u00fd a katastr\u00e1ln\u00ed",
+            "type": "Organization",
+            "resource": "https://data.gov.cz/zdroj/datov\u00e9-sady/https---atom.cuzk.cz-api-3-action-package_show-id-cz-00025712-cuzk_vo_530310/kontaktn\u00ed-bod",
+            "email": "mailto:cuzk.helpdesk@cuzk.cz"
+          }
+        ]
+      },
+      {
+        "country": {
+          "title": "Czechia",
+          "id": "cz"
+        },
+        "keywords": [
+          {
+            "title": "m\u011bstsk\u00fd obvod/m\u011bstsk\u00e1 \u010d\u00e1st (MOMC)",
+            "language": "cs",
+            "id": "me-stsky-obvod-me-stska-c-a-st-momc-"
+          },
+          {
+            "title": "Statistick\u00e9 jednotky",
+            "language": "cs",
+            "id": "statisticke-jednotky"
+          },
+          {
+            "title": "Adresy",
+            "language": "cs",
+            "id": "adresy"
+          },
+          {
+            "title": "obec",
+            "language": "cs",
+            "id": "obec"
+          },
+          {
+            "title": "Registr \u00fazemn\u00ed identifikace, adres a nemovitost\u00ed (R\u00daIAN)",
+            "language": "cs",
+            "id": "registr-u-zemni-identifikace-adres-a-nemovitosti-ru-ian-"
+          },
+          {
+            "title": "adresn\u00ed m\u00edsto",
+            "language": "cs",
+            "id": "adresni-mi-sto"
+          },
+          {
+            "title": "volebn\u00ed okrsek",
+            "language": "cs",
+            "id": "volebni-okrsek"
+          }
+        ],
+        "catalog": {
+          "license": null,
+          "country": {
+            "title": "Czechia",
+            "id": "cz"
+          },
+          "spatial_resource": null,
+          "description": {
+            "en": "Czech National Open Data Portal"
+          },
+          "publisher": {
+            "type": "Agent"
+          },
+          "modified": "2019-04-25T15:02:35Z",
+          "language": [
+            "cs"
+          ],
+          "id": "nkod-opendata-cz",
+          "title": {
+            "en": "Czech National Open Data Portal"
+          },
+          "spatial": null,
+          "issued": "2021-06-24T10:06:00.981444Z",
+          "homepage": null
+        },
+        "translation_meta": {
+          "full_available_languages": [
+            "cs"
+          ],
+          "details": {
+            "cs": {
+              "issued": "2021-05-15T08:25:23Z",
+              "machine_translated": false
+            }
+          },
+          "status": "processing"
+        },
+        "description": {
+          "cs": "Datov\u00e1 sada obsahuje p\u0159edp\u0159ipraven\u00fd soubor obsahuj\u00edc\u00ed seznam adresn\u00edch m\u00edst a jejich p\u0159\u00edslu\u0161nost k volebn\u00edm okrsk\u016fm. Adresn\u00ed m\u00edsta jsou \u010dlen\u011bna po obc\u00edch a m\u011bstsk\u00fdch obvodech/m\u011bstsk\u00fdch \u010d\u00e1stech (MOMC) pro \u00fazemn\u011b \u010dlen\u011bn\u00e1 statut\u00e1rn\u00ed m\u011bsta. Datov\u00e1 sada je poskytov\u00e1na jako otev\u0159en\u00e1 data (licence CC-BY 4.0). Data vych\u00e1z\u00ed z R\u00daIAN (registru \u00fazemn\u00ed identifikace, adres a nemovitost\u00ed). Data jsou vytv\u00e1\u0159ena 1x m\u011bs\u00ed\u010dn\u011b a poskytov\u00e1na ve form\u00e1tu SHP. Pro sta\u017een\u00ed jsou komprimov\u00e1na (ZIP). V\u00edce v z\u00e1kon\u011b \u010d. 111/2009 Sb., o z\u00e1kladn\u00edch registrech, ve vyhl\u00e1\u0161ce \u010d. 359/2011 Sb., o z\u00e1kladn\u00edm registru \u00fazemn\u00ed identifikace, adres a nemovitost\u00ed."
+        },
+        "language": null,
+        "version_notes": null,
+        "source": null,
+        "title": {
+          "cs": "Volebn\u00ed okrsky: Kr\u00e1l\u016fv Dv\u016fr [533203]"
+        },
+        "has_version": null,
+        "type": null,
+        "accrual_periodicity": "daily",
+        "geocoding_description": null,
+        "access_right": null,
+        "other_identifiers": null,
+        "frequency": null,
+        "legal_base": null,
+        "provenance": null,
+        "modification_date": null,
+        "spatial_resource": null,
+        "id": "cz-00025712-cuzk_vo_533203",
+        "categories": null,
+        "spatial": [],
+        "deadline": null,
+        "temporal": null,
+        "identifier": [
+          "CZ-00025712-CUZK_VO_533203"
+        ],
+        "is_version_of": null,
+        "creator": null,
+        "landing_page": null,
+        "version_info": null,
+        "distributions": [
+          {
+            "license": {
+              "title": "https://data.gov.cz/zdroj/datov\u00e9-sady/https---atom.cuzk.cz-api-3-action-package_show-id-cz-00025712-cuzk_vo_533203/distribuce/e1393fae7f2ed46e9c63ce1729696f3f/podm\u00ednky-u\u017eit\u00ed",
+              "resource": "https://data.gov.cz/zdroj/datov\u00e9-sady/https---atom.cuzk.cz-api-3-action-package_show-id-cz-00025712-cuzk_vo_533203/distribuce/e1393fae7f2ed46e9c63ce1729696f3f/podm\u00ednky-u\u017eit\u00ed",
+              "id": "https://data.gov.cz/zdroj/datov\u00e9-sady/https---atom.cuzk.cz-api-3-action-package_show-id-cz-00025712-cuzk_vo_533203/distribuce/e1393fae7f2ed46e9c63ce1729696f3f/podm\u00ednky-u\u017eit\u00ed"
+            },
+            "media_type": "text/csv",
+            "access_url": "http://services.cuzk.cz/sestavy/VO/533203.zip",
+            "download_url": [
+              "http://services.cuzk.cz/sestavy/VO/533203.zip"
+            ],
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            },
+            "id": "e9f90324-7a47-4d79-95ef-bc3320c34c6d",
+            "title": {
+              "cs": "Volebn\u00ed okrsky: Kr\u00e1l\u016fv Dv\u016fr [533203]"
+            }
+          }
+        ],
+        "quality_meas": {
+          "scoring": 280
+        },
+        "related_resources": null,
+        "release_date": null,
+        "conforms_to": null,
+        "publisher": {
+          "name": "\u010cesk\u00fd \u00fa\u0159ad zem\u011bm\u011b\u0159ick\u00fd a katastr\u00e1ln\u00ed",
+          "type": "Agent",
+          "resource": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/org\u00e1n-ve\u0159ejn\u00e9-moci/00025712"
+        },
+        "page": null,
+        "contact_point": [
+          {
+            "name": "\u010cesk\u00fd \u00fa\u0159ad zem\u011bm\u011b\u0159ick\u00fd a katastr\u00e1ln\u00ed",
+            "type": "Organization",
+            "resource": "https://data.gov.cz/zdroj/datov\u00e9-sady/https---atom.cuzk.cz-api-3-action-package_show-id-cz-00025712-cuzk_vo_533203/kontaktn\u00ed-bod",
+            "email": "mailto:cuzk.helpdesk@cuzk.cz"
+          }
+        ]
+      },
+      {
+        "country": {
+          "title": "Czechia",
+          "id": "cz"
+        },
+        "keywords": [
+          {
+            "title": "Statistick\u00e9 jednotky",
+            "language": "cs",
+            "id": "statisticke-jednotky"
+          },
+          {
+            "title": "Adresy",
+            "language": "cs",
+            "id": "adresy"
+          },
+          {
+            "title": "volebn\u00ed okrsek",
+            "language": "cs",
+            "id": "volebni-okrsek"
+          },
+          {
+            "title": "adresn\u00ed m\u00edsto",
+            "language": "cs",
+            "id": "adresni-mi-sto"
+          },
+          {
+            "title": "m\u011bstsk\u00fd obvod/m\u011bstsk\u00e1 \u010d\u00e1st (MOMC)",
+            "language": "cs",
+            "id": "me-stsky-obvod-me-stska-c-a-st-momc-"
+          },
+          {
+            "title": "Registr \u00fazemn\u00ed identifikace, adres a nemovitost\u00ed (R\u00daIAN)",
+            "language": "cs",
+            "id": "registr-u-zemni-identifikace-adres-a-nemovitosti-ru-ian-"
+          },
+          {
+            "title": "obec",
+            "language": "cs",
+            "id": "obec"
+          }
+        ],
+        "catalog": {
+          "license": null,
+          "country": {
+            "title": "Czechia",
+            "id": "cz"
+          },
+          "spatial_resource": null,
+          "description": {
+            "en": "Czech National Open Data Portal"
+          },
+          "publisher": {
+            "type": "Agent"
+          },
+          "modified": "2019-04-25T15:02:35Z",
+          "language": [
+            "cs"
+          ],
+          "id": "nkod-opendata-cz",
+          "title": {
+            "en": "Czech National Open Data Portal"
+          },
+          "spatial": null,
+          "issued": "2021-06-24T10:06:00.981444Z",
+          "homepage": null
+        },
+        "translation_meta": {
+          "full_available_languages": [
+            "cs"
+          ],
+          "details": {
+            "cs": {
+              "issued": "2021-05-15T08:25:25Z",
+              "machine_translated": false
+            }
+          },
+          "status": "processing"
+        },
+        "description": {
+          "cs": "Datov\u00e1 sada obsahuje p\u0159edp\u0159ipraven\u00fd soubor obsahuj\u00edc\u00ed seznam adresn\u00edch m\u00edst a jejich p\u0159\u00edslu\u0161nost k volebn\u00edm okrsk\u016fm. Adresn\u00ed m\u00edsta jsou \u010dlen\u011bna po obc\u00edch a m\u011bstsk\u00fdch obvodech/m\u011bstsk\u00fdch \u010d\u00e1stech (MOMC) pro \u00fazemn\u011b \u010dlen\u011bn\u00e1 statut\u00e1rn\u00ed m\u011bsta. Datov\u00e1 sada je poskytov\u00e1na jako otev\u0159en\u00e1 data (licence CC-BY 4.0). Data vych\u00e1z\u00ed z R\u00daIAN (registru \u00fazemn\u00ed identifikace, adres a nemovitost\u00ed). Data jsou vytv\u00e1\u0159ena 1x m\u011bs\u00ed\u010dn\u011b a poskytov\u00e1na ve form\u00e1tu SHP. Pro sta\u017een\u00ed jsou komprimov\u00e1na (ZIP). V\u00edce v z\u00e1kon\u011b \u010d. 111/2009 Sb., o z\u00e1kladn\u00edch registrech, ve vyhl\u00e1\u0161ce \u010d. 359/2011 Sb., o z\u00e1kladn\u00edm registru \u00fazemn\u00ed identifikace, adres a nemovitost\u00ed."
+        },
+        "language": null,
+        "version_notes": null,
+        "source": null,
+        "title": {
+          "cs": "Volebn\u00ed okrsky: By\u0161ice [534722]"
+        },
+        "has_version": null,
+        "type": null,
+        "accrual_periodicity": "daily",
+        "geocoding_description": null,
+        "access_right": null,
+        "other_identifiers": null,
+        "frequency": null,
+        "legal_base": null,
+        "provenance": null,
+        "modification_date": null,
+        "spatial_resource": null,
+        "id": "cz-00025712-cuzk_vo_534722",
+        "categories": null,
+        "spatial": [],
+        "deadline": null,
+        "temporal": null,
+        "identifier": [
+          "CZ-00025712-CUZK_VO_534722"
+        ],
+        "is_version_of": null,
+        "creator": null,
+        "landing_page": null,
+        "version_info": null,
+        "distributions": [
+          {
+            "license": {
+              "title": "https://data.gov.cz/zdroj/datov\u00e9-sady/https---atom.cuzk.cz-api-3-action-package_show-id-cz-00025712-cuzk_vo_534722/distribuce/516e49442d9a7e38a0790817727ef357/podm\u00ednky-u\u017eit\u00ed",
+              "resource": "https://data.gov.cz/zdroj/datov\u00e9-sady/https---atom.cuzk.cz-api-3-action-package_show-id-cz-00025712-cuzk_vo_534722/distribuce/516e49442d9a7e38a0790817727ef357/podm\u00ednky-u\u017eit\u00ed",
+              "id": "https://data.gov.cz/zdroj/datov\u00e9-sady/https---atom.cuzk.cz-api-3-action-package_show-id-cz-00025712-cuzk_vo_534722/distribuce/516e49442d9a7e38a0790817727ef357/podm\u00ednky-u\u017eit\u00ed"
+            },
+            "media_type": "text/csv",
+            "access_url": "http://services.cuzk.cz/sestavy/VO/534722.zip",
+            "download_url": [
+              "http://services.cuzk.cz/sestavy/VO/534722.zip"
+            ],
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            },
+            "id": "adabcead-f5e1-44c8-880c-0674d0d37969",
+            "title": {
+              "cs": "Volebn\u00ed okrsky: By\u0161ice [534722]"
+            }
+          }
+        ],
+        "quality_meas": {
+          "scoring": 280
+        },
+        "related_resources": null,
+        "release_date": null,
+        "conforms_to": null,
+        "publisher": {
+          "name": "\u010cesk\u00fd \u00fa\u0159ad zem\u011bm\u011b\u0159ick\u00fd a katastr\u00e1ln\u00ed",
+          "type": "Agent",
+          "resource": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/org\u00e1n-ve\u0159ejn\u00e9-moci/00025712"
+        },
+        "page": null,
+        "contact_point": [
+          {
+            "name": "\u010cesk\u00fd \u00fa\u0159ad zem\u011bm\u011b\u0159ick\u00fd a katastr\u00e1ln\u00ed",
+            "type": "Organization",
+            "resource": "https://data.gov.cz/zdroj/datov\u00e9-sady/https---atom.cuzk.cz-api-3-action-package_show-id-cz-00025712-cuzk_vo_534722/kontaktn\u00ed-bod",
+            "email": "mailto:cuzk.helpdesk@cuzk.cz"
+          }
+        ]
+      },
+      {
+        "country": {
+          "title": "Czechia",
+          "id": "cz"
+        },
+        "keywords": [
+          {
+            "title": "Adresy",
+            "language": "cs",
+            "id": "adresy"
+          },
+          {
+            "title": "adresn\u00ed m\u00edsto",
+            "language": "cs",
+            "id": "adresni-mi-sto"
+          },
+          {
+            "title": "Statistick\u00e9 jednotky",
+            "language": "cs",
+            "id": "statisticke-jednotky"
+          },
+          {
+            "title": "volebn\u00ed okrsek",
+            "language": "cs",
+            "id": "volebni-okrsek"
+          },
+          {
+            "title": "Registr \u00fazemn\u00ed identifikace, adres a nemovitost\u00ed (R\u00daIAN)",
+            "language": "cs",
+            "id": "registr-u-zemni-identifikace-adres-a-nemovitosti-ru-ian-"
+          },
+          {
+            "title": "obec",
+            "language": "cs",
+            "id": "obec"
+          },
+          {
+            "title": "m\u011bstsk\u00fd obvod/m\u011bstsk\u00e1 \u010d\u00e1st (MOMC)",
+            "language": "cs",
+            "id": "me-stsky-obvod-me-stska-c-a-st-momc-"
+          }
+        ],
+        "catalog": {
+          "license": null,
+          "country": {
+            "title": "Czechia",
+            "id": "cz"
+          },
+          "spatial_resource": null,
+          "description": {
+            "en": "Czech National Open Data Portal"
+          },
+          "publisher": {
+            "type": "Agent"
+          },
+          "modified": "2019-04-25T15:02:35Z",
+          "language": [
+            "cs"
+          ],
+          "id": "nkod-opendata-cz",
+          "title": {
+            "en": "Czech National Open Data Portal"
+          },
+          "spatial": null,
+          "issued": "2021-06-24T10:06:00.981444Z",
+          "homepage": null
+        },
+        "translation_meta": {
+          "full_available_languages": [
+            "cs"
+          ],
+          "details": {
+            "cs": {
+              "issued": "2021-05-15T08:25:28Z",
+              "machine_translated": false
+            }
+          },
+          "status": "processing"
+        },
+        "description": {
+          "cs": "Datov\u00e1 sada obsahuje p\u0159edp\u0159ipraven\u00fd soubor obsahuj\u00edc\u00ed seznam adresn\u00edch m\u00edst a jejich p\u0159\u00edslu\u0161nost k volebn\u00edm okrsk\u016fm. Adresn\u00ed m\u00edsta jsou \u010dlen\u011bna po obc\u00edch a m\u011bstsk\u00fdch obvodech/m\u011bstsk\u00fdch \u010d\u00e1stech (MOMC) pro \u00fazemn\u011b \u010dlen\u011bn\u00e1 statut\u00e1rn\u00ed m\u011bsta. Datov\u00e1 sada je poskytov\u00e1na jako otev\u0159en\u00e1 data (licence CC-BY 4.0). Data vych\u00e1z\u00ed z R\u00daIAN (registru \u00fazemn\u00ed identifikace, adres a nemovitost\u00ed). Data jsou vytv\u00e1\u0159ena 1x m\u011bs\u00ed\u010dn\u011b a poskytov\u00e1na ve form\u00e1tu SHP. Pro sta\u017een\u00ed jsou komprimov\u00e1na (ZIP). V\u00edce v z\u00e1kon\u011b \u010d. 111/2009 Sb., o z\u00e1kladn\u00edch registrech, ve vyhl\u00e1\u0161ce \u010d. 359/2011 Sb., o z\u00e1kladn\u00edm registru \u00fazemn\u00ed identifikace, adres a nemovitost\u00ed."
+        },
+        "language": null,
+        "version_notes": null,
+        "source": null,
+        "title": {
+          "cs": "Volebn\u00ed okrsky: Vlkov pod O\u0161kobrhem [537951]"
+        },
+        "has_version": null,
+        "type": null,
+        "accrual_periodicity": "daily",
+        "geocoding_description": null,
+        "access_right": null,
+        "other_identifiers": null,
+        "frequency": null,
+        "legal_base": null,
+        "provenance": null,
+        "modification_date": null,
+        "spatial_resource": null,
+        "id": "cz-00025712-cuzk_vo_537951",
+        "categories": null,
+        "spatial": [],
+        "deadline": null,
+        "temporal": null,
+        "identifier": [
+          "CZ-00025712-CUZK_VO_537951"
+        ],
+        "is_version_of": null,
+        "creator": null,
+        "landing_page": null,
+        "version_info": null,
+        "distributions": [
+          {
+            "license": {
+              "title": "https://data.gov.cz/zdroj/datov\u00e9-sady/https---atom.cuzk.cz-api-3-action-package_show-id-cz-00025712-cuzk_vo_537951/distribuce/ed450816171c1b5436a0a133dc600131/podm\u00ednky-u\u017eit\u00ed",
+              "resource": "https://data.gov.cz/zdroj/datov\u00e9-sady/https---atom.cuzk.cz-api-3-action-package_show-id-cz-00025712-cuzk_vo_537951/distribuce/ed450816171c1b5436a0a133dc600131/podm\u00ednky-u\u017eit\u00ed",
+              "id": "https://data.gov.cz/zdroj/datov\u00e9-sady/https---atom.cuzk.cz-api-3-action-package_show-id-cz-00025712-cuzk_vo_537951/distribuce/ed450816171c1b5436a0a133dc600131/podm\u00ednky-u\u017eit\u00ed"
+            },
+            "media_type": "text/csv",
+            "access_url": "http://services.cuzk.cz/sestavy/VO/537951.zip",
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            },
+            "download_url": [
+              "http://services.cuzk.cz/sestavy/VO/537951.zip"
+            ],
+            "id": "a986fc52-7d9e-4ff9-9bcc-6584cb494534",
+            "title": {
+              "cs": "Volebn\u00ed okrsky: Vlkov pod O\u0161kobrhem [537951]"
+            }
+          }
+        ],
+        "quality_meas": {
+          "scoring": 280
+        },
+        "related_resources": null,
+        "release_date": null,
+        "conforms_to": null,
+        "publisher": {
+          "name": "\u010cesk\u00fd \u00fa\u0159ad zem\u011bm\u011b\u0159ick\u00fd a katastr\u00e1ln\u00ed",
+          "type": "Agent",
+          "resource": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/org\u00e1n-ve\u0159ejn\u00e9-moci/00025712"
+        },
+        "page": null,
+        "contact_point": [
+          {
+            "name": "\u010cesk\u00fd \u00fa\u0159ad zem\u011bm\u011b\u0159ick\u00fd a katastr\u00e1ln\u00ed",
+            "type": "Organization",
+            "resource": "https://data.gov.cz/zdroj/datov\u00e9-sady/https---atom.cuzk.cz-api-3-action-package_show-id-cz-00025712-cuzk_vo_537951/kontaktn\u00ed-bod",
+            "email": "mailto:cuzk.helpdesk@cuzk.cz"
+          }
+        ]
+      },
+      {
+        "country": {
+          "title": "Czechia",
+          "id": "cz"
+        },
+        "keywords": [
+          {
+            "title": "Statistick\u00e9 jednotky",
+            "language": "cs",
+            "id": "statisticke-jednotky"
+          },
+          {
+            "title": "m\u011bstsk\u00fd obvod/m\u011bstsk\u00e1 \u010d\u00e1st (MOMC)",
+            "language": "cs",
+            "id": "me-stsky-obvod-me-stska-c-a-st-momc-"
+          },
+          {
+            "title": "Registr \u00fazemn\u00ed identifikace, adres a nemovitost\u00ed (R\u00daIAN)",
+            "language": "cs",
+            "id": "registr-u-zemni-identifikace-adres-a-nemovitosti-ru-ian-"
+          },
+          {
+            "title": "volebn\u00ed okrsek",
+            "language": "cs",
+            "id": "volebni-okrsek"
+          },
+          {
+            "title": "Adresy",
+            "language": "cs",
+            "id": "adresy"
+          },
+          {
+            "title": "obec",
+            "language": "cs",
+            "id": "obec"
+          },
+          {
+            "title": "adresn\u00ed m\u00edsto",
+            "language": "cs",
+            "id": "adresni-mi-sto"
+          }
+        ],
+        "catalog": {
+          "license": null,
+          "country": {
+            "title": "Czechia",
+            "id": "cz"
+          },
+          "spatial_resource": null,
+          "description": {
+            "en": "Czech National Open Data Portal"
+          },
+          "publisher": {
+            "type": "Agent"
+          },
+          "modified": "2019-04-25T15:02:35Z",
+          "language": [
+            "cs"
+          ],
+          "id": "nkod-opendata-cz",
+          "title": {
+            "en": "Czech National Open Data Portal"
+          },
+          "spatial": null,
+          "issued": "2021-06-24T10:06:00.981444Z",
+          "homepage": null
+        },
+        "translation_meta": {
+          "full_available_languages": [
+            "cs"
+          ],
+          "details": {
+            "cs": {
+              "issued": "2021-05-15T08:25:29Z",
+              "machine_translated": false
+            }
+          },
+          "status": "processing"
+        },
+        "description": {
+          "cs": "Datov\u00e1 sada obsahuje p\u0159edp\u0159ipraven\u00fd soubor obsahuj\u00edc\u00ed seznam adresn\u00edch m\u00edst a jejich p\u0159\u00edslu\u0161nost k volebn\u00edm okrsk\u016fm. Adresn\u00ed m\u00edsta jsou \u010dlen\u011bna po obc\u00edch a m\u011bstsk\u00fdch obvodech/m\u011bstsk\u00fdch \u010d\u00e1stech (MOMC) pro \u00fazemn\u011b \u010dlen\u011bn\u00e1 statut\u00e1rn\u00ed m\u011bsta. Datov\u00e1 sada je poskytov\u00e1na jako otev\u0159en\u00e1 data (licence CC-BY 4.0). Data vych\u00e1z\u00ed z R\u00daIAN (registru \u00fazemn\u00ed identifikace, adres a nemovitost\u00ed). Data jsou vytv\u00e1\u0159ena 1x m\u011bs\u00ed\u010dn\u011b a poskytov\u00e1na ve form\u00e1tu SHP. Pro sta\u017een\u00ed jsou komprimov\u00e1na (ZIP). V\u00edce v z\u00e1kon\u011b \u010d. 111/2009 Sb., o z\u00e1kladn\u00edch registrech, ve vyhl\u00e1\u0161ce \u010d. 359/2011 Sb., o z\u00e1kladn\u00edm registru \u00fazemn\u00ed identifikace, adres a nemovitost\u00ed."
+        },
+        "language": null,
+        "version_notes": null,
+        "source": null,
+        "title": {
+          "cs": "Volebn\u00ed okrsky: Ba\u0161\u0165 [538051]"
+        },
+        "has_version": null,
+        "type": null,
+        "accrual_periodicity": "daily",
+        "geocoding_description": null,
+        "access_right": null,
+        "other_identifiers": null,
+        "frequency": null,
+        "legal_base": null,
+        "provenance": null,
+        "modification_date": null,
+        "spatial_resource": null,
+        "id": "cz-00025712-cuzk_vo_538051",
+        "categories": null,
+        "spatial": [],
+        "deadline": null,
+        "temporal": null,
+        "identifier": [
+          "CZ-00025712-CUZK_VO_538051"
+        ],
+        "is_version_of": null,
+        "creator": null,
+        "landing_page": null,
+        "version_info": null,
+        "distributions": [
+          {
+            "license": {
+              "title": "https://data.gov.cz/zdroj/datov\u00e9-sady/https---atom.cuzk.cz-api-3-action-package_show-id-cz-00025712-cuzk_vo_538051/distribuce/033d67736926662324f824bd624aa972/podm\u00ednky-u\u017eit\u00ed",
+              "resource": "https://data.gov.cz/zdroj/datov\u00e9-sady/https---atom.cuzk.cz-api-3-action-package_show-id-cz-00025712-cuzk_vo_538051/distribuce/033d67736926662324f824bd624aa972/podm\u00ednky-u\u017eit\u00ed",
+              "id": "https://data.gov.cz/zdroj/datov\u00e9-sady/https---atom.cuzk.cz-api-3-action-package_show-id-cz-00025712-cuzk_vo_538051/distribuce/033d67736926662324f824bd624aa972/podm\u00ednky-u\u017eit\u00ed"
+            },
+            "media_type": "text/csv",
+            "access_url": "http://services.cuzk.cz/sestavy/VO/538051.zip",
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            },
+            "download_url": [
+              "http://services.cuzk.cz/sestavy/VO/538051.zip"
+            ],
+            "id": "bd72190c-6cee-40a6-9d20-65237fcd422d",
+            "title": {
+              "cs": "Volebn\u00ed okrsky: Ba\u0161\u0165 [538051]"
+            }
+          }
+        ],
+        "quality_meas": {
+          "scoring": 280
+        },
+        "related_resources": null,
+        "release_date": null,
+        "conforms_to": null,
+        "publisher": {
+          "name": "\u010cesk\u00fd \u00fa\u0159ad zem\u011bm\u011b\u0159ick\u00fd a katastr\u00e1ln\u00ed",
+          "type": "Agent",
+          "resource": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/org\u00e1n-ve\u0159ejn\u00e9-moci/00025712"
+        },
+        "page": null,
+        "contact_point": [
+          {
+            "name": "\u010cesk\u00fd \u00fa\u0159ad zem\u011bm\u011b\u0159ick\u00fd a katastr\u00e1ln\u00ed",
+            "type": "Organization",
+            "resource": "https://data.gov.cz/zdroj/datov\u00e9-sady/https---atom.cuzk.cz-api-3-action-package_show-id-cz-00025712-cuzk_vo_538051/kontaktn\u00ed-bod",
+            "email": "mailto:cuzk.helpdesk@cuzk.cz"
+          }
+        ]
+      },
+      {
+        "country": {
+          "title": "Czechia",
+          "id": "cz"
+        },
+        "keywords": [
+          {
+            "title": "Adresy",
+            "language": "cs",
+            "id": "adresy"
+          },
+          {
+            "title": "Statistick\u00e9 jednotky",
+            "language": "cs",
+            "id": "statisticke-jednotky"
+          },
+          {
+            "title": "adresn\u00ed m\u00edsto",
+            "language": "cs",
+            "id": "adresni-mi-sto"
+          },
+          {
+            "title": "Registr \u00fazemn\u00ed identifikace, adres a nemovitost\u00ed (R\u00daIAN)",
+            "language": "cs",
+            "id": "registr-u-zemni-identifikace-adres-a-nemovitosti-ru-ian-"
+          },
+          {
+            "title": "obec",
+            "language": "cs",
+            "id": "obec"
+          },
+          {
+            "title": "volebn\u00ed okrsek",
+            "language": "cs",
+            "id": "volebni-okrsek"
+          },
+          {
+            "title": "m\u011bstsk\u00fd obvod/m\u011bstsk\u00e1 \u010d\u00e1st (MOMC)",
+            "language": "cs",
+            "id": "me-stsky-obvod-me-stska-c-a-st-momc-"
+          }
+        ],
+        "catalog": {
+          "license": null,
+          "country": {
+            "title": "Czechia",
+            "id": "cz"
+          },
+          "spatial_resource": null,
+          "description": {
+            "en": "Czech National Open Data Portal"
+          },
+          "publisher": {
+            "type": "Agent"
+          },
+          "modified": "2019-04-25T15:02:35Z",
+          "language": [
+            "cs"
+          ],
+          "id": "nkod-opendata-cz",
+          "title": {
+            "en": "Czech National Open Data Portal"
+          },
+          "spatial": null,
+          "issued": "2021-06-24T10:06:00.981444Z",
+          "homepage": null
+        },
+        "translation_meta": {
+          "full_available_languages": [
+            "cs"
+          ],
+          "details": {
+            "cs": {
+              "issued": "2021-05-15T08:25:29Z",
+              "machine_translated": false
+            }
+          },
+          "status": "processing"
+        },
+        "description": {
+          "cs": "Datov\u00e1 sada obsahuje p\u0159edp\u0159ipraven\u00fd soubor obsahuj\u00edc\u00ed seznam adresn\u00edch m\u00edst a jejich p\u0159\u00edslu\u0161nost k volebn\u00edm okrsk\u016fm. Adresn\u00ed m\u00edsta jsou \u010dlen\u011bna po obc\u00edch a m\u011bstsk\u00fdch obvodech/m\u011bstsk\u00fdch \u010d\u00e1stech (MOMC) pro \u00fazemn\u011b \u010dlen\u011bn\u00e1 statut\u00e1rn\u00ed m\u011bsta. Datov\u00e1 sada je poskytov\u00e1na jako otev\u0159en\u00e1 data (licence CC-BY 4.0). Data vych\u00e1z\u00ed z R\u00daIAN (registru \u00fazemn\u00ed identifikace, adres a nemovitost\u00ed). Data jsou vytv\u00e1\u0159ena 1x m\u011bs\u00ed\u010dn\u011b a poskytov\u00e1na ve form\u00e1tu SHP. Pro sta\u017een\u00ed jsou komprimov\u00e1na (ZIP). V\u00edce v z\u00e1kon\u011b \u010d. 111/2009 Sb., o z\u00e1kladn\u00edch registrech, ve vyhl\u00e1\u0161ce \u010d. 359/2011 Sb., o z\u00e1kladn\u00edm registru \u00fazemn\u00ed identifikace, adres a nemovitost\u00ed."
+        },
+        "language": null,
+        "version_notes": null,
+        "source": null,
+        "title": {
+          "cs": "Volebn\u00ed okrsky: D\u011bpoltovice [538116]"
+        },
+        "has_version": null,
+        "type": null,
+        "accrual_periodicity": "daily",
+        "geocoding_description": null,
+        "access_right": null,
+        "other_identifiers": null,
+        "frequency": null,
+        "legal_base": null,
+        "provenance": null,
+        "modification_date": null,
+        "spatial_resource": null,
+        "id": "cz-00025712-cuzk_vo_538116",
+        "categories": null,
+        "spatial": [],
+        "deadline": null,
+        "temporal": null,
+        "identifier": [
+          "CZ-00025712-CUZK_VO_538116"
+        ],
+        "is_version_of": null,
+        "creator": null,
+        "landing_page": null,
+        "version_info": null,
+        "distributions": [
+          {
+            "license": {
+              "title": "https://data.gov.cz/zdroj/datov\u00e9-sady/https---atom.cuzk.cz-api-3-action-package_show-id-cz-00025712-cuzk_vo_538116/distribuce/a5aa960f693de5fe7fc6608a837721d0/podm\u00ednky-u\u017eit\u00ed",
+              "resource": "https://data.gov.cz/zdroj/datov\u00e9-sady/https---atom.cuzk.cz-api-3-action-package_show-id-cz-00025712-cuzk_vo_538116/distribuce/a5aa960f693de5fe7fc6608a837721d0/podm\u00ednky-u\u017eit\u00ed",
+              "id": "https://data.gov.cz/zdroj/datov\u00e9-sady/https---atom.cuzk.cz-api-3-action-package_show-id-cz-00025712-cuzk_vo_538116/distribuce/a5aa960f693de5fe7fc6608a837721d0/podm\u00ednky-u\u017eit\u00ed"
+            },
+            "media_type": "text/csv",
+            "access_url": "http://services.cuzk.cz/sestavy/VO/538116.zip",
+            "download_url": [
+              "http://services.cuzk.cz/sestavy/VO/538116.zip"
+            ],
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            },
+            "id": "3472ad9e-fa41-43c8-905c-7e64e1ce7978",
+            "title": {
+              "cs": "Volebn\u00ed okrsky: D\u011bpoltovice [538116]"
+            }
+          }
+        ],
+        "quality_meas": {
+          "scoring": 280
+        },
+        "related_resources": null,
+        "release_date": null,
+        "conforms_to": null,
+        "publisher": {
+          "name": "\u010cesk\u00fd \u00fa\u0159ad zem\u011bm\u011b\u0159ick\u00fd a katastr\u00e1ln\u00ed",
+          "type": "Agent",
+          "resource": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/org\u00e1n-ve\u0159ejn\u00e9-moci/00025712"
+        },
+        "page": null,
+        "contact_point": [
+          {
+            "name": "\u010cesk\u00fd \u00fa\u0159ad zem\u011bm\u011b\u0159ick\u00fd a katastr\u00e1ln\u00ed",
+            "type": "Organization",
+            "resource": "https://data.gov.cz/zdroj/datov\u00e9-sady/https---atom.cuzk.cz-api-3-action-package_show-id-cz-00025712-cuzk_vo_538116/kontaktn\u00ed-bod",
+            "email": "mailto:cuzk.helpdesk@cuzk.cz"
+          }
+        ]
+      }
+    ]
+  }
+}

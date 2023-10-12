@@ -1,0 +1,24 @@
+<configuration>
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="com.mchange.v2" level="warn"/>
+    <logger name="io.netty" level="warn"/>
+    <logger name="io.vertx" level="warn"/>
+    <logger name="com.hazelcast" level="warn"/>
+    <logger name="org.ehcache" level="warn"/>
+    <logger name="io.piveau" level="debug"/>
+    <logger name="piveau-hub" level="warn"/>
+
+
+    <logger name="io.piveau.hub.MainVerticle" level="warn"/>
+
+    <root level="info">
+        <appender-ref ref="STDOUT" />
+    </root>
+
+</configuration>

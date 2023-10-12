@@ -1,0 +1,14 @@
+domibus:
+  username: eu_connector_user
+  url: 51.159.133.186
+  port: 8080
+  usehttps: true
+  from: centralpocnode #deprecated in release b0.2
+  to: <national domibus name> #deprecated in release b0.2
+fairdatapoint:
+  usehttps: true
+  url: metadatabroker.healthdataportal.eu
+  username: test
+nodePort: 30001
+namespace: eu-connector
+releaseTag: b0.1

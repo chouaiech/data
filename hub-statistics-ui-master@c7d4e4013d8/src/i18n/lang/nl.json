@@ -1,0 +1,379 @@
+{
+    "message": {
+        "datasetDetails": {
+            "openResource": "Naar bron gaan",
+            "upload": {
+                "unknownFormat": "Onbekend formaat",
+                "resetText": "Wilt u het gehele formulier resetten?",
+                "reset": "Formulier resetten",
+                "individual": "Individueel",
+                "person": "Persoon",
+                "organisation": "Organisatie"
+            },
+            "about": "over",
+            "geoInfo": "Omvang dataset",
+            "translation": {
+                "link": "Klik hier om de dataset in de oorspronkelijke taal te bekijken",
+                "message": "De titel en de beschrijving van deze\n dataset zijn machinaal vertaald",
+                "noTranslation": "Er bestaat geen vertaling voor de gewenste taal. De informatie is in de standaard taal weergegeven ",
+                "original": "Oorspronkelijke taal",
+                "update": "Er wordt gewerkt aan een bijgewerkte vertaling van deze dataset."
+            },
+            "options": "Opties",
+            "subnav": {
+                "activityStream": "Activiteits-stream",
+                "similarDatasets": "Vergelijkbare datasets",
+                "categories": "Categorieën",
+                "dataset": "Dataset"
+            },
+            "edit": "Bewerken",
+            "follow": "Volgen",
+            "preview": "Preview",
+            "visualisation": "Open visualisering",
+            "additionalInfo": "Aanvullende informatie",
+            "feedback": "Feedback",
+            "unfollow": "Niet meer volgen",
+            "manage": "Beheren",
+            "delete": "Verwijderen",
+            "geoVisualisation": "Open Geo-visualisatie",
+            "download": "Download",
+            "menu": "Menu"
+        },
+        "userQueries": {
+            "searchAllQueries": "Zoekopdrachten …",
+            "queryDeleted": "Zoekopdracht verwijderd",
+            "querySaved": "Zoekopdracht opgeslagen",
+            "searchQueries": "Mijn zoekopdrachten doorzoeken …",
+            "noQueryFound": "Geen zoekopdracht gevonden",
+            "myQueries": "Mijn zoekopdrachten",
+            "noDescription": "Deze zoekopdracht heeft geen beschrijving",
+            "placeholderNotes": "bijv. enkele handige opmerkingen over de zoekopdracht",
+            "noQueriesSaved": "U heeft geen zoekopdrachten opgeslagen.",
+            "queryFound": "{number} zoekopdracht gevonden",
+            "areYourSure": "Weet u zeker dat u deze zoekopdracht wilt verwijderen?",
+            "queriesFound": "{number} zoekopdrachten gevonden",
+            "save": "Zoekopdracht opslaan",
+            "executeQuery": "Zoekopdracht uitvoeren"
+        },
+        "header": {
+            "navigation": {
+                "about": {
+                    "beHarvestedByUs": "Word door ons vergaard",
+                    "title": "Over",
+                    "documentation": "Documentatie",
+                    "europeanDataPortal": "Europees Data Portaal"
+                },
+                "training": {
+                    "whatIsOpenData": "Wat is open data",
+                    "title": "Training",
+                    "dataProvidersGuide": "Handleiding voor dataverstrekkers",
+                    "moreTrainingMaterial": "Meer trainingsmateriaal",
+                    "elearning": "eLearning",
+                    "licensingAssistant": "Licentieassistent"
+                },
+                "data": {
+                    "sparqlsearch": "SPARQL-zoekopdracht",
+                    "statistics": "Statistieken",
+                    "euInternationalData": "EU en internationale data",
+                    "catalogues": "Catalogi",
+                    "datasets": "Datasets",
+                    "countryData": "Data over landen",
+                    "metadataQuality": "Kwaliteit Metadata",
+                    "title": "Data"
+                },
+                "newsEvents": {
+                    "title": "Nieuws en evenementen",
+                    "events": "Evenementen",
+                    "news": "Nieuws"
+                },
+                "impactStudies": {
+                    "studies": "Onderzoeken",
+                    "useCases": "Use cases",
+                    "tellUsYourStory": "Vertel ons uw verhaal",
+                    "title": "Impact en onderzoeken",
+                    "opendataimpact": "Impact van open data",
+                    "countryInsights": "Inzichten landen",
+                    "overview": "Overzicht",
+                    "opendatamaturity": "Open Data Maturity"
+                },
+                "covid-19": {
+                    "title": "COVID-19",
+                    "datasets": "Datasets",
+                    "overview": "Overzicht",
+                    "initiatives": "Initiatieven op het gebied van data"
+                }
+            },
+            "subnav": {
+                "logout": "Uitloggen",
+                "cookies": "Cookies",
+                "login": "Inloggen",
+                "search": "Zoeken",
+                "newsletter": "Nieuwsbrief",
+                "contact": "Contact",
+                "legalNotice": "Juridische mededeling",
+                "faq": "Veelgestelde vragen"
+            },
+            "searchOptions": {
+                "siteContent": "Site-content",
+                "datasets": "Datasets"
+            },
+            "searchInputPlaceholder": "Inhoud site doorzoeken …",
+            "dataPortal": "Dataportaal",
+            "european": "Europees"
+        },
+        "pagination": {
+            "previousPage": "Vorige",
+            "nextPage": "Volgende"
+        },
+        "statistics": {
+            "tableHead": {
+                "trend": "Trend",
+                "country": "Land",
+                "catalogue": "Catalogus",
+                "numberOfDatasets": "Aantal datasets",
+                "name": "Naam",
+                "category": "Categorie",
+                "percent": "Percentage van totale datasets"
+            },
+            "totalNumber": "Totaal aantal datasets",
+            "evolution": "Ontwikkeling",
+            "datasetsPerCountryAndCatalogue": "Datasets per land en catalogus",
+            "datasetsPerCountry": "Datasets per land",
+            "datasetsPerCatalogue": "Datasets per catalogus",
+            "selectTimePeriod": "Selecteer de tijdsperiode",
+            "selectType": "Selecteer het statistiektype ",
+            "statistics": "Statistieken",
+            "datasetsPerCategory": "Datasets per categorie",
+            "currentState": "Huidige stand",
+            "meta": {
+                "description": "Vind nuttige statistieken over de ontwikkeling van ons open portaal en ontdek het aantal datasets per land, categorie en catalogus op data.europa.eu."
+            },
+            "page": {
+                "title": "Statistieken van het opendataportaal | data.europa.eu"
+            }
+        },
+        "metadata": {
+            "updatedLowerCase": "bijgewerkt",
+            "conformsTo": "Is conform",
+            "dataset": "Dataset",
+            "email": "E-mail",
+            "title": "Titel",
+            "license": "Licentie",
+            "name": "Naam",
+            "upload": "Uploaden",
+            "created": "Aangemaakt",
+            "addDistribution": "Distributie toevoegen",
+            "chooseFile": "Bestand kiezen",
+            "distribution": "Distributie",
+            "label": "Etiket",
+            "review": "Reviewen",
+            "otherIdentifiers": "Andere identificatoren",
+            "chooseFormat": "Formaat kiezen",
+            "datasets": "Datasets",
+            "resource": "Bron",
+            "spatial": "Ruimtelijk",
+            "deleteItem": "Weet u zeker dat u dit item wilt verwijderen?",
+            "relatedResources": "gerelateerde items",
+            "accessUrl": "Toegangs-URL",
+            "documentations": "Documentatie",
+            "frequency": "Frequentie",
+            "updated": "Bijgewerkt",
+            "no": "Nee",
+            "landingPage": "Landingspagina",
+            "metadataQuality": "Kwaliteit metadata",
+            "yes": "Ja",
+            "chooseCategory": "Kies een categorie",
+            "update ": "Bijwerken",
+            "homepage": "Startpagina",
+            "contactPoints": "Contactpunt",
+            "chooseCatalogue": "Kies een catalogus",
+            "chooseType": "Kies een type",
+            "description": "Uw bericht",
+            "downloadUrl": "Download-URL",
+            "provenances": "Herkomst ",
+            "tags": "Labels",
+            "format": "Formaat",
+            "coordinates": "Coördinaten",
+            "sources": "Bronnen",
+            "categories": "Categorieën",
+            "publisher": "Uitgever",
+            "type": "Type",
+            "distributions": "Verdelingen",
+            "cancel": "Annuleren",
+            "identifiers": "Identificatoren"
+        },
+        "footer": {
+            "newsletterText": "Meld u aan voor onze nieuwsbrief",
+            "newsletter": "Nieuwsbrief",
+            "fundedBy": "Gefinancierd door de Europese Unie",
+            "lastUpdated": "Laatst bijgewerkt",
+            "links": {
+                "search": "Zoeken",
+                "newsletter": "Nieuwsbrief",
+                "cookies": "Cookies",
+                "legalNotice": "Juridische mededeling",
+                "faq": "Veelgestelde vragen",
+                "contact": "Contact",
+                "login": "Inloggen"
+            },
+            "followUs": "Volg ons op",
+            "subscribe": "Abonneren",
+            "helpUsImprove": "Help ons om beter te worden",
+            "managedBy": "Beheerd door het Bureau voor publicaties van de Europese Unie.",
+            "helpUsImproveText": "Met uw feedback kunnen we de algehele gebruikerservaring verbeteren. Hebt u misschien suggesties?"
+        },
+        "catalogueFacets": {
+            "and": "EN",
+            "facets": {
+                "countries": "Landen",
+                "licences": "Licenties",
+                "keywords": "Trefwoorden",
+                "formats": "Formaten",
+                "catalogues": "Catalogi",
+                "categories": "Categorieën"
+            },
+            "operator": "Operator",
+            "settings": "Instellingen",
+            "or": "OF",
+            "europeanCatalogues": "Europese catalogi",
+            "title": "Filters"
+        },
+        "similarDatasets": {
+            "notFound": "Geen vergelijkbare dataset(s) gevonden",
+            "lessSimilar": "Minder vergelijkbaar",
+            "similarDatasets": "Vergelijkbare datasets",
+            "verySimilar": "Zeer vergelijkbaar",
+            "similar": "Vergelijkbaar",
+            "marginalSimilar": "Nauwelijks vergelijkbaar"
+        },
+        "catalogues": {
+            "geoBoundsMessageRemove": "Sluit deze melding om de beperking op te heffen",
+            "countMessage": "catalogi gevonden voor ",
+            "countMessageSingular": "catalogus gevonden voor ",
+            "searchBar": {
+                "placeholder": "Catalogi zoeken"
+            },
+            "loadingMessage": "Catalogi worden geladen …",
+            "geoBoundsMessagePre": "Uw zoekopdracht is beperkt tot:",
+            "countMessageNoResult": "Geen catalogi gevonden voor "
+        },
+        "common": {
+            "edp": {
+                "title": "European Data Portal"
+            },
+            "currentCatalogueStatistics": "Statistieken van de huidige catalogus",
+            "historicalCatalogueStatistics": "Historische statistieken van de catalogus"
+        },
+        "categories": {
+            "tran": "Vervoer",
+            "heal": "Gezondheid",
+            "gove": "Overheid en publieke sector",
+            "envi": "Milieu",
+            "intr": "Internationale vraagstukken",
+            "agri": "Landbouw, visserij, bosbouw en voeding",
+            "soci": "Bevolking en samenleving",
+            "econ": "Economie en financiën",
+            "educ": "Onderwijs, cultuur en sport",
+            "ener": "Energie",
+            "tech": "Wetenschap en technologie",
+            "regi": "Regio's en steden",
+            "just": "Justitie, rechtsstelsel en openbare veiligheid"
+        },
+        "distributions": {
+            "footerLink": "Downloaden"
+        },
+        "navigation": {
+            "navItems": {
+                "map": "Kaart",
+                "home": "Home",
+                "imprint": "Afdruk",
+                "privacyPolicy": "Privacybeleid",
+                "about": "Over",
+                "data": "Data"
+            }
+        },
+        "mapModal": {
+            "disclaimer": "Disclaimer",
+            "fullscreen": "Volledig scherm",
+            "findDatasets": "Toepassen",
+            "close": "Afsluiten",
+            "drawRectangleMsg": "Teken een rechthoek om een regio te selecteren",
+            "reset": "Wissen"
+        },
+        "datasetFacets": {
+            "facets": {
+                "catalogues": "Catalogi",
+                "formats": "Indelingen",
+                "categories": "Categorieën",
+                "licences": "Licenties",
+                "keywords": "Trefwoorden",
+                "countries": "Landen",
+                "tags": "Labels"
+            },
+            "title": "Filters",
+            "operator": "Exploitant",
+            "and": "EN",
+            "settings": "Instellingen",
+            "europeanCatalogues": "Europese catalogi",
+            "or": "OF"
+        },
+        "catalogue": {
+            "searchBar": {
+                "placeholder": "Zoeken naar catalogi"
+            },
+            "countMessage": "Catalogi gevonden",
+            "geoBoundsMessageRemove": "Sluit deze melding om de beperking op te heffen of gebruik de functie \"Opnieuw instellen\".",
+            "loadingMessage": "Catalogi zijn opgehaald"
+        },
+        "datasets": {
+            "loadingMessage": "Datasets worden geladen …",
+            "geoBoundsMessagePre": "Uw zoekopdracht is beperkt tot:",
+            "saveQuery": "Zoekopdracht opslaan",
+            "createDataset": "Dataset aanmaken",
+            "datasetsFeed": "Datasetfeed",
+            "countMessageSingular": "dataset gevonden voor ",
+            "meta": {
+                "translationNotComplete": "De vertaling is niet volledig"
+            },
+            "noResult": "Geen datasets gevonden voor ",
+            "geoBoundsMessageRemove": "Sluit deze melding om de beperking op te heffen of gebruik de functie \"Opnieuw instellen\".",
+            "searchBar": {
+                "placeholder": "Datasets zoeken …"
+            },
+            "showMore": "Meer tonen",
+            "findLocation": "Filter naar locatie",
+            "countMessage": "datasets gevonden voor "
+        },
+        "sort": {
+            "lastCreated": "Laatst aangemaakt",
+            "nameAZ": "Naam, oplopend",
+            "nameZA": "Naam, oplopend",
+            "relevance": "Relevantie",
+            "lastUpdated": "Voor het laatst gewijzigd",
+            "sortBy": "Ordenen op"
+        },
+        "datasetCategories": {
+            "foundCategory": "{number} categorieën gevonden",
+            "foundCategories": "{number} categorie gevonden",
+            "noCategories": "Geen categorieën gevonden"
+        },
+        "distributionLicense": {
+            "notFound": "Geen licentie informatie gevonden",
+            "openLA": "Open licentie assistent",
+            "notFoundExtended": "Geen bijkomende licentie-informatie gevonden; controleer a.u.b. de bron voor meer informatie m.b.t. Licentie.",
+            "licensingAssistant": "Licentie assistent",
+            "notProvided": "Geen licentie verstrekt"
+        },
+        "visualisation": {
+            "previewAvailable": "Preview beschikbaar",
+            "info": "Klik hier indien visualisatie niet binnen enkele seconden geladen wordt.",
+            "loading": "Visualisatie is aan het laden …"
+        },
+        "imprint": {
+            "msg": "AFDRUK HIER INVOEGEN"
+        },
+        "home": {
+            "msg": "Sorry, deze pagina heeft nog geen inhoud. Ga naar de data-tab om iets te zien!"
+        }
+    }
+}

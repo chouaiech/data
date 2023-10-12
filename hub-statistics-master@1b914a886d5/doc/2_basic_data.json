@@ -1,0 +1,1699 @@
+[
+  {
+    "id": "dataScope",
+    "title": "Data scope",
+    "items": [
+      {
+        "id": "eu",
+        "title": "EU data",
+        "count": 18306
+      },
+      {
+        "id": "io",
+        "title": "International data",
+        "count": 2
+      },
+      {
+        "id": "countryData",
+        "title": "Country data",
+        "count": 1343293
+      }
+    ]
+  },
+  {
+    "id": "country",
+    "title": "Countries",
+    "items": [
+      {
+        "count": 399957,
+        "id": "de",
+        "title": "Germany"
+      },
+      {
+        "count": 337580,
+        "id": "cz",
+        "title": "Czechia"
+      },
+      {
+        "count": 205624,
+        "id": "fr",
+        "title": "France"
+      },
+      {
+        "count": 66677,
+        "id": "es",
+        "title": "Spain"
+      },
+      {
+        "count": 61670,
+        "id": "it",
+        "title": "Italy"
+      },
+      {
+        "count": 51811,
+        "id": "gb",
+        "title": "United Kingdom"
+      },
+      {
+        "count": 38538,
+        "id": "ua",
+        "title": "Ukraine"
+      },
+      {
+        "count": 36451,
+        "id": "at",
+        "title": "Austria"
+      },
+      {
+        "count": 23862,
+        "id": "nl",
+        "title": "Netherlands"
+      },
+      {
+        "count": 18306,
+        "id": "eu",
+        "title": "EU institutions"
+      },
+      {
+        "count": 17537,
+        "id": "ie",
+        "title": "Ireland"
+      },
+      {
+        "count": 15053,
+        "id": "pl",
+        "title": "Poland"
+      },
+      {
+        "count": 11173,
+        "id": "be",
+        "title": "Belgium"
+      },
+      {
+        "count": 10687,
+        "id": "gr",
+        "title": "Greece"
+      },
+      {
+        "count": 9431,
+        "id": "ch",
+        "title": "Switzerland"
+      },
+      {
+        "count": 8820,
+        "id": "se",
+        "title": "Sweden"
+      },
+      {
+        "count": 8413,
+        "id": "bg",
+        "title": "Bulgaria"
+      },
+      {
+        "count": 8071,
+        "id": "si",
+        "title": "Slovenia"
+      },
+      {
+        "count": 5329,
+        "id": "fi",
+        "title": "Finland"
+      },
+      {
+        "count": 4780,
+        "id": "pt",
+        "title": "Portugal"
+      },
+      {
+        "count": 2744,
+        "id": "sk",
+        "title": "Slovakia"
+      },
+      {
+        "count": 2625,
+        "id": "ro",
+        "title": "Romania"
+      },
+      {
+        "count": 2337,
+        "id": "dk",
+        "title": "Denmark"
+      },
+      {
+        "count": 2128,
+        "id": "ee",
+        "title": "Estonia"
+      },
+      {
+        "count": 1987,
+        "id": "no",
+        "title": "Norway"
+      },
+      {
+        "count": 1866,
+        "id": "lu",
+        "title": "Luxembourg"
+      },
+      {
+        "count": 1575,
+        "id": "lt",
+        "title": "Lithuania"
+      },
+      {
+        "count": 1531,
+        "id": "hr",
+        "title": "Croatia"
+      },
+      {
+        "count": 1255,
+        "id": "rs",
+        "title": "Serbia"
+      },
+      {
+        "count": 1177,
+        "id": "md",
+        "title": "Moldova"
+      },
+      {
+        "count": 1107,
+        "id": "cy",
+        "title": "Cyprus"
+      },
+      {
+        "count": 527,
+        "id": "lv",
+        "title": "Latvia"
+      },
+      {
+        "count": 390,
+        "id": "is",
+        "title": "Iceland"
+      },
+      {
+        "count": 299,
+        "id": "mt",
+        "title": "Malta"
+      },
+      {
+        "count": 134,
+        "id": "me",
+        "title": "Montenegro"
+      },
+      {
+        "count": 90,
+        "id": "li",
+        "title": "Liechtenstein"
+      },
+      {
+        "count": 57,
+        "id": "hu",
+        "title": "Hungary"
+      },
+      {
+        "count": 2,
+        "id": "io",
+        "title": "International organisations"
+      }
+    ]
+  },
+  {
+    "id": "catalog",
+    "title": "Catalogues",
+    "items": [
+      {
+        "count": 350712,
+        "id": "gdi-de",
+        "title": "GDI-DE"
+      },
+      {
+        "count": 200778,
+        "id": "cuzk",
+        "title": "Geoportal Czech Office for Surveying, Mapping and Cadastre"
+      },
+      {
+        "count": 167196,
+        "id": "geocatalogue-fr",
+        "title": "Geocatalogue France"
+      },
+      {
+        "count": 136230,
+        "id": "nkod-opendata-cz",
+        "title": "Czech National Open Data Portal"
+      },
+      {
+        "count": 50922,
+        "id": "data-gov-uk",
+        "title": "data.gov.uk"
+      },
+      {
+        "count": 49245,
+        "id": "govdata",
+        "title": "GovData"
+      },
+      {
+        "count": 47023,
+        "id": "datos-gob-es",
+        "title": "datos.gob.es"
+      },
+      {
+        "count": 39693,
+        "id": "dati-gov-it",
+        "title": "dati.gov.it"
+      },
+      {
+        "count": 38538,
+        "id": "data-gov-ua",
+        "title": "data.gov.ua"
+      },
+      {
+        "count": 38006,
+        "id": "plateforme-ouverte-des-donnees-publiques-francaises",
+        "title": "Plateforme ouverte des donn\u00e9es publiques fran\u00e7aises"
+      },
+      {
+        "count": 34848,
+        "id": "data-gv-at",
+        "title": "data.gv.at"
+      },
+      {
+        "count": 21977,
+        "id": "rndt",
+        "title": "Italian Catalogue of metadata for Spatial Data"
+      },
+      {
+        "count": 17537,
+        "id": "data-gov-ie",
+        "title": "Data.gov.ie"
+      },
+      {
+        "count": 17349,
+        "id": "european-union-open-data-portal",
+        "title": "EU institutions data"
+      },
+      {
+        "count": 16225,
+        "id": "dataportaal-van-de-nederlandse-overheid",
+        "title": "Dataportaal van de Nederlandse overheid"
+      },
+      {
+        "count": 12138,
+        "id": "idee",
+        "title": "IDEE"
+      },
+      {
+        "count": 11173,
+        "id": "data-gov-be",
+        "title": "data.gov.be"
+      },
+      {
+        "count": 10657,
+        "id": "open-data-greece",
+        "title": "Open Data Greece - Ministry of Administrative Reconstruction"
+      },
+      {
+        "count": 9431,
+        "id": "opendata-swiss",
+        "title": "opendata.swiss"
+      },
+      {
+        "count": 9025,
+        "id": "podgik",
+        "title": "Geo-System metadata catalogue"
+      },
+      {
+        "count": 8413,
+        "id": "open-data-bulgaria",
+        "title": "Open Data Bulgaria"
+      },
+      {
+        "count": 7869,
+        "id": "odprti-podatki-slovenije",
+        "title": "Odprti podatki Slovenije"
+      },
+      {
+        "count": 7637,
+        "id": "ngr-nl",
+        "title": "National Georegister of the Netherlands"
+      },
+      {
+        "count": 7460,
+        "id": "oppnadata",
+        "title": "\u00d6ppnadata"
+      },
+      {
+        "count": 5084,
+        "id": "ideandalucia",
+        "title": "IDEAndalucia"
+      },
+      {
+        "count": 4780,
+        "id": "dados-gov-pt",
+        "title": "dados.gov.pt"
+      },
+      {
+        "count": 4052,
+        "id": "opole",
+        "title": "Geoportal Opole Province"
+      },
+      {
+        "count": 3454,
+        "id": "fmi",
+        "title": "FMI Catalog"
+      },
+      {
+        "count": 2579,
+        "id": "data-gov-sk",
+        "title": "data.gov.sk"
+      },
+      {
+        "count": 2379,
+        "id": "data-gov-ro",
+        "title": "data.gov.ro"
+      },
+      {
+        "count": 1892,
+        "id": "avaandmete-portaal",
+        "title": "Avaandmete portaal"
+      },
+      {
+        "count": 1875,
+        "id": "open-data-finland",
+        "title": "Open Data Finland"
+      },
+      {
+        "count": 1585,
+        "id": "data-norge-no",
+        "title": "data.norge.no"
+      },
+      {
+        "count": 1513,
+        "id": "navarra",
+        "title": "Infrastructura de Datos Espaciales de Navarra"
+      },
+      {
+        "count": 1502,
+        "id": "la-plateforme-de-donnees-luxembourgeoise",
+        "title": "La plateforme de donn\u00e9es luxembourgeoise"
+      },
+      {
+        "count": 1483,
+        "id": "geodata-info-dk",
+        "title": "Danske Geoportal"
+      },
+      {
+        "count": 1459,
+        "id": "dane-gov-pl",
+        "title": "dane.gov.pl"
+      },
+      {
+        "count": 1432,
+        "id": "data-gov-lt",
+        "title": "data-gov-lt"
+      },
+      {
+        "count": 1360,
+        "id": "geodata-se",
+        "title": "Geodata Portal Sweden"
+      },
+      {
+        "count": 1255,
+        "id": "open-data-portal-serbia",
+        "title": "Open Data Portal Serbia"
+      },
+      {
+        "count": 1177,
+        "id": "government-open-data-portal-moldova",
+        "title": "Government Open Data Portal Moldova"
+      },
+      {
+        "count": 1169,
+        "id": "portal-otvorenih-podataka",
+        "title": "Portal otvorenih podataka"
+      },
+      {
+        "count": 1158,
+        "id": "bmlfuw-at",
+        "title": "inspire.gv.at"
+      },
+      {
+        "count": 1107,
+        "id": "national-open-data-portal-cyprus",
+        "title": "National Open Data Portal Cyprus"
+      },
+      {
+        "count": 919,
+        "id": "ign",
+        "title": "Spanish National Geographic Institute"
+      },
+      {
+        "count": 889,
+        "id": "london-datastore",
+        "title": "London Datastore"
+      },
+      {
+        "count": 854,
+        "id": "open-data-dk",
+        "title": "OPEN DATA DK"
+      },
+      {
+        "count": 769,
+        "id": "pn",
+        "title": "EUMETSAT Product Navigator"
+      },
+      {
+        "count": 527,
+        "id": "data-gov-lv",
+        "title": "data.gov.lv"
+      },
+      {
+        "count": 445,
+        "id": "open-data-portal-austria",
+        "title": "opendataportal.at"
+      }
+    ]
+  },
+  {
+    "id": "categories",
+    "title": "Categories",
+    "items": [
+      {
+        "count": 243703,
+        "id": "AGRI",
+        "title": {
+          "no": "Jordbruk, fiskeri, skogbruk og mat",
+          "de": "Landwirtschaft, Fischerei, Forstwirtschaft und Nahrungsmittel",
+          "fi": "Maatalous, kalastus, mets\u00e4talous ja elintarvikkeet",
+          "pt": "Agricultura, pesca, silvicultura e alimenta\u00e7\u00e3o",
+          "bg": "\u0421\u0435\u043b\u0441\u043a\u043e \u0441\u0442\u043e\u043f\u0430\u043d\u0441\u0442\u0432\u043e, \u0440\u0438\u0431\u0430\u0440\u0441\u0442\u0432\u043e, \u0433\u043e\u0440\u0441\u043a\u043e \u0441\u0442\u043e\u043f\u0430\u043d\u0441\u0442\u0432\u043e \u0438 \u0445\u0440\u0430\u043d\u0438",
+          "lt": "\u017dem\u0117s \u016bkis, \u017euvininkyst\u0117, mi\u0161kininkyst\u0117 ir maistas",
+          "hr": "Poljoprivreda, ribarstvo, \u0161umarstvo i hrana",
+          "lv": "Lauksaimniec\u012bba, zivsaimniec\u012bba, me\u017esaimniec\u012bba un p\u0101rtika",
+          "fr": "Agriculture, p\u00eache, sylviculture et alimentation",
+          "hu": "Mez\u0151gazdas\u00e1g, hal\u00e1szat, erd\u00e9szet \u00e9s \u00e9lelmiszer",
+          "sk": "Po\u013enohospod\u00e1rstvo, rybn\u00e9 hospod\u00e1rstvo, lesn\u00edctvo a potravin\u00e1rstvo",
+          "sl": "Kmetijstvo, ribi\u0161tvo, gozdarstvo in prehrana",
+          "ga": "Talmha\u00edocht, iascach, foraoiseacht agus bia",
+          "sv": "Jordbruk, fiske, skogsbruk och livsmedel",
+          "mt": "Agrikoltura, sajd, forestrija u ikel",
+          "el": "\u0393\u03b5\u03c9\u03c1\u03b3\u03af\u03b1, \u03b1\u03bb\u03b9\u03b5\u03af\u03b1, \u03b4\u03b1\u03c3\u03bf\u03ba\u03bf\u03bc\u03af\u03b1 \u03ba\u03b1\u03b9 \u03c4\u03c1\u03cc\u03c6\u03b9\u03bc\u03b1",
+          "en": "Agriculture, fisheries, forestry and food",
+          "it": "Agricoltura, pesca, silvicoltura e prodotti alimentari",
+          "es": "Agricultura, pesca, silvicultura y alimentaci\u00f3n",
+          "et": "P\u00f5llumajandus, kalandus, metsandus ja toiduained",
+          "cs": "Zem\u011bd\u011blstv\u00ed, rybolov, lesnictv\u00ed a v\u00fd\u017eiva",
+          "pl": "Rolnictwo, rybo\u0142\u00f3wstwo, le\u015bnictwo i \u017cywno\u015b\u0107",
+          "da": "Landbrug, fiskeri, skovbrug og f\u00f8devarer",
+          "ro": "Agricultur\u0103, pescuit, silvicultur\u0103 \u015fi hran\u0103",
+          "nl": "Landbouw, visserij, bosbouw en voeding"
+        },
+        "resource": "http://publications.europa.eu/resource/authority/data-theme/AGRI"
+      },
+      {
+        "count": 190420,
+        "id": "JUST",
+        "title": {
+          "de": "Justiz, Rechtssystem und \u00f6ffentliche Sicherheit",
+          "no": "Justis, rettssystem og allmenn sikkerhet",
+          "fi": "Oikeus, oikeusj\u00e4rjestelm\u00e4 ja yleinen turvallisuus",
+          "pt": "Justi\u00e7a, sistema judici\u00e1rio e seguran\u00e7a p\u00fablica",
+          "bg": "\u041f\u0440\u0430\u0432\u043e\u0441\u044a\u0434\u0438\u0435, \u0441\u044a\u0434\u0435\u0431\u043d\u0430 \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u0438 \u043e\u0431\u0449\u0435\u0441\u0442\u0432\u0435\u043d\u0430 \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442",
+          "lt": "Teisingumas, teis\u0117s sistema ir visuomen\u0117s sauga",
+          "lv": "Tieslietas, ties\u012bbu sist\u0113ma un sabiedr\u012bbas dro\u0161\u012bba",
+          "hr": "Pravosu\u0111e, pravni sustav i javna sigurnost",
+          "fr": "Justice, syst\u00e8me juridique et s\u00e9curit\u00e9 publique",
+          "hu": "Igazs\u00e1g\u00fcgy, jogrendszer \u00e9s k\u00f6zbiztons\u00e1g",
+          "sk": "Spravodlivos\u0165, pr\u00e1vny syst\u00e9m a verejn\u00e1 bezpe\u010dnos\u0165",
+          "sl": "Pravosodje, pravni sistem in javna varnost",
+          "ga": "Ceartas, c\u00f3ras dl\u00ed agus s\u00e1bh\u00e1ilteacht an phobail",
+          "sv": "R\u00e4ttvisa, r\u00e4ttsliga system och allm\u00e4n s\u00e4kerhet",
+          "el": "\u0394\u03b9\u03ba\u03b1\u03b9o\u03c3\u03cd\u03bd\u03b7, \u03bd\u03bf\u03bc\u03b9\u03ba\u03cc \u03c3\u03cd\u03c3\u03c4\u03b7\u03bc\u03b1 \u03ba\u03b1\u03b9 \u03b4\u03b7\u03bc\u03cc\u03c3\u03b9\u03b1 \u03b1\u03c3\u03c6\u03ac\u03bb\u03b5\u03b9\u03b1",
+          "mt": "\u0120ustizzja, sistema legali u sigurt\u00e0 pubblika",
+          "en": "Justice, legal system and public safety",
+          "it": "Giustizia, sistema giuridico e sicurezza pubblica",
+          "es": "Justicia, sistema judicial y seguridad p\u00fablica",
+          "et": "\u00d5igusem\u00f5istmine, \u00f5iguss\u00fcsteem ja avalik turvalisus",
+          "cs": "Spravedlnost, pr\u00e1vn\u00ed syst\u00e9m a ve\u0159ejn\u00e1 bezpe\u010dnost",
+          "pl": "Sprawiedliwo\u015b\u0107, ustr\u00f3j s\u0105d\u00f3w i bezpiecze\u0144stwo publiczne",
+          "da": "Retf\u00e6rdighed, retssystem og offentlig sikkerhed",
+          "ro": "Justi\u021bie, sistem juridic \u0219i siguran\u021b\u0103 public\u0103",
+          "nl": "Justitie, rechtsstelsel en openbare veiligheid"
+        },
+        "resource": "http://publications.europa.eu/resource/authority/data-theme/JUST"
+      },
+      {
+        "count": 130875,
+        "id": "ENVI",
+        "title": {
+          "no": "Milj\u00f8",
+          "de": "Umwelt",
+          "fi": "Ymp\u00e4rist\u00f6",
+          "pt": "Ambiente",
+          "bg": "\u041e\u043a\u043e\u043b\u043d\u0430 \u0441\u0440\u0435\u0434\u0430",
+          "lt": "Aplinka",
+          "lv": "Vide",
+          "hr": "Okoli\u0161",
+          "fr": "Environnement",
+          "hu": "K\u00f6rnyezet",
+          "sk": "\u017divotn\u00e9 prostredie",
+          "sl": "Okolje",
+          "ga": "Comhshaol",
+          "sv": "Milj\u00f6",
+          "mt": "Ambjent",
+          "el": "\u03a0\u03b5\u03c1\u03b9\u03b2\u03ac\u03bb\u03bb\u03bf\u03bd",
+          "en": "Environment",
+          "it": "Ambiente",
+          "es": "Medio ambiente",
+          "et": "Keskkond",
+          "cs": "\u017divotn\u00ed prost\u0159ed\u00ed",
+          "pl": "\u015arodowisko",
+          "ro": "Mediu",
+          "da": "Milj\u00f8",
+          "nl": "Milieu"
+        },
+        "resource": "http://publications.europa.eu/resource/authority/data-theme/ENVI"
+      },
+      {
+        "count": 76518,
+        "id": "TECH",
+        "title": {
+          "de": "Wissenschaft und Technologie",
+          "no": "Vitenskap og teknologi",
+          "fi": "Tiede ja teknologia",
+          "pt": "Ci\u00eancia e tecnologia",
+          "bg": "\u041d\u0430\u0443\u043a\u0430 \u0438 t\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0438",
+          "lt": "Mokslas ir technologijos",
+          "hr": "Znanost i tehnologija",
+          "lv": "Zin\u0101tne un tehnolo\u0123ija",
+          "fr": "Science et technologie",
+          "hu": "Tudom\u00e1ny \u00e9s technol\u00f3gia",
+          "sk": "Veda a technika",
+          "sl": "Znanost in tehnologija",
+          "ga": "Eola\u00edocht agus teicneola\u00edocht",
+          "sv": "Vetenskap och teknik",
+          "el": "\u0395\u03c0\u03b9\u03c3\u03c4\u03ae\u03bc\u03b7 \u03ba\u03b1\u03b9 \u03c4\u03b5\u03c7\u03bd\u03bf\u03bb\u03bf\u03b3\u03af\u03b1",
+          "mt": "Xjenza u teknolo\u0121ija",
+          "en": "Science and technology",
+          "it": "Scienza e tecnologia",
+          "es": "Ciencia y tecnolog\u00eda",
+          "et": "Teadus ja tehnoloogia",
+          "cs": "V\u011bda a technika",
+          "pl": "Nauka i technologia",
+          "da": "Videnskab og teknologi",
+          "ro": "\u015etiin\u0163\u0103 \u015fi tehnologie",
+          "nl": "Wetenschap en technologie"
+        },
+        "resource": "http://publications.europa.eu/resource/authority/data-theme/TECH"
+      },
+      {
+        "count": 72908,
+        "id": "GOVE",
+        "title": {
+          "no": "Forvaltning og offentlig sektor",
+          "de": "Regierung und \u00f6ffentlicher Sektor",
+          "fi": "Valtioneuvosto ja julkinen sektori",
+          "pt": "Governo e setor p\u00fablico",
+          "bg": "\u041f\u0440\u0430\u0432\u0438\u0442\u0435\u043b\u0441\u0442\u0432\u043e \u0438 \u043f\u0443\u0431\u043b\u0438\u0447\u0435\u043d \u0441\u0435\u043a\u0442\u043e\u0440",
+          "lt": "Vyriausyb\u0117 ir vie\u0161asis sektorius",
+          "hr": "Vlada i javni sektor",
+          "lv": "Vald\u012bba un sabiedriskais sektors",
+          "fr": "Gouvernement et secteur public",
+          "hu": "Korm\u00e1nyzat \u00e9s k\u00f6zszf\u00e9ra",
+          "sk": "Vl\u00e1da a verejn\u00fd sektor",
+          "sl": "Vlada in javni sektor",
+          "ga": "Rialtas agus earn\u00e1il phoibl\u00ed",
+          "sv": "Regeringen och den offentliga sektorn",
+          "el": "\u039a\u03c5\u03b2\u03ad\u03c1\u03bd\u03b7\u03c3\u03b7 \u03ba\u03b1\u03b9 \u03b4\u03b7\u03bc\u03cc\u03c3\u03b9\u03bf\u03c2 \u03c4\u03bf\u03bc\u03ad\u03b1\u03c2",
+          "mt": "Gvern u settur pubbliku",
+          "en": "Government and public sector",
+          "it": "Governo e settore pubblico",
+          "es": "Gobierno y sector p\u00fablico",
+          "et": "Valitsus ja avalik sektor",
+          "cs": "Vl\u00e1da a ve\u0159ejn\u00fd sektor",
+          "pl": "Rz\u0105d i sektor publiczny",
+          "ro": "Guvern \u015fi sector public",
+          "da": "Regeringen og den offentlige sektor",
+          "nl": "Overheid en publieke sector"
+        },
+        "resource": "http://publications.europa.eu/resource/authority/data-theme/GOVE"
+      },
+      {
+        "count": 60355,
+        "id": "ECON",
+        "title": {
+          "de": "Wirtschaft und Finanzen",
+          "no": "\u00d8konomi og finans",
+          "fi": "Talous ja raha-asiat",
+          "pt": "Economia e finan\u00e7as",
+          "bg": "\u0418\u043a\u043e\u043d\u043e\u043c\u0438\u043a\u0430 \u0438 \u0444\u0438\u043d\u0430\u043d\u0441\u0438",
+          "lt": "Ekonomika ir finansai",
+          "hr": "Ekonomija i financije",
+          "lv": "Ekonomika un finanses",
+          "fr": "\u00c9conomie et finances",
+          "hu": "Gazdas\u00e1g \u00e9s p\u00e9nz\u00fcgy",
+          "sk": "Hospod\u00e1rstvo a financie",
+          "sl": "Gospodarstvo in finance",
+          "ga": "Geilleagar agus airgeadas",
+          "sv": "Ekonomi och finans",
+          "mt": "Ekonomija u finanzi",
+          "el": "\u039f\u03b9\u03ba\u03bf\u03bd\u03bf\u03bc\u03af\u03b1 \u03ba\u03b1\u03b9 \u03c7\u03c1\u03b7\u03bc\u03b1\u03c4\u03bf\u03bf\u03b9\u03ba\u03bf\u03bd\u03bf\u03bc\u03b9\u03ba\u03ac \u03b8\u03ad\u03bc\u03b1\u03c4\u03b1",
+          "en": "Economy and finance",
+          "it": "Economia e finanze",
+          "es": "Econom\u00eda y finanzas",
+          "et": "Majandus ja rahandus",
+          "cs": "Hospod\u00e1\u0159stv\u00ed a finance",
+          "pl": "Gospodarka i finanse",
+          "ro": "Economie \u015fi finan\u0163e",
+          "da": "\u00d8konomi og finanser",
+          "nl": "Economie en financi\u00ebn"
+        },
+        "resource": "http://publications.europa.eu/resource/authority/data-theme/ECON"
+      },
+      {
+        "count": 44724,
+        "id": "TRAN",
+        "title": {
+          "no": "Transport",
+          "de": "Verkehr",
+          "fi": "Liikenne",
+          "pt": "Transportes",
+          "bg": "\u0422\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442",
+          "lt": "Transportas",
+          "hr": "Promet",
+          "lv": "Transports",
+          "fr": "Transports",
+          "hu": "K\u00f6zleked\u00e9s",
+          "sk": "Doprava",
+          "sl": "Transport",
+          "ga": "Iompar",
+          "sv": "Transport",
+          "mt": "Trasport",
+          "el": "\u039c\u03b5\u03c4\u03b1\u03c6\u03bf\u03c1\u03ad\u03c2",
+          "en": "Transport",
+          "it": "Trasporti",
+          "es": "Transporte",
+          "et": "Transport",
+          "cs": "Doprava",
+          "pl": "Transport",
+          "ro": "Transport",
+          "da": "Transport",
+          "nl": "Vervoer"
+        },
+        "resource": "http://publications.europa.eu/resource/authority/data-theme/TRAN"
+      },
+      {
+        "count": 43326,
+        "id": "SOCI",
+        "title": {
+          "de": "Bev\u00f6lkerung und Gesellschaft",
+          "no": "Befolkning og samfunn",
+          "fi": "V\u00e4est\u00f6 ja yhteiskunta",
+          "pt": "Popula\u00e7\u00e3o e sociedade",
+          "bg": "\u041d\u0430\u0441\u0435\u043b\u0435\u043d\u0438\u0435 \u0438 \u043e\u0431\u0449\u0435\u0441\u0442\u0432\u043e",
+          "lt": "Gyventoj\u0173 skai\u010dius ir visuomen\u0117",
+          "hr": "Stanovni\u0161tvo i dru\u0161tvo",
+          "lv": "Iedz\u012bvot\u0101ji un sabiedr\u012bba",
+          "fr": "Population et soci\u00e9t\u00e9",
+          "hu": "N\u00e9pess\u00e9g \u00e9s t\u00e1rsadalom",
+          "sk": "Obyvate\u013estvo a spolo\u010dnos\u0165",
+          "sl": "Prebivalstvo in dru\u017eba",
+          "ga": "Daonra agus socha\u00ed",
+          "sv": "Befolkning och samh\u00e4lle",
+          "el": "\u03a0\u03bb\u03b7\u03b8\u03c5\u03c3\u03bc\u03cc\u03c2 \u03ba\u03b1\u03b9 \u03ba\u03bf\u03b9\u03bd\u03c9\u03bd\u03af\u03b1",
+          "mt": "Popolazzjoni u so\u010bjet\u00e0",
+          "en": "Population and society",
+          "it": "Popolazione e societ\u00e0",
+          "es": "Poblaci\u00f3n y sociedad",
+          "et": "Elanikkond ja \u00fchiskond",
+          "cs": "Populace a spole\u010dnost",
+          "pl": "Ludno\u015b\u0107 i spo\u0142ecze\u0144stwo",
+          "ro": "Popula\u0163ie \u015fi societate",
+          "da": "Befolkning og samfund",
+          "nl": "Bevolking en samenleving"
+        },
+        "resource": "http://publications.europa.eu/resource/authority/data-theme/SOCI"
+      },
+      {
+        "count": 26809,
+        "id": "REGI",
+        "title": {
+          "no": "Regioner og byer",
+          "de": "Regionen und St\u00e4dte",
+          "fi": "Alueet ja kaupungit",
+          "pt": "Regi\u00f5es e cidades",
+          "bg": "\u0420\u0435\u0433\u0438\u043e\u043d\u0438 \u0438 \u0433\u0440\u0430\u0434\u043e\u0432\u0435",
+          "lt": "Regionai ir miestai",
+          "hr": "Regije i gradovi",
+          "lv": "Re\u0123ioni un pils\u0113tas",
+          "fr": "R\u00e9gions et villes",
+          "hu": "R\u00e9gi\u00f3k \u00e9s v\u00e1rosok",
+          "sk": "Regi\u00f3ny a mest\u00e1",
+          "sl": "Regije in mesta",
+          "ga": "R\u00e9igi\u00fain agus cathracha",
+          "sv": "Regioner och st\u00e4der",
+          "el": "\u03a0\u03b5\u03c1\u03b9\u03c6\u03ad\u03c1\u03b5\u03b9\u03b5\u03c2 \u03ba\u03b1\u03b9 \u03c0\u03cc\u03bb\u03b5\u03b9\u03c2",
+          "mt": "Re\u0121juni u bliet",
+          "en": "Regions and cities",
+          "it": "Regioni e citt\u00e0",
+          "es": "Regiones y ciudades",
+          "et": "Piirkonnad ja linnad",
+          "cs": "Regiony a m\u011bsta",
+          "pl": "Regiony i miasta",
+          "da": "Regioner og byer",
+          "ro": "Regiuni \u015fi ora\u0219e",
+          "nl": "Regio's en steden"
+        },
+        "resource": "http://publications.europa.eu/resource/authority/data-theme/REGI"
+      },
+      {
+        "count": 17546,
+        "id": "EDUC",
+        "title": {
+          "de": "Bildung, Kultur und Sport",
+          "no": "Utdanning, kultur og sport",
+          "fi": "Koulutus, kulttuuri ja urheilu",
+          "pt": "Educa\u00e7\u00e3o, cultura e desporto",
+          "bg": "\u041e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u0435, \u043a\u0443\u043b\u0442\u0443\u0440\u0430 \u0438 \u0441\u043f\u043e\u0440\u0442",
+          "lt": "\u0160vietimas, kult\u016bra ir sportas",
+          "hr": "Obrazovanje, kultura i sport",
+          "lv": "Izgl\u012bt\u012bba, kult\u016bra un sports",
+          "fr": "\u00c9ducation, culture et sport",
+          "hu": "Oktat\u00e1s, kult\u00fara \u00e9s sport",
+          "sk": "Vzdel\u00e1vanie, kult\u00fara a \u0161port",
+          "sl": "Izobra\u017eevanje, kultura in \u0161port",
+          "ga": "Oideachas, cult\u00far agus sp\u00f3rt",
+          "sv": "Utbildning, kultur och sport",
+          "mt": "Edukazzjoni, kultura u sport",
+          "el": "\u03a0\u03b1\u03b9\u03b4\u03b5\u03af\u03b1, \u03c0\u03bf\u03bb\u03b9\u03c4\u03b9\u03c3\u03c4\u03b9\u03ba\u03ac \u03b8\u03ad\u03bc\u03b1\u03c4\u03b1 \u03ba\u03b1\u03b9 \u03b1\u03b8\u03bb\u03b7\u03c4\u03b9\u03c3\u03bc\u03cc\u03c2",
+          "en": "Education, culture and sport",
+          "it": "Istruzione, cultura e sport",
+          "es": "Educaci\u00f3n, cultura y deportes",
+          "et": "Haridus, kultuur ja sport",
+          "cs": "Vzd\u011bl\u00e1v\u00e1n\u00ed, kultura a sport",
+          "pl": "Edukacja, kultura i sport",
+          "da": "Uddannelse, kultur og sport",
+          "ro": "Educa\u0163ie, cultur\u0103 \u015fi sport",
+          "nl": "Onderwijs, cultuur en sport"
+        },
+        "resource": "http://publications.europa.eu/resource/authority/data-theme/EDUC"
+      },
+      {
+        "count": 15370,
+        "id": "HEAL",
+        "title": {
+          "de": "Gesundheit",
+          "no": "Helse",
+          "fi": "Terveys",
+          "pt": "Sa\u00fade",
+          "bg": "\u0417\u0434\u0440\u0430\u0432\u0435",
+          "lt": "Sveikata",
+          "hr": "Zdravlje",
+          "lv": "Vesel\u012bba",
+          "fr": "Sant\u00e9",
+          "hu": "Eg\u00e9szs\u00e9g\u00fcgy",
+          "sk": "Zdravotn\u00edctvo",
+          "sl": "Zdravje",
+          "ga": "Sl\u00e1inte",
+          "sv": "H\u00e4lsa",
+          "el": "\u03a5\u03b3\u03b5\u03af\u03b1",
+          "mt": "Sa\u0127\u0127a",
+          "en": "Health",
+          "it": "Salute",
+          "es": "Salud",
+          "et": "Tervis",
+          "cs": "Zdrav\u00ed",
+          "pl": "Zdrowie",
+          "da": "Sundhed",
+          "ro": "S\u0103n\u0103tate",
+          "nl": "Gezondheid"
+        },
+        "resource": "http://publications.europa.eu/resource/authority/data-theme/HEAL"
+      },
+      {
+        "count": 7040,
+        "id": "ENER",
+        "title": {
+          "de": "Energie",
+          "no": "Energi",
+          "fi": "Energia",
+          "pt": "Energia",
+          "bg": "\u0415\u043d\u0435\u0440\u0433\u0435\u0442\u0438\u043a\u0430",
+          "lt": "Energetika",
+          "hr": "Energetika",
+          "lv": "Ener\u0123\u0113tika",
+          "fr": "\u00c9nergie",
+          "hu": "Energia",
+          "sk": "Energetika",
+          "sl": "Energetika",
+          "ga": "Fuinneamh",
+          "sv": "Energi",
+          "el": "\u0395\u03bd\u03ad\u03c1\u03b3\u03b5\u03b9\u03b1",
+          "mt": "Ener\u0121ija",
+          "en": "Energy",
+          "it": "Energia",
+          "es": "Energ\u00eda",
+          "et": "Energeetika",
+          "cs": "Energie",
+          "pl": "Energia",
+          "ro": "Energie",
+          "da": "Energi",
+          "nl": "Energie"
+        },
+        "resource": "http://publications.europa.eu/resource/authority/data-theme/ENER"
+      },
+      {
+        "count": 1036,
+        "id": "INTR",
+        "title": {
+          "de": "Internationale Themen",
+          "no": "Internasjonale temaer",
+          "fi": "Kansainv\u00e4liset kysymykset",
+          "pt": "Quest\u00f5es internacionais",
+          "bg": "\u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u0438 \u0432\u044a\u043f\u0440\u043e\u0441\u0438",
+          "lt": "Tarptautiniai klausimai",
+          "lv": "Starptautiski jaut\u0101jumi",
+          "hr": "Me\u0111unarodni pitanja",
+          "fr": "Questions internationales",
+          "hu": "Nemzetk\u00f6zi \u00fcgyek",
+          "sk": "Medzin\u00e1rodn\u00e9 ot\u00e1zky",
+          "sl": "Mednarodna vpra\u0161anja",
+          "ga": "Saincheisteanna idirn\u00e1isi\u00fanta",
+          "sv": "Internationella fr\u00e5gor",
+          "el": "\u0394\u03b9\u03b5\u03b8\u03bd\u03ae \u03b8\u03ad\u03bc\u03b1\u03c4\u03b1",
+          "mt": "Kwistjonijiet internazzjonali",
+          "en": "International issues",
+          "it": "Tematiche internazionali",
+          "es": "Asuntos internacionales",
+          "et": "Rahvusvahelised k\u00fcsimused",
+          "cs": "Mezin\u00e1rodn\u00ed ot\u00e1zky",
+          "pl": "Kwestie mi\u0119dzynarodowe",
+          "da": "Internationale sp\u00f8rgsm\u00e5l",
+          "ro": "Chestiuni interna\u021bionale",
+          "nl": "Internationale vraagstukken"
+        },
+        "resource": "http://publications.europa.eu/resource/authority/data-theme/INTR"
+      }
+    ]
+  },
+  {
+    "id": "keywords",
+    "title": "Keywords",
+    "items": [
+      {
+        "count": 167973,
+        "id": "inspireidentifiziert",
+        "title": "inspireidentifiziert"
+      },
+      {
+        "count": 103504,
+        "id": "katastra-lni-parcely",
+        "title": "Katastr\u00e1ln\u00ed parcely"
+      },
+      {
+        "count": 101507,
+        "id": "infomapaccessservice",
+        "title": "infoMapAccessService"
+      },
+      {
+        "count": 96298,
+        "id": "adresy",
+        "title": "Adresy"
+      },
+      {
+        "count": 91047,
+        "id": "katastra-lni-parcela",
+        "title": "katastr\u00e1ln\u00ed parcela"
+      },
+      {
+        "count": 84766,
+        "id": "pozemek",
+        "title": "pozemek"
+      },
+      {
+        "count": 84764,
+        "id": "hranice",
+        "title": "hranice"
+      },
+      {
+        "count": 84744,
+        "id": "informac-ni-syste-m-katastru-nemovitosti-iskn-",
+        "title": "informa\u010dn\u00ed syst\u00e9m katastru nemovitost\u00ed (ISKN)"
+      },
+      {
+        "count": 84743,
+        "id": "nemovitost-nemovita-ve-c",
+        "title": "nemovitost, nemovit\u00e1 v\u011bc"
+      },
+      {
+        "count": 84277,
+        "id": "parcela",
+        "title": "parcela"
+      },
+      {
+        "count": 83249,
+        "id": "infofeatureaccessservice",
+        "title": "infoFeatureAccessService"
+      },
+      {
+        "count": 78485,
+        "id": "hranice-parcely",
+        "title": "hranice parcely"
+      },
+      {
+        "count": 65421,
+        "id": "katastra-lni-mapa",
+        "title": "katastr\u00e1ln\u00ed mapa"
+      },
+      {
+        "count": 65416,
+        "id": "digita-lni-katastra-lni-mapa",
+        "title": "digit\u00e1ln\u00ed katastr\u00e1ln\u00ed mapa"
+      },
+      {
+        "count": 65416,
+        "id": "digitalizovana-katastra-lni-mapa",
+        "title": "digitalizovan\u00e1 katastr\u00e1ln\u00ed mapa"
+      },
+      {
+        "count": 65416,
+        "id": "katastr-nemovitosti-c-r",
+        "title": "katastr nemovitost\u00ed \u010cR"
+      },
+      {
+        "count": 65416,
+        "id": "katastr-nemovitosti-kn-",
+        "title": "katastr nemovitost\u00ed (KN)"
+      },
+      {
+        "count": 65392,
+        "id": "katastra-lni-pracovis-te-kp-",
+        "title": "Katastr\u00e1ln\u00ed pracovi\u0161t\u011b (KP)"
+      },
+      {
+        "count": 59781,
+        "id": "archival-maps",
+        "title": "archival maps"
+      },
+      {
+        "count": 59781,
+        "id": "archivni-mapy",
+        "title": "archivn\u00ed mapy"
+      },
+      {
+        "count": 59781,
+        "id": "central-archive-of-surveying-and-cadastre",
+        "title": "Central Archive of Surveying and Cadastre"
+      },
+      {
+        "count": 59781,
+        "id": "u-str-edni-archiv-zeme-me-r-ictvi-a-katastru",
+        "title": "\u00dast\u0159edn\u00ed archiv zem\u011bm\u011b\u0159ictv\u00ed a katastru"
+      },
+      {
+        "count": 56838,
+        "id": "me-r-i-tko-1-2-880",
+        "title": "m\u011b\u0159\u00edtko 1:2 880"
+      },
+      {
+        "count": 56838,
+        "id": "scale-1-2-880",
+        "title": "scale 1:2,880"
+      },
+      {
+        "count": 56836,
+        "id": "mapy-stabilni-ho-katastru",
+        "title": "mapy stabiln\u00edho katastru"
+      },
+      {
+        "count": 56836,
+        "id": "stable-cadastre-maps",
+        "title": "stable cadastre maps"
+      },
+      {
+        "count": 56833,
+        "id": "ci-sar-ske-povinne-otisky",
+        "title": "c\u00edsa\u0159sk\u00e9 povinn\u00e9 otisky"
+      },
+      {
+        "count": 56833,
+        "id": "imperial-obligatory-imprints",
+        "title": "Imperial Obligatory Imprints"
+      },
+      {
+        "count": 50243,
+        "id": "registr-u-zemni-identifikace-adres-a-nemovitosti-ru-ian-",
+        "title": "Registr \u00fazemn\u00ed identifikace, adres a nemovitost\u00ed (R\u00daIAN)"
+      },
+      {
+        "count": 50170,
+        "id": "-",
+        "title": "..."
+      },
+      {
+        "count": 49016,
+        "id": "bebauungsplan",
+        "title": "Bebauungsplan"
+      },
+      {
+        "count": 44383,
+        "id": "definic-ni-bod-reprezentac-ni-bod-centroid",
+        "title": "defini\u010dn\u00ed bod, reprezenta\u010dn\u00ed bod, centroid"
+      },
+      {
+        "count": 43980,
+        "id": "obec",
+        "title": "obec"
+      },
+      {
+        "count": 43972,
+        "id": "me-stsky-obvod-me-stska-c-a-st-momc-",
+        "title": "m\u011bstsk\u00fd obvod/m\u011bstsk\u00e1 \u010d\u00e1st (MOMC)"
+      },
+      {
+        "count": 43968,
+        "id": "adresni-mi-sto",
+        "title": "adresn\u00ed m\u00edsto"
+      },
+      {
+        "count": 37602,
+        "id": "ulice",
+        "title": "ulice"
+      },
+      {
+        "count": 37589,
+        "id": "adresa",
+        "title": "adresa"
+      },
+      {
+        "count": 37573,
+        "id": "me-stsky-obvod-v-praze-mop-",
+        "title": "m\u011bstsk\u00fd obvod v Praze (MOP)"
+      },
+      {
+        "count": 37556,
+        "id": "c-a-st-obce",
+        "title": "\u010d\u00e1st obce"
+      },
+      {
+        "count": 37001,
+        "id": "opendata",
+        "title": "OpenData"
+      },
+      {
+        "count": 36909,
+        "id": "wms-1-3-0",
+        "title": "WMS 1.3.0"
+      },
+      {
+        "count": 36692,
+        "id": "wms-1-1-1",
+        "title": "WMS 1.1.1"
+      },
+      {
+        "count": 36645,
+        "id": "bauleitplan",
+        "title": "Bauleitplan"
+      },
+      {
+        "count": 35122,
+        "id": "wfs-1-1-0",
+        "title": "WFS 1.1.0"
+      },
+      {
+        "count": 32553,
+        "id": "5000",
+        "title": "5000"
+      },
+      {
+        "count": 32536,
+        "id": "5-000",
+        "title": "5,000"
+      },
+      {
+        "count": 32536,
+        "id": "me-r-i-tko-1-5-000",
+        "title": "m\u011b\u0159\u00edtko 1:5 000"
+      },
+      {
+        "count": 32536,
+        "id": "scale-1-5-000",
+        "title": "scale 1:5,000"
+      },
+      {
+        "count": 32533,
+        "id": "me-r-i-tko-1-5000",
+        "title": "m\u011b\u0159\u00edtko 1:5000"
+      },
+      {
+        "count": 32531,
+        "id": "cadastral-component",
+        "title": "cadastral component"
+      }
+    ]
+  },
+  {
+    "id": "scoring",
+    "title": "Scoring",
+    "items": [
+      {
+        "id": "excellentScoring",
+        "title": "Excellent Scoring",
+        "count": 70,
+        "from": 351.0,
+        "to": 406.0
+      },
+      {
+        "id": "goodScoring",
+        "title": "Good Scoring",
+        "count": 179725,
+        "from": 221.0,
+        "to": 351.0
+      },
+      {
+        "id": "sufficientScoring",
+        "title": "Sufficient Scoring",
+        "count": 646095,
+        "from": 121.0,
+        "to": 221.0
+      },
+      {
+        "id": "badScoring",
+        "title": "Bad Scoring",
+        "count": 454328,
+        "from": 0.0,
+        "to": 121.0
+      }
+    ]
+  },
+  {
+    "id": "format",
+    "title": "Formats",
+    "items": [
+      {
+        "count": 180609,
+        "id": "CSV",
+        "title": "CSV"
+      },
+      {
+        "count": 164396,
+        "id": "WFS",
+        "title": "WFS"
+      },
+      {
+        "count": 160261,
+        "id": "WMS",
+        "title": "WMS"
+      },
+      {
+        "count": 83888,
+        "id": "JSON",
+        "title": "JSON"
+      },
+      {
+        "count": 62833,
+        "id": "HTML",
+        "title": "HTML"
+      },
+      {
+        "count": 51918,
+        "id": "ZIP",
+        "title": "ZIP"
+      },
+      {
+        "count": 51863,
+        "id": "XLSX",
+        "title": "Excel XLSX"
+      },
+      {
+        "count": 49373,
+        "id": "GML",
+        "title": "GML"
+      },
+      {
+        "count": 47620,
+        "id": "XLS",
+        "title": "Excel XLS"
+      },
+      {
+        "count": 46986,
+        "id": "SHP",
+        "title": "Esri Shape"
+      },
+      {
+        "count": 34119,
+        "id": "PDF",
+        "title": "PDF"
+      },
+      {
+        "count": 27662,
+        "id": "XML",
+        "title": "XML"
+      },
+      {
+        "count": 13257,
+        "id": "KML",
+        "title": "KML"
+      },
+      {
+        "count": 12479,
+        "id": "TIFF",
+        "title": "TIFF"
+      },
+      {
+        "count": 12449,
+        "id": "WMS_SRVC",
+        "title": "WMS"
+      },
+      {
+        "count": 11811,
+        "id": "TSV",
+        "title": "TSV"
+      },
+      {
+        "count": 11251,
+        "id": "px",
+        "title": "px"
+      },
+      {
+        "count": 11249,
+        "id": "json-stat",
+        "title": "json-stat"
+      },
+      {
+        "count": 9919,
+        "id": "GEOJSON",
+        "title": "GeoJSON"
+      },
+      {
+        "count": 9556,
+        "id": "WFS_SRVC",
+        "title": "WFS"
+      },
+      {
+        "count": 6038,
+        "id": "ATOM",
+        "title": "Atom Feed"
+      },
+      {
+        "count": 5812,
+        "id": "TXT",
+        "title": "Plain text"
+      },
+      {
+        "count": 5314,
+        "id": "application/json",
+        "title": "application/json"
+      },
+      {
+        "count": 5001,
+        "id": "document",
+        "title": "document"
+      },
+      {
+        "count": 4879,
+        "id": "Karte",
+        "title": "Karte"
+      },
+      {
+        "count": 4878,
+        "id": "Webanwendung",
+        "title": "Webanwendung"
+      },
+      {
+        "count": 4025,
+        "id": "GZIP",
+        "title": "GNU zip"
+      },
+      {
+        "count": 3985,
+        "id": "RDF",
+        "title": "RDF"
+      },
+      {
+        "count": 3596,
+        "id": "ODS",
+        "title": "ODS"
+      },
+      {
+        "count": 3420,
+        "id": "DOC",
+        "title": "Word DOC"
+      },
+      {
+        "count": 3053,
+        "id": "DOCX",
+        "title": "Word DOCX"
+      },
+      {
+        "count": 2763,
+        "id": "OP_DATPRO",
+        "title": "Provisional data"
+      },
+      {
+        "count": 2711,
+        "id": "KMZ",
+        "title": "KMZ"
+      },
+      {
+        "count": 1970,
+        "id": "Diverse",
+        "title": "Diverse"
+      },
+      {
+        "count": 1843,
+        "id": "MAP_SRVC",
+        "title": "ArcGIS Map Service"
+      },
+      {
+        "count": 1745,
+        "id": "XPlanGML",
+        "title": "XPlanGML"
+      },
+      {
+        "count": 1698,
+        "id": "RDF_XML",
+        "title": "RDF XML"
+      },
+      {
+        "count": 1668,
+        "id": "SERVICE",
+        "title": "SERVICE"
+      },
+      {
+        "count": 1574,
+        "id": "view",
+        "title": "view"
+      },
+      {
+        "count": 1560,
+        "id": ".xlsx",
+        "title": ".xlsx"
+      },
+      {
+        "count": 1455,
+        "id": "download",
+        "title": "download"
+      },
+      {
+        "count": 1399,
+        "id": "\u0445lsx",
+        "title": "\u0445lsx"
+      },
+      {
+        "count": 1258,
+        "id": "OWL",
+        "title": "OWL"
+      },
+      {
+        "count": 1039,
+        "id": "RDF_TURTLE",
+        "title": "RDF Turtle"
+      },
+      {
+        "count": 991,
+        "id": "JPEG",
+        "title": "JPEG"
+      },
+      {
+        "count": 965,
+        "id": "PNG",
+        "title": "PNG"
+      },
+      {
+        "count": 852,
+        "id": "image",
+        "title": "image"
+      },
+      {
+        "count": 815,
+        "id": "OCTET",
+        "title": "Octet Stream"
+      },
+      {
+        "count": 787,
+        "id": "Esri REST",
+        "title": "Esri REST"
+      },
+      {
+        "count": 784,
+        "id": "MAP_PRVW",
+        "title": "ArcGIS Map Preview"
+      }
+    ]
+  },
+  {
+    "id": "license",
+    "title": "Licenses",
+    "items": [
+      {
+        "count": 46329,
+        "id": "CC_BY_4_0",
+        "title": "Creative Commons Attribution 4.0 International"
+      },
+      {
+        "count": 33093,
+        "id": "DLDE_BY_2_0",
+        "title": "Data licence Germany \u2013 attribution \u2013 Version 2.0"
+      },
+      {
+        "count": 30589,
+        "id": "https://creativecommons.org/licenses/by/4.0/deed.de",
+        "title": "https://creativecommons.org/licenses/by/4.0/deed.de"
+      },
+      {
+        "count": 29688,
+        "id": "OGL_3_0",
+        "title": "Open Government Licence 3.0"
+      },
+      {
+        "count": 23457,
+        "id": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+        "title": "https://www.etalab.gouv.fr/licence-ouverte-open-licence"
+      },
+      {
+        "count": 18757,
+        "id": "CC_BY",
+        "title": "Creative Commons Attribution 4.0 International"
+      },
+      {
+        "count": 8490,
+        "id": "notspecified",
+        "title": "License not specified"
+      },
+      {
+        "count": 8140,
+        "id": "https://www.ine.es/aviso_legal",
+        "title": "https://www.ine.es/aviso_legal"
+      },
+      {
+        "count": 8123,
+        "id": "CC0",
+        "title": "Creative Commons CC0 1.0 Universal"
+      },
+      {
+        "count": 7756,
+        "id": "cc-zero",
+        "title": "cc-zero"
+      },
+      {
+        "count": 7475,
+        "id": "http://www.gobiernodecanarias.org/istac/aviso_legal.html",
+        "title": "http://www.gobiernodecanarias.org/istac/aviso_legal.html"
+      },
+      {
+        "count": 6334,
+        "id": "http://creativecommons.org/licenses/by/4.0/deed.nl",
+        "title": "http://creativecommons.org/licenses/by/4.0/deed.nl"
+      },
+      {
+        "count": 6022,
+        "id": "http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+        "title": "http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0"
+      },
+      {
+        "count": 5545,
+        "id": "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf",
+        "title": "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf"
+      },
+      {
+        "count": 5487,
+        "id": "http://creativecommons.org/publicdomain/zero/1.0/deed.nl",
+        "title": "http://creativecommons.org/publicdomain/zero/1.0/deed.nl"
+      },
+      {
+        "count": 5415,
+        "id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+        "title": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)"
+      },
+      {
+        "count": 4662,
+        "id": "COM_REUSE",
+        "title": "European Commission reuse notice"
+      },
+      {
+        "count": 3794,
+        "id": "http://opendatacommons.org/licenses/odbl/summary/",
+        "title": "http://opendatacommons.org/licenses/odbl/summary/"
+      },
+      {
+        "count": 3419,
+        "id": "DLDE_ZERO_2_0",
+        "title": "Data licence Germany - Zero - Version 2.0"
+      },
+      {
+        "count": 3281,
+        "id": "http://creativecommons.org/publicdomain/mark/1.0/deed.nl",
+        "title": "http://creativecommons.org/publicdomain/mark/1.0/deed.nl"
+      },
+      {
+        "count": 3229,
+        "id": "",
+        "title": ""
+      },
+      {
+        "count": 2994,
+        "id": "Italian Open Data License 2.0 (IODL 2.0)",
+        "title": "Italian Open Data License 2.0 (IODL 2.0)"
+      },
+      {
+        "count": 2515,
+        "id": "other-open",
+        "title": "Other (Open)"
+      },
+      {
+        "count": 2499,
+        "id": "http://www.igme.es/Ayuda/CondiUso.htm",
+        "title": "http://www.igme.es/Ayuda/CondiUso.htm"
+      },
+      {
+        "count": 2160,
+        "id": "iodl2",
+        "title": "iodl2"
+      },
+      {
+        "count": 1946,
+        "id": "ODC_PDDL",
+        "title": "Open Data Commons Public Domain Dedication and License 1.0"
+      },
+      {
+        "count": 1719,
+        "id": "cc-by-3.0-it",
+        "title": "cc-by-3.0-it"
+      },
+      {
+        "count": 1696,
+        "id": "Creative Commons Attribuzione 2.5 Generica (CC BY 2.5)",
+        "title": "Creative Commons Attribuzione 2.5 Generica (CC BY 2.5)"
+      },
+      {
+        "count": 1651,
+        "id": "CC_BY_3_0",
+        "title": "Creative Commons Attribution 3.0 Unported"
+      },
+      {
+        "count": 1591,
+        "id": "https://opendata.euskadi.eus/AVComun/r01gContainerVA/html/opendata/r01gLicencia_es.html",
+        "title": "https://opendata.euskadi.eus/AVComun/r01gContainerVA/html/opendata/r01gLicencia_es.html"
+      },
+      {
+        "count": 1345,
+        "id": "http://www.cis.es/cis/opencms/ES/2_bancodatos/Productos.html",
+        "title": "http://www.cis.es/cis/opencms/ES/2_bancodatos/Productos.html"
+      },
+      {
+        "count": 1342,
+        "id": "CC_BY_3_0_DE",
+        "title": "Creative Commons Namensnennung 3.0 Deutschland"
+      },
+      {
+        "count": 1184,
+        "id": "CC_BYSA_4_0",
+        "title": "Creative Commons Attribution\u2013ShareAlike 4.0 International"
+      },
+      {
+        "count": 1126,
+        "id": "cc-by",
+        "title": "Creative Commons Attribution"
+      },
+      {
+        "count": 1081,
+        "id": "Creative Commons Attribuzione 2.5 Italia (CC BY 2.5 IT)",
+        "title": "Creative Commons Attribuzione 2.5 Italia (CC BY 2.5 IT)"
+      },
+      {
+        "count": 1036,
+        "id": "CC_PDM_1_0",
+        "title": "Public Domain Mark 1.0"
+      },
+      {
+        "count": 1003,
+        "id": "other-nc",
+        "title": "other-nc"
+      },
+      {
+        "count": 980,
+        "id": "Licenza Sconosciuta",
+        "title": "Licenza Sconosciuta"
+      },
+      {
+        "count": 971,
+        "id": "CC_BYSA",
+        "title": "Creative Commons Attribution\u2013ShareAlike 4.0 International"
+      },
+      {
+        "count": 968,
+        "id": "https://creativecommons.org/licenses/by/3.0/at/deed.de",
+        "title": "https://creativecommons.org/licenses/by/3.0/at/deed.de"
+      },
+      {
+        "count": 946,
+        "id": "https://www.universidades.gob.es/portal/site/universidades/menuitem.096178ad30eadc35c7d86f10026041a0/?vgnextoid=302b289195750710VgnVCM1000002006140aRCRD",
+        "title": "https://www.universidades.gob.es/portal/site/universidades/menuitem.096178ad30eadc35c7d86f10026041a0/?vgnextoid=302b289195750710VgnVCM1000002006140aRCRD"
+      },
+      {
+        "count": 926,
+        "id": "http://www.cis.es/cis/opencms/ES/Avisolegal.html",
+        "title": "http://www.cis.es/cis/opencms/ES/Avisolegal.html"
+      },
+      {
+        "count": 886,
+        "id": "License IODL v2.0",
+        "title": "License IODL v2.0"
+      },
+      {
+        "count": 782,
+        "id": "CC_BYNCND_3_0",
+        "title": "Creative Commons Attribution\u2013NonCommercial\u2013NoDerivs 3.0 Unported"
+      },
+      {
+        "count": 706,
+        "id": "http://dcat-ap.de/def/licenses/other-closed",
+        "title": "http://dcat-ap.de/def/licenses/other-closed"
+      },
+      {
+        "count": 695,
+        "id": "http://standaarden.overheid.nl/owms/terms/geslotenlicentie",
+        "title": "http://standaarden.overheid.nl/owms/terms/geslotenlicentie"
+      },
+      {
+        "count": 674,
+        "id": "ODC_BL",
+        "title": "Open Data Commons Open Database License v1.0"
+      },
+      {
+        "count": 672,
+        "id": "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf",
+        "title": "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+      },
+      {
+        "count": 632,
+        "id": "OP_DATPRO",
+        "title": "Provisional data"
+      },
+      {
+        "count": 631,
+        "id": "CC0 1.0",
+        "title": "Other (Public Domain)"
+      }
+    ]
+  }
+]

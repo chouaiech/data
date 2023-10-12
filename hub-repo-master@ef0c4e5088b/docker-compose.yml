@@ -1,0 +1,160 @@
+version: '3'
+
+networks:
+  elastic-nw:
+    name: elastic-network
+  mongo-nw:
+    name: mongo-network
+  virtuoso-repo-nw:
+    name: virtuoso-repo-network
+  search-repo-nw:
+    name: search-repo-network
+  #shacl-repo-nw:
+    #name: shacl-repo-network
+  data-upload-repo-nw:
+    name: data-upload-network
+  
+    
+services:
+  piveau-hub-repo:
+    logging:
+      options:
+        max-size: "50m"
+    container_name: piveau-hub-repo
+    build: ./
+    ports:
+      - 9080:8080
+    environment:
+      - JAVA_OPTS=-Xms300m -Xmx1g
+    env_file:
+      - ./conf/repo-env.properties
+    depends_on:
+      - hub-search
+      #- piveau-shacl-validation
+      - hub-data-upload
+      - virtuoso
+      - shadow-virtuoso
+    networks:
+      virtuoso-repo-nw: {}
+      search-repo-nw: {}
+      #shacl-repo-nw: {}
+      data-upload-repo-nw: {}
+    
+  hub-search:
+    logging:
+      options:
+        max-size: "50m"
+    container_name: piveau-hub-search
+    build: ../search/
+    networks:
+      elastic-nw: {}
+      search-repo-nw: {}
+    depends_on:
+      - elasticsearch
+    environment:
+      - JAVA_OPTS=-Xms300m -Xmx1g
+    env_file:
+      - ../search/conf/search-elastic-env.properties
+      - ../search/conf/search-env.properties
+    ports:
+      - 8082:8080
+      - 8083:8081
+
+  #piveau-shacl-validation:
+    #image: dockerhub.fokus.fraunhofer.de:5000/viaduct/metrics/piveau-metrics-validating-shacl:latest
+    #logging:
+      #options:
+        #max-size: "50m"
+    #ports:
+      #- 8084:8080
+    #networks:
+      #shacl-repo-nw: {}
+
+  hub-data-upload:
+    container_name: piveau-hub-simple-store
+    logging:
+      options:
+        max-size: "50m"
+    networks:
+      mongo-nw: {}
+      data-upload-repo-nw: {}
+    build: ../simple-store/
+    depends_on:
+      - mongodb
+    environment:
+      - JAVA_OPTS=-Xms300m -Xmx1g
+    env_file:
+      - ../simple-store/conf/store-env.properties
+    ports:
+      - 8081:8080
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.17.2
+    container_name: elasticsearch
+    logging:
+      options:
+        max-size: "50m"
+    volumes:
+      - elasticsearch:/usr/share/elasticsearch/data
+    environment:
+      - ES_JAVA_OPTS=-Xms2G -Xmx4G
+    env_file:
+      - ../search/conf/search-elastic-env.properties
+      - ../search/conf/elastic-env.properties
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    networks:
+      elastic-nw: {}
+    ports:
+      - 9200:9200
+      - 9300:9300
+
+  mongodb:
+    image: mongo:4.0-xenial
+    container_name: mongodb
+    logging:
+      options:
+        max-size: "50m"
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    networks:
+      mongo-nw: {}
+
+  virtuoso:
+    image: tenforce/virtuoso
+    container_name: virtuoso
+    logging:
+      options:
+        max-size: "50m"
+    ports:
+      - 8890:8890
+      - 1111:1111
+    networks:
+      virtuoso-repo-nw: {}
+    volumes:
+      - virtuoso:/usr/share/virtuoso/data
+    environment:
+      - DBA_PASSWORD=dba
+
+  shadow-virtuoso:
+    image: tenforce/virtuoso
+    container_name: shadow-virtuoso
+    logging:
+      options:
+        max-size: "50m"
+    ports:
+      - 9890:8890
+      - 9111:1111
+    networks:
+      virtuoso-repo-nw: {}
+    environment:
+      - DBA_PASSWORD=dba
+      
+volumes:
+  elasticsearch:
+  mongo_data:
+  virtuoso:

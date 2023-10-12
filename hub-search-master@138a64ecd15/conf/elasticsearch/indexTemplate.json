@@ -1,0 +1,17 @@
+{
+  "index_patterns": ["dataset-revisions_*"],
+  "template": {
+    "settings": {
+      "index": {
+        "lifecycle": {
+          "name": "dataset-revisions-policy",
+          "rollover_alias": "dataset-revisions_write"
+        }
+      }
+    }
+  },
+  "version": 4,
+  "_meta": {
+    "description": "Index Template for the dataset revisions"
+  }
+}

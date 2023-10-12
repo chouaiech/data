@@ -1,0 +1,59 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: eu-permit-service
+  namespace: {{ .Values.namespace }}
+spec:
+  selector:
+    app: eu-permit
+  type: NodePort
+  ports:
+    - protocol: TCP
+      port: 8103
+      targetPort: 8103
+      nodePort: {{ .Values.nodePort }}
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: eu-permit
+  namespace: {{ .Values.namespace }}
+  labels:
+    app: eu-permit
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: eu-permit
+  template:
+    metadata:
+      labels:
+        app: eu-permit
+    spec:
+      volumes:
+      - name: eu-configmap
+        configMap:
+          name: eu-configmap
+          items:
+            - key: config.yml
+              path: config.yml
+      - name: eu-pass
+        secret:
+          secretName: passwords
+          items:
+            - key: .domibuspass
+              path: .domibuspass
+      containers:
+      - name: eu-permit
+        image: code.europa.eu:4567/healthdataeu-nodes/hdeupoc/cs_datapermit:{{ .Values.releaseTag }}
+        ports:
+        - containerPort: 8103
+        volumeMounts:
+        - name: eu-configmap
+          mountPath: /usr/src/app/config.yml
+          subPath: config.yml
+          readOnly: true
+        - name: eu-pass
+          mountPath: /root/.domibuspass
+          subPath: .domibuspass
+          readOnly: true

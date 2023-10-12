@@ -1,0 +1,131 @@
+openapi: "3.0.1"
+info:
+  title: "CKAN Statistics API"
+  version: "0.2"
+  description: "API for getting statistics about ckan and its hosted data catalogues."
+  contact:
+    name: "Sebastian Urbanek"
+    email: "sebastian.urbanek@fokus.fraunhofer.de"
+  servers:
+    - url: "http://localhost:9090/"
+      description: "Development Server"
+
+
+paths:
+  /:
+    get:
+      description: "Returns a single message about the availability of this service."
+      responses:
+        '200':
+          description: "Service is online."
+          content:
+            text/html:
+                example:
+                  value: "EDP Statistics Service. Service is online."
+
+  /data:
+    get:
+      description: "Retruns an overview about the available dates for further requests."
+      responses:
+        '200':
+          description: "List of available dates."
+          content:
+            application/json:
+              example:
+                value: '{"2018-06-06": 6, "2018-06-07": 7}'
+
+  /csv:
+    get:
+      description: "Returns a zip file containing all csv files."
+      responses:
+        '200':
+          description: "ZIP File with all CSV data."
+          content:
+            application/zip:
+              example:
+                value: "edp_statistics_all_data.zip"
+    delete:
+      description: "Deletes generated zip files."
+      responses:
+        '200':
+          description: "Deletion process successful."
+          content:
+            text/plain:
+              example:
+                value: "Deletion process successful."
+
+  /csv/{identifier}:
+    get:
+      description: "Returns a specific CSV file."
+      parameters:
+      - name: identifier
+        in: path
+        required: true
+        description: "ds-per-category, ds-per-catalogue, ds-per-country-and-catalogue, ds-per-country, ds-per-country-and-category, ds-assigned-to-data-cat, ds-assigned-to-country-and-cat are available params."
+        schema:
+          type: string
+      responses:
+        '200':
+          description: "CSV file about given identifier."
+          content:
+            text/csv:
+              example:
+                value: "Date;Agriculture, fisheries, forestry and food;Economy and finance;Education, culture and sport;Energy;Environment;Government and public sector;Health;International issues;Justice, legal system and public safety;Population and society;Regions and cities;Science and technology;Transport\n2018-06-06;32312;44109;9533;899;96282;26710;6852;808;109052;26873;84105;46336;10500"
+        '404':
+          description: "You get only the CSV file with correct param, otherwise 404."
+          content:
+            text/html:
+              example:
+                value: "404"
+
+  /xslx?startdate={startdate}&enddate={enddate}&interval={interval}:
+    get:
+      description: "Returns a XLSX file. All params are optional."
+      parameters:
+      - name: startdate
+        in: path
+        required: false
+        description: "First date of requested records (ex.: 2018-06-14). If this param is missing or invalid, startdate will be 1970-01-01."
+        schema:
+          type: date
+      - name: endate
+        in: path
+        required: false
+        description: "Last date of requested records (ex.: 2018-06-19). If this param is missing or invalid, enddate will be the actual day."
+        schema:
+          type: date
+      - name: interval
+        in: path
+        required: false
+        description: "Record interval in days. If this param is missing or invalid, interval is set to 1, so it means every day."
+        schema:
+          type: integer
+      responses:
+        '200':
+          description: "Generated XLSX file."
+          content:
+            application/vnd.openxmlformats-officedocument.spreadsheetml.sheet:
+              example:
+                value: ".xlsx"
+  /xlsx:
+    delete:
+      description: "Deletes generated xlsx files."
+      responses:
+        '200':
+          description: "Deletion process successful."
+          content:
+            text/plain:
+              example:
+                value: "Deletion process successful."
+
+
+  /logs:
+    get:
+      description: "Returns a zip file containing all log files."
+      responses:
+        '200':
+          description: "ZIP File with log data."
+          content:
+            application/zip:
+              example:
+                value: "web_service_logs.zip"

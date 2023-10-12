@@ -1,0 +1,17 @@
+domibus:
+  username: {username}
+  url: localhost
+  port: 8080
+  usehttps: false
+  from: domibus-red
+  to: domibus-blue
+fairdatapoint:
+  usehttps: false
+  url: metadatabroker.healthdataportal.eu
+  username: test
+messagechecker:
+  port: 8151
+  url: localhost
+datapermit:
+  port: 8102
+  url: localhost

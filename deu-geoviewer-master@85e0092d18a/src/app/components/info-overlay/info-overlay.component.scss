@@ -1,0 +1,40 @@
+.overlay-content {
+    border: solid 1px #ccc;
+    background: #fff;
+    padding: 10px;
+    max-width: 500px;
+
+    .header {
+        display: flex;
+        gap: 20px;
+        justify-content: space-between;
+
+        .btn {
+            border-radius: 50%;
+        }
+    }
+
+    .dataset-title {
+        font-size: 150%;
+
+        &.clickable:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
+
+    .catalog-title {
+        padding-top: 10px;
+        color: #001d85;
+
+        :hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+
+    }
+
+    .publisher {
+        padding-top: 10px;
+    }
+}

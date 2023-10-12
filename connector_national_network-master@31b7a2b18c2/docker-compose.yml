@@ -1,0 +1,119 @@
+#
+# Docker compose project used to startup the test environment.
+#
+# Usage:
+#     Start:    docker-compose up -d | docker-compose -f docker-compose.yml up --build -d
+#     Shutdown: docker-compose down
+#     Logs:     docker-compose logs
+#
+# Configuration:
+#   This file represents the architecture of the Domibus single node setup with MySQL
+
+version: '3.9'
+networks:
+  pt-domibus-mysql-nw:
+    name: pt-domibus-mysql-network
+  public-nw:
+    external: true
+  national-nw:
+    name: pt-national--network
+    
+services:
+#
+  # Domibus Tomcat MySQL Configuration
+  #
+  # Optional: can provide your own external database
+  pt-mysql:
+    container_name: pt-node-mysql
+    image: code.europa.eu:4567/edelivery/docker/domibus-mysql8:5.0.4
+    environment:
+      - MYSQL_ROOT_PASSWORD=123456
+      - MYSQL_DATABASE=domibus
+      - MYSQL_USER=edelivery
+      - MYSQL_PASSWORD=edelivery
+    security_opt:
+      - seccomp:unconfined
+    volumes:
+      - pt-shared_db_file_system:/var/lib/mysql
+    ports:
+      - "6306:3306"
+    networks:
+      pt-domibus-mysql-nw: {}
+
+  pt-node-domibus:
+    container_name: pt-node-domibus
+    image: code.europa.eu:4567/edelivery/docker/domibus-tomcat9:5.0.4
+    environment:
+      - DB_TYPE=MySQL
+      - DB_HOST=pt-node-mysql
+      - DB_PORT=3306
+      - DB_USER=edelivery
+      - DB_PASS=edelivery
+      - LOGGER_LEVEL_ORG_APACHE_CXF=INFO
+      - CHECK_DEFAULT_PASSWD=false
+      - domibus.metrics.sl4j.reporter.enable=false
+      - domibus.metrics.monitor.jms.queues=false
+      - domibus.metrics.monitor.memory=false
+      - domibus.metrics.monitor.gc=false
+      - domibus.metrics.monitor.cached.threads=false
+    ports:
+      - "6080:8080"    
+    volumes:
+      - ./domibus_pt_node:/data/tomcat/conf/domibus
+    depends_on:
+      - pt-mysql
+    networks:
+      pt-domibus-mysql-nw: {}
+      public-nw: {}
+      national-nw: {}
+      
+  nationalconnector-datapermit:
+    container_name: pt-nationalconnector-datapermit
+    #image: code.europa.eu:4567/healthdataeu-nodes/hdeupoc/nc_datapermit:b0.3
+    build: ../hdeupoc/services/datapermit/
+    mem_limit: 350m
+    volumes:
+      - ${PWD}/config.yml:/usr/src/app/config.yml
+      - ./.domibuspass:/root/.domibuspass
+      - ${PWD}/db/:/usr/src/app/db/
+      - /etc/ssl/localcerts/:/etc/ssl/localcerts/
+    depends_on:
+      - pt-node-domibus
+    networks:
+      national-nw: {}
+    ports:
+      - "8102:8102"
+
+  nationalconnector-gateway:
+    container_name: pt-nationalconnector-gateway
+    #image: code.europa.eu:4567/healthdataeu-nodes/hdeupoc/nc_gateway:b0.3
+    build: ../hdeupoc/services/gateway/
+    mem_limit: 350m
+    ports:
+      - "8100:8100"
+    volumes:
+      - ${PWD}/config.yml:/usr/src/app/config.yml
+      - ${PWD}/keys/apikeys.json:/usr/src/app/keys/apikeys.json
+      - ./.domibuspass:/root/.domibuspass
+      - /etc/ssl/localcerts/:/etc/ssl/localcerts/
+    networks:
+      national-nw: {}
+    depends_on:
+      - pt-node-domibus
+
+  nationalconnector-messagechecker:
+    container_name: pt-nationalconnector-messagechecker
+    #image: code.europa.eu:4567/healthdataeu-nodes/hdeupoc/nc_messagechecker:b0.3
+    build: ../hdeupoc/services/messagechecker/
+    mem_limit: 350m
+    volumes:
+      - ${PWD}/config.yml:/usr/src/app/config.yml
+      - ./.domibuspass:/root/.domibuspass
+      - /etc/ssl/localcerts/:/etc/ssl/localcerts/
+    networks:
+      national-nw: {}
+    depends_on:
+      - pt-node-domibus
+
+volumes:
+  pt-shared_db_file_system:

@@ -1,0 +1,316 @@
+# Docker compose project used to startup the test environment.
+#
+# Usage:
+#     Start:    docker-compose up -d | docker-compose -f docker-compose-local-scen2.yml up --build -d
+version: '3.9'
+
+networks:
+  elastic-nw:
+    name: elastic-network
+  mongo-nw:
+    name: mongo-network
+  virtuoso-repo-nw:
+    name: virtuoso-repo-network
+  search-repo-nw:
+    name: search-repo-network
+  #shacl-repo-nw:
+    #name: shacl-repo-network
+  data-upload-repo-nw:
+    name: data-upload-network
+  ui-search-nw:
+    name: ui-search-network
+  ui-repo-nw:
+    name: ui-repo-network
+  ui-virtuoso-nw:
+    name: "ui-virtuoso-network"
+  ui-data-upload-nw:
+    name: "ui-data-upload-network"
+  statistic-db-nw:
+    name: "statistic-db-network"
+  search-statistic-nw:
+    name: "search-statistic-network"
+  statistics-ui-nw:
+    name: "statistics-ui-network"
+  proxy-ui-nw:
+    name: "proxy-ui-network"
+  hub-repo-nw:
+    external: true ##needs to be created manually: docker network create hub-repo-nw
+    
+services:
+
+  reverse-proxy:
+    container_name: httpd-proxy
+    build:
+      context: .
+      dockerfile: Dockerfile_scenario2    
+    ports:
+      - '80:80'
+    depends_on:
+      - piveau-ui
+      - hub-statistics-ui
+      - piveau-hub-repo
+    networks:
+      proxy-ui-nw: {}
+    
+  piveau-ui:
+    logging:
+      options:
+        max-size: "50m"
+    container_name: piveau-ui
+    build: ../hub-ui
+    ports:
+      - 8080:8080
+    environment:
+      - JAVA_OPTS=-Xms300m -Xmx1g
+    depends_on:
+      - piveau-hub-repo
+      - hub-statistics-ui
+    networks:
+      ui-search-nw: {}
+      ui-repo-nw: {}
+      ui-virtuoso-nw: {}
+      ui-data-upload-nw: {}
+      proxy-ui-nw: {}
+      
+  piveau-hub-repo:
+    logging:
+      options:
+        max-size: "50m"
+    container_name: piveau-hub-repo
+    build: ../hub-repo/
+    ports:
+      - 9080:8080
+    environment:
+      - JAVA_OPTS=-Xms300m -Xmx1g
+    env_file:
+      - ../hub-repo/conf/repo-env.properties
+    depends_on:
+      - hub-search
+      - hub-data-upload
+      - virtuoso
+      - shadow-virtuoso
+    networks:
+      virtuoso-repo-nw: {}
+      search-repo-nw: {}
+      #shacl-repo-nw: {}
+      data-upload-repo-nw: {}
+      ui-repo-nw: {}
+      hub-repo-nw: {}
+      proxy-ui-nw: {}
+      
+  hub-search:
+    logging:
+      options:
+        max-size: "50m"
+    container_name: piveau-hub-search
+    build: ../hub-search/
+    networks:
+      elastic-nw: {}
+      search-repo-nw: {}
+      ui-search-nw: {}
+      search-statistic-nw: {}
+      proxy-ui-nw: {}
+    depends_on:
+      - elasticsearch
+    environment:
+      - JAVA_OPTS=-Xms300m -Xmx1g
+    env_file:
+      - ../hub-search/conf/search-elastic-env.properties
+      - ../hub-search/conf/search-env.properties
+    ports:
+      - 8082:8080
+      - 8083:8081
+
+  hub-data-upload:
+    container_name: piveau-hub-simple-store
+    logging:
+      options:
+        max-size: "50m"
+    networks:
+      mongo-nw: {}
+      data-upload-repo-nw: {}
+      ui-data-upload-nw: {}
+      proxy-ui-nw: {}
+    build: ../hub-store/
+    depends_on:
+      - mongodb
+    environment:
+      - JAVA_OPTS=-Xms300m -Xmx1g
+    env_file:
+      - ../hub-store/conf/store-env.properties
+    ports:
+      - 8081:8080
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.17.2
+    container_name: elasticsearch
+    logging:
+      options:
+        max-size: "50m"
+    volumes:
+      - elasticsearch:/usr/share/elasticsearch/data
+    environment:
+      - discovery.type=single-node
+      - ES_JAVA_OPTS=-Xms2G -Xmx4G
+      
+    env_file:
+      - ../hub-search/conf/search-elastic-env.properties
+      - ../hub-search/conf/elastic-env.properties
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    networks:
+      elastic-nw: {}
+    ports:
+      - 9200:9200
+      - 9300:9300
+  
+  elastichq:
+    image: elastichq/elasticsearch-hq
+    container_name: elastichq
+    ports:
+      - 5000:5000
+    networks:
+      elastic-nw: {}
+    depends_on:
+      - elasticsearch
+   
+
+  mongodb:
+    image: mongo:4.0-xenial
+    container_name: mongodb
+    logging:
+      options:
+        max-size: "50m"
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    networks:
+      mongo-nw: {}
+
+  virtuoso:
+    image: tenforce/virtuoso
+    container_name: virtuoso
+    logging:
+      options:
+        max-size: "50m"
+    ports:
+      - 8890:8890
+      - 1111:1111
+    networks:
+      virtuoso-repo-nw: {}
+      ui-virtuoso-nw: {}
+      proxy-ui-nw: {}
+    volumes:
+      - virtuoso:/usr/local/virtuoso-opensource/var/lib/virtuoso/db
+    environment:
+      - DBA_PASSWORD=dba
+
+  shadow-virtuoso:
+    image: tenforce/virtuoso
+    container_name: shadow-virtuoso
+    logging:
+      options:
+        max-size: "50m"
+    ports:
+      - 9890:8890
+      - 9111:1111
+    networks:
+      virtuoso-repo-nw: {}
+    volumes:
+      - shadow-virtuoso:/usr/local/virtuoso-opensource/var/lib/virtuoso/db
+    environment:
+      - DBA_PASSWORD=dba
+      
+  hub-statistics-ui:
+    container_name: piveau-hub-statistics-ui
+    build: ../hub-statistics-ui/
+    ports:
+      - 9092:8080
+    environment:
+      - VUE_APP_ROOT_API=http://localhost:9090
+      - VUE_APP_TRACKER_IS_PIWIK_PRO=true
+      - VUE_APP_TRACKER_TRACKER_URL=https://opanalytics.containers.piwik.pro/
+      - VUE_APP_TRACKER_SITE_ID=fed9dbb7-42d1-4ebc-a8bf-3c0b8fd03e09
+      - VUE_APP_SHOW_SPARQL=true
+    depends_on:
+      - hub-statistics
+    restart: always
+    networks:
+      statistics-ui-nw: {}
+      proxy-ui-nw: {}
+    
+  hub-statistics:
+    container_name: piveau-hub-statistics
+#    image: dockerhub.fokus.fraunhofer.de:5000/piveau/piveau-hub-statistics
+    build: ../hub-statistics/
+    ports:
+      - 9090:9090
+    environment:
+      - HUB_MAIN_URL=http://piveau-hub-search:8080/search
+#      - HUB_MAIN_URL=https://data.europa.eu/api/hub/search/search
+      - HUB_CATALOG_URI=filter=catalogue&limit=1000
+      #- HUB_DATASET_URI=q=&filter=dataset&facets='{"catalog"=[{0}]}'
+      - FILE_UPLOAD_API=
+      - FILE_UPLOAD_AUTH=
+      - DIST_API=
+      - DIST_API_AUTH=
+      - HUB_AUTH_REQUIRED=false
+      - HUB_USER=
+      - HUB_PASSWORD=
+      - DB_USER=db_user
+      - DB_PASSWORD=wqwdqwefsdaw34%
+      - DB=statistics_db
+      - DB_HOST=statistic-db
+      - DB_PORT=5432
+      - DB_IN_DOCKER=true
+    depends_on:
+      - statistic-db
+      - hub-search
+    networks:
+      statistic-db-nw: {}
+      search-statistic-nw: {}
+      statistics-ui-nw: {}
+      proxy-ui-nw: {}
+    restart: always
+
+  statistic-db:
+    image: postgres:latest
+    container_name: statistic-db
+    volumes:
+      - /tmp/pgdata/:/var/lib/postgresql
+    ports:
+      - 5442:5432
+    command: postgres -c 'max_connections=250' -c 'shared_buffers=2GB'
+    environment:
+      - POSTGRES_USER=db_user
+      - POSTGRES_PASSWORD=wqwdqwefsdaw34%
+      - POSTGRES_DB=statistics_db
+    networks:
+      statistic-db-nw: {}
+    restart: always
+    
+  statistics-db-pgadmin4:
+    container_name: pgadmin4-client
+    image: dpage/pgadmin4
+    ports:
+      - "7080:80"
+    environment:
+      PGADMIN_DEFAULT_EMAIL: ansinuno@gmail.com
+      PGADMIN_DEFAULT_PASSWORD: 1qaz#WSX
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin
+    networks:
+      statistic-db-nw: {}
+    restart: always
+  
+volumes:
+  elasticsearch:
+  mongo_data:
+  virtuoso: 
+  shadow-virtuoso:
+  pgadmin_data:
+
+

@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:ns0="http://www.w3.org/ns/dqv#"
+         xmlns:ns1="http://www.w3.org/ns/oa#"
+         xmlns:ns2="http://www.w3.org/ns/shacl#">
+
+  <rdf:Description rdf:about="https://example.eu/id/metrics/test-dataset-1">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dqv#QualityMetadata"/>
+    <prov:generatedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-12-06T18:26:46.366401Z</prov:generatedAtTime>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://example.eu/set/data/test-dataset-1">
+    <ns0:hasQualityAnnotation>
+      <ns0:QualityAnnotation>
+        <ns1:hasBody>
+          <rdf:Description>
+            <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ValidationReport"/>
+            <ns2:result>
+              <ns2:ValidationResult>
+                <ns2:focusNode rdf:resource="https://example.eu/set/data/test-dataset-1"/>
+                <ns2:resultMessage>Value does not have shape :CorporateBodyRestriction</ns2:resultMessage>
+                <ns2:resultPath rdf:resource="http://purl.org/dc/terms/publisher"/>
+                <ns2:resultSeverity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
+                <ns2:sourceConstraintComponent rdf:resource="http://www.w3.org/ns/shacl#NodeConstraintComponent"/>
+                <ns2:sourceShape rdf:nodeID="genid4"/>
+                <ns2:value rdf:resource="https://example.de/def/publisher/fokus=mailto:publisher@example.de"/>
+              </ns2:ValidationResult>
+            </ns2:result>
+
+            <ns2:result>
+              <ns2:ValidationResult>
+                <ns2:focusNode rdf:resource="https://example.eu/set/data/test-dataset-1"/>
+                <ns2:resultMessage>Value must be an instance of skos:Concept</ns2:resultMessage>
+                <ns2:resultPath rdf:resource="http://purl.org/dc/terms/spatial"/>
+                <ns2:resultSeverity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
+                <ns2:sourceConstraintComponent rdf:resource="http://www.w3.org/ns/shacl#ClassConstraintComponent"/>
+                <ns2:sourceShape rdf:nodeID="genid6"/>
+                <ns2:value rdf:nodeID="genid7"/>
+              </ns2:ValidationResult>
+            </ns2:result>
+
+            <ns2:result>
+              <ns2:ValidationResult>
+                <ns2:focusNode rdf:resource="https://example.eu/set/data/test-dataset-1"/>
+                <ns2:resultMessage>Value does not have node kind IRI</ns2:resultMessage>
+                <ns2:resultPath rdf:resource="http://purl.org/dc/terms/spatial"/>
+                <ns2:resultSeverity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
+                <ns2:sourceConstraintComponent rdf:resource="http://www.w3.org/ns/shacl#NodeKindConstraintComponent"/>
+                <ns2:sourceShape rdf:nodeID="genid9"/>
+                <ns2:value rdf:nodeID="genid7"/>
+              </ns2:ValidationResult>
+            </ns2:result>
+
+            <ns2:result>
+              <ns2:ValidationResult>
+                <ns2:focusNode rdf:resource="https://example.eu/set/data/test-dataset-1"/>
+                <ns2:resultMessage>Value does not have node kind IRI</ns2:resultMessage>
+                <ns2:resultPath rdf:resource="http://purl.org/dc/terms/spatial"/>
+                <ns2:resultSeverity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
+                <ns2:sourceConstraintComponent rdf:resource="http://www.w3.org/ns/shacl#NodeKindConstraintComponent"/>
+                <ns2:sourceShape rdf:nodeID="genid6"/>
+                <ns2:value rdf:nodeID="genid7"/>
+              </ns2:ValidationResult>
+            </ns2:result>
+
+            <ns2:result>
+              <ns2:ValidationResult>
+                <ns2:focusNode rdf:resource="https://example.eu/set/data/test-dataset-1"/>
+                <ns2:resultMessage>Value must be an instance of foaf:Document</ns2:resultMessage>
+                <ns2:resultPath rdf:resource="http://www.w3.org/ns/dcat#landingPage"/>
+                <ns2:resultSeverity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
+                <ns2:sourceConstraintComponent rdf:resource="http://www.w3.org/ns/shacl#ClassConstraintComponent"/>
+                <ns2:sourceShape rdf:nodeID="genid9"/>
+                <ns2:value rdf:resource="http://landingpage.de"/>
+              </ns2:ValidationResult>
+            </ns2:result>
+
+            <ns2:result>
+              <ns2:ValidationResult>
+                <ns2:focusNode rdf:resource="https://example.eu/set/data/test-dataset-1"/>
+                <ns2:resultMessage>Value must be an instance of skos:Concept</ns2:resultMessage>
+                <ns2:resultPath rdf:resource="http://purl.org/dc/terms/publisher"/>
+                <ns2:resultSeverity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
+                <ns2:sourceConstraintComponent rdf:resource="http://www.w3.org/ns/shacl#ClassConstraintComponent"/>
+                <ns2:sourceShape rdf:nodeID="genid4"/>
+                <ns2:value rdf:resource="https://example.de/def/publisher/fokus=mailto:publisher@example.de"/>
+              </ns2:ValidationResult>
+            </ns2:result>
+
+            <ns2:result>
+              <ns2:ValidationResult>
+                <ns2:focusNode rdf:resource="https://example.eu/set/data/test-dataset-1"/>
+                <ns2:resultMessage>Value must be an instance of dct:Frequency</ns2:resultMessage>
+                <ns2:resultPath rdf:resource="http://purl.org/dc/terms/accrualPeriodicity"/>
+                <ns2:resultSeverity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
+                <ns2:sourceConstraintComponent rdf:resource="http://www.w3.org/ns/shacl#ClassConstraintComponent"/>
+                <ns2:sourceShape rdf:nodeID="genid14"/>
+                <ns2:value rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
+              </ns2:ValidationResult>
+            </ns2:result>
+
+            <ns2:result>
+              <ns2:ValidationResult>
+                <ns2:focusNode rdf:resource="https://example.eu/set/data/test-dataset-1"/>
+                <ns2:resultMessage>Value must be an instance of foaf:Agent</ns2:resultMessage>
+                <ns2:resultPath rdf:resource="http://purl.org/dc/terms/publisher"/>
+                <ns2:resultSeverity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
+                <ns2:sourceConstraintComponent rdf:resource="http://www.w3.org/ns/shacl#ClassConstraintComponent"/>
+                <ns2:sourceShape rdf:nodeID="genid16"/>
+                <ns2:value rdf:resource="https://example.de/def/publisher/fokus=mailto:publisher@example.de"/>
+              </ns2:ValidationResult>
+            </ns2:result>
+
+            <ns2:result>
+              <ns2:ValidationResult>
+                <ns2:focusNode rdf:resource="https://example.eu/set/data/test-dataset-1"/>
+                <ns2:resultMessage>Value must be an instance of vcard:Kind</ns2:resultMessage>
+                <ns2:resultPath rdf:resource="http://www.w3.org/ns/dcat#contactPoint"/>
+                <ns2:resultSeverity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
+                <ns2:sourceConstraintComponent rdf:resource="http://www.w3.org/ns/shacl#ClassConstraintComponent"/>
+                <ns2:sourceShape rdf:nodeID="genid18"/>
+                <ns2:value rdf:resource="https://www.statistik.sachsen.de/genonline/?contactpoint=mailto:genesis@statistik.sachsen.de"/>
+              </ns2:ValidationResult>
+            </ns2:result>
+
+            <ns2:result>
+              <ns2:ValidationResult>
+                <ns2:focusNode rdf:resource="https://example.eu/set/data/test-dataset-1"/>
+                <ns2:resultMessage>Value does not have shape _:08953f5444589e539f70e8387c8a7e1a</ns2:resultMessage>
+                <ns2:resultPath rdf:resource="http://purl.org/dc/terms/spatial"/>
+                <ns2:resultSeverity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
+                <ns2:sourceConstraintComponent rdf:resource="http://www.w3.org/ns/shacl#NodeConstraintComponent"/>
+                <ns2:sourceShape rdf:nodeID="genid6"/>
+                <ns2:value rdf:nodeID="genid7"/>
+              </ns2:ValidationResult>
+            </ns2:result>
+
+          </rdf:Description>
+        </ns1:hasBody>
+
+        <ns1:hasTarget rdf:resource="https://example.eu/set/data/test-dataset-1"/>
+        <ns0:inDimension rdf:resource="https://piveau.eu/ns/voc#interoperability"/>
+        <prov:generatedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-12-06T18:26:46.366181Z</prov:generatedAtTime>
+      </ns0:QualityAnnotation>
+    </ns0:hasQualityAnnotation>
+
+    <ns0:hasQualityMeasurement>
+      <ns0:QualityMeasurement>
+        <ns0:computeOn rdf:resource="https://example.eu/set/data/test-dataset-1"/>
+        <ns0:isMeasurementOf rdf:resource="https://piveau.eu/ns/voc#accessRightsAvailability"/>
+        <ns0:value rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ns0:value>
+      </ns0:QualityMeasurement>
+    </ns0:hasQualityMeasurement>
+
+
+
+    <ns0:hasQualityMeasurement>
+      <ns0:QualityMeasurement>
+        <ns0:computeOn rdf:resource="https://example.eu/set/data/test-dataset-1"/>
+        <ns0:isMeasurementOf rdf:resource="https://piveau.eu/ns/voc#categoryAvailability"/>
+        <ns0:value rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns0:value>
+      </ns0:QualityMeasurement>
+    </ns0:hasQualityMeasurement>
+
+    <ns0:hasQualityMeasurement>
+      <ns0:QualityMeasurement>
+        <ns0:computeOn rdf:resource="https://example.eu/set/data/test-dataset-1"/>
+        <ns0:isMeasurementOf rdf:resource="https://piveau.eu/ns/voc#keywordAvailability"/>
+        <ns0:value rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns0:value>
+      </ns0:QualityMeasurement>
+    </ns0:hasQualityMeasurement>
+
+    <ns0:hasQualityMeasurement>
+      <ns0:QualityMeasurement>
+        <ns0:computeOn rdf:resource="https://example.eu/set/data/test-dataset-1"/>
+        <ns0:isMeasurementOf rdf:resource="https://piveau.eu/ns/voc#spatialAvailability"/>
+        <ns0:value rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns0:value>
+      </ns0:QualityMeasurement>
+    </ns0:hasQualityMeasurement>
+
+    <ns0:hasQualityMeasurement>
+      <ns0:QualityMeasurement>
+        <ns0:computeOn rdf:resource="https://example.eu/set/data/test-dataset-1"/>
+        <ns0:isMeasurementOf rdf:resource="https://piveau.eu/ns/voc#publisherAvailability"/>
+        <ns0:value rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns0:value>
+      </ns0:QualityMeasurement>
+    </ns0:hasQualityMeasurement>
+
+    <ns0:hasQualityMeasurement>
+      <ns0:QualityMeasurement>
+        <prov:generatedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-12-06T18:26:50.436119Z</prov:generatedAtTime>
+        <ns0:isMeasurementOf rdf:resource="https://piveau.eu/ns/voc#scoring"/>
+        <ns0:value rdf:datatype="http://www.w3.org/2001/XMLSchema#int">180</ns0:value>
+        <ns0:computedOn rdf:resource="https://example.eu/set/data/test-dataset-1"/>
+      </ns0:QualityMeasurement>
+    </ns0:hasQualityMeasurement>
+
+    <ns0:hasQualityMeasurement>
+      <ns0:QualityMeasurement>
+        <ns0:computeOn rdf:resource="https://example.eu/set/data/test-dataset-1"/>
+        <ns0:isMeasurementOf rdf:resource="https://piveau.eu/ns/voc#accessRightsVocabularyAlignment"/>
+        <ns0:value rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ns0:value>
+      </ns0:QualityMeasurement>
+    </ns0:hasQualityMeasurement>
+
+    <ns0:hasQualityMeasurement>
+      <ns0:QualityMeasurement>
+        <ns0:computeOn rdf:resource="https://example.eu/set/data/test-dataset-1"/>
+        <ns0:isMeasurementOf rdf:resource="https://piveau.eu/ns/voc#temporalAvailability"/>
+        <ns0:value rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns0:value>
+      </ns0:QualityMeasurement>
+    </ns0:hasQualityMeasurement>
+
+    <ns0:hasQualityMeasurement>
+      <ns0:QualityMeasurement>
+        <ns0:computeOn rdf:resource="https://example.eu/set/data/test-dataset-1"/>
+        <ns0:isMeasurementOf rdf:resource="https://piveau.eu/ns/voc#contactPointAvailability"/>
+        <ns0:value rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns0:value>
+      </ns0:QualityMeasurement>
+    </ns0:hasQualityMeasurement>
+
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://example.eu/set/distribution/49c09c2a-9fe0-48e4-a7c0-3ca8aab27d2f">
+    <ns0:hasQualityMeasurement>
+      <ns0:QualityMeasurement>
+        <ns0:computeOn rdf:resource="https://example.eu/set/distribution/49c09c2a-9fe0-48e4-a7c0-3ca8aab27d2f"/>
+        <ns0:isMeasurementOf rdf:resource="https://piveau.eu/ns/voc#mediaTypeAvailability"/>
+        <ns0:value rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns0:value>
+      </ns0:QualityMeasurement>
+    </ns0:hasQualityMeasurement>
+
+    <ns0:hasQualityMeasurement>
+      <ns0:QualityMeasurement>
+        <ns0:computeOn rdf:resource="https://example.eu/set/distribution/49c09c2a-9fe0-48e4-a7c0-3ca8aab27d2f"/>
+        <ns0:isMeasurementOf rdf:resource="https://piveau.eu/ns/voc#knownLicence"/>
+        <ns0:value rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ns0:value>
+      </ns0:QualityMeasurement>
+    </ns0:hasQualityMeasurement>
+
+    <ns0:hasQualityMeasurement>
+      <ns0:QualityMeasurement>
+        <ns0:computeOn rdf:resource="https://example.eu/set/distribution/49c09c2a-9fe0-48e4-a7c0-3ca8aab27d2f"/>
+        <ns0:isMeasurementOf rdf:resource="https://piveau.eu/ns/voc#licenceAvailability"/>
+        <ns0:value rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns0:value>
+      </ns0:QualityMeasurement>
+    </ns0:hasQualityMeasurement>
+
+    <ns0:hasQualityMeasurement>
+      <ns0:QualityMeasurement>
+        <ns0:computeOn rdf:resource="https://example.eu/set/distribution/49c09c2a-9fe0-48e4-a7c0-3ca8aab27d2f"/>
+        <ns0:isMeasurementOf rdf:resource="https://piveau.eu/ns/voc#byteSizeAvailability"/>
+        <ns0:value rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ns0:value>
+      </ns0:QualityMeasurement>
+    </ns0:hasQualityMeasurement>
+
+    <ns0:hasQualityMeasurement>
+      <ns0:QualityMeasurement>
+        <ns0:computeOn rdf:resource="https://example.eu/set/distribution/49c09c2a-9fe0-48e4-a7c0-3ca8aab27d2f"/>
+        <ns0:isMeasurementOf rdf:resource="https://piveau.eu/ns/voc#formatMediaTypeVocabularyAlignment"/>
+        <ns0:value rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ns0:value>
+      </ns0:QualityMeasurement>
+    </ns0:hasQualityMeasurement>
+
+    <ns0:hasQualityMeasurement>
+      <ns0:QualityMeasurement>
+        <ns0:computeOn rdf:resource="https://example.eu/set/distribution/49c09c2a-9fe0-48e4-a7c0-3ca8aab27d2f"/>
+        <ns0:isMeasurementOf rdf:resource="https://piveau.eu/ns/voc#formatAvailability"/>
+        <ns0:value rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns0:value>
+      </ns0:QualityMeasurement>
+    </ns0:hasQualityMeasurement>
+
+    <ns0:hasQualityMeasurement>
+      <ns0:QualityMeasurement>
+        <ns0:computeOn rdf:resource="https://example.eu/set/distribution/49c09c2a-9fe0-48e4-a7c0-3ca8aab27d2f"/>
+        <ns0:isMeasurementOf rdf:resource="https://piveau.eu/ns/voc#formatMediaTypeMachineInterpretable"/>
+        <ns0:value rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ns0:value>
+      </ns0:QualityMeasurement>
+    </ns0:hasQualityMeasurement>
+
+    <ns0:hasQualityMeasurement>
+      <ns0:QualityMeasurement>
+        <ns0:computeOn rdf:resource="https://example.eu/set/distribution/49c09c2a-9fe0-48e4-a7c0-3ca8aab27d2f"/>
+        <ns0:isMeasurementOf rdf:resource="https://piveau.eu/ns/voc#downloadUrlAvailability"/>
+        <ns0:value rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ns0:value>
+      </ns0:QualityMeasurement>
+    </ns0:hasQualityMeasurement>
+
+    <ns0:hasQualityMeasurement>
+      <ns0:QualityMeasurement>
+        <ns0:computeOn rdf:resource="https://example.eu/set/distribution/49c09c2a-9fe0-48e4-a7c0-3ca8aab27d2f"/>
+        <ns0:isMeasurementOf rdf:resource="https://piveau.eu/ns/voc#rightsAvailability"/>
+        <ns0:value rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ns0:value>
+      </ns0:QualityMeasurement>
+    </ns0:hasQualityMeasurement>
+
+    <ns0:hasQualityMeasurement>
+      <ns0:QualityMeasurement>
+        <ns0:computeOn rdf:resource="https://example.eu/set/distribution/49c09c2a-9fe0-48e4-a7c0-3ca8aab27d2f"/>
+        <ns0:isMeasurementOf rdf:resource="https://piveau.eu/ns/voc#formatMediaTypeNonProprietary"/>
+        <ns0:value rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ns0:value>
+      </ns0:QualityMeasurement>
+    </ns0:hasQualityMeasurement>
+
+    <ns0:hasQualityMeasurement>
+      <ns0:QualityMeasurement>
+        <ns0:computeOn rdf:resource="https://example.eu/set/distribution/49c09c2a-9fe0-48e4-a7c0-3ca8aab27d2f"/>
+        <ns0:isMeasurementOf rdf:resource="https://piveau.eu/ns/voc#dateIssuedAvailability"/>
+        <ns0:value rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ns0:value>
+      </ns0:QualityMeasurement>
+    </ns0:hasQualityMeasurement>
+
+    <ns0:hasQualityMeasurement>
+      <ns0:QualityMeasurement>
+        <ns0:computeOn rdf:resource="https://example.eu/set/distribution/49c09c2a-9fe0-48e4-a7c0-3ca8aab27d2f"/>
+        <ns0:isMeasurementOf rdf:resource="https://piveau.eu/ns/voc#dateModifiedAvailability"/>
+        <ns0:value rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ns0:value>
+      </ns0:QualityMeasurement>
+    </ns0:hasQualityMeasurement>
+
+  </rdf:Description>
+
+</rdf:RDF>

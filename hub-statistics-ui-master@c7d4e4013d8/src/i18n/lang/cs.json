@@ -1,0 +1,379 @@
+{
+    "message": {
+        "datasetDetails": {
+            "openResource": "Přejít ke zdroji",
+            "upload": {
+                "unknownFormat": "Neznámý formát",
+                "resetText": "Resetovat celý formulář?",
+                "reset": "Resetovat formulář",
+                "individual": "Individuální",
+                "person": "Osoba",
+                "organisation": "Organizace"
+            },
+            "about": "o",
+            "geoInfo": "Rozsah souboru dat",
+            "translation": {
+                "link": "Pro zobrazení souboru dat v původním jazyce klikněte zde",
+                "message": "Název a popis tohoto souboru dat jsou strojově přeloženy.",
+                "noTranslation": "Pro požadovaný jazyk není k dispozici žádný překlad. Informace se zobrazují ve výchozím jazyce",
+                "original": "Původní jazyk",
+                "update": "Aktuální překlad tohoto souboru dat probíhá."
+            },
+            "options": "Možnosti",
+            "subnav": {
+                "activityStream": "Stream aktivit",
+                "similarDatasets": "Podobné soubory dat",
+                "categories": "Kategorie",
+                "dataset": "Datová sada"
+            },
+            "edit": "Upravit",
+            "follow": "Sledovat",
+            "preview": "Náhled",
+            "visualisation": "Otevřít vizualizaci",
+            "additionalInfo": "Doplňující informace",
+            "feedback": "Zpětná vazba",
+            "unfollow": "Přestat sledovat",
+            "manage": "Spravovat ",
+            "delete": "Vymazat",
+            "geoVisualisation": "Otevřít geovizualizaci ",
+            "download": "Stáhnout",
+            "menu": "Nabídka"
+        },
+        "userQueries": {
+            "searchAllQueries": "Vyhledat dotazy…",
+            "queryDeleted": "Dotaz smazán",
+            "querySaved": "Dotaz uložen",
+            "searchQueries": "Vyhledat mé dotazy…",
+            "noQueryFound": "Nebyl nalezen žádný dotaz",
+            "myQueries": "Moje dotazy",
+            "noDescription": "Tento dotaz nemá žádný popis",
+            "placeholderNotes": "např. několik užitečných poznámek k dotazu",
+            "noQueriesSaved": "Neuložili jste žádné dotazy.",
+            "queryFound": "{number} dotaz nalezen",
+            "areYourSure": "Opravdu chcete tento dotaz smazat?",
+            "queriesFound": "{number} dotazů nalezeno",
+            "save": "Uložit dotaz",
+            "executeQuery": "Provést dotaz"
+        },
+        "header": {
+            "navigation": {
+                "about": {
+                    "beHarvestedByUs": "Nechte portál sbírat vaše data",
+                    "title": "Informace",
+                    "documentation": "Dokumentace",
+                    "europeanDataPortal": "Evropský Datový Portál"
+                },
+                "training": {
+                    "whatIsOpenData": "Co jsou otevřená data",
+                    "title": "Školení",
+                    "dataProvidersGuide": "Návod pro poskytovatele dat",
+                    "moreTrainingMaterial": "Další školicí materiály",
+                    "elearning": "eLearning",
+                    "licensingAssistant": "Průvodce licencemi"
+                },
+                "data": {
+                    "sparqlsearch": "Vyhledávání SPARQL",
+                    "statistics": "Statistiky",
+                    "euInternationalData": "Data EU a mezinárodní data",
+                    "catalogues": "Katalogy",
+                    "datasets": "Soubory dat",
+                    "countryData": "Údaje o zemi",
+                    "metadataQuality": "Kvalita metadat",
+                    "title": "Data"
+                },
+                "newsEvents": {
+                    "title": "Novinky a události",
+                    "events": "Události",
+                    "news": "Zprávy"
+                },
+                "impactStudies": {
+                    "studies": "Studie",
+                    "useCases": "Příklady použití",
+                    "tellUsYourStory": "Podělte se o svou zkušenost",
+                    "title": "Dopad a studie",
+                    "opendataimpact": "Dopad otevřených dat",
+                    "countryInsights": "Poznatky o zemi",
+                    "overview": "Přehled",
+                    "opendatamaturity": "Platnost otevřených dat"
+                },
+                "covid-19": {
+                    "title": "COVID-19",
+                    "datasets": "Soubory dat",
+                    "overview": "Přehled",
+                    "initiatives": "Iniciativy týkající se dat"
+                }
+            },
+            "subnav": {
+                "logout": "Odhlásit se",
+                "cookies": "Cookies",
+                "login": "Přihlášení",
+                "search": "Vyhledávání",
+                "newsletter": "Zpravodaj",
+                "contact": "Kontakt",
+                "legalNotice": "Právní upozornění",
+                "faq": "Nejčastější dotazy"
+            },
+            "searchOptions": {
+                "siteContent": "Obsah webu",
+                "datasets": "Soubory dat"
+            },
+            "searchInputPlaceholder": "Vyhledat na stránce…",
+            "dataPortal": "Datový Portál",
+            "european": "Evropský"
+        },
+        "pagination": {
+            "previousPage": "Předchozí",
+            "nextPage": "Další"
+        },
+        "statistics": {
+            "tableHead": {
+                "trend": "Trend",
+                "country": "Země",
+                "catalogue": "Katalog",
+                "numberOfDatasets": "Počet datových sad",
+                "name": "Název",
+                "category": "Kategorie",
+                "percent": "Procento celkových datových sad"
+            },
+            "totalNumber": "Celkový počet souborů dat",
+            "evolution": "Vývoj",
+            "datasetsPerCountryAndCatalogue": "Soubory dat podle země a katalogu",
+            "datasetsPerCountry": "Soubory dat podle jednotlivé země",
+            "datasetsPerCatalogue": "Soubory dat podle katalogu",
+            "selectTimePeriod": "Vyberte časové období",
+            "selectType": "Vyberte typ statistiky",
+            "statistics": "Statistiky",
+            "datasetsPerCategory": "Soubory dat podle kategorie",
+            "currentState": "Aktuální stav",
+            "meta": {
+                "description": "Zajímavé statistické údaje o vývoji našeho otevřeného portálu. Počty datových sad podle zemí, kategorií a katalogů na data.europa.eu."
+            },
+            "page": {
+                "title": "Statistiky týkající se portálu otevřených dat | Evropská data"
+            }
+        },
+        "metadata": {
+            "updatedLowerCase": "aktualizováno",
+            "conformsTo": "Je v souladu s",
+            "dataset": "Datová sada",
+            "email": "E-mail",
+            "title": "Název",
+            "license": "Licencí",
+            "name": "Název",
+            "upload": "Nahrát",
+            "created": "Vytvořeno",
+            "addDistribution": "Přidat distribuci",
+            "chooseFile": "Vybrat soubor",
+            "distribution": "Distribuce",
+            "label": "Štítek",
+            "review": "Zkontrolovat",
+            "otherIdentifiers": "Jiné identifikátory",
+            "chooseFormat": "Vybrat formát",
+            "datasets": "Soubory dat",
+            "resource": "Datový zdroj",
+            "spatial": "Místní",
+            "deleteItem": "Opravdu chcete tuto položku smazat?",
+            "relatedResources": "související položky",
+            "accessUrl": "Adresa URL pro přístup",
+            "documentations": "Dokumentace",
+            "frequency": "Frekvence",
+            "updated": "Aktualizováno",
+            "no": "Ne",
+            "landingPage": "Úvodní stránka",
+            "metadataQuality": "Kvalita metadat",
+            "yes": "Ano",
+            "chooseCategory": "Vybrat kategorii",
+            "update ": "Aktualizovat ",
+            "homepage": "Domovská stránka",
+            "contactPoints": "Kontaktní místa",
+            "chooseCatalogue": "Vybrat katalog",
+            "chooseType": "Vybrat typ",
+            "description": "Popis",
+            "downloadUrl": "Adresa URL pro stahování",
+            "provenances": "Místo původu ",
+            "tags": "Značky",
+            "format": "Formát",
+            "coordinates": "Souřadnice",
+            "sources": "Zdroje",
+            "categories": "Kategorie",
+            "publisher": "Vydavatel",
+            "type": "Typ",
+            "distributions": "Distribuce",
+            "cancel": "Zrušit",
+            "identifiers": "Identifikátory"
+        },
+        "footer": {
+            "newsletterText": "Přihlaste se k odběru našeho zpravodaje",
+            "newsletter": "Zpravodaj",
+            "fundedBy": "Financovaný Evropskou unií",
+            "lastUpdated": "Poslední změna",
+            "links": {
+                "search": "Vyhledávání",
+                "newsletter": "Zpravodaj",
+                "cookies": "Cookies",
+                "legalNotice": "Právní upozornění",
+                "faq": "Nejčastější dotazy",
+                "contact": "Kontakt",
+                "login": "Přihlášení"
+            },
+            "followUs": "Sledujte nás na",
+            "subscribe": "Přihlásit se k odběru",
+            "helpUsImprove": "Pomozte nám se zlepšovat",
+            "managedBy": "Spravováno Úřadem pro publikace Evropské unie.",
+            "helpUsImproveText": "Zpětná vazba nám pomůže celkově zlepšovat používání. \nMáte nějaké návrhy?"
+        },
+        "catalogueFacets": {
+            "and": "A",
+            "facets": {
+                "countries": "Země",
+                "licences": "Licence",
+                "keywords": "Klíčová slova",
+                "formats": "Formáty",
+                "catalogues": "Katalogy",
+                "categories": "Kategorie"
+            },
+            "operator": "Operátor",
+            "settings": "Nastavení",
+            "or": "NEBO",
+            "europeanCatalogues": "Evropské katalogy",
+            "title": "Filtry"
+        },
+        "similarDatasets": {
+            "notFound": "Nebyl nalezen žádný podobný soubor dat.",
+            "lessSimilar": "Méně podobné",
+            "similarDatasets": "Podobné soubory dat",
+            "verySimilar": "Velmi podobné",
+            "similar": "Podobné",
+            "marginalSimilar": "Minimálně podobné"
+        },
+        "catalogues": {
+            "geoBoundsMessageRemove": "Chcete-li omezení odebrat, zavřete toto oznámení nebo použijte funkci resetování.",
+            "countMessage": "nalezených katalogů pro dotaz ",
+            "countMessageSingular": "katalog nalezen pro dotaz ",
+            "searchBar": {
+                "placeholder": "Hledat katalogy..."
+            },
+            "loadingMessage": "Načítají se katalogy…",
+            "geoBoundsMessagePre": "Vyhledávání bylo omezeno na:",
+            "countMessageNoResult": "Na dotaz  nenalezeny žádné katalogy"
+        },
+        "common": {
+            "edp": {
+                "title": "Evropský datový portál"
+            },
+            "currentCatalogueStatistics": "Aktuální statistika katalogu",
+            "historicalCatalogueStatistics": "Historická statistika katalogu"
+        },
+        "categories": {
+            "tran": "Doprava",
+            "heal": "Zdraví",
+            "gove": "Vláda a veřejný sektor",
+            "envi": "Životní prostředí",
+            "intr": "Mezinárodní otázky",
+            "agri": "Zemědělství, rybolov, lesnictví a výživa",
+            "soci": "Populace a společnost",
+            "econ": "Hospodářství a finance",
+            "educ": "Vzdělávání, kultura a sport",
+            "ener": "Energie",
+            "tech": "Věda a technika",
+            "regi": "Regiony a města",
+            "just": "Spravedlnost, právní systém a veřejná bezpečnost"
+        },
+        "distributions": {
+            "footerLink": "Stáhnout"
+        },
+        "navigation": {
+            "navItems": {
+                "map": "Mapa",
+                "home": "Domů",
+                "imprint": "Tiráž",
+                "privacyPolicy": "Zásady ochrany osobních údajů",
+                "about": "Informace",
+                "data": "Data"
+            }
+        },
+        "mapModal": {
+            "disclaimer": "Zřeknutí se odpovědnosti",
+            "fullscreen": "Celá obrazovka",
+            "findDatasets": "Použít",
+            "close": "Zavřít",
+            "drawRectangleMsg": "Vyberte oblast nakreslením obdélníku",
+            "reset": "Vymazat"
+        },
+        "datasetFacets": {
+            "facets": {
+                "catalogues": "Katalogy",
+                "formats": "Formáty",
+                "categories": "Kategorie",
+                "licences": "Licencí",
+                "keywords": "Klíčová slova",
+                "countries": "Země",
+                "tags": "Značky"
+            },
+            "title": "Filtry",
+            "operator": "Operátor",
+            "and": "A",
+            "settings": "Nastavení",
+            "europeanCatalogues": "Evropské katalogy",
+            "or": "nebo"
+        },
+        "catalogue": {
+            "searchBar": {
+                "placeholder": "Hledat katalogy"
+            },
+            "countMessage": "nalezených katalogů",
+            "geoBoundsMessageRemove": "Chcete-li omezení odebrat, zavřete toto oznámení nebo použijte funkci resetování.",
+            "loadingMessage": "Katalogy se načítají"
+        },
+        "datasets": {
+            "loadingMessage": "Načítají se soubory dat…",
+            "geoBoundsMessagePre": "Vyhledávání bylo omezeno na:",
+            "saveQuery": "Uložit dotaz",
+            "createDataset": "Vytvořit soubor dat",
+            "datasetsFeed": "Kanál souborů dat",
+            "countMessageSingular": "soubor dat nalezen pro dotaz ",
+            "meta": {
+                "translationNotComplete": "Překlad není úplný"
+            },
+            "noResult": "Nenalezen žádný soubor dat pro dotaz ",
+            "geoBoundsMessageRemove": "Chcete-li omezení odebrat, zavřete toto oznámení nebo použijte funkci resetování.",
+            "searchBar": {
+                "placeholder": "Vyhledat v souborech dat…"
+            },
+            "showMore": "Zobrazit více",
+            "findLocation": "Filtrovat podle lokality",
+            "countMessage": "nalezených souborů dat pro dotaz "
+        },
+        "sort": {
+            "lastCreated": "Naposledy vytvořeno",
+            "nameAZ": "Dle názvu",
+            "nameZA": "Názvy sestupně",
+            "relevance": "Relevance",
+            "lastUpdated": "Naposledy upraveno",
+            "sortBy": "Řadit podle"
+        },
+        "datasetCategories": {
+            "foundCategory": "počet nalezených kategorií: {number}",
+            "foundCategories": "{number} nalezená kategorie",
+            "noCategories": "Nenalezeny žádné kategorie"
+        },
+        "distributionLicense": {
+            "notFound": "Nenalezeny žádné informace o licenci.",
+            "openLA": "Otevřít Průvodce licencemi",
+            "notFoundExtended": "Nenalezeny žádné další informace o licenci, pro podrobnější informace k licenci zkontrolujte zdroj.",
+            "licensingAssistant": "Průvodce licencemi",
+            "notProvided": "Neuvedena žádná licence"
+        },
+        "visualisation": {
+            "previewAvailable": "Náhled je k dispozici",
+            "info": "Pokud se do několika vteřin nenačte vizualizace, klikněte sem.",
+            "loading": "Vizualizace se načítá..."
+        },
+        "imprint": {
+            "msg": "SEM VLOŽTE TIRÁŽ"
+        },
+        "home": {
+            "msg": "Je nám líto, tato stránka zatím nic neobsahuje. Chcete-li něco zobrazit, otevřete kartu Data."
+        }
+    }
+}

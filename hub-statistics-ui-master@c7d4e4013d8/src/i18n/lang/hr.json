@@ -1,0 +1,379 @@
+{
+    "message": {
+        "datasetDetails": {
+            "openResource": "Idi na resurs",
+            "upload": {
+                "unknownFormat": "Nepoznat format",
+                "resetText": "Ponovno postavi cijeli obrazac?",
+                "reset": "Ponovno postavi obrazac",
+                "individual": "Pojedinac",
+                "person": "Osoba",
+                "organisation": "Organizacija"
+            },
+            "about": "o",
+            "geoInfo": "Opseg skupa podataka",
+            "translation": {
+                "link": "Kliknite ovdje za prikaz skupa podataka na izvornom jeziku",
+                "message": "Naslov i opis ovog skupa podataka strojno je preveden.",
+                "noTranslation": "Nema dostupnog prijevoda za traženi jezik. Informacije su prikazane na zadanom jeziku.",
+                "original": "Originalni jezik",
+                "update": "U tijeku je ažuriranje prijevoda ovog skupa podataka."
+            },
+            "options": "Opcije",
+            "subnav": {
+                "activityStream": "Pregled aktivnosti",
+                "similarDatasets": "Slični skupovi podataka",
+                "categories": "Kategorije",
+                "dataset": "Skup podаtаkа"
+            },
+            "edit": "Uredi",
+            "follow": "Prati",
+            "preview": "Pretpregled",
+            "visualisation": "Otvorena vizualizacija",
+            "additionalInfo": "Dodatne informacije",
+            "feedback": "Povratne informacije",
+            "unfollow": "Prestani slijediti",
+            "manage": "Upravljaj",
+            "delete": "Izbriši",
+            "geoVisualisation": "Otvorena geo-vizualizacija",
+            "download": "Preuzmiаnje",
+            "menu": "Izbornik"
+        },
+        "userQueries": {
+            "searchAllQueries": "Pretraži upite…",
+            "queryDeleted": "Upit izbrisan",
+            "querySaved": "Upit spremljen",
+            "searchQueries": "Pretraži moje upite…",
+            "noQueryFound": "Nije pronađen niti jedan upit",
+            "myQueries": "Moji upiti",
+            "noDescription": "Ovaj upit nema opis",
+            "placeholderNotes": "npr. Neke korisne bilješke o upitu",
+            "noQueriesSaved": "Niste spremili niti jedan upit.",
+            "queryFound": "{number} upit pronađen",
+            "areYourSure": "Jeste li sigurni da želite izbrisati ovaj upit?",
+            "queriesFound": "{number} upita pronađeno",
+            "save": "Spremi upit",
+            "executeQuery": "Izvrši upit"
+        },
+        "header": {
+            "navigation": {
+                "about": {
+                    "beHarvestedByUs": "Mi ćemo vas obuhvatiti",
+                    "title": "O",
+                    "documentation": "Dokumentacija",
+                    "europeanDataPortal": "Europski Portal Podataka"
+                },
+                "training": {
+                    "whatIsOpenData": "Što su otvoreni podaci",
+                    "title": "Obuka",
+                    "dataProvidersGuide": "Vodič pružatelja podataka",
+                    "moreTrainingMaterial": "Više materijala za obuku",
+                    "elearning": "eUčenje",
+                    "licensingAssistant": "Pomoćnik za licenciranje"
+                },
+                "data": {
+                    "sparqlsearch": "Pretraživanje u SPARQ",
+                    "statistics": "Statistika",
+                    "euInternationalData": "EU i međunarodni podaci",
+                    "catalogues": "Katalozi",
+                    "datasets": "Skupovi podataka",
+                    "countryData": "Podaci za zemlju",
+                    "metadataQuality": "Kvaliteta metapodataka",
+                    "title": "Podaci"
+                },
+                "newsEvents": {
+                    "title": "Vijesti i događaji",
+                    "events": "Događaji",
+                    "news": "Vijesti"
+                },
+                "impactStudies": {
+                    "studies": "Studije",
+                    "useCases": "Slučajevi uporabe",
+                    "tellUsYourStory": "Ispričajte nam svoju priču",
+                    "title": "Utjecaj i studije",
+                    "opendataimpact": "Utjecaj otvorenih podataka",
+                    "countryInsights": "Uvidi prema zemljama",
+                    "overview": "Pregled",
+                    "opendatamaturity": "Zrelost otvorenih podataka"
+                },
+                "covid-19": {
+                    "title": "COVID-19",
+                    "datasets": "Skupovi podataka",
+                    "overview": "Pregled",
+                    "initiatives": "Inicijative vezane uz podatke"
+                }
+            },
+            "subnav": {
+                "logout": "Odjavi se",
+                "cookies": "Kolačići",
+                "login": "Prijava",
+                "search": "Traženje",
+                "newsletter": "Obavijesti",
+                "contact": "Kontakt",
+                "legalNotice": "Pravna obavijest",
+                "faq": "FAQ"
+            },
+            "searchOptions": {
+                "siteContent": "Sadržaj stranice",
+                "datasets": "Skupovi podataka"
+            },
+            "searchInputPlaceholder": "Traži sadržaje portala…",
+            "dataPortal": "Portal Podataka",
+            "european": "Europski"
+        },
+        "pagination": {
+            "previousPage": "Prethodno",
+            "nextPage": "Sljedeći"
+        },
+        "statistics": {
+            "tableHead": {
+                "trend": "Trend",
+                "country": "Zemlja",
+                "catalogue": "Katalog",
+                "numberOfDatasets": "Broj skupova podataka",
+                "name": "Naziv",
+                "category": "Kategorija",
+                "percent": "Postotak ukupnih skupova podataka"
+            },
+            "totalNumber": "Ukupan broj skupova podataka",
+            "evolution": "Evolucija",
+            "datasetsPerCountryAndCatalogue": "Skupovi podataka prema zemlji i katalogu",
+            "datasetsPerCountry": "Skupovi podataka prema zemlji",
+            "datasetsPerCatalogue": "Skupovi podataka prema katalogu",
+            "selectTimePeriod": "Odaberi vremensko razdoblje",
+            "selectType": "Odaberi vrstu statistike",
+            "statistics": "Statistika",
+            "datasetsPerCategory": "Skupovi podataka prema kategoriji",
+            "currentState": "Trenutačno stanje",
+            "meta": {
+                "description": "Otkrijte relevantne statističke podatke o razvoju našeg otvorenog portala i saznajte više o broju skupova podataka po zemlji, kategoriji i katalogu na data.europa.eu."
+            },
+            "page": {
+                "title": "Statistika portala otvorenih podataka | data.europa.eu"
+            }
+        },
+        "metadata": {
+            "updatedLowerCase": "ažurirano",
+            "conformsTo": "U skladu s",
+            "dataset": "Skup podataka",
+            "email": "E-pošta",
+            "title": "Naslov",
+            "license": "Licenca",
+            "name": "Ime",
+            "upload": "Prenesi",
+            "created": "Kreirano",
+            "addDistribution": "Dodaj raspodjelu",
+            "chooseFile": "Odaberi datoteku",
+            "distribution": "Distribucija",
+            "label": "Oznaka",
+            "review": "Pregled",
+            "otherIdentifiers": "Ostali identifikatori",
+            "chooseFormat": "Odaberi format",
+            "datasets": "Skupovi podataka",
+            "resource": "Resurs",
+            "spatial": "Prostorno",
+            "deleteItem": "Jeste li sigurni da želite izbrisati ovu stavku?",
+            "relatedResources": "povezane stavke",
+            "accessUrl": "Pristup",
+            "documentations": "Dokumentacije",
+            "frequency": "Učestalost",
+            "updated": "Ažurirano",
+            "no": "Ne",
+            "landingPage": "Odredišna stranica",
+            "metadataQuality": "Kvaliteta metapodataka",
+            "yes": "Da",
+            "chooseCategory": "Odaberi kategoriju",
+            "update ": "Ažuriraj",
+            "homepage": "Početna stranica",
+            "contactPoints": "Kontaktna točka",
+            "chooseCatalogue": "Odaberi katalog",
+            "chooseType": "Odaberi vrstu",
+            "description": "Vaša poruka",
+            "downloadUrl": "URL za preuzimanje",
+            "provenances": "Podrijetlo",
+            "tags": "Tagovi",
+            "format": "Formаt",
+            "coordinates": "Koordinate",
+            "sources": "Izvori",
+            "categories": "Kategorije",
+            "publisher": "Izdavač",
+            "type": "Tip",
+            "distributions": "Distribucije",
+            "cancel": "Otkaži",
+            "identifiers": "Identifikatori"
+        },
+        "footer": {
+            "newsletterText": "Pretplatite se na naš newsletter",
+            "newsletter": "Obavijesti",
+            "fundedBy": "Financira Europska unija",
+            "lastUpdated": "Posljednje osvježenje",
+            "links": {
+                "search": "Traženje",
+                "newsletter": "Obavijesti",
+                "cookies": "Kolačići",
+                "legalNotice": "Pravna obavijest",
+                "faq": "FAQ",
+                "contact": "Kontakt",
+                "login": "Prijava"
+            },
+            "followUs": "Pratite nas na",
+            "subscribe": "Pretplata",
+            "helpUsImprove": "Prijedlozi za poboljšanja",
+            "managedBy": "Upravlja Ured za publikacije Europske unije.",
+            "helpUsImproveText": "Vaše će nam povratne informacije pomoći u poboljšanju cjelokupnog korisničkog iskustva. \nImate li prijedloga?"
+        },
+        "catalogueFacets": {
+            "and": "I",
+            "facets": {
+                "countries": "Zemlje",
+                "licences": "Licencije",
+                "keywords": "Ključne riječi",
+                "formats": "Formati",
+                "catalogues": "Katalozi",
+                "categories": "Kategorije"
+            },
+            "operator": "Operator",
+            "settings": "Postavke",
+            "or": "ILI",
+            "europeanCatalogues": "Europski katalozi",
+            "title": "Filteri"
+        },
+        "similarDatasets": {
+            "notFound": "Nisu nađeni slični skupovi podataka.",
+            "lessSimilar": "Manje slični",
+            "similarDatasets": "Slični skupovi podataka",
+            "verySimilar": "Vrlo slični",
+            "similar": "Slični",
+            "marginalSimilar": "Marginalno slični"
+        },
+        "catalogues": {
+            "geoBoundsMessageRemove": "Zatvorite ovu obavijest kako bi se uklonilo ograničenje ili upotrijebite funkciju Ponovno postavi.",
+            "countMessage": "kataloga pronađeno za ",
+            "countMessageSingular": " katalog pronađen za ",
+            "searchBar": {
+                "placeholder": "Pretraži kataloge…"
+            },
+            "loadingMessage": "Učitavanje kataloga...",
+            "geoBoundsMessagePre": "Vaše je traženje ograničeno na:",
+            "countMessageNoResult": "Nisu pronađeni katalozi za "
+        },
+        "common": {
+            "edp": {
+                "title": "Europski portal podataka"
+            },
+            "currentCatalogueStatistics": "Trenutačna statistika kataloga",
+            "historicalCatalogueStatistics": "Povijesna statistika kataloga"
+        },
+        "categories": {
+            "tran": "Promet",
+            "heal": "Zdravlje",
+            "gove": "Vlada i javni sektor",
+            "envi": "Okoliš",
+            "intr": "Međunarodni pitanja",
+            "agri": "Poljoprivreda, ribarstvo, šumarstvo i hrana",
+            "soci": "Stanovništvo i društvo",
+            "econ": "Ekonomija i financije",
+            "educ": "Obrazovanje, kultura i sport",
+            "ener": "Energetika",
+            "tech": "Znanost i tehnologija",
+            "regi": "Regije i gradovi",
+            "just": "Pravosuđe, pravni sustav i javna sigurnost"
+        },
+        "distributions": {
+            "footerLink": "Preuzimanje"
+        },
+        "navigation": {
+            "navItems": {
+                "map": "Karta",
+                "home": "Početаk",
+                "imprint": "Impresum",
+                "privacyPolicy": "Pravila o zaštiti podataka",
+                "about": "O",
+                "data": "Podaci"
+            }
+        },
+        "mapModal": {
+            "disclaimer": "Izjava o odricanju odgovornosti",
+            "fullscreen": "Cijeli zaslon",
+            "findDatasets": "Primijeni",
+            "close": "Zatvori",
+            "drawRectangleMsg": "Nacrtajte pravokutnik za odabir regije",
+            "reset": "Pročisti"
+        },
+        "datasetFacets": {
+            "facets": {
+                "catalogues": "Katalozi",
+                "formats": "Formati",
+                "categories": "Kategorije",
+                "licences": "Licence",
+                "keywords": "Ključne riječi",
+                "countries": "Zemlje",
+                "tags": "Tagovi"
+            },
+            "title": "Filteri",
+            "operator": "Operater",
+            "and": "I",
+            "settings": "Postavke",
+            "europeanCatalogues": "Europski katalozi",
+            "or": "ili"
+        },
+        "catalogue": {
+            "searchBar": {
+                "placeholder": "Traži kataloge"
+            },
+            "countMessage": "Katalozi pronađeni",
+            "geoBoundsMessageRemove": "Zatvorite ovu obavijest kako bi se uklonilo ograničenje ili upotrijebite funkciju Ponovno postavi.",
+            "loadingMessage": "Katalozi se dohvaćaju"
+        },
+        "datasets": {
+            "loadingMessage": "Dohvaćaju se slogovi podataka...",
+            "geoBoundsMessagePre": "Vaše je pretraživanje ograničeno na:",
+            "saveQuery": "Sačuvaj upit",
+            "createDataset": "Kreiraj skup podataka",
+            "datasetsFeed": "Sažeci skupova podataka",
+            "countMessageSingular": "Slog podataka nađen za {query}",
+            "meta": {
+                "translationNotComplete": "Prijevod nije potpun"
+            },
+            "noResult": "Nisu nađeni slogovi podataka za {query}",
+            "geoBoundsMessageRemove": "Zatvorite ovu obavijest kako bi se uklonilo ograničenje ili upotrijebite funkciju Ponovno postavi.",
+            "searchBar": {
+                "placeholder": "Traženje slogova podataka"
+            },
+            "showMore": "Prikaži više",
+            "findLocation": "Filtriraj po lokaciji",
+            "countMessage": "skupova podataka pronađeno za "
+        },
+        "sort": {
+            "lastCreated": "Zadnje kreirano",
+            "nameAZ": "Naziv silazno",
+            "nameZA": "Naziv silazno",
+            "relevance": "Relevantnost",
+            "lastUpdated": "Zadnja izmjena",
+            "sortBy": "Sortiraj prema"
+        },
+        "datasetCategories": {
+            "foundCategory": "{number} kategorije/a pronađene/o",
+            "foundCategories": "{number} kategorija pronađena",
+            "noCategories": "Nisu pronađene kategorije"
+        },
+        "distributionLicense": {
+            "notFound": "Nisu pronađene informacije o dozvoli.",
+            "openLA": "Pomoćnik za otvorenu dozvolu",
+            "notFoundExtended": "Nisu pronađene dodatne informacije o dozvoli, molimo provjerite izvor za daljnje informacije o dozvoli.",
+            "licensingAssistant": "Pomoćnik za licenciranje",
+            "notProvided": "Nije navedena licencija"
+        },
+        "visualisation": {
+            "previewAvailable": "Pregled dostupan",
+            "info": "Ako se vizualizacija ne učita unutar nekoliko sekundi, pritisnite ovdje.",
+            "loading": "Vizualizacija se učitava ..."
+        },
+        "imprint": {
+            "msg": "INSERT IMPRINT HERE"
+        },
+        "home": {
+            "msg": "Nažalost ova stranica još nema sadržaja. Kako biste nešto vidjeli idite na karticu Podaci!"
+        }
+    }
+}

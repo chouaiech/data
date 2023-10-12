@@ -1,0 +1,525 @@
+{
+    "message": {
+        "navigation": {
+            "dashboard": "Valdymo pultas",
+            "download_report": {
+                "help": "Parsisiųsti visą šio katalogo ataskaitą.",
+                "second_ods": "Open Document Spreadsheet (.ods)",
+                "direct": "Parsisiųsti kaip ataskaitą",
+                "second_xls": "Microsoft Excel (.xlsx)",
+                "second_pdf": "Portable Document Format (.pdf)"
+            },
+            "catalogues": "Katalogai",
+            "about": "Dokumentai",
+            "methodology": "Metodika",
+            "validation": "patvirtinimas"
+        },
+        "dashboard": {
+            "overview": {
+                "header": {
+                    "allCatalogues": "visi katalogai",
+                    "topNumber": "{number} populiariausi (-ių)",
+                    "topNumberCatalogues": "{number} populiariausi (-ių) katalogai (-ų)"
+                },
+                "table_tooltip": {
+                    "dcat_ap": "DCAT-AP atitinkančių metaduomenų procentas. Šis patikrinimas atliekamas tik tiems portalams, kurie tiekia DCAT-AP, pvz., Per CKANEXT-DCAT plėtinį.",
+                    "machine_readability": "Paskirstymų, kurie tampa automatiniu būdu interpretuojamu formatu, procentas.",
+                    "accessibility_download_url": "Galimų atsisiuntimų URL procentas. Prieinamumas nustatomas naudojant HTTP GET metodą. Kadangi „DownloadURL“ nėra privaloma informacija, trūkstamos informacijos atveju patikrinimas negali vykti.",
+                    "known_licenses": "Žinomų licencijų procentas. Daugiau informacijos apie žinomas licencijas ieškokite šiuose skyriuose. Kadangi licencija nėra privaloma, patikrinimas negali vykti, jei trūksta informacijos.",
+                    "accessibility_access_url": "Prieinamų „AccessURL“ procentas. Prieinamumas nustatomas naudojant HTTP GET metodą."
+                },
+                "headline": "Apžvalga",
+                "table_title": {
+                    "desc": "Aprašymas",
+                    "known_licences": "Žinomos licencijos",
+                    "dcat_ap": "Suderinamumas su DCAT AP",
+                    "accessibility_access_url": "Prieigos URL prieinamumas",
+                    "accessibility_download_url": "Parsisiuntimo URL prieinamumas",
+                    "country": "Šalis",
+                    "scoring": "Reitingas",
+                    "machine_readability": "Skaitomumas kompiuteriu",
+                    "rating": "Reitingas",
+                    "name": "Pavadinimas"
+                },
+                "table_description": "Tolesnėje lentelėje pristatoma keturių minėtų kriterijų apžvalga. Lentelę galite rūšiuoti spustelėdami stulpelių antraštes. Atkreipkite dėmesį, kad MKU gali aiškinti tik pradinių portalų pateiktus duomenis. Nurodyti paskirstas, parsisiuntimo URL ir informaciją apie licenciją nėra privaloma ir MKU trūkstamą informaciją pažymi ženklu „-“. Taip pat pastebėkite, kad suderinamumas su DCAT-AP gali būti nustatytas tik tada, kai pradinis portalas metaduomenis pateikia kaip su DCAT-AP suderinamus duomenis. Kiti formatai žymimi ženklu „-“."
+            },
+            "interoperability": {
+                "plots": {
+                    "title": {
+                        "formatMediaTypeAlignment": "Formatas / laikmenos tipas iš žodyno",
+                        "formatMediaTypeNonProprietary": "Nepatentuotas",
+                        "mediaTypeAvailability": "Laikmenos tipas",
+                        "formatAvailability": "Formatas",
+                        "dcatApCompliance": "DCAT-AP reikalavimų laikymasis",
+                        "formatMediaTypeMachineReadable": "Mašininis"
+                    }
+                },
+                "description": "Tai indikatoriai, kurie suteikia duomenų aibei sąveikumą",
+                "title": "Sąveikumas"
+            },
+            "reusability": {
+                "description": "Tolesnėje lentelėje aiškinama, kokie vertinimo indikatoriai naudojami duomenų pakartotinio naudojimo galimybei įvertinti. Šioje srityje galima surinkti ne daugiau kaip 75 taškus.",
+                "plots": {
+                    "title": {
+                        "accessRightsAlignment": "Prieigos apribojimų žodynas",
+                        "contactPointAvailability": "Kontaktinė informacija",
+                        "licenceAlignment": "Licencijų žodynas",
+                        "publisherAvailability": "Leidėjas",
+                        "licenceAvailability": "Licencijos informacija",
+                        "accessRightsAvailability": "Prieigos apribojimai"
+                    }
+                },
+                "title": "Pakartotinio naudojimo galimybė"
+            },
+            "show_history": "Rodyti istoriją",
+            "contextuality": {
+                "description": "Informacija, kuri suteikia naudotojui daugiau konteksto",
+                "plots": {
+                    "title": {
+                        "dateIssuedAvailability": "Išleidimo data",
+                        "rightsAvailability": "Teisės",
+                        "byteSizeAvailability": "Failo dydis",
+                        "dateModifiedAvailability": "Pakeitimo data"
+                    }
+                },
+                "title": "Kontekstualumas"
+            },
+            "accessibility": {
+                "plots": {
+                    "title": {
+                        "accessibilityOfDistributions": "Paskirstų prieinamumas",
+                        "accessUrlAvailability": "Nurodytas prieigos URL",
+                        "existingDownloadUrl": "Parsisiuntimo URL",
+                        "accessibilityAccessUrl": "Prieigos URL prieinamumas",
+                        "accessUrl": "Prieigos URL",
+                        "accessUrlStatusCodes": "Dažniausi prieigos URL būsenos kodai",
+                        "downloadUrlStatusCodes": "Dažniausi atsisiuntimo URL būsenos kodai",
+                        "downloadUrlAvailability": "Parsisiųsti URL",
+                        "statusErrorCode": "Klaidų statuso kodai",
+                        "accessibilityDownloadUrl": "Atsisiuntimo URL prieinamumas"
+                    }
+                },
+                "title": "Prieinamumas",
+                "headline": "Prieinamos paskirstos",
+                "description": "Tolesnėse diagramose pristatoma informacija apie paskirstų prieinamumą. Visų paskirstos URL atžvilgiu pateikiamos HTTP HEAD užklausos ir patikrinami atsakymai į jas. Atkreipkite dėmesį, kad pagal DCAT-AP parsisiuntimo URL nėra būtinas ir jis turi būti aiškiai nurodomas pradiniame portale. Patikrinti gali būti tik DCAT-AP metaduomenis pateikiantys pradiniai portalai."
+            },
+            "site_title": "Europos duomenų portalas | MQA | Skydelis",
+            "findability": {
+                "title": "Randamumas",
+                "plots": {
+                    "title": {
+                        "keywordAvailability": "Raktažodžių naudojimas",
+                        "spatialAvailability": "Geografinė paieška",
+                        "temporalAvailability": "Paieška pagal laiką",
+                        "categoryAvailability": "Kategorijos"
+                    }
+                },
+                "description": "Tai indikatoriai, kurie padeda žmonėms ir kompiuteriams rasti duomenų aibes"
+            },
+            "scoring": {
+                "description": "Įvertis rodo bendrąją metaduomenų kokybę pagal visus matmenis.",
+                "plots": {
+                    "known": "žinomas",
+                    "unknown": "nežinomas",
+                    "title": {
+                        "timeBasedScoring": "Įverčio raida"
+                    }
+                },
+                "title": "Įverčio raida"
+            },
+            "show_today": "Rodyti šiandien",
+            "weight": "Svoris",
+            "points": "Taškai",
+            "intro": {
+                "desc": "<p>Metaduomenų kokybės užtikrinimas skirtas padėti duomenų teikėjams ir duomenų portalams patikrinti savo metaduomenis pagal įvairius rodiklius. Norėdami gauti informacijos apie tai, kurią metriką naudojame rodiklių matavimams, apsilankykite mūsų metodikos puslapyje.</p>\n<p>Šiame puslapyje pateikiama bendra visų data.europa.eu turimų metaduomenų apžvalga. Norėdami išsamiai peržiūrėti kiekvieną atskirą katalogą, naudokite katalogų puslapį ir pasirinkite norimą katalogą.</p>"
+            },
+            "dimensions": "Aspektai"
+        },
+        "catalogue_detail": {
+            "introduction": "Šiame puslapyje rodoma bendra katalogo būsena paskirstų ir suderinamumo su DCAT-AP atžvilgiu",
+            "harvesting": {
+                "run": {
+                    "updated": "Atnaujinta",
+                    "duration": "Trukmė (dienos valandos:minutės:sekundės)",
+                    "show_log": "Rodyti paskutinio paleidimo žurnalo įrašus",
+                    "end": "Pabaigos laikas",
+                    "start": "Pradžios laikas",
+                    "log_noattachment": "Parsisiunčiant priedą įvyko klaida",
+                    "skipped": "Praleista",
+                    "log": "{0} Žurnalai nuo {1} iki {2} iš {3}",
+                    "deleted": "Ištrinta",
+                    "no_runs": "Nėra informacijos apie ankstesnius duomenų rinkimo programos paleidimus arba jie dar neįvyko.",
+                    "rejected": "Atmesta",
+                    "added": "Pridėta"
+                },
+                "repository_harvester": "Pradinis katalogas talpykla",
+                "show_script": "Rodyti transformacijos skriptą",
+                "show_information": "Rodyti duomenų rinkimo programos informaciją",
+                "publisher": "Leidėjas",
+                "next_schedule": "Kitas grafikas",
+                "default_language": "Numatytoji kalba",
+                "homepage": "Pradžios tinklalapis",
+                "email_address": "E. pašto adresas",
+                "incremental": "Papildomas",
+                "frequency": "Dažnis",
+                "type": "Tipas",
+                "transformation_script": "{0} Transformacijos skriptas",
+                "title": "Informacija apie duomenų rinkimą",
+                "not_present": "Iš šio katalogo duomenys nebuvo renkami, todėl nėra jokios informacijos apie rinkimą.",
+                "last_run": "Paskutinis duomenų rinkimas"
+            },
+            "violations": {
+                "location": "Pažeidimo vieta",
+                "non_compliant": "Nesuderinamas",
+                "resultPath": "Rezultato adresas",
+                "subheadline": "Duomenų rinkinių pažeidimai",
+                "title": "Nesuderinami duomenų rinkiniai",
+                "value": "Vertė",
+                "desc": "Pažeidimo aprašymas",
+                "site_title": "Europos duomenų portalas | MQA | Pažeidimai",
+                "introduction": "Šiame rodinyje pateikiamas visų SHACL DCAT-AP taisyklių neatitinkančių duomenų rinkinių sąrašas.",
+                "own_headline": "DCAT-AP sistemos pažeidimai",
+                "resultMessage": "Rezultato pranešimas"
+            },
+            "distributions": {
+                "introduction": "Čia pateikiami visi duomenų rinkiniai, kurių paskirsta nėra prieinama.",
+                "help": "Peržiūrėkite neprieinamas paskirstas pasirinktame kataloge.",
+                "mediatype_checked": "Laikmenos tipas (iš testo)",
+                "desc": "Duomenų rinkiniai su neprieinamomis paskirstomis",
+                "not_available_access": "Prieigos URL nėra",
+                "title": "Platinimo prieinamumo klausimai",
+                "format": {
+                    "not_machine_readable": "Neskaitoma kompiuteriu",
+                    "name": "Formatas"
+                },
+                "not_available_dl": "Parsisiuntimo URL nėra",
+                "download_url": "Parsisiųsti URL",
+                "mediatype_given": "Laikmenos tipas (iš testo)",
+                "nodistributions": "Nėra patikrinimui tinkamų paskirstų.",
+                "access_url": "Access URL",
+                "site_title": "Europos duomenų portalas | MQA | Paskirstos",
+                "availability_checked_on": "Prieinamumas patikrintas {date}"
+            },
+            "call_to_action": "Pasirinkite katalogą, apie kurį norite sužinoti daugiau",
+            "title": "Katalogo skydelis",
+            "site_title": "Europos duomenų portalas | MQA | Skydelis"
+        },
+        "common": {
+            "compliant": "Suderinamas",
+            "json": "CKAN JSON",
+            "deu": {
+                "url": "www.data.europa.eu",
+                "title": "data.europa.eu"
+            },
+            "site_title_violations": "Pažeidimas",
+            "all": "visi",
+            "close": "Uždaryti",
+            "affacteddatasets": "Paveikti duomenų rinkiniai",
+            "cataloguedetails": "Katalogo duomenų rinkinys",
+            "previous": "Ankstesnis",
+            "violation": "Pažeidimas",
+            "edp": {
+                "title": "Europos duomenų portalas"
+            },
+            "yes": "Taip",
+            "error": "Klaida",
+            "portal_page": "Portalo puslapis",
+            "since": "Nuo",
+            "site_title": "Metaduomenų kokybė | Oficialus ES duomenų portalas | data.europa.eu",
+            "version": "Versija",
+            "ok": "Gerai",
+            "distributions": "Paskirstos",
+            "no": "Ne",
+            "violations": "Pažeidimai",
+            "download_url": "Parsisiųsti URL",
+            "datasets": "Duomenų rinkiniai",
+            "site_title_distributions": "Platinimo prieinamumo klausimai",
+            "home": "Pradžios tinklalapis",
+            "page": "Puslapis",
+            "notavailable": "Neprieinama",
+            "status": "Statusas"
+        },
+        "methodology": {
+            "dimensions": {
+                "reuse": {
+                    "main_text": " <p>Tolesnėje lentelėje aiškinama, kokie vertinimo indikatoriai naudojami duomenų pakartotinio naudojimo galimybei įvertinti. Šioje srityje galima surinkti ne daugiau kaip 75 taškus.</p>",
+                    "keywords_name_6": "Leidėjas",
+                    "keywords_name_5": "Kontaktinė informacija",
+                    "keywords_name_4": "Prieigos apribojimų žodynas",
+                    "keywords_name_3": "Prieigos apribojimai",
+                    "keywords_name_2": "Licencijų žodynas",
+                    "keywords_name_1": "Licencijos informacija",
+                    "keywords_metric_6": "Tikrinama, ar ypatybė nustatyta, ar ne.",
+                    "keywords_metric_5": "Tikrinama, ar ypatybė nustatyta, ar ne.",
+                    "keywords_metric_4": "<p>Tikrinama, ar naudojamas <a href='https://publications.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/access-right' target=‘_blank‘>kontroliuojamas prieigos teisių</a> žodynas.</p>",
+                    "keywords_metric_3": "Tikrinama, ar ypatybė nustatyta, ar ne.",
+                    "keywords_metric_2": "<p>Šis skyrius apibūdina visus matmenis, kuriuos MQA nagrinėja, kad nustatytų kokybę. Matmenys gaunami iš <a target=’_blank’ href=’https://www.go-fair.org/fair-principles/'>FAIR principles <i class=’fas fa-external-link-alt fa-sm’></i></a>.</p>\n\n<p>MQA rekomenduoja ir kredituoja kontroliuojamų žodynų naudojimą. Portale data.europa.eu skelbiami kontroliuojami žodynai: <a href=’https://gitlab.com/european-data-portal/edp-vocabularies'target='_blank'>GitLab</a>. Žodynai gaunami iš <a href=’https://op.europa.eu/en/web/eu-vocabularies/authority-tables’ target=’_blank’>EU Vocabularies</a>.</p>",
+                    "keywords_metric_1": "Tikrinama, ar ypatybė nustatyta, ar ne.",
+                    "dcat_name_6": "dct:Publisher",
+                    "dcat_name_5": "dcat:ContactPoint",
+                    "dcat_name_4": "dct:AccessRights",
+                    "dcat_name_3": "dct:AccessRights",
+                    "dcat_name_2": "dct:License",
+                    "dcat_name_1": "dct:License",
+                    "keywords_desc_6": "Leidėjas – tai duomenis paskelbęs asmuo arba organizacija.",
+                    "keywords_desc_5": "Kontaktinė informacija nurodo, kur kreiptis su klausimais apie duomenis.",
+                    "keywords_desc_4": "Kontroliuojamo žodyno naudojimas padidina pakartotinio naudojimo galimybę.",
+                    "keywords_desc_3": "Šiame lauke nurodoma, ar prieiga prie duomenų vieša, ar ribojama.",
+                    "keywords_desc_2": "Stengiamės apriboti neteisingos licencijų informacijos indikacijas. Pavyzdžiui, susiduriame su daugybe CC licencijų be nurodytos versijos.",
+                    "keywords_desc_1": "Licencijoje pateikiama vertingos informacijos apie pakartotinį duomenų naudojimą."
+                },
+                "contextual": {
+                    "main_text": "Toliau pateiktoje lentelėje demonstruojamos kai kurios supaprastintos ypatybės, kurios suteikia naudotojui daugiau konteksto. Šioje srityje galima surinkti ne daugiau kaip 20 taškų.",
+                    "keywords_metric_4": "Tikrinama, ar ypatybė nustatyta, ar ne.",
+                    "keywords_metric_3": "Tikrinama, ar ypatybė nustatyta, ar ne.",
+                    "keywords_metric_2": "Tikrinama, ar ypatybė nustatyta, ar ne.",
+                    "keywords_metric_1": "Tikrinama, ar ypatybė nustatyta, ar ne.",
+                    "keywords_name_4": "Pakeitimo data",
+                    "keywords_name_3": "Išleidimo data",
+                    "keywords_name_2": "Failo dydis",
+                    "keywords_name_1": "Teisės",
+                    "keywords_desc_4": "Data, kai duomenų aibė arba paskirsta buvo paskutinį kartą pakeista.",
+                    "keywords_desc_3": "Data, kai duomenų aibė arba paskirta buvo išleista.",
+                    "keywords_desc_2": "Rodo failo dydį baitais.",
+                    "keywords_desc_1": "Tam tikrais atvejais duomenų aibei negalima taikyti tam tikros licencijos. Lauke „Rights“ (teisės) galima nuodyti nuorodą į išteklių, kuriame naudotojas bus informuotas apie teises, kurias jis turi naudodamasis duomenų aibe.",
+                    "dcat_name_4": "dcat:Modified",
+                    "dcat_name_3": "dct:Issued",
+                    "dcat_name_2": "dcat:ByteSize",
+                    "dcat_name_1": "dcat:Rights"
+                },
+                "table": {
+                    "metric_name": "Indikatorius",
+                    "dataset_and_distribution": "Duomenų aibė ir paskirsta",
+                    "metric": "Vertinimo",
+                    "dataset": "Duomenų aibė",
+                    "desc": "Aprašymas",
+                    "distribution": "Paskirsta",
+                    "weight": "Svoris"
+                },
+                "accessible": {
+                    "main_text": " <p>Tolesnėje lentelėje aiškinama, kokie vertinimo indikatoriai naudojami nustatyti, ar prieiga prie paskirstų būdu nurodomų duomenų yra užtikrinta. Šioje srityje galima surinkti ne daugiau kaip 100 taškų.</p>",
+                    "dcat_name_3": "dcat:spatial",
+                    "dcat_name_2": "dcat:downloadURL",
+                    "dcat_name_1": "dcat:accessURL",
+                    "keywords_desc_3": "Jeigu pateiktas atsisiuntimo URL, tikrinamas jo prieinamumas.",
+                    "keywords_desc_2": "Atsisiuntimo URL – tai tiesioginė nuoroda į nurodomus duomenis.",
+                    "keywords_desc_1": "Prieigos URL nebūtinai yra tiesioginė nuoroda į duomenis; tai gali būti ir URL, suteikiantis prieigą prie duomenų aibės arba kur galima rasti daugiau informacijos apie duomenų aibę.",
+                    "keywords_metric_3": "Tikrinama, ar nurodytas URL prieinamas per HTTP HEAD užklausą. Jeigu atsako būsenos kodas yra nuo 200 iki 300, ištekliaus prieinamumas vertinamas teigiamai.",
+                    "keywords_metric_2": "Tikrinama, ar ypatybė nustatyta, ar ne.",
+                    "keywords_metric_1": "Tikrinama, ar nurodytas URL prieinamas per HTTP HEAD užklausą. Jeigu atsako būsenos kodas yra nuo 200 iki 300, ištekliaus prieinamumas vertinamas teigiamai.",
+                    "keywords_name_3": "Atsisiuntimo URL prieinamumas",
+                    "keywords_name_2": "Atsisiuntimo URL",
+                    "keywords_name_1": "Prieigos URL prieinamumas"
+                },
+                "interoperable": {
+                    "main_text": " <p>Tolesnėje lentelėje apibūdinami vertinimo indikatoriai, pagal kuriuos nustatoma, ar paskirsta gali būti laikoma sąveikia. Remiantis prielaida „identiškas turinys su keliomis paskirstomis“ tik paskirsta, surinkusi didžiausią taškų skaičių, naudojama taškams skaičiuoti. Šioje srityje galima surinkti ne daugiau kaip 110 taškų.</p>",
+                    "keywords_desc_6": "<p>DCAT-AP atitiktis apskaičiuojama visuose kataloge pateikiamuose šaltiniuose ir duomenų rinkiniuose. Ši patikra atliekama tik tuo atveju, jei metaduomenys iš pradžių surinkti kaip DCAT-AP arba kaip galiojanti išvestinė priemonė.</p><p><a href=’https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe’ target=’_blank’>DCAT-AP</a> yra susietų viešųjų duomenų Europoje aprašymo specifikacija. Portale data.europa.eu taip pat galima rinkti metaduomenis, kurie nevisiškai atitinka DCAT-AP reikalavimus. Siekdama padidinti atitiktį DCAT-AP, MQA tikrina kiekvieno metaduomenų atitiktį DCAT-AP reikalavimams.</p>",
+                    "keywords_desc_5": "Tikrinama, ar paskirstos formatas yra mašininis.",
+                    "keywords_desc_4": "Tikrinama, ar paskirstos formatas nėra patentuotas.",
+                    "keywords_desc_3": "Tikrinama, ar formatas ir laikmenos tipas priklauso kontroliuojamam žodynui.",
+                    "keywords_desc_2": "Šiame lauke nurodytas paskirstos laikmenos formatas.",
+                    "keywords_desc_1": "Šiame lauke nurodytas paskirstos failo formatas.",
+                    "keywords_metric_6": "<p>Duomenys patvirtinami pagal <a href=’https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe/releases’ target=’_blank’>SHACL formų rinkinį</a>. Metaduomenys neatitinka reikalavimų, jei SHACL patvirtinimo ataskaitoje pateikiama bent viena problema.</p>\n\n<p>MQA naudoja <a href=’/shacl’ target=’_blank’>data.europa.eu DCAT-AP SHACL</a> patvirtinimo paslaugą.</p> \n\n<p><a href=’https://www.w3.org/TR/shacl/’ target=’_blank’>SHACL</a> yra W3C rekomendacija ir naudojama tvirtinant RDF grafikus pagal formų rinkinį.</p>",
+                    "keywords_metric_5": "Platinimas laikomas kompiuterio skaitomu, jei nurodytas formatas yra atitinkamame data.europa.eu <a href=’https://gitlab.com/european-data-portal/edp-vocabularies’ target=’_blank’>GitLab saugykloje</a> žodyne.",
+                    "keywords_metric_4": "Platinimas laikomas nepatentuotu, jei nurodytas formatas yra atitinkamuose datas.europa.eu <a href=’https://gitlab.com/european-data-portal/edp-vocabularies’ target=’_blank’>GitLab saugykla</a> žodynas.",
+                    "keywords_metric_3": "<p>formatūros žodyną galima rasti data.europa.eu <a href=’https://gitlab.com/european-data-portal/edp-vocabularies’ target=’_blank’>GitLab saugykla</a>.</p>\n\n<p>Žiniasklaidos tipas tikrinamas pagal <a href=’https://www.iana.org/assignments/media-types/media-types.xhtml’ target=’_blank’>IANA list</a></p>",
+                    "keywords_metric_2": "<p>Tikrinama, ar ypatybė nustatyta, ar ne.</p>",
+                    "keywords_metric_1": "<p>Tikrinama, ar ypatybė nustatyta, ar ne.</p>",
+                    "keywords_name_6": "DCAT-AP reikalavimų laikymasis",
+                    "keywords_name_5": "Mašininis",
+                    "keywords_name_4": "Nepatentuotas",
+                    "keywords_name_3": "Formatas / laikmenos tipas iš žodyno",
+                    "keywords_name_2": "Laikmenos tipas",
+                    "keywords_name_1": "Formatas",
+                    "dcat_name_6": "Duomenų aibė ir paskirsta",
+                    "dcat_name_5": "DCT:Format dcat:MediaType arba (arba) subnuosavybė",
+                    "dcat_name_4": "DCT:Format dcat:MediaType arba (arba) subnuosavybė",
+                    "dcat_name_3": "DCT:Format dcat:MediaType arba (arba) subnuosavybė",
+                    "dcat_name_2": "dcat:MediaType or subproperty of dct:Format",
+                    "dcat_name_1": "dct:Format"
+                },
+                "findability": {
+                    "keywords_desc_4": "Laiko informacijos naudojimas leidžia naudotojams atlikti paiešką pagal laiko aspektus.",
+                    "keywords_desc_3": "Erdvinės informacijos naudojimas leidžia naudotojams susirasti duomenų aibę atliekant paiešką pagal geografinius aspektus.",
+                    "keywords_desc_2": "Kategorijos padeda naudotojams duomenų aibes tyrinėti pagal temas.",
+                    "keywords_desc_1": "Raktažodžiai tiesiogiai prisideda prie paieškos, todėl padidina duomenų aibės randamumą.",
+                    "keywords_metric_4": "Tikrinama, ar ypatybė nustatyta, ar ne.",
+                    "keywords_metric_3": "Tikrinama, ar ypatybė nustatyta, ar ne.",
+                    "keywords_metric_2": "Tikrinama, ar duomenų aibei priskirta viena arba kelios kategorijos. Priskirtų kategorijų skaičius balui įtakos neturi.",
+                    "keywords_metric_1": "Sistema tikrina, ar apibrėžti raktažodžiai. Raktažodžių skaičius balui įtakos neturi.",
+                    "keywords_name_4": "Paieška pagal laiką",
+                    "keywords_name_3": "Geografinė paieška",
+                    "keywords_name_2": "Kategorijos",
+                    "keywords_name_1": "Raktažodžių naudojimas",
+                    "dcat_name_4": " dcat:temporal",
+                    "dcat_name_3": "dcat:spatial",
+                    "dcat_name_2": "dcat:theme",
+                    "dcat_name_1": "dcat:Keyword",
+                    "main_text": "<p> Tolesnėje lentelėje apibūdinami vertinimo indikatoriai, kurie padeda žmonėms ir kompiuteriams rasti duomenų aibes. Šioje srityje galima surinkti ne daugiau kaip 100 taškų.</p>"
+                },
+                "main_text": "<p>Šioje skiltyje aiškinami visi matmenys, kuriuos MKU tiria, kad nustatytų kokybę. Matmenys gaunami iš <a target='_blank' href='https://www.go-fair.org/fair-principles/'>FAIR principų <i class='fas fa-external-link-alt fa-sm'></i></a>.</p>"
+            },
+            "scoring": {
+                "table": {
+                    "bad": "Blogas",
+                    "range": "Taškų diapazonas",
+                    "sufficient": "Pakankamas",
+                    "scoring_cat": "Įvertis",
+                    "good": "Geras",
+                    "max_points": "Maksimalus taškų kiekis",
+                    "excellent": "Puikus",
+                    "sum": "Suma",
+                    "dimension": "Matmuo"
+                },
+                "main_text": "Bendrasis duomenų aibės vertinimo rezultatų įvertis, gaunamas sudėjus už kiekvieną aspektą gautus taškus.",
+                "text": "Galutinis įvertis gaunamas pagal keturias įverčio grupes. Taškų sąsajos su vertinimo kategorija pavaizduotos toliau pateiktoje lentelėje. Įverčio reprezentavimas MKV išreiškiamas tik per vertinimo kategorijas. Tai leidžia duomenų teikėjams pasiekti aukščiausią įvertį, net ir nuskaičiavus šiek tiek taškų.",
+                "headline": "Įvertis"
+            },
+            "headline": "Metaduomenų kokybės vertinimo metodologija",
+            "cover": {
+                "validator_service": "DCAT-AP SHACL patvirtinimo paslaugos API",
+                "main_text": " <p> MQA riboja metaduomenys, kuriuos ji gali nagrinėti. Tyrimas apima tik metaduomenis, kuriuos data.europa.eu renka derliaus nuėmimo proceso metu. Jei šaltinio metaduomenyse yra klaidų, jos gali suklastoti bendrą rezultatą. Siekiant apriboti šį klaidų potencialą, MQA teikia patvirtinimo paslaugą, kurią duomenų teikėjai gali naudoti patvirtindami savo metaduomenis galiojantiems formatams ir atitinkantiems DCAT-AP prieš juos integruodami į derliaus nuėmimo procesą.",
+                "validator_ui": "DCAT-AP SHACL patvirtinimo paslaugos tinklalapis ",
+                "headline": "Kas nėra vertinama"
+            },
+            "process": {
+                "main_text": "<p> Kiekvieno gavybos proceso metu surinkti metaduomenys taip pat tikrinami su MKV. MKV matuoja įvairių indikatorių kokybę; kiekvienas iš šių indikatorių aiškinami toliau pateiktose lentelėse. Patikrų rezultatai laikomi duomenų kokybės žodyne <a href=‘https://www.w3.org/TR/vocab-dqv/‘>(DKŽ) <i class='fas fa-external-link-alt fa-sm'></i></a>. DKŽ – tai W3C specifikacija, naudojama duomenų aibės kokybei apibūdinti.</p>\n\n<p>Kadangi prieinamumas gali būti nepastovus, būtinos pakartotinės prieigos URL ir atsisiuntimo URL patikros. Dėl šios priežasties MKV reguliariai tikrina visų paskirstų prieinamumą. Priešingai nei kitų indikatorių tikrinimo atveju, šio tikrinimo vykdymo trukmė ilgesnė, nes paskirstos tikrinamos per HTTP, todėl kiekvieno URL, kuriam siunčiama užklausa, atsako laikas gali būti ilgesnis. MKV naudoja mechanizmą, kuris atsižvelgia į tai, kad kiekvieno URL prieinamumas pakartotinai tiriamas praėjus kelioms savaitės nuo paskutinės peržiūros. </p>",
+                "headline": "MKV procesas"
+            },
+            "scope": {
+                "main_text": "<p> Su MKV bandome atsakyti į šiuos klausimus: <br> Kokia viešojo sektoriaus duomenų metaduomenų kokybė visos Europos mastu ir kokios didžiausios kliūtys siekiant geresnės jų kokybės? </p><p>Remiantis tuo MKV šiuo metu nagrinėja šiuos konkrečius klausimus:</p><ul><li> CDCAT-AP ir DCAT-AP išvedinių reikalavimų tenkinimas</li><li> Informacijos, kuriai DCAT-AP taikymas nėra būtinas, atskleidimas</li><li> Duomenų, nurodytų metaduomenyse, prieinamumas per prieigos ir atsisiuntimo URL</li><li> Nurodytų duomenų mašininis skaitymas </li><li> Licencijų naudojimas</li></ul><p> Kiekvienam iš šių klausimų būtinas individualus tyrimas ir jie smulkiau aptariami toliau.</p>",
+                "headline": "Tyrimo apimtis"
+            },
+            "assumptions": {
+                "main_text": "<p> MQA yra pagrįstas šiomis prielaidomis.</p><h6> Naudoti neprivalomus laukus</h6><p>Mes manome, kad vien DCAT-AP privalomų laukų užpildymo nepakanka aukštos kokybės metaduomenims pateikti. Dėl šios priežasties vertinime taip pat tikrinami laukeliai, kurie pagal DCAT-AP nėra nurodyti kaip privalomi. Tikslūs laukai, kurie yra tikrinami žemiau.</p><h6> \n\nIdentiškas turinys keliems distribucijoms</h6><p>Jei duomenų rinkinyje yra daugiau nei vienas platinimas, visi skirstymai yra identiški turiniui, jie skiriasi tik duomenų atvaizdavimu. Pavyzdžiui, duomenų rinkinys gali turėti du distribucijas: vienas siūlo duomenis kaip PDF, o kitas siūlo identiškus duomenis kaip mašininio nuskaitymo RDF/XML. Ši apibrėžtis yra susijusi su tuo, kaip duomenų rinkiniai vertinami MQA („geriausia praktika“), tačiau neturėtų būti laikoma standartine distribucijos apibrėžtimi.</p>",
+                "headline": "Prielaidos"
+            },
+            "intro_text": "<p><strong>Metaduomenų kokybės vertinimas (MQA) – tai data.europa.eu konsorciumo sukurta priemonė, skirta tirti data.europa.eu.lt;/strong> Surinktų metaduomenų kokybę. Rezultatai pateikiami per MQA ir taip pat yra prieinami kaip atsisiųsti. Toliau aprašome MQA funkcionalumą ir jos naudojamą metodiką.</p>\n<p> Jei šis puslapis vis dar neatsako į visus jūsų klausimus, prašome susisiekti su mumis per mūsų atsiliepimų formą puslapio pabaigoje. </p>",
+            "sub_headline": "Kaip data.europa.eu matuojama visų saugomų metaduomenų kokybė"
+        },
+        "header": {
+            "navigation": {
+                "usingData": {
+                    "checklistForUsingData": "Duomenų naudojimo kontrolinis sąrašas",
+                    "useCases": "Naudojimo atvejai",
+                    "tellUsYourStory": "Papasakokite savo istoriją",
+                    "title": "Duomenų naudojimas",
+                    "benefitsOfUsingData": "Duomenų naudojimo nauda"
+                },
+                "impactStudies": {
+                    "useCases": "Naudojimo atvejai",
+                    "overview": "Apžvalga",
+                    "opendatamaturity": "Atvirųjų duomenų užbaigtumas",
+                    "countryInsights": "Šalių įžvalgos",
+                    "tellUsYourStory": "Papasakokite savo istoriją",
+                    "studies": "Tyrimai",
+                    "opendataimpact": "Atvirųjų duomenų poveikis",
+                    "title": "Poveikis ir tyrimai"
+                },
+                "training": {
+                    "dataProvidersGuide": "Duomenų teikėjo vadovas",
+                    "whatIsOpenData": "Atvirieji duomenys: kas tai?",
+                    "title": "Mokymas",
+                    "elearning": "e. mokymasis",
+                    "moreTrainingMaterial": "Daugiau mokomosios medžiagos",
+                    "licensingAssistant": "Licencijų išdavimo asistentas"
+                },
+                "data": {
+                    "datasets": "Duomenų rinkiniai",
+                    "sparqlsearch": "SPARQL paieška",
+                    "metadataQuality": "Metaduomenų kokybė",
+                    "licensingAssistant": "Licencijų išdavimo asistentas",
+                    "title": "Duomenys",
+                    "statistics": "Statistika",
+                    "euInternationalData": "ES ir tarptautiniai duomenys",
+                    "sparqlManager": "SPARQL tvarkymo programa",
+                    "catalogues": "Katalogai",
+                    "countryData": "Šalių duomenys"
+                },
+                "resources": {
+                    "moreTrainingMaterial": "Daugiau mokomosios medžiagos",
+                    "title": "Ištekliai",
+                    "elearning": "e. mokymasis",
+                    "trainingCompanion": "Mokymo vadovas",
+                    "reportsAboutOpenData": "Ataskaitos apie atviruosius duomenis"
+                },
+                "providingData": {
+                    "beHarvestedByUs": "Mes galime rinkti jūsų duomenis",
+                    "title": "Duomenų teikimas",
+                    "cataloguesHarvestedByUs": "Katalogai, iš kurių mes renkame duomenis",
+                    "practicalGuide": "Auksinė knyga"
+                },
+                "whatWeDo": {
+                    "openDataMaturity": "Atvirųjų duomenų užbaigtumas",
+                    "ourActivities": "Mūsų veikla",
+                    "factsheetsAndReports": "Informacijos suvestinės ir ataskaitos",
+                    "title": "Ką mes darome",
+                    "calendar": "Kalendorius",
+                    "featuredHighlights": "Svarbiausia informacija",
+                    "news": "Naujienos"
+                },
+                "about": {
+                    "beHarvestedByUs": "Mes galime rinkti jūsų duomenis",
+                    "documentation": "Dokumentai",
+                    "title": "Apie",
+                    "europeanDataPortal": "Europos Duomenų Portalas"
+                },
+                "newsEvents": {
+                    "title": "Naujienos ir įvykiai",
+                    "events": "Įvykiai",
+                    "news": "Naujienos"
+                }
+            },
+            "subnav": {
+                "contact": "Kontaktai",
+                "legalNotice": "Teisinis pranešimas",
+                "search": "Ieškoti",
+                "newsletter": "Naujienlaiškis",
+                "cookies": "Slapukai",
+                "login": "Prisijungti",
+                "faq": "DUK"
+            },
+            "searchInputPlaceholder": "Ieškoti svetainės turinyje...",
+            "european": "Europos",
+            "searchOptions": {
+                "siteContent": "Svetainės turinys",
+                "datasets": "Duomenų rinkiniai"
+            },
+            "dataPortal": "duomenų portalas"
+        },
+        "footer": {
+            "links": {
+                "search": "Ieškoti",
+                "newsletter": "Naujienlaiškis",
+                "faq": "DUK",
+                "contact": "Kontaktai",
+                "subscribe": "Prenumeruoti",
+                "cookies": "Slapukai",
+                "login": "Prisijungti",
+                "legalNotice": "Teisinis pranešimas"
+            },
+            "managedBy": "Tvarko Europos Sąjungos leidinių biuras.",
+            "fundedBy": "Finansuoja Europos Sąjunga",
+            "newsletter": "Prenumeruokite mūsų naujienlaiškį",
+            "helpUsImproveText": "Jūsų atsiliepimai mums padės užtikrinti geresnę bendrą vartotojų patirtį. \nTurite pasiūlymų?",
+            "newsletterText": "Prenumeruokite mūsų naujienlaiškį",
+            "subscribe": "Prenumeruoti",
+            "followUs": "Sekite mus",
+            "lastUpdate": "Paskutinį kartą atnaujinta",
+            "helpUsImprove": "Padėkite mums tobulėti"
+        },
+        "maintenance_message": "Puikios naujienos! Tobuliname savo sistemą. Šiuo metu šis elementas veikia taisymo režimu ir gali nerodyti visų turimų duomenų.",
+        "catalogue_list": {
+            "description": "Pasirinkite katalogą, apie kurį norite sužinoti daugiau",
+            "search": {
+                "placeholder": "Ieškoti katalogo pavadinimo arba aprašymo"
+            }
+        },
+        "title": "Metadata Quality Assurance",
+        "empty": "",
+        "no_data": "Šiam indikatoriui skirtų matavimų nėra",
+        "meta": {
+            "description": "Metaduomenų kokybės užtikrinimo sistemoje pateikiama bendra visų metaduomenų, kuriuos galima rasti data.europa.eu atvirųjų duomenų portale pagal įvairius rodiklius, apžvalga."
+        }
+    }
+}

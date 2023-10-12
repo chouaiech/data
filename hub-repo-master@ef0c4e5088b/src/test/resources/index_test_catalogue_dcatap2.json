@@ -1,0 +1,85 @@
+{
+  "country": {
+    "resource": "http://publications.europa.eu/resource/authority/continent/EUROPE",
+    "label": "EU institutions",
+    "id": "eu"
+  },
+  "creator": {
+    "name": "Example Creator",
+    "type": "Agent",
+    "resource": "http://somecreator.example.com",
+    "email": "creator@example.com",
+    "homepage": "www.example.com"
+  },
+  "catalog": [
+    "https://piveau.io/id/catalogue/test-catalog"
+  ],
+  "is_part_of": "https://piveau.io/id/catalogue/test-catalog",
+  "description": {
+    "en": "This catalog holds example DCAT-AP 2 datasets."
+  },
+  "language": [
+    {
+      "resource": "http://publications.europa.eu/resource/authority/language/ENG",
+      "id": "en",
+      "label": "English"
+    }
+  ],
+  "title": {
+    "en": "DCAT-AP 2 Showroom"
+  },
+  "theme_taxonomy": [
+    "http://publications.europa.eu/resource/authority/data-theme"
+  ],
+  "license": {
+    "description": "Naamsvermelding-GelijkDelen 3.0 Nederland",
+    "la_url": "https://data.europa.eu/en/content/show-license?license_id=CC-BY-SA3.0NL",
+    "id": "CC_BYSA_3_0_NL",
+    "label": "Naamsvermelding-GelijkDelen 3.0 Nederland",
+    "resource": "https://creativecommons.org/licenses/by-sa/3.0/nl/legalcode/"
+  },
+  "rights": {
+    "resource": "http://rights.example.com",
+    "label": "public"
+  },
+  "publisher": {
+    "name": "European Commission",
+    "type": "Organization",
+    "resource": "http://publications.europa.eu/resource/authority/corporate-body/COM",
+    "homepage": "https://ec.europa.eu"
+  },
+  "id": "dcatap2-showcase",
+  "has_part": [
+    "https://piveau.io/id/catalogue/test-catalog"
+  ],
+  "spatial": [
+    {
+      "coordinates": [
+        [
+          [
+            12.915,
+            53.1485
+          ],
+          [
+            12.915,
+            53.1985
+          ],
+          [
+            12.9983,
+            53.1985
+          ],
+          [
+            12.9983,
+            53.1485
+          ],
+          [
+            12.915,
+            53.1485
+          ]
+        ]
+      ],
+      "type": "Polygon"
+    }
+  ],
+  "homepage": "https://piveau.io/data/datasets?catalog=dcatap2-showroom&showcataloguedetails=true&locale=de"
+}

@@ -1,0 +1,65 @@
+@prefix vcard:  <http://www.w3.org/2006/vcard/ns#> .
+@prefix foaf:   <http://xmlns.com/foaf/0.1/> .
+@prefix dcat:   <http://www.w3.org/ns/dcat#> .
+@prefix dqv:   <http://www.w3.org/ns/dqv#> .
+@prefix dc:     <http://purl.org/dc/terms/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <http://schema.org/> .
+@prefix loc:    <http://www.w3.org/ns/locn#> .
+@prefix spdx:    <https://spdx.org/rdf/terms/#> .
+
+<https://example.de/def/contact/fokus=mailto:contact@example.de>
+    a              vcard:Organization ;
+    vcard:fn       "Fraunhofer FOKUS" ;
+    vcard:hasEmail <mailto:contact@example.de> .
+
+<https://example.de/def/publisher/fokus=mailto:publisher@example.de>
+    a         foaf:Organization ;
+    foaf:mbox "mailto:publisher@example.de" ;
+    foaf:name "Fraunhofer FOKUS" .
+
+
+<https://example.eu/set/data/test-dataset-1>
+    a                     dcat:Dataset ;
+    dc:modified           "2019-12-06T09:47:08.360541"^^xsd:dateTime ;
+    dc:issued             "2018-08-16T00:00:00"^^xsd:dateTime ;
+    dcat:distribution     <https://example.eu/set/distribution/49c09c2a-9fe0-48e4-a7c0-3ca8aab27d2f> ;
+    dcat:theme            <http://publications.europa.eu/resource/authority/data-theme/ECON>,
+                          <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
+    dcat:keyword          "landkreis-a", "höchster-kaufwert",
+                          "durchschnittlicher-kaufwert", "baureifes-land", "veräußerte-fläche", "landkreis-b",
+                          "kauffälle", "landkreis-bc-land", "niedrigster-kaufwert" ;
+    dc:temporal           [ a                dc:PeriodOfTime ;
+                            schema:startDate "1993-01-01T00:00:00"^^xsd:dateTime ;
+                            schema:endDate   "1994-01-31T00:00:00"^^xsd:dateTime ] ;
+    dcat:contactPoint     <https://example.de/def/contact/fokus=mailto:contact@example.de> ;
+    dcat:landingPage      <http://landingpage.de> ;
+    dc:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/ANNUAL> ;
+    dc:description        "This is a second example dataset" ;
+    dc:publisher          <https://example.de/def/publisher/fokus=mailto:publisher@example.de> ;
+    dc:spatial            [ a            dc:Location ;
+                            loc:geometry "POLYGON((11.67 51.8,15.05 51.8,15.05 50,11.67 50,11.67 51.8))"^^<http://www.openlinksw.com/schemas/virtrdf#Geometry>,
+                                         "{\"type\": \"Polygon\", \"coordinates\": [[[11.67, 51.8], [15.05, 51.8], [15.05, 50.0], [11.67, 50.0], [11.67, 51.8]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json> ] ;
+    dc:title              "Example Dataset 1" ;
+    dc:identifier         "https://www.statistik.sachsen.de/genonline/online?sequenz=tabelleErgebnis&selectionname=61511-032K&regionalschluessel=" .
+
+<https://example.eu/set/distribution/49c09c2a-9fe0-48e4-a7c0-3ca8aab27d2f>
+    a              dcat:Distribution ;
+    dc:format      "CSV" ;
+    dcat:accessURL <https://www.statistik.sachsen.de/genonline/online?sequenz=tabelleDownload&selectionname=61511-032K&regionalschluessel=> ;
+    dc:license     <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcat:mediaType "text/csv" ;
+    dc:description "CSV-Datei der Tabelle" ;
+    dc:language    <http://publications.europa.eu/resource/authority/language/DEU> ;
+    dc:identifier  "https://www.statistik.sachsen.de/genonline/61511-032k" .
+
+<https://example.eu/set/record/test-dataset-1>
+    a                   dcat:CatalogRecord ;
+    dc:created          "2019-12-06T18:26:38Z"^^xsd:dateTime ;
+    dc:modified         "2019-12-06T18:26:38Z"^^xsd:dateTime ;
+    foaf:primaryTopic   <https://example.eu/set/data/test-dataset-1> ;
+    spdx:checksum       [ a                 spdx:Checksum ;
+                          spdx:algorithm     spdx:checksumAlgorithm_md5 ;
+                          spdx:checksumValue "c4d6e40388e7e7f7c4ef0ff0f76b12f" ] ;
+    dqv:hasQualityMetadata <https://example.eu/id/metrics/test-dataset-1> ;
+    dc:identifier       "https://www.statistik.sachsen.de/genonline/online?sequenz=tabelleErgebnis&selectionname=61511-032K&regionalschluessel=" .

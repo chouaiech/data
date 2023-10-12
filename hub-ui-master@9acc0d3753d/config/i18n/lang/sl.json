@@ -1,0 +1,970 @@
+{
+    "message": {
+        "metadata": {
+            "catalogRecord": "Katalogski zapis",
+            "deleteItem": "Ali ste prepričani, da želite izbrisati to postavko?",
+            "availability": "Razpoložljivost",
+            "versionInfo": "Info o verziji",
+            "chooseCategory": "Izberi kategorijo",
+            "chooseFile": "Izberi datoteko",
+            "versionNotes": "Opombe k verziji",
+            "review": "Revizija",
+            "tooltipKeywords": "Vnesi ključne besede svoje zbirke podatkov!",
+            "pageDescriptionDataset": "Svoji zbirki podatkov dodaj naslov, opis, katalog, ključne besede in kategorije!",
+            "no": "Ne",
+            "relatedResources": "sorodni predmeti",
+            "pageDescriptionPublisher": "Svoji zbirki podatkov dodaj vrsto založnika, ime in domačo stran!",
+            "tooltipTitle": "Vnesi naslov svoje zbirke podatkov!",
+            "linkedData": "Povezani podatki",
+            "numSeries": "Število serij podatkov",
+            "releaseDate": "Datum izdaje",
+            "yes": "Da",
+            "unitsOfMeasurement": "Merske enote",
+            "distributionsEmpty": "Oprostite, trenutno nobena od naloženih distribucij ni na voljo za to podatkovno zbirko. Prosimo, dodajte vsaj eno distribucijo!",
+            "enterDownloadUrl": "Vnesite URL za prenos",
+            "frequency": "Pogostost",
+            "type": "Tip",
+            "telephone": "Telefon",
+            "label": "Oznaka",
+            "addedToDataEuropaEU": "Dodano v data.europa.eu",
+            "tooltipCategories": "Izberi kategorije svoje zbirke podatkov!",
+            "temporal": "Časovna pokritost",
+            "enterDescription": "Vnesi opis",
+            "accrualPeriodicity": "Periodičnost nastanka poslovnega dogodka",
+            "showXMore": "Pokaži {increment} več ",
+            "identifier": "Identifikator",
+            "isPartOf": "Je podkabel kataloga",
+            "dataServices": "Podatkovne storitve",
+            "chooseType": "Izberi vrsto",
+            "organizationName": "Katalog Pravice Kraj besedilo",
+            "catalog": "Katalog",
+            "qualityAnnotations": "Opombe o kakovosti",
+            "update": "Posodobi",
+            "showAll": "Pokaži vse ",
+            "coordinates": "Usklajuje",
+            "email": "E-pošta",
+            "tooltipContactType": "Izberi vrsto točke za stik svoje zbirke podatkov!",
+            "checksum": "Kontrolna vsota",
+            "enterEmail": "Vnesi e-poštni naslov",
+            "cancel": "Izbriši",
+            "conformsTo": "Ustreza",
+            "downloadUrl": "Prenos naslova URL",
+            "chooseLicense": "Izberi licenco",
+            "tooltipDescription": "Vnesi opis svoje zbirke podatkov!",
+            "tags": "Oznake",
+            "accessUrl": "Dostop do naslova URL",
+            "languages": "Jeziki",
+            "title": "Naslov",
+            "enterTitle": "Vnesi naslov",
+            "url": "Katalog",
+            "resource": "Vir",
+            "tooltipPublisherHomepage": "Vnesi domačo stran založnika svoje zbirke podatkov!",
+            "creator": "Ustvarjalec",
+            "description": "Opis",
+            "spatial": "Prostorski",
+            "readLess": "Preberite manj",
+            "tooltipPublisherType": "Izberi vrsto založnika svoje zbirke podatkov!",
+            "accessRights": "Pravice za dostop",
+            "tooltipDistributionDownloadUrl": "Vnesi URL za prenos svoje distribucije!",
+            "attributes": "Atributi",
+            "mediaType": "Vrsta medija",
+            "categories": "Kategorije",
+            "pageDescriptionDistribution": "Svoji zbirki podatkov dodaj distribucije!",
+            "pages": "Stran",
+            "goToCatalog": "Pojdi na stran kataloga",
+            "tooltipDistributionDescription": "Vnesi opis svoje distribucije!",
+            "identifiers": "Identifikatorji",
+            "scheme": "Shema pomoči",
+            "contactPoints": "Kontaktne točke",
+            "hasPart": "Ima podknjižbo",
+            "showLess": "Prikaži manj",
+            "byteSize": "Velikost v bajtih",
+            "tooltipCatalog": "Izberi katalog svoje zbirke podatkov!",
+            "methodologyPage": "Stran z metodologijo MQA",
+            "hasVersion": "Ima verzijo",
+            "useDownloadUrl": "Vnesti želim prenos URL-ja in ne naložiti datoteke!",
+            "created": "Ustvarjeno",
+            "themeTaxonomy": "Tematska taksonomija",
+            "homepage": "Domača stran",
+            "address": "Naslov",
+            "visualisations": "Vizualizacije",
+            "tooltipDistributionFormat": "Izberi format svoje dristribucije!",
+            "upload": "Naloži",
+            "notFound": "Ni zadetkov",
+            "dimensions": "Mere",
+            "addDistribution": "Dodaj distribucijo",
+            "name": "Ime",
+            "metadataQuality": "Kakovost metapodatkov",
+            "provenances": "Izvor",
+            "enterKeywords": "Vnesi ključne besede",
+            "landingPage": "Ciljna stran",
+            "tooltipDistributionTitle": "Vnesi naslov svoje distribucije!",
+            "license": "Licenca",
+            "chooseCatalog": "Izberi katalog",
+            "enterHomepage": "Vnesi domačo stran",
+            "tooltipDistributionLicence": "Izberi licenco svoje distribucije!",
+            "readMore": "Preberite več",
+            "format": "Format",
+            "chooseFormat": "Izberi format",
+            "publisher": "Objavil",
+            "dataset": "Zbirka podatkov",
+            "updated": "Posodobljeno",
+            "pageDescriptionUpload": "Dodaj datoteke svojim distribucijam!",
+            "spatialResource": "Prostorski viri",
+            "distribution": "Distribucija",
+            "tooltipContactName": "Vnesi ime točke za stik svoje zbirke podatkov!",
+            "distributions": "Distribucije",
+            "status": "Status",
+            "datasets": "Zbirke podatkov",
+            "showMore": "Prikaži več",
+            "rights": "Pravice",
+            "tooltipContactEmail": "Vnesi e-poštni naslov točke za stik svoje zbirke podatkov!",
+            "otherIdentifiers": "Drugi identifikatorji",
+            "tooltipPublisherName": "Vnesi ime založnika svoje zbirke podatkov!",
+            "enterName": "Vnesi ime",
+            "documentations": "Dokumentacija",
+            "sources": "Viri",
+            "modificationDate": "Datum spremembe",
+            "isVersionOf": "Verzija",
+            "pageDescriptionContactPoint": "Svoji zbirki podatkov dodaj vrsto točke za stik, ime in e-poštni naslov!",
+            "goToDataset": "Pojdi na stran zbirk podatkov",
+            "updatedOnDataEuropaEU": "Posodobljeno na spletišču Data.europa.eu"
+        },
+        "dataupload": {
+            "info": {
+                "defaultdescription": "Za prikaz podrobne razlage polja kliknite ikono z informacijami.",
+                "information": "Informacije"
+            },
+            "datasets": {
+                "step2": {
+                    "source": {
+                        "label": "Vir"
+                    },
+                    "type": {
+                        "placeholder": "Besedilo vrste mesta podatkovnega niza"
+                    },
+                    "subject": {
+                        "help": "Kategorija nabora podatkov."
+                    },
+                    "isReferencedByUrl": {
+                        "label": "Naslov URL"
+                    },
+                    "contactPointAddressStreet": {
+                        "placeholder": "Besedilo „Kontaktna točka za naslov naslov“ Uporaba mesta"
+                    },
+                    "conformsTo": {
+                        "placeholder": "Nabor podatkov je skladen z besedilom imetnika"
+                    },
+                    "isVersionOf": {
+                        "label": "Različica SVZ"
+                    },
+                    "provenance": {
+                        "label": "Izvor"
+                    },
+                    "language": {
+                        "label": "Jezik"
+                    },
+                    "qualifiedAttribution": {
+                        "help": "Povezava z agentom, ki je v neki obliki odgovoren za vir"
+                    },
+                    "temporal": {
+                        "placeholder": "Podatkovni niz – Časovni prostor – besedilo imetnika podatkov"
+                    },
+                    "accessRights": {
+                        "info": "Ta lastnost se nanaša na informacije, ki kažejo, ali je nabor podatkov odprt podatek, ali ima omejitve dostopa ali ni javen."
+                    },
+                    "identifier": {
+                        "help": "Ta lastnost vsebuje glavni identifikator nabora podatkov."
+                    },
+                    "versionInfo": {
+                        "help": "Številka različice podatkovnega niza."
+                    },
+                    "hasVersion": {
+                        "info": "Zadeva povezani nabor podatkov, ki je različica, izdaja ali prilagoditev opisanega nabora podatkov."
+                    },
+                    "wasGeneratedBy": {
+                        "add-label": "Dodaj, ki jih je ustvaril"
+                    },
+                    "qualifiedRelation": {
+                        "label": "Razmerje s kvalifikacijo"
+                    },
+                    "conformsToTitle": {
+                        "label": "Naslov"
+                    },
+                    "creatorType": {
+                        "label": "Tip"
+                    },
+                    "spatial": {
+                        "info": "Ta lastnost se nanaša na geografsko regijo, ki jo zajema nabor podatkov."
+                    },
+                    "temporalResolutionMonth": {
+                        "label": "ekonomsko analizo – 11. 2021"
+                    },
+                    "contactPointName": {
+                        "label": "Ime"
+                    },
+                    "temporalResolutionMinute": {
+                        "placeholder": "Statistika v žarišču"
+                    },
+                    "contactPointEmail": {
+                        "label": "E-pošta"
+                    },
+                    "contactPointOrganisationName": {
+                        "label": "Ime organizacije"
+                    },
+                    "contactPoint": {
+                        "help": "Ta lastnost vsebuje kontaktne podatke."
+                    },
+                    "temporalResolutionDay": {
+                        "placeholder": "Okolje in energija"
+                    },
+                    "provenanceText": {
+                        "placeholder": "Podatkovni niz Provenance Text placeholder text"
+                    }
+                },
+                "step1": {
+                    "publisherType": {
+                        "placeholder": "Besedilo nabora podatkov o tipu mesta izdajatelja"
+                    },
+                    "datasetID": {
+                        "label": "Ta mesečni pregled daje sintetično sliko makroekonomskih razmer v zadnjem času."
+                    },
+                    "modified": {
+                        "label": "Spremenjen"
+                    },
+                    "publisher": {
+                        "label": "Založnik"
+                    },
+                    "issued": {
+                        "help": "Datum uradne izdaje (npr. objava) nabora podatkov. Sprejemljive oblike datuma: LLLL-MM-DD, LLLL-MM, LLLL."
+                    },
+                    "publisherHomepage": {
+                        "label": "Domača stran"
+                    }
+                },
+                "step3": {
+                    "spatialResolutionInMeters": {
+                        "help": "Minimalno prostorsko ločevanje, ki ga je mogoče rešiti v naboru podatkov."
+                    },
+                    "mediaType": {
+                        "placeholder": "Besedilo vrste mesta distribucijskega medija"
+                    },
+                    "language": {
+                        "help": "Jezik, ki se uporablja pri distribuciji."
+                    },
+                    "title": {
+                        "info": "Ta lastnost vsebuje ime distribucije. Ta lastnost se lahko ponovi za vzporedne jezikovne različice opisa."
+                    },
+                    "status": {
+                        "label": "Status"
+                    },
+                    "checksum": {
+                        "placeholder": "Distribucijsko besedilo „Checksum placeholder“"
+                    },
+                    "hasPolicyUrl": {
+                        "placeholder": "Distribucija Has Policy Url placeholder text (besedilo o politiki Url)"
+                    },
+                    "page": {
+                        "help": "Stran ali dokument o tej distribuciji."
+                    },
+                    "availability": {
+                        "placeholder": "Distribucijsko besedilo o razpoložljivosti mesta"
+                    },
+                    "format": {
+                        "placeholder": "Besedilo obrazca za razpošiljanje"
+                    },
+                    "conformsTo": {
+                        "add-label": "Dodaj skladnost k"
+                    },
+                    "issued": {
+                        "label": "Izdan"
+                    },
+                    "description": {
+                        "help": "Ta lastnina vsebuje prostobesedni račun distribucije."
+                    },
+                    "hasPolicy": {
+                        "help": "Politiko, ki izraža pravice."
+                    },
+                    "temporalResolutionMonth": {
+                        "label": "Podatkovni niz Kontaktni naslov Pomoč besedilo"
+                    },
+                    "temporalResolutionHour": {
+                        "placeholder": "Ta lastnost se nanaša na kategorijo nabora podatkov."
+                    },
+                    "licence": {
+                        "help": "Licenca, v skladu s katero je distribucija dana na voljo."
+                    },
+                    "date": {
+                        "label": "Incidenti zaradi COVID-19 JSON"
+                    }
+                },
+                "stepper": {
+                    "step3": {
+                        "children": {
+                            "distribution3": {
+                                "name": "Dodatne informacije"
+                            },
+                            "distribution4": {
+                                "name": "Dodatne informacije"
+                            },
+                            "distribution1": {
+                                "name": "Splošne informacije"
+                            },
+                            "distribution2": {
+                                "name": "Dodatne informacije"
+                            }
+                        }
+                    },
+                    "overview": "Podatkovni niz Pregled"
+                }
+            },
+            "catalogues": {
+                "step2": {
+                    "isPartOf": {
+                        "info": "Ta lastnina se nanaša na s tem povezan katalog, v katerega je fizično ali logično vključen opisani katalog."
+                    },
+                    "language": {
+                        "help": "Jezik, ki se uporablja v besedilnih metapodatkih, ki opisujejo naslove, opise itd."
+                    },
+                    "spatial": {
+                        "info": "Ta lastnost se nanaša na geografsko območje, zajeto v katalogu."
+                    },
+                    "hasPart": {
+                        "help": "Ta nepremičnina se nanaša na s tem povezan katalog, ki je del opisanega kataloga."
+                    },
+                    "creator": {
+                        "add-label": "ekonomsko analizo – kaže razvoj gospodarske dejavnosti v Evropski uniji, euroobmočju in državah članicah."
+                    },
+                    "creatorName": {
+                        "label": "1.."
+                    }
+                },
+                "step1": {
+                    "title": {
+                        "help": "Ime kataloškega zapisa. "
+                    },
+                    "description": {
+                        "info": "Ta lastnina vsebuje poljubni račun zapisa. Ta lastnost se lahko ponovi za vzporedne jezikovne različice opisa."
+                    },
+                    "licence": {
+                        "placeholder": "Besedilo kataloškega mesta za izdajo dovoljenja"
+                    },
+                    "modified": {
+                        "label": "Spremenjen"
+                    },
+                    "licenceDescription": {
+                        "label": "Opis licence"
+                    },
+                    "homepage": {
+                        "help": "Spletna stran, ki je glavna stran kataloga."
+                    }
+                },
+                "stepper": {
+                    "overview": "Pregled kataloga",
+                    "step1": {
+                        "name": "Korak 1: Ustvari katalog"
+                    },
+                    "step2": {
+                        "name": "Korak 2: Opredelitev lastnosti kataloga"
+                    }
+                }
+            },
+            "clear": "Jasen",
+            "deletemodal": {
+                "deleteDistribution": "Izjava, v kateri so opredeljene pravice, povezane s katalogom.",
+                "areyousure": "Ali ste prepričani, da želite izbrisati to distribucijo?"
+            },
+            "createUniqueID": "Ustvarite edinstven ID",
+            "saveasdraft": "Zadnja posodobitev:",
+            "savedataset": "Shrani nabor podatkov",
+            "skipDistribution": "",
+            "next": "Naslednji korak",
+            "noDistributions": "Neobvezna identifikacijska oznaka za agencijo, ki upravlja identifikacijsko shemo",
+            "savedraft": "Najnovejši podatki:",
+            "searchVocabulary": "Iskanje besednjaka",
+            "error": {
+                "general": "Prišlo je do napake. Poskusite znova pozneje!",
+                "invalid-message": "Nekaj polj manjka. Izpolnite vsa zahtevana polja!"
+            },
+            "type": "Tip",
+            "preview": "Prejšnji korak",
+            "submit": "Pošlji",
+            "publishdataset": "Objavi nabor podatkov",
+            "validationtitle": "Potrjevanje",
+            "publishdraft": "Objavi osnutek",
+            "newDistribution": "Dodaj še eno distribucijo",
+            "validationerror": "Pri potrditvi vašega obrazca je prišlo do napake!",
+            "createDataset": "Ustvari nabor podatkov",
+            "defineDatasetProperties": "Opredelitev lastnosti nabora podatkov",
+            "createDistributions": "Ustvarjati razdelitve"
+        },
+        "datasetDetails": {
+            "subnav": {
+                "quality": "Kakovost",
+                "similarDatasets": "Podobne zbirke podatkov",
+                "categories": "Kategorije",
+                "dataset": "Nabor podatkov",
+                "activityStream": "Tok dejavnosti"
+            },
+            "quality": {
+                "licenceAvailability": "Informacije o licenci",
+                "mediaTypeAvailability": "Vrsta medija",
+                "temporalAvailability": "Iskanje, ki temelji na času",
+                "accessibility": "Dostopnost",
+                "dcatApCompliance": "Skladnost z DCAT-AP",
+                "distributions": {
+                    "downloadUrlStatusCode": "Prenesite kodo statusaUrl",
+                    "accessUrlStatusCode": "Koda statusa DostopURL"
+                },
+                "accessRightsVocabularyAlignment": "Slovar omejitev dostopa",
+                "contactPointAvailability": "Kontaktna točka",
+                "dateIssuedAvailability": "Datum izdaje",
+                "nodata": "Zdi se, da na naši strani obstaja vprašanje. Podatkov o kakovosti ni bilo mogoče naložiti. Prosimo, poskusite znova pozneje.",
+                "dateModifiedAvailability": "Datum spremembe",
+                "contextuality": "Kontekstualnost",
+                "reusability": "Ponovna uporabljivost",
+                "accessUrlStatusCode": "Najpogostejše kode stanja URL-jev za dostop",
+                "downloadUrlStatusCode": "Najpogostejše kode stanja URL-jev za prenos",
+                "formatMediaTypeVocabularyAlignment": "Vrsta formata/medija iz slovarja",
+                "metaDataQuality": "Kakovost metapodatkov",
+                "downloadUrlAvailability": "URL za prenos",
+                "dataQuality": "Kakovost podatkov",
+                "categoryAvailability": "Kategorije",
+                "interoperability": "Medobratovalnost",
+                "findability": "Najdljivost",
+                "spatialAvailability": "Geografsko iskanje",
+                "formatAvailability": "Oblika zapisa",
+                "byteSizeAvailability": "Velikost datoteke",
+                "accessRightsAvailability": "Omejitve dostopa",
+                "distributionQuality": "Kakovost distribucije",
+                "publisherAvailability": "Objavitelj",
+                "keywordAvailability": "Uporaba ključnih besed",
+                "rightsAvailability": "Pravice"
+            },
+            "follow": "Sledi",
+            "accessURLTooltip": "Ta povezava lahko vsebuje informacije o tem, kako pridobiti referenčno datoteko, ali pa je neposredna povezava do referenčne datoteke.",
+            "dataStream": "Podatkovni toki",
+            "downloadURLTooltip": "To je neposredna povezava na navedeno datoteko.",
+            "upload": {
+                "organisation": "Organizacija",
+                "individual": "Posameznik",
+                "resetText": "Ali želite ponastaviti celoten obrazec?",
+                "person": "Oseba",
+                "unknownFormat": "Neznani format",
+                "reset": "Ponastavi obrazec"
+            },
+            "preview": "Predogled",
+            "feedback": "Povratne informacije",
+            "access": "Dostop",
+            "datasets": {
+                "modal": {
+                    "downloadingFiles": "Prenos datotek s spleta",
+                    "zipNumberOfFiles": "Zip – Številka datotek",
+                    "waitingForDownload": "(čaka na prenos)",
+                    "downloadProgress": "Prenos napredka",
+                    "notDownloaded": "Ni preneseno",
+                    "error": "Napaka! Poskusite Again",
+                    "okay": "Okaj",
+                    "cancel": "Prekliči",
+                    "close": "Zapri",
+                    "coupleOfMinutes": "(to lahko traja nekaj minut)",
+                    "notDownloadedTooltip": "Podrobnosti so na voljo v priloženi datoteki_report.csv."
+                },
+                "leavePageWindow": {
+                    "text": "Ali ste prepričani, da želite zapustiti državo? Prenos bo ustavljen, ko boste zapustili državo!"
+                },
+                "downloadAll": "Prenesite vse"
+            },
+            "translation": {
+                "update": "Posodobljeni prevod te zbirke podatkov je v teku",
+                "original": "Izvirni jezik",
+                "message": "Naslov in opis te zbirke podatkov sta prevedena strojno.",
+                "noTranslation": "Ta nabor podatkov še ni na voljo v vašem jeziku. Prevod je v teku.",
+                "link": "Za ogled zbirke podatkov v izvirnem jeziku kliknite tukaj."
+            },
+            "cite": "Navedba sklicevanja",
+            "relatedResources": "Katalog, katerega vsebina je zanimiva v okviru tega kataloga.",
+            "share": "Deli",
+            "geoVisualisation": "Odpri vizualizacijo Geo",
+            "download": "Prenos",
+            "intro": {
+                "distribution": "V nadaljevanju je navedeno merjenje kakovosti vseh porazdelitev podatkovnega niza. Informacije o tem, katere metrike uporabljamo za merjenje kazalnikov, so na voljo na naši strani z <a href='/mqa/methodology?locale={locale}'>metodologijo</a>.",
+                "metadataQuality": "Zagotavljanje kakovosti metapodatkov naj bi ponudnikom podatkov in portalom podatkov pomagalo pri preverjanju njihovih metapodatkov z različnimi kazalniki. Informacije o tem, katere metrike uporabljamo za merjenje kazalnikov, so na voljo na naši strani z <a href='/mqa/methodology?locale={locale}'>metodologijo</a>."
+            },
+            "about": "o",
+            "datasetFeed": "Podatkovni niz Feed",
+            "delete": "Izbriši",
+            "openResource": "Pojdi na vir",
+            "visualisation": "Odpri vizualizacijo",
+            "isUsedBy": "Uporablja",
+            "unfollow": "Prenehaj slediti",
+            "shareOn": "Deli na",
+            "additionalInfo": "Dodatne informacije",
+            "contactPoints": {
+                "organizationName": "Ime organizacije"
+            },
+            "edit": "Uredi",
+            "menu": "Meni",
+            "manage": "Upravljaj",
+            "geoInfo": "Obseg podatkovnega niza",
+            "options": "Nastavitve"
+        },
+        "tooltip": {
+            "catalogDetails": {
+                "created": "Datum uradne izdaje (npr. objave) kataloga.",
+                "publisher": "Subjekt (organizacija), odgovoren za dajanje kataloga na voljo.",
+                "updated": "Zadnji datum, ko je bil katalog spremenjen.",
+                "description": "Opis kataloga.",
+                "title": "Naslov kataloga.",
+                "metadata": "Možnosti za prenos kataloga metapodatkov v različnih povezanih predstavitvah podatkov.",
+                "language": "Jezik, ki se uporablja v besedilnih metapodatkih, ki opisujejo naslove, opise itd. naborov podatkov v katalogu. Ta lastnost se lahko ponovi, če so metapodatki na voljo v več jezikih.",
+                "spatial": "Geografsko območje, zajeto v katalogu."
+            },
+            "datasetDetails": {
+                "frequency": "Pogostost posodabljanja nabora podatkov.",
+                "dataset": "Podatkovni niz ali podatki o storitvi.",
+                "updated": "Zadnji datum, ko je bil nabor podatkov ali storitev spremenjen ali spremenjen.",
+                "versionInfo": "Številka različice ali druga oznaka različice podatkovnega niza.",
+                "distributions": {
+                    "updated": "Zadnji datum, ko je bila distribucija spremenjena ali spremenjena.",
+                    "title": "Ime distribucije.",
+                    "linkedSchema": "Uveljavljena shema, s katero je skladna opisana distribucija.",
+                    "linkedData": "Možnosti prenosa metapodatkov o distribuciji v različnih povezanih predstavitvah podatkov.",
+                    "status": "Zapadlost razdelitve. JE SEZNANJEN z eno od vrednosti, ki so bile dokončane, izgubljene, pod razvojem, umaknjene.",
+                    "licence": "Licenca, v skladu s katero je distribucija dana na voljo.",
+                    "availability": "Navaja, kako dolgo se načrtuje, da bo distribucija nabora podatkov na voljo.",
+                    "rights": "Izjava, ki določa pravice, povezane z distribucijo.",
+                    "checksum": "Mehanizem, ki se lahko uporabi za preverjanje, da se vsebina distribucije ni spremenila. Kontrolna vsota je povezana s prenosom Url.",
+                    "mediaType": "Medijska vrsta distribucije, kot je opredeljena v uradnem registru medijskih vrst, ki ga upravlja IANA.",
+                    "spatialResolution": "Minimalno prostorsko ločevanje, rešljivo v porazdelitvi nabora podatkov, merjeno v metrih.",
+                    "byteSize": "Vsebuje velikost distribucije v bajtih.",
+                    "download": "Prenos ali dostop do distribucije.",
+                    "type": "Povezave do vrste razdeljevanja, npr. da gre za vizualizacijo.",
+                    "created": "Datum uradne izdaje (npr. objave) distribucije.",
+                    "language": "Jezik, ki se uporablja pri distribuciji.",
+                    "options": "Odprite predogled distribucije.",
+                    "temporalResolution": "Nanaša se na najkrajše časovno obdobje, ki ga je mogoče rešiti v porazdelitvi podatkovnega niza."
+                },
+                "otherIdentifier": "Sekundarni identifikator nabora podatkov, kot so MAST/ADS16, DataCite17, DOI18, EZID19 ali W3ID20.",
+                "numSeries": "Vsebuje število podatkovnih nizov, ki jih vsebuje nabor podatkov.",
+                "versionOf": "Povezani nabor podatkov, katerega opisani nabor podatkov je različica, izdaja ali prilagoditev.",
+                "unitsOfMeasurement": "Merska enota opazovanj v podatkovnem nizu.",
+                "distribution": "Fizična vključitev nabora podatkov ali storitve v določenem formatu, npr. spletna povezava do datoteke nabora podatkov.",
+                "quality": "Informacije o kakovosti metapodatkov za ta nabor podatkov ali storitev.",
+                "catalogue": "Katalog, v katerega spada ta nabor podatkov ali storitev.",
+                "linkedData": "Možnosti za prenos podatkovnega niza ali metapodatkov o storitvah v različnih povezanih predstavitvah podatkov.",
+                "versionNotes": "Opis razlik med to različico in prejšnjo različico nabora podatkov. To lastnost je mogoče ponoviti pri vzporednih jezikovnih različicah opomb k različici.",
+                "similarDatasets": "Drugi nabori podatkov ali storitve, ki so podobni temu.",
+                "identifier": "Glavni identifikator nabora podatkov, npr. URI ali drug edinstveni identifikator v okviru kataloga.",
+                "uriRef": "Prenesi tabelo",
+                "creator": "Subjekt, ki je v prvi vrsti odgovoren za pripravo nabora podatkov.",
+                "spatial": "Geografska regija, ki jo zajema podatkovni niz.",
+                "language": "Jezik nabora podatkov.",
+                "format": "Oblika, ki je na voljo za ta nabor podatkov ali storitev.",
+                "conformsTo": "Izvedbeni predpis ali druga specifikacija.",
+                "landingPage": "Spletna stran, ki omogoča dostop do podatkovnega niza, njegove distribucije in/ali dodatnih informacij.",
+                "provenance": "Izjava o črti nabora podatkov.",
+                "documentation": "Stran ali dokument o tem naboru podatkov.",
+                "publisher": "Subjekt (organizacija), odgovoren za dajanje nabora podatkov ali storitve na voljo.",
+                "created": "Datum uradne izdaje (npr. objave) nabora podatkov ali storitve.",
+                "relatedResource": "Povezani vir.",
+                "categories": "Kategorije, ki so dodeljene temu naboru podatkov ali storitvi.",
+                "share": "Ta nabor podatkov ali storitev delite prek družbenih medijev.",
+                "feedback": "Sporočite nam, kaj menite o tem naboru podatkov ali storitvi.",
+                "dqvData": "Možnosti za prenos nabora podatkov ali meritev kakovosti storitev v različnih povezanih predstavitvah podatkov.",
+                "hasVersion": "Povezani nabor podatkov, ki je različica, izdaja ali prilagoditev opisanega nabora podatkov"
+            },
+            "quality": {
+                "keywordAvailability": "Ključne besede neposredno podpirajo iskanje in tako povečujejo najdljivost podatkovnega niza.&br>&br> &br> Sistem preverja, ali so ključne besede opredeljene. Število ključnih besed ne vpliva na oceno.",
+                "formatMediaTypeVocabularyAlignment": "Preverite, ali format in vrsta medija spadata v nadzorovano besednjak.&br> andlt;br> andlt;br> andlt;br> &br> &br> &br > Vrsta formata je na voljo v data.europa.eu GitLab repository.&br>&br> &br> Vrsta medija je preverjena v seznamu IANA.",
+                "licenceAvailability": "Licenca je dragocena informacija za ponovno uporabo podatkov.&br> andlt;br>. Preverje se, ali je lastnost nastavljena ali ne.",
+                "publisherAvailability": "Založnik je oseba ali organizacija, ki je objavila podatke.&br> andlt;br>>Preveri se, ali je nepremičnina nastavljena ali ne.",
+                "formatAvailability": "To polje določa obliko datoteke za distribucijo.&br>&br>>Preveri se mokro, ali je lastnost nastavljena ali ne.",
+                "temporalAvailability": "Uporaba časovnih informacij bi uporabnikom omogočila pravočasno usmerjeno iskanje.&br>&br> andlt;br> Preverjeno je mokro, ali je lastnost nastavljena ali ne.",
+                "rightsAvailability": "V nekaterih primerih posebnega dovoljenja ni mogoče uporabiti za nabor podatkov. V polju „Pravice“ se lahko navede sklic na vir, ki bo uporabnika obvestil o pravicah, ki jih ima pri uporabi nabora podatkov.&br>&br> andlt;br > Preverje se, ali je lastnost nastavljena ali ne.",
+                "mediaTypeAvailability": "To polje označuje vrsto medija distribucije.&br> andlt;br >> Preverje se, ali je lastnost nastavljena ali ne.",
+                "accessRightsVocabularyAlignment": "Uporaba nadzorovanega besednjaka povečuje možnost ponovne uporabe.&br>&br> andlt;br>. Preverje se, ali se uporablja nadzorovan besednjak za pravice dostopa.",
+                "dcatApCompliance": "Skladnost DCAT-AP se izračuna za vse vire in nabore podatkov, ki so na voljo v katalogu. To preverjanje se opravi samo, če so metapodatki prvotno pridobljeni kot DCAT-AP ali kot veljavni derivati.&br>&br> &br> DCAT-AP, specifikacija za opis povezanih javnih podatkov v Evropi. Portal data.europe.eu lahko zbira tudi metapodatke, ki niso v celoti skladni z DCAT-AP. Da bi se povečala skladnost z DCAT-AP, MQA preveri vse metapodatke za skladnost z DCAT-AP.&br>&br> &br> metapodatki se validirajo glede na niz oblik SHACL. Metapodatki niso skladni, če validacija SHACL sporoči vsaj eno izdajo.&br>&br> &br> MQA uporablja podatke.europe.eu’s DCAT-AP SHACL sevice.&br> andlt;br> SCHACL je priporočilo W3C in se uporablja za validacijo grafov RDF glede na niz oblik.",
+                "accessRightsAvailability": "To polje označuje, ali je dostop do podatkov javen ali omejen.&br> andlt;br > Preverje se, ali je lastnost nastavljena ali ne.",
+                "accessUrlStatusCode": "AccessURL ni nujno neposredna povezava do podatkov, temveč se lahko nanaša tudi na URL, ki omogoča dostop do podatkovnega niza, ali če je na voljo več informacij o naboru podatkov.&br>&br>&br > URL se dostopnost preveri z zahtevo HTTP HEAD. Če je navedena koda stanja v razponu 200 ali 300, se dostopnost vira oceni pozitivno.",
+                "categoryAvailability": "Kategorije uporabnikom pomagajo pri tematskem raziskovanju naborov podatkov.&br> andlt;br >> Preverje se, ali je naboru podatkov dodeljena ena ali več kategorij. Število dodeljenih kategorij ne vpliva na oceno.",
+                "downloadUrlStatusCode": "Če obstaja prenosUrl, se dostopnost preveri.&br>&br> &br>> URL se preveri dostopnost e-virov prek zahtevka HTTP HEAD. Če je navedena koda stanja v razponu 200 ali 300, se dostopnost vira oceni pozitivno.",
+                "byteSizeAvailability": "Določi velikost datoteke v bajtih &br> andlt;br>. Preverje se, ali je lastnost nastavljena ali ne.",
+                "downloadUrlAvailability": "PrenosUrl je neposredna povezava na referenced data.&br>&br> andlt;br> Preverje se, ali je lastnost nastavljena ali ne.",
+                "spatialAvailability": "Uporaba prostorskih informacij bi uporabnikom omogočila iskanje nabora podatkov z geografskim iskanjem.&br> andlt;br> andlt;br > Preverje se, ali je lastnost nastavljena ali ne.",
+                "contactPointAvailability": "Kontaktna točka vsebuje informacije, na katere je treba odgovoriti v primeru vprašanj v zvezi s podatki.&br> andlt;br>. Preverje se, ali je lastnost nastavljena ali ne.",
+                "dateIssuedAvailability": "Datum, na katerega je bil podatkovni niz ali distribucija objavljen.&br>&br> &br> Preverjeno je mokra oseba nastavljena ali ne.",
+                "dateModifiedAvailability": "Datum zadnje spremembe nabora ali distribucije podatkov.&br> &br> &br> Preverjen je mokrišče, nastavljeno ali ne."
+            },
+            "catalogRecord": "Opis vnosa nabora podatkov v katalog.",
+            "lastModified": "Razvrstite rezultate glede na zadnjo spremembo nabora podatkov",
+            "editorialContent": "Iskanje uredniških vsebin, npr. novic, dogodkov, primerov uporabe",
+            "datasets": "Iskanje naborov podatkov",
+            "relevance": "Razvrstite nabor podatkov glede na ustreznost. Ustreznost se izračuna na podlagi ujemanja iskanega izraza v naslovu, ključnih besedah in opisu.",
+            "contactPoints": "Kontaktni podatki, ki se lahko uporabijo za pošiljanje pripomb o naboru podatkov.",
+            "locationFilter": "Za ogled naborov podatkov, povezanih z določeno lokacijo, kliknite zemljevid in izberite ikono svinčnika. Nato kliknite gumb Uporabljaj, če želite filtrirati samo nabore podatkov, ki se nanašajo na izbrano področje. V rezultate iskanja bodo vključeni samo nabori podatkov, ki vključujejo geoinformacijske metapodatke.",
+            "catalogues": "Iskanje po katalogih. Katalog vsebuje nabore podatkov in storitve"
+        },
+        "visualisationDistribution": {
+            "barChartExplain": "V paličnem grafu so prikazane številčne vrednosti za ravni kategoričnega elementa kot palice. Ravni so prikazane na eni osi karte, vrednosti pa so prikazane na drugi osi.",
+            "semicolon": "Podpičje",
+            "exportSucceeded": "Konfiguracija je bila uspešno ustvarjena!",
+            "yAxis": "Y os",
+            "pipe": "Cev",
+            "cancel": "Prekliči",
+            "fileTypeNotSupported": "Poskušate narediti vrsto datoteke, ki ni podprta.",
+            "confirm": "Potrdite",
+            "fileNotFound": "Poskušate ustvariti datoteko, katere vsebine ni bilo mogoče prebrati.",
+            "comma": "Vejica",
+            "space": "Prostor",
+            "exportDataTip": "Vnosno polje ne sme biti prazno!",
+            "countRow": "Štetje",
+            "exportMessagesHeader": "Ali res želite shraniti svojo konfiguracijo? Preverite jo, preden shranite!",
+            "exportMessagesLabel": "Vpišite ime svoje konfiguracije.",
+            "exportNameExistsAlert": "Ime se že uporablja. Poskusite se še enkrat!",
+            "hiddenMessages": "so skriti – klikni za prikaz vseh",
+            "connectedLineChart": "Povezana črta karta",
+            "barChart": "Karta barov",
+            "someRows": "Nekatere vrstice",
+            "row": "Vrstice",
+            "tab": "Zavihek",
+            "connectToDatabaseError": "Napaka pri pridobivanju podatkov iz podatkovne zbirke. Poskusite ga ali ponovno preverite svoj prispevek!",
+            "badgateway": "Strežnik ni na voljo ali je nepravilno ime DNS.",
+            "goBack": "Nazadovanje",
+            "forbidden": "Dostop do zahtevanih virov je prepovedan.",
+            "unauthorized": "Zahteva ni bila uporabljena. Nima veljavnih potrdil o avtentikaciji.",
+            "xAxis": "X Os",
+            "delimiter": "Razmejitelj",
+            "someColumns": "Nekateri stolpci",
+            "exportMessagesFooter": "Kliknite „Potrdi“, da jo shranite!",
+            "table": "Preglednica",
+            "connectedLineChartExplain": "Gre za povezano razpršenost, ki je v bistvu hibrid med razpršenostjo in linijo. Za njegovo pripravo morate izbrati Xaxis."
+        },
+        "sort": {
+            "lastCreated": "Nazadnje ustvarjeno",
+            "lastUpdated": "Zadnjič spremenjeno",
+            "nameZA": "Ime v padajočem zaporedju",
+            "relevance": "Ustreznost",
+            "sortBy": "Naročil",
+            "nameAZ": "Ime v naraščajočem zaporedju"
+        },
+        "distributionLicense": {
+            "openLA": "Odprite Pomočnika za licence",
+            "notProvided": "Ni licence",
+            "licensingAssistant": "Pomočnik za licence",
+            "notFound": "Najdenih ni bilo nobenih informacij o licenci.",
+            "notFoundExtended": "Najdenih ni bilo nobenih dodatnih informacij o licenci. Preverite vir za dodatne informacije o licenci."
+        },
+        "catalogs": {
+            "countMessageSingular": "najden katalog za ",
+            "geoBoundsMessagePre": "Vaše iskanje je omejeno na:",
+            "downloadAsLinkedData": "Katalog metapodatkov kot povezanih podatkov",
+            "countMessageNoResult": "Najden ni bil noben katalog za ",
+            "searchBar": {
+                "placeholder": "Išči po katalogih ..."
+            },
+            "countMessage": "najdeni katalogi za ",
+            "loadingMessage": "Nalaganje katalogov ...",
+            "geoBoundsMessageRemove": "Zaprite to obvestilo, da odstranite omejitev ali uporabite funkcijo za ponastavitev."
+        },
+        "datasetFacets": {
+            "facets": {
+                "datascopeField": {
+                    "countryData": "Nacionalni podatki",
+                    "io": "Mednarodni podatki",
+                    "eu": "Podatki Evropske unije"
+                },
+                "datascope": "Področje uporabe podatkov",
+                "dataServices": {
+                    "dataServicesOnly": "Samo podatkovne storitve"
+                },
+                "country": "Države",
+                "format": "Formati",
+                "scoring": {
+                    "badScoring": "Kaj",
+                    "sufficientScoring": "Zadostno",
+                    "goodScoring": "Dobro",
+                    "excellentScoring": "Odlično"
+                },
+                "publisher": "@:message.metadata.izdajatelj",
+                "license": "Licence",
+                "keywords": "Ključne besede",
+                "categories": "Kategorije",
+                "catalog": "Katalogi",
+                "countrydata": "Podatki o državi",
+                "tags": "Oznake"
+            },
+            "title": "Filtri",
+            "and": "IN",
+            "settings": "Nastavitev filtra",
+            "scoring": "Ocena",
+            "or": "ali",
+            "europeanCatalogs": "Evropski katalogi",
+            "operator": "Operater"
+        },
+        "header": {
+            "navigation": {
+                "data": {
+                    "euInternationalData": "Podatki EU in mednarodni podatki",
+                    "datasets": "Zbirke podatkov",
+                    "catalogs": "Katalogi",
+                    "metadataquality": "Kakovost metapodatkov",
+                    "sparqleditor": "Urejevalnik SPARQL",
+                    "statistics": "Statistike",
+                    "sparqlsearch": "Iskanje SPARQL",
+                    "title": "Podatki"
+                },
+                "impactStudies": {
+                    "opendataimpact": "Vpliv odprtih podatkov",
+                    "tellUsYourStory": "Povejte nam svojo zgodbo",
+                    "studies": "Študije",
+                    "opendatamaturity": "Zrelost odprtih podatkov",
+                    "countryInsights": "Vpogled po državah",
+                    "useCases": "Primeri uporabe",
+                    "title": "Vpliv in študije",
+                    "overview": "Pregled"
+                },
+                "training": {
+                    "licensingAssistant": "Pomočnik za licence",
+                    "dataProvidersGuide": "Vodnik za ponudnike podatkov",
+                    "moreTrainingMaterial": "Več gradiv za usposabljanje",
+                    "whatIsOpenData": "Kaj so odprti podatki",
+                    "title": "Usposabljanje",
+                    "elearning": "E-učenje"
+                },
+                "about": {
+                    "beHarvestedByUs": "Dovolite nam, da zajamemo vaše podatke",
+                    "documentation": "Dokumentacija",
+                    "title": "O nas",
+                    "europeanDataPortal": "Evropski Podatkovni Portal"
+                },
+                "newsEvents": {
+                    "events": "Dogodki",
+                    "news": "Novice",
+                    "title": "Novice in dogodki",
+                    "stories": "Podatkovne zgodbe"
+                },
+                "covid-19": {
+                    "title": "COVID-19",
+                    "datasets": "Zbirke podatkov",
+                    "overview": "Pregled",
+                    "initiatives": "Pobude, povezane s podatki"
+                }
+            },
+            "subnav": {
+                "newsletter": "Novice",
+                "cookies": "Piškotki",
+                "login": "Prijava",
+                "contact": "Stik",
+                "search": "Iskanje",
+                "logout": "Izpis",
+                "legalNotice": "Pravno obvestilo",
+                "faq": "Pogosta vprašanja"
+            },
+            "european": "Evropski",
+            "searchInputPlaceholder": "Iščite po vsebini strani …",
+            "dataPortal": "Podatkovni portal",
+            "searchOptions": {
+                "siteContent": "Vsebina strani",
+                "datasets": "Zbirke podatkov"
+            }
+        },
+        "catalogues": {
+            "foundCataloguesSingular": "1 katalog najden",
+            "foundCatalogues": "število najdenih katalogov"
+        },
+        "datasets": {
+            "foundDatasets": "število najdenih podatkovnih nizov",
+            "countMessage": "najdeni nabori podatkov za ",
+            "foundDatasetsSingular": "1 najdeni nabor podatkov",
+            "meta": {
+                "translationNotComplete": "Prevod ni dokončan"
+            },
+            "geoBoundsMessageRemove": "Zaprite to obvestilo, da odstranite omejitev ali uporabite funkcijo za ponastavitev.",
+            "createDataset": "Ustvari zbirko podatkov",
+            "geoBoundsMessagePre": "Vaše iskanje je omejeno na:",
+            "loadingMessage": "Nalaganje naborov podatkov ...",
+            "countMessageSingular": "najden nabor podatkov za ",
+            "datasetsFeed": "Seznam naborov podatkov",
+            "scoreDisclaimer": "Trenutni rezultati iskanja so filtrirani, da se ujemajo z zahtevano minimalno oceno kakovosti, zapisano na levi strani. Obiščite naš {0}, če želite izvedeti več o naših meritvah kakovosti.",
+            "noResult": "Najdena ni bila nobena zbirka podatkov za ",
+            "findLocation": "Filtriraj po lokaciji",
+            "searchBar": {
+                "placeholder": "Išči po zbirkah podatkov"
+            },
+            "createCatalogue": "Ustvari katalog",
+            "saveQuery": "Shrani poizvedbo"
+        },
+        "footer": {
+            "helpUsImproveText": "Vaše povratne informacije nam bodo pomagale izboljšati celotno uporabniško izkušnjo. \nAli imate kakšen predlog?",
+            "lastUpdated": "Nazadnje posodobljeno",
+            "links": {
+                "cookies": "Piškotki",
+                "contact": "Kontakt",
+                "faq": "Pogosta vprašanja",
+                "newsletter": "Glasilo",
+                "search": "Išči",
+                "login": "Vpis",
+                "legalNotice": "Pravno obvestilo"
+            },
+            "subscribe": "Naroči",
+            "helpUsImprove": "Pomagajte nam izboljšati",
+            "newsletterText": "Naročite se na naš novičnik",
+            "newsletter": "Glasilo",
+            "followUs": "Spremljajte nas na",
+            "managedBy": "Upravlja Urad za publikacije Evropske unije.",
+            "fundedBy": "Financira Evropska unija"
+        },
+        "helpIcon": {
+            "dataServices": "Pri data.europa.eu lahko distribucija deluje tudi kot podatkovna storitev. To pomeni, da se ne navezuje na datoteko, ki jo je mogoče prenesti, temveč na API. Izberite „Da“, če želite filtrirati podatkovne nize, ki imajo vsaj eno podatkovno storitev.",
+            "scoring": "data.europa.eu meri kakovost vseh podatkovnih nizov in storitev. V razdelku Kakovost podatkov/metapodatkov imamo stran z metodologijo, ki opisuje postopek. Vsak podatkovni niz in storitev je predstavljena tudi z oceno kakovosti. Ta ocena je lahko zadostna, dobra ali odlična. Če je filter „Zadosten+“ nastavljen, se prikažejo vsi nabori podatkov in storitve, ki imajo zadostno oceno ali boljšo oceno. Enako velja za „dobro“. „Odlično“ prikazuje le odlične podatkovne nize in storitve.",
+            "license": "V dovoljenju so opisani pravni pogoji za uporabo nabora podatkov.",
+            "dataScope": "Podatki EU vsebujejo nabore podatkov in storitve institucij EU. Mednarodni podatki vsebujejo nabore podatkov in storitve, ki prihajajo iz držav zunaj EU. Podatki o državah vsebujejo nabore podatkov in storitve držav članic EU.",
+            "format": "Vsak podatkovni niz vsebuje sklice na datoteke ali storitve. Oblika opisuje vrsto datoteke ali vrsto storitve teh referenc. Vsaka vrsta datoteke ne more služiti vsem namenom, npr. izračun se lahko bolje opravi z datoteko CSV namesto s PDF.",
+            "catalog": "Katalog ali odložišče, ki gosti nabore podatkov in storitve. Katalog je večinoma portal, na katerem so zbrani nabori podatkov.",
+            "settings": "Odločite se, ali je izbira filtra izključna ali ne. Če izberete IN se morajo vsi zadetki iskanja ujemati z vsemi filtri. Ali pomeni, da se mora vsaj en filter ujemati.",
+            "categories": "Skupine skupin podatkov, ki si delijo skupno vsebino.",
+            "publisher": "Založnik je subjekt (npr. organizacija), ki je odgovoren za dajanje nabora podatkov na voljo.",
+            "keywords": "Ključne besede so zamisli in teme, ki opredeljujejo vsebino."
+        },
+        "userQueries": {
+            "executeQuery": "Izvedi poizvedbo",
+            "queriesFound": "{number} najdene/i/ih poizvedb/e/i",
+            "placeholderNotes": "npr. Nekaj uporabnih opomb k tej poizvedbi",
+            "querySaved": "Shrani poizvedbo",
+            "queryFound": "{number} najdena poizvedba",
+            "myQueries": "Moje poizvedbe",
+            "noDescription": "Ta poizvedba nima opisa",
+            "noQueryFound": "Nobena poizvedba ni bila najdena",
+            "queryDeleted": "Izbriši poizvedbo",
+            "searchAllQueries": "Iskalne poizvedbe …",
+            "save": "Shrani poizvedbo",
+            "areYourSure": "Ali res želite izbrisati to poizvedbo?",
+            "noQueriesSaved": "Shranili niste nobene poizvedbe.",
+            "searchQueries": "Išči po mojih poizvedbah …"
+        },
+        "catalogFacets": {
+            "facets": {
+                "licences": "Licence",
+                "catalogs": "Katalogi",
+                "categories": "Kategorije",
+                "countries": "Države",
+                "formats": "Formati",
+                "keywords": "Ključne besede"
+            },
+            "operator": "Upravitelj",
+            "title": "Filtri",
+            "europeanCatalogs": "Evropski katalogi",
+            "or": "ALI",
+            "and": "IN",
+            "euInstitutions": "Institucije EU",
+            "settings": "Nastavitve"
+        },
+        "statistics": {
+            "statistics": "Statistika",
+            "datasetsPerCatalog": "Zbirke podatkov po katalogih",
+            "currentState": "Trenutno stanje",
+            "datasetsPerCountry": "Zbirke podatkov po državah",
+            "selectType": "Izberi statistično vrsto",
+            "datasetsPerCountryAndCatalog": "Zbirke podatkov po državah in katalogih",
+            "evolution": "Razvoj",
+            "evolutionStartEnd": "Razvoj celotnega števila zbirk podatkov med {start_date} in {end_date}",
+            "increaseStartEnd": "\nPovečanje vrednosti {data_model} v % med {start_date} in {end_date}",
+            "totalNumber": "Celotno število zbirk podatkov",
+            "datasetsPerCategory": "Zbirke podatkov po kategoriji",
+            "selectTimePeriod": "Izberi časovno obdobje",
+            "evolutionNumber": "Razvoj števila {data_model} med {start_date} in {end_date}",
+            "numberDate": "Število {dataset_model} dne {date}"
+        },
+        "categories": {
+            "tran": "Promet",
+            "heal": "Zdravje",
+            "tech": "Znanost in tehnologija",
+            "envi": "Okolje",
+            "econ": "Gospodarstvo in finance",
+            "soci": "Prebivalstvo in družba",
+            "agri": "Kmetijstvo, ribištvo, gozdarstvo in hrana",
+            "educ": "Izobraževanje, kultura in šport",
+            "ener": "Energetika",
+            "intr": "Mednarodna vprašanja",
+            "gove": "Vlada in javni sektor",
+            "just": "Pravosodje, pravni sistem in javna varnost",
+            "regi": "Regije in mesta"
+        },
+        "pagination": {
+            "nextPage": "Naslednji",
+            "previousPage": "Prejšnji"
+        },
+        "navigation": {
+            "navItems": {
+                "home": "Domov",
+                "about": "O",
+                "data": "Podatki",
+                "privacyPolicy": "Pravilnik o zasebnosti",
+                "map": "Zemljevid",
+                "imprint": "Odtis"
+            }
+        },
+        "catalogsAndDatasets": {
+            "noDescriptionAvailable": "Opis ni na voljo",
+            "more": "Več"
+        },
+        "datasetCategories": {
+            "foundCategories": "Najdena je bila {number} kategorija",
+            "foundCategory": "Najdenih je bilo {number} kategorij",
+            "noCategories": "Najdenih ni bilo nobenih kategorij"
+        },
+        "mapModal": {
+            "fullscreen": "Celozaslonski način",
+            "findDatasets": "Uporabi",
+            "reset": "Počisti",
+            "close": "Zapri",
+            "drawRectangleMsg": "Narišite pravokotnik, da izberete regijo",
+            "disclaimer": "Izjava o omejitvi odgovornosti",
+            "copyright": "Map © OpenStreetMap contributors"
+        },
+        "similarDatasets": {
+            "similar": "Podobne",
+            "verySimilar": "Zelo podobne",
+            "marginalSimilar": "Minimalno podobne",
+            "notFound": "Najdena ni bila nobena podobna zbirka podatkov.",
+            "lessSimilar": "Manj podobne",
+            "similarDatasets": "Podobne zbirke podatkov"
+        },
+        "searchTabs": {
+            "editorialContent": "Uredniška vsebina"
+        },
+        "visualisation": {
+            "loading": "Vizualizacija se nalaga ...",
+            "previewAvailable": "Na voljo je predogled",
+            "info": "Če se vizualizacija ne naloži v nekaj sekundah, kliknite tukaj."
+        },
+        "catalog": {
+            "loadingMessage": "Katalogi so obnovljeni",
+            "searchBar": {
+                "placeholder": "Iskanje katalogov"
+            },
+            "geoBoundsMessageRemove": "Zaprite to obvestilo, da odstranite omejitev ali uporabite funkcijo za ponastavitev.",
+            "countMessage": "Najdeni katalogi"
+        },
+        "sparql": {
+            "subHeadlineText2": "Da bi uporabnikom pomagali pri izdelavi uporabnih poizvedb SPARQL, na voljo stran s predstavljenimi vprašanji <a href='{sample_sparql_queries}'>sample SPARQL queries</a> ki jih je mogoče izvesti prek naše končne točke. Nabori podatkov in katalogi, objavljeni kot trojica RDF na portalu, sledijo <a href='https://github.com/SEMICeu/DCAT-AP'>DCAT-AP specification</a>. Dodatne informacije o ontologiji metapodatkov so na voljo na strani Data.europa.eu academy na spletišču DCAT-AP: <a href=' https://data.europa.eu/en/academy/dcat-and-dcat-ap'> https://data.europa.eu/en/academy/dcat-and-dcat-ap</a>.",
+            "subHeadlineText1": "Vsi metapodatki data.europa.eu so shranjeni kot RDF triples (<a href='https://www.w3.org/RDF/'>RDF</a>) in jih je na tej končni točki mogoče poizvedovati z uporabo jezika poizvedbe SPARQL. Poizvedbe se lahko opravijo prek urednika poizvedbe (spodaj) ali prek strojno berljive končne točke (<a href='https://data.europa.eu/sparql'>https://data.europa.eu/sparql</a>)."
+        },
+        "distributions": {
+            "footerLink": "Prenos"
+        },
+        "distributionDetails": "{}",
+        "spokenLanguage": "Angleščina",
+        "cite": {
+            "copyToClipboard": "Kopija v omaro",
+            "title": "Navedite ta nabor podatkov."
+        },
+        "home": {
+            "msg": "Ta stran žal še nima vsebine. \nObiščite zavihek Podatki, da si nekaj ogledate!"
+        },
+        "imprint": {
+            "msg": "ODTIS VSTAVITE TUKAJ"
+        }
+    }
+}

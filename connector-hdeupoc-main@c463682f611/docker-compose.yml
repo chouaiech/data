@@ -1,0 +1,65 @@
+version: '2.1'
+
+services:
+  centralservice-datadiscovery:
+    build: centralservice/datadiscovery
+    mem_limit: 350m
+    ports:
+      - "8101:8101"
+    extra_hosts:
+      - host.docker.internal:host-gateway
+    volumes:
+      - ${PWD}/centralservice/datadiscovery/config.yml:/usr/src/app/config.yml
+
+  centralservice-datapermit:
+    build: centralservice/datapermit
+    mem_limit: 350m
+    ports:
+      - "8103:8103"
+    extra_hosts:
+      - host.docker.internal:host-gateway
+    volumes:
+      - ${PWD}/centralservice/datapermit/config.yml:/usr/src/app/config.yml
+
+  centralservice-messagechecker:
+    build: centralservice/messagechecker
+    mem_limit: 350m
+    ports:
+      - "8150:8150"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - ${PWD}/centralservice/messagechecker/config.yml:/usr/src/app/config.yml
+
+  nationalconnector-datapermit:
+    build: nationalconnector/datapermit
+    mem_limit: 350m
+    ports:
+      - "8102:8102"
+    extra_hosts:
+      - host.docker.internal:host-gateway
+    volumes:
+      - ${PWD}/nationalconnector/datapermit/config.yml:/usr/src/app/config.yml
+      - /etc/ssl/localcerts/:/etc/ssl/localcerts/
+
+  nationalconnector-gateway:
+    build: nationalconnector/gateway
+    mem_limit: 350m
+    ports:
+      - "8100:8100"
+    extra_hosts:
+      - host.docker.internal:host-gateway
+    volumes:
+      - ${PWD}/nationalconnector/gateway/config.yml:/usr/src/app/config.yml
+      - /etc/ssl/localcerts/:/etc/ssl/localcerts/
+
+  nationalconnector-messagechecker:
+    build: nationalconnector/messagechecker
+    mem_limit: 350m
+    ports:
+      - "8151:8151"
+    extra_hosts:
+      - host.docker.internal:host-gateway
+    volumes:
+      - ${PWD}/nationalconnector/messagechecker/config.yml:/usr/src/app/config.yml
+      - /etc/ssl/localcerts/:/etc/ssl/localcerts/

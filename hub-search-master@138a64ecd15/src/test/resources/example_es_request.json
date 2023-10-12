@@ -1,0 +1,461 @@
+{
+  "size": 0,
+  "query": {
+    "bool": {
+      "adjust_pure_negative": true,
+      "boost": 1.0
+    }
+  },
+  "aggregations": {
+    "country": {
+      "meta": {
+        "title": "Countries"
+      },
+      "terms": {
+        "field": "country.id",
+        "size": 50,
+        "min_doc_count": 1,
+        "shard_min_doc_count": 0,
+        "show_term_doc_count_error": false,
+        "order": [
+          {
+            "_count": "desc"
+          },
+          {
+            "_key": "asc"
+          }
+        ]
+      },
+      "aggregations": {
+        "topHits": {
+          "top_hits": {
+            "from": 0,
+            "size": 1,
+            "version": false,
+            "seq_no_primary_term": false,
+            "explain": false,
+            "_source": {
+              "includes": [
+                "country"
+              ],
+              "excludes": []
+            }
+          }
+        }
+      }
+    },
+    "license": {
+      "meta": {
+        "title": "Licenses"
+      },
+      "terms": {
+        "field": "distributions.license.id",
+        "size": 50,
+        "min_doc_count": 1,
+        "shard_min_doc_count": 0,
+        "show_term_doc_count_error": false,
+        "order": [
+          {
+            "_count": "desc"
+          },
+          {
+            "_key": "asc"
+          }
+        ]
+      },
+      "aggregations": {
+        "topHits": {
+          "top_hits": {
+            "from": 0,
+            "size": 1,
+            "version": false,
+            "seq_no_primary_term": false,
+            "explain": false,
+            "_source": {
+              "includes": [
+                "distributions.license"
+              ],
+              "excludes": []
+            }
+          }
+        }
+      }
+    },
+    "minScoring": {
+      "meta": {
+        "title": "Minimum Scoring"
+      },
+      "min": {
+        "field": "quality_meas.scoring"
+      }
+    },
+    "maxScoring": {
+      "meta": {
+        "title": "Maximum Scoring"
+      },
+      "max": {
+        "field": "quality_meas.scoring"
+      }
+    },
+    "excellentScoring": {
+      "meta": {
+        "from": 351.0,
+        "to": 406.0,
+        "title": "Excellent Scoring"
+      },
+      "range": {
+        "field": "quality_meas.scoring",
+        "ranges": [
+          {
+            "from": 351.0,
+            "to": 406.0
+          }
+        ],
+        "keyed": false
+      }
+    },
+    "goodScoring": {
+      "meta": {
+        "from": 221.0,
+        "to": 351.0,
+        "title": "Good Scoring"
+      },
+      "range": {
+        "field": "quality_meas.scoring",
+        "ranges": [
+          {
+            "from": 221.0,
+            "to": 351.0
+          }
+        ],
+        "keyed": false
+      }
+    },
+    "sufficientScoring": {
+      "meta": {
+        "from": 121.0,
+        "to": 221.0,
+        "title": "Sufficient Scoring"
+      },
+      "range": {
+        "field": "quality_meas.scoring",
+        "ranges": [
+          {
+            "from": 121.0,
+            "to": 221.0
+          }
+        ],
+        "keyed": false
+      }
+    },
+    "badScoring": {
+      "meta": {
+        "from": 0.0,
+        "to": 121.0,
+        "title": "Bad Scoring"
+      },
+      "range": {
+        "field": "quality_meas.scoring",
+        "ranges": [
+          {
+            "from": 0.0,
+            "to": 121.0
+          }
+        ],
+        "keyed": false
+      }
+    },
+    "keywords": {
+      "meta": {
+        "title": "Keywords"
+      },
+      "terms": {
+        "field": "keywords.id",
+        "size": 50,
+        "min_doc_count": 1,
+        "shard_min_doc_count": 0,
+        "show_term_doc_count_error": false,
+        "order": [
+          {
+            "_count": "desc"
+          },
+          {
+            "_key": "asc"
+          }
+        ]
+      },
+      "aggregations": {
+        "topHits": {
+          "top_hits": {
+            "from": 0,
+            "size": 1,
+            "version": false,
+            "seq_no_primary_term": false,
+            "explain": false,
+            "_source": {
+              "includes": [
+                "keywords"
+              ],
+              "excludes": []
+            }
+          }
+        }
+      }
+    },
+    "legalBase": {
+      "meta": {
+        "title": "Legal Base"
+      },
+      "terms": {
+        "field": "legal_base.id",
+        "size": 50,
+        "min_doc_count": 1,
+        "shard_min_doc_count": 0,
+        "show_term_doc_count_error": false,
+        "order": [
+          {
+            "_count": "desc"
+          },
+          {
+            "_key": "asc"
+          }
+        ]
+      },
+      "aggregations": {
+        "topHits": {
+          "top_hits": {
+            "from": 0,
+            "size": 1,
+            "version": false,
+            "seq_no_primary_term": false,
+            "explain": false,
+            "_source": {
+              "includes": [
+                "legal_base"
+              ],
+              "excludes": []
+            }
+          }
+        }
+      }
+    },
+    "catalog": {
+      "meta": {
+        "title": "Catalogues"
+      },
+      "terms": {
+        "field": "catalog.id",
+        "size": 50,
+        "min_doc_count": 1,
+        "shard_min_doc_count": 0,
+        "show_term_doc_count_error": false,
+        "order": [
+          {
+            "_count": "desc"
+          },
+          {
+            "_key": "asc"
+          }
+        ]
+      },
+      "aggregations": {
+        "topHits": {
+          "top_hits": {
+            "from": 0,
+            "size": 1,
+            "version": false,
+            "seq_no_primary_term": false,
+            "explain": false,
+            "_source": {
+              "includes": [
+                "catalog"
+              ],
+              "excludes": []
+            }
+          }
+        }
+      }
+    },
+    "format": {
+      "meta": {
+        "title": "Formats"
+      },
+      "terms": {
+        "field": "distributions.format.id",
+        "size": 50,
+        "min_doc_count": 1,
+        "shard_min_doc_count": 0,
+        "show_term_doc_count_error": false,
+        "order": [
+          {
+            "_count": "desc"
+          },
+          {
+            "_key": "asc"
+          }
+        ]
+      },
+      "aggregations": {
+        "topHits": {
+          "top_hits": {
+            "from": 0,
+            "size": 1,
+            "version": false,
+            "seq_no_primary_term": false,
+            "explain": false,
+            "_source": {
+              "includes": [
+                "distributions.format"
+              ],
+              "excludes": []
+            }
+          }
+        }
+      }
+    },
+    "geocodingDescription": {
+      "meta": {
+        "title": "Geocoding Description"
+      },
+      "terms": {
+        "field": "geocoding_description.id",
+        "size": 50,
+        "min_doc_count": 1,
+        "shard_min_doc_count": 0,
+        "show_term_doc_count_error": false,
+        "order": [
+          {
+            "_count": "desc"
+          },
+          {
+            "_key": "asc"
+          }
+        ]
+      },
+      "aggregations": {
+        "topHits": {
+          "top_hits": {
+            "from": 0,
+            "size": 1,
+            "version": false,
+            "seq_no_primary_term": false,
+            "explain": false,
+            "_source": {
+              "includes": [
+                "geocoding_description"
+              ],
+              "excludes": []
+            }
+          }
+        }
+      }
+    },
+    "categories": {
+      "meta": {
+        "title": "Categories"
+      },
+      "terms": {
+        "field": "categories.id",
+        "size": 50,
+        "min_doc_count": 1,
+        "shard_min_doc_count": 0,
+        "show_term_doc_count_error": false,
+        "order": [
+          {
+            "_count": "desc"
+          },
+          {
+            "_key": "asc"
+          }
+        ]
+      },
+      "aggregations": {
+        "topHits": {
+          "top_hits": {
+            "from": 0,
+            "size": 1,
+            "version": false,
+            "seq_no_primary_term": false,
+            "explain": false,
+            "_source": {
+              "includes": [
+                "categories"
+              ],
+              "excludes": []
+            }
+          }
+        }
+      }
+    },
+    "eu": {
+      "meta": {
+        "match": false,
+        "title": "EU data",
+        "type": "mustNotMatch"
+      },
+      "filter": {
+        "bool": {
+          "must": [
+            {
+              "terms": {
+                "country.id": [
+                  "eu"
+                ],
+                "boost": 1.0
+              }
+            }
+          ],
+          "adjust_pure_negative": true,
+          "boost": 1.0
+        }
+      }
+    },
+    "io": {
+      "meta": {
+        "match": false,
+        "title": "International data",
+        "type": "mustNotMatch"
+      },
+      "filter": {
+        "bool": {
+          "must": [
+            {
+              "terms": {
+                "country.id": [
+                  "io"
+                ],
+                "boost": 1.0
+              }
+            }
+          ],
+          "adjust_pure_negative": true,
+          "boost": 1.0
+        }
+      }
+    },
+    "countryData": {
+      "meta": {
+        "match": true,
+        "title": "Country data",
+        "type": "mustNotMatch"
+      },
+      "filter": {
+        "bool": {
+          "must_not": [
+            {
+              "terms": {
+                "country.id": [
+                  "eu",
+                  "io"
+                ],
+                "boost": 1.0
+              }
+            }
+          ],
+          "adjust_pure_negative": true,
+          "boost": 1.0
+        }
+      }
+    }
+  }
+}

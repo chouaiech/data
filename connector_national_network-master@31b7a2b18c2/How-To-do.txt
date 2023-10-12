@@ -1,0 +1,42 @@
+#create the containers 
+#using the following command line
+docker-compose -f docker-compose.yml up --build -d
+
+#domibus instances is only ready after you see the following line:
+#INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [38647] milliseconds
+
+#after that you should go to the browser and change the default admin password
+#Go to central services:
+http://localhost:6080/domibus/
+user: admin
+pass: 123456
+
+#in the command line, run the following script:
+./deploy-keys-and-properties.sh
+
+#Reload the trustore using the web admin console of Domibus
+###########Pt-node###########
+#go to:
+http://localhost:6080/domibus/
+
+####using the left menu
+#In the left menu, navigate to “Trustores” -> “Domibus”
+#Click on “Upload” and choose the
+./central-services/key-central/gateway_truststore.jks
+#Enter the password "test123"
+#Press the button Reload KeyStore in the lower right corner. You should see the message Keystore was successfully reset
+
+#####load the PMOde 
+#go to:
+http://localhost:5080/domibus/
+#navigate to “PMode” -> “Current” page
+#Upload the PMode file using a description, locate in: 
+ ./central-services/PMode-pt-node.xml
+ #click on “Save” to activate the new PMode file. 
+ 
+#Create an API user 
+In the menu bar, navigate to “Plugin User”. Create a new plugin user by clicking on “New” :
+ROLE_ADMIN
+#NOTE : This user name and password will be used while sending a message through APIs. 
+
+

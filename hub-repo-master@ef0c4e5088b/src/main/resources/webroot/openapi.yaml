@@ -1,0 +1,1796 @@
+# An OpenAPI 3.0 (a.k.a. Swagger) definition of the Engine API.
+#
+# This is used for generating API documentation and the types used by the
+# client/server. See api/README.md for more information.
+#
+# Some style notes:
+# - This file is used by ReDoc, which allows GitHub Flavored Markdown in
+#   descriptions.
+# - There is no maximum line length, for ease of editing and pretty diffs.
+# - operationIds are in the format "verbNoun".
+
+# Some comments are copied from the Docker Engine API Specification
+
+openapi: '3.0.3'
+
+info:
+  version: ${project.version}
+  title: piveau hub-repo service
+  x-logo:
+    url: images/logo
+
+# Workaround, see: https://github.com/Redocly/redoc/issues/1172
+servers:
+  - url: ''
+
+# The tags on paths define the menu sections in the ReDoc documentation, so
+# the usage of tags must make sense for that:
+# - They should be singular, not plural.
+# - There should not be too many tags, or the menu becomes unwieldly. For
+#   example, it is preferable to add a path to the "System" tag instead of
+#   creating a tag with a single path in it.
+# - The order of tags in this list defines the order in the menu.
+tags:
+  # Primary objects
+  - name: Catalogues
+    x-displayName: "Catalogues"
+  - name: Datasets
+    x-displayName: "Datasets"
+  - name: Distributions
+    x-displayName: "Distributions"
+  - name: Vocabularies
+    x-displayName: "Vocabularies"
+  - name: Drafts
+    x-displayName: "Drafts"
+  - name: Identifiers
+    x-displayName: "Identifiers"
+    description: |
+      Create persistent identifiers for data artifacts.
+  - name: Resources
+    x-displayName: "Resources"
+
+paths:
+
+  ##############
+  # CATALOGUES #
+  ##############
+
+  /catalogues:
+    get:
+      summary: List catalogues
+      operationId: listCatalogues
+      tags:
+        - Catalogues
+      parameters:
+        - $ref: '#/components/parameters/ValueType'
+        - $ref: '#/components/parameters/Offset'
+        - $ref: '#/components/parameters/Limit'
+      responses:
+        '200':
+          $ref: '#/components/responses/RDFLIST200'
+        '400':
+          description: Bad request
+    head:
+      summary: Headers only for "List catalogues"
+      operationId: headListCatalogues
+      tags:
+        - Catalogues
+      parameters:
+        - $ref: '#/components/parameters/ValueType'
+        - $ref: '#/components/parameters/Offset'
+        - $ref: '#/components/parameters/Limit'
+      responses:
+        '200':
+          description: Headers of list catalogues
+        '400':
+          description: Bad request
+
+  /catalogues/{catalogueId}:
+    parameters:
+      - $ref: '#/components/parameters/CatalogueId'
+    get:
+      summary: Get catalogue
+      operationId: getCatalogue
+      tags:
+        - Catalogues
+      responses:
+        '200':
+          $ref: '#/components/responses/RDF200'
+        '404':
+          description: Catalogue not found
+    head:
+      summary: Headers only for "Get catalogue"
+      operationId: headGetCatalogue
+      tags:
+        - Catalogues
+      responses:
+        '200':
+          description: Headers of get catalogue
+        '404':
+          description: Catalogue not found
+    put:
+      description: Create or update catalogue
+      summary: Create or update catalogue
+      operationId: putCatalogue
+      tags:
+        - Catalogues
+      security:
+        - ApiKeyAuth: [ ]
+        - BearerAuth: [ ]
+      requestBody:
+        $ref: '#/components/requestBodies/RDFBody'
+      responses:
+        '201':
+          description: Catalogue created
+          headers:
+            Location:
+              $ref: '#/components/headers/LocationURIRef'
+        '204':
+          description: Catalogue updated
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+    delete:
+      summary: Delete catalogue
+      operationId: deleteCatalogue
+      tags:
+        - Catalogues
+      security:
+        - ApiKeyAuth: [ ]
+        - BearerAuth: [ ]
+      responses:
+        '204':
+          description: Catalogue deleted
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Catalogue not found
+
+  /catalogues/{catalogueId}/datasets:
+    parameters:
+      - $ref: '#/components/parameters/CatalogueId'
+    get:
+      summary: List datasets of catalogue
+      operationId: listCatalogueDatasets
+      tags:
+        - Catalogues
+      parameters:
+        - $ref: '#/components/parameters/ValueType'
+        - $ref: '#/components/parameters/Offset'
+        - $ref: '#/components/parameters/Limit'
+      responses:
+        '200':
+          $ref: '#/components/responses/RDFLIST200'
+        '400':
+          description: Bad request
+        '404':
+          description: Catalogue not found
+    head:
+      summary: Headers only for "List datasets of catalogue"
+      operationId: headListCatalogueDatasets
+      tags:
+        - Catalogues
+      parameters:
+        - $ref: '#/components/parameters/ValueType'
+        - $ref: '#/components/parameters/Offset'
+        - $ref: '#/components/parameters/Limit'
+      responses:
+        '200':
+          description: Headers of list dataset of catalogue
+        '400':
+          description: Bad request
+        '404':
+          description: Catalogue not found
+    post:
+      summary: Add dataset to catalogue
+      operationId: postCatalogueDataset
+      tags:
+        - Catalogues
+      security:
+        - ApiKeyAuth: []
+        - BearerAuth: []
+      requestBody:
+        $ref: '#/components/requestBodies/RDFBody'
+      responses:
+        '201':
+          description: Dataset created
+          headers:
+            Location:
+              $ref: '#/components/headers/LocationURIRef'
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Catalogue not found
+
+  /catalogues/{catalogueId}/datasets/origin:
+    parameters:
+      - $ref: '#/components/parameters/CatalogueId'
+      - name: originalId
+        required: true
+        in: query
+        description: The original id of the dataset
+        schema:
+          type: string
+    get:
+      summary: Get datasets of catalogue by means of an original id
+      operationId: getCatalogueDatasetsOrigin
+      tags:
+        - Catalogues
+      responses:
+        '200':
+          $ref: '#/components/responses/RDF200'
+        '400':
+          description: Bad request
+        '404':
+          description: Catalogue or dataset not found
+    head:
+      summary: Headers only for "Get dataset of a catalogue by means of an original id"
+      operationId: headGetCatalogueDatasetsOrigin
+      tags:
+        - Catalogues
+      responses:
+        '200':
+          description: Headers of get dataset of catalogue by means of an original id
+        '400':
+          description: Bad request
+        '404':
+          description: Catalogue or dataset not found
+    put:
+      summary: Create or update dataset of catalogue by means of an original id
+      operationId: putCatalogueDatasetsOrigin
+      tags:
+        - Catalogues
+      security:
+        - ApiKeyAuth: []
+        - BearerAuth: []
+      requestBody:
+        $ref: '#/components/requestBodies/RDFBody'
+      responses:
+        '201':
+          description: Dataset created
+          headers:
+            Location:
+              $ref: '#/components/headers/LocationURIRef'
+        '204':
+          description: Dataset updated
+        '304':
+          description: Not modified, no update necessary
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Catalogue not found
+    delete:
+      summary: Delete dataset of catalogue by means of an original id
+      operationId: deleteCatalogueDatasetsOrigin
+      tags:
+        - Catalogues
+      security:
+        - ApiKeyAuth: []
+        - BearerAuth: []
+      responses:
+        '204':
+          description: Dataset deleted
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Catalogue or dataset not found
+
+  ############
+  # DATASETS #
+  ############
+
+  /datasets:
+    get:
+      summary: List datasets
+      operationId: listDatasets
+      tags:
+        - Datasets
+      parameters:
+        - $ref: '#/components/parameters/ValueType'
+        - name: catalogue
+          deprecated: true
+          in: query
+          description: Please, use `GET /catalogues/{catalogueId}/datasets` instead
+          schema:
+            type: string
+        - name: sourceIds
+          deprecated: true
+          in: query
+          description: Please, use `valueType=originIds` instead
+          schema:
+            type: boolean
+            default: false
+        - $ref: '#/components/parameters/Offset'
+        - $ref: '#/components/parameters/Limit'
+      responses:
+        '200':
+          $ref: '#/components/responses/RDFLIST200'
+        '400':
+          description: Bad request
+        '404':
+          description: Deprecated! See `catalogue` query parameter. Catalogue not found
+    head:
+      summary: Headers only for "List datasets"
+      operationId: headListDatasets
+      tags:
+        - Datasets
+      parameters:
+        - $ref: '#/components/parameters/ValueType'
+        - name: catalogue
+          deprecated: true
+          in: query
+          description: Please, use `GET /catalogues/{catalogueId}/datasets` instead
+          schema:
+            type: string
+        - name: sourceIds
+          in: query
+          description: Please, use `valueType=originIds` instead
+          deprecated: true
+          schema:
+            type: boolean
+            default: false
+        - $ref: '#/components/parameters/Offset'
+        - $ref: '#/components/parameters/Limit'
+      responses:
+        '200':
+          description: Headers of list datasets
+        '400':
+          description: Bad request
+    post:
+      deprecated: true
+      summary: Add dataset
+      description: Please, use `POST /catalogues/{catalogueId}/datasets/origin` instead
+      operationId: postCatalogueDatasetLegacy
+      tags:
+        - Datasets
+      security:
+        - ApiKeyAuth: []
+        - BearerAuth: []
+      parameters:
+        - name: catalogue
+          in: query
+          description: The catalogue to add the dataset
+          required: true
+          schema:
+            type: string
+      requestBody:
+        $ref: '#/components/requestBodies/RDFBody'
+      responses:
+        '201':
+          description: Dataset created
+          headers:
+            Location:
+              $ref: '#/components/headers/LocationURIRef'
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Catalogue not found
+    put:
+      deprecated: true
+      description: Please, use `PUT /catalogues/{catalogueId}/datasets/origin` instead
+      summary: Create or update dataset
+      operationId: putDatasetLegacy
+      tags:
+        - Datasets
+      security:
+        - ApiKeyAuth: []
+        - BearerAuth: []
+      parameters:
+        - name: id
+          in: query
+          required: true
+          description: The dataset id
+          schema:
+            type: string
+        - name: catalogue
+          in: query
+          required: true
+          description: The catalogue id
+          schema:
+            type: string
+        - name: data
+          in: query
+          description: Generate data url
+          schema:
+            type: boolean
+            default: false
+      requestBody:
+        $ref: '#/components/requestBodies/RDFBody'
+      responses:
+        '201':
+          description: Dataset created
+          headers:
+            Location:
+              $ref: '#/components/headers/LocationURIRef'
+        '204':
+          description: Dataset updated
+        '304':
+          description: Dataset not modified, no update necessary
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Forbidden
+    delete:
+      deprecated: true
+      summary: Delete a dataset
+      description: Please, use `DELETE /catalogues/{catalogueId}/datasets/origin` instead.
+      operationId: deleteDatasetLegacy
+      tags:
+        - Datasets
+      parameters:
+        - name: id
+          in: query
+          required: true
+          description: The dataset id
+          schema:
+            type: string
+        - name: catalogue
+          in: query
+          required: true
+          description: The catalogue id
+          schema:
+            type: string
+      security:
+        - ApiKeyAuth: []
+        - BearerAuth: []
+      responses:
+        '204':
+          description: Dataset deleted
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Dataset not found
+
+  /datasets/{datasetId}:
+    parameters:
+      - $ref: '#/components/parameters/DatasetId'
+    get:
+      summary: Get dataset
+      operationId: getDataset
+      parameters:
+        - name: catalogue
+          deprecated: true
+          in: query
+          description: Please, use `GET /catalogues/{catalogueId}/datasets/origin` instead
+          schema:
+            type: string
+      tags:
+        - Datasets
+      responses:
+        '200':
+          $ref: '#/components/responses/RDF200'
+        '400':
+          description: Bad request
+        '404':
+          description: Catalogue or dataset id not found
+    head:
+      summary: Headers only for "Get dataset"
+      operationId: headGetDataset
+      parameters:
+        - name: catalogue
+          deprecated: true
+          in: query
+          description: Please, use `HEAD /catalogues/{catalogueId}/datasets/origin` instead
+          schema:
+            type: string
+      tags:
+        - Datasets
+      responses:
+        '200':
+          description: Headers of get dataset
+        '400':
+          description: Bad request
+        '404':
+          description: Catalogue or dataset not found
+    put:
+      description: Update a dataset. When you use an original dataset id for creation or update, please, use `PUT /catalogues/{catalogueId}/datasets/origin` instead.
+      summary: Update a Dataset
+      operationId: putDataset
+      tags:
+        - Datasets
+      parameters:
+        - name: catalogue
+          deprecated: true
+          in: query
+          description: Please, use `PUT /catalogues/{catalogueId}/datasets/origin` instead
+          schema:
+            type: string
+      security:
+        - ApiKeyAuth: []
+        - BearerAuth: []
+      requestBody:
+        $ref: '#/components/requestBodies/RDFBody'
+      responses:
+        '201':
+          description: Deprecated! see `catalogue` query parameter
+        '204':
+          description: Dataset updated
+        '304':
+          description: Dataset not modified, no update necessary
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Dataset not found
+    delete:
+      summary: Delete a dataset
+      operationId: deleteDataset
+      tags:
+        - Datasets
+      parameters:
+        - name: catalogue
+          deprecated: true
+          in: query
+          description: Please, use `DELETE /catalogue/{catalogueId}/datasets/origin` instead
+          schema:
+            type: string
+      security:
+        - ApiKeyAuth: []
+        - BearerAuth: []
+      responses:
+        '204':
+          description: Dataset deleted
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Dataset not found
+
+  /datasets/{datasetId}/distributions:
+    parameters:
+      - $ref: '#/components/parameters/DatasetId'
+    get:
+      summary: List dataset distributions
+      operationId: listDatasetDistributions
+      tags:
+        - Datasets
+      parameters:
+        - $ref: '#/components/parameters/ValueType'
+        - $ref: '#/components/parameters/Offset'
+        - $ref: '#/components/parameters/Limit'
+      responses:
+        '200':
+          $ref: '#/components/responses/RDFLIST200'
+        '400':
+          description: Bad request
+        '404':
+          description: Dataset not found
+    head:
+      summary: Headers only for "List dataset distributions"
+      operationId: headListDatasetDistributions
+      tags:
+        - Datasets
+      parameters:
+        - $ref: '#/components/parameters/ValueType'
+        - $ref: '#/components/parameters/Offset'
+        - $ref: '#/components/parameters/Limit'
+      responses:
+        '200':
+          description: Headers of list dataset distributions
+        '400':
+          description: Bad request
+        '404':
+          description: Dataset not found
+    post:
+      summary: Add distribution to dataset
+      operationId: postDatasetDistribution
+      tags:
+        - Datasets
+      security:
+        - ApiKeyAuth: []
+        - BearerAuth: []
+      requestBody:
+        $ref: '#/components/requestBodies/RDFBody'
+      responses:
+        '201':
+          description: Distribution created
+          headers:
+            Location:
+              $ref: '#/components/headers/LocationURIRef'
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Dataset not found
+
+  #################
+  # DISTRIBUTIONS #
+  #################
+
+  /distributions/{distributionId}:
+    parameters:
+      - $ref: '#/components/parameters/DistributionId'
+    get:
+      summary: Get distribution
+      operationId: getDistribution
+      tags:
+        - Distributions
+      responses:
+        '200':
+          $ref: '#/components/responses/RDF200'
+        '404':
+          description: Distribution not found
+    head:
+      summary: Headers only for "Get distribution"
+      operationId: headGetDistribution
+      tags:
+        - Distributions
+      responses:
+        '200':
+          description: Headers of get distribution
+        '404':
+          description: Distribution not found
+    put:
+      summary: Update distribution
+      operationId: putDistribution
+      tags:
+        - Distributions
+      security:
+        - ApiKeyAuth: []
+        - BearerAuth: []
+      requestBody:
+        $ref: '#/components/requestBodies/RDFBody'
+      responses:
+        '204':
+          description: Distribution updated
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Distribution not found
+    delete:
+      summary: Delete distribution
+      operationId: deleteDistribution
+      tags:
+        - Distributions
+      security:
+        - ApiKeyAuth: []
+        - BearerAuth: []
+      responses:
+        '204':
+          description: Distribution deleted
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Distribution not found
+
+  ###########
+  # METRICS #
+  ###########
+
+  /datasets/{datasetId}/metrics:
+    parameters:
+      - $ref: '#/components/parameters/DatasetId'
+    get:
+      summary: Get dataset metrics
+      operationId: getMetrics
+      tags:
+        - Datasets
+      parameters:
+        - name: historic
+          in: query
+          description: Whether the historic metrics graph should be returned. Ignored when historic graphs are disabled in config.
+          schema:
+            type: boolean
+            default: false
+      responses:
+        '200':
+          $ref: '#/components/responses/RDF200'
+        '400':
+          description: Bad Request
+        '404':
+          description: Dataset not found
+    head:
+      summary: Headers only for "Get dataset metrics"
+      operationId: headGetMetrics
+      tags:
+        - Datasets
+      parameters:
+        - name: historic
+          in: query
+          description: Whether the historic metrics graph should be returned. Ignored when historic graphs are disabled in config.
+          schema:
+            type: boolean
+            default: false
+      responses:
+        '200':
+          description: Dataset metrics info
+        '400':
+          description: Bad Request
+        '404':
+          description: Dataset not found
+    put:
+      summary: Create/Update metrics for a dataset
+      operationId: putMetrics
+      tags:
+        - Datasets
+      security:
+        - ApiKeyAuth: [ ]
+        - BearerAuth: [ ]
+      requestBody:
+        $ref: '#/components/requestBodies/RDFBody'
+      responses:
+        '201':
+          description: Dataset metrics created
+          headers:
+            Location:
+              $ref: '#/components/headers/LocationURIRef'
+        '204':
+          description: Dataset metrics updated
+        '400':
+          description: Bad Request
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Dataset not found
+    delete:
+      summary: Delete metrics
+      operationId: deleteMetrics
+      tags:
+        - Datasets
+      security:
+        - ApiKeyAuth: [ ]
+        - BearerAuth: [ ]
+      responses:
+        '204':
+          description: Dataset metrics deleted
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Dataset not found
+
+  #####################
+  # CATALOGUE RECORDS #
+  #####################
+
+  /datasets/{datasetId}/record:
+    parameters:
+      - $ref: '#/components/parameters/DatasetId'
+    get:
+      summary: Get catalogue record
+      operationId: getRecord
+      tags:
+        - Datasets
+      responses:
+        '200':
+          $ref: '#/components/responses/RDF200'
+        '404':
+          description: Dataset not found
+    head:
+      summary: Headers only for "Get catalogue record"
+      operationId: headGetRecord
+      tags:
+        - Datasets
+      responses:
+        '200':
+          description: Headers of get catalogue record
+        '404':
+          description: Dataset not found
+
+  /records/{datasetId}:
+    parameters:
+      - $ref: '#/components/parameters/DatasetId'
+      - name: catalogue
+        in: query
+        required: false
+        schema:
+          type: string
+    get:
+      deprecated: true
+      summary: Get catalogue record
+      operationId: getRecordLegacy
+      tags:
+        - Datasets
+      responses:
+        '200':
+          $ref: '#/components/responses/RDF200'
+        '404':
+          description: Dataset not found
+    head:
+      deprecated: true
+      summary: Headers only for "Get catalogue record"
+      operationId: headGetRecordLegacy
+      tags:
+        - Datasets
+      responses:
+        '200':
+          description: Headers of get catalogue record
+        '404':
+          description: Not Found
+
+  ####################
+  # DATASET INDEXING #
+  ####################
+
+  /datasets/{datasetId}/index:
+    parameters:
+      - $ref: '#/components/parameters/DatasetId'
+    get:
+      description: Re-index and get index of the dataset.
+      summary: Index/Reindex a dataset
+      operationId: getDatasetIndex
+      tags:
+        - Datasets
+      security:
+        - ApiKeyAuth: []
+        - BearerAuth: []
+      responses:
+        '200':
+          description: Dataset index. Dataset is re-indexed.
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Dataset not found
+
+  ##################
+  # DRAFTS DATASET #
+  ##################
+
+  /drafts/datasets:
+    get:
+      description: Get datasets drafts.
+      summary: Get dataset drafts
+      operationId: listDatasetDrafts
+      tags:
+        - Drafts
+      security:
+        - ApiKeyAuth: [ ]
+        - BearerAuth: [ ]
+      parameters:
+        - name: filterByProvider
+          in: query
+          description: "By default, all drafts that the user is allowed to read, update and delete are returned. With `filterByProvider=true` only drafts that the user has created are returned."
+          required: false
+          schema:
+            type: boolean
+      responses:
+        '200':
+          description: Request accepted.
+          content:
+            application/json:
+              schema:
+                type: string
+            application/rdf+xml:
+              schema:
+                type: string
+            text/turtle:
+              schema:
+                type: string
+            text/n3:
+              schema:
+                type: string
+            application/trig:
+              schema:
+                type: string
+            application/n-triples:
+              schema:
+                type: string
+        '400':
+          description: Invalid request.
+    post:
+      description: Create a dataset draft
+      summary: Create a dataset draft
+      operationId: createDatasetDraft
+      tags:
+        - Drafts
+      security:
+        - ApiKeyAuth: [ ]
+        - BearerAuth: [ ]
+      parameters:
+        - name: catalogue
+          in: query
+          required: true
+          description: 'The ID of the catalogue which should contain this dataset draft'
+          schema:
+            type: string
+      responses:
+        '201':
+          description: Dataset created.
+        '400':
+          description: Invalid request.
+  /drafts/datasets/{id}:
+    parameters:
+      - name: id
+        in: path
+        description: 'ID of the draft dataset.'
+        required: true
+        schema:
+          type: string
+    get:
+      description: Get a dataset draft
+      summary: Get a dataset draft
+      operationId: readDatasetDraft
+      tags:
+        - Drafts
+      security:
+        - ApiKeyAuth: [ ]
+        - BearerAuth: [ ]
+      parameters:
+        - name: catalogue
+          in: query
+          required: true
+          description: 'The ID of the catalogue which should contain this dataset draft'
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Request accepted.
+          content:
+            application/ld+json:
+              schema:
+                type: string
+            application/rdf+xml:
+              schema:
+                type: string
+            text/turtle:
+              schema:
+                type: string
+            text/n3:
+              schema:
+                type: string
+            text/plain:
+              schema:
+                type: string
+            application/trig:
+              schema:
+                type: string
+            application/n-triples:
+              schema:
+                type: string
+        '400':
+          description: Invalid request.
+        '404':
+          description: Catalogue or Dataset Draft ID not found.
+    put:
+      description: Create or update a dataset draft with given id.
+      summary: Create or Update a dataset draft
+      operationId: createOrUpdateDatasetDraft
+      tags:
+        - Drafts
+      security:
+        - ApiKeyAuth: [ ]
+        - BearerAuth: [ ]
+      parameters:
+        - name: catalogue
+          in: query
+          required: true
+          description: 'The ID of the catalogue which should contain this dataset draft'
+          schema:
+            type: string
+      responses:
+        '204':
+          description: Dataset updated.
+        '201':
+          description: Dataset created.
+        '400':
+          description: Invalid request.
+    delete:
+      description: Delete a dataset draft
+      summary: Delete a dataset draft
+      operationId: deleteDatasetDraft
+      tags:
+        - Drafts
+      security:
+        - ApiKeyAuth: [ ]
+        - BearerAuth: [ ]
+      parameters:
+        - name: catalogue
+          in: query
+          required: true
+          description: 'The ID of the catalogue which should contain this dataset draft'
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Request accepted.
+        '404':
+          description: Dataset ID not found.
+  /drafts/datasets/publish/{id}:
+    put:
+      description: Publish a dataset draft
+      summary: Publish a dataset draft
+      operationId: publishDatasetDraft
+      tags:
+        - Drafts
+      security:
+        - ApiKeyAuth: [ ]
+        - BearerAuth: [ ]
+      parameters:
+        - name: id
+          in: path
+          description: 'ID of the draft dataset.'
+          required: true
+          schema:
+            type: string
+        - name: catalogue
+          in: query
+          required: true
+          description: 'The ID of the catalogue which should contain this dataset draft'
+          schema:
+            type: string
+      responses:
+        '204':
+          description: Dataset draft published.
+        '400':
+          description: Invalid request.
+  /drafts/datasets/hide/{id}:
+    put:
+      description: Hide a published dataset
+      summary: Hide a published dataset
+      operationId: hideDataset
+      tags:
+        - Drafts
+      security:
+        - ApiKeyAuth: [ ]
+        - BearerAuth: [ ]
+      parameters:
+        - name: id
+          in: path
+          description: 'ID of the published dataset.'
+          required: true
+          schema:
+            type: string
+        - name: catalogue
+          in: query
+          required: true
+          description: 'The ID of the catalogue which should contain this dataset draft'
+          schema:
+            type: string
+      responses:
+        '204':
+          description: Dataset hidden.
+        '400':
+          description: Invalid request.
+
+  ################
+  # VOCABULARIES #
+  ################
+
+  /vocabularies:
+    get:
+      description: Get all vocabularies
+      summary: Get all vocabularies
+      operationId: listVocabularies
+      tags:
+        - Vocabularies
+      responses:
+        '200':
+          description: Request accepted.
+          content:
+            application/rdf+xml:
+              schema:
+                type: string
+        '400':
+          description: Invalid request.
+    put:
+      description: Create or Update a vocabulary
+      summary: Create or Update a vocabulary
+      operationId: createOrUpdateVocabulary
+      tags:
+        - Vocabularies
+      security:
+        - ApiKeyAuth: [ ]
+      parameters:
+        - name: id
+          in: query
+          description: ID of the vocabulary
+          required: true
+          schema:
+            type: string
+        - name: uri
+          in: query
+          description: URI of the vocabulary
+          required: true
+          schema:
+            type: string
+        - name: hash
+          in: query
+          description: Hash of the vocabulary. Used for chunk-wise processing. Default is empty.
+          required: false
+          schema:
+            type: string
+        - name: chunkId
+          in: query
+          description: Id of the corresponding chunk of the vocabulary. Used for chunk-wise processing. Default is 0.
+          required: false
+          schema:
+            type: integer
+        - name: numberOfChunks
+          in: query
+          description: Number of total chunks of the vocabulary. Used for chunk-wise processing. Default is 1.
+          schema:
+            type: integer
+      requestBody:
+        description: Model of the new Vocabulary
+        required: true
+        content:
+          application/rdf+xml:
+            schema:
+              type: string
+          application/n-triples:
+            schema:
+              type: string
+          application/trig:
+            schema:
+              type: string
+          text/turtle:
+            schema:
+              type: string
+          text/n3:
+            schema:
+              type: string
+      responses:
+        '204':
+          description: Vocabulary updated
+        '201':
+          description: Vocabulary created
+        '304':
+          description: Vocabulary skipped, no update necessary
+        '400':
+          description: Bad request
+  /vocabularies/{id}:
+    get:
+      description: Get a vocabulary
+      summary: Get a vocabulary
+      operationId: getVocabulary
+      tags:
+        - Vocabularies
+      parameters:
+        - name: id
+          in: path
+          description: ID of the requested vocabulary
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Request accepted.
+          content:
+            application/rdf+xml:
+              schema:
+                type: string
+            application/n-triples:
+              schema:
+                type: string
+            application/trig:
+              schema:
+                type: string
+            text/turtle:
+              schema:
+                type: string
+            text/n3:
+              schema:
+                type: string
+        '400':
+          description: Bad request
+    head:
+      description: Get headers returned when requesting a vocabulary
+      summary: HEAD a vocabulary
+      operationId: headGetVocabulary
+      tags:
+        - Vocabularies
+      parameters:
+        - name: id
+          in: path
+          description: ID of the requested vocabulary
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Request accepted.
+        '400':
+          description: Invalid request.
+    delete:
+      description: Delete a vocabulary
+      summary: Delete a vocabulary
+      operationId: deleteVocabulary
+      tags:
+        - Vocabularies
+      security:
+        - ApiKeyAuth: []
+      parameters:
+        - name: id
+          in: path
+          description: ID of the requested vocabulary
+          required: true
+          schema:
+            type: string
+      responses:
+        '204':
+          description: Request accepted.
+          content:
+            application/rdf+xml:
+              schema:
+                type: string
+            application/n-triples:
+              schema:
+                type: string
+            application/trig:
+              schema:
+                type: string
+            text/turtle:
+              schema:
+                type: string
+            text/n3:
+              schema:
+                type: string
+        '400':
+          description: Invalid request.
+
+  ################
+  # TRANSLATIONS #
+  ################
+
+  /translation:
+    post:
+      summary: Post a completed translation.
+      operationId: postTranslation
+      tags:
+        - Translation
+      security:
+        - ApiKeyAuth: [ ]
+        - BearerAuth: [ ]
+      responses:
+        '204':
+          description: Translation stored
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Resource not found
+      requestBody:
+        description: JSON with the completed translations.
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+
+  ##################
+  # IDENTIFIERS #
+  ##################
+
+  /identifiers/datasets/{datasetId}:
+    parameters:
+      - $ref: '#/components/parameters/DatasetId'
+    put:
+      description: This endpoint allows to create a persistent identifier for a dataset, that will be stored in the adms:identifier property.
+      summary: Create a persistent identifier for a dataset
+      operationId: createDatasetIdentifier
+      tags:
+        - Identifiers
+      security:
+        - ApiKeyAuth: [ ]
+        - BearerAuth: [ ]
+      parameters:
+        - name: catalogue
+          deprecated: true
+          in: query
+          description: The the catalogue id to which the dataset belongs
+          schema:
+            type: string
+        - name: type
+          in: query
+          required: true
+          description: 'The type of the persistent identifier'
+          schema:
+            type: string
+            enum:
+              - eu-ra-doi
+              - mock
+      responses:
+        '200':
+          description: Identifier created, details in the response body
+          content:
+            application/json:
+              schema:
+                type: object
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Dataset not found
+        '422':
+          description: Unprocessable Entity, details in the response body.
+          content:
+            application/json:
+              schema:
+                type: object
+  /identifiers/datasets/{datasetId}/eligibility:
+    parameters:
+      - $ref: '#/components/parameters/DatasetId'
+    get:
+      description: |
+        This endpoint checks if a dataset has all elements needed to generate an identifier.
+      summary: Check if an identifier can be issued for the given dataset.
+      operationId: checkIdentifierEligibility
+      tags:
+        - Identifiers
+      security:
+        - ApiKeyAuth: [ ]
+        - BearerAuth: [ ]
+      parameters:
+        - name: catalogue
+          deprecated: true
+          in: query
+          description: The the catalogue id to which the dataset belongs
+          schema:
+            type: string
+        - name: type
+          in: query
+          description: 'The type of the persistent identifier'
+          schema:
+            type: string
+            enum: [ eu-ra-doi, mock ]
+      responses:
+        '200':
+          description: Eligible or not
+        '404':
+          description: The dataset was not found
+
+  #############
+  # RESOURCES #
+  #############
+
+  /resources:
+    get:
+      description: You can get a list of resource types.
+      summary: List resource types
+      operationId: listResourceTypes
+      tags:
+        - Resources
+      responses:
+        '200':
+          description: Request accepted.
+          content:
+            application/json:
+              schema:
+                type: string
+            application/rdf+xml:
+              schema:
+                type: string
+            text/turtle:
+              schema:
+                type: string
+            text/n3:
+              schema:
+                type: string
+            application/trig:
+              schema:
+                type: string
+            application/n-triples:
+              schema:
+                type: string
+        '400':
+          description: Invalid request.
+
+  /resources/{type}:
+    get:
+      description: You can get a list of resources of an exact type with required parameter 'type'.
+      summary: List resources
+      operationId: listResources
+      tags:
+        - Resources
+      parameters:
+        - name: type
+          in: path
+          required: true
+          description: Type to which the resources belong.
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Request accepted.
+          content:
+            application/json:
+              schema:
+                type: string
+            application/rdf+xml:
+              schema:
+                type: string
+            text/turtle:
+              schema:
+                type: string
+            text/n3:
+              schema:
+                type: string
+            application/trig:
+              schema:
+                type: string
+            application/n-triples:
+              schema:
+                type: string
+        '400':
+          description: Invalid request.
+    post:
+      description: You can post a resource with type.
+      summary: Create a resource
+      operationId: postResource
+      tags:
+        - Resources
+      security:
+        - ApiKeyAuth: [ ]
+      parameters:
+        - name: type
+          in: path
+          required: true
+          description: Type to which the resource belongs.
+          schema:
+            type: string
+      requestBody:
+        description: Model of the new Resource
+        required: true
+        content:
+          application/rdf+xml:
+            schema:
+              type: string
+          application/n-triples:
+            schema:
+              type: string
+          application/trig:
+            schema:
+              type: string
+          text/turtle:
+            schema:
+              type: string
+          text/n3:
+            schema:
+              type: string
+      responses:
+        '201':
+          description: Resource created.
+        '400':
+          description: Invalid request.
+        '404':
+          description: Resource type not found.
+    put:
+      description: You can put a resource with id and type.
+      summary: Create or Update a resource
+      operationId: putResource
+      tags:
+        - Resources
+      security:
+        - ApiKeyAuth: [ ]
+      parameters:
+        - name: id
+          in: query
+          description: Id of the created or updated resource
+          required: true
+          schema:
+            type: string
+        - name: type
+          in: path
+          required: true
+          description: Type to which the resource belongs.
+          schema:
+            type: string
+      requestBody:
+        description: Model of the new Resource
+        required: true
+        content:
+          application/rdf+xml:
+            schema:
+              type: string
+          application/n-triples:
+            schema:
+              type: string
+          application/trig:
+            schema:
+              type: string
+          text/turtle:
+            schema:
+              type: string
+          text/n3:
+            schema:
+              type: string
+      responses:
+        '204':
+          description: Resource updated.
+        '201':
+          description: Resource created.
+        '400':
+          description: Invalid request.
+        '404':
+          description: Resource type not found.
+  /resources/{type}/{id}:
+    parameters:
+      - name: id
+        in: path
+        description: Id of the resource
+        required: true
+        schema:
+          type: string
+      - name: type
+        in: path
+        required: true
+        description: Type to which the resource belongs.
+        schema:
+          type: string
+    get:
+      description: You can get a resource with id and type.
+      summary: Get a resource
+      operationId: getResource
+      tags:
+        - Resources
+      responses:
+        '200':
+          description: Request accepted.
+          content:
+            application/ld+json:
+              schema:
+                type: string
+            application/rdf+xml:
+              schema:
+                type: string
+            text/turtle:
+              schema:
+                type: string
+            text/n3:
+              schema:
+                type: string
+            text/plain:
+              schema:
+                type: string
+            application/trig:
+              schema:
+                type: string
+            application/n-triples:
+              schema:
+                type: string
+        '400':
+          description: Invalid request.
+        '404':
+          description: Resource type or resource id not found.
+    head:
+      description: Get headers returned when requesting a resource
+      summary: HEAD a resource
+      operationId: headGetResource
+      tags:
+        - Resources
+      responses:
+        '200':
+          description: Request accepted.
+        '400':
+          description: Invalid request.
+        '404':
+          description: Resource type or resource id not found.
+    delete:
+      description: You can delete a resource with id and type.
+      summary: Delete a resource
+      operationId: deleteResource
+      tags:
+        - Resources
+      security:
+        - ApiKeyAuth: [ ]
+      responses:
+        '204':
+          description: Request accepted.
+        '400':
+          description: Invalid request.
+        '404':
+          description: Resource type or resource id not found.
+
+components:
+
+  schemas:
+    RDFXML:
+      type: object
+      xml:
+        namespace: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+        prefix: rdf
+
+  parameters:
+    Id:
+      name: id
+      in: path
+      required: true
+      schema:
+        type: string
+    CatalogueId:
+      name: catalogueId
+      description: The catalogue id
+      in: path
+      required: true
+      schema:
+        type: string
+        pattern: '[a-z,0-9,\-]+'
+    DatasetId:
+      name: datasetId
+      description: The dataset id
+      in: path
+      required: true
+      schema:
+        type: string
+        pattern: '[a-z,0-9,\-,~]+'
+    DistributionId:
+      name: distributionId
+      description: The distribution id
+      in: path
+      required: true
+      schema:
+        type: string
+        pattern: '[a-z,0-9,\-,~]+'
+    Limit:
+      name: limit
+      in: query
+      schema:
+        type: number
+        format: int64
+        default: 100
+        minimum: 1
+        maximum: 5000
+    Offset:
+      name: offset
+      in: query
+      schema:
+        type: number
+        format: int64
+        default: 0
+        minimum: 0
+    ValueType:
+      name: valueType
+      in: query
+      description: Return value type. In case of `urifRefs` and `identifiers` Accept header will be ignored and the return type will always be a JSON array
+      schema:
+        type: string
+        enum:
+          - uriRefs
+          - identifiers
+          - originalIds
+          - metadata
+        default: uriRefs
+  requestBodies:
+    RDFBody:
+      required: true
+      content:
+        application/rdf+xml:
+          schema:
+            $ref: '#/components/schemas/RDFXML'
+        application/ld+json:
+          schema:
+            type: object
+        application/n-triples:
+          schema:
+            type: string
+        application/n-quads:
+          schema:
+            type: string
+        application/trig:
+          schema:
+            type: string
+        application/trix:
+          schema:
+            type: string
+        text/turtle:
+          schema:
+            type: string
+        text/n3:
+          schema:
+            type: string
+
+  responses:
+    RDFLIST200:
+      description: The list of resource(s)
+      content:
+        application/json:
+          schema:
+            type: array
+            items:
+              type: string
+        application/rdf+xml:
+          schema:
+            $ref: '#/components/schemas/RDFXML'
+        application/ld+json:
+          schema:
+            type: object
+        application/n-triples:
+          schema:
+            type: string
+        application/n-quads:
+          schema:
+            type: string
+        application/trig:
+          schema:
+            type: string
+        application/trix:
+          schema:
+            type: string
+        text/turtle:
+          schema:
+            type: string
+        text/n3:
+          schema:
+            type: string
+
+    RDF200:
+      description: The resource graph(s)
+      content:
+        application/rdf+xml:
+          schema:
+            $ref: '#/components/schemas/RDFXML'
+        application/ld+json:
+          schema:
+            type: object
+        application/n-triples:
+          schema:
+            type: string
+        application/n-quads:
+          schema:
+            type: string
+        application/trig:
+          schema:
+            type: string
+        application/trix:
+          schema:
+            type: string
+        text/turtle:
+          schema:
+            type: string
+        text/n3:
+          schema:
+            type: string
+
+  headers:
+    LocationURIRef:
+      description: The final URIRef
+      schema:
+        type: string
+        format: uri
+
+  securitySchemes:
+    ApiKeyAuth:
+      type: apiKey
+      in: header
+      name: X-API-Key
+    BearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT

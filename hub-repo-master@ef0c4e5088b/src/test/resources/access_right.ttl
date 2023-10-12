@@ -1,0 +1,588 @@
+@prefix dc:     <http://purl.org/dc/elements/1.1/> .
+@prefix dct:    <http://purl.org/dc/terms/> .
+@prefix euvoc:  <http://publications.europa.eu/ontology/euvoc#> .
+@prefix lemon:  <http://lemon-model.net/lemon#> .
+@prefix owl:    <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+
+<http://publications.europa.eu/resource/authority/access-right>
+    <http://publications.europa.eu/ontology/authority/prefLabel>            "Access right"@en ;
+    <http://publications.europa.eu/ontology/authority/table.id>             "access-right" ;
+    <http://publications.europa.eu/ontology/authority/table.version.number> "20211208-0" ;
+    euvoc:startDate                                                         "2016-07-21"^^xsd:date ;
+    dct:created                                                             "2016-07-21"^^xsd:date ;
+    dct:identifier                                                          "http://publications.europa.eu/resource/authority/access-right" ;
+    dct:title                                                               "Access right"@en ;
+    rdf:type                                                                owl:Ontology, skos:ConceptScheme ;
+    rdfs:comment                                                            "Access right"^^rdfs:Literal ;
+    rdfs:label                                                              "Access right"@en ;
+    owl:imports                                                             <http://publications.europa.eu/ontology/euvoc> ;
+    owl:versionInfo                                                         "20211208-0" ;
+    owl:versionIRI                                                          <http://publications.europa.eu/resource/authority/access-right/20210929-0> ;
+    skos:prefLabel                                                          "Access right"@en ;
+    skosxl:prefLabel                                                        <http://publications.europa.eu/resource/authority/access-right/d4e24400> .
+
+<http://publications.europa.eu/resource/authority/access-right/09f12ab9404990ecda888cfc959d0ae8>
+    euvoc:startDate    "2013-01-01"^^xsd:date ;
+    euvoc:status       <http://publications.europa.eu/resource/authority/concept-status/CURRENT> ;
+    dct:created        "2016-07-21"^^xsd:date ;
+    dct:modified       "2021-11-12"^^xsd:date ;
+    dct:type           <http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL> ;
+    rdf:type           skosxl:Label ;
+    rdfs:label         "piiratud"@et ;
+    skosxl:literalForm "piiratud"@et .
+
+<http://publications.europa.eu/resource/authority/access-right/0c301fe75e95bfa6ba9a4d904f260537>
+    euvoc:startDate    "2020-03-18"^^xsd:date ;
+    euvoc:status       <http://publications.europa.eu/resource/authority/concept-status/CURRENT> ;
+    dct:created        "2020-02-25"^^xsd:date ;
+    dct:type           <http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL> ;
+    rdf:type           skosxl:Label ;
+    rdfs:label         "sensible"@fr ;
+    skosxl:literalForm "sensible"@fr .
+
+<http://publications.europa.eu/resource/authority/access-right/1b8c1ab7ad9d578068eccaf6d810816e>
+    euvoc:startDate    "2013-01-01"^^xsd:date ;
+    euvoc:status       <http://publications.europa.eu/resource/authority/concept-status/CURRENT> ;
+    dct:created        "2016-07-21"^^xsd:date ;
+    dct:type           <http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL> ;
+    rdf:type           skosxl:Label ;
+    rdfs:label         "restricted"@en ;
+    skosxl:literalForm "restricted"@en .
+
+<http://publications.europa.eu/resource/authority/access-right/2db19131e986c05a0bf3ec603c28da68>
+    euvoc:startDate "2021-03-17"^^xsd:date ;
+    euvoc:xlNote    "Information that is not disclosed. Usage note: Disclosure of this data could cause damage to interested parties such as public administrations and businesses. It may refer to personal and professional information as well as to information in the context of business, commerce or trade."@en ;
+    dct:created     "2021-02-25"^^xsd:date ;
+    dct:creator     "Publications Office / DG GROW" ;
+    rdf:type        euvoc:XlNote .
+
+<http://publications.europa.eu/resource/authority/access-right/43038fb5dcced3fdf4af364bea7a3d00>
+    euvoc:startDate    "2020-03-18"^^xsd:date ;
+    euvoc:status       <http://publications.europa.eu/resource/authority/concept-status/CURRENT> ;
+    dct:created        "2020-02-25"^^xsd:date ;
+    dct:type           <http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL> ;
+    rdf:type           skosxl:Label ;
+    rdfs:label         "sensitive"@en ;
+    skosxl:literalForm "sensitive"@en .
+
+<http://publications.europa.eu/resource/authority/access-right/486331875b35640407dd6bea0497ca76>
+    euvoc:startDate    "2013-01-01"^^xsd:date ;
+    euvoc:status       <http://publications.europa.eu/resource/authority/concept-status/CURRENT> ;
+    dct:created        "2016-07-21"^^xsd:date ;
+    dct:modified       "2021-11-12"^^xsd:date ;
+    dct:type           <http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL> ;
+    rdf:type           skosxl:Label ;
+    rdfs:label         "mitteavalik"@et ;
+    skosxl:literalForm "mitteavalik"@et .
+
+<http://publications.europa.eu/resource/authority/access-right/4a004f87a30c3fcbbe1e2b9f881b2e58>
+    euvoc:startDate "2013-01-01"^^xsd:date ;
+    euvoc:xlNote    "Only available under certain conditions. Usage note: This category may include resources that require payment, resources shared under non-disclosure agreements, resources for which the publisher or owner has not yet decided if they can be publicly released."@en ;
+    dct:created     "2016-08-31"^^xsd:date ;
+    dct:creator     "DCAT-AP / Join Up" ;
+    rdf:type        euvoc:XlNote .
+
+<http://publications.europa.eu/resource/authority/access-right/87e3ad305b394dff4dad932b0e737d32>
+    euvoc:startDate    "2013-01-01"^^xsd:date ;
+    euvoc:status       <http://publications.europa.eu/resource/authority/concept-status/CURRENT> ;
+    dct:created        "2016-07-21"^^xsd:date ;
+    dct:type           <http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL> ;
+    rdf:type           skosxl:Label ;
+    rdfs:label         "public"@en ;
+    skosxl:literalForm "public"@en .
+
+<http://publications.europa.eu/resource/authority/access-right/9ceabd8308ccaa4593fa896beb2e13e1>
+    euvoc:startDate    "2021-03-17"^^xsd:date ;
+    euvoc:status       <http://publications.europa.eu/resource/authority/concept-status/CURRENT> ;
+    dct:created        "2021-02-25"^^xsd:date ;
+    dct:modified       "2021-11-12"^^xsd:date ;
+    dct:type           <http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL> ;
+    rdf:type           skosxl:Label ;
+    rdfs:label         "konfidentsiaalne"@et ;
+    skosxl:literalForm "konfidentsiaalne"@et .
+
+<http://publications.europa.eu/resource/authority/access-right/9d5d992fccd6e633245823164fb13a1b>
+    euvoc:startDate    "2020-03-18"^^xsd:date ;
+    euvoc:status       <http://publications.europa.eu/resource/authority/concept-status/CURRENT> ;
+    dct:created        "2020-02-25"^^xsd:date ;
+    dct:modified       "2021-11-12"^^xsd:date ;
+    dct:type           <http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL> ;
+    rdf:type           skosxl:Label ;
+    rdfs:label         "tundlik"@et ;
+    skosxl:literalForm "tundlik"@et .
+
+<http://publications.europa.eu/resource/authority/access-right/a0a867b85a80819b5d58aa67de8cd945>
+    euvoc:startDate    "2013-01-01"^^xsd:date ;
+    euvoc:status       <http://publications.europa.eu/resource/authority/concept-status/CURRENT> ;
+    dct:created        "2016-07-21"^^xsd:date ;
+    dct:modified       "2021-11-12"^^xsd:date ;
+    dct:type           <http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL> ;
+    rdf:type           skosxl:Label ;
+    rdfs:label         "avalik"@et ;
+    skosxl:literalForm "avalik"@et .
+
+<http://publications.europa.eu/resource/authority/access-right/b023c8d6e2f12fd6867b62738976e779>
+    euvoc:startDate    "2021-03-17"^^xsd:date ;
+    euvoc:status       <http://publications.europa.eu/resource/authority/concept-status/CURRENT> ;
+    dct:created        "2021-02-25"^^xsd:date ;
+    dct:type           <http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL> ;
+    rdf:type           skosxl:Label ;
+    rdfs:label         "confidential"@en ;
+    skosxl:literalForm "confidential"@en .
+
+<http://publications.europa.eu/resource/authority/access-right/bbc258df6ed5fa5067d2c2a9a6f83de6>
+    euvoc:startDate "2020-03-18"^^xsd:date ;
+    euvoc:xlNote    "Sensitive non-classified (SNC) information, information whose unauthorised disclosure could cause damage to the Commission or other interested parties such as businesses, companies, intellectual property or personal data but which is not EU classified information."@en ;
+    dct:created     "2020-02-26"^^xsd:date ;
+    dct:creator     "Secretariat-General of the European Commission" ;
+    rdf:type        euvoc:XlNote .
+
+<http://publications.europa.eu/resource/authority/access-right/cb0cc73ff628a2a75133c17a318d65b8>
+    euvoc:startDate "2013-01-01"^^xsd:date ;
+    euvoc:xlNote    "Publicly accessible by everyone. Usage note: Permissible obstacles include registration and request for API keys, as long as anyone can request such registration and/or API keys."@en ;
+    dct:created     "2016-08-31"^^xsd:date ;
+    dct:creator     "DCAT-AP / Join Up" ;
+    rdf:type        euvoc:XlNote .
+
+<http://publications.europa.eu/resource/authority/access-right/CONFIDENTIAL>
+    lemon:context                                                     <http://publications.europa.eu/resource/authority/use-context/ESPD>,
+                                                                      <http://publications.europa.eu/resource/authority/use-context/IMMC> ;
+    <http://publications.europa.eu/ontology/authority/authority-code> "CONFIDENTIAL" ;
+    <http://publications.europa.eu/ontology/authority/deprecated>     "false" ;
+    <http://publications.europa.eu/ontology/authority/op-code>        "CONFIDENTIAL" ;
+    <http://publications.europa.eu/ontology/authority/start.use>      "2021-03-17" ;
+    euvoc:startDate                                                   "2021-03-17"^^xsd:date ;
+    euvoc:status                                                      <http://publications.europa.eu/resource/authority/concept-status/CURRENT> ;
+    euvoc:xlDefinition                                                <http://publications.europa.eu/resource/authority/access-right/2db19131e986c05a0bf3ec603c28da68> ;
+    <http://publications.europa.eu/resource/authority/op-code>        "CONFIDENTIAL" ;
+    dc:identifier                                                     "CONFIDENTIAL" ;
+    dct:created                                                       "2021-02-25"^^xsd:date ;
+    dct:dateAccepted                                                  "2021-03-03"^^xsd:date ;
+    dct:dateSubmitted                                                 "2021-02-17"^^xsd:date ;
+    rdf:type                                                          euvoc:AccessRight, skos:Concept ;
+    owl:versionInfo                                                   "20211208-0" ;
+    skos:definition                                                   "Information that is not disclosed. Usage note: Disclosure of this data could cause damage to interested parties such as public administrations and businesses. It may refer to personal and professional information as well as to information in the context of business, commerce or trade."@en ;
+    skos:inScheme                                                     <http://publications.europa.eu/resource/authority/access-right> ;
+    skos:prefLabel                                                    "confidential"@en, "konfidentsiaalne"@et ;
+    skos:topConceptOf                                                 <http://publications.europa.eu/resource/authority/access-right> ;
+    skosxl:prefLabel                                                  <http://publications.europa.eu/resource/authority/access-right/9ceabd8308ccaa4593fa896beb2e13e1>,
+                                                                      <http://publications.europa.eu/resource/authority/access-right/b023c8d6e2f12fd6867b62738976e779> .
+
+<http://publications.europa.eu/resource/authority/access-right/d4e24400>
+    euvoc:startDate    "2016-07-21"^^xsd:date ;
+    euvoc:status       <http://publications.europa.eu/resource/authority/concept-status/CURRENT> ;
+    dct:created        "2016-07-21"^^xsd:date ;
+    dct:type           <http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL> ;
+    rdf:type           skosxl:Label ;
+    rdfs:label         "Access right"@en ;
+    skosxl:literalForm "Access right"@en .
+
+<http://publications.europa.eu/resource/authority/access-right/dda8fe49cd5f42bb20c3eadb338d46a9>
+    euvoc:startDate "2013-01-01"^^xsd:date ;
+    euvoc:xlNote    "Not publicly accessible for privacy, security or other reasons. Usage note: This category may include resources that contain sensitive or personal information."@en ;
+    dct:created     "2016-08-31"^^xsd:date ;
+    dct:creator     "DCAT-AP / Join Up" ;
+    rdf:type        euvoc:XlNote .
+
+<http://publications.europa.eu/resource/authority/access-right/de28bac66d7cae2c42908ebf984dc811>
+    euvoc:startDate    "2013-01-01"^^xsd:date ;
+    euvoc:status       <http://publications.europa.eu/resource/authority/concept-status/CURRENT> ;
+    dct:created        "2016-07-21"^^xsd:date ;
+    dct:type           <http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL> ;
+    rdf:type           skosxl:Label ;
+    rdfs:label         "non-public"@en ;
+    skosxl:literalForm "non-public"@en .
+
+<http://publications.europa.eu/resource/authority/access-right/edc08329b6705cb9a5274a8ebaf48232>
+    euvoc:startDate "2020-03-18"^^xsd:date ;
+    euvoc:xlNote    "Informations «sensibles non classifiées» (SNC), informations dont la divulgation non autorisée pourrait causer un préjudice à la Commission ou à d’autres parties intéressées telles que les entreprises, les sociétés, la propriété intellectuelle ou les données à caractère personnel, mais qui ne sont pas des informations classifiées de l’UE."@fr ;
+    dct:created     "2020-02-26"^^xsd:date ;
+    dct:creator     "Secretariat-General of the European Commission" ;
+    rdf:type        euvoc:XlNote .
+
+<http://publications.europa.eu/resource/authority/access-right/label_03320d7b48716daa440de4433fda7271>
+    euvoc:startDate    "2021-11-21"^^xsd:date ;
+    euvoc:status       <http://publications.europa.eu/resource/authority/concept-status/CURRENT> ;
+    dct:created        "2021-11-21"^^xsd:date ;
+    dct:type           <http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL> ;
+    rdf:type           skosxl:Label ;
+    rdfs:label         "Provisional data"@en ;
+    skosxl:literalForm "Provisional data"@en .
+
+<http://publications.europa.eu/resource/authority/access-right/label_0b78f52d4c4992eb0d92d3fe89c003e2>
+    euvoc:startDate    "2021-11-21"^^xsd:date ;
+    euvoc:status       <http://publications.europa.eu/resource/authority/concept-status/CURRENT> ;
+    dct:created        "2021-11-21"^^xsd:date ;
+    dct:type           <http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL> ;
+    rdf:type           skosxl:Label ;
+    rdfs:label         "Tillfälliga uppgifter"@sv ;
+    skosxl:literalForm "Tillfälliga uppgifter"@sv .
+
+<http://publications.europa.eu/resource/authority/access-right/label_0db1562c01a0396ac412a6bfabe2a5c3>
+    euvoc:startDate    "2021-11-21"^^xsd:date ;
+    euvoc:status       <http://publications.europa.eu/resource/authority/concept-status/CURRENT> ;
+    dct:created        "2021-11-21"^^xsd:date ;
+    dct:type           <http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL> ;
+    rdf:type           skosxl:Label ;
+    rdfs:label         "Dati provvisori"@it ;
+    skosxl:literalForm "Dati provvisori"@it .
+
+<http://publications.europa.eu/resource/authority/access-right/label_27778647a0bb13a65e8bac9c922f264d>
+    euvoc:startDate    "2021-11-21"^^xsd:date ;
+    euvoc:status       <http://publications.europa.eu/resource/authority/concept-status/CURRENT> ;
+    dct:created        "2021-11-21"^^xsd:date ;
+    dct:type           <http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL> ;
+    rdf:type           skosxl:Label ;
+    rdfs:label         "Données provisoires"@fr ;
+    skosxl:literalForm "Données provisoires"@fr .
+
+<http://publications.europa.eu/resource/authority/access-right/label_2bc6c1e0b3705b6d6dda0657ddf12c17>
+    euvoc:startDate    "2021-11-21"^^xsd:date ;
+    euvoc:status       <http://publications.europa.eu/resource/authority/concept-status/CURRENT> ;
+    dct:created        "2021-11-21"^^xsd:date ;
+    dct:type           <http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL> ;
+    rdf:type           skosxl:Label ;
+    rdfs:label         "Esialgsed andmed"@et ;
+    skosxl:literalForm "Esialgsed andmed"@et .
+
+<http://publications.europa.eu/resource/authority/access-right/label_3b86d3f4752d3ae6a290b8680ca6e38b>
+    euvoc:startDate    "2021-11-21"^^xsd:date ;
+    euvoc:status       <http://publications.europa.eu/resource/authority/concept-status/CURRENT> ;
+    dct:created        "2021-11-21"^^xsd:date ;
+    dct:type           <http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL> ;
+    rdf:type           skosxl:Label ;
+    rdfs:label         "Privremeni podaci"@hr ;
+    skosxl:literalForm "Privremeni podaci"@hr .
+
+<http://publications.europa.eu/resource/authority/access-right/label_41dbb4bf52586f4255d6eb2bad062168>
+    euvoc:startDate    "2021-11-21"^^xsd:date ;
+    euvoc:status       <http://publications.europa.eu/resource/authority/concept-status/CURRENT> ;
+    dct:created        "2021-11-21"^^xsd:date ;
+    dct:type           <http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL> ;
+    rdf:type           skosxl:Label ;
+    rdfs:label         "Midlertidige data"@da ;
+    skosxl:literalForm "Midlertidige data"@da .
+
+<http://publications.europa.eu/resource/authority/access-right/label_42e7f083ba63023f61ea0833b79cbf93>
+    euvoc:startDate    "2021-11-21"^^xsd:date ;
+    euvoc:status       <http://publications.europa.eu/resource/authority/concept-status/CURRENT> ;
+    dct:created        "2021-11-21"^^xsd:date ;
+    dct:type           <http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL> ;
+    rdf:type           skosxl:Label ;
+    rdfs:label         "Predbežné údaje"@sk ;
+    skosxl:literalForm "Predbežné údaje"@sk .
+
+<http://publications.europa.eu/resource/authority/access-right/label_435ae7309ad0842c07bf5b156de2c951>
+    euvoc:startDate    "2021-11-21"^^xsd:date ;
+    euvoc:status       <http://publications.europa.eu/resource/authority/concept-status/CURRENT> ;
+    dct:created        "2021-11-21"^^xsd:date ;
+    dct:type           <http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL> ;
+    rdf:type           skosxl:Label ;
+    rdfs:label         "Vorläufige Daten"@de ;
+    skosxl:literalForm "Vorläufige Daten"@de .
+
+<http://publications.europa.eu/resource/authority/access-right/label_5404aeb691cc26ac0f8363c8df267620>
+    euvoc:startDate    "2021-11-21"^^xsd:date ;
+    euvoc:status       <http://publications.europa.eu/resource/authority/concept-status/CURRENT> ;
+    dct:created        "2021-11-21"^^xsd:date ;
+    dct:type           <http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL> ;
+    rdf:type           skosxl:Label ;
+    rdfs:label         "Sonraí sealadacha"@ga ;
+    skosxl:literalForm "Sonraí sealadacha"@ga .
+
+<http://publications.europa.eu/resource/authority/access-right/label_543ee1b59e2143987758091b9bff6427>
+    euvoc:startDate    "2021-11-21"^^xsd:date ;
+    euvoc:status       <http://publications.europa.eu/resource/authority/concept-status/CURRENT> ;
+    dct:created        "2021-11-21"^^xsd:date ;
+    dct:type           <http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL> ;
+    rdf:type           skosxl:Label ;
+    rdfs:label         "Předběžné údaje"@cs ;
+    skosxl:literalForm "Předběžné údaje"@cs .
+
+<http://publications.europa.eu/resource/authority/access-right/label_6720c0a4f2bab48b717dd427b0a8bd66>
+    euvoc:startDate    "2021-11-21"^^xsd:date ;
+    euvoc:status       <http://publications.europa.eu/resource/authority/concept-status/CURRENT> ;
+    dct:created        "2021-11-21"^^xsd:date ;
+    dct:type           <http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL> ;
+    rdf:type           skosxl:Label ;
+    rdfs:label         "Provizoriski dati"@lv ;
+    skosxl:literalForm "Provizoriski dati"@lv .
+
+<http://publications.europa.eu/resource/authority/access-right/label_6e723d8faa76ea27bbe53368f6ffb163>
+    euvoc:startDate    "2021-11-21"^^xsd:date ;
+    euvoc:status       <http://publications.europa.eu/resource/authority/concept-status/CURRENT> ;
+    dct:created        "2021-11-21"^^xsd:date ;
+    dct:type           <http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL> ;
+    rdf:type           skosxl:Label ;
+    rdfs:label         "Dados provisórios"@pt ;
+    skosxl:literalForm "Dados provisórios"@pt .
+
+<http://publications.europa.eu/resource/authority/access-right/label_757e76c9c78fa80a61e5ffc5cc63b843>
+    euvoc:startDate    "2021-11-21"^^xsd:date ;
+    euvoc:status       <http://publications.europa.eu/resource/authority/concept-status/CURRENT> ;
+    dct:created        "2021-11-21"^^xsd:date ;
+    dct:type           <http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL> ;
+    rdf:type           skosxl:Label ;
+    rdfs:label         "Laikinieji duomenys"@lt ;
+    skosxl:literalForm "Laikinieji duomenys"@lt .
+
+<http://publications.europa.eu/resource/authority/access-right/label_79d57d0bc877327615737997ada3dbce>
+    euvoc:startDate    "2021-11-21"^^xsd:date ;
+    euvoc:status       <http://publications.europa.eu/resource/authority/concept-status/CURRENT> ;
+    dct:created        "2021-11-21"^^xsd:date ;
+    dct:type           <http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL> ;
+    rdf:type           skosxl:Label ;
+    rdfs:label         "Datos provisionales"@es ;
+    skosxl:literalForm "Datos provisionales"@es .
+
+<http://publications.europa.eu/resource/authority/access-right/label_88a32c6362c7147ccc1fc40e2f3ae6c4>
+    euvoc:startDate    "2021-11-21"^^xsd:date ;
+    euvoc:status       <http://publications.europa.eu/resource/authority/concept-status/CURRENT> ;
+    dct:created        "2021-11-21"^^xsd:date ;
+    dct:type           <http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL> ;
+    rdf:type           skosxl:Label ;
+    rdfs:label         "Alustavat tiedot"@fi ;
+    skosxl:literalForm "Alustavat tiedot"@fi .
+
+<http://publications.europa.eu/resource/authority/access-right/label_8cf0608a2936920c188568506c9409b6>
+    euvoc:startDate    "2021-11-21"^^xsd:date ;
+    euvoc:status       <http://publications.europa.eu/resource/authority/concept-status/CURRENT> ;
+    dct:created        "2021-11-21"^^xsd:date ;
+    dct:type           <http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL> ;
+    rdf:type           skosxl:Label ;
+    rdfs:label         "Voorlopige gegevens"@nl ;
+    skosxl:literalForm "Voorlopige gegevens"@nl .
+
+<http://publications.europa.eu/resource/authority/access-right/label_8e323f3bc5e8edb0a9981816ec98168b>
+    euvoc:startDate    "2021-11-21"^^xsd:date ;
+    euvoc:status       <http://publications.europa.eu/resource/authority/concept-status/CURRENT> ;
+    dct:created        "2021-11-21"^^xsd:date ;
+    dct:type           <http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL> ;
+    rdf:type           skosxl:Label ;
+    rdfs:label         "Začasni podatki"@sl ;
+    skosxl:literalForm "Začasni podatki"@sl .
+
+<http://publications.europa.eu/resource/authority/access-right/label_97b969538b6426a47aa150637c677a03>
+    euvoc:startDate    "2021-11-21"^^xsd:date ;
+    euvoc:status       <http://publications.europa.eu/resource/authority/concept-status/CURRENT> ;
+    dct:created        "2021-11-21"^^xsd:date ;
+    dct:type           <http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL> ;
+    rdf:type           skosxl:Label ;
+    rdfs:label         "Dejta provviżorja"@mt ;
+    skosxl:literalForm "Dejta provviżorja"@mt .
+
+<http://publications.europa.eu/resource/authority/access-right/label_c85cc56220e7dd56f0982b4cd79f4bea>
+    euvoc:startDate    "2021-11-21"^^xsd:date ;
+    euvoc:status       <http://publications.europa.eu/resource/authority/concept-status/CURRENT> ;
+    dct:created        "2021-11-21"^^xsd:date ;
+    dct:type           <http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL> ;
+    rdf:type           skosxl:Label ;
+    rdfs:label         "НЕОКОНЧАТЕЛНИ ДАННИ"@bg ;
+    skosxl:literalForm "НЕОКОНЧАТЕЛНИ ДАННИ"@bg .
+
+<http://publications.europa.eu/resource/authority/access-right/label_cc894151abec7c8dd783fce771fb58ab>
+    euvoc:startDate    "2021-11-21"^^xsd:date ;
+    euvoc:status       <http://publications.europa.eu/resource/authority/concept-status/CURRENT> ;
+    dct:created        "2021-11-21"^^xsd:date ;
+    dct:type           <http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL> ;
+    rdf:type           skosxl:Label ;
+    rdfs:label         "Προσωρινά δεδομένα"@el ;
+    skosxl:literalForm "Προσωρινά δεδομένα"@el .
+
+<http://publications.europa.eu/resource/authority/access-right/label_d1dcbc61280e3bf6611a2b55db276939>
+    euvoc:startDate    "2021-11-21"^^xsd:date ;
+    euvoc:status       <http://publications.europa.eu/resource/authority/concept-status/CURRENT> ;
+    dct:created        "2021-11-21"^^xsd:date ;
+    dct:type           <http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL> ;
+    rdf:type           skosxl:Label ;
+    rdfs:label         "Dane tymczasowe"@pl ;
+    skosxl:literalForm "Dane tymczasowe"@pl .
+
+<http://publications.europa.eu/resource/authority/access-right/label_d4cba651fa266b83a640b88b9a454df2>
+    euvoc:startDate    "2021-11-21"^^xsd:date ;
+    euvoc:status       <http://publications.europa.eu/resource/authority/concept-status/CURRENT> ;
+    dct:created        "2021-11-21"^^xsd:date ;
+    dct:type           <http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL> ;
+    rdf:type           skosxl:Label ;
+    rdfs:label         "Date provizorii"@ro ;
+    skosxl:literalForm "Date provizorii"@ro .
+
+<http://publications.europa.eu/resource/authority/access-right/label_e5216b3b4bddd334e665f8a139a1ca1f>
+    euvoc:startDate    "2021-11-21"^^xsd:date ;
+    euvoc:status       <http://publications.europa.eu/resource/authority/concept-status/CURRENT> ;
+    dct:created        "2021-11-21"^^xsd:date ;
+    dct:type           <http://publications.europa.eu/resource/authority/label-type/STANDARDLABEL> ;
+    rdf:type           skosxl:Label ;
+    rdfs:label         "Ideiglenes adatok"@hu ;
+    skosxl:literalForm "Ideiglenes adatok"@hu .
+
+<http://publications.europa.eu/resource/authority/access-right/NON_PUBLIC>
+    lemon:context                                                     <http://publications.europa.eu/resource/authority/use-context/DCAT_AP>,
+                                                                      <http://publications.europa.eu/resource/authority/use-context/IMMC>,
+                                                                      <http://publications.europa.eu/resource/authority/use-context/ODP>,
+                                                                      <http://publications.europa.eu/resource/authority/use-context/WHOISWHO> ;
+    <http://publications.europa.eu/ontology/authority/authority-code> "NON_PUBLIC" ;
+    <http://publications.europa.eu/ontology/authority/deprecated>     "false" ;
+    <http://publications.europa.eu/ontology/authority/op-code>        "NON_PUBLIC" ;
+    <http://publications.europa.eu/ontology/authority/start.use>      "2013-01-01" ;
+    euvoc:startDate                                                   "2013-01-01"^^xsd:date ;
+    euvoc:status                                                      <http://publications.europa.eu/resource/authority/concept-status/CURRENT> ;
+    euvoc:xlDefinition                                                <http://publications.europa.eu/resource/authority/access-right/dda8fe49cd5f42bb20c3eadb338d46a9> ;
+    <http://publications.europa.eu/resource/authority/op-code>        "NON_PUBLIC" ;
+    dc:identifier                                                     "NON_PUBLIC" ;
+    dct:created                                                       "2016-07-21"^^xsd:date ;
+    dct:dateAccepted                                                  "2016-08-31"^^xsd:date ;
+    dct:dateSubmitted                                                 "2016-08-31"^^xsd:date ;
+    rdf:type                                                          euvoc:AccessRight, skos:Concept ;
+    owl:versionInfo                                                   "20211208-0" ;
+    skos:definition                                                   "Not publicly accessible for privacy, security or other reasons. Usage note: This category may include resources that contain sensitive or personal information."@en ;
+    skos:inScheme                                                     <http://publications.europa.eu/resource/authority/access-right> ;
+    skos:prefLabel                                                    "mitteavalik"@et, "non-public"@en ;
+    skos:topConceptOf                                                 <http://publications.europa.eu/resource/authority/access-right> ;
+    skosxl:prefLabel                                                  <http://publications.europa.eu/resource/authority/access-right/486331875b35640407dd6bea0497ca76>,
+                                                                      <http://publications.europa.eu/resource/authority/access-right/de28bac66d7cae2c42908ebf984dc811> .
+
+<http://publications.europa.eu/resource/authority/access-right/OP_DATPRO>
+    lemon:context                                                     <http://publications.europa.eu/resource/authority/use-context/DCAT_AP>,
+                                                                      <http://publications.europa.eu/resource/authority/use-context/ESPD>,
+                                                                      <http://publications.europa.eu/resource/authority/use-context/IMMC>,
+                                                                      <http://publications.europa.eu/resource/authority/use-context/ODP>,
+                                                                      <http://publications.europa.eu/resource/authority/use-context/WHOISWHO> ;
+    <http://publications.europa.eu/ontology/authority/authority-code> "OP_DATPRO" ;
+    <http://publications.europa.eu/ontology/authority/deprecated>     "false" ;
+    <http://publications.europa.eu/ontology/authority/op-code>        "OP_DATPRO" ;
+    <http://publications.europa.eu/ontology/authority/start.use>      "1952-07-23" ;
+    euvoc:startDate                                                   "1952-07-23"^^xsd:date ;
+    euvoc:status                                                      <http://publications.europa.eu/resource/authority/concept-status/CURRENT> ;
+    <http://publications.europa.eu/resource/authority/op-code>        "OP_DATPRO" ;
+    dc:identifier                                                     "OP_DATPRO" ;
+    dct:created                                                       "1952-07-23"^^xsd:date ;
+    dct:dateAccepted                                                  "1952-07-23"^^xsd:date ;
+    dct:dateSubmitted                                                 "1952-07-23"^^xsd:date ;
+    rdf:type                                                          euvoc:AccessRight, skos:Concept ;
+    owl:versionInfo                                                   "20211208-0" ;
+    skos:inScheme                                                     <http://publications.europa.eu/resource/authority/access-right> ;
+    skos:prefLabel                                                    "Alustavat tiedot"@fi, "Dados provisórios"@pt,
+                                                                      "Dane tymczasowe"@pl, "Date provizorii"@ro,
+                                                                      "Dati provvisori"@it, "Datos provisionales"@es,
+                                                                      "Dejta provviżorja"@mt, "Données provisoires"@fr,
+                                                                      "Esialgsed andmed"@et, "Ideiglenes adatok"@hu,
+                                                                      "Laikinieji duomenys"@lt, "Midlertidige data"@da,
+                                                                      "Predbežné údaje"@sk, "Předběžné údaje"@cs,
+                                                                      "Privremeni podaci"@hr, "Provisional data"@en,
+                                                                      "Provizoriski dati"@lv, "Sonraí sealadacha"@ga,
+                                                                      "Tillfälliga uppgifter"@sv,
+                                                                      "Voorlopige gegevens"@nl, "Vorläufige Daten"@de,
+                                                                      "Začasni podatki"@sl, "Προσωρινά δεδομένα"@el,
+                                                                      "НЕОКОНЧАТЕЛНИ ДАННИ"@bg ;
+    skos:topConceptOf                                                 <http://publications.europa.eu/resource/authority/access-right> ;
+    skosxl:prefLabel                                                  <http://publications.europa.eu/resource/authority/access-right/label_03320d7b48716daa440de4433fda7271>,
+                                                                      <http://publications.europa.eu/resource/authority/access-right/label_0b78f52d4c4992eb0d92d3fe89c003e2>,
+                                                                      <http://publications.europa.eu/resource/authority/access-right/label_0db1562c01a0396ac412a6bfabe2a5c3>,
+                                                                      <http://publications.europa.eu/resource/authority/access-right/label_27778647a0bb13a65e8bac9c922f264d>,
+                                                                      <http://publications.europa.eu/resource/authority/access-right/label_2bc6c1e0b3705b6d6dda0657ddf12c17>,
+                                                                      <http://publications.europa.eu/resource/authority/access-right/label_3b86d3f4752d3ae6a290b8680ca6e38b>,
+                                                                      <http://publications.europa.eu/resource/authority/access-right/label_41dbb4bf52586f4255d6eb2bad062168>,
+                                                                      <http://publications.europa.eu/resource/authority/access-right/label_42e7f083ba63023f61ea0833b79cbf93>,
+                                                                      <http://publications.europa.eu/resource/authority/access-right/label_435ae7309ad0842c07bf5b156de2c951>,
+                                                                      <http://publications.europa.eu/resource/authority/access-right/label_5404aeb691cc26ac0f8363c8df267620>,
+                                                                      <http://publications.europa.eu/resource/authority/access-right/label_543ee1b59e2143987758091b9bff6427>,
+                                                                      <http://publications.europa.eu/resource/authority/access-right/label_6720c0a4f2bab48b717dd427b0a8bd66>,
+                                                                      <http://publications.europa.eu/resource/authority/access-right/label_6e723d8faa76ea27bbe53368f6ffb163>,
+                                                                      <http://publications.europa.eu/resource/authority/access-right/label_757e76c9c78fa80a61e5ffc5cc63b843>,
+                                                                      <http://publications.europa.eu/resource/authority/access-right/label_79d57d0bc877327615737997ada3dbce>,
+                                                                      <http://publications.europa.eu/resource/authority/access-right/label_88a32c6362c7147ccc1fc40e2f3ae6c4>,
+                                                                      <http://publications.europa.eu/resource/authority/access-right/label_8cf0608a2936920c188568506c9409b6>,
+                                                                      <http://publications.europa.eu/resource/authority/access-right/label_8e323f3bc5e8edb0a9981816ec98168b>,
+                                                                      <http://publications.europa.eu/resource/authority/access-right/label_97b969538b6426a47aa150637c677a03>,
+                                                                      <http://publications.europa.eu/resource/authority/access-right/label_c85cc56220e7dd56f0982b4cd79f4bea>,
+                                                                      <http://publications.europa.eu/resource/authority/access-right/label_cc894151abec7c8dd783fce771fb58ab>,
+                                                                      <http://publications.europa.eu/resource/authority/access-right/label_d1dcbc61280e3bf6611a2b55db276939>,
+                                                                      <http://publications.europa.eu/resource/authority/access-right/label_d4cba651fa266b83a640b88b9a454df2>,
+                                                                      <http://publications.europa.eu/resource/authority/access-right/label_e5216b3b4bddd334e665f8a139a1ca1f> .
+
+<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
+    lemon:context                                                     <http://publications.europa.eu/resource/authority/use-context/DCAT_AP>,
+                                                                      <http://publications.europa.eu/resource/authority/use-context/ESPD>,
+                                                                      <http://publications.europa.eu/resource/authority/use-context/IMMC>,
+                                                                      <http://publications.europa.eu/resource/authority/use-context/ODP>,
+                                                                      <http://publications.europa.eu/resource/authority/use-context/WHOISWHO> ;
+    <http://publications.europa.eu/ontology/authority/authority-code> "PUBLIC" ;
+    <http://publications.europa.eu/ontology/authority/deprecated>     "false" ;
+    <http://publications.europa.eu/ontology/authority/op-code>        "PUBLIC" ;
+    <http://publications.europa.eu/ontology/authority/start.use>      "2013-01-01" ;
+    euvoc:startDate                                                   "2013-01-01"^^xsd:date ;
+    euvoc:status                                                      <http://publications.europa.eu/resource/authority/concept-status/CURRENT> ;
+    euvoc:xlDefinition                                                <http://publications.europa.eu/resource/authority/access-right/cb0cc73ff628a2a75133c17a318d65b8> ;
+    <http://publications.europa.eu/resource/authority/op-code>        "PUBLIC" ;
+    dc:identifier                                                     "PUBLIC" ;
+    dct:created                                                       "2016-07-21"^^xsd:date ;
+    dct:dateAccepted                                                  "2016-08-31"^^xsd:date ;
+    dct:dateSubmitted                                                 "2016-08-31"^^xsd:date ;
+    rdf:type                                                          euvoc:AccessRight, skos:Concept ;
+    owl:versionInfo                                                   "20211208-0" ;
+    skos:definition                                                   "Publicly accessible by everyone. Usage note: Permissible obstacles include registration and request for API keys, as long as anyone can request such registration and/or API keys."@en ;
+    skos:inScheme                                                     <http://publications.europa.eu/resource/authority/access-right> ;
+    skos:prefLabel                                                    "avalik"@et, "public"@en ;
+    skos:topConceptOf                                                 <http://publications.europa.eu/resource/authority/access-right> ;
+    skosxl:prefLabel                                                  <http://publications.europa.eu/resource/authority/access-right/87e3ad305b394dff4dad932b0e737d32>,
+                                                                      <http://publications.europa.eu/resource/authority/access-right/a0a867b85a80819b5d58aa67de8cd945> .
+
+<http://publications.europa.eu/resource/authority/access-right/RESTRICTED>
+    lemon:context                                                     <http://publications.europa.eu/resource/authority/use-context/DCAT_AP>,
+                                                                      <http://publications.europa.eu/resource/authority/use-context/IMMC>,
+                                                                      <http://publications.europa.eu/resource/authority/use-context/ODP>,
+                                                                      <http://publications.europa.eu/resource/authority/use-context/WHOISWHO> ;
+    <http://publications.europa.eu/ontology/authority/authority-code> "RESTRICTED" ;
+    <http://publications.europa.eu/ontology/authority/deprecated>     "false" ;
+    <http://publications.europa.eu/ontology/authority/op-code>        "RESTRICTED" ;
+    <http://publications.europa.eu/ontology/authority/start.use>      "2013-01-01" ;
+    euvoc:startDate                                                   "2013-01-01"^^xsd:date ;
+    euvoc:status                                                      <http://publications.europa.eu/resource/authority/concept-status/CURRENT> ;
+    euvoc:xlDefinition                                                <http://publications.europa.eu/resource/authority/access-right/4a004f87a30c3fcbbe1e2b9f881b2e58> ;
+    <http://publications.europa.eu/resource/authority/op-code>        "RESTRICTED" ;
+    dc:identifier                                                     "RESTRICTED" ;
+    dct:created                                                       "2016-07-21"^^xsd:date ;
+    dct:dateAccepted                                                  "2016-08-31"^^xsd:date ;
+    dct:dateSubmitted                                                 "2016-08-31"^^xsd:date ;
+    rdf:type                                                          euvoc:AccessRight, skos:Concept ;
+    owl:versionInfo                                                   "20211208-0" ;
+    skos:definition                                                   "Only available under certain conditions. Usage note: This category may include resources that require payment, resources shared under non-disclosure agreements, resources for which the publisher or owner has not yet decided if they can be publicly released."@en ;
+    skos:inScheme                                                     <http://publications.europa.eu/resource/authority/access-right> ;
+    skos:prefLabel                                                    "piiratud"@et, "restricted"@en ;
+    skos:topConceptOf                                                 <http://publications.europa.eu/resource/authority/access-right> ;
+    skosxl:prefLabel                                                  <http://publications.europa.eu/resource/authority/access-right/09f12ab9404990ecda888cfc959d0ae8>,
+                                                                      <http://publications.europa.eu/resource/authority/access-right/1b8c1ab7ad9d578068eccaf6d810816e> .
+
+<http://publications.europa.eu/resource/authority/access-right/SENSITIVE>
+    lemon:context                                                     <http://publications.europa.eu/resource/authority/use-context/IMMC>,
+                                                                      <http://publications.europa.eu/resource/authority/use-context/WHOISWHO> ;
+    <http://publications.europa.eu/ontology/authority/authority-code> "SENSITIVE" ;
+    <http://publications.europa.eu/ontology/authority/deprecated>     "false" ;
+    <http://publications.europa.eu/ontology/authority/op-code>        "SENSITIVE" ;
+    <http://publications.europa.eu/ontology/authority/start.use>      "2020-03-18" ;
+    euvoc:startDate                                                   "2020-03-18"^^xsd:date ;
+    euvoc:status                                                      <http://publications.europa.eu/resource/authority/concept-status/CURRENT> ;
+    euvoc:xlDefinition                                                <http://publications.europa.eu/resource/authority/access-right/bbc258df6ed5fa5067d2c2a9a6f83de6>,
+                                                                      <http://publications.europa.eu/resource/authority/access-right/edc08329b6705cb9a5274a8ebaf48232> ;
+    <http://publications.europa.eu/resource/authority/op-code>        "SENSITIVE" ;
+    dc:identifier                                                     "SENSITIVE" ;
+    dct:created                                                       "2020-02-25"^^xsd:date ;
+    dct:dateAccepted                                                  "2020-03-11"^^xsd:date ;
+    dct:dateSubmitted                                                 "2020-02-25"^^xsd:date ;
+    dct:modified                                                      "2021-11-12"^^xsd:date ;
+    rdf:type                                                          euvoc:AccessRight, skos:Concept ;
+    owl:versionInfo                                                   "20211208-0" ;
+    skos:definition                                                   "Informations «sensibles non classifiées» (SNC), informations dont la divulgation non autorisée pourrait causer un préjudice à la Commission ou à d’autres parties intéressées telles que les entreprises, les sociétés, la propriété intellectuelle ou les données à caractère personnel, mais qui ne sont pas des informations classifiées de l’UE."@fr,
+                                                                      "Sensitive non-classified (SNC) information, information whose unauthorised disclosure could cause damage to the Commission or other interested parties such as businesses, companies, intellectual property or personal data but which is not EU classified information."@en ;
+    skos:inScheme                                                     <http://publications.europa.eu/resource/authority/access-right> ;
+    skos:prefLabel                                                    "sensible"@fr, "sensitive"@en, "tundlik"@et ;
+    skos:topConceptOf                                                 <http://publications.europa.eu/resource/authority/access-right> ;
+    skosxl:prefLabel                                                  <http://publications.europa.eu/resource/authority/access-right/0c301fe75e95bfa6ba9a4d904f260537>,
+                                                                      <http://publications.europa.eu/resource/authority/access-right/43038fb5dcced3fdf4af364bea7a3d00>,
+                                                                      <http://publications.europa.eu/resource/authority/access-right/9d5d992fccd6e633245823164fb13a1b> .

@@ -1,0 +1,379 @@
+{
+    "message": {
+        "datasetDetails": {
+            "openResource": "Gå till resurs",
+            "upload": {
+                "unknownFormat": "Okänt format",
+                "resetText": "Återställa hela formuläret?",
+                "reset": "Återställ formulär",
+                "individual": "Person",
+                "person": "Person",
+                "organisation": "Organisation"
+            },
+            "about": "om",
+            "geoInfo": "Datasetsomfattning",
+            "translation": {
+                "link": "Klicka här för att se dataset på originalspråket",
+                "message": "Titeln och beskrivningen av detta dataset är maskinöversatt.",
+                "noTranslation": "Det finns ingen översättning för önskat språk. Informationen visas på standardspråket.",
+                "original": "Originalspråket",
+                "update": "En uppdaterad översättning av detta dataset är under utförande."
+            },
+            "options": "Alternativ",
+            "subnav": {
+                "activityStream": "Aktivitetsflöde",
+                "similarDatasets": "Liknande dataset",
+                "categories": "Kategorier",
+                "dataset": "Dataset"
+            },
+            "edit": "Redigera",
+            "follow": "Följ",
+            "preview": "Förhandsvisning",
+            "visualisation": "Öppen visualisering",
+            "additionalInfo": "Ytterligare information",
+            "feedback": "Återkoppling",
+            "unfollow": "Sluta följa",
+            "manage": "Hantera ",
+            "delete": "Ta bort",
+            "geoVisualisation": "Öppna geo-visualisering",
+            "download": "Hämta",
+            "menu": "Meny"
+        },
+        "userQueries": {
+            "searchAllQueries": "Sökfrågor ...",
+            "queryDeleted": "Frågan har tagits bort",
+            "querySaved": "Fråga sparad",
+            "searchQueries": "Sök mina frågor ...",
+            "noQueryFound": "Ingen fråga hittades",
+            "myQueries": "Mina frågor",
+            "noDescription": "Den här frågan har ingen beskrivning",
+            "placeholderNotes": "t.ex. Några användbara anteckningar om frågan",
+            "noQueriesSaved": "Du har inte sparat några frågor.",
+            "queryFound": "{number} fråga hittades",
+            "areYourSure": "Är du säker på att du vill ta bort den här frågan?",
+            "queriesFound": "{number} frågor hittades",
+            "save": "Spara fråga",
+            "executeQuery": "Utför fråga"
+        },
+        "header": {
+            "navigation": {
+                "about": {
+                    "beHarvestedByUs": "Hur vi samlar in data",
+                    "title": "Om",
+                    "documentation": "Dokumentation",
+                    "europeanDataPortal": "Europeiska Dataportalen"
+                },
+                "training": {
+                    "whatIsOpenData": "Vad är öppna data?",
+                    "title": "Utbildning",
+                    "dataProvidersGuide": "Guide för dataleverantörer",
+                    "moreTrainingMaterial": "Mer utbildningsmaterial",
+                    "elearning": "e-lärande",
+                    "licensingAssistant": "Licensassistent"
+                },
+                "data": {
+                    "sparqlsearch": "SPARQL-sökning",
+                    "statistics": "Statistik",
+                    "euInternationalData": "EU och internationella uppgifter",
+                    "catalogues": "Kataloger",
+                    "datasets": "Dataset",
+                    "countryData": "Landsdata",
+                    "metadataQuality": "Metadatakvalitet",
+                    "title": "Data"
+                },
+                "newsEvents": {
+                    "title": "Nyheter och evenemang",
+                    "events": "Evenemang",
+                    "news": "Nyheter"
+                },
+                "impactStudies": {
+                    "studies": "Studier",
+                    "useCases": "Användningsfall",
+                    "tellUsYourStory": "Berätta din historia",
+                    "title": "Inverkan och studier",
+                    "opendataimpact": "Inverkan av öppna data",
+                    "countryInsights": "Insikter per land",
+                    "overview": "Översikt",
+                    "opendatamaturity": "Öppna data, mognadsgrad"
+                },
+                "covid-19": {
+                    "title": "Covid-19",
+                    "datasets": "Dataset",
+                    "overview": "Översikt",
+                    "initiatives": "Datarelaterade initiativ"
+                }
+            },
+            "subnav": {
+                "logout": "Logga ut",
+                "cookies": "Cookies",
+                "login": "Logga in",
+                "search": "Sök",
+                "newsletter": "Nyhetsbrev",
+                "contact": "Kontakta",
+                "legalNotice": "Rättsligt meddelande",
+                "faq": "Vanliga frågor"
+            },
+            "searchOptions": {
+                "siteContent": "Webbplatsinnehåll",
+                "datasets": "Dataset"
+            },
+            "searchInputPlaceholder": "Sök i webbplatsinnehåll ...",
+            "dataPortal": "Dataportalen",
+            "european": "Europeiska"
+        },
+        "pagination": {
+            "previousPage": "Föregående",
+            "nextPage": "Nästa"
+        },
+        "statistics": {
+            "tableHead": {
+                "trend": "Trend",
+                "country": "Land",
+                "catalogue": "Katalog",
+                "numberOfDatasets": "Antal datamängder",
+                "name": "Namn",
+                "category": "Kategori",
+                "percent": "Andel av totala datamängder"
+            },
+            "totalNumber": "Totalt antal dataset",
+            "evolution": "Evolution",
+            "datasetsPerCountryAndCatalogue": "Dataset per land och katalog",
+            "datasetsPerCountry": "Dataset per land",
+            "datasetsPerCatalogue": "Dataset per katalog",
+            "selectTimePeriod": "Välj tidsperiod",
+            "selectType": "Välj statistiktyp",
+            "statistics": "Statistik",
+            "datasetsPerCategory": "Dataset per kategori",
+            "currentState": "Aktuellt tillstånd",
+            "meta": {
+                "description": "Hitta relevant statistik om portalen och ta reda på antalet datamängder som finns på data.europa.eu per land, kategori och katalog."
+            },
+            "page": {
+                "title": "Statistik om portalen för öppna data | data.europa.eu"
+            }
+        },
+        "metadata": {
+            "updatedLowerCase": "uppdaterad",
+            "conformsTo": "Anpassat efter",
+            "dataset": "Dataset",
+            "email": "E-postadress",
+            "title": "Titel",
+            "license": "Licens",
+            "name": "Namn",
+            "upload": "Ladda upp",
+            "created": "Skapat",
+            "addDistribution": "Lägg till distribution",
+            "chooseFile": "Välj en fil",
+            "distribution": "Distribution",
+            "label": "Etikett",
+            "review": "Utvärdering",
+            "otherIdentifiers": "Andra identifierare",
+            "chooseFormat": "Välj ett format",
+            "datasets": "Dataset",
+            "resource": "Resurs",
+            "spatial": "Rumslig",
+            "deleteItem": "Är du säker på att du vill ta bort det här objektet?",
+            "relatedResources": "Tillhörande resurser",
+            "accessUrl": "AccessURL",
+            "documentations": "Dokumentation",
+            "frequency": "Frekvens",
+            "updated": "Uppdaterad",
+            "no": "Nej",
+            "landingPage": "Landningssida",
+            "metadataQuality": "Metadatakvalitet",
+            "yes": "Ja",
+            "chooseCategory": "Välj en kategori",
+            "update ": "Uppdatera ",
+            "homepage": "Startsida",
+            "contactPoints": "Kontaktpunkter",
+            "chooseCatalogue": "Välj en katalog",
+            "chooseType": "Välj en typ",
+            "description": "Beskrivning",
+            "downloadUrl": "DownloadURL",
+            "provenances": "Härkomst",
+            "tags": "Taggar",
+            "format": "Format",
+            "coordinates": "Koordinater",
+            "sources": "Källor",
+            "categories": "Kategorier",
+            "publisher": "Utgivare",
+            "type": "Typ",
+            "distributions": "Distributioner",
+            "cancel": "Avbryt",
+            "identifiers": "Identifierare"
+        },
+        "footer": {
+            "newsletterText": "Prenumerera på vårt nyhetsbrev",
+            "newsletter": "Nyhetsbrev",
+            "fundedBy": "Finansieras av Europeiska unionen",
+            "lastUpdated": "Senast uppdaterad",
+            "links": {
+                "search": "Sök",
+                "newsletter": "Nyhetsbrev",
+                "cookies": "Cookies",
+                "legalNotice": "Rättsligt meddelande",
+                "faq": "Vanliga frågor",
+                "contact": "Kontakta",
+                "login": "Logga in"
+            },
+            "followUs": "Följ oss på",
+            "subscribe": "Prenumerera",
+            "helpUsImprove": "Hjälp oss bli bättre",
+            "managedBy": "Administreras av Europeiska unionens publikationsbyrå.",
+            "helpUsImproveText": "Din återkoppling hjälper oss att förbättra den övergripande användarupplevelsen. \nHar du några förslag?"
+        },
+        "catalogueFacets": {
+            "and": "OCH",
+            "facets": {
+                "countries": "Länder",
+                "licences": "Licenser",
+                "keywords": "Nyckelord",
+                "formats": "Format",
+                "catalogues": "Kataloger",
+                "categories": "Kategorier"
+            },
+            "operator": "Operatör",
+            "settings": "Inställningar",
+            "or": "ELLER",
+            "europeanCatalogues": "Europeiska kataloger",
+            "title": "Filter"
+        },
+        "similarDatasets": {
+            "notFound": "Inga liknande dataset hittades.",
+            "lessSimilar": "Mindre lika",
+            "similarDatasets": "Liknande dataset",
+            "verySimilar": "Mycket lika",
+            "similar": "Lika",
+            "marginalSimilar": "Marginellt lika"
+        },
+        "catalogues": {
+            "geoBoundsMessageRemove": "Stäng den här aviseringen för att ta bort begränsningen \neller använd återställningsfunktionen.",
+            "countMessage": "kataloger hittades för {query}",
+            "countMessageSingular": "katalog hittades för {query}",
+            "searchBar": {
+                "placeholder": "Sök kataloger..."
+            },
+            "loadingMessage": "Läser in kataloger ...",
+            "geoBoundsMessagePre": "Din sökning har begränsats till:",
+            "countMessageNoResult": "Inga kataloger hittades för {query}"
+        },
+        "common": {
+            "edp": {
+                "title": "Europeiska dataportalen"
+            },
+            "currentCatalogueStatistics": "Aktuell katalogstatistik",
+            "historicalCatalogueStatistics": "Historisk katalogstatistik"
+        },
+        "categories": {
+            "tran": "Transport",
+            "heal": "Hälsa",
+            "gove": "Den statliga och offentliga sektorn",
+            "envi": "Miljö",
+            "intr": "Internationella frågor",
+            "agri": "Jordbruk, fiske, skogsbruk och livsmedel",
+            "soci": "Befolkning och samhälle",
+            "econ": "Ekonomi och finans",
+            "educ": "Utbildning, kultur och sport",
+            "ener": "Energi",
+            "tech": "Naturvetenskap och teknik",
+            "regi": "Regioner och städer",
+            "just": "Rättvisa, rättssystem och allmän säkerhet"
+        },
+        "distributions": {
+            "footerLink": "Ladda ned"
+        },
+        "navigation": {
+            "navItems": {
+                "map": "Karta",
+                "home": "Hem",
+                "imprint": "Impressum",
+                "privacyPolicy": "Sekretesspolicy",
+                "about": "Om",
+                "data": "Data"
+            }
+        },
+        "mapModal": {
+            "disclaimer": "Varning",
+            "fullscreen": "Helskärm",
+            "findDatasets": "Tillämpa",
+            "close": "Stäng",
+            "drawRectangleMsg": "Rita en rektangel för att välja region",
+            "reset": "Rensa"
+        },
+        "datasetFacets": {
+            "facets": {
+                "catalogues": "Kataloger",
+                "formats": "Format",
+                "categories": "Kategorier",
+                "licences": "Licenser",
+                "keywords": "Nyckelord",
+                "countries": "Länder",
+                "tags": "Taggar"
+            },
+            "title": "Filter",
+            "operator": "Operatör",
+            "and": "OCH",
+            "settings": "Inställningar",
+            "europeanCatalogues": "Europeiska kataloger",
+            "or": "eller"
+        },
+        "catalogue": {
+            "searchBar": {
+                "placeholder": "Sök efter kataloger"
+            },
+            "countMessage": "Kataloger hittades",
+            "geoBoundsMessageRemove": "Stäng den här aviseringen för att ta bort begränsningen eller använd återställningsfunktionen.",
+            "loadingMessage": "Kataloger hämtas"
+        },
+        "datasets": {
+            "loadingMessage": "Läser in dataset ...",
+            "geoBoundsMessagePre": "Din sökning har begränsats till:",
+            "saveQuery": "Spara fråga",
+            "createDataset": "Skapa dataset",
+            "datasetsFeed": "Datasetsflöde",
+            "countMessageSingular": "dataset hittades för {query}",
+            "meta": {
+                "translationNotComplete": "Ofullständig översättning"
+            },
+            "noResult": "Inga dataset hittades för ”{query}”",
+            "geoBoundsMessageRemove": "Stäng den här aviseringen för att ta bort begränsningen eller använd återställningsfunktionen.",
+            "searchBar": {
+                "placeholder": "Sök i dataset ..."
+            },
+            "showMore": "Visa mer",
+            "findLocation": "Filtrera efter plats",
+            "countMessage": "dataset hittades för {query}"
+        },
+        "sort": {
+            "lastCreated": "Senast skapat",
+            "nameAZ": "Namn i stigande ordning",
+            "nameZA": "Namn i fallande ordning",
+            "relevance": "Relevans",
+            "lastUpdated": "Senast ändrat",
+            "sortBy": "Ordna efter"
+        },
+        "datasetCategories": {
+            "foundCategory": "{number} kategorier hittade",
+            "foundCategories": "{number} kategori hittad",
+            "noCategories": "Inga kategorier hittades"
+        },
+        "distributionLicense": {
+            "notFound": "Ingen licensinformation hittades.",
+            "openLA": "Öppna licensassistent",
+            "notFoundExtended": "Ingen ytterligare licensinformation hittades. Kontrollera källa för ytterligare information om licensen.",
+            "licensingAssistant": "Licensassistent",
+            "notProvided": "Licens ej angiven"
+        },
+        "visualisation": {
+            "previewAvailable": "Förhandsgranskning tillgänglig",
+            "info": "Om Visualisering inte laddas inom några sekunder, klicka här.",
+            "loading": "Visualisering laddar..."
+        },
+        "imprint": {
+            "msg": "INFOGA IMPRESSUM HÄR"
+        },
+        "home": {
+            "msg": "Den här sidan har tyvärr inget innehåll ännu. \nGå till fliken Data för att se något."
+        }
+    }
+}

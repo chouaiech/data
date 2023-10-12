@@ -1,0 +1,969 @@
+{
+    "message": {
+        "metadata": {
+            "catalogRecord": "Katalogregister",
+            "deleteItem": "Är du säker på att du vill ta bort det här objektet?",
+            "availability": "Tillgänglighet",
+            "versionInfo": "Versionsinformation",
+            "chooseCategory": "Välj en kategori",
+            "chooseFile": "Välj en fil",
+            "versionNotes": "Versionsanteckningar",
+            "review": "Utvärdering",
+            "tooltipKeywords": "Ange nyckelord för ditt dataset här!",
+            "pageDescriptionDataset": "Lägg till titel, beskrivning, katalog, nyckelord och kategorier i ditt dataset!",
+            "no": "Nej",
+            "relatedResources": "Tillhörande resurser",
+            "pageDescriptionPublisher": "Lägg till utgivartyp, namn och webbplats i ditt dataset!",
+            "tooltipTitle": "Ange titeln på ditt dataset här!",
+            "linkedData": "Länkade uppgifter",
+            "numSeries": "Antal dataserier",
+            "releaseDate": "Utgivningsdatum",
+            "yes": "Ja",
+            "unitsOfMeasurement": "Måttenheter",
+            "distributionsEmpty": "Tyvärr finns det för närvarande inga uppladdade distributioner tillgängliga för detta dataset. Lägg till minst en distribution!",
+            "enterDownloadUrl": "Ange nedladdningsurl",
+            "frequency": "Frekvens",
+            "type": "Typ",
+            "telephone": "Telefon",
+            "label": "Etikett",
+            "addedToDataEuropaEU": "Läggs till i data.europa.eu",
+            "tooltipCategories": "Välj kategorier i ditt dataset här!",
+            "temporal": "Tidsperiod",
+            "enterDescription": "Ange en beskrivning",
+            "accrualPeriodicity": "Periodisering",
+            "showXMore": "Visa  {increment} mer",
+            "identifier": "Identifieringskod",
+            "isPartOf": "Är en underkatalog över",
+            "dataServices": "Datatjänster",
+            "chooseType": "Välj en typ",
+            "organizationName": "Organisationens namn",
+            "catalog": "Katalog",
+            "qualityAnnotations": "Kvalitetsanmärkningar",
+            "update": "Uppdatera ",
+            "showAll": "Visa alla",
+            "coordinates": "Koordinater",
+            "email": "E-postadress",
+            "tooltipContactType": "Välj typ av kontaktpunkt för ditt dataset här!",
+            "checksum": "Kontrollsumma",
+            "enterEmail": "Ange en e-postadress",
+            "cancel": "Avbryt",
+            "conformsTo": "Anpassat efter",
+            "downloadUrl": "DownloadURL",
+            "chooseLicense": "Välj en licens",
+            "tooltipDescription": "Ange beskrivning av ditt dataset här!",
+            "tags": "Taggar",
+            "accessUrl": "Access URL",
+            "languages": "Språk",
+            "title": "Titel",
+            "enterTitle": "Ange en titel",
+            "url": "Webbadress",
+            "resource": "Resurs",
+            "tooltipPublisherHomepage": "Ange utgivarens webbplats för ditt dataset här!",
+            "creator": "Skapare",
+            "description": "Beskrivning",
+            "spatial": "Spatial",
+            "readLess": "Läs mindre",
+            "tooltipPublisherType": "Ange typ av utgivare av ditt dataset här!",
+            "accessRights": "Åtkomsträttigheter",
+            "tooltipDistributionDownloadUrl": "Ange nedladdningsadress för din distribution här!",
+            "attributes": "Attribut",
+            "mediaType": "Mediatyp",
+            "categories": "Kategorier",
+            "pageDescriptionDistribution": "Lägg till distributioner i ditt dataset!",
+            "pages": "Sidor",
+            "goToCatalog": "Gå till katalogsidan",
+            "tooltipDistributionDescription": "Ange beskrivning av din distribution här!",
+            "identifiers": "Identifierare",
+            "scheme": "System",
+            "contactPoints": "Kontaktpunkter",
+            "hasPart": "Har en underkatalog",
+            "showLess": "Visa mindre",
+            "byteSize": "Bytestorlek",
+            "tooltipCatalog": "Välj katalogen för ditt dataset här!",
+            "methodologyPage": "MQA metodsida",
+            "hasVersion": "Has-version",
+            "useDownloadUrl": "Jag vill ange en URL för nedladdning istället för att ladda upp en fil!",
+            "created": "Skapat",
+            "themeTaxonomy": "Taxonomi för temaområden",
+            "homepage": "Webbplats",
+            "address": "Adress",
+            "visualisations": "Visualiseringar",
+            "tooltipDistributionFormat": "Välj format för din distribution här!",
+            "upload": "Ladda upp",
+            "notFound": "Hittades inte",
+            "dimensions": "Mått",
+            "addDistribution": "Lägg till distribution",
+            "name": "Namn",
+            "metadataQuality": "Metadatakvalitet",
+            "provenances": "Härkomst",
+            "enterKeywords": "Ange nyckelord",
+            "landingPage": "Landningssida",
+            "tooltipDistributionTitle": "Ange titeln på din distribution här!",
+            "license": "Licens",
+            "chooseCatalog": "Välj en katalog",
+            "enterHomepage": "Ange en webbplats",
+            "tooltipDistributionLicence": "Välj licens för din distribution här!",
+            "readMore": "Läs mer",
+            "format": "Format",
+            "chooseFormat": "Välj ett format",
+            "publisher": "Utgivare",
+            "dataset": "Dataset",
+            "updated": "Uppdaterad",
+            "pageDescriptionUpload": "Lägg till filer i dina distributioner!",
+            "spatialResource": "Rumslig resurs",
+            "distribution": "Distribution",
+            "tooltipContactName": "Ange kontaktpunktens namn för ditt dataset här!",
+            "distributions": "Distributioner",
+            "status": "Status",
+            "datasets": "Dataset",
+            "showMore": "Visa mer",
+            "rights": "Rättigheter",
+            "tooltipContactEmail": "Ange kontaktpunktens e-postadress här!",
+            "otherIdentifiers": "Andra identifierare",
+            "tooltipPublisherName": "Ange utgivarens namn för ditt dataset här!",
+            "enterName": "Ange ett namn",
+            "documentations": "Dokumentation",
+            "sources": "Källor",
+            "modificationDate": "Ändringsdatum",
+            "isVersionOf": "Är version av",
+            "pageDescriptionContactPoint": "Lägg till typ av kontaktpunkt, namn och webbplats i ditt dataset!",
+            "goToDataset": "Gå till datasetsidan",
+            "updatedOnDataEuropaEU": "Uppdaterad på data.europa.eu"
+        },
+        "dataupload": {
+            "info": {
+                "defaultdescription": "Klicka på informationssikonen för att visa en detaljerad förklaring av fältet.",
+                "information": "Information"
+            },
+            "datasets": {
+                "step2": {
+                    "source": {
+                        "label": "Källa"
+                    },
+                    "type": {
+                        "placeholder": "Text för datatyp platshållare"
+                    },
+                    "subject": {
+                        "help": "En kategori av datauppsättningen."
+                    },
+                    "isReferencedByUrl": {
+                        "label": "Webbadress"
+                    },
+                    "contactPointAddressStreet": {
+                        "placeholder": "Text för dataset Contact Point Address Street placeholder text"
+                    },
+                    "conformsTo": {
+                        "placeholder": "Dataset Konform för platshållarens text"
+                    },
+                    "isVersionOf": {
+                        "label": "Är version av"
+                    },
+                    "provenance": {
+                        "label": "Härkomst"
+                    },
+                    "language": {
+                        "label": "Språk"
+                    },
+                    "qualifiedAttribution": {
+                        "help": "Länk till en agent som har någon form av ansvar för resursen"
+                    },
+                    "temporal": {
+                        "placeholder": "Dataset Temporal placeholder text"
+                    },
+                    "accessRights": {
+                        "info": "Denna egenskap avser information som anger om databasen är öppna data, har åtkomstbegränsningar eller inte är offentlig."
+                    },
+                    "identifier": {
+                        "help": "Denna egenskap innehåller den huvudsakliga identifieringskoden för databasen."
+                    },
+                    "versionInfo": {
+                        "help": "Datasets versionsnummer."
+                    },
+                    "hasVersion": {
+                        "info": "Hänvisning till en relaterad datamängd som är en version, utgåva eller anpassning av den beskrivna datamängden."
+                    },
+                    "wasGeneratedBy": {
+                        "add-label": "Lägg till genererad was genom"
+                    },
+                    "qualifiedRelation": {
+                        "label": "Kvalificerat förhållande"
+                    },
+                    "conformsToTitle": {
+                        "label": "Titel"
+                    },
+                    "creatorType": {
+                        "label": "Typ"
+                    },
+                    "spatial": {
+                        "info": "Denna egenskap avser en geografisk region som omfattas av databasen."
+                    },
+                    "temporalResolutionMonth": {
+                        "label": "Tidsupplösningsmånad"
+                    },
+                    "contactPointName": {
+                        "label": "Namn"
+                    },
+                    "temporalResolutionMinute": {
+                        "placeholder": "Dataset Temporal Resolution Minute platshållare text"
+                    },
+                    "contactPointEmail": {
+                        "label": "E-post"
+                    },
+                    "contactPointOrganisationName": {
+                        "label": "Organisationens namn"
+                    },
+                    "contactPoint": {
+                        "help": "Den här egenskapen innehåller kontaktuppgifter."
+                    },
+                    "temporalResolutionDay": {
+                        "placeholder": "Dataset Temporal Resolution Day platshållare text"
+                    },
+                    "provenanceText": {
+                        "placeholder": "Dataset Provenance Tidshållare text"
+                    }
+                },
+                "step1": {
+                    "publisherType": {
+                        "placeholder": "Dataset Publisher Typ placeholder text"
+                    },
+                    "datasetID": {
+                        "label": "ID för datauppsättning"
+                    },
+                    "modified": {
+                        "label": "Ändrad"
+                    },
+                    "publisher": {
+                        "label": "Utgivare"
+                    },
+                    "issued": {
+                        "help": "Datum för formellt utfärdande (t.ex. offentliggörande) av datauppsättningen. Godtagbara format för datum: ÅÅÅÅ-MM-DD, ÅÅÅÅ-MM, ÅÅÅÅ."
+                    },
+                    "publisherHomepage": {
+                        "label": "Startsida"
+                    }
+                },
+                "step3": {
+                    "spatialResolutionInMeters": {
+                        "help": "Minsta möjliga rumsliga separation som kan upplösas i en datamängd."
+                    },
+                    "mediaType": {
+                        "placeholder": "Text från Distribution Media Type placeholder (text med platshållare)"
+                    },
+                    "language": {
+                        "help": "Ett språk som används i distributionen."
+                    },
+                    "title": {
+                        "info": "Denna fastighet innehåller ett namn som ges till distributionen. Denna egenskap kan upprepas för parallella språkversioner av beskrivningen."
+                    },
+                    "status": {
+                        "label": "Status"
+                    },
+                    "checksum": {
+                        "placeholder": "Distribution Checksum placeholder text"
+                    },
+                    "hasPolicyUrl": {
+                        "placeholder": "Distribution Has Policy Url placeholder text"
+                    },
+                    "page": {
+                        "help": "En sida eller ett dokument om denna distribution."
+                    },
+                    "availability": {
+                        "placeholder": "Distribution Tillgänglighet platshållare"
+                    },
+                    "format": {
+                        "placeholder": "Text med platshållare i distributionsformat"
+                    },
+                    "conformsTo": {
+                        "add-label": "Lägg till konform till"
+                    },
+                    "issued": {
+                        "label": "Utfärdat"
+                    },
+                    "description": {
+                        "help": "Denna fastighet innehåller ett fritt textkonto för distributionen."
+                    },
+                    "hasPolicy": {
+                        "help": "Den politik som ger uttryck för rättigheterna."
+                    },
+                    "temporalResolutionMonth": {
+                        "label": "Tidsupplösningsmånad"
+                    },
+                    "temporalResolutionHour": {
+                        "placeholder": "Dataset Temporal Upplösning Hour Placeholder text"
+                    },
+                    "licence": {
+                        "help": "Den licens enligt vilken distributionen görs tillgänglig."
+                    },
+                    "date": {
+                        "label": "Datum"
+                    }
+                },
+                "stepper": {
+                    "step3": {
+                        "children": {
+                            "distribution3": {
+                                "name": "Ytterligare information"
+                            },
+                            "distribution4": {
+                                "name": "Ytterligare information"
+                            },
+                            "distribution1": {
+                                "name": "Allmän information"
+                            },
+                            "distribution2": {
+                                "name": "Ytterligare information"
+                            }
+                        }
+                    },
+                    "overview": "Översikt över datauppsättningen"
+                }
+            },
+            "catalogues": {
+                "step2": {
+                    "isPartOf": {
+                        "info": "Denna egenskap avser en relaterad katalog i vilken den beskrivna katalogen ingår fysiskt eller logiskt."
+                    },
+                    "language": {
+                        "help": "Ett språk som används i textmetadata som beskriver titlar, beskrivningar osv."
+                    },
+                    "spatial": {
+                        "info": "Denna egenskap avser ett geografiskt område som omfattas av katalogen."
+                    },
+                    "hasPart": {
+                        "help": "Denna egenskap avser en relaterad katalog som ingår i den beskrivna katalogen."
+                    },
+                    "creator": {
+                        "add-label": "Lägg till skapare"
+                    },
+                    "creatorName": {
+                        "label": "Namn"
+                    }
+                },
+                "step1": {
+                    "title": {
+                        "help": "Ett namn på katalogregistret. "
+                    },
+                    "description": {
+                        "info": "Denna egenskap innehåller ett fritextkonto för posten. Denna egenskap kan upprepas för parallella språkversioner av beskrivningen."
+                    },
+                    "licence": {
+                        "placeholder": "Text till innehavaren av kataloglicensen"
+                    },
+                    "modified": {
+                        "label": "Ändrad"
+                    },
+                    "licenceDescription": {
+                        "label": "Beskrivning av licensen"
+                    },
+                    "homepage": {
+                        "help": "En webbsida som fungerar som huvudsida för katalogen."
+                    }
+                },
+                "stepper": {
+                    "overview": "Översikt över katalogen",
+                    "step1": {
+                        "name": "Steg 1: Skapa katalog"
+                    },
+                    "step2": {
+                        "name": "Steg 2: Definiera katalogegenskaper"
+                    }
+                }
+            },
+            "clear": "Tydlig",
+            "deletemodal": {
+                "deleteDistribution": "Ta bort distribution",
+                "areyousure": "Är du säker på att du vill ta bort den här distributionen?"
+            },
+            "createUniqueID": "Skapa ett unikt ID",
+            "saveasdraft": "Spara som utkast",
+            "savedataset": "Spara datauppsättning",
+            "next": "Nästa steg",
+            "noDistributions": "Inga fördelningar tillgängliga",
+            "savedraft": "Spara utkast",
+            "searchVocabulary": "Sökordlista",
+            "error": {
+                "general": "Ett fel inträffade. Försök igen senare!",
+                "invalid-message": "Vissa fält saknas. Fyll i alla obligatoriska fält!"
+            },
+            "type": "Typ",
+            "preview": "Föregående steg",
+            "submit": "Skicka",
+            "publishdataset": "Publicera datauppsättning",
+            "validationtitle": "Validering",
+            "publishdraft": "Publicera utkast",
+            "newDistribution": "Lägg till ytterligare distribution",
+            "validationerror": "Ett fel uppstod när ditt formulär validerades!",
+            "createDataset": "Skapa datauppsättning",
+            "defineDatasetProperties": "Definiera databehandlingsegenskaperna",
+            "createDistributions": "Skapa distribution"
+        },
+        "datasetDetails": {
+            "subnav": {
+                "quality": "Kvalitet",
+                "similarDatasets": "Liknande dataset",
+                "categories": "Kategorier",
+                "dataset": "Dataset",
+                "activityStream": "Aktivitetsflöde"
+            },
+            "quality": {
+                "licenceAvailability": "Licensinformation",
+                "mediaTypeAvailability": "Medietyp",
+                "temporalAvailability": "Tidsbaserad sökning",
+                "accessibility": "Åtkomlighet",
+                "dcatApCompliance": "DCAT-AP-överensstämmelse",
+                "distributions": {
+                    "downloadUrlStatusCode": "Statuskod för nedloadUrl",
+                    "accessUrlStatusCode": "Statuskod för AccessURL"
+                },
+                "accessRightsVocabularyAlignment": "Ordlista för åtkomstbegränsningar",
+                "contactPointAvailability": "Kontaktpunkter",
+                "dateIssuedAvailability": "Utfärdandedatum",
+                "nodata": "Det verkar finnas en fråga från vår sida. Inga kvalitetsdata kunde laddas. Vänligen försök igen senare.",
+                "dateModifiedAvailability": "Ändringsdatum",
+                "contextuality": "Kontextualitet",
+                "reusability": "Återanvändbarhet",
+                "accessUrlStatusCode": "Mest frekventa accessURL-statuskoder",
+                "downloadUrlStatusCode": "Mest frekventa downloadURL-statuskoder",
+                "formatMediaTypeVocabularyAlignment": "Format/medietyp från ordlista",
+                "metaDataQuality": "Metadatakvalitet",
+                "downloadUrlAvailability": "Nedladdnings-URL",
+                "dataQuality": "Uppgifternas kvalitet",
+                "categoryAvailability": "Kategorier",
+                "interoperability": "Interoperabilitet",
+                "findability": "Upptäckbarhet",
+                "spatialAvailability": "Geosökning",
+                "formatAvailability": "Formatera",
+                "byteSizeAvailability": "Filstorlek",
+                "accessRightsAvailability": "Åtkomstbegränsningar",
+                "distributionQuality": "Distributionskvalitet",
+                "publisherAvailability": "Utgivare",
+                "keywordAvailability": "Användning av nyckelord",
+                "rightsAvailability": "Rättigheter"
+            },
+            "follow": "Följ",
+            "accessURLTooltip": "Den här länken kan innehålla information om hur du hämtar den refererade filen eller är en direktlänk till den refererade filen.",
+            "dataStream": "Dataflöden",
+            "downloadURLTooltip": "Detta är en direkt länk till den refererade filen.",
+            "upload": {
+                "organisation": "Organisation",
+                "individual": "Person",
+                "resetText": "Återställa hela formuläret?",
+                "person": "Person",
+                "unknownFormat": "Okänt format",
+                "reset": "Återställ formulär"
+            },
+            "preview": "Förhandsgranskning",
+            "feedback": "Återkoppling",
+            "access": "Tillträde",
+            "datasets": {
+                "modal": {
+                    "downloadingFiles": "Ladda ner filer",
+                    "zipNumberOfFiles": "Zip ű number – filerna",
+                    "waitingForDownload": "(väntar på nedladdning)",
+                    "downloadProgress": "Ladda ner Progress",
+                    "notDownloaded": "Ej överförd",
+                    "error": "Fel! Försök again",
+                    "okay": "Okay",
+                    "cancel": "Avbryt",
+                    "close": "Stäng",
+                    "coupleOfMinutes": "(detta kan ta några minuter)",
+                    "notDownloadedTooltip": "Närmare uppgifter finns i den bifogade filen file_report.csv."
+                },
+                "leavePageWindow": {
+                    "text": "Är du säker på att du vill lämna? Nedladdningen kommer att stoppas när du lämnar!"
+                },
+                "downloadAll": "Ladda ner alla"
+            },
+            "translation": {
+                "update": "En uppdaterad översättning av detta dataset är under utförande.",
+                "original": "Originalspråket",
+                "message": "Titeln och beskrivningen av detta dataset är maskinöversatt.",
+                "noTranslation": "Den här datamängden finns ännu inte på ditt språk. Översättning kommer snart",
+                "link": "Klicka här för att se dataset på originalspråket"
+            },
+            "cite": "Citat",
+            "relatedResources": "Relaterade resurser",
+            "share": "Dela",
+            "geoVisualisation": "Öppna geo-visualisering",
+            "download": "Hämta",
+            "intro": {
+                "distribution": "Nedan förtecknas kvalitetsmätningen av alla fördelningar av datauppsättningen. För information om vilka mått vi använder för indikatormätningar, se vår <a href='/mqa/methodology?locale={locale}'>metodsida</a>.",
+                "metadataQuality": "Syftet med kvalitetssäkringen av metadata är att hjälpa dataleverantörer och dataportaler att kontrollera sina metadata mot olika indikatorer. För information om vilka mått vi använder för indikatormätningar, se vår <a href='/mqa/methodology?locale={locale}'>metodsida</a>."
+            },
+            "about": "om",
+            "datasetFeed": "Datauppsättning foder",
+            "delete": "Ta bort",
+            "openResource": "Gå till resurs",
+            "visualisation": "Öppen visualisering",
+            "isUsedBy": "Används av",
+            "unfollow": "Sluta följa",
+            "shareOn": "Dela på",
+            "additionalInfo": "Ytterligare information",
+            "contactPoints": {
+                "organizationName": "Organisationens namn"
+            },
+            "edit": "Redigera",
+            "menu": "Meny",
+            "manage": "Hantera ",
+            "geoInfo": "Datasetsomfattning",
+            "options": "Alternativ"
+        },
+        "tooltip": {
+            "catalogDetails": {
+                "created": "Datum för det formella utfärdandet (t.ex. offentliggörande) av katalogen.",
+                "publisher": "En enhet (organisation) som ansvarar för att göra katalogen tillgänglig.",
+                "updated": "Det senaste datum då katalogen ändrades.",
+                "description": "En beskrivning av katalogen.",
+                "title": "Katalogens titel.",
+                "metadata": "Alternativ för att ladda ned katalogmetadata i olika länkade dataframställningar.",
+                "language": "Det språk som används i textmetadata som beskriver titlar, beskrivningar osv. i databaserna i katalogen. Denna egenskap kan upprepas om metadata tillhandahålls på flera språk.",
+                "spatial": "Det geografiska område som omfattas av katalogen."
+            },
+            "datasetDetails": {
+                "frequency": "Hur ofta datafilen uppdateras.",
+                "dataset": "Uppgifter om dataset eller tjänsten.",
+                "updated": "Det senaste datum då datauppsättningen eller tjänsten ändrades eller ändrades.",
+                "versionInfo": "Versionsnummer eller annan versionsbeteckning för datamängden.",
+                "distributions": {
+                    "updated": "Senaste datum då distributionen ändrades eller ändrades.",
+                    "title": "Namnet på distributionen.",
+                    "linkedSchema": "Upprättat schema som den beskrivna distributionen överensstämmer med.",
+                    "linkedData": "Alternativ för att ladda ned distributionsmetadata i olika länkade dataframställningar.",
+                    "status": "Utdelningens mognad. Det MÅSTE ha ett av de värden som färdigställts, tömts, under utveckling, tillbakadraget.",
+                    "licence": "Licens enligt vilken distributionen görs tillgänglig.",
+                    "availability": "Anger hur lång tid som planeras för att hålla distributionen av datamängden tillgänglig.",
+                    "rights": "Ett uttalande som specificerar de rättigheter som är förknippade med distributionen.",
+                    "checksum": "En mekanism som kan användas för att kontrollera att innehållet i en distribution inte har ändrats. Kontrollsumman är kopplad till nedloadUrl.",
+                    "mediaType": "Distributionens medietyp enligt definitionen i det officiella register över medietyper som förvaltas av IANA.",
+                    "spatialResolution": "Minsta rumsliga separation som kan upplösas i en datamängdsfördelning, mätt i meter.",
+                    "byteSize": "Innehåller storleken på en fördelning i byte.",
+                    "download": "Ladda ner eller komma åt distributionen.",
+                    "type": "Länkar till en typ av Dis-tribution, t.ex. att det är en visualisering.",
+                    "created": "Datum för formellt utfärdande (t.ex. offentliggörande) av distributionen.",
+                    "language": "Det språk som används i distributionen.",
+                    "options": "Öppna en förhandsgranskning av distributionen.",
+                    "temporalResolution": "Avser den kortaste tidsperiod som kan lösas i datauppsättningen."
+                },
+                "otherIdentifier": "Sekundär identifierare för databasen, såsom MAST/ADS16, DataCite17, DOI18, EZID19 eller W3ID20.",
+                "numSeries": "Innehåller det antal dataserier som finns i databasen.",
+                "versionOf": "Relaterad datauppsättning där den beskrivna datamängden är en version, en utgåva eller en anpassning.",
+                "unitsOfMeasurement": "En måttenhet för observationerna i datauppsättningen.",
+                "distribution": "En fysisk konkretisering av datamängden eller tjänsten i ett visst format, t.ex. en webblänk till datauppsättningen.",
+                "quality": "Kvalitetsinformation för metadata för denna datamängd eller tjänst.",
+                "catalogue": "Den katalog där datauppsättningen eller tjänsten tillhör.",
+                "linkedData": "Alternativ för att ladda ner datasetet eller tjänstemetadata i olika länkade dataframställningar.",
+                "versionNotes": "Beskrivning av skillnaderna mellan denna version och en tidigare version av databasen. Denna egenskap kan upprepas för parallella språkversioner av kommentarerna.",
+                "similarDatasets": "Andra dataset eller tjänster som liknar detta.",
+                "identifier": "Huvudsaklig identifierare för databasen, t.ex. URI eller annan unik identifieringskod inom ramen för katalogen.",
+                "uriRef": "URIref är en unik identifierare för datasetet/datatjänsten i data.europa.eu",
+                "creator": "Enhet som i första hand ansvarar för att ta fram datauppsättningen.",
+                "spatial": "Geografisk region som omfattas av databasen.",
+                "language": "Datasets språk.",
+                "format": "Det format som finns tillgängligt för denna datamängd eller tjänst.",
+                "conformsTo": "Genomförandebestämmelser eller andra specifikationer.",
+                "landingPage": "Webbsida som ger tillgång till databasen, dess distribution och/eller ytterligare information.",
+                "provenance": "Uttalande om en datamängd.",
+                "documentation": "Sida eller dokument om den här databasen.",
+                "publisher": "En enhet (organisation) som ansvarar för att göra datasetet eller tjänsten tillgängliga.",
+                "created": "Datum för formellt utfärdande (t.ex. offentliggörande) av datauppsättningen eller tjänsten.",
+                "relatedResource": "Relaterade resurser.",
+                "categories": "Kategorier som tilldelats denna datamängd eller tjänst.",
+                "share": "Dela denna datamängd eller tjänst via sociala medier.",
+                "feedback": "Berätta vad du tycker om denna datamängd eller tjänst.",
+                "dqvData": "Alternativ för att ladda ned datamängden eller tjänstekvalitetsmätningarna i olika länkade dataframställningar.",
+                "hasVersion": "Relaterad datauppsättning som är en version, utgåva eller anpassning av den beskrivna datamängden"
+            },
+            "quality": {
+                "keywordAvailability": "Nyckelord stöder direkt sökningen och ökar därmed datauppsättningens sökbarhet. Antalet nyckelord påverkar inte poängen.",
+                "formatMediaTypeVocabularyAlignment": "Kontroll av format och medietyp hör till en kontrollerad vokabulär.",
+                "licenceAvailability": "En licens är värdefull information för vidareutnyttjande av data.",
+                "publisherAvailability": "Utgivaren är en person eller en organisation som har publicerat uppgifterna.",
+                "formatAvailability": "I det här fältet anges fördelningens filformat. Genom detta fält kontrolleras om egenskapen är inställd eller inte.",
+                "temporalAvailability": "Användning av tidsinformation skulle göra det möjligt för användarna att i rätt tid göra en fasad sökning.",
+                "rightsAvailability": "I vissa fall kan en särskild licens inte tillämpas på en datamängd. Fältet ”Rättigheter” kan användas för att ange en hänvisning till en resurs som informerar en användare om vilka rättigheter han eller hon har när han eller hon använder datasetet.",
+                "mediaTypeAvailability": "I detta fält anges fördelningens medietyp. Genom detta fält kontrolleras om egenskapen är inställd eller inte.",
+                "accessRightsVocabularyAlignment": "Användningen av en kontrollerad vokabulär ökar återanvändbarheten.",
+                "dcatApCompliance": "Efterlevnaden av DCAT-AP beräknas för alla källor och dataset som finns tillgängliga i en katalog. Denna kontroll utförs endast om metadata ursprungligen skördas som DCAT-AP eller som ett giltigt derivat. Portalen data.europe.eu kan också ta fram metadata som inte helt överensstämmer med DCAT-AP. För att öka överensstämmelsen med DCAT-AP kontrollerar MQA varje metadata för att kontrollera att den uppfyller DCAT-AP-kraven. Metadata är inte överensstämmande om valideringsrapporten för SHACL avser minst ett problem. Genom MQA används data.europe.eu:s valideringssevice för DCAT-AP SHACL, som är en rekommendation från W3C och som används för validering av RDF-diagram mot en uppsättning former.",
+                "accessRightsAvailability": "I detta fält anges om tillgången till uppgifterna är offentlig eller begränsad.",
+                "accessUrlStatusCode": "AccessURL är inte nödvändigtvis en direkt länk till uppgifterna, utan kan också hänvisa till en URL som ger åtkomst till datasetet eller där mer information om datauppsättningen finns tillgänglig. Om den svarta statuskoden ligger i intervallet 200 eller 300 bedöms resursens tillgänglighet positivt.",
+                "categoryAvailability": "Kategorierna hjälper användarna att utforska datamängder tematiskt. Genom en kontroll av en eller flera kategorier tilldelas datauppsättningen en eller flera kategorier. Antalet tilldelade kategorier påverkar inte poängen.",
+                "downloadUrlStatusCode": "Om det finns en nedloadUrl kontrolleras tillgängligheten. Genom HTTP HEAD-begäran kontrolleras den angivna webbadressen för att se om det finns tillgång till en resurs. Om den svarta statuskoden ligger i intervallet 200 eller 300 bedöms resursens tillgänglighet positivt.",
+                "byteSizeAvailability": "Anger storleken på filen i byte. ˮbr > – br > Det kontrolleras om egenskapen är inställd eller inte.",
+                "downloadUrlAvailability": "DownloadUrl är en direkt länk till de data som det hänvisas till.",
+                "spatialAvailability": "Användning av rumslig information skulle göra det möjligt för användarna att hitta datasetet med en geomfacetterad sökning.",
+                "contactPointAvailability": "Kontaktpunkten innehåller information som man kan vända sig till vid frågor om uppgifterna.",
+                "dateIssuedAvailability": "Datum då datauppsättningen eller distributionen släpptes.",
+                "dateModifiedAvailability": "Datum då datauppsättningen eller distributionen senast ändrades."
+            },
+            "catalogRecord": "En beskrivning av en datauppsättning i katalogen.",
+            "lastModified": "Sortera resultaten efter senaste ändring av datauppsättningen",
+            "editorialContent": "Sök efter redaktionellt innehåll, t.ex. nyheter, evenemang, användningsfall",
+            "datasets": "Sök efter dataset",
+            "relevance": "Sortera dataset efter relevans. Relevans beräknas på grundval av träffar för sökord i titeln, nyckelord och beskrivning",
+            "contactPoints": "Kontaktuppgifter som kan användas för att skicka kommentarer till databasen.",
+            "locationFilter": "Klicka på kartan för att se dataset för en viss plats och klicka på pennikonen för att välja den. Klicka sedan på ”Ansök” för att filtrera endast dataset som avser det valda området. Observera att endast dataset som innehåller geoinformationsmetadata kommer att ingå i sökresultaten.",
+            "catalogues": "Sök efter kataloger. En katalog innehåller dataset och tjänster"
+        },
+        "visualisationDistribution": {
+            "barChartExplain": "Ett streckdiagram visar numeriska värden för nivåer av en kategorisk egenskap som stänger. Nivåerna ritas upp på en sjökraxel och värdena ritas upp på den andra axeln.",
+            "semicolon": "Semikolon",
+            "exportSucceeded": "Konfigurationen har skapats!",
+            "yAxis": "y Axis",
+            "pipe": "Rör",
+            "cancel": "Avbryt",
+            "fileTypeNotSupported": "Du försöker göra en filtyp som inte stöds.",
+            "confirm": "Bekräfta",
+            "fileNotFound": "Du försöker göra en fil vars innehåll inte kunde läsas.",
+            "comma": "Kommatecken",
+            "space": "Utrymme",
+            "exportDataTip": "Inmatningsfältet får inte vara tomt!",
+            "countRow": "Räkna",
+            "exportMessagesHeader": "Är du säker på att du vill spara din konfiguration? Kontrollera det innan du sparar!",
+            "exportMessagesLabel": "Ange namnet på din konfiguration",
+            "exportNameExistsAlert": "Namnet är redan i bruk. Försök med ett annat!",
+            "hiddenMessages": "är dolda – klicka för att visa alla",
+            "connectedLineChart": "Diagram över anslutna linjer",
+            "barChart": "Bar diagram",
+            "someRows": "Några radar",
+            "row": "Rader",
+            "tab": "Flik",
+            "connectToDatabaseError": "Fel vid hämtning av data från databasen. Försök det eller kontrollera dina synpunkter igen!",
+            "badgateway": "Server ej tillgänglig eller felaktigt DNS-namn.",
+            "goBack": "Go Back",
+            "forbidden": "Tillgång till den begärda resursen är förbjuden.",
+            "unauthorized": "Begäran har inte tillämpats. Den saknar giltiga autentiseringsuppgifter.",
+            "xAxis": "X Axel",
+            "delimiter": "Avgränsare",
+            "someColumns": "Några kolonner",
+            "exportMessagesFooter": "Klicka på ”Bekräfta” för att spara den!",
+            "table": "Tabell",
+            "connectedLineChartExplain": "Det är en sammankopplad scatteryta som i princip är en hybrid mellan en scatteryta och en lineplott. Du måste välja Xaxis för att göra den."
+        },
+        "sort": {
+            "lastCreated": "Senast skapat",
+            "lastUpdated": "Senast ändrat",
+            "nameZA": "Namn i fallande ordning",
+            "relevance": "Relevans",
+            "sortBy": "Ordna efter",
+            "nameAZ": "Namn i stigande ordning"
+        },
+        "distributionLicense": {
+            "openLA": "Öppna licensassistent",
+            "notProvided": "Licens ej angiven",
+            "licensingAssistant": "Licensassistent",
+            "notFound": "Ingen licensinformation hittades.",
+            "notFoundExtended": "Ingen ytterligare licensinformation hittades. Kontrollera källa för ytterligare information om licensen."
+        },
+        "catalogs": {
+            "countMessageSingular": "katalog hittades ",
+            "geoBoundsMessagePre": "Din sökning har begränsats till:",
+            "downloadAsLinkedData": "Katalogmetadata som länkade data",
+            "countMessageNoResult": "Inga kataloger hittades ",
+            "searchBar": {
+                "placeholder": "Sök kataloger ..."
+            },
+            "countMessage": "kataloger hittades för",
+            "loadingMessage": "Läser in kataloger ...",
+            "geoBoundsMessageRemove": "Stäng den här aviseringen för att ta bort begränsningen eller använd återställningsfunktionen.\neller använd återställningsfunktionen."
+        },
+        "datasetFacets": {
+            "facets": {
+                "datascopeField": {
+                    "countryData": "Nationella uppgifter",
+                    "io": "Internationella uppgifter",
+                    "eu": "Uppgifter om Europeiska unionen"
+                },
+                "datascope": "Uppgifternas omfattning",
+                "dataServices": {
+                    "dataServicesOnly": "Endast datatjänster"
+                },
+                "country": "Länder",
+                "format": "Format",
+                "scoring": {
+                    "badScoring": "Alla",
+                    "sufficientScoring": "Tillräckligt",
+                    "goodScoring": "Bra",
+                    "excellentScoring": "Utmärkt"
+                },
+                "publisher": "@: message.metadata.utgivare",
+                "license": "Licenser",
+                "keywords": "Nyckelord",
+                "categories": "Kategorier",
+                "catalog": "Kataloger",
+                "countrydata": "Landsdata",
+                "tags": "Taggar"
+            },
+            "title": "Filter",
+            "and": "OCH",
+            "settings": "Filterinställning",
+            "scoring": "Poängsättning",
+            "or": "eller",
+            "europeanCatalogs": "Europeiska kataloger",
+            "operator": "Operator"
+        },
+        "header": {
+            "navigation": {
+                "data": {
+                    "euInternationalData": "EU och internationella uppgifter",
+                    "datasets": "Dataset",
+                    "catalogs": "Kataloger",
+                    "metadataquality": "Metadatakvalitet",
+                    "sparqleditor": "Redigerare för SPARQL",
+                    "statistics": "Statistik",
+                    "sparqlsearch": "SPARQL-sökning",
+                    "title": "Data"
+                },
+                "impactStudies": {
+                    "opendataimpact": "Inverkan av öppna data",
+                    "tellUsYourStory": "Berätta din historia",
+                    "studies": "Studier",
+                    "opendatamaturity": "Öppna data, mognadsgrad",
+                    "countryInsights": "Insikter per land",
+                    "useCases": "Användningsfall",
+                    "title": "Inverkan och studier",
+                    "overview": "Översikt"
+                },
+                "training": {
+                    "licensingAssistant": "Licensassistent",
+                    "dataProvidersGuide": "Guide för dataleverantörer",
+                    "moreTrainingMaterial": "Mer utbildningsmaterial",
+                    "whatIsOpenData": "Vad är öppna data?",
+                    "title": "Utbildning",
+                    "elearning": "e-lärande"
+                },
+                "about": {
+                    "beHarvestedByUs": "Hur vi samlar in data",
+                    "documentation": "Dokumentation",
+                    "title": "Om",
+                    "europeanDataPortal": "Europeiska Data Portalen"
+                },
+                "newsEvents": {
+                    "events": "Evenemang",
+                    "news": "Nyheter",
+                    "title": "Nyheter och evenemang",
+                    "stories": "Datahistorier"
+                },
+                "covid-19": {
+                    "title": "Covid-19",
+                    "datasets": "Dataset",
+                    "overview": "Översikt",
+                    "initiatives": "Datarelaterade initiativ"
+                }
+            },
+            "subnav": {
+                "newsletter": "Nyhetsbrev",
+                "cookies": "Cookies",
+                "login": "Logga in",
+                "contact": "Kontakta",
+                "search": "Sök",
+                "logout": "Logga ut",
+                "legalNotice": "Rättsligt meddelande",
+                "faq": "Vanliga frågor"
+            },
+            "european": "Europeiska",
+            "searchInputPlaceholder": "Sök i webbplatsinnehåll ...",
+            "dataPortal": "Dataportalen",
+            "searchOptions": {
+                "siteContent": "Webbplatsinnehåll",
+                "datasets": "Dataset"
+            }
+        },
+        "catalogues": {
+            "foundCataloguesSingular": "1 katalog hittades",
+            "foundCatalogues": "ökning av antalet kataloger som hittats"
+        },
+        "datasets": {
+            "foundDatasets": "· antal uppsättningar av dataset som hittas",
+            "countMessage": "dataset hittades för",
+            "foundDatasetsSingular": "1 dataset hittades",
+            "meta": {
+                "translationNotComplete": "Ofullständig översättning"
+            },
+            "geoBoundsMessageRemove": "Stäng den här aviseringen för att ta bort begränsningen eller använd återställningsfunktionen.",
+            "createDataset": "Skapa dataset",
+            "geoBoundsMessagePre": "Din sökning har begränsats till:",
+            "loadingMessage": "Läser in dataset ...",
+            "countMessageSingular": "dataset hittades",
+            "datasetsFeed": "Datasetsflöde",
+            "scoreDisclaimer": "De aktuella sökresultaten filtreras för att matcha det begärda lägsta kvalitetsresultatet som anges i sidan till vänster. Besök vår {0} om du vill veta mer om våra kvalitetsmätningar.",
+            "noResult": "Inga dataset hittades ",
+            "findLocation": "Filtrera efter plats",
+            "searchBar": {
+                "placeholder": "Sök i dataset"
+            },
+            "createCatalogue": "Skapa katalog",
+            "saveQuery": "Spara fråga"
+        },
+        "footer": {
+            "helpUsImproveText": "Din återkoppling hjälper oss att förbättra den övergripande användarupplevelsen. \nHar du några förslag?",
+            "lastUpdated": "Senast uppdaterad",
+            "links": {
+                "cookies": "Cookies",
+                "contact": "Kontakta",
+                "faq": "Vanliga frågor",
+                "newsletter": "Nyhetsbrev",
+                "search": "Sök",
+                "login": "Logga in",
+                "legalNotice": "Rättsligt meddelande"
+            },
+            "subscribe": "Prenumerera",
+            "helpUsImprove": "Hjälp oss bli bättre",
+            "newsletterText": "Prenumerera på vårt nyhetsbrev",
+            "newsletter": "Nyhetsbrev",
+            "followUs": "Följ oss på",
+            "managedBy": "Administreras av Europeiska unionens publikationsbyrå.",
+            "fundedBy": "Finansieras av Europeiska unionen"
+        },
+        "helpIcon": {
+            "dataServices": "I data.europa.eu kan en distribution också fungera som en datatjänst. Det innebär att den inte kopplar till en nedladdningsbar fil, utan till en API i stället. Välj ”Ja” om du vill filtrera datamängder som har minst en datatjänst.",
+            "scoring": "data.europa.eu mäter kvaliteten på alla dataset och tjänster. I avsnittet Data/Metadata Quality har vi en metodsida som beskriver processen. Varje dataset och tjänst representeras också av en kvalitetspoäng. Denna poäng kan vara tillräcklig, bra eller utmärkt. Om filtret ”Tillräckligt +” ställs in visas alla datamängder och tjänster som har tillräcklig poäng eller bättre. Detsamma gäller för ”god”. ”Utmärkt” visar endast utmärkta dataset och tjänster.",
+            "license": "I en licens beskrivs de rättsliga villkoren för hur en datamängd kan användas.",
+            "dataScope": "EU-data innehåller dataset och tjänster från EU-institutionerna. Internationella data innehåller dataset och tjänster som kommer från länder utanför EU. Landsdata innehåller dataset och tjänster från EU:s medlemsstater.",
+            "format": "Varje dataset innehåller hänvisningar till filer eller tjänster. Formatet beskriver dokumenttypen eller typen av tjänst för dessa referenser. Alla filtyper kan inte användas för alla ändamål, t.ex. kan en beräkning göras med en CSV-fil i stället för en pdf-fil.",
+            "catalog": "En katalog eller ett arkiv med datamängder och tjänster. En katalog representerar oftast en portal där de dataset som samlas in kommer från.",
+            "settings": "Avgöra om filtervalet är exklusivt eller inte. Om du väljer OCH måste alla sökresultat matcha alla filter. Eller innebär att minst ett filter måste matchas.",
+            "categories": "En kategori gruppuppsättningar data som delar ett gemensamt ämne.",
+            "publisher": "En utgivare är en enhet (t.ex. organisation) som ansvarar för att göra datamängden tillgänglig.",
+            "keywords": "Nyckelord är idéer och ämnen som definierar vad innehållet handlar om."
+        },
+        "userQueries": {
+            "executeQuery": "Utför fråga",
+            "queriesFound": "{number} frågor hittades",
+            "placeholderNotes": "t.ex. Några användbara anteckningar om frågan",
+            "querySaved": "Fråga sparad",
+            "queryFound": "{number} fråga hittades",
+            "myQueries": "Mina frågor",
+            "noDescription": "Den här frågan har ingen beskrivning",
+            "noQueryFound": "Ingen fråga hittades",
+            "queryDeleted": "Frågan har tagits bort",
+            "searchAllQueries": "Sökfrågor ...",
+            "save": "Spara fråga",
+            "areYourSure": "Är du säker på att du vill ta bort den här frågan?",
+            "noQueriesSaved": "Du har inte sparat några frågor.",
+            "searchQueries": "Sök mina frågor ..."
+        },
+        "catalogFacets": {
+            "facets": {
+                "licences": "Licenser",
+                "catalogs": "Kataloger",
+                "categories": "Kategorier",
+                "countries": "Länder",
+                "formats": "Format",
+                "keywords": "Nyckelord"
+            },
+            "operator": "Operatör",
+            "title": "Filter",
+            "europeanCatalogs": "Europeiska kataloger",
+            "or": "ELLER",
+            "and": "OCH",
+            "euInstitutions": "EU:s institutioner",
+            "settings": "Inställningar"
+        },
+        "statistics": {
+            "statistics": "Statistik",
+            "datasetsPerCatalog": "Dataset per katalog",
+            "currentState": "Aktuellt tillstånd",
+            "datasetsPerCountry": "Dataset per land",
+            "selectType": "Välj statistiktyp",
+            "datasetsPerCountryAndCatalog": "Dataset per land och katalog",
+            "evolution": "Evolution",
+            "evolutionStartEnd": "Utveckling av det totala antalet datamängder mellan {start_date} och {end_date}",
+            "increaseStartEnd": "Ökning av {dataset_model} i % mellan {start_date} och {end_date}",
+            "totalNumber": "Totalt antal dataset",
+            "datasetsPerCategory": "Dataset per kategori",
+            "selectTimePeriod": "Välj tidsperiod",
+            "evolutionNumber": "Utveckling av antalet {dataset_model} mellan {start_date} och {end_date}",
+            "numberDate": "Antal {dataset_model} den {date}"
+        },
+        "categories": {
+            "tran": "Transport",
+            "heal": "Hälsa",
+            "tech": "Naturvetenskap och teknik",
+            "envi": "Miljö",
+            "econ": "Ekonomi och finans",
+            "soci": "Befolkning och samhälle",
+            "agri": "Jordbruk, fiske, skogsbruk och livsmedel",
+            "educ": "Utbildning, kultur och sport",
+            "ener": "Energi",
+            "intr": "Internationella frågor",
+            "gove": "Den statliga och offentliga sektorn",
+            "just": "Rättvisa, rättssystem och allmän säkerhet",
+            "regi": "Regioner och städer"
+        },
+        "pagination": {
+            "nextPage": "Nästa",
+            "previousPage": "Föregående"
+        },
+        "navigation": {
+            "navItems": {
+                "home": "Hem",
+                "about": "Om",
+                "data": "Data",
+                "privacyPolicy": "Sekretesspolicy",
+                "map": "Karta",
+                "imprint": "Impressum"
+            }
+        },
+        "catalogsAndDatasets": {
+            "noDescriptionAvailable": "Ingen beskrivning tillgänglig",
+            "more": "Mer information"
+        },
+        "datasetCategories": {
+            "foundCategories": "{number} kategori hittad",
+            "foundCategory": "{number} kategorier hittade",
+            "noCategories": "Inga kategorier hittades"
+        },
+        "mapModal": {
+            "fullscreen": "Helskärm",
+            "findDatasets": "Tillämpa",
+            "reset": "Rensa",
+            "close": "Stäng",
+            "drawRectangleMsg": "Rita en rektangel för att välja region",
+            "disclaimer": "Varning",
+            "copyright": "Map © OpenStreetMap contributors"
+        },
+        "similarDatasets": {
+            "similar": "Lika",
+            "verySimilar": "Mycket lika",
+            "marginalSimilar": "Marginellt lika",
+            "notFound": "Inga liknande dataset hittades.",
+            "lessSimilar": "Mindre lika",
+            "similarDatasets": "Liknande dataset"
+        },
+        "searchTabs": {
+            "editorialContent": "Redaktionellt innehåll"
+        },
+        "visualisation": {
+            "loading": "Visualisering laddar...",
+            "previewAvailable": "Förhandsgranskning tillgänglig",
+            "info": "Om visualisering inte laddas inom några sekunder klicka här."
+        },
+        "catalog": {
+            "loadingMessage": "Kataloger hämtas",
+            "searchBar": {
+                "placeholder": "Sök efter kataloger"
+            },
+            "geoBoundsMessageRemove": "Stäng den här aviseringen för att ta bort begränsningen eller använd återställningsfunktionen.",
+            "countMessage": "Kataloger hittades"
+        },
+        "sparql": {
+            "subHeadlineText2": "För att hjälpa användarna att konstruera användbara SPARQL-frågor tillhandahåller vi en sida med en sida med en sida med en uppställning som är upptagen på en sida som kan utföras via vår endpoint <a href='{sample_sparql_queries}'>sample SPARQL queries</a>. Datamängder och kataloger som publicerats som RDF-triples på portalen följer en <a href='https://github.com/SEMICeu/DCAT-AP'>DCAT-AP specification</a>. För ytterligare läsning av metadataontologin, se sidan data.europa.eu på DCAT-AP på: — <a href=' https://data.europa.eu/en/academy/dcat-and-dcat-ap'> https://data.europa.eu/en/academy/dcat-and-dcat-ap</a>.",
+            "subHeadlineText1": "Alla metadata i data.europa.eu lagras som RDF-triples (<a href='https://www.w3.org/RDF/'>RDF</a>) och kan sökas med hjälp av SPARQL-sökspråket vid denna endpoint. Sökningar kan göras via redaktören för sökningen (nedan) eller via den maskinläsbara slutpunkten (<a href='https://data.europa.eu/sparql'>https://data.europa.eu/sparql</a>)."
+        },
+        "distributions": {
+            "footerLink": "Ladda ned"
+        },
+        "distributionDetails": "{}",
+        "spokenLanguage": "Engelska",
+        "cite": {
+            "copyToClipboard": "Kopiera till klipptavlan",
+            "title": "Citera denna datauppsättning"
+        },
+        "home": {
+            "msg": "Den här sidan har tyvärr inget innehåll ännu. \nGå till fliken Data för att se något."
+        },
+        "imprint": {
+            "msg": "INFOGA IMPRESSUM HÄR"
+        }
+    }
+}

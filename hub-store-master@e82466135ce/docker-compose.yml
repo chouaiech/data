@@ -1,0 +1,38 @@
+version: '3.0'
+
+networks:
+  mongo-nw:
+    name: mongo-network
+services:
+  hub-data-upload:
+    container_name: piveau-hub-simple-store
+    logging:
+      options:
+        max-size: "50m"
+    networks:
+      mongo-nw: {}
+    build: ./
+    depends_on:
+      - mongodb
+    environment:
+      - JAVA_OPTS=-Xms300m -Xmx1g
+    env_file:
+      - ./conf/store-env.properties
+    ports:
+      - 8081:8080
+      
+  mongodb:
+    image: mongo:4.0-xenial
+    container_name: mongodb
+    logging:
+      options:
+        max-size: "50m"
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    networks:
+      mongo-nw: {}
+
+volumes:
+  mongo_data:

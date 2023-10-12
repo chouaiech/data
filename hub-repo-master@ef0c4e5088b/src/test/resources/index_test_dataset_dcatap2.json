@@ -1,0 +1,291 @@
+{
+  "catalog": {
+    "id": "catalog-1"
+  },
+  "id": "dataset-1",
+  "description": {
+    "de": "Das ist ein Beispieldatensatz.",
+    "en": "This is an example Dataset."
+  },
+  "title": {
+    "en": "Example Dataset",
+    "de": "Beispieldatensatz"
+  },
+  "contact_point": [
+    {
+      "type": "Individual",
+      "name": "John Doe",
+      "address" : "111 Lake Drive, Australia",
+      "email": "mailto:john@doe.de"
+    },
+    {
+      "resource": "https://contact-point.eu/person1"
+    },
+    {
+      "type": "Individual",
+      "name": "Max Mustermann",
+      "address" : "111 Lake Drive, WonderCity, 5555, Australia",
+      "email": "mailto:example@example.de",
+      "telephone" : "tel:+61755555555",
+      "resource": "https://example.de/def/contact/point"
+    }
+  ],
+  "publisher" : {
+    "type" : "Organization",
+    "name" : "Fraunhofer FOKUS",
+    "email" : "mailto:info@fokus.fraunhofer.de",
+    "homepage" : "http://www.fokus.fraunhofer.de",
+    "resource" : "https://example.de/def/publisher/fokus"
+  },
+  "spatial" : [ {
+    "type" : "Polygon",
+    "coordinates" : [ [ [ 12.915, 53.1485 ], [ 12.915, 53.1985 ], [ 12.9983, 53.1985 ], [ 12.9983, 53.1485 ], [ 12.915, 53.1485 ] ] ]
+  }, {
+    "type" : "Polygon",
+    "coordinates" : [ [ [ -180, 90 ], [ 180, 90 ], [ 180, -90 ], [ -180, -90 ], [ -180, 90 ] ] ]
+  } ],
+  "spatial_resource": [
+    "http://publications.europa.eu/resource/authority/country/DEU"
+  ],
+  "temporal" : [ {
+    "gte" : "2015-06-09T08:00:00Z",
+    "lte" : "2015-06-12T09:00:00Z"
+  } ],
+  "access_right": {
+    "label": "public",
+    "resource": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
+  },
+  "creator" : {
+    "type" : "Agent",
+    "name" : "Example Creator"
+  },
+  "conforms_to" : [ {
+    "resource" : "https://piveau.eu/conforms-to",
+    "label" : "Conforms To 2"
+  }, {
+    "label" : "Conforms To"
+  } ],
+  "page": [
+    {
+      "resource": "http://www.documentation.com",
+      "title": {
+        "en": "Example page 1",
+        "de": "Beispielseite 1"
+      },
+      "description": {
+        "en": "This is an example page",
+        "de": "Das ist eine Beispielseite"
+      },
+      "format" : {
+        "id" : "HTML",
+        "label" : "HTML",
+        "resource": "http://publications.europa.eu/resource/authority/file-type/HTML"
+      }
+    }
+  ],
+  "accrual_periodicity": {
+    "label": "annual",
+    "resource": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
+  },
+  "has_version" : [
+    "https://piveau.io/set/data/test-dataset-2"
+  ],
+  "is_version_of" : [
+    "https://piveau.eu/set/data/test-dataset-3"
+  ],
+  "source": [
+    "https://piveau.eu/set/data/test-dataset-4"
+  ],
+  "identifier" : [
+    "123456789"
+  ],
+  "adms_identifier": [
+    {
+      "identifier": "123456789",
+      "scheme": "http://purl.org/spar/datacite/doi",
+      "resource": "https://piveau.eu/doi/123456789"
+    }
+  ],
+  "landing_page": [
+    {
+      "resource": "http://landingpage.de"
+    }
+  ],
+  "language": [
+    {
+      "id": "de",
+      "label": "German",
+      "resource": "http://publications.europa.eu/resource/authority/language/DEU"
+    },
+    {
+      "id": "en",
+      "label": "English",
+      "resource": "http://publications.europa.eu/resource/authority/language/ENG"
+    }
+  ],
+  "provenance" : [ {
+    "resource" : "https://piveau.eu/provenance",
+    "label" : "This is another provenance statement"
+  }, {
+    "label" : "This is a provenance statement"
+  } ],
+  "issued" : "2015-08-27T22:00:00Z",
+  "modified" : "2018-04-03T11:48:21.950626Z",
+  "version_info": "1.0.0",
+  "version_notes": {
+    "en": "Release"
+  },
+  "keywords": [
+    {
+      "label": "piveau",
+      "id": "piveau"
+    },
+    {
+      "label": "open data",
+      "id": "open-data"
+    }
+  ],
+  "categories": [
+    {
+      "label": {
+        "en": "Environment"
+      },
+      "id": "ENVI"
+    },
+    {
+      "label": {
+        "en": "Agriculture, fisheries, forestry and food"
+      },
+      "id": "AGRI"
+    }
+  ],
+  "subject": [
+    {
+      "label": {
+        "en": "domestic trade"
+      },
+      "resource": "http://eurovoc.europa.eu/10"
+    }
+  ],
+  "country": {
+    "id": "FR",
+    "label": "France",
+    "resource": "http://publications.europa.eu/resource/authority/country/FRA"
+  },
+  "distributions": [
+    {
+      "id": "distribution-1",
+      "access_url": [
+        "http://accessurl.com"
+      ],
+      "availability": {
+        "label": "stable"
+      },
+      "description": {
+        "en": "This is a example Distribution.",
+        "de": "Das ist eine beispielhafte Distribution."
+      },
+      "format" : {
+        "id" : "CSV",
+        "label" : "CSV",
+        "resource": "http://publications.europa.eu/resource/authority/file-type/CSV"
+      },
+      "license" : {
+        "id" : "CC_BYSA_3_0_NL",
+        "label" : "Naamsvermelding-GelijkDelen 3.0 Nederland",
+        "description" : "Naamsvermelding-GelijkDelen 3.0 Nederland",
+        "resource" : "https://creativecommons.org/licenses/by-sa/3.0/nl/legalcode/",
+        "la_url" : "https://data.europa.eu/en/content/show-license?license_id=CC-BY-SA3.0NL"
+      },
+      "title": {
+        "en": "Example Distribution",
+        "de": "Beispiel Distribution"
+      },
+      "media_type": "text/csv",
+      "download_url": [
+        "http://download.de/file1.csv",
+        "http://download.de/file2.pdf"
+      ],
+      "byte_size": 25255,
+      "checksum" : {
+        "checksum_value" : "4c3a106cf3925d14d986d2b0839f5d1e",
+        "algorithm" : "checksumAlgorithm_md5"
+      },
+      "page": [
+        {
+          "resource": "http://www.documentation2.com",
+          "title": {
+            "en": "Example page 2",
+            "de": "Beispielseite 2"
+          },
+          "description": {
+            "en": "This is an example page",
+            "de": "Das ist eine Beispielseite"
+          },
+          "format" : {
+            "id" : "HTML",
+            "label" : "HTML",
+            "resource": "http://publications.europa.eu/resource/authority/file-type/HTML"
+          }
+        }
+      ],
+      "language": [
+        {
+          "label": "German",
+          "resource": "http://publications.europa.eu/resource/authority/language/DEU"
+        },
+        {
+          "label": "English",
+          "resource": "http://publications.europa.eu/resource/authority/language/ENG"
+        }
+      ],
+      "conforms_to": [
+        {
+          "label": "Distribution Standard"
+        }
+      ],
+      "modified" : "2018-04-03T11:48:21.950626Z",
+      "issued" : "2015-08-27T22:00:00Z",
+      "rights": {
+        "label": "public"
+      },
+      "status": {
+        "label": "Completed",
+        "resource": "http://purl.org/adms/status/Completed"
+      },
+      "access_service": [
+        {
+          "title":{
+            "en": "Example Data Service"
+          },
+          "description": {
+            "en": "This is an example Data Service"
+          },
+          "endpoint_url": [
+            "http://example.com/service/api/endpoint"
+          ]
+        }
+      ]
+    }
+  ],
+  "attribute": [
+    "http://some.attribute.1.example.com",
+    "http://some.attribute.2.example.com"
+  ],
+  "dimension": [
+    "http://some.dimension.1.example.com",
+    "http://some.dimension.2.example.com"
+  ],
+  "has_quality_annotation": [
+    "http://some.quality.annotation.1.example.com",
+    "http://some.quality.annotation.2.example.com"
+  ],
+  "stat_unit_measure": [
+    "http://some.unit.measure.1.example.com",
+    "http://some.unit.measure.2.example.com"
+  ],
+  "num_series": 42
+}
+
+
+

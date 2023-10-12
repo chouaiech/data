@@ -1,0 +1,113 @@
+//
+// EC restyle settings
+//
+@use "../../node_modules/@ecl/preset-ec/dist/styles/ecl-ec.css";
+
+body {
+  font: normal normal 400 1rem/1.5rem arial, sans-serif;
+
+  --dsd-right-column-width: 40%;
+}
+
+a:active {
+  border: 2px solid #FFD617;
+}
+
+.dsd-nav-button a:active {
+  border: 0 !important;
+}
+
+.show-more {
+  padding-left: 0 !important;
+  font-weight: initial;
+}
+
+body .content.container-fluid {
+  @extend .ecl-container;
+}
+
+.colorPrimary {
+  color: var(--primary)
+}
+
+.page-title {
+  font-size: 2rem !important;
+  color: #404040;
+  font-weight: bold !important;
+}
+
+.ec-ds-scope-text {
+  height: 100% !important;
+}
+
+@media screen and (max-width: 768px) {
+
+  .colorPrimarySort {
+    color: var(--primary)
+  }
+
+   .ec-ds-scope-text {
+    height: 48px !important;
+  }
+
+  .catalogs {
+    width: 100% !important;
+  }
+
+  .blueBG-mobile-Cat {
+    background-color: #F2F5F9;
+    padding: 15px 30px 15px 30px !important;
+    margin-left: -30px !important;
+    margin-right: -30px !important;
+  }
+
+  .ec-ds-scope-dropdown {
+    width: 100% !important;
+  }
+
+  .margin-0-mobile {
+    margin: 0;
+  }
+
+  .ds-result-headline {
+    margin-left: 0 !important;
+    margin-top: 20px !important;
+  }
+
+  .ec-ds-search {
+    border: 1px solid #004494 !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+
+  .padding-0-mobile {
+    padding: 0;
+  }
+
+  .ecl-select__icon-Sort {
+    position: relative;
+  }
+
+  .catalog-facets {
+    margin-bottom: 0 !important;
+  }
+
+  .dataset-info-box-body small {
+    justify-content: flex-start !important;
+    margin-bottom: 1rem;
+  }
+
+  .value-display {
+    border-color: #004494 !important;
+  }
+}
+
+@import "./components-ec-style/dataset_details";
+@import "./components-ec-style/data_info_box";
+@import "./components-ec-style/dataset_details_similar_datasets";
+@import "./components-ec-style/datasets";
+@import "./components-ec-style/distributions";
+@import "./components-ec-style/facets";
+@import "./components-ec-style/catalogue_details";
+@import "./components-ec-style/pagination";
+@import "./components-ec-style/data_provider_interface";

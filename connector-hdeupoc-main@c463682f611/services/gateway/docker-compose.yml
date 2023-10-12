@@ -1,0 +1,26 @@
+version: '2.1'
+
+services:
+  nationalconnector-datapermit:
+    image: code.europa.eu:4567/healthdataeu-nodes/hdeupoc/nc_datapermit:b0.1
+    mem_limit: 350m
+    volumes:
+      - ${PWD}/config.yml:/usr/src/app/config.yml
+      - ~/.domibuspass:/root/.domibuspass
+      - ${PWD}/db/:/usr/src/app/db/
+
+  nationalconnector-gateway:
+    image: code.europa.eu:4567/healthdataeu-nodes/hdeupoc/nc_gateway:b0.1
+    mem_limit: 350m
+    ports:
+      - "8100:8100"
+    volumes:
+      - ${PWD}/config.yml:/usr/src/app/config.yml
+      - ~/.domibuspass:/root/.domibuspass
+
+  nationalconnector-messagechecker:
+    image: code.europa.eu:4567/healthdataeu-nodes/hdeupoc/nc_messagechecker:b0.1
+    mem_limit: 350m
+    volumes:
+      - ${PWD}/config.yml:/usr/src/app/config.yml
+      - ~/.domibuspass:/root/.domibuspass

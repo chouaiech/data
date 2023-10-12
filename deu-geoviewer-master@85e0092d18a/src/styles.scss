@@ -1,0 +1,111 @@
+/* You can add global styles to this file, and also import other style files */
+
+$blue100: #004494;
+$white: #ffffff;
+
+$primary: $blue100;
+$custom-checkbox-indicator-border-radius: 0px;
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+@import '~ol/ol.css';
+@import '@angular/cdk/overlay-prebuilt.css';
+@import 'assets/intro-themes.css';
+@import 'node_modules/ngx-guided-tour/scss/guided-tour-base-theme.scss';
+
+@import 'layout.scss';
+
+body {
+    font-family: Ubuntu, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .75rem 1.5rem;
+    font-size: 1.125rem;
+    line-height: 1.33;
+    color: $blue100;
+    border-radius: 0px;
+
+    &.btn-primary {
+        color: $white;
+    }
+}
+
+.modal-body {
+    padding: 1rem;
+}
+
+.modal-footer {
+    padding: 1rem;
+}
+
+.btn-group-sm>.btn,
+.btn-sm {
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+}
+
+.btn-primary:hover {
+    background-color: #062fc5;
+    border-color: #062fc5;
+}
+
+@include media-breakpoint-between(xs,sm){
+    .btn {
+        // @include button-size($input-btn-padding-y-sm, $input-btn-padding-x-sm, $font-size-sm, $line-height-sm, 0rem);
+    }
+}
+
+.ol-attribution, .ol-attribution.ol-uncollapsible {
+    top: 0px;
+    left: auto;
+    bottom: auto;
+    right: 0px;
+    font-size: 0.75rem;
+    border-radius: 0 0 0 4px;
+}
+/*
+.ol-control {
+    button {
+        font-family: $btn-font-family;
+        font-weight: $btn-font-weight;
+        background-color: transparent;
+        border: $btn-border-width solid transparent;
+        color: $body-color;
+        @include transition($btn-transition);
+        @include hover() {
+            color: $body-color;
+            text-decoration: none;
+        }
+        &:focus, &.focus {
+            outline: 0;
+            box-shadow: $btn-focus-box-shadow;
+        }
+        &.disabled, &:disabled {
+            opacity: $btn-disabled-opacity;
+            @include box-shadow(none);
+        }
+        &:not(:disabled):not(.disabled) {
+            cursor: if($enable-pointer-cursor-for-buttons, pointer, null);
+            &:active, &.active {
+                @include box-shadow($btn-active-box-shadow);
+                &:focus {
+                    @include box-shadow($btn-focus-box-shadow, $btn-active-box-shadow);
+                }
+            }
+        }
+        @include button-variant($light, $light);
+    }
+}
+*/

@@ -1,0 +1,525 @@
+{
+    "message": {
+        "navigation": {
+            "dashboard": "Juhtpaneel",
+            "download_report": {
+                "help": "Laadige alla kogu aruanne selle kataloogi kohta.",
+                "second_ods": "Open Document Spreadsheet (.ods)",
+                "direct": "Laadi alla aruande kujul",
+                "second_xls": "Microsoft Excel (.xlsx)",
+                "second_pdf": "Portable Document Format (.pdf)"
+            },
+            "catalogues": "Kataloogid",
+            "about": "Dokumentatsioon",
+            "methodology": "Metoodika",
+            "validation": "kinnitamine"
+        },
+        "dashboard": {
+            "overview": {
+                "header": {
+                    "allCatalogues": "kõik kataloogid",
+                    "topNumber": "{number} parimat",
+                    "topNumberCatalogues": " {number} parimat kataloogi"
+                },
+                "table_tooltip": {
+                    "dcat_ap": "DCAT-AP-ga ühilduvate metaandmete protsent. See kontroll on mõeldud DCAT-AP-le, näiteks CKANEXT-DCAT-i laienduse kaudu.",
+                    "machine_readability": "Masinate tõlgendatavaks vorminguks muutunud jaotuste protsent.",
+                    "accessibility_download_url": "Saadaolevate allalaaditavate URL-ide protsent. Juurdepääs määratakse kindlaks HTTP GET meetodil. Kuna DownloadURL ei ole kohustuslik teave, siis puuduvad andmed puuduvad.",
+                    "known_licenses": "Kasutatavate litsentside protsent. Lisateavet teadaolevate litsentside kohta leiate järgmistest osadest. Kuna litsents ei ole kohustuslik, ei saa kontrollida, kas teave puudub.",
+                    "accessibility_access_url": "Kättesaadavate juurdepääsumäärade protsent. Juurdepääs määratakse kindlaks HTTP GET meetodil."
+                },
+                "headline": "Ülevaade",
+                "table_title": {
+                    "desc": "Kirjeldus",
+                    "known_licences": "Teadaolevad litsentsid",
+                    "dcat_ap": "DCAT AP ühilduvus",
+                    "accessibility_access_url": "Juurdepääsetavus juurdepääsu URL-ile",
+                    "accessibility_download_url": "Juurdepääsetavus allalaadimise URL-ile",
+                    "country": "Riik",
+                    "scoring": "Hinnang",
+                    "machine_readability": "Masinloetavus",
+                    "rating": "Hinnang",
+                    "name": "Nimi"
+                },
+                "table_description": "Alljärgnev tabel annab ülevaate ülalmainitud nelja kriteeriumi kohta. Tabelit on võimalik sorteerida tulpade pealkirjadele klikkides. Pange tähele, et MQA suudab tõlgendada ainult lähteportaalidest pärit teavet. Jaotused, allalaadimise URL ja teave litsentsi kohta ei ole kohustuslik ning MQA kuvab puuduva teabe miinusmärgiga „-“. Lisaks pange tähele, et DCAT-AP ühilduvust saab kontrollida ainult juhul, kui lähteportaali metaandmed on seotud DCAT-AP andmetega. Teisi vorminguid kuvatakse miinusmärgiga „-“."
+            },
+            "interoperability": {
+                "plots": {
+                    "title": {
+                        "formatMediaTypeAlignment": "Vorming/meediumitüüp terminoloogiast",
+                        "formatMediaTypeNonProprietary": "Mittekaubanduslik",
+                        "mediaTypeAvailability": "Meediumitüüp",
+                        "formatAvailability": "Vorming",
+                        "dcatApCompliance": "DCAT-AP vastavus",
+                        "formatMediaTypeMachineReadable": "Masinloetav"
+                    }
+                },
+                "description": "Need näitajad saavutavad andmekogumis koostalitlusvõime",
+                "title": "Koostalitlusvõime"
+            },
+            "reusability": {
+                "description": "Järgmises tabelis kirjeldatakse, milliseid mõõdikuid kasutatakse andmete taaskasutatavuse kontrollimiseks. Maksimaalne punktisumma siin on 75.",
+                "plots": {
+                    "title": {
+                        "accessRightsAlignment": "Juurdepääsupiirangute terminoloogia",
+                        "contactPointAvailability": "Kontaktpunkt",
+                        "licenceAlignment": "Litsentsi terminoloogia",
+                        "publisherAvailability": "Väljaandja",
+                        "licenceAvailability": "Teave litsentsi kohta",
+                        "accessRightsAvailability": "Juurdepääsupiirangud"
+                    }
+                },
+                "title": "Taaskasutus"
+            },
+            "show_history": "Näita ajalugu",
+            "contextuality": {
+                "description": "Teave, mis pakub kasutajale rohkem konteksti",
+                "plots": {
+                    "title": {
+                        "dateIssuedAvailability": "Väljastamise kuupäev",
+                        "rightsAvailability": "Õigused",
+                        "byteSizeAvailability": "Faili suurus",
+                        "dateModifiedAvailability": "Muudatuste andmed"
+                    }
+                },
+                "title": "Kontekst"
+            },
+            "accessibility": {
+                "plots": {
+                    "title": {
+                        "accessibilityOfDistributions": "Levitamiste juurdepääsetavus",
+                        "accessUrlAvailability": "Juurdepääsu URL on saadaval",
+                        "existingDownloadUrl": "Olemasolevad allalaadimise URL-id",
+                        "accessibilityAccessUrl": "Juurdepääsu URL-ide juurdepääsetavus",
+                        "accessUrl": "Juurdepääsu URL",
+                        "accessUrlStatusCodes": "Kõige sagedasemad juurdepääsu URL-i olekukoodid",
+                        "downloadUrlStatusCodes": "Kõige sagedasemad allalaadimise URL-i olekukoodid",
+                        "downloadUrlAvailability": "Allalaadimise URL",
+                        "statusErrorCode": "Tõrgete olekukoodid",
+                        "accessibilityDownloadUrl": "Allalaadimise URL-ide juurdepääsetavus"
+                    }
+                },
+                "title": "Juurdepääsetavus",
+                "headline": "Juurdepääsevad jaotused",
+                "description": "Alljärgnevad diagrammid annavad teavet jaotuste juurdepääsetavuse kohta. Jaotuse iga URL-i kohta tehakse HTTP HEAD taotlus ning vastust kontrollitakse. Oluline on meeles pidada, et vastavalt DCAT-AP-le on allalaadimise URL valikuline ning sellisena tuleb see lähteportaalis ka märkida. See puudutab ainult lähteportaale, mille metaandmed on DCAT-AP vormingus. "
+            },
+            "site_title": "Euroopa Andmeportaal | MQA | Juhtpaneel",
+            "findability": {
+                "title": "Leitavus",
+                "plots": {
+                    "title": {
+                        "keywordAvailability": "Võtmesõnade kasutus",
+                        "spatialAvailability": "Geograafiline otsing",
+                        "temporalAvailability": "Ajapõhine otsing",
+                        "categoryAvailability": "Kategooriad"
+                    }
+                },
+                "description": "Need näitajad aitavad inimestel ja masinatel andmekogumeid leida"
+            },
+            "scoring": {
+                "description": "Hinnang näitab kõigi mõõtmete juures üldist metaandmete kvaliteeti.",
+                "plots": {
+                    "known": "tuntud",
+                    "unknown": "tundmatu",
+                    "title": {
+                        "timeBasedScoring": "Hinnangu edenemine"
+                    }
+                },
+                "title": "Hinnangu edenemine"
+            },
+            "show_today": "Näita tänast",
+            "weight": "Kaal",
+            "points": "Punktid",
+            "intro": {
+                "desc": "< p>Metadata kvaliteedi tagamise eesmärk on aidata andmepakkujatel ja andmeportaalidel võrrelda oma metaandmeid erinevate näitajatega. Et saada teavet selle kohta, milliseid mõõdikuid me indikaatorite mõõtmisel kasutame, vaadake palun meie metoodika lehekülge.</p>\n< p>See lehekülg annab üldise ülevaate kõigist data.europa.eu-s kättesaadavatest metaandmetest. Iga kataloogi üksikasjaliku ülevaate saamiseks kasutage kataloogide lehekülge ja valige soovitud kataloog.</p>"
+            },
+            "dimensions": "Mõõtmed"
+        },
+        "catalogue_detail": {
+            "introduction": "See lehekülg näitab jaotuste ja DCAT-AP ühilduvusega seotud kataloogi üldist olekut.",
+            "harvesting": {
+                "run": {
+                    "updated": "Uuendatud",
+                    "duration": "Kestus (päevi tunde:minuteid:sekundeid)",
+                    "show_log": "Kuva viimase käituse logikirjed",
+                    "end": "Lõpetamise kellaaeg",
+                    "start": "Alguskellaaeg",
+                    "log_noattachment": "Manuse toomisel tekkis tõrge.",
+                    "skipped": "Vahele jäetud",
+                    "log": "{0} logi {1} kuni {2}, kokku {3}",
+                    "deleted": "Kustutatud",
+                    "no_runs": "Varasemad korjed ei ole kättesaadavad või ei ole veel aega määratud.",
+                    "rejected": "Tagasi lükatud",
+                    "added": "Lisatud"
+                },
+                "repository_harvester": "Lähteandmebaasi kataloog",
+                "show_script": "Kuva teisendusskript",
+                "show_information": "Kuva korjaja teave",
+                "publisher": "Avaldaja",
+                "next_schedule": "Järgmine ajakava",
+                "default_language": "Vaikekeel",
+                "homepage": "Avaleht",
+                "email_address": "E-posti aadress",
+                "incremental": "Lisanduv",
+                "frequency": "Sagedus",
+                "type": "Tüüp",
+                "transformation_script": "{0} Teisendusskript",
+                "title": "Korje teave",
+                "not_present": "See ei ole korjatud kataloog, seega ei ole korjeteavet saadaval.",
+                "last_run": "Viimane korje"
+            },
+            "violations": {
+                "location": "Rikkumise asukoht",
+                "non_compliant": "Ei ühildu",
+                "resultPath": "Tulemusrada",
+                "subheadline": "Andmekogumite rikkumised",
+                "title": "Ühildumatud andmehulgad",
+                "value": "Väärtus",
+                "desc": "Rikkumise kirjeldus",
+                "site_title": "Euroopa Andmeportaal | MQA | Rikkumised",
+                "introduction": "Sellel vaatel on loetelu kõigi andmekogumitega, mis ei ühildu SHACL DCAT-AP reeglitega",
+                "own_headline": "DCAT-AP skeemi rikkumised",
+                "resultMessage": "Tulemussõnum"
+            },
+            "distributions": {
+                "introduction": "Sellel vaatel on loetelu kõigi andmekogumitega, millel on juurdepääsmatuid jaotusi.",
+                "help": "Vaadake juurdepääsmatuid jaotusi valitud kataloogist.",
+                "mediatype_checked": "Meediatüüp (testist)",
+                "desc": "Juurdepääsmatute jaotustega andmehulgad",
+                "not_available_access": "Juurdepääsu URL puudub",
+                "title": "Levitamise juurdepääsetavuse probleemid",
+                "format": {
+                    "not_machine_readable": "Ei ole masinloetav",
+                    "name": "Vorming"
+                },
+                "not_available_dl": "Allalaadimise URL puudub",
+                "download_url": "Allalaadimise URL",
+                "mediatype_given": "Meediatüüp (testist)",
+                "nodistributions": "Kontrollitavaid jaotusi ei ole saadaval.",
+                "access_url": "Access URL",
+                "site_title": "Euroopa Andmeportaal | MQA | Jaotused",
+                "availability_checked_on": "Saadavust kontrolliti {date}"
+            },
+            "call_to_action": "Valige kataloog üksikasjade jaoks",
+            "title": "Kataloogi juhtpaneel",
+            "site_title": "Euroopa Andmeportaal | MQA | Juhtpaneel"
+        },
+        "common": {
+            "compliant": "Ühilduv",
+            "json": "CKAN JSON",
+            "deu": {
+                "url": "www.data.europa.eu",
+                "title": "data.europa.eu"
+            },
+            "site_title_violations": "DCAT-AP skeemi rikkumine",
+            "all": "kõik",
+            "close": "Sule",
+            "affacteddatasets": "Mõjutatud andmehulgad",
+            "cataloguedetails": "Kataloogi detailne vaade",
+            "previous": "Eelmine",
+            "violation": "DCAT-AP skemi rikkumine",
+            "edp": {
+                "title": "Euroopa Andmeportaal"
+            },
+            "yes": "Jah",
+            "error": "Viga",
+            "portal_page": "Portaali leht",
+            "since": "Alates",
+            "site_title": "Metaandmete kvaliteet | ELi andmete ametlik portaal",
+            "version": "Versioon",
+            "ok": "Sobib",
+            "distributions": "Jaotused",
+            "no": "Ei",
+            "violations": "DCAT-AP skeemi rikkumised",
+            "download_url": "Allalaadimise URL",
+            "datasets": "Andmehulgad",
+            "site_title_distributions": "Levitamise juurdepääsetavuse probleemid",
+            "home": "Avaleht",
+            "page": "Lk",
+            "notavailable": "Pole juurdepääsetav",
+            "status": "Olek"
+        },
+        "methodology": {
+            "dimensions": {
+                "reuse": {
+                    "main_text": " <p>Järgmises tabelis kirjeldatakse, milliseid mõõdikuid kasutatakse andmete taaskasutatavuse kontrollimiseks. Maksimaalne punktisumma siin on 75.</p>",
+                    "keywords_name_6": "Väljaandja",
+                    "keywords_name_5": "Kontaktpunkt",
+                    "keywords_name_4": "Juurdepääsupiirangute terminoloogia",
+                    "keywords_name_3": "Juurdepääsupiirangud",
+                    "keywords_name_2": "Litsentsi terminoloogia",
+                    "keywords_name_1": "Litsentsi teave",
+                    "keywords_metric_6": "Kontrollitakse, kas atribuudid on seadistatud.",
+                    "keywords_metric_5": "Kontrollitakse, kas atribuudid on seadistatud.",
+                    "keywords_metric_4": "<p>Kontrollitakse <a href='https://publications.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/access-right' target='_blank'>kontrollitud terminoloogia kasutamist</a> juurdepääsuõiguste puhul.</p>",
+                    "keywords_metric_3": "Kontrollitakse, kas atribuudid on seadistatud.",
+                    "keywords_metric_2": "< p> See osa kirjeldab kõiki mõõtmeid, mida MQA kontrollib kvaliteedi määramiseks. Mõõtmed on tuletatud <a target=’_blank’ href=’https://www.go-fair.org/fair-principles/'>FAIR põhimõtted <i klass=’fas fa-external-link-alt fa-sm’></i></a>.</p>\n\n< p> MQA soovitab ja arvestab kontrollitud sõnastike kasutamist. Portaal data.europa.eu avaldab kontrollitud sõnavarasid <a href=’https://gitlab.com/european-data-portal/edp-vocabularies’ target=’_blank’>GitLab</a>. Sõnavarad on tuletatud <a href=’https://op.europa.eu/en/web/eu-vocabularies/authority-tables’ target=’_blank’>EU Sõnastikud</a>.</p>",
+                    "keywords_metric_1": "Kontrollitakse, kas atribuudid on seadistatud.",
+                    "dcat_name_6": "dct:Publisher",
+                    "dcat_name_5": "dcat:ContactPoint",
+                    "dcat_name_4": "dct:AccessRights",
+                    "dcat_name_3": "dct:AccessRights",
+                    "dcat_name_2": "dct:License",
+                    "dcat_name_1": "dct:License",
+                    "keywords_desc_6": "Väljaandja andmed avaldanud on isik või organisatsioon.",
+                    "keywords_desc_5": "Kontaktpunkt sisaldab teavet selle kohta, kellega andmeid puudutavate küsimuste korral ühendust võtta.",
+                    "keywords_desc_4": "Kontrollitud terminoloogia kasutamine suurendab taaskasutatavust.",
+                    "keywords_desc_3": "See väli näitab, kas juurdepääs andmetele on avalik või piiratud.",
+                    "keywords_desc_2": "Soovime piirata vale litsentsiteabe kuvamist. Näiteks puutume kokku mitme CC-litsentsiga, millel puudub versioonimine.",
+                    "keywords_desc_1": "Litsents on andmete taaskasutamiseks väärtuslik teave."
+                },
+                "contextual": {
+                    "main_text": "Järgmises tabelis on esitatud mõni kergem atribuut, mis annab kasutajale rohkem konteksti. Maksimaalne punktisumma siin on 20.",
+                    "keywords_metric_4": "Kontrollitakse, kas atribuudid on seadistatud.",
+                    "keywords_metric_3": "Kontrollitakse, kas atribuudid on seadistatud.",
+                    "keywords_metric_2": "Kontrollitakse, kas atribuudid on seadistatud.",
+                    "keywords_metric_1": "Kontrollitakse, kas atribuudid on seadistatud.",
+                    "keywords_name_4": "Muudatuste andmed",
+                    "keywords_name_3": "Väljastamise kuupäev",
+                    "keywords_name_2": "Faili suurus",
+                    "keywords_name_1": "Õigused",
+                    "keywords_desc_4": "Andmekogumi või levitamise viimase muudatuse kuupäev.",
+                    "keywords_desc_3": "Andmekogumi või levitamise avaldamise kuupäev.",
+                    "keywords_desc_2": "Määrab faili mahu baitides.",
+                    "keywords_desc_1": "Mõnel juhul ei saa andmekogumile rakendada kindlat litsentsi. Välja „Õigused“ abil saab määrata viite ressursile, mis teavitab kasutajat andmekogumi kasutamisel talle kehtivatest õigustest.",
+                    "dcat_name_4": "dcat:Modified",
+                    "dcat_name_3": "dct:Issued",
+                    "dcat_name_2": "dcat:ByteSize",
+                    "dcat_name_1": "dcat:Rights"
+                },
+                "table": {
+                    "metric_name": "Näitaja",
+                    "dataset_and_distribution": "Andmekogum ja levitamine",
+                    "metric": "Mõõdikud",
+                    "dataset": "Andmekogum",
+                    "desc": "Kirjeldus",
+                    "distribution": "Levitamine",
+                    "weight": "Kaal"
+                },
+                "accessible": {
+                    "main_text": " <p>Järgmises tabelis kirjeldatakse, milliseid mõõdikuid kasutatakse levitamistes viidatud andmete juurdepääsu tagamise hindamiseks. Maksimaalne punktisumma siin on 100.</p>",
+                    "dcat_name_3": "dcat:spatial",
+                    "dcat_name_2": "dcat:downloadURL",
+                    "dcat_name_1": "dcat:accessURL",
+                    "keywords_desc_3": "Allalaadimise URL-i olemasolul kontrollitakse juurdepääsetavust.",
+                    "keywords_desc_2": "Allalaadimise URL on otsene link viidatud andmetele.",
+                    "keywords_desc_1": "Juurdepääsu URL ei ole tingimata otsene link andmetele, vaid võib viidata ka URL-ile, mis annab juurdepääsu andmekogumile või kohale, kus on andmekogumi kohta rohkem teavet.",
+                    "keywords_metric_3": "Määratud URL-i juurdepääsetavust kontrollitakse päringuga HTTP HEAD. Kui vastav olekukood on vahemikus 200–300, hinnatakse ressursi juurdepääsetavust positiivselt.",
+                    "keywords_metric_2": "Kontrollitakse, kas atribuudid on seadistatud.",
+                    "keywords_metric_1": "Määratud URL-i juurdepääsetavust kontrollitakse päringuga HTTP HEAD. Kui vastav olekukood on vahemikus 200–300, hinnatakse ressursi juurdepääsetavust positiivselt.",
+                    "keywords_name_3": "Allalaadimise URL-i juurdepääsetavus",
+                    "keywords_name_2": "Allalaadimise URL",
+                    "keywords_name_1": "Juurdepääsu URL-i juurdepääsetavus."
+                },
+                "interoperable": {
+                    "main_text": " <p>Järgmises tabelis kirjeldatakse mõõdikuid, mida kasutatakse levitamise koostalitluse kindlakstegemiseks. Eelduse „ühesugune sisu mitme levitamisega“ kohaselt kasutatakse punktide arvutamiseks ainult suurima punktide arvuga levitamist. Maksimaalne punktisumma siin on 110.</p>",
+                    "keywords_desc_6": "< p> DAT-AP nõuetele vastavus arvutatakse kõigi kataloogis kättesaadavate allikate ja andmekogumite lõikes. See kontroll tehakse ainult siis, kui metaandmed on algselt kogutud DCAT-AP või kehtiva derivate.</p><p><a href=’https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe'target='_blank'>DCAT-AP</a> on spetsifikatsioon seotud avalike andmete kirjeldamiseks Euroopas. Portaal data.europa.eu võib koguda ka metaandmeid, mis ei vasta täielikult DCAT-AP-ile. Selleks et suurendada vastavust DCAT-APile, kontrollib MQA iga metaandmete vastavust DCAT-AP nõuetele.</p>",
+                    "keywords_desc_5": "Kontrollib, kas levitamise vorming on masinloetav.",
+                    "keywords_desc_4": "Kontrollib, kas levitamise vorming on mittekaubanduslik.",
+                    "keywords_desc_3": "Kontrollib, kas vorming ja meediumitüüp kuuluvad kontrollitud terminoloogiasse.",
+                    "keywords_desc_2": "Väljal määratakse levitamise meediumitüüp.",
+                    "keywords_desc_1": "Väljal määratakse levitamise faili vorming.",
+                    "keywords_metric_6": "< p> metaandmed valideeritakse < a href=’https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe/releases’ target=’_blank’>SHACL kujunditega</a>. Metaandmed ei vasta nõuetele, kui SHACLi valideerimise käigus selgub vähemalt üks probleem.</p>\n\n< p>MQA kasutab <a href=’/shacl’ target=’_blank’>data.europa.eu’s DCAT-AP SHACL</a> valideerimisteenus.</p> \n\n< p><a href=’https://www.w3.org/TR/shacl/’ target=’_blank’>SHACL</a> on W3C soovitus ja seda kasutatakse pöördtrummelahju graafikute valideerimiseks kujundite kogumi suhtes.</p>",
+                    "keywords_metric_5": "Jaotus loetakse masinloetavaks, kui vastav vorming sisaldub vastavates andmetes.europa.eu <a href=’https://gitlab.com/european-data-portal/edp-vocabularies’ target=’_blank’>GitLab’i hoidla</a> sõnavara.",
+                    "keywords_metric_4": "Jaotus loetakse mittekaubanduslikuks, kui kindlaksmääratud vorming sisaldub vastavates andmetes.europa.eu <a href=’https://gitlab.com/european-data-portal/edp-vocabularies’ target=’_blank’>GitLab’i hoidla</a> sõnavara.",
+                    "keywords_metric_3": "<p>A vormingu sõnavara leiab andme.europa.eu <a href=’https://gitlab.com/european-data-portal/edp-vocabularies’ target=’_blank’>GitLab’i hoidla</a>.</p>\n\n< p>Meediatüüp on võrreldud < a href=’https://www.iana.org/assignments/media-types/media-types.xhtml’ target=’_blank’>IANA list</a></p>",
+                    "keywords_metric_2": "<p>Kontrollitakse atribuutide seadistamist.</p>",
+                    "keywords_metric_1": "<p>Kontrollitakse atribuutide seadistamist.</p>",
+                    "keywords_name_6": "DCAT-AP vastavus",
+                    "keywords_name_5": "Masinloetav",
+                    "keywords_name_4": "Mittekaubanduslik",
+                    "keywords_name_3": "Vorming/meediumitüüp terminoloogiast",
+                    "keywords_name_2": "Meediumitüüp",
+                    "keywords_name_1": "Vorming",
+                    "dcat_name_6": "Andmekogum ja levitamine",
+                    "dcat_name_5": "DCT:Format dcat:MediaType või dct:Format alamvara",
+                    "dcat_name_4": "DCT:Format dcat:MediaType või dct:Format alamvara",
+                    "dcat_name_3": "DCT:Format dcat:MediaType või dct:Format alamvara",
+                    "dcat_name_2": "dcat:MediaType or subproperty of dct:Format",
+                    "dcat_name_1": "dct:Format"
+                },
+                "findability": {
+                    "keywords_desc_4": "Ajalise teabe kasutamine võimaldab kasutajatel kasutada ajapõhist otsingut.",
+                    "keywords_desc_3": "Ruumilise teabe kasutamine võimaldab kasutajatel leida andmekogumi geograafilise otsinguga.",
+                    "keywords_desc_2": "Kategooriad võimaldavad kasutajatel andmekogumeid teemade kaupa uurida.",
+                    "keywords_desc_1": "Võtmesõnad toetavad otseselt otsingut ja suurendavad seega andmekogumi leitavust.",
+                    "keywords_metric_4": "Kontrollitakse, kas atribuudid on seadistatud.",
+                    "keywords_metric_3": "Kontrollitakse, kas atribuudid on seadistatud.",
+                    "keywords_metric_2": "Kontrollitakse andmekogumile ühe või enama kategooria määramist. Määratud kategooriate arv ei mõjuta punktisummat.",
+                    "keywords_metric_1": "Süsteem kontrollib, kas võtmesõnad on määratud. Võtmesõnade arv ei mõjuta punktisummat.",
+                    "keywords_name_4": "Ajapõhine otsing",
+                    "keywords_name_3": "Geograafiline otsing",
+                    "keywords_name_2": "Kategooriad",
+                    "keywords_name_1": "Võtmesõnade kasutus",
+                    "dcat_name_4": " dcat:temporal",
+                    "dcat_name_3": "dcat:spatial",
+                    "dcat_name_2": "dcat:theme",
+                    "dcat_name_1": "dcat:Keyword",
+                    "main_text": "<p> Järgmises tabelis kirjeldatakse mõõdikuid, mis aitavad inimestel ja masinatel andmekogumeid leida. Maksimaalne punktisumma siin on 100.</p>"
+                },
+                "main_text": "<p>Selles jaotises kirjeldatakse kõiki mõõtmeid, mida MQA kvaliteedi määramiseks uurib. Mõõtmed tuletatakse <a target='_blank' href='https://www.go-fair.org/fair-principles/'>FAIR-i põhimõtetest <i class='fas fa-external-link-alt fa-sm'></i></a>.</p>"
+            },
+            "scoring": {
+                "table": {
+                    "bad": "Halb",
+                    "range": "Punktide vahemik",
+                    "sufficient": "Piisav",
+                    "scoring_cat": "Hinnang",
+                    "good": "Hea",
+                    "max_points": "Maksimaalsed punktid",
+                    "excellent": "Suurepärane",
+                    "sum": "Summa",
+                    "dimension": "Mõõde"
+                },
+                "main_text": "Andmekogumi üldine hinnang tuleneb iga mõõte punktide summast.",
+                "text": "Lõplik hindamine toimub nelja hindamisrühma kaudu. Punktide vastendamine hindamiskategooriatega on näidatud allolevas tabelis. Hinnangu kajastamist MQA-s väljendatakse üksnes hinnangukategooriate kaudu. See võimaldab pakkujatel saavutada kõrgeima hinnangu isegi punktide väikese mahaarvestamisega.",
+                "headline": "Hinnang"
+            },
+            "headline": "Metaandmete kvaliteedi hindamise metoodika",
+            "cover": {
+                "validator_service": "DCAT-AP SHACL valideerimisteenus API",
+                "main_text": " < p> MQA on piiratud metaandmetega, mida saab uurida. Uurimine piirdub üksnes metaandmetega, mida data.europa.eu kogub kogumisprotsessi käigus. Kui allika metaandmetes on vigu, võivad need üldtulemust võltsida. Selle veapotentsiaali piiramiseks pakub MQA valideerimisteenust, mida andmepakkujad saavad kasutada oma metaandmete valideerimiseks kehtivate vormingute ja nõuetele vastava DCAT-AP jaoks enne selle integreerimist saagikoristusprotsessi.",
+                "validator_ui": "DCAT-AP SHACLi valideerimisteenuse veebileht ",
+                "headline": "Mida see ei hõlma?"
+            },
+            "process": {
+                "main_text": "<p> Iga andmekorjega kontrollitakse MQA-ga metaandmeid. MQA kontrollib eri näitajate kvaliteeti, kõiki näitajaid selgitatakse allolevas tabelis. Kontrollide tulemused talletatakse andmekvaliteedi terminoloogiana <a href='https://www.w3.org/TR/vocab-dqv/'>(DQV) <i class='fas fa-external-link-alt fa-sm'></i></a>. DQV on W3C spetsifikatsioon, mida kasutatakse andmekogumi kvaliteedi kirjeldamiseks.</p>\n\n<p>Kuna juurdepääs võib muutuda, on vajalik juurdepääsu URL-i ja allalaadimise URL-i korduv kontrollimine. Seetõttu kontrollib MQA regulaarselt kõigi levitamiste juurdepääsetavust. Vastupidiselt teiste näitajate kontrollimisele on sellel suurem käitusaeg, kuna levitamisi kontrollitakse HTTP kaudu ja igal taotletud URL-il võib olla pikem reageerimisaeg. MQA kasutab mehhanismi, mis võtab arvesse, et iga URL-i juurdepääsetavust kontrollitakse mõne nädala jooksul pärast viimast kontrollimist uuesti. </p>",
+                "headline": "MQA toiming"
+            },
+            "scope": {
+                "main_text": "<p> Soovime MQA-ga vastuseid järgmistele küsimustele. <br> Milline on üleeuroopalise piirkonna avaliku sektori andmete metaandmete kvaliteet ja millised on kõige suuremad takistused parema kvaliteedi saavutamiseks? </p><p>Selle põhjal uurib MQA praegu järgmisi konkreetseid küsimusi:</p><ul><li> Vastab DCAT-AP-le ja selle tuletistele</li><li> DCAT-AP liigi avalikustamine ei ole kohustuslik</li><li> Metaandmetes viidatud andmete juurdepääsetavus juurdepääsu ja allalaadimise URL-ide kaudu</li><li> Viidatud andmete masinloetavus </li><li> Litsentside kasutamine</li></ul><p> Iga küsimuse tulemuseks on jällegi individuaalsed uurimised, mida kirjeldatakse üksikasjalikult allpool.</p>",
+                "headline": "Uurimise ulatus"
+            },
+            "assumptions": {
+                "main_text": "< p> MQA põhineb järgmistel eeldustel.</p><h6> Mittekohustuslike väljade kasutamine</h6><p> Me usume, et ainult DCAT-AP kohustuslike väljade täitmine ei ole kvaliteetsete metaandmete esitamiseks piisav. Seetõttu kontrollitakse hindamise käigus ka välju, mis ei ole DCAT-AP kohaselt kohustuslikud. Täpsed kontrollitud väljad on loetletud allpool.</p><h6> \n\nMitme distributsiooni sama sisu</h6><p>Kui andmekogum sisaldab rohkem kui ühte jaotust, on kõik jaotused sisult identsed, erinevad need ainult andmete esituses. Näiteks võib andmekogumil olla kaks jaotust, millest üks pakub andmeid PDF-vormingus ja teine masinloetava RDF/XML-iga identseid andmeid. See määratlus on seotud andmekogumite hindamisega MQAs (omamoodi „parim tava“), kuid seda ei tohiks käsitada jaotuse standardmääratlusena.</p>",
+                "headline": "Eeldused"
+            },
+            "intro_text": "<p><strong>Metadata Quality Assessment (MQA) on vahend, mille on välja töötanud andme.europa.eu konsortsium data.europa.eu.</strong> Selle eesmärk on aidata andmepakkujatel ja andmeportaalidel kontrollida oma metaandmete kvaliteeti ja saada parandusettepanekuid. Tulemused esitatakse MQA kaudu ja need on kättesaadavad ka allalaadimisena. Järgnevalt kirjeldame MQA funktsionaalsust ja kasutatavat metoodikat.</p>\n< p> Kui see leht ikka veel ei vasta kõigile teie küsimustele, võtke meiega ühendust lehe lõpus oleva tagasiside vormi kaudu. </p>",
+            "sub_headline": "Kuidas data.europa.eu mõõdab kõigi salvestatud metaandmete kvaliteeti"
+        },
+        "header": {
+            "navigation": {
+                "usingData": {
+                    "checklistForUsingData": "Andmete kasutamise kontroll-loend",
+                    "useCases": "Kasutusjuhtumid",
+                    "tellUsYourStory": "Jutustage oma lugu",
+                    "title": "Andmete kasutamine",
+                    "benefitsOfUsingData": "Kasu andmete kasutamisest"
+                },
+                "impactStudies": {
+                    "useCases": "Kasutusjuhtumid",
+                    "overview": "Ülevaade",
+                    "opendatamaturity": "Avaandmete tähtaeg",
+                    "countryInsights": "Riikide ülevaated",
+                    "tellUsYourStory": "Jutustage oma lugu",
+                    "studies": "Identical content for multiple distributions</h6><p>If a dataset contains more than one distribution, all distributions are identical in content, they differ only in the representation of the data. For example, a dataset can have two distributions, one offering the data as PDF and the other offering the identical data as machine-readable RDF/XML. This definition is relative to how datasets are rated in the MQA (a sort of “best practice”) but should not be considered as the standard definition of distributions.</p>",
+                    "opendataimpact": "Avaandmete mõju",
+                    "title": "Mõju ja uuringud"
+                },
+                "training": {
+                    "dataProvidersGuide": "Andmepakkuja juhend",
+                    "whatIsOpenData": "Mis on avaandmed",
+                    "title": "Koolitus",
+                    "elearning": "E-õpe",
+                    "moreTrainingMaterial": "Veel õppematerjale",
+                    "licensingAssistant": "Litsentsiabi"
+                },
+                "data": {
+                    "datasets": "Andmehulgad",
+                    "sparqlsearch": "SPARQL otsing",
+                    "metadataQuality": "Metaandmete kvaliteet",
+                    "licensingAssistant": "Litsentsiabi",
+                    "title": "Andmed",
+                    "statistics": "Statistika",
+                    "euInternationalData": "ELi ja rahvusvahelised andmed",
+                    "sparqlManager": "SPARQLi haldur",
+                    "catalogues": "Kataloogid",
+                    "countryData": "Riigi andmed"
+                },
+                "resources": {
+                    "moreTrainingMaterial": "Veel õppematerjale",
+                    "title": "Ressursid",
+                    "elearning": "E-õpe",
+                    "trainingCompanion": "Abiks koolitajale",
+                    "reportsAboutOpenData": "Aruanded avaandmete kohta"
+                },
+                "providingData": {
+                    "beHarvestedByUs": "Laske meil andmekorjet teha",
+                    "title": "Andmete esitamine",
+                    "cataloguesHarvestedByUs": "Meie andmekorje kataloogid",
+                    "practicalGuide": "Kuldraamat"
+                },
+                "whatWeDo": {
+                    "openDataMaturity": "Avaandmete tähtaeg",
+                    "ourActivities": "Meie tegevus",
+                    "factsheetsAndReports": "Teabelehed ja aruanded",
+                    "title": "Mida me teeme?",
+                    "calendar": "Kalender",
+                    "featuredHighlights": "Esiletõstetud teemad",
+                    "news": "Uudised"
+                },
+                "about": {
+                    "beHarvestedByUs": "Laske meil andmekorjet teha",
+                    "documentation": "Dokumentatsioon",
+                    "title": "Meist",
+                    "europeanDataPortal": "Euroopa Andmeportaal"
+                },
+                "newsEvents": {
+                    "title": "Uudised ja sündmused",
+                    "events": "Sündmused",
+                    "news": "Uudised"
+                }
+            },
+            "subnav": {
+                "contact": "Kontakt",
+                "legalNotice": "Õigusteave",
+                "search": "Otsing",
+                "newsletter": "Uudiskiri",
+                "cookies": "Küpsised",
+                "login": "Sisselogimine",
+                "faq": "KKK"
+            },
+            "searchInputPlaceholder": "Otsi veebisaidilt...",
+            "european": "Euroopa",
+            "searchOptions": {
+                "siteContent": "Saidi sisu",
+                "datasets": "Andmehulgad"
+            },
+            "dataPortal": "Andmeportaal"
+        },
+        "footer": {
+            "links": {
+                "search": "Otsing",
+                "newsletter": "Uudiskiri",
+                "faq": "KKK",
+                "contact": "Kontakt",
+                "subscribe": "Liitu meie uudiskirjaga!",
+                "cookies": "Küpsised",
+                "login": "Sisselogimine",
+                "legalNotice": "Õigusteave"
+            },
+            "managedBy": "Haldaja: Euroopa Liidu Väljaannete Talitus.",
+            "fundedBy": "Rahastaja: Euroopa Liit",
+            "newsletter": "Tellige meie uudiskiri",
+            "helpUsImproveText": "Teie tagasiside aitab meil üldist kasutajakogemust paremaks muuta. Kas teil on soovitusi?",
+            "newsletterText": "Tellige meie uudiskiri",
+            "subscribe": "Telli",
+            "followUs": "Jälgige meid",
+            "lastUpdate": "Viimati uuendatud",
+            "helpUsImprove": "Aita meil paremaks muuta"
+        },
+        "maintenance_message": "Hea uudis Täiendame oma süsteemi ning sel ajal on see osa hooldusrežiimil ja kõiki kättesaadavaid andmeid ei pruugita kuvada.",
+        "catalogue_list": {
+            "description": "Valige kataloog üksikasjade jaoks",
+            "search": {
+                "placeholder": "Otsige kataloogi nime või kirjeldust"
+            }
+        },
+        "title": "Metadata Quality Assurance",
+        "empty": "",
+        "no_data": "Selle näitaja jaoks ei ole mõõtmisi on saadaval",
+        "meta": {
+            "description": "Metaandmete kvaliteedi tagamise vahend annab ülevaate kõigist metaandmetest, mis on kättesaadavad data.europa.eu avatud andmete portaalis eri näitajate alusel."
+        }
+    }
+}

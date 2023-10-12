@@ -1,0 +1,525 @@
+{
+    "message": {
+        "navigation": {
+            "dashboard": "Irányítópult",
+            "download_report": {
+                "help": "Töltse le a katalógusról készült teljes jelentést.",
+                "second_ods": "Open Document Spreadsheet (.ods)",
+                "direct": "Letöltés jelentésként",
+                "second_xls": "Microsoft Excel (.xlsx)",
+                "second_pdf": "Portable Document Format (.pdf)"
+            },
+            "catalogues": "Katalógusok",
+            "about": "dokumentáció",
+            "methodology": "Módszertan",
+            "validation": "érvényesítés"
+        },
+        "dashboard": {
+            "overview": {
+                "header": {
+                    "allCatalogues": "Összes katalógus",
+                    "topNumber": "Első {number}",
+                    "topNumberCatalogues": "Első {number} katalógus"
+                },
+                "table_tooltip": {
+                    "dcat_ap": "A DCAT-AP kompatibilis metaadatok százalékos aránya. Ezt az ellenőrzést csak a DCAT-AP-t szállító portálok esetében végezzük, például a CKANEXT-DCAT kiterjesztésen keresztül.",
+                    "machine_readability": "A géppel értelmezhető formátumú elosztások százalékos aránya.",
+                    "accessibility_download_url": "A rendelkezésre álló letöltési URL-ek százalékos aránya. A hozzáférhetőséget HTTP GET módszerrel határozzuk meg. Mivel a DownloadURL nem kötelező információ, hiányzó információk esetén nem lehet ellenőrizni.",
+                    "known_licenses": "Az ismert licencek százalékos aránya. Az ismert licencekkel kapcsolatos további információkért olvassa el a következő részeket. Mivel az engedély nem kötelező, az ellenőrzés hiányában az ellenőrzés hiányzik.",
+                    "accessibility_access_url": "A hozzáférhető hozzáférési pontok százalékos aránya. A hozzáférhetőséget HTTP GET módszerrel határozzuk meg."
+                },
+                "headline": "Áttekintés",
+                "table_title": {
+                    "desc": "Leírás",
+                    "known_licences": "Ismert licencek",
+                    "dcat_ap": "DCAT-AP-megfelelőség",
+                    "accessibility_access_url": "Hozzáférési URL hozzáférhetősége",
+                    "accessibility_download_url": "Letöltési URL hozzáférhetősége",
+                    "country": "Ország",
+                    "scoring": "Besorolás",
+                    "machine_readability": "Gépi olvashatóság",
+                    "rating": "Besorolás",
+                    "name": "Név"
+                },
+                "table_description": "A következő táblázatban áttekintést kap a négy említett kritériumról. A táblázatot az oszlopok fejléceire kattintva rendezheti. Felhívjuk a figyelmét, hogy az MQA csak a forrásportálokon keresztül megadott információkat képes értelmezni. A disztribúciók, a letöltési URL és a licencinformáció nem kötelező, és az MQA a hiányzó információkat egy mínusz („-”) jellel jelöli. Felhívjuk a figyelmét arra is, hogy a DCAT-AP-megfelelőség csak akkor határozható meg, a forrásportál DCAT-AP kapcsolt adatokban adja meg a metaadatait. A rendszer más formátumokat a mínusz („-”) jellel jelöli."
+            },
+            "interoperability": {
+                "plots": {
+                    "title": {
+                        "formatMediaTypeAlignment": "Formátum/médiatípus szószedetből",
+                        "formatMediaTypeNonProprietary": "Nem védett",
+                        "mediaTypeAvailability": "Médiatípus",
+                        "formatAvailability": "Formátum",
+                        "dcatApCompliance": "DCAT-AP-megfelelőség",
+                        "formatMediaTypeMachineReadable": "Géppel olvasható"
+                    }
+                },
+                "description": "Ezek az indikátorok növelik egy adatkészlet kölcsönös átjárhatóságát.",
+                "title": "Interoperabilitás"
+            },
+            "reusability": {
+                "description": "Az alábbi táblázat az adatok újrafelhasználhatóságának ellenőrzésére szolgáló mérési módszereket mutatja be. Itt legfeljebb 75 pont érhető el.",
+                "plots": {
+                    "title": {
+                        "accessRightsAlignment": "Hozzáférés a korlátozási szószedethez",
+                        "contactPointAvailability": "Kapcsolattartási pont",
+                        "licenceAlignment": "Licencszószedet",
+                        "publisherAvailability": "Közzétevő",
+                        "licenceAvailability": "Az engedélyre vonatkozó információk",
+                        "accessRightsAvailability": "Hozzáférés korlátozása"
+                    }
+                },
+                "title": "Újrafelhasználhatóság"
+            },
+            "show_history": "Előzmények megjelenítése",
+            "contextuality": {
+                "description": "Olyan információk, amelyek további kontextust biztosítanak a felhasználónak",
+                "plots": {
+                    "title": {
+                        "dateIssuedAvailability": "Közzététel dátuma",
+                        "rightsAvailability": "Jogosultságok",
+                        "byteSizeAvailability": "Fájlméret",
+                        "dateModifiedAvailability": "Módosítási adatok"
+                    }
+                },
+                "title": "Kontextualitás"
+            },
+            "accessibility": {
+                "plots": {
+                    "title": {
+                        "accessibilityOfDistributions": "Hozzáférési URL elérhető",
+                        "accessUrlAvailability": "Hozzáférési URL leggyakoribb állapotkódjai",
+                        "existingDownloadUrl": "Meglévő letöltési URL-ek",
+                        "accessibilityAccessUrl": "Disztribúciók hozzáférhetősége",
+                        "accessUrl": "Hozzáférési URL-ek hozzáférhetősége",
+                        "accessUrlStatusCodes": "Letöltési URL-ek hozzáférhetősége",
+                        "downloadUrlStatusCodes": "Letöltési URL elérhető",
+                        "downloadUrlAvailability": "Letöltési URL",
+                        "statusErrorCode": "Állapotkódhiba",
+                        "accessibilityDownloadUrl": "Hozzáférési URL"
+                    }
+                },
+                "title": "Hozzáférhetőség",
+                "headline": "Hozzáférhető disztribúciók",
+                "description": "A következő ábrák a disztribúciók elérhetőségével kapcsolatban adnak meg információt. A rendszer egy disztribúció minden egyes URL-jénél HTTP HEAD kérést végez, és ellenőrzi a kapott választ. Felhívjuk a figyelmét, hogy a letöltési URL a DCAT-AP alapján opcionális, és a forrásportálon világosan így is kell feltüntetni. Ez csak az olyan forrásportálok esetében történhet, amelyek a metaadataikat a DCAT-AP használatával adják meg."
+            },
+            "site_title": "Európai adatportál | MQA | Katalógus irányítópultja",
+            "findability": {
+                "title": "Kereshetőség",
+                "plots": {
+                    "title": {
+                        "keywordAvailability": "Kulcsszavak használata",
+                        "spatialAvailability": "Földrajzi szempontú keresés",
+                        "temporalAvailability": "Időbeli szempontú keresés",
+                        "categoryAvailability": "Kategóriák"
+                    }
+                },
+                "description": "Ezek az indikátorok segítik az embereket és gépeket az adatkészletek megtalálásában"
+            },
+            "scoring": {
+                "description": "Az értékelés az összes dimenzió metaadatainak általános minőségére utal.",
+                "plots": {
+                    "known": "ismert",
+                    "unknown": "ismeretlen",
+                    "title": {
+                        "timeBasedScoring": "Fejlődés értékelése"
+                    }
+                },
+                "title": "Fejlődés értékelése"
+            },
+            "show_today": "Mai nap megjelenítése",
+            "weight": "Súly",
+            "points": "Pontok",
+            "intro": {
+                "desc": "<p>A metaadat-minőségbiztosítás célja, hogy segítse az adatszolgáltatókat és az adatportálokat abban, hogy különböző mutatók alapján ellenőrizzék metaadataikat. Arról, hogy milyen mérőszámokat használunk az indikátor mérésekhez, kérjük, tekintse meg módszertani oldalunkat.</p>\n<p>Ez az oldal általános áttekintést nyújt a data.europa.eu számára elérhető összes metaadatról. Az egyes katalógusok részletes megtekintéséhez használja a Katalógusok oldalt, és válassza ki a kívánt katalógust.</p>"
+            },
+            "dimensions": "Méretek"
+        },
+        "catalogue_detail": {
+            "introduction": "Ezen az oldalon a terjesztéssel és a DCAT-AP-megfelelőséggel kapcsolatos katalógus általános állapotát láthatja.",
+            "harvesting": {
+                "run": {
+                    "updated": "Frissítve",
+                    "duration": "Időtartam (napok órák:percek:másodpercek)",
+                    "show_log": "Utolsó futás naplóbejegyzéseinek megjelenítése",
+                    "end": "Befejezési idő",
+                    "start": "Kezdési idő",
+                    "log_noattachment": "Hiba lépett fel a melléklet beolvasásakor",
+                    "skipped": "Átugorva",
+                    "log": "{0}  {1} – {2} / {3} napló",
+                    "deleted": "Törölve",
+                    "no_runs": "Nem érhetők el korábbi adatbányászati futtatások, vagy ilyenek még nem kerültek ütemezésre.",
+                    "rejected": "Elutasítva",
+                    "added": "Hozzáadva"
+                },
+                "repository_harvester": "Adattárforrás-katalógus",
+                "show_script": "Átalakítási parancsfájl megjelenítése",
+                "show_information": "Adatbányászra vonatkozó információ megjelenítése",
+                "publisher": "Kiadó",
+                "next_schedule": "Következő ütemezés",
+                "default_language": "Alapértelmezett nyelv",
+                "homepage": "Kezdőlap",
+                "email_address": "E-mail-cím",
+                "incremental": "Növekedő",
+                "frequency": "Gyakoriság",
+                "type": "Típus",
+                "transformation_script": "{0} transzformációs parancsprogram",
+                "title": "Adatbányászati információk",
+                "not_present": "Ez nem egy adatbányászott katalógus, így adatbányászattal kapcsolatos információ nem érhető el.",
+                "last_run": "Utolsó adatbányászati futtatás"
+            },
+            "violations": {
+                "location": "Megsértés helye",
+                "non_compliant": "Nem megfelelő",
+                "resultPath": "Eredmény elérési útvonala",
+                "subheadline": "Adatkészlet-megsértések",
+                "title": "Nem kompatibilis adatkészletek",
+                "value": "Érték",
+                "desc": "Megsértés leírása",
+                "site_title": "European Data Portal | MQA | Megsértések",
+                "introduction": "Ez a nézet listázza a DCAT-AP SHACL-szabályoknak nem megfelelő összes adatkészletet.",
+                "own_headline": "DCAT-AP-sémamegsértések",
+                "resultMessage": "Eredményüzenet"
+            },
+            "distributions": {
+                "introduction": "Ez a nézet az összes, nem hozzáférhető disztribúcióval rendelkező adatkészletet listázza.",
+                "help": "Tekintse meg a kiválasztott katalógus nem hozzáférhető disztribúcióit.",
+                "mediatype_checked": "Médiatípus (az ellenőrzés alapján)",
+                "desc": "Nem hozzáférhető disztribúciókkal rendelkező adatkészletek",
+                "not_available_access": "Nincs elérhető hozzáférési URL",
+                "title": "A disztribúció elérhetőségével kapcsolatos kérdések",
+                "format": {
+                    "not_machine_readable": "Nem olvasható géppel",
+                    "name": "Formátum"
+                },
+                "not_available_dl": "Nincs elérhető letöltési URL",
+                "download_url": "Letöltési URL",
+                "mediatype_given": "Médiatípus (az ellenőrzés alapján)",
+                "nodistributions": "Nincs ellenőrizhető disztribúció.",
+                "access_url": "Access URL",
+                "site_title": "Európai adatportál | MQA | Disztribúciók",
+                "availability_checked_on": "Elérhetőség ellenőrzése ekkor: {date}"
+            },
+            "call_to_action": "Válasszon katalógust a részletekhez",
+            "title": "Katalógus irányítópultja",
+            "site_title": "Európai adatportál | MQA | Katalógus irányítópultja"
+        },
+        "common": {
+            "compliant": "Megfelel",
+            "json": "CKAN JSON",
+            "deu": {
+                "url": "www.data.europa.eu",
+                "title": "data.europa.eu"
+            },
+            "site_title_violations": "DCAT-AP-sémamegsértés",
+            "all": "minden",
+            "close": "Bezárás",
+            "affacteddatasets": "Érintett adatkészletek",
+            "cataloguedetails": "Katalógusrészletek nézet",
+            "previous": "Előző",
+            "violation": "DCAT-AP-sémamegsértés",
+            "edp": {
+                "title": "Európai adatportál"
+            },
+            "yes": "Igen",
+            "error": "Hiba",
+            "portal_page": "Portál oldala",
+            "since": "óta",
+            "site_title": "Metaadatok minősége | Az uniós adatok hivatalos portálja",
+            "version": "Verzió",
+            "ok": "Ok",
+            "distributions": "Disztribúciók",
+            "no": "Nem",
+            "violations": "DCAT-AP-sémamegsértések",
+            "download_url": "Letöltési URL",
+            "datasets": "Adatkészletek",
+            "site_title_distributions": "A disztribúció elérhetőségével kapcsolatos kérdések",
+            "home": "Kezdőlap",
+            "page": "Oldal",
+            "notavailable": "Nem hozzáférhető",
+            "status": "Állapot:"
+        },
+        "methodology": {
+            "dimensions": {
+                "reuse": {
+                    "main_text": " <p>Az alábbi táblázat az adatok újrafelhasználhatóságának ellenőrzésére szolgáló mérési módszereket mutatja be. Itt legfeljebb 75 pont érhető el.</p>",
+                    "keywords_name_6": "Közzétevő",
+                    "keywords_name_5": "Kapcsolattartási pont",
+                    "keywords_name_4": "Hozzáférés a korlátozási szószedethez",
+                    "keywords_name_3": "Hozzáférés korlátozása",
+                    "keywords_name_2": "Licencszószedet",
+                    "keywords_name_1": "Licencinformációk",
+                    "keywords_metric_6": "A rendszer ellenőrzi, hogy a tulajdonság be van-e állítva vagy sem.",
+                    "keywords_metric_5": "A rendszer ellenőrzi, hogy a tulajdonság be van-e állítva vagy sem.",
+                    "keywords_metric_4": "<p>A rendszer ellenőrzi, hogy a <a href='https://publications.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/access-right' target='_blank'>hozzáférési jogokkal rendelkező ellenőrzött szószedetet </a>használják-e.</p>",
+                    "keywords_metric_3": "A rendszer ellenőrzi, hogy a tulajdonság be van-e állítva vagy sem.",
+                    "keywords_metric_2": "<p>Ez a szakasz leírja az összes olyan dimenziót, amelyet az MQA megvizsgál a minőség meghatározása érdekében. A méretek a <a target=’_blank’ href=’https://www.go-fair.org/fair-principles/'>FAIR elvekből <i class=’fas fa-external-link-alt fa-sm’></i></a>.</p>\n\n<p>Az MQA ajánlja és jóváírja az ellenőrzött szókincsek használatát. Az data.europa.eu portál az ellenőrzött szókincseit a <a href=’https://gitlab.com/european-data-portal/edp-vocabularies’ target=’_blank’>GitLab</a> oldalon teszi közzé. A szókincsek a <a href=’https://op.europa.eu/en/web/eu-vocabularies/authority-tables’ target=’_blank’>EU Vocabularies</a>.</p>-ból származnak.</p>",
+                    "keywords_metric_1": "A rendszer ellenőrzi, hogy a tulajdonság be van-e állítva vagy sem.",
+                    "dcat_name_6": "dct:Publisher",
+                    "dcat_name_5": "dcat:ContactPoint",
+                    "dcat_name_4": "dct:AccessRights",
+                    "dcat_name_3": "dct:AccessRights",
+                    "dcat_name_2": "dct:License",
+                    "dcat_name_1": "dct:License",
+                    "keywords_desc_6": "A közzétevő az a személy vagy szervezet, aki vagy amely az adatokat közzétette.",
+                    "keywords_desc_5": "A kapcsolattartási pontok információkkal rendelkeznek arra vonatkozóan, hogy kihez kell fordulni, ha kérdések merülnek fel az adatokkal kapcsolatban.",
+                    "keywords_desc_4": "Az ellenőrzött szószedet használata növeli az újrafelhasználhatóságot.",
+                    "keywords_desc_3": "Ez a mező tartalmazza, hogy az adatokhoz való hozzáférés nyilvános vagy korlátozott-e.",
+                    "keywords_desc_2": "Szeretnénk korlátozni a helytelen licencinformációk megadását. Például számos olyan CC-licenccel találkozunk, amelyek nem rendelkeznek verziószámmal.",
+                    "keywords_desc_1": "A licenc értékes információnak számít az adatok újrafelhasználása szempontjából."
+                },
+                "contextual": {
+                    "main_text": "Az alábbi táblázat néhány tulajdonságot jelenít meg, amelyek nagyobb összefüggést nyújtanak a felhasználónak. Itt legfeljebb 20 pont érhető el.",
+                    "keywords_metric_4": "A rendszer ellenőrzi, hogy a tulajdonság be van-e állítva vagy sem.",
+                    "keywords_metric_3": "A rendszer ellenőrzi, hogy a tulajdonság be van-e állítva vagy sem.",
+                    "keywords_metric_2": "A rendszer ellenőrzi, hogy a tulajdonság be van-e állítva vagy sem.",
+                    "keywords_metric_1": "A rendszer ellenőrzi, hogy a tulajdonság be van-e állítva vagy sem.",
+                    "keywords_name_4": "Módosítási adatok",
+                    "keywords_name_3": "Közzététel dátuma",
+                    "keywords_name_2": "Fájlméret",
+                    "keywords_name_1": "Jogosultságok",
+                    "keywords_desc_4": "Az a dátum, amikor az adatkészletet vagy a disztribúciót utoljára módosították.",
+                    "keywords_desc_3": "Az a dátum, amikor az adatkészletet vagy a disztribúciót közzétették.",
+                    "keywords_desc_2": "Bájtban adja meg a fájl méretét.",
+                    "keywords_desc_1": "Bizonyos esetekben egy adatkészletre nem lehet egy meghatározott licencet alkalmazni. A Jogosultságok mezőben megadható egy hivatkozás egy olyan erőforrásra, amely tájékoztatja a felhasználót az adatkészlet használata során gyakorolható jogosultságaira.",
+                    "dcat_name_4": "dcat:Modified",
+                    "dcat_name_3": "dct:Issued",
+                    "dcat_name_2": "dcat:ByteSize",
+                    "dcat_name_1": "dcat:Rights"
+                },
+                "table": {
+                    "metric_name": "Mutató",
+                    "dataset_and_distribution": "Adatkészlet és disztribúció",
+                    "metric": "Mérőszám-",
+                    "dataset": "Adatkészlet",
+                    "desc": "Leírás",
+                    "distribution": "Terjesztés",
+                    "weight": "Tömeg"
+                },
+                "accessible": {
+                    "main_text": " <p>Az alábbi táblázat bemutatja, hogy milyen mérési módszereket használunk annak meghatározására, hogy a disztribúciók által hivatkozott adatokhoz való hozzáférés garantált-e. Itt legfeljebb 100 pont érhető el.</p>",
+                    "dcat_name_3": "dcat:spatial",
+                    "dcat_name_2": "dcat:downloadURL",
+                    "dcat_name_1": "dcat:accessURL",
+                    "keywords_desc_3": "Ha létezik letöltési URL, a rendszer ellenőrzi a hozzáférhetőséget.",
+                    "keywords_desc_2": "A letöltési URL a hivatkozott adatokra mutató közvetlen hivatkozás.",
+                    "keywords_desc_1": "A hozzáférési URL nem feltétlenül közvetlen hivatkozás az adatokra, hanem egy olyan URL-re is hivatkozhat, amely hozzáférést biztosít az adatkészlethez, vagy ahol az adatkészlettel kapcsolatos további információk érhetők el.",
+                    "keywords_metric_3": "A megadott URL hozzáférhetőségét a rendszer HTTP HEAD típusú lekéréssel ellenőrzi. Ha a válasz állapotkódja a 200-as vagy 300-as tartományban van, az erőforrás hozzáférhetőségét a rendszer pozitívan értékeli.",
+                    "keywords_metric_2": "A rendszer ellenőrzi, hogy a tulajdonság be van-e állítva vagy sem.",
+                    "keywords_metric_1": "A megadott URL hozzáférhetőségét a rendszer HTTP HEAD típusú lekéréssel ellenőrzi. Ha a válasz állapotkódja a 200-as vagy 300-as tartományban van, az erőforrás hozzáférhetőségét a rendszer pozitívan értékeli.",
+                    "keywords_name_3": "Letöltési URL hozzáférhetősége",
+                    "keywords_name_2": "Letöltési URL",
+                    "keywords_name_1": "Hozzáférési URL hozzáférhetősége"
+                },
+                "interoperable": {
+                    "main_text": " <p>Az alábbi táblázat bemutatja azokat a mérési módszereket, amelyek segítségével meghatározzák egy disztribúció interoperabilitását. Az „azonos tartalom különböző disztribúciókkal” feltételezésnek megfelelően a rendszer csak a legmagasabb pontszámmal rendelkező disztribúciót használja a pontok kiszámításához. Itt legfeljebb 110 pont érhető el.</p>",
+                    "keywords_desc_6": "Az <p>DCAT-AP megfelelés kiszámítása a katalógusban rendelkezésre álló összes forrás és adatkészlet alapján történik. Ez az ellenőrzés csak akkor történik meg, ha a metaadatokat eredetileg DCAT-AP-ként vagy érvényes származékként gyűjtik be.</p><p><a href=’https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe’ target=’_blank’>DCAT-AP</a> a kapcsolódó nyilvános adatok leírásának specifikációja Európában. Az data.europa.eu portál olyan metaadatokat is gyűjthet, amelyek nem felelnek meg teljes mértékben a DCAT-AP-nak. A DCAT-AP-nak való megfelelés növelése érdekében az MQA ellenőrzi az egyes metaadatokat a DCAT-AP megfelelősége szempontjából.</p>",
+                    "keywords_desc_5": "Ellenőrzi, hogy a disztribúció formátuma olvasható-e géppel.",
+                    "keywords_desc_4": "Ellenőrzi, hogy a disztribúció formátuma védett-e vagy sem.",
+                    "keywords_desc_3": "Ellenőrzi, hogy a formátum és a média típusa ellenőrzött szószedethez tartoznak-e.",
+                    "keywords_desc_2": "Ez a mező meghatározza a disztribúció médiaformátumát.",
+                    "keywords_desc_1": "Ez a mező meghatározza a disztribúció fájlformátumát.",
+                    "keywords_metric_6": "<p>A metaadatok a <a href=’https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe/releases’ target=’_blank’>SHACL formák</a> href-href=’https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe/releases’ target=’_blank’>SHACL formák</a> href-href=„href=”href=’https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe/releases’ target=’_blank’>SHACL shapes</a> href-href=’https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe/releases’ target=’_blank’>SHACL alakzatok</a> A metaadatok nem felelnek meg, ha az SHACL hitelesítés legalább egy problémát jelent.</p>\n\n<p>Az MQA a <a href=’/shacl’ target=’_blank’>data.europa.eu DCAT-AP SHACL</a> érvényesítési szolgáltatását használja.</p> \n\nA <p><a href=’https://www.w3.org/TR/shacl/’ target=’_blank’>SHACL</a> a W3C ajánlása, és az RDF-gráfok érvényesítésére szolgál a formák halmazával szemben.</p>",
+                    "keywords_metric_5": "Az eloszlás akkor tekinthető géppel olvashatónak, ha a megadott formátumot a megfelelő data.europa.eu <a href=’https://gitlab.com/european-data-portal/edp-vocabularies’ target=’_blank’>GitLab repository</a> szókincs tartalmazza.",
+                    "keywords_metric_4": "Az eloszlás akkor minősül nem védettnek, ha a megadott formátumot a megfelelő data.europa.eu <a href=’https://gitlab.com/european-data-portal/edp-vocabularies’ target=’_blank’>GitLab repository</a> szókincs tartalmazza.",
+                    "keywords_metric_3": "<p>A formátum szókincse megtalálható az data.europa.eu <a href=’https://gitlab.com/european-data-portal/edp-vocabularies’ target=’_blank’>GitLab repository</a>.</p>\n\n<p>A média típusa a <a href=’https://www.iana.org/assignments/media-types/media-types.xhtml’ target=’_blank’>IANA lista</a></p>",
+                    "keywords_metric_2": "<p>A rendszer ellenőrzi, hogy a tulajdonság be van-e állítva vagy sem.</p>",
+                    "keywords_metric_1": "<p>A rendszer ellenőrzi, hogy a tulajdonság be van-e állítva vagy sem.</p>",
+                    "keywords_name_6": "DCAT-AP-megfelelőség",
+                    "keywords_name_5": "Géppel olvasható",
+                    "keywords_name_4": "Nem védett",
+                    "keywords_name_3": "Formátum/médiatípus szószedetből",
+                    "keywords_name_2": "Médiatípus",
+                    "keywords_name_1": "Formátum",
+                    "dcat_name_6": "Adatkészlet és disztribúció",
+                    "dcat_name_5": "DCT:Format dcat:MediaType vagy/másodlagos tulajdon",
+                    "dcat_name_4": "DCT:Format dcat:MediaType vagy/másodlagos tulajdon",
+                    "dcat_name_3": "DCT:Format dcat:MediaType vagy/másodlagos tulajdon",
+                    "dcat_name_2": "dcat:MediaType or subproperty of dct:Format",
+                    "dcat_name_1": "dct:Format"
+                },
+                "findability": {
+                    "keywords_desc_4": "Az időbeli információk használata lehetővé teszi a felhasználók számára az adatkészletek időbeli szempontú keresését.",
+                    "keywords_desc_3": "A térbeli információk használata lehetővé teszi a felhasználók számára az adatkészletek földrajzi szempontú keresését.",
+                    "keywords_desc_2": "A kategóriák az adatkészletek tematikus felfedezésében segítik a felhasználókat.",
+                    "keywords_desc_1": "A kulcsszavak közvetlenül támogatják a keresést, ezzel növelve az adatkészlet kereshetőségét.",
+                    "keywords_metric_4": "A rendszer ellenőrzi, hogy a tulajdonság be van-e állítva vagy sem.",
+                    "keywords_metric_3": "A rendszer ellenőrzi, hogy a tulajdonság be van-e állítva vagy sem.",
+                    "keywords_metric_2": "A rendszer ellenőrzi, hogy egy vagy több kategória van-e hozzárendelve az adatkészlethez. A hozzárendelt kategóriák száma nem befolyásolja a pontszámot.",
+                    "keywords_metric_1": "A rendszer ellenőrzi, hogy a kulcsszavak meg vannak-e határozva. A kulcsszavak száma nem befolyásolja a pontszámot.",
+                    "keywords_name_4": "Időbeli szempontú keresés",
+                    "keywords_name_3": "Földrajzi szempontú keresés",
+                    "keywords_name_2": "Kategóriák",
+                    "keywords_name_1": "Kulcsszavak használata",
+                    "dcat_name_4": " dcat:temporal",
+                    "dcat_name_3": "dcat:spatial",
+                    "dcat_name_2": "dcat:theme",
+                    "dcat_name_1": "dcat:Keyword",
+                    "main_text": "<p> Az alábbi táblázat bemutatja azokat a mérési módszereket, amelyek segítik az embereket és gépeket az adatkészletek megtalálásában. Itt legfeljebb 100 pont érhető el.</p>"
+                },
+                "main_text": "<p>Ez a rész bemutatja azokat a dimenziókat, amelyeket az MQA elemez a minőség meghatározása érdekében. A dimenziókat a <a target='_blank' href='https://www.go-fair.org/fair-principles/'>FAIR-alapelvekből<i class='fas fa-external-link-alt fa-sm'></i></a> származtatják.</p>"
+            },
+            "scoring": {
+                "table": {
+                    "bad": "rossz",
+                    "range": "Pontszámtartomány",
+                    "sufficient": "pont elég",
+                    "scoring_cat": "Értékelés",
+                    "good": "jó",
+                    "max_points": "Maximális pontszám",
+                    "excellent": "kitűnő",
+                    "sum": "Összeg",
+                    "dimension": "dimenzió"
+                },
+                "main_text": "Egy adatkészlet általános pontszáma az egyes dimenziók pontjainak összeadásából származik.",
+                "text": "A végleges minősítés négy értékelési csoport révén történik. A pontok minősítési kategóriához történő rendelését az alábbi táblázat mutatja be. A minősítés megjelenítése az MQA-ban kizárólag a minősítési kategóriákban jelenik meg. Ez lehetővé teszi az adatszolgáltatók számára, hogy a legmagasabb értékelést érjék el, akár némi pontlevonással is.",
+                "headline": "Értékelés"
+            },
+            "headline": "Metaadatok minőségértékelési módszertana",
+            "cover": {
+                "validator_service": "DCAT-AP SHACL érvényesítési szolgáltatás API",
+                "main_text": " <p> Az MQA-t az általa vizsgálható metaadatok korlátozzák. A vizsgálat kizárólag a.europa.eu által a betakarítási folyamat során gyűjtött metaadatokra korlátozódik. Ha hibák vannak a forrás metaadatokban, ezek meghamisíthatják a teljes eredményt. E hibalehetőség korlátozása érdekében az MQA olyan hitelesítési szolgáltatást nyújt, amelyet az adatszolgáltatók arra használhatnak, hogy érvényes formátumokra és a megfelelő DCAT-AP-ra vonatkozó metaadataikat validálják, mielőtt azokat a betakarítási folyamatba integrálnák.",
+                "validator_ui": "DCAT-AP SHACL érvényesítési szolgáltatás weboldala ",
+                "headline": "Mire nem terjed ki az MQA?"
+            },
+            "process": {
+                "main_text": "<p> Minden gyűjtás esetén a metaadatokat az MQA is ellenőrzi. Az MQA méri a különböző mutatók minőségét. A mutatókat az alábbi táblázat mutatja be. Az ellenőrzések eredményét a rendszer adatminőségi szószedetként tárolja <a href='https://www.w3.org/TR/vocab-dqv/'>(DQV) <i class='fas fa-external-link-alt fa-sm'></i></a>. A DQV a W3C specifikációja, amely egy adatkészlet minőségét írta le.</p>\n\n<p>Mivel a hozzáférhetőség változó lehet, rendszeresen ellenőrizni kell a hozzáférési URL-t és a letöltési URL-t. Ezért az MQA rendszeres időközönként ellenőrzi az összes disztribúció hozzáférhetőségét. A többi mutató ellenőrzésével szemben ennek magasabb a futásideje, mivel a disztribúciók ellenőrzése HTTP révén történik, és minden egyes kért URL esetében hosszabb válaszidőre lehet szükség. Az MQA olyan mechanizmust használ, amely figyelembe veszi, hogy a legutóbbi felülvizsgálat után néhány héttel minden URL-t újból ellenőriznek. </p>",
+                "headline": "Az MQA-eljárás"
+            },
+            "scope": {
+                "main_text": "<p> Az MQA segítségével az alábbi kérdésre keressük a választ: <br> Milyen a metaadatok minősége a közszférai adatait tekintve a páneurópai régióban, és melyek azok a legjelentősebb akadályok, amelyek a jobb minőség elérésének útjában állnak? </p><p>Ennek alapján az MQA jelenleg az alábbi konkrét kérdéseket vizsgálja:</p><ul><li> Megfelel a DCAT-AP és a származékos DCAT-AP előírásainak </li><li> Olyan információk közzétételek, amelyek a DCAT-AP esetében nem kötelező</li><li> A metaadatokban hivatkozott adatok hozzáférhetősége a hozzáférési és a letöltési URL révén</li><li> A hivatkozott adatok gépi olvashatósága </li><li> Licencek használata</li></ul><p> Minden kérdés egyéni vizsgálatokat eredményez, amelyeket az alábbiakban részletesen bemutatunk.</p>",
+                "headline": "Kutatási terület"
+            },
+            "assumptions": {
+                "main_text": "<p> Az MQA a következő feltételezéseken alapul.</p><h6> Nem kötelező mezők használata</h6><p6><p> Hisszük, hogy a DCAT-AP kötelező mezőinek kitöltése önmagában nem elegendő a kiváló minőségű metaadatok szolgáltatásához. Ezért az értékelés azokat a mezőket is ellenőrzi, amelyek a DCAT-AP szerint nem kötelezőek. Az ellenőrizendő pontos mezők alább vannak felsorolva.</p><h6> \n\nAzonos tartalom több disztribúció esetén</h6><p>Ha egy adatkészlet egynél több disztribúciót tartalmaz, minden disztribúció tartalma azonos, csak az adatok megjelenítésében tér el egymástól. Például egy adatkészlet két disztribúcióval rendelkezhet: az egyik PDF-ként kínálja az adatokat, a másik pedig a géppel olvasható RDF/XML-t. Ez a meghatározás arra vonatkozik, hogy az adatkészleteket hogyan minősítik az MQA-ban (egyfajta „bevált gyakorlat”), de nem tekinthető az eloszlások standard meghatározásának.</p>",
+                "headline": "Feltételezések"
+            },
+            "intro_text": "<p><strong>A metaadatok minőségértékelése (MQA) egy olyan eszköz, amelyet az data.europa.eu konzorcium fejlesztett ki, hogy tanulmányozza az data.europa.eu.</strong> által gyűjtött metaadatok minőségét. Célja, hogy segítse az adatszolgáltatókat és az adatportálokat a metaadatok minőségének ellenőrzésében és a javítási javaslatok fogadásában. Az eredményeket az MQA-n keresztül mutatják be, és letölthető formában is elérhetők. Az alábbiakban bemutatjuk az MQA funkcióit és az általa használt módszertant.</p>\n<p> Ha ez az oldal még mindig nem válaszol minden kérdésére, kérjük, vegye fel velünk a kapcsolatot az oldal végén található visszajelzési űrlapunkon. </p>",
+            "sub_headline": "Hogyan méri az adatok.europa.eu az összes tárolt metaadat minőségét?"
+        },
+        "header": {
+            "navigation": {
+                "usingData": {
+                    "checklistForUsingData": "Adathasználati ellenőrző lista",
+                    "useCases": "Esetek felhasználása",
+                    "tellUsYourStory": "Ossza meg a történetét",
+                    "title": "Használata adatok",
+                    "benefitsOfUsingData": "Az adatok felhasználásával járó előnyök"
+                },
+                "impactStudies": {
+                    "useCases": "Esetek felhasználása",
+                    "overview": "Áttekintés",
+                    "opendatamaturity": "Nyílt adatok érettsége",
+                    "countryInsights": "Országon belüli összefüggések",
+                    "tellUsYourStory": "Ossza meg a történetét",
+                    "studies": "Identical content for multiple distributions</h6><p>If a dataset contains more than one distribution, all distributions are identical in content, they differ only in the representation of the data. For example, a dataset can have two distributions, one offering the data as PDF and the other offering the identical data as machine-readable RDF/XML. This definition is relative to how datasets are rated in the MQA (a sort of “best practice”) but should not be considered as the standard definition of distributions.</p>",
+                    "opendataimpact": "Nyílt hozzáférésű adatok hatása",
+                    "title": "Hatás és tanulmányok"
+                },
+                "training": {
+                    "dataProvidersGuide": "Adatszolgáltatói útmutató",
+                    "whatIsOpenData": "Mik azok a nyílt hozzáférésű adatok?",
+                    "title": "Képzés",
+                    "elearning": "Elektronikus tanulás",
+                    "moreTrainingMaterial": "További képzési anyagok",
+                    "licensingAssistant": "Licencelési segédlet"
+                },
+                "data": {
+                    "datasets": "Adatkészletek",
+                    "sparqlsearch": "SPARQL-keresés",
+                    "metadataQuality": "Metaadatok minősége",
+                    "licensingAssistant": "Licencelési segédlet",
+                    "title": "Adatok",
+                    "statistics": "Statisztikák",
+                    "euInternationalData": "Uniós és nemzetközi adatok",
+                    "sparqlManager": "SPARQL-kezelő",
+                    "catalogues": "Katalógusok",
+                    "countryData": "Országos adatok"
+                },
+                "resources": {
+                    "moreTrainingMaterial": "További képzési anyagok",
+                    "title": "Források",
+                    "elearning": "Elektronikus tanulás",
+                    "trainingCompanion": "Képzési kalauz",
+                    "reportsAboutOpenData": "Nyílt adatokkal kapcsolatos jelentések"
+                },
+                "providingData": {
+                    "beHarvestedByUs": "Gyűjtesse be velünk az adatait",
+                    "title": "Adatszolgáltatás",
+                    "cataloguesHarvestedByUs": "Általunk begyűjtött katalógusok",
+                    "practicalGuide": "Gyakorlati útmutató"
+                },
+                "whatWeDo": {
+                    "openDataMaturity": "Nyílt adatok érettsége",
+                    "ourActivities": "Tevékenységeink",
+                    "factsheetsAndReports": "Adatlapok és jelentések",
+                    "title": "Tevékenység",
+                    "calendar": "Naptár",
+                    "featuredHighlights": "Kiemelt témák",
+                    "news": "Hírek"
+                },
+                "about": {
+                    "beHarvestedByUs": "Gyűjtesse be velünk az adatait",
+                    "documentation": "Dokumentáció",
+                    "title": "Névjegy",
+                    "europeanDataPortal": "Európai Adatportál"
+                },
+                "newsEvents": {
+                    "title": "Hírek és események",
+                    "events": "Események",
+                    "news": "Hírek"
+                }
+            },
+            "subnav": {
+                "contact": "Kapcsolat",
+                "legalNotice": "Jogi nyilatkozat",
+                "search": "Keresés",
+                "newsletter": "Hírlevél",
+                "cookies": "Cookie-k",
+                "login": "Bejelentkezés",
+                "faq": "GYIK"
+            },
+            "searchInputPlaceholder": "Keresés a webhely tartalmában...",
+            "european": "Európai",
+            "searchOptions": {
+                "siteContent": "Oldal tartalma",
+                "datasets": "Adatkészletek"
+            },
+            "dataPortal": "Adatportál"
+        },
+        "footer": {
+            "links": {
+                "search": "Keresés",
+                "newsletter": "Hírlevél",
+                "faq": "GYIK",
+                "contact": "Kapcsolat",
+                "subscribe": "Feliratkozás",
+                "cookies": "Cookie-k",
+                "login": "Bejelentkezés",
+                "legalNotice": "Jogi nyilatkozat"
+            },
+            "managedBy": "Gondozza: az Európai Unió Kiadóhivatala.",
+            "fundedBy": "Amelyet az Európai Unió",
+            "newsletter": "Iratkozzon fel a hírlevelünkre",
+            "helpUsImproveText": "A visszajelzésével javíthatjuk az átfogó felhasználói élményt.\nVan bármilyen javaslata?",
+            "newsletterText": "Iratkozzon fel a hírlevelünkre",
+            "subscribe": "Feliratkozás",
+            "followUs": "Kövessen minket itt:",
+            "lastUpdate": "Utoljára frissítve",
+            "helpUsImprove": "Segítsen nekünk a javulásban"
+        },
+        "maintenance_message": "Jó hírünk van! Javítunk a rendszeren. A köztes időben ez az összetevő karbantartási módban van, és adott esetben nem jeleníti meg az összes elérhető adatot.",
+        "catalogue_list": {
+            "description": "Válasszon katalógust a részletekhez",
+            "search": {
+                "placeholder": "Katalógusnév vagy leírás keresése"
+            }
+        },
+        "title": "Metadata Quality Assurance",
+        "empty": "",
+        "no_data": "Ehhez a mutatóhoz nem érhetők el mérések",
+        "meta": {
+            "description": "A metaadat-minőségbiztosítási eszköz általános áttekintést nyújt a data.europa.eu nyílt adatportálon elérhető metaadatokról, különböző mutatók szerint."
+        }
+    }
+}

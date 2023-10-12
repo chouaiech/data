@@ -1,0 +1,26 @@
+PREFIX dcat:    <http://www.w3.org/ns/dcat#>
+PREFIX dqv:     <http://www.w3.org/ns/dqv#>
+PREFIX oa:      <http://www.w3.org/ns/oa#>
+PREFIX shacl:   <http://www.w3.org/ns/shacl#>
+
+SELECT ?ds ?title ?resultMessage ?resultPath ?resultValue WHERE
+{
+    GRAPH <%1$s>    {
+        <%2$s> dcat:dataset ?ds
+    }
+
+    GRAPH ?gd
+    {
+        ?ds dct:title ?title
+    }
+
+    GRAPH ?gm
+    {
+        ?ds dqv:hasQualityAnnotation/oa:hasBody/shacl:result [
+            shacl:resultMessage ?resultMessage ;
+            shacl:resultPath ?resultPath ;
+            shacl:value ?resultValue ;
+            shacl:resultSeverity shacl:Violation
+        ]
+    }
+} OFFSET %3$d LIMIT %4$d

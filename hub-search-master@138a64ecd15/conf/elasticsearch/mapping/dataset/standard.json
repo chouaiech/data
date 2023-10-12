@@ -1,0 +1,4501 @@
+{
+  "dynamic": "strict",
+  "dynamic_templates": [
+    {
+      "title": {
+        "path_match": "title.*",
+        "match_mapping_type": "string",
+        "mapping": {
+          "type": "text",
+          "analyzer": "standard",
+          "fields": {
+            "autocomplete": {
+              "type": "text",
+              "analyzer": "edgengram_analyzer",
+              "search_analyzer": "standard"
+            },
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        }
+      }
+    },
+    {
+      "description": {
+        "path_match": "description.*",
+        "match_mapping_type": "string",
+        "mapping": {
+          "type": "text",
+          "analyzer": "standard"
+        }
+      }
+    },
+    {
+      "version_notes": {
+        "path_match": "version_notes.*",
+        "match_mapping_type": "string",
+        "mapping": {
+          "type": "text",
+          "analyzer": "standard"
+        }
+      }
+    },
+    {
+      "catalog_title": {
+        "path_match": "catalog.title.*",
+        "match_mapping_type": "string",
+        "mapping": {
+          "type": "text",
+          "analyzer": "standard",
+          "fields": {
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        }
+      }
+    },
+    {
+      "catalog_description": {
+        "path_match": "catalog.description.*",
+        "match_mapping_type": "string",
+        "mapping": {
+          "type": "text",
+          "analyzer": "standard"
+        }
+      }
+    },
+    {
+      "distribution_title": {
+        "path_match": "distributions.title.*",
+        "match_mapping_type": "string",
+        "mapping": {
+          "type": "text",
+          "analyzer": "standard",
+          "fields": {
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        }
+      }
+    },
+    {
+      "distribution_description": {
+        "path_match": "distributions.description.*",
+        "match_mapping_type": "string",
+        "mapping": {
+          "type": "text",
+          "analyzer": "standard"
+        }
+      }
+    },
+    {
+      "access_service_title": {
+        "path_match": "distributions.access_service.title.*",
+        "match_mapping_type": "string",
+        "mapping": {
+          "type": "text",
+          "analyzer": "standard",
+          "fields": {
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        }
+      }
+    },
+    {
+      "access_service_description": {
+        "path_match": "distributions.access_service.description.*",
+        "match_mapping_type": "string",
+        "mapping": {
+          "type": "text",
+          "analyzer": "standard"
+        }
+      }
+    },
+    {
+      "page_title": {
+        "path_match": "page.title.*",
+        "match_mapping_type": "string",
+        "mapping": {
+          "type": "text",
+          "analyzer": "standard"
+        }
+      }
+    },
+    {
+      "page_description": {
+        "path_match": "page.description.*",
+        "match_mapping_type": "string",
+        "mapping": {
+          "type": "text",
+          "analyzer": "standard"
+        }
+      }
+    },
+    {
+      "landing_page_title": {
+        "path_match": "landing_page.title.*",
+        "match_mapping_type": "string",
+        "mapping": {
+          "type": "text",
+          "analyzer": "standard"
+        }
+      }
+    },
+    {
+      "landing_page_description": {
+        "path_match": "landing_page.description.*",
+        "match_mapping_type": "string",
+        "mapping": {
+          "type": "text",
+          "analyzer": "standard"
+        }
+      }
+    },
+    {
+      "distribution_page_title": {
+        "path_match": "distributions.page.title.*",
+        "match_mapping_type": "string",
+        "mapping": {
+          "type": "text",
+          "analyzer": "standard"
+        }
+      }
+    },
+    {
+      "distribution_page_description": {
+        "path_match": "distributions.page.description.*",
+        "match_mapping_type": "string",
+        "mapping": {
+          "type": "text",
+          "analyzer": "standard"
+        }
+      }
+    },
+    {
+      "categories_label": {
+        "path_match": "categories.label.*",
+        "match_mapping_type": "string",
+        "mapping": {
+          "type": "text",
+          "analyzer": "standard"
+        }
+      }
+    },
+    {
+      "subject_label": {
+        "path_match": "subject.label.*",
+        "match_mapping_type": "string",
+        "mapping": {
+          "type": "text",
+          "analyzer": "standard"
+        }
+      }
+    },
+    {
+      "translation_meta_details": {
+        "path_match": "translation_meta.details.*",
+        "match_mapping_type": "*",
+        "mapping": {
+          "dynamic": "strict",
+          "properties": {
+            "machine_translated": {
+              "enabled": false
+            },
+            "original_language": {
+              "enabled": false
+            },
+            "issued": {
+              "enabled": false
+            },
+            "received": {
+              "enabled": false
+            }
+          }
+        }
+      }
+    }
+  ],
+  "properties": {
+    "id": {
+      "type": "text",
+      "analyzer": "standard",
+      "fields": {
+        "raw": {
+          "type": "keyword",
+          "ignore_above": 8191
+        }
+      }
+    },
+    "resource": {
+      "type": "keyword",
+      "ignore_above": 8191
+    },
+    "title": {
+      "dynamic": true,
+      "properties": {
+        "bg": {
+          "type": "text",
+          "analyzer": "bulgarian",
+          "fields": {
+            "autocomplete": {
+              "type": "text",
+              "analyzer": "edgengram_analyzer",
+              "search_analyzer": "standard"
+            },
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "es": {
+          "type": "text",
+          "analyzer": "spanish",
+          "fields": {
+            "autocomplete": {
+              "type": "text",
+              "analyzer": "edgengram_analyzer",
+              "search_analyzer": "standard"
+            },
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "cs": {
+          "type": "text",
+          "analyzer": "czech",
+          "fields": {
+            "autocomplete": {
+              "type": "text",
+              "analyzer": "edgengram_analyzer",
+              "search_analyzer": "standard"
+            },
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "da": {
+          "type": "text",
+          "analyzer": "danish",
+          "fields": {
+            "autocomplete": {
+              "type": "text",
+              "analyzer": "edgengram_analyzer",
+              "search_analyzer": "standard"
+            },
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "et": {
+          // Estonian
+          "type": "text",
+          "analyzer": "standard",
+          "fields": {
+            "autocomplete": {
+              "type": "text",
+              "analyzer": "edgengram_analyzer",
+              "search_analyzer": "standard"
+            },
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "el": {
+          "type": "text",
+          "analyzer": "greek",
+          "fields": {
+            "autocomplete": {
+              "type": "text",
+              "analyzer": "edgengram_analyzer",
+              "search_analyzer": "standard"
+            },
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "en": {
+          "type": "text",
+          "analyzer": "english",
+          "fields": {
+            "autocomplete": {
+              "type": "text",
+              "analyzer": "edgengram_analyzer",
+              "search_analyzer": "standard"
+            },
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "fr": {
+          "type": "text",
+          "analyzer": "french",
+          "fields": {
+            "autocomplete": {
+              "type": "text",
+              "analyzer": "edgengram_analyzer",
+              "search_analyzer": "standard"
+            },
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "ga": {
+          "type": "text",
+          "analyzer": "irish",
+          "fields": {
+            "autocomplete": {
+              "type": "text",
+              "analyzer": "edgengram_analyzer",
+              "search_analyzer": "standard"
+            },
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "hr": {
+          // Croatian
+          "type": "text",
+          "analyzer": "standard",
+          "fields": {
+            "autocomplete": {
+              "type": "text",
+              "analyzer": "edgengram_analyzer",
+              "search_analyzer": "standard"
+            },
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "it": {
+          "type": "text",
+          "analyzer": "italian",
+          "fields": {
+            "autocomplete": {
+              "type": "text",
+              "analyzer": "edgengram_analyzer",
+              "search_analyzer": "standard"
+            },
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "lv": {
+          "type": "text",
+          "analyzer": "latvian",
+          "fields": {
+            "autocomplete": {
+              "type": "text",
+              "analyzer": "edgengram_analyzer",
+              "search_analyzer": "standard"
+            },
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "lt": {
+          "type": "text",
+          "analyzer": "lithuanian",
+          "fields": {
+            "autocomplete": {
+              "type": "text",
+              "analyzer": "edgengram_analyzer",
+              "search_analyzer": "standard"
+            },
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "hu": {
+          "type": "text",
+          "analyzer": "hungarian",
+          "fields": {
+            "autocomplete": {
+              "type": "text",
+              "analyzer": "edgengram_analyzer",
+              "search_analyzer": "standard"
+            },
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "mt": {
+          // Maltese
+          "type": "text",
+          "analyzer": "standard",
+          "fields": {
+            "autocomplete": {
+              "type": "text",
+              "analyzer": "edgengram_analyzer",
+              "search_analyzer": "standard"
+            },
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "nl": {
+          "type": "text",
+          "analyzer": "dutch",
+          "fields": {
+            "autocomplete": {
+              "type": "text",
+              "analyzer": "edgengram_analyzer",
+              "search_analyzer": "standard"
+            },
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "pl": {
+          // Polish
+          "type": "text",
+          "analyzer": "standard",
+          "fields": {
+            "autocomplete": {
+              "type": "text",
+              "analyzer": "edgengram_analyzer",
+              "search_analyzer": "standard"
+            },
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "pt": {
+          "type": "text",
+          "analyzer": "standard",
+          "fields": {
+            "autocomplete": {
+              "type": "text",
+              "analyzer": "edgengram_analyzer",
+              "search_analyzer": "standard"
+            },
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "ro": {
+          "type": "text",
+          "analyzer": "portuguese",
+          "fields": {
+            "autocomplete": {
+              "type": "text",
+              "analyzer": "edgengram_analyzer",
+              "search_analyzer": "standard"
+            },
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "sk": {
+          // Slovak
+          "type": "text",
+          "analyzer": "standard",
+          "fields": {
+            "autocomplete": {
+              "type": "text",
+              "analyzer": "edgengram_analyzer",
+              "search_analyzer": "standard"
+            },
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "sl": {
+          // Slovenian
+          "type": "text",
+          "analyzer": "standard",
+          "fields": {
+            "autocomplete": {
+              "type": "text",
+              "analyzer": "edgengram_analyzer",
+              "search_analyzer": "standard"
+            },
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "fi": {
+          "type": "text",
+          "analyzer": "finnish",
+          "fields": {
+            "autocomplete": {
+              "type": "text",
+              "analyzer": "edgengram_analyzer",
+              "search_analyzer": "standard"
+            },
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "sv": {
+          "type": "text",
+          "analyzer": "swedish",
+          "fields": {
+            "autocomplete": {
+              "type": "text",
+              "analyzer": "edgengram_analyzer",
+              "search_analyzer": "standard"
+            },
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "no": {
+          "type": "text",
+          "analyzer": "norwegian",
+          "fields": {
+            "autocomplete": {
+              "type": "text",
+              "analyzer": "edgengram_analyzer",
+              "search_analyzer": "standard"
+            },
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "de": {
+          "type": "text",
+          "analyzer": "german",
+          "fields": {
+            "autocomplete": {
+              "type": "text",
+              "analyzer": "edgengram_analyzer",
+              "search_analyzer": "standard"
+            },
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        }
+      }
+    },
+    "description": {
+      "dynamic": true,
+      "properties": {
+        "bg": {
+          "type": "text",
+          "analyzer": "bulgarian"
+        },
+        "es": {
+          "type": "text",
+          "analyzer": "spanish"
+        },
+        "cs": {
+          "type": "text",
+          "analyzer": "czech"
+        },
+        "da": {
+          "type": "text",
+          "analyzer": "danish"
+        },
+        "et": {
+          // Estonian
+          "type": "text",
+          "analyzer": "standard"
+        },
+        "el": {
+          "type": "text",
+          "analyzer": "greek"
+        },
+        "en": {
+          "type": "text",
+          "analyzer": "english"
+        },
+        "fr": {
+          "type": "text",
+          "analyzer": "french"
+        },
+        "ga": {
+          "type": "text",
+          "analyzer": "irish"
+        },
+        "hr": {
+          // Croatian
+          "type": "text",
+          "analyzer": "standard"
+        },
+        "it": {
+          "type": "text",
+          "analyzer": "italian"
+        },
+        "lv": {
+          "type": "text",
+          "analyzer": "latvian"
+        },
+        "lt": {
+          "type": "text",
+          "analyzer": "lithuanian"
+        },
+        "hu": {
+          "type": "text",
+          "analyzer": "hungarian"
+        },
+        "mt": {
+          // Maltese
+          "type": "text",
+          "analyzer": "standard"
+        },
+        "nl": {
+          "type": "text",
+          "analyzer": "dutch"
+        },
+        "pl": {
+          // Polish
+          "type": "text",
+          "analyzer": "standard"
+        },
+        "pt": {
+          "type": "text",
+          "analyzer": "standard"
+        },
+        "ro": {
+          "type": "text",
+          "analyzer": "portuguese"
+        },
+        "sk": {
+          // Slovak
+          "type": "text",
+          "analyzer": "standard"
+        },
+        "sl": {
+          // Slovenian
+          "type": "text",
+          "analyzer": "standard"
+        },
+        "fi": {
+          "type": "text",
+          "analyzer": "finnish"
+        },
+        "sv": {
+          "type": "text",
+          "analyzer": "swedish"
+        },
+        "no": {
+          "type": "text",
+          "analyzer": "norwegian"
+        },
+        "de": {
+          "type": "text",
+          "analyzer": "german"
+        }
+      }
+    },
+    "catalog": {
+      "properties": {
+        "id": {
+          "type": "text",
+          "analyzer": "standard",
+          "fields": {
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "title": {
+          "dynamic": true,
+          "properties": {
+            "bg": {
+              "type": "text",
+              "analyzer": "bulgarian",
+              "fields": {
+                "autocomplete": {
+                  "type": "text",
+                  "analyzer": "edgengram_analyzer",
+                  "search_analyzer": "standard"
+                },
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "es": {
+              "type": "text",
+              "analyzer": "spanish",
+              "fields": {
+                "autocomplete": {
+                  "type": "text",
+                  "analyzer": "edgengram_analyzer",
+                  "search_analyzer": "standard"
+                },
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "cs": {
+              "type": "text",
+              "analyzer": "czech",
+              "fields": {
+                "autocomplete": {
+                  "type": "text",
+                  "analyzer": "edgengram_analyzer",
+                  "search_analyzer": "standard"
+                },
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "da": {
+              "type": "text",
+              "analyzer": "danish",
+              "fields": {
+                "autocomplete": {
+                  "type": "text",
+                  "analyzer": "edgengram_analyzer",
+                  "search_analyzer": "standard"
+                },
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "et": {
+              // Estonian
+              "type": "text",
+              "analyzer": "standard",
+              "fields": {
+                "autocomplete": {
+                  "type": "text",
+                  "analyzer": "edgengram_analyzer",
+                  "search_analyzer": "standard"
+                },
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "el": {
+              "type": "text",
+              "analyzer": "greek",
+              "fields": {
+                "autocomplete": {
+                  "type": "text",
+                  "analyzer": "edgengram_analyzer",
+                  "search_analyzer": "standard"
+                },
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "en": {
+              "type": "text",
+              "analyzer": "english",
+              "fields": {
+                "autocomplete": {
+                  "type": "text",
+                  "analyzer": "edgengram_analyzer",
+                  "search_analyzer": "standard"
+                },
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "fr": {
+              "type": "text",
+              "analyzer": "french",
+              "fields": {
+                "autocomplete": {
+                  "type": "text",
+                  "analyzer": "edgengram_analyzer",
+                  "search_analyzer": "standard"
+                },
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "ga": {
+              "type": "text",
+              "analyzer": "irish",
+              "fields": {
+                "autocomplete": {
+                  "type": "text",
+                  "analyzer": "edgengram_analyzer",
+                  "search_analyzer": "standard"
+                },
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "hr": {
+              // Croatian
+              "type": "text",
+              "analyzer": "standard",
+              "fields": {
+                "autocomplete": {
+                  "type": "text",
+                  "analyzer": "edgengram_analyzer",
+                  "search_analyzer": "standard"
+                },
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "it": {
+              "type": "text",
+              "analyzer": "italian",
+              "fields": {
+                "autocomplete": {
+                  "type": "text",
+                  "analyzer": "edgengram_analyzer",
+                  "search_analyzer": "standard"
+                },
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "lv": {
+              "type": "text",
+              "analyzer": "latvian",
+              "fields": {
+                "autocomplete": {
+                  "type": "text",
+                  "analyzer": "edgengram_analyzer",
+                  "search_analyzer": "standard"
+                },
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "lt": {
+              "type": "text",
+              "analyzer": "lithuanian",
+              "fields": {
+                "autocomplete": {
+                  "type": "text",
+                  "analyzer": "edgengram_analyzer",
+                  "search_analyzer": "standard"
+                },
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "hu": {
+              "type": "text",
+              "analyzer": "hungarian",
+              "fields": {
+                "autocomplete": {
+                  "type": "text",
+                  "analyzer": "edgengram_analyzer",
+                  "search_analyzer": "standard"
+                },
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "mt": {
+              // Maltese
+              "type": "text",
+              "analyzer": "standard",
+              "fields": {
+                "autocomplete": {
+                  "type": "text",
+                  "analyzer": "edgengram_analyzer",
+                  "search_analyzer": "standard"
+                },
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "nl": {
+              "type": "text",
+              "analyzer": "dutch",
+              "fields": {
+                "autocomplete": {
+                  "type": "text",
+                  "analyzer": "edgengram_analyzer",
+                  "search_analyzer": "standard"
+                },
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "pl": {
+              // Polish
+              "type": "text",
+              "analyzer": "standard",
+              "fields": {
+                "autocomplete": {
+                  "type": "text",
+                  "analyzer": "edgengram_analyzer",
+                  "search_analyzer": "standard"
+                },
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "pt": {
+              "type": "text",
+              "analyzer": "portuguese",
+              "fields": {
+                "autocomplete": {
+                  "type": "text",
+                  "analyzer": "edgengram_analyzer",
+                  "search_analyzer": "standard"
+                },
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "ro": {
+              "type": "text",
+              "analyzer": "romanian",
+              "fields": {
+                "autocomplete": {
+                  "type": "text",
+                  "analyzer": "edgengram_analyzer",
+                  "search_analyzer": "standard"
+                },
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "sk": {
+              // Slovak
+              "type": "text",
+              "analyzer": "standard",
+              "fields": {
+                "autocomplete": {
+                  "type": "text",
+                  "analyzer": "edgengram_analyzer",
+                  "search_analyzer": "standard"
+                },
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "sl": {
+              // Slovenian
+              "type": "text",
+              "analyzer": "standard",
+              "fields": {
+                "autocomplete": {
+                  "type": "text",
+                  "analyzer": "edgengram_analyzer",
+                  "search_analyzer": "standard"
+                },
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "fi": {
+              "type": "text",
+              "analyzer": "finnish",
+              "fields": {
+                "autocomplete": {
+                  "type": "text",
+                  "analyzer": "edgengram_analyzer",
+                  "search_analyzer": "standard"
+                },
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "sv": {
+              "type": "text",
+              "analyzer": "swedish",
+              "fields": {
+                "autocomplete": {
+                  "type": "text",
+                  "analyzer": "edgengram_analyzer",
+                  "search_analyzer": "standard"
+                },
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "no": {
+              "type": "text",
+              "analyzer": "norwegian",
+              "fields": {
+                "autocomplete": {
+                  "type": "text",
+                  "analyzer": "edgengram_analyzer",
+                  "search_analyzer": "standard"
+                },
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "de": {
+              "type": "text",
+              "analyzer": "german",
+              "fields": {
+                "autocomplete": {
+                  "type": "text",
+                  "analyzer": "edgengram_analyzer",
+                  "search_analyzer": "standard"
+                },
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            }
+          }
+        },
+        "description": {
+          "dynamic": true,
+          "properties": {
+            "bg": {
+              "type": "text",
+              "analyzer": "bulgarian"
+            },
+            "es": {
+              "type": "text",
+              "analyzer": "spanish"
+            },
+            "cs": {
+              "type": "text",
+              "analyzer": "czech"
+            },
+            "da": {
+              "type": "text",
+              "analyzer": "danish"
+            },
+            "et": {
+              // Estonian
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "el": {
+              "type": "text",
+              "analyzer": "greek"
+            },
+            "en": {
+              "type": "text",
+              "analyzer": "english"
+            },
+            "fr": {
+              "type": "text",
+              "analyzer": "french"
+            },
+            "ga": {
+              "type": "text",
+              "analyzer": "irish"
+            },
+            "hr": {
+              // Croatian
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "it": {
+              "type": "text",
+              "analyzer": "italian"
+            },
+            "lv": {
+              "type": "text",
+              "analyzer": "latvian"
+            },
+            "lt": {
+              "type": "text",
+              "analyzer": "lithuanian"
+            },
+            "hu": {
+              "type": "text",
+              "analyzer": "hungarian"
+            },
+            "mt": {
+              // Maltese
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "nl": {
+              "type": "text",
+              "analyzer": "dutch"
+            },
+            "pl": {
+              // Polish
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "pt": {
+              "type": "text",
+              "analyzer": "portuguese"
+            },
+            "ro": {
+              "type": "text",
+              "analyzer": "romanian"
+            },
+            "sk": {
+              // Slovak
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "sl": {
+              // Slovenian
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "fi": {
+              "type": "text",
+              "analyzer": "finnish"
+            },
+            "sv": {
+              "type": "text",
+              "analyzer": "swedish"
+            },
+            "no": {
+              "type": "text",
+              "analyzer": "norwegian"
+            },
+            "de": {
+              "type": "text",
+              "analyzer": "german"
+            }
+          }
+        },
+        "country": {
+          "properties": {
+            "id": {
+              "type": "text",
+              "analyzer": "standard",
+              "fields": {
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "label": {
+              "type": "text",
+              "analyzer": "standard",
+              "fields": {
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "resource": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        }
+      }
+    },
+    "catalog_record": {
+      "properties": {
+        "issued": {
+          "type": "date",
+          "ignore_malformed": true
+        },
+        "modified": {
+          "type": "date",
+          "ignore_malformed": true
+        }
+      }
+    },
+    "contact_point": {
+      "properties": {
+        "type": {
+          "type": "text",
+          "analyzer": "standard",
+          "fields": {
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "name": {
+          "type": "text",
+          "analyzer": "standard",
+          "fields": {
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "email": {
+          "enabled": false
+        },
+        "address": {
+          "type": "text",
+          "analyzer": "standard",
+          "fields": {
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "telephone": {
+          "type": "text",
+          "analyzer": "standard",
+          "fields": {
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "url": {
+          "enabled": false
+        },
+        "organisation_name": {
+          "type": "text",
+          "analyzer": "standard",
+          "fields": {
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "resource": {
+          "type": "keyword",
+          "ignore_above": 8191
+        }      
+      }
+    },
+    "distributions": {
+      "properties": {
+        "id": {
+          "type": "text",
+          "analyzer": "standard",
+          "fields": {
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "title": {
+          "dynamic": true,
+          "properties": {
+            "bg": {
+              "type": "text",
+              "analyzer": "bulgarian",
+              "fields": {
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "es": {
+              "type": "text",
+              "analyzer": "spanish",
+              "fields": {
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "cs": {
+              "type": "text",
+              "analyzer": "czech",
+              "fields": {
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "da": {
+              "type": "text",
+              "analyzer": "danish",
+              "fields": {
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "et": {
+              // Estonian
+              "type": "text",
+              "analyzer": "standard",
+              "fields": {
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "el": {
+              "type": "text",
+              "analyzer": "greek",
+              "fields": {
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "en": {
+              "type": "text",
+              "analyzer": "english",
+              "fields": {
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "fr": {
+              "type": "text",
+              "analyzer": "french",
+              "fields": {
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "ga": {
+              "type": "text",
+              "analyzer": "irish",
+              "fields": {
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "hr": {
+              // Croatian
+              "type": "text",
+              "analyzer": "standard",
+              "fields": {
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "it": {
+              "type": "text",
+              "analyzer": "italian",
+              "fields": {
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "lv": {
+              "type": "text",
+              "analyzer": "latvian",
+              "fields": {
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "lt": {
+              "type": "text",
+              "analyzer": "lithuanian",
+              "fields": {
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "hu": {
+              "type": "text",
+              "analyzer": "hungarian",
+              "fields": {
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "mt": {
+              // Maltese
+              "type": "text",
+              "analyzer": "standard",
+              "fields": {
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "nl": {
+              "type": "text",
+              "analyzer": "dutch",
+              "fields": {
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "pl": {
+              // Polish
+              "type": "text",
+              "analyzer": "standard",
+              "fields": {
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "pt": {
+              "type": "text",
+              "analyzer": "standard",
+              "fields": {
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "ro": {
+              "type": "text",
+              "analyzer": "portuguese",
+              "fields": {
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "sk": {
+              // Slovak
+              "type": "text",
+              "analyzer": "standard",
+              "fields": {
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "sl": {
+              // Slovenian
+              "type": "text",
+              "analyzer": "standard",
+              "fields": {
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "fi": {
+              "type": "text",
+              "analyzer": "finnish",
+              "fields": {
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "sv": {
+              "type": "text",
+              "analyzer": "swedish",
+              "fields": {
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "no": {
+              "type": "text",
+              "analyzer": "norwegian",
+              "fields": {
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "de": {
+              "type": "text",
+              "analyzer": "german",
+              "fields": {
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            }
+          }
+        },
+        "description": {
+          "dynamic": true,
+          "properties": {
+            "bg": {
+              "type": "text",
+              "analyzer": "bulgarian"
+            },
+            "es": {
+              "type": "text",
+              "analyzer": "spanish"
+            },
+            "cs": {
+              "type": "text",
+              "analyzer": "czech"
+            },
+            "da": {
+              "type": "text",
+              "analyzer": "danish"
+            },
+            "et": {
+              // Estonian
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "el": {
+              "type": "text",
+              "analyzer": "greek"
+            },
+            "en": {
+              "type": "text",
+              "analyzer": "english"
+            },
+            "fr": {
+              "type": "text",
+              "analyzer": "french"
+            },
+            "ga": {
+              "type": "text",
+              "analyzer": "irish"
+            },
+            "hr": {
+              // Croatian
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "it": {
+              "type": "text",
+              "analyzer": "italian"
+            },
+            "lv": {
+              "type": "text",
+              "analyzer": "latvian"
+            },
+            "lt": {
+              "type": "text",
+              "analyzer": "lithuanian"
+            },
+            "hu": {
+              "type": "text",
+              "analyzer": "hungarian"
+            },
+            "mt": {
+              // Maltese
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "nl": {
+              "type": "text",
+              "analyzer": "dutch"
+            },
+            "pl": {
+              // Polish
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "pt": {
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "ro": {
+              "type": "text",
+              "analyzer": "portuguese"
+            },
+            "sk": {
+              // Slovak
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "sl": {
+              // Slovenian
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "fi": {
+              "type": "text",
+              "analyzer": "finnish"
+            },
+            "sv": {
+              "type": "text",
+              "analyzer": "swedish"
+            },
+            "no": {
+              "type": "text",
+              "analyzer": "norwegian"
+            },
+            "de": {
+              "type": "text",
+              "analyzer": "german"
+            }
+          }
+        },
+        "access_url": {
+          "enabled": false
+        },
+        "conforms_to": {
+          "properties": {
+            "label": {
+              "type": "text",
+              "analyzer": "standard",
+              "fields": {
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "resource": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "download_url": {
+          "enabled": false
+        },
+        "availability": {
+          "properties": {
+            "label": {
+              "type": "text",
+              "analyzer": "standard",
+              "fields": {
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "resource": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "format": {
+          "properties": {
+            "id": {
+              "type": "text",
+              "analyzer": "standard",
+              "fields": {
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "label": {
+              "type": "text",
+              "analyzer": "standard",
+              "fields": {
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "resource": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "license": {
+          "properties": {
+            "id": {
+              "type": "text",
+              "analyzer": "standard",
+              "fields": {
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "label": {
+              "type": "text",
+              "analyzer": "standard",
+              "fields": {
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "description": {
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "la_url": {
+              "enabled": false
+            },
+            "resource": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "byte_size": {
+          "type": "integer"
+        },
+        "checksum": {
+          "properties": {
+            "algorithm": {
+              "type": "text",
+              "analyzer": "standard",
+              "fields": {
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "checksum_value": {
+              "type": "binary"
+            }
+          }
+        },
+        "language": {
+          "properties": {
+            "id": {
+              "type": "text",
+              "analyzer": "standard",
+              "fields": {
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "label": {
+              "type": "text",
+              "analyzer": "standard",
+              "fields": {
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "resource": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "issued": {
+          "type": "date",
+          "ignore_malformed": true
+        },
+        "modified": {
+          "type": "date",
+          "ignore_malformed": true
+        },
+        "media_type": {
+          "type": "keyword",
+          "ignore_above": 8191
+        },
+        "page": {
+          "properties": {
+            "title": {
+              "dynamic": true,
+              "properties": {
+                "bg": {
+                  "type": "text",
+                  "analyzer": "bulgarian"
+                },
+                "es": {
+                  "type": "text",
+                  "analyzer": "spanish"
+                },
+                "cs": {
+                  "type": "text",
+                  "analyzer": "czech"
+                },
+                "da": {
+                  "type": "text",
+                  "analyzer": "danish"
+                },
+                "et": {
+                  // Estonian
+                  "type": "text",
+                  "analyzer": "standard"
+                },
+                "el": {
+                  "type": "text",
+                  "analyzer": "greek"
+                },
+                "en": {
+                  "type": "text",
+                  "analyzer": "english"
+                },
+                "fr": {
+                  "type": "text",
+                  "analyzer": "french"
+                },
+                "ga": {
+                  "type": "text",
+                  "analyzer": "irish"
+                },
+                "hr": {
+                  // Croatian
+                  "type": "text",
+                  "analyzer": "standard"
+                },
+                "it": {
+                  "type": "text",
+                  "analyzer": "italian"
+                },
+                "lv": {
+                  "type": "text",
+                  "analyzer": "latvian"
+                },
+                "lt": {
+                  "type": "text",
+                  "analyzer": "lithuanian"
+                },
+                "hu": {
+                  "type": "text",
+                  "analyzer": "hungarian"
+                },
+                "mt": {
+                  // Maltese
+                  "type": "text",
+                  "analyzer": "standard"
+                },
+                "nl": {
+                  "type": "text",
+                  "analyzer": "dutch"
+                },
+                "pl": {
+                  // Polish
+                  "type": "text",
+                  "analyzer": "standard"
+                },
+                "pt": {
+                  "type": "text",
+                  "analyzer": "standard"
+                },
+                "ro": {
+                  "type": "text",
+                  "analyzer": "portuguese"
+                },
+                "sk": {
+                  // Slovak
+                  "type": "text",
+                  "analyzer": "standard"
+                },
+                "sl": {
+                  // Slovenian
+                  "type": "text",
+                  "analyzer": "standard"
+                },
+                "fi": {
+                  "type": "text",
+                  "analyzer": "finnish"
+                },
+                "sv": {
+                  "type": "text",
+                  "analyzer": "swedish"
+                },
+                "no": {
+                  "type": "text",
+                  "analyzer": "norwegian"
+                },
+                "de": {
+                  "type": "text",
+                  "analyzer": "german"
+                }
+              }
+            },
+            "description": {
+              "dynamic": true,
+              "properties": {
+                "bg": {
+                  "type": "text",
+                  "analyzer": "bulgarian"
+                },
+                "es": {
+                  "type": "text",
+                  "analyzer": "spanish"
+                },
+                "cs": {
+                  "type": "text",
+                  "analyzer": "czech"
+                },
+                "da": {
+                  "type": "text",
+                  "analyzer": "danish"
+                },
+                "et": {
+                  // Estonian
+                  "type": "text",
+                  "analyzer": "standard"
+                },
+                "el": {
+                  "type": "text",
+                  "analyzer": "greek"
+                },
+                "en": {
+                  "type": "text",
+                  "analyzer": "english"
+                },
+                "fr": {
+                  "type": "text",
+                  "analyzer": "french"
+                },
+                "ga": {
+                  "type": "text",
+                  "analyzer": "irish"
+                },
+                "hr": {
+                  // Croatian
+                  "type": "text",
+                  "analyzer": "standard"
+                },
+                "it": {
+                  "type": "text",
+                  "analyzer": "italian"
+                },
+                "lv": {
+                  "type": "text",
+                  "analyzer": "latvian"
+                },
+                "lt": {
+                  "type": "text",
+                  "analyzer": "lithuanian"
+                },
+                "hu": {
+                  "type": "text",
+                  "analyzer": "hungarian"
+                },
+                "mt": {
+                  // Maltese
+                  "type": "text",
+                  "analyzer": "standard"
+                },
+                "nl": {
+                  "type": "text",
+                  "analyzer": "dutch"
+                },
+                "pl": {
+                  // Polish
+                  "type": "text",
+                  "analyzer": "standard"
+                },
+                "pt": {
+                  "type": "text",
+                  "analyzer": "standard"
+                },
+                "ro": {
+                  "type": "text",
+                  "analyzer": "portuguese"
+                },
+                "sk": {
+                  // Slovak
+                  "type": "text",
+                  "analyzer": "standard"
+                },
+                "sl": {
+                  // Slovenian
+                  "type": "text",
+                  "analyzer": "standard"
+                },
+                "fi": {
+                  "type": "text",
+                  "analyzer": "finnish"
+                },
+                "sv": {
+                  "type": "text",
+                  "analyzer": "swedish"
+                },
+                "no": {
+                  "type": "text",
+                  "analyzer": "norwegian"
+                },
+                "de": {
+                  "type": "text",
+                  "analyzer": "german"
+                }
+              }
+            },
+            "format": {
+              "properties": {
+                "id": {
+                  "type": "text",
+                  "analyzer": "standard",
+                  "fields": {
+                    "raw": {
+                      "type": "keyword",
+                      "ignore_above": 8191
+                    }
+                  }
+                },
+                "label": {
+                  "type": "text",
+                  "analyzer": "standard",
+                  "fields": {
+                    "raw": {
+                      "type": "keyword",
+                      "ignore_above": 8191
+                    }
+                  }
+                },
+                "resource": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "resource": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "rights": {
+          "properties": {
+            "label": {
+              "type": "text",
+              "analyzer": "standard",
+              "fields": {
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "resource": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "status": {
+          "properties": {
+            "label": {
+              "type": "text",
+              "analyzer": "standard",
+              "fields": {
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "resource": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "spatial_resolution_in_meters": {
+          "type": "integer"
+        },
+        "temporal_resolution": {
+          "type": "keyword",
+          "ignore_above": 8191
+        },
+        "access_service": {
+          "properties": {
+            "title": {
+              "dynamic": true,
+              "properties": {
+                "bg": {
+                  "type": "text",
+                  "analyzer": "bulgarian",
+                  "fields": {
+                    "raw": {
+                      "type": "keyword",
+                      "ignore_above": 8191
+                    }
+                  }
+                },
+                "es": {
+                  "type": "text",
+                  "analyzer": "spanish",
+                  "fields": {
+                    "raw": {
+                      "type": "keyword",
+                      "ignore_above": 8191
+                    }
+                  }
+                },
+                "cs": {
+                  "type": "text",
+                  "analyzer": "czech",
+                  "fields": {
+                    "raw": {
+                      "type": "keyword",
+                      "ignore_above": 8191
+                    }
+                  }
+                },
+                "da": {
+                  "type": "text",
+                  "analyzer": "danish",
+                  "fields": {
+                    "raw": {
+                      "type": "keyword",
+                      "ignore_above": 8191
+                    }
+                  }
+                },
+                "et": {
+                  // Estonian
+                  "type": "text",
+                  "analyzer": "standard",
+                  "fields": {
+                    "raw": {
+                      "type": "keyword",
+                      "ignore_above": 8191
+                    }
+                  }
+                },
+                "el": {
+                  "type": "text",
+                  "analyzer": "greek",
+                  "fields": {
+                    "raw": {
+                      "type": "keyword",
+                      "ignore_above": 8191
+                    }
+                  }
+                },
+                "en": {
+                  "type": "text",
+                  "analyzer": "english",
+                  "fields": {
+                    "raw": {
+                      "type": "keyword",
+                      "ignore_above": 8191
+                    }
+                  }
+                },
+                "fr": {
+                  "type": "text",
+                  "analyzer": "french",
+                  "fields": {
+                    "raw": {
+                      "type": "keyword",
+                      "ignore_above": 8191
+                    }
+                  }
+                },
+                "ga": {
+                  "type": "text",
+                  "analyzer": "irish",
+                  "fields": {
+                    "raw": {
+                      "type": "keyword",
+                      "ignore_above": 8191
+                    }
+                  }
+                },
+                "hr": {
+                  // Croatian
+                  "type": "text",
+                  "analyzer": "standard",
+                  "fields": {
+                    "raw": {
+                      "type": "keyword",
+                      "ignore_above": 8191
+                    }
+                  }
+                },
+                "it": {
+                  "type": "text",
+                  "analyzer": "italian",
+                  "fields": {
+                    "raw": {
+                      "type": "keyword",
+                      "ignore_above": 8191
+                    }
+                  }
+                },
+                "lv": {
+                  "type": "text",
+                  "analyzer": "latvian",
+                  "fields": {
+                    "raw": {
+                      "type": "keyword",
+                      "ignore_above": 8191
+                    }
+                  }
+                },
+                "lt": {
+                  "type": "text",
+                  "analyzer": "lithuanian",
+                  "fields": {
+                    "raw": {
+                      "type": "keyword",
+                      "ignore_above": 8191
+                    }
+                  }
+                },
+                "hu": {
+                  "type": "text",
+                  "analyzer": "hungarian",
+                  "fields": {
+                    "raw": {
+                      "type": "keyword",
+                      "ignore_above": 8191
+                    }
+                  }
+                },
+                "mt": {
+                  // Maltese
+                  "type": "text",
+                  "analyzer": "standard",
+                  "fields": {
+                    "raw": {
+                      "type": "keyword",
+                      "ignore_above": 8191
+                    }
+                  }
+                },
+                "nl": {
+                  "type": "text",
+                  "analyzer": "dutch",
+                  "fields": {
+                    "raw": {
+                      "type": "keyword",
+                      "ignore_above": 8191
+                    }
+                  }
+                },
+                "pl": {
+                  // Polish
+                  "type": "text",
+                  "analyzer": "standard",
+                  "fields": {
+                    "raw": {
+                      "type": "keyword",
+                      "ignore_above": 8191
+                    }
+                  }
+                },
+                "pt": {
+                  "type": "text",
+                  "analyzer": "standard",
+                  "fields": {
+                    "raw": {
+                      "type": "keyword",
+                      "ignore_above": 8191
+                    }
+                  }
+                },
+                "ro": {
+                  "type": "text",
+                  "analyzer": "portuguese",
+                  "fields": {
+                    "raw": {
+                      "type": "keyword",
+                      "ignore_above": 8191
+                    }
+                  }
+                },
+                "sk": {
+                  // Slovak
+                  "type": "text",
+                  "analyzer": "standard",
+                  "fields": {
+                    "raw": {
+                      "type": "keyword",
+                      "ignore_above": 8191
+                    }
+                  }
+                },
+                "sl": {
+                  // Slovenian
+                  "type": "text",
+                  "analyzer": "standard",
+                  "fields": {
+                    "raw": {
+                      "type": "keyword",
+                      "ignore_above": 8191
+                    }
+                  }
+                },
+                "fi": {
+                  "type": "text",
+                  "analyzer": "finnish",
+                  "fields": {
+                    "raw": {
+                      "type": "keyword",
+                      "ignore_above": 8191
+                    }
+                  }
+                },
+                "sv": {
+                  "type": "text",
+                  "analyzer": "swedish",
+                  "fields": {
+                    "raw": {
+                      "type": "keyword",
+                      "ignore_above": 8191
+                    }
+                  }
+                },
+                "no": {
+                  "type": "text",
+                  "analyzer": "norwegian",
+                  "fields": {
+                    "raw": {
+                      "type": "keyword",
+                      "ignore_above": 8191
+                    }
+                  }
+                },
+                "de": {
+                  "type": "text",
+                  "analyzer": "german",
+                  "fields": {
+                    "raw": {
+                      "type": "keyword",
+                      "ignore_above": 8191
+                    }
+                  }
+                }
+              }
+            },
+            "description": {
+              "dynamic": true,
+              "properties": {
+                "bg": {
+                  "type": "text",
+                  "analyzer": "bulgarian"
+                },
+                "es": {
+                  "type": "text",
+                  "analyzer": "spanish"
+                },
+                "cs": {
+                  "type": "text",
+                  "analyzer": "czech"
+                },
+                "da": {
+                  "type": "text",
+                  "analyzer": "danish"
+                },
+                "et": {
+                  // Estonian
+                  "type": "text",
+                  "analyzer": "standard"
+                },
+                "el": {
+                  "type": "text",
+                  "analyzer": "greek"
+                },
+                "en": {
+                  "type": "text",
+                  "analyzer": "english"
+                },
+                "fr": {
+                  "type": "text",
+                  "analyzer": "french"
+                },
+                "ga": {
+                  "type": "text",
+                  "analyzer": "irish"
+                },
+                "hr": {
+                  // Croatian
+                  "type": "text",
+                  "analyzer": "standard"
+                },
+                "it": {
+                  "type": "text",
+                  "analyzer": "italian"
+                },
+                "lv": {
+                  "type": "text",
+                  "analyzer": "latvian"
+                },
+                "lt": {
+                  "type": "text",
+                  "analyzer": "lithuanian"
+                },
+                "hu": {
+                  "type": "text",
+                  "analyzer": "hungarian"
+                },
+                "mt": {
+                  // Maltese
+                  "type": "text",
+                  "analyzer": "standard"
+                },
+                "nl": {
+                  "type": "text",
+                  "analyzer": "dutch"
+                },
+                "pl": {
+                  // Polish
+                  "type": "text",
+                  "analyzer": "standard"
+                },
+                "pt": {
+                  "type": "text",
+                  "analyzer": "standard"
+                },
+                "ro": {
+                  "type": "text",
+                  "analyzer": "portuguese"
+                },
+                "sk": {
+                  // Slovak
+                  "type": "text",
+                  "analyzer": "standard"
+                },
+                "sl": {
+                  // Slovenian
+                  "type": "text",
+                  "analyzer": "standard"
+                },
+                "fi": {
+                  "type": "text",
+                  "analyzer": "finnish"
+                },
+                "sv": {
+                  "type": "text",
+                  "analyzer": "swedish"
+                },
+                "no": {
+                  "type": "text",
+                  "analyzer": "norwegian"
+                },
+                "de": {
+                  "type": "text",
+                  "analyzer": "german"
+                }
+              }
+            },
+            "endpoint_url": {
+              "enabled": false
+            },
+            "endpoint_description": {
+              "enabled": false
+            },
+            "access_right": {
+              "properties": {
+                "label": {
+                  "type": "text",
+                  "analyzer": "standard",
+                  "fields": {
+                    "raw": {
+                      "type": "keyword",
+                      "ignore_above": 8191
+                    }
+                  }
+                },
+                "resource": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "license": {
+              "properties": {
+                "id": {
+                  "type": "text",
+                  "analyzer": "standard",
+                  "fields": {
+                    "raw": {
+                      "type": "keyword",
+                      "ignore_above": 8191
+                    }
+                  }
+                },
+                "label": {
+                  "type": "text",
+                  "analyzer": "standard",
+                  "fields": {
+                    "raw": {
+                      "type": "keyword",
+                      "ignore_above": 8191
+                    }
+                  }
+                },
+                "description": {
+                  "type": "text",
+                  "analyzer": "standard"
+                },
+                "la_url": {
+                  "enabled": false
+                },
+                "resource": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            }
+          }
+        },
+        "compress_format": {
+          "properties": {
+            "label": {
+              "type": "text",
+              "analyzer": "standard",
+              "fields": {
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "resource": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "package_format": {
+          "properties": {
+            "label": {
+              "type": "text",
+              "analyzer": "standard",
+              "fields": {
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "resource": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "has_policy": {
+          "type": "keyword",
+          "ignore_above": 8191
+        },
+        "type": {
+          "properties": {
+            "label": {
+              "type": "text",
+              "analyzer": "standard",
+              "fields": {
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "resource": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        }
+      }
+    },
+    "keywords": {
+      "properties": {
+        "id": {
+          "type": "text",
+          "analyzer": "standard",
+          "fields": {
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "label": {
+          "type": "text",
+          "analyzer": "standard",
+          "fields": {
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "language": {
+          "type": "text",
+          "analyzer": "standard",
+          "fields": {
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        }
+      }
+    },
+    "publisher": {
+      "properties": {
+        "type": {
+          "type": "text",
+          "analyzer": "standard",
+          "fields": {
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "name": {
+          "type": "text",
+          "analyzer": "standard",
+          "fields": {
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "email": {
+          "enabled": false
+        },
+        "homepage": {
+          "enabled": false
+        },
+        "resource": {
+          "type": "keyword",
+          "ignore_above": 8191
+        }
+      }
+    },
+    "categories": {
+      "properties": {
+        "id": {
+          "type": "text",
+          "analyzer": "standard",
+          "fields": {
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "label": {
+          "dynamic": true,
+          "properties": {
+            "bg": {
+              "type": "text",
+              "analyzer": "bulgarian"
+            },
+            "es": {
+              "type": "text",
+              "analyzer": "spanish"
+            },
+            "cs": {
+              "type": "text",
+              "analyzer": "czech"
+            },
+            "da": {
+              "type": "text",
+              "analyzer": "danish"
+            },
+            "et": {
+              // Estonian
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "el": {
+              "type": "text",
+              "analyzer": "greek"
+            },
+            "en": {
+              "type": "text",
+              "analyzer": "english"
+            },
+            "fr": {
+              "type": "text",
+              "analyzer": "french"
+            },
+            "ga": {
+              "type": "text",
+              "analyzer": "irish"
+            },
+            "hr": {
+              // Croatian
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "it": {
+              "type": "text",
+              "analyzer": "italian"
+            },
+            "lv": {
+              "type": "text",
+              "analyzer": "latvian"
+            },
+            "lt": {
+              "type": "text",
+              "analyzer": "lithuanian"
+            },
+            "hu": {
+              "type": "text",
+              "analyzer": "hungarian"
+            },
+            "mt": {
+              // Maltese
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "nl": {
+              "type": "text",
+              "analyzer": "dutch"
+            },
+            "pl": {
+              // Polish
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "pt": {
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "ro": {
+              "type": "text",
+              "analyzer": "portuguese"
+            },
+            "sk": {
+              // Slovak
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "sl": {
+              // Slovenian
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "fi": {
+              "type": "text",
+              "analyzer": "finnish"
+            },
+            "sv": {
+              "type": "text",
+              "analyzer": "swedish"
+            },
+            "no": {
+              "type": "text",
+              "analyzer": "norwegian"
+            },
+            "de": {
+              "type": "text",
+              "analyzer": "german"
+            }
+          }
+        },
+        "resource": {
+          "type": "keyword",
+          "ignore_above": 8191
+        }
+      }
+    },
+    "access_right": {
+      "properties": {
+        "label": {
+          "type": "text",
+          "analyzer": "standard",
+          "fields": {
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "resource": {
+          "type": "keyword",
+          "ignore_above": 8191
+        }
+      }
+    },
+    "creator": {
+      "properties": {
+        "type": {
+          "type": "text",
+          "analyzer": "standard",
+          "fields": {
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "name": {
+          "type": "text",
+          "analyzer": "standard",
+          "fields": {
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "email": {
+          "enabled": false
+        },
+        "homepage": {
+          "enabled": false
+        },
+        "resource": {
+          "type": "keyword",
+          "ignore_above": 8191
+        }
+      }
+    },
+    "accrual_periodicity": {
+      "properties": {
+        "label": {
+          "type": "text",
+          "analyzer": "standard",
+          "fields": {
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "resource": {
+          "type": "keyword",
+          "ignore_above": 8191
+        }
+      }
+    },
+    "conforms_to": {
+      "properties": {
+        "label": {
+          "type": "text",
+          "analyzer": "standard",
+          "fields": {
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "resource": {
+          "type": "keyword",
+          "ignore_above": 8191
+        }
+      }
+    },
+    "identifier": {
+      "type": "text",
+      "analyzer": "standard",
+      "fields": {
+        "raw": {
+          "type": "keyword",
+          "ignore_above": 8191
+        }
+      }
+    },
+    "is_version_of": {
+      "type": "keyword",
+      "ignore_above": 8191
+    },
+    "has_version": {
+      "type": "keyword",
+      "ignore_above": 8191
+    },
+    "landing_page": {
+      "properties": {
+        "title": {
+          "dynamic": true,
+          "properties": {
+            "bg": {
+              "type": "text",
+              "analyzer": "bulgarian"
+            },
+            "es": {
+              "type": "text",
+              "analyzer": "spanish"
+            },
+            "cs": {
+              "type": "text",
+              "analyzer": "czech"
+            },
+            "da": {
+              "type": "text",
+              "analyzer": "danish"
+            },
+            "et": {
+              // Estonian
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "el": {
+              "type": "text",
+              "analyzer": "greek"
+            },
+            "en": {
+              "type": "text",
+              "analyzer": "english"
+            },
+            "fr": {
+              "type": "text",
+              "analyzer": "french"
+            },
+            "ga": {
+              "type": "text",
+              "analyzer": "irish"
+            },
+            "hr": {
+              // Croatian
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "it": {
+              "type": "text",
+              "analyzer": "italian"
+            },
+            "lv": {
+              "type": "text",
+              "analyzer": "latvian"
+            },
+            "lt": {
+              "type": "text",
+              "analyzer": "lithuanian"
+            },
+            "hu": {
+              "type": "text",
+              "analyzer": "hungarian"
+            },
+            "mt": {
+              // Maltese
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "nl": {
+              "type": "text",
+              "analyzer": "dutch"
+            },
+            "pl": {
+              // Polish
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "pt": {
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "ro": {
+              "type": "text",
+              "analyzer": "portuguese"
+            },
+            "sk": {
+              // Slovak
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "sl": {
+              // Slovenian
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "fi": {
+              "type": "text",
+              "analyzer": "finnish"
+            },
+            "sv": {
+              "type": "text",
+              "analyzer": "swedish"
+            },
+            "no": {
+              "type": "text",
+              "analyzer": "norwegian"
+            },
+            "de": {
+              "type": "text",
+              "analyzer": "german"
+            }
+          }
+        },
+        "description": {
+          "dynamic": true,
+          "properties": {
+            "bg": {
+              "type": "text",
+              "analyzer": "bulgarian"
+            },
+            "es": {
+              "type": "text",
+              "analyzer": "spanish"
+            },
+            "cs": {
+              "type": "text",
+              "analyzer": "czech"
+            },
+            "da": {
+              "type": "text",
+              "analyzer": "danish"
+            },
+            "et": {
+              // Estonian
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "el": {
+              "type": "text",
+              "analyzer": "greek"
+            },
+            "en": {
+              "type": "text",
+              "analyzer": "english"
+            },
+            "fr": {
+              "type": "text",
+              "analyzer": "french"
+            },
+            "ga": {
+              "type": "text",
+              "analyzer": "irish"
+            },
+            "hr": {
+              // Croatian
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "it": {
+              "type": "text",
+              "analyzer": "italian"
+            },
+            "lv": {
+              "type": "text",
+              "analyzer": "latvian"
+            },
+            "lt": {
+              "type": "text",
+              "analyzer": "lithuanian"
+            },
+            "hu": {
+              "type": "text",
+              "analyzer": "hungarian"
+            },
+            "mt": {
+              // Maltese
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "nl": {
+              "type": "text",
+              "analyzer": "dutch"
+            },
+            "pl": {
+              // Polish
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "pt": {
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "ro": {
+              "type": "text",
+              "analyzer": "portuguese"
+            },
+            "sk": {
+              // Slovak
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "sl": {
+              // Slovenian
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "fi": {
+              "type": "text",
+              "analyzer": "finnish"
+            },
+            "sv": {
+              "type": "text",
+              "analyzer": "swedish"
+            },
+            "no": {
+              "type": "text",
+              "analyzer": "norwegian"
+            },
+            "de": {
+              "type": "text",
+              "analyzer": "german"
+            }
+          }
+        },
+        "format": {
+          "properties": {
+            "id": {
+              "type": "text",
+              "analyzer": "standard",
+              "fields": {
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "label": {
+              "type": "text",
+              "analyzer": "standard",
+              "fields": {
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "resource": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "resource": {
+          "type": "keyword",
+          "ignore_above": 8191
+        }
+      }
+    },
+    "language": {
+      "properties": {
+        "id": {
+          "type": "text",
+          "analyzer": "standard",
+          "fields": {
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "label": {
+          "type": "text",
+          "analyzer": "standard",
+          "fields": {
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "resource": {
+          "type": "keyword",
+          "ignore_above": 8191
+        }
+      }
+    },
+    "page": {
+      "properties": {
+        "title": {
+          "dynamic": true,
+          "properties": {
+            "bg": {
+              "type": "text",
+              "analyzer": "bulgarian"
+            },
+            "es": {
+              "type": "text",
+              "analyzer": "spanish"
+            },
+            "cs": {
+              "type": "text",
+              "analyzer": "czech"
+            },
+            "da": {
+              "type": "text",
+              "analyzer": "danish"
+            },
+            "et": {
+              // Estonian
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "el": {
+              "type": "text",
+              "analyzer": "greek"
+            },
+            "en": {
+              "type": "text",
+              "analyzer": "english"
+            },
+            "fr": {
+              "type": "text",
+              "analyzer": "french"
+            },
+            "ga": {
+              "type": "text",
+              "analyzer": "irish"
+            },
+            "hr": {
+              // Croatian
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "it": {
+              "type": "text",
+              "analyzer": "italian"
+            },
+            "lv": {
+              "type": "text",
+              "analyzer": "latvian"
+            },
+            "lt": {
+              "type": "text",
+              "analyzer": "lithuanian"
+            },
+            "hu": {
+              "type": "text",
+              "analyzer": "hungarian"
+            },
+            "mt": {
+              // Maltese
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "nl": {
+              "type": "text",
+              "analyzer": "dutch"
+            },
+            "pl": {
+              // Polish
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "pt": {
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "ro": {
+              "type": "text",
+              "analyzer": "portuguese"
+            },
+            "sk": {
+              // Slovak
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "sl": {
+              // Slovenian
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "fi": {
+              "type": "text",
+              "analyzer": "finnish"
+            },
+            "sv": {
+              "type": "text",
+              "analyzer": "swedish"
+            },
+            "no": {
+              "type": "text",
+              "analyzer": "norwegian"
+            },
+            "de": {
+              "type": "text",
+              "analyzer": "german"
+            }
+          }
+        },
+        "description": {
+          "dynamic": true,
+          "properties": {
+            "bg": {
+              "type": "text",
+              "analyzer": "bulgarian"
+            },
+            "es": {
+              "type": "text",
+              "analyzer": "spanish"
+            },
+            "cs": {
+              "type": "text",
+              "analyzer": "czech"
+            },
+            "da": {
+              "type": "text",
+              "analyzer": "danish"
+            },
+            "et": {
+              // Estonian
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "el": {
+              "type": "text",
+              "analyzer": "greek"
+            },
+            "en": {
+              "type": "text",
+              "analyzer": "english"
+            },
+            "fr": {
+              "type": "text",
+              "analyzer": "french"
+            },
+            "ga": {
+              "type": "text",
+              "analyzer": "irish"
+            },
+            "hr": {
+              // Croatian
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "it": {
+              "type": "text",
+              "analyzer": "italian"
+            },
+            "lv": {
+              "type": "text",
+              "analyzer": "latvian"
+            },
+            "lt": {
+              "type": "text",
+              "analyzer": "lithuanian"
+            },
+            "hu": {
+              "type": "text",
+              "analyzer": "hungarian"
+            },
+            "mt": {
+              // Maltese
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "nl": {
+              "type": "text",
+              "analyzer": "dutch"
+            },
+            "pl": {
+              // Polish
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "pt": {
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "ro": {
+              "type": "text",
+              "analyzer": "portuguese"
+            },
+            "sk": {
+              // Slovak
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "sl": {
+              // Slovenian
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "fi": {
+              "type": "text",
+              "analyzer": "finnish"
+            },
+            "sv": {
+              "type": "text",
+              "analyzer": "swedish"
+            },
+            "no": {
+              "type": "text",
+              "analyzer": "norwegian"
+            },
+            "de": {
+              "type": "text",
+              "analyzer": "german"
+            }
+          }
+        },
+        "format": {
+          "properties": {
+            "id": {
+              "type": "text",
+              "analyzer": "standard",
+              "fields": {
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "label": {
+              "type": "text",
+              "analyzer": "standard",
+              "fields": {
+                "raw": {
+                  "type": "keyword",
+                  "ignore_above": 8191
+                }
+              }
+            },
+            "resource": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "resource": {
+          "type": "keyword",
+          "ignore_above": 8191
+        }
+      }
+    },
+    "provenance": {
+      "properties": {
+        "label": {
+          "type": "text",
+          "analyzer": "standard",
+          "fields": {
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "resource": {
+          "type": "keyword",
+          "ignore_above": 8191
+        }
+      }
+    },
+    "version_info": {
+      "type": "text",
+      "analyzer": "standard",
+      "fields": {
+        "raw": {
+          "type": "keyword",
+          "ignore_above": 8191
+        }
+      }
+    },
+    "issued": {
+      "type": "date",
+      "ignore_malformed": true
+    },
+    "modified": {
+      "type": "date",
+      "ignore_malformed": true
+    },
+    "source": {
+      "type": "keyword",
+      "ignore_above": 8191
+    },
+    "spatial": {
+      "type": "geo_shape",
+      "ignore_malformed": true
+    },
+    "spatial_resource": {
+      "properties": {
+        "id": {
+          "type": "text",
+          "analyzer": "standard",
+          "fields": {
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "label": {
+          "type": "text",
+          "analyzer": "standard",
+          "fields": {
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "resource": {
+          "type": "keyword",
+          "ignore_above": 8191
+        }
+      }      
+    },
+    "temporal": {
+      "type": "date_range"
+    },
+    "version_notes": {
+      "dynamic": true,
+      "properties": {
+        "bg": {
+          "type": "text",
+          "analyzer": "bulgarian"
+        },
+        "es": {
+          "type": "text",
+          "analyzer": "spanish"
+        },
+        "cs": {
+          "type": "text",
+          "analyzer": "czech"
+        },
+        "da": {
+          "type": "text",
+          "analyzer": "danish"
+        },
+        "et": {
+          // Estonian
+          "type": "text",
+          "analyzer": "standard"
+        },
+        "el": {
+          "type": "text",
+          "analyzer": "greek"
+        },
+        "en": {
+          "type": "text",
+          "analyzer": "english"
+        },
+        "fr": {
+          "type": "text",
+          "analyzer": "french"
+        },
+        "ga": {
+          "type": "text",
+          "analyzer": "irish"
+        },
+        "hr": {
+          // Croatian
+          "type": "text",
+          "analyzer": "standard"
+        },
+        "it": {
+          "type": "text",
+          "analyzer": "italian"
+        },
+        "lv": {
+          "type": "text",
+          "analyzer": "latvian"
+        },
+        "lt": {
+          "type": "text",
+          "analyzer": "lithuanian"
+        },
+        "hu": {
+          "type": "text",
+          "analyzer": "hungarian"
+        },
+        "mt": {
+          // Maltese
+          "type": "text",
+          "analyzer": "standard"
+        },
+        "nl": {
+          "type": "text",
+          "analyzer": "dutch"
+        },
+        "pl": {
+          // Polish
+          "type": "text",
+          "analyzer": "standard"
+        },
+        "pt": {
+          "type": "text",
+          "analyzer": "standard"
+        },
+        "ro": {
+          "type": "text",
+          "analyzer": "portuguese"
+        },
+        "sk": {
+          // Slovak
+          "type": "text",
+          "analyzer": "standard"
+        },
+        "sl": {
+          // Slovenian
+          "type": "text",
+          "analyzer": "standard"
+        },
+        "fi": {
+          "type": "text",
+          "analyzer": "finnish"
+        },
+        "sv": {
+          "type": "text",
+          "analyzer": "swedish"
+        },
+        "no": {
+          "type": "text",
+          "analyzer": "norwegian"
+        },
+        "de": {
+          "type": "text",
+          "analyzer": "german"
+        }
+      }
+    },
+    "country": {
+      "properties": {
+        "id": {
+          "type": "text",
+          "analyzer": "standard",
+          "fields": {
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "label": {
+          "type": "text",
+          "analyzer": "standard",
+          "fields": {
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "resource": {
+          "type": "keyword",
+          "ignore_above": 8191
+        }
+      }
+    },
+    "legal_base": {
+      "properties": {
+        "id": {
+          "type": "text",
+          "analyzer": "standard",
+          "fields": {
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "label": {
+          "type": "text",
+          "analyzer": "standard",
+          "fields": {
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        }
+      }
+    },
+    "geocoding_description": {
+      "properties": {
+        "id": {
+          "type": "text",
+          "analyzer": "standard",
+          "fields": {
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "label": {
+          "type": "text",
+          "analyzer": "standard",
+          "fields": {
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        }
+      }
+    },
+    "type": {
+      "properties": {
+        "id": {
+          "type": "text",
+          "analyzer": "standard",
+          "fields": {
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "label": {
+          "type": "text",
+          "analyzer": "standard",
+          "fields": {
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "resource": {
+          "type": "keyword",
+          "ignore_above": 8191
+        }
+      }
+    },
+    "deadline": {
+      "type": "date",
+      "ignore_malformed": true
+    },
+    "subject": {
+      "properties": {
+        "label": {
+          "dynamic": true,
+          "properties": {
+            "bg": {
+              "type": "text",
+              "analyzer": "bulgarian"
+            },
+            "es": {
+              "type": "text",
+              "analyzer": "spanish"
+            },
+            "cs": {
+              "type": "text",
+              "analyzer": "czech"
+            },
+            "da": {
+              "type": "text",
+              "analyzer": "danish"
+            },
+            "et": {
+              // Estonian
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "el": {
+              "type": "text",
+              "analyzer": "greek"
+            },
+            "en": {
+              "type": "text",
+              "analyzer": "english"
+            },
+            "fr": {
+              "type": "text",
+              "analyzer": "french"
+            },
+            "ga": {
+              "type": "text",
+              "analyzer": "irish"
+            },
+            "hr": {
+              // Croatian
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "it": {
+              "type": "text",
+              "analyzer": "italian"
+            },
+            "lv": {
+              "type": "text",
+              "analyzer": "latvian"
+            },
+            "lt": {
+              "type": "text",
+              "analyzer": "lithuanian"
+            },
+            "hu": {
+              "type": "text",
+              "analyzer": "hungarian"
+            },
+            "mt": {
+              // Maltese
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "nl": {
+              "type": "text",
+              "analyzer": "dutch"
+            },
+            "pl": {
+              // Polish
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "pt": {
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "ro": {
+              "type": "text",
+              "analyzer": "portuguese"
+            },
+            "sk": {
+              // Slovak
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "sl": {
+              // Slovenian
+              "type": "text",
+              "analyzer": "standard"
+            },
+            "fi": {
+              "type": "text",
+              "analyzer": "finnish"
+            },
+            "sv": {
+              "type": "text",
+              "analyzer": "swedish"
+            },
+            "no": {
+              "type": "text",
+              "analyzer": "norwegian"
+            },
+            "de": {
+              "type": "text",
+              "analyzer": "german"
+            }
+          }
+        },
+        "resource": {
+          "type": "keyword",
+          "ignore_above": 8191
+        }
+      }
+    },
+    "is_referenced_by": {
+      "type": "keyword",
+      "ignore_above": 8191
+    },
+    "adms_identifier": {
+      "properties": {
+        "identifier": {
+          "type": "text",
+          "analyzer": "standard",
+          "fields": {
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "scheme": {
+          "type": "text",
+          "analyzer": "standard",
+          "fields": {
+            "raw": {
+              "type": "keyword",
+              "ignore_above": 8191
+            }
+          }
+        },
+        "resource": {
+          "type": "keyword",
+          "ignore_above": 8191
+        }
+      }
+    },
+    "qualified_attribution": {
+      "type": "keyword",
+      "ignore_above": 8191
+    },
+    "was_generated_by": {
+      "type": "keyword",
+      "ignore_above": 8191
+    },
+    "qualified_relation": {
+      "properties": {
+        "relation": {
+          "type": "keyword",
+          "ignore_above": 8191
+        },
+        "had_role": {
+          "type": "keyword",
+          "ignore_above": 8191
+        }
+      }
+    },
+    "relation": {
+      "type": "keyword",
+      "ignore_above": 8191
+    },
+    "sample": {
+      "type": "keyword",
+      "ignore_above": 8191
+    },
+    "spatial_resolution_in_meters": {
+      "type": "integer"
+    },
+    "temporal_resolution": {
+      "type": "keyword",
+      "ignore_above": 8191
+    },
+    "attribute": {
+      "type": "keyword",
+      "ignore_above": 8191
+    },
+    "dimension": {
+      "type": "keyword",
+      "ignore_above": 8191
+    },
+    "num_series": {
+      "type": "integer"
+    },
+    "has_quality_annotation": {
+      "type": "keyword",
+      "ignore_above": 8191
+    },
+    "stat_unit_measure": {
+      "type": "keyword",
+      "ignore_above": 8191
+    },
+    "quality_meas": {
+      "properties": {
+        "scoring": {
+          "type": "integer"
+        }
+      }
+    },
+    "extended_metadata":{
+      "properties": {
+        "is_used_by": {
+          "type": "keyword",
+          "ignore_above": 8191
+        }
+      }
+    },
+    "translation_meta": {
+      "properties": {
+        "full_available_languages": {
+          "enabled": false
+        },
+        "details": {
+          "dynamic": true,
+          "properties": {
+            "bg": {
+              "dynamic": "strict",
+              "properties": {
+                "machine_translated": {
+                  "enabled": false
+                },
+                "original_language": {
+                  "enabled": false
+                },
+                "issued": {
+                  "enabled": false
+                },
+                "received": {
+                  "enabled": false
+                }
+              }
+            },
+            "es": {
+              "dynamic": "strict",
+              "properties": {
+                "machine_translated": {
+                  "enabled": false
+                },
+                "original_language": {
+                  "enabled": false
+                },
+                "issued": {
+                  "enabled": false
+                },
+                "received": {
+                  "enabled": false
+                }
+              }
+            },
+            "cs": {
+              "dynamic": "strict",
+              "properties": {
+                "machine_translated": {
+                  "enabled": false
+                },
+                "original_language": {
+                  "enabled": false
+                },
+                "issued": {
+                  "enabled": false
+                },
+                "received": {
+                  "enabled": false
+                }
+              }
+            },
+            "da": {
+              "dynamic": "strict",
+              "properties": {
+                "machine_translated": {
+                  "enabled": false
+                },
+                "original_language": {
+                  "enabled": false
+                },
+                "issued": {
+                  "enabled": false
+                },
+                "received": {
+                  "enabled": false
+                }
+              }
+            },
+            "et": {
+              "dynamic": "strict",
+              "properties": {
+                "machine_translated": {
+                  "enabled": false
+                },
+                "original_language": {
+                  "enabled": false
+                },
+                "issued": {
+                  "enabled": false
+                },
+                "received": {
+                  "enabled": false
+                }
+              }
+            },
+            "el": {
+              "dynamic": "strict",
+              "properties": {
+                "machine_translated": {
+                  "enabled": false
+                },
+                "original_language": {
+                  "enabled": false
+                },
+                "issued": {
+                  "enabled": false
+                },
+                "received": {
+                  "enabled": false
+                }
+              }
+            },
+            "en": {
+              "dynamic": "strict",
+              "properties": {
+                "machine_translated": {
+                  "enabled": false
+                },
+                "original_language": {
+                  "enabled": false
+                },
+                "issued": {
+                  "enabled": false
+                },
+                "received": {
+                  "enabled": false
+                }
+              }
+            },
+            "fr": {
+              "dynamic": "strict",
+              "properties": {
+                "machine_translated": {
+                  "enabled": false
+                },
+                "original_language": {
+                  "enabled": false
+                },
+                "issued": {
+                  "enabled": false
+                },
+                "received": {
+                  "enabled": false
+                }
+              }
+            },
+            "ga": {
+              "dynamic": "strict",
+              "properties": {
+                "machine_translated": {
+                  "enabled": false
+                },
+                "original_language": {
+                  "enabled": false
+                },
+                "issued": {
+                  "enabled": false
+                },
+                "received": {
+                  "enabled": false
+                }
+              }
+            },
+            "hr": {
+              "dynamic": "strict",
+              "properties": {
+                "machine_translated": {
+                  "enabled": false
+                },
+                "original_language": {
+                  "enabled": false
+                },
+                "issued": {
+                  "enabled": false
+                },
+                "received": {
+                  "enabled": false
+                }
+              }
+            },
+            "it": {
+              "dynamic": "strict",
+              "properties": {
+                "machine_translated": {
+                  "enabled": false
+                },
+                "original_language": {
+                  "enabled": false
+                },
+                "issued": {
+                  "enabled": false
+                },
+                "received": {
+                  "enabled": false
+                }
+              }
+            },
+            "lv": {
+              "dynamic": "strict",
+              "properties": {
+                "machine_translated": {
+                  "enabled": false
+                },
+                "original_language": {
+                  "enabled": false
+                },
+                "issued": {
+                  "enabled": false
+                },
+                "received": {
+                  "enabled": false
+                }
+              }
+            },
+            "lt": {
+              "dynamic": "strict",
+              "properties": {
+                "machine_translated": {
+                  "enabled": false
+                },
+                "original_language": {
+                  "enabled": false
+                },
+                "issued": {
+                  "enabled": false
+                },
+                "received": {
+                  "enabled": false
+                }
+              }
+            },
+            "hu": {
+              "dynamic": "strict",
+              "properties": {
+                "machine_translated": {
+                  "enabled": false
+                },
+                "original_language": {
+                  "enabled": false
+                },
+                "issued": {
+                  "enabled": false
+                },
+                "received": {
+                  "enabled": false
+                }
+              }
+            },
+            "mt": {
+              "dynamic": "strict",
+              "properties": {
+                "machine_translated": {
+                  "enabled": false
+                },
+                "original_language": {
+                  "enabled": false
+                },
+                "issued": {
+                  "enabled": false
+                },
+                "received": {
+                  "enabled": false
+                }
+              }
+            },
+            "nl": {
+              "dynamic": "strict",
+              "properties": {
+                "machine_translated": {
+                  "enabled": false
+                },
+                "original_language": {
+                  "enabled": false
+                },
+                "issued": {
+                  "enabled": false
+                },
+                "received": {
+                  "enabled": false
+                }
+              }
+            },
+            "pl": {
+              "dynamic": "strict",
+              "properties": {
+                "machine_translated": {
+                  "enabled": false
+                },
+                "original_language": {
+                  "enabled": false
+                },
+                "issued": {
+                  "enabled": false
+                },
+                "received": {
+                  "enabled": false
+                }
+              }
+            },
+            "pt": {
+              "dynamic": "strict",
+              "properties": {
+                "machine_translated": {
+                  "enabled": false
+                },
+                "original_language": {
+                  "enabled": false
+                },
+                "issued": {
+                  "enabled": false
+                },
+                "received": {
+                  "enabled": false
+                }
+              }
+            },
+            "ro": {
+              "dynamic": "strict",
+              "properties": {
+                "machine_translated": {
+                  "enabled": false
+                },
+                "original_language": {
+                  "enabled": false
+                },
+                "issued": {
+                  "enabled": false
+                },
+                "received": {
+                  "enabled": false
+                }
+              }
+            },
+            "sk": {
+              "dynamic": "strict",
+              "properties": {
+                "machine_translated": {
+                  "enabled": false
+                },
+                "original_language": {
+                  "enabled": false
+                },
+                "issued": {
+                  "enabled": false
+                },
+                "received": {
+                  "enabled": false
+                }
+              }
+            },
+            "sl": {
+              "dynamic": "strict",
+              "properties": {
+                "machine_translated": {
+                  "enabled": false
+                },
+                "original_language": {
+                  "enabled": false
+                },
+                "issued": {
+                  "enabled": false
+                },
+                "received": {
+                  "enabled": false
+                }
+              }
+            },
+            "fi": {
+              "dynamic": "strict",
+              "properties": {
+                "machine_translated": {
+                  "enabled": false
+                },
+                "original_language": {
+                  "enabled": false
+                },
+                "issued": {
+                  "enabled": false
+                },
+                "received": {
+                  "enabled": false
+                }
+              }
+            },
+            "sv": {
+              "dynamic": "strict",
+              "properties": {
+                "machine_translated": {
+                  "enabled": false
+                },
+                "original_language": {
+                  "enabled": false
+                },
+                "issued": {
+                  "enabled": false
+                },
+                "received": {
+                  "enabled": false
+                }
+              }
+            },
+            "no": {
+              "dynamic": "strict",
+              "properties": {
+                "machine_translated": {
+                  "enabled": false
+                },
+                "original_language": {
+                  "enabled": false
+                },
+                "issued": {
+                  "enabled": false
+                },
+                "received": {
+                  "enabled": false
+                }
+              }
+            },
+            "de": {
+              "dynamic": "strict",
+              "properties": {
+                "machine_translated": {
+                  "enabled": false
+                },
+                "original_language": {
+                  "enabled": false
+                },
+                "issued": {
+                  "enabled": false
+                },
+                "received": {
+                  "enabled": false
+                }
+              }
+            }
+          }
+        },
+        "status": {
+          "enabled": false
+        }
+      }
+    }
+  }
+}

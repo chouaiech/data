@@ -1,0 +1,379 @@
+{
+    "message": {
+        "datasetDetails": {
+            "openResource": "Ressource öffnen",
+            "upload": {
+                "unknownFormat": "Unbekanntes Format",
+                "resetText": "Gesamtes Formular zurücksetzen?",
+                "reset": "Formular zurücksetzen",
+                "individual": "Individuell",
+                "person": "Person",
+                "organisation": "Organisation"
+            },
+            "about": "über",
+            "geoInfo": "Datensatzumfang",
+            "translation": {
+                "link": "Hier klicken um den Datensatz in seiner ursprünglichen Sprache anzuzeigen",
+                "message": "Titel und Beschreibung dieses Datensatzes wurden maschinell übersetzt.",
+                "noTranslation": "Für die gewünschte Sprache steht keine Übersetzung zur Verfügung. Die Informationen werden in der Standardsprache angezeigt",
+                "original": "Originale Sprache",
+                "update": "Eine aktualisierte Übersetzung dieses Datensatzes ist in Arbeit."
+            },
+            "options": "Optionen",
+            "subnav": {
+                "activityStream": "Aktivitätsanzeige",
+                "similarDatasets": "Ähnliche Datensätze",
+                "categories": "Kategorien",
+                "dataset": "Datensatz"
+            },
+            "edit": "Bearbeiten",
+            "follow": "Folgen",
+            "preview": "Vorschau",
+            "visualisation": "Visualisierung öffnen",
+            "additionalInfo": "Zusätzliche Informationen",
+            "feedback": "Feedback",
+            "unfollow": "Entfolgen",
+            "manage": "Verwalten",
+            "delete": "Löschen",
+            "geoVisualisation": "Geo-Visualisierung öffnen",
+            "download": "Download",
+            "menu": "Menü"
+        },
+        "userQueries": {
+            "searchAllQueries": "Suchanfragen…",
+            "queryDeleted": "Abfrage gelöscht",
+            "querySaved": "Abfrage gespeichert",
+            "searchQueries": "Suche meine Abfragen…",
+            "noQueryFound": "Keine Abfrage gefunden…",
+            "myQueries": "Meine Abfragen",
+            "noDescription": "Diese Abfrage hat keine Beschreibung",
+            "placeholderNotes": "z.B. einige nützliche Hinweise zur Abfrage",
+            "noQueriesSaved": "Sie haben keine Abfrage gespeichert",
+            "queryFound": "{number} Abfrage gefunden",
+            "areYourSure": "Möchten Sie diese Abfrage wirklich löschen?",
+            "queriesFound": "{number} Abfragen gefunden",
+            "save": "Abfrage speichern",
+            "executeQuery": "Abfrage ausführen"
+        },
+        "header": {
+            "navigation": {
+                "about": {
+                    "beHarvestedByUs": "Ihre Daten bereitstellen",
+                    "title": "Über",
+                    "documentation": "Dokumentation",
+                    "europeanDataPortal": "Europäisches Datenportal"
+                },
+                "training": {
+                    "whatIsOpenData": "Was sind offene Daten",
+                    "title": "Training",
+                    "dataProvidersGuide": "Leitfaden für Datenanbieter",
+                    "moreTrainingMaterial": "Weiteres Trainingsmaterial",
+                    "elearning": "E-Learning",
+                    "licensingAssistant": "Lizenz-Assistent"
+                },
+                "data": {
+                    "sparqlsearch": "SPARQL-Suche",
+                    "statistics": "Statistiken",
+                    "euInternationalData": "EU- und internationale Daten",
+                    "catalogues": "Kataloge",
+                    "datasets": "Datensätze",
+                    "countryData": "Länderdaten",
+                    "metadataQuality": "Metadaten-Qualität",
+                    "title": "Daten"
+                },
+                "newsEvents": {
+                    "title": "Meldungen",
+                    "events": "Veranstaltungen",
+                    "news": "Meldungen"
+                },
+                "impactStudies": {
+                    "studies": "Studien",
+                    "useCases": "Anwendungsfälle",
+                    "tellUsYourStory": "Teilen Sie Ihre Erfahrung mit uns",
+                    "title": "Bedeutung und Studien",
+                    "opendataimpact": "Die Bedeutung offener Daten",
+                    "countryInsights": "Länder-Info",
+                    "overview": "Übersicht",
+                    "opendatamaturity": "Open Data Maturity"
+                },
+                "covid-19": {
+                    "title": "COVID-19",
+                    "datasets": "Datensätze",
+                    "overview": "Übersicht",
+                    "initiatives": "Datenbezogene Initiativen"
+                }
+            },
+            "subnav": {
+                "logout": "Abmelden",
+                "cookies": "Cookies",
+                "login": "Anmelden",
+                "search": "Suche",
+                "newsletter": "Newsletter",
+                "contact": "Kontakt",
+                "legalNotice": "Rechtlicher Hinweis",
+                "faq": "FAQ"
+            },
+            "searchOptions": {
+                "siteContent": "Seiteninhalt",
+                "datasets": "Datensätze"
+            },
+            "searchInputPlaceholder": "Portalinhalte durchsuchen...",
+            "dataPortal": "Datenportal",
+            "european": "Europäisches"
+        },
+        "pagination": {
+            "previousPage": "Zurück",
+            "nextPage": "Vor"
+        },
+        "statistics": {
+            "tableHead": {
+                "trend": "Trend",
+                "country": "Land",
+                "catalogue": "Katalog",
+                "numberOfDatasets": "Anzahl der Datensätze",
+                "name": "Name",
+                "category": "Kategorie",
+                "percent": "Prozentsatz der gesamten Datensätze"
+            },
+            "totalNumber": "Gesamtanzahl an Datensätzen",
+            "evolution": "Datenentwicklung",
+            "datasetsPerCountryAndCatalogue": "Datensätze pro Land und Datenkatalog",
+            "datasetsPerCountry": "Datensätze pro Land",
+            "datasetsPerCatalogue": "Datensätze pro Datenkatalog",
+            "selectTimePeriod": "Wähle Sie die Zeitperiode",
+            "selectType": "Wählen Sie den Statistiktyp",
+            "statistics": "Statistiken",
+            "datasetsPerCategory": "Datensätze pro Datenkategorie",
+            "currentState": "Aktuelle Daten",
+            "meta": {
+                "description": "Hier finden Sie relevante Statistiken über die Entwicklung unseres offenen Portals sowie zahlreiche Datensätze nach Land, Kategorie und Katalog auf data.europa.eu."
+            },
+            "page": {
+                "title": "Statistiken zum offenen Datenportal | Europäische Daten"
+            }
+        },
+        "metadata": {
+            "updatedLowerCase": "aktualisiert",
+            "conformsTo": "Konform mit",
+            "dataset": "Datensatz",
+            "email": "E-Mail",
+            "title": "Titel",
+            "license": "Lizenz",
+            "name": "Name",
+            "upload": "Hochladen",
+            "created": "Erstellt",
+            "addDistribution": "Distribution hinzufügen",
+            "chooseFile": "Wählen Sie eine Datei",
+            "distribution": "Distribution",
+            "label": "Label",
+            "review": "Rezension",
+            "otherIdentifiers": "Andere Identifikatoren",
+            "chooseFormat": "Wählen Sie ein Format",
+            "datasets": "Datensätze",
+            "resource": "Ressource",
+            "spatial": "Gebiet",
+            "deleteItem": "Möchten Sie diesen Artikel wirklich löschen?",
+            "relatedResources": "Zugehörige Resourcen",
+            "accessUrl": "Zugriff",
+            "documentations": "Dokumentationen",
+            "frequency": "Häufigkeit",
+            "updated": "Aktualisiert",
+            "no": "Nein",
+            "landingPage": "Zielseite",
+            "metadataQuality": "Metadaten-Qualität",
+            "yes": "Ja",
+            "chooseCategory": "Wählen Sie eine Kategorie",
+            "update ": "Aktualisieren",
+            "homepage": "Webseite",
+            "contactPoints": "Kontaktmöglichkeiten",
+            "chooseCatalogue": "Wählen Sie einen Katalog",
+            "chooseType": "Wählen Sie einen Typ",
+            "description": "Beschreibung",
+            "downloadUrl": "Download",
+            "provenances": "Ursprünge",
+            "tags": "Tags",
+            "format": "Format",
+            "coordinates": "Koordinaten",
+            "sources": "Quellen",
+            "categories": "Kategorien",
+            "publisher": "Datenbereitsteller",
+            "type": "Typ",
+            "distributions": "Distributionen",
+            "cancel": "Abbrechen",
+            "identifiers": "Identifikatoren"
+        },
+        "footer": {
+            "newsletterText": "Abonnieren Sie unseren Newsletter",
+            "newsletter": "Newsletter",
+            "fundedBy": "Gefördert durch die Europäische Union",
+            "lastUpdated": "Zuletzt aktualisiert",
+            "links": {
+                "search": "Suche",
+                "newsletter": "Newsletter",
+                "cookies": "Cookies",
+                "legalNotice": "Rechtlicher Hinweis",
+                "faq": "FAQ",
+                "contact": "Kontakt",
+                "login": "Anmelden"
+            },
+            "followUs": "Folgen Sie uns",
+            "subscribe": "Abonnieren",
+            "helpUsImprove": "Verbesserungsvorschläge",
+            "managedBy": "Verwaltet vom Amt für Veröffentlichungen der Europäischen Union.",
+            "helpUsImproveText": "Ihr Feedback hilft uns, die Benutzererfahrung stetig zu verbessern. Was ist Ihr Vorschlag?"
+        },
+        "catalogueFacets": {
+            "and": "UND",
+            "facets": {
+                "countries": "Länder",
+                "licences": "Lizenzen",
+                "keywords": "Schlüsselwörter",
+                "formats": "Formate",
+                "catalogues": "Kataloge",
+                "categories": "Kategorien"
+            },
+            "operator": "Betreiber",
+            "settings": "Einstellungen",
+            "or": "ODER",
+            "europeanCatalogues": "Europäische Kataloge",
+            "title": "Filter"
+        },
+        "similarDatasets": {
+            "notFound": "Keine ähnlichen Datensätze gefunden",
+            "lessSimilar": "Weniger ähnlich",
+            "similarDatasets": "Ähnliche Datensätze",
+            "verySimilar": "Sehr ähnlich",
+            "similar": "Ähnlich ",
+            "marginalSimilar": "Marginal ähnlich"
+        },
+        "catalogues": {
+            "geoBoundsMessageRemove": "Schließen Sie diese Meldung, um die Einschränkung zu entfernen \noder benutzen Sie die Reset Funktion.",
+            "countMessage": "Kataloge gefunden für ",
+            "countMessageSingular": "Katalog gefunden für ",
+            "searchBar": {
+                "placeholder": "Kataloge durchsuchen"
+            },
+            "loadingMessage": "Lädt Kataloge…",
+            "geoBoundsMessagePre": "Ihre Suche wurde eingeschränkt auf:",
+            "countMessageNoResult": "Kein Katalog gefunden für "
+        },
+        "common": {
+            "edp": {
+                "title": "Europäisches Datenportal"
+            },
+            "currentCatalogueStatistics": "Aktuelle Katalogstatistik",
+            "historicalCatalogueStatistics": "Verlauf der Katalogstatistik"
+        },
+        "categories": {
+            "tran": "Verkehr",
+            "heal": "Gesundheit",
+            "gove": "Regierung und öffentlicher Sektor",
+            "envi": "Umwelt",
+            "intr": "Internationale Themen",
+            "agri": "Landwirtschaft, Fischerei, Forstwirtschaft und Nahrungsmittel",
+            "soci": "Bevölkerung und Gesellschaft",
+            "econ": "Wirtschaft und Finanzen",
+            "educ": "Bildung, Kultur und Sport",
+            "ener": "Energie",
+            "tech": "Wissenschaft und Technologie",
+            "regi": "Regionen und Städte",
+            "just": "Justiz, Rechtssystem und öffentliche Sicherheit"
+        },
+        "distributions": {
+            "footerLink": "Download"
+        },
+        "navigation": {
+            "navItems": {
+                "map": "Karte",
+                "home": "Start",
+                "imprint": "Impressum",
+                "privacyPolicy": "Datenschutzerklaerung",
+                "about": "Über",
+                "data": "Daten"
+            }
+        },
+        "mapModal": {
+            "disclaimer": "Haftungsausschluss",
+            "fullscreen": "Vollbildschirm",
+            "findDatasets": "Anwenden",
+            "close": "Schließen",
+            "drawRectangleMsg": "Zeichne ein Rechteck zum Auswählen einer Region",
+            "reset": "Zurücksetzen"
+        },
+        "datasetFacets": {
+            "facets": {
+                "catalogues": "Kataloge",
+                "formats": "Formate",
+                "categories": "Kategorien",
+                "licences": "Lizenzen",
+                "keywords": "Schlüsselwörter",
+                "countries": "Länder",
+                "tags": "Tags"
+            },
+            "title": "Filter",
+            "operator": "Operator",
+            "and": "UND",
+            "settings": "Einstellungen",
+            "europeanCatalogues": "Europäische Kataloge",
+            "or": "oder"
+        },
+        "catalogue": {
+            "searchBar": {
+                "placeholder": "Suche nach Katalogen"
+            },
+            "countMessage": "Kataloge gefunden",
+            "geoBoundsMessageRemove": "Schließen Sie diese Meldung, um die Einschränkung zu entfernen \noder benutzen Sie die Reset Funktion.",
+            "loadingMessage": "Kataloge werden abgerufen..."
+        },
+        "datasets": {
+            "loadingMessage": "Datensätze werden abgerufen...",
+            "geoBoundsMessagePre": "Ihre Suche wurde eingeschränkt auf:",
+            "saveQuery": "Suchanfrage speichern",
+            "createDataset": "Erstelle Datensatz",
+            "datasetsFeed": "Datensatz-Feed",
+            "countMessageSingular": "Datensatz gefunden für {query}",
+            "meta": {
+                "translationNotComplete": "Übersetzung nicht vollständig"
+            },
+            "noResult": "Keine Datensätze gefunden für {query}",
+            "geoBoundsMessageRemove": "Schließen Sie diese Meldung, um die Einschränkung zu entfernen \noder benutzen Sie die Reset Funktion.",
+            "searchBar": {
+                "placeholder": "Suche nach Datensätze"
+            },
+            "showMore": "Mehr anzeigen",
+            "findLocation": "Nach Ort filtern",
+            "countMessage": "Datensätze gefunden"
+        },
+        "sort": {
+            "lastCreated": "Zuletzt Erstellt",
+            "nameAZ": "Name A-Z",
+            "nameZA": "Name Z-A",
+            "relevance": "Relevanz",
+            "lastUpdated": "Zuletzt aktualisiert",
+            "sortBy": "Sortieren nach"
+        },
+        "datasetCategories": {
+            "foundCategory": "{number} Kategorien gefunden",
+            "foundCategories": "{number} Kategorie gefunden",
+            "noCategories": "Keine Kategorien gefunden"
+        },
+        "distributionLicense": {
+            "notFound": "Keine Lizenzinformation gefunden.",
+            "openLA": "Lizenzassistent öffnen",
+            "notFoundExtended": "Es wurde keine zusätzlichen Lizenzinformation gefunden, bitte überprüfen Sie die Quelle für weitere Informationen bzgl. der Lizenz.",
+            "licensingAssistant": "Lizenzassistent",
+            "notProvided": "Keine Lizenz angegeben"
+        },
+        "visualisation": {
+            "previewAvailable": "Vorschau verfügbar",
+            "info": "Wenn die Visualisierung nach wenigen Sekunden nicht erscheint, bitte hier klicken.",
+            "loading": "Visualisierung wird geladen..."
+        },
+        "imprint": {
+            "msg": "INSERT IMPRINT HERE"
+        },
+        "home": {
+            "msg": "Sorry, this page has no content yet. Visit the Data tab to see something!"
+        }
+    }
+}

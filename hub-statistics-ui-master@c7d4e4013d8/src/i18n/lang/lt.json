@@ -1,0 +1,379 @@
+{
+    "message": {
+        "datasetDetails": {
+            "openResource": "Eiti į išteklių",
+            "upload": {
+                "unknownFormat": "Nežinomas formatas",
+                "resetText": "Iš naujo nustatyti visą formą?",
+                "reset": "Iš naujo nustatyti formą",
+                "individual": "Fizinis asmuo",
+                "person": "Asmuo",
+                "organisation": "Organizacija"
+            },
+            "about": "apie",
+            "geoInfo": "Duomenų rinkinio apimtis",
+            "translation": {
+                "link": "Spustelėkite čia, kad pamatytumėte duomenų rinkinį originalo kalba",
+                "message": "Šio duomenų rinkinio pavadinimo ir \naprašymo vertimas yra mašininis.",
+                "noTranslation": "Nėra vertimo į pasirinktą kalbą. Informacija yra pateikiama numatytąja kalba",
+                "original": "Originalo kalba",
+                "update": "Atnaujinamas šio duomenų rinkinio vertimas."
+            },
+            "options": "Parinktys",
+            "subnav": {
+                "activityStream": "Veiklos srautas",
+                "similarDatasets": "Panašūs duomenų rinkiniai",
+                "categories": "Kategorijos",
+                "dataset": "Rinkmena"
+            },
+            "edit": "Redaguoti",
+            "follow": "Sekti",
+            "preview": "Peržiūra",
+            "visualisation": "Atidaryti vizualizaciją",
+            "additionalInfo": "Papildoma informacija",
+            "feedback": "Atsiliepimai",
+            "unfollow": "Nebesekti",
+            "manage": "Tvarkyti ",
+            "delete": "Ištrinti",
+            "geoVisualisation": "Atidaryti geovizualizaciją",
+            "download": "Atsisiųsti",
+            "menu": "Meniu"
+        },
+        "userQueries": {
+            "searchAllQueries": "Ieškoti užklausose…",
+            "queryDeleted": "Užklausa ištrinta",
+            "querySaved": "Užklausa išsaugota",
+            "searchQueries": "Ieškoti mano užklausose...",
+            "noQueryFound": "Nerasta užklausų",
+            "myQueries": "Mano užklausos",
+            "noDescription": "Ši užklausa neturi aprašo",
+            "placeholderNotes": "pvz., keletas naudingų pastabų dėl užklausos",
+            "noQueriesSaved": "Jūs neįrašėte jokių užklausų.",
+            "queryFound": "Rasta {number} užklausa",
+            "areYourSure": "Ar tikrai norite ištrinti šią užklausą?",
+            "queriesFound": "Rasta {number} užklausos (-ų)",
+            "save": "Išsaugoti užklausą",
+            "executeQuery": "Vykdyti užklausą"
+        },
+        "header": {
+            "navigation": {
+                "about": {
+                    "beHarvestedByUs": "Mes galime rinkti jūsų duomenis",
+                    "title": "Apie",
+                    "documentation": "Dokumentai",
+                    "europeanDataPortal": "Europos Duomenų Portalas"
+                },
+                "training": {
+                    "whatIsOpenData": "Atvirieji duomenys: kas tai?",
+                    "title": "Mokymas",
+                    "dataProvidersGuide": "Duomenų teikėjo vadovas",
+                    "moreTrainingMaterial": "Daugiau mokomosios medžiagos",
+                    "elearning": "e. mokymasis",
+                    "licensingAssistant": "Licencijų išdavimo asistentas"
+                },
+                "data": {
+                    "sparqlsearch": "SPARQL paieška",
+                    "statistics": "Statistika",
+                    "euInternationalData": "ES ir tarptautiniai duomenys",
+                    "catalogues": "Katalogai",
+                    "datasets": "Duomenų rinkiniai",
+                    "countryData": "Šalies duomenys",
+                    "metadataQuality": "Metaduomenų kokybė",
+                    "title": "Duomenys"
+                },
+                "newsEvents": {
+                    "title": "Naujienos ir įvykiai",
+                    "events": "Įvykiai",
+                    "news": "Naujienos"
+                },
+                "impactStudies": {
+                    "studies": "Tyrimai",
+                    "useCases": "Naudojimo atvejai",
+                    "tellUsYourStory": "Papasakokite savo istoriją",
+                    "title": "Poveikis ir tyrimai",
+                    "opendataimpact": "Atvirųjų duomenų poveikis",
+                    "countryInsights": "Šalių įžvalgos",
+                    "overview": "Apžvalga",
+                    "opendatamaturity": "Atvirųjų duomenų užbaigtumas"
+                },
+                "covid-19": {
+                    "title": "COVID-19",
+                    "datasets": "Duomenų rinkiniai",
+                    "overview": "Apžvalga",
+                    "initiatives": "Su duomenimis susijusios iniciatyvos"
+                }
+            },
+            "subnav": {
+                "logout": "Atsijungti",
+                "cookies": "Slapukai",
+                "login": "Prisijungti",
+                "search": "Ieškoti",
+                "newsletter": "Naujienlaiškis",
+                "contact": "Kontaktai",
+                "legalNotice": "Teisinis pranešimas",
+                "faq": "DUK"
+            },
+            "searchOptions": {
+                "siteContent": "Svetainės turinys",
+                "datasets": "Duomenų rinkiniai"
+            },
+            "searchInputPlaceholder": "Ieškoti svetainės turinyje...",
+            "dataPortal": "duomenų portalas",
+            "european": "Europos"
+        },
+        "pagination": {
+            "previousPage": "Ankstesnis",
+            "nextPage": "Kitas"
+        },
+        "statistics": {
+            "tableHead": {
+                "trend": "Tendencija",
+                "country": "Šalis",
+                "catalogue": "Katalogas",
+                "numberOfDatasets": "Duomenų rinkinių skaičius",
+                "name": "Pavadinimas",
+                "category": "Kategorija",
+                "percent": "Visų duomenų rinkinių procentas"
+            },
+            "totalNumber": "Bendras duomenų rinkinių skaičius",
+            "evolution": "Pokytis",
+            "datasetsPerCountryAndCatalogue": "Duomenų rinkinių pagal šalį ir katalogą",
+            "datasetsPerCountry": "Duomenų rinkinių pagal šalį",
+            "datasetsPerCatalogue": "Duomenų rinkinių pagal katalogą",
+            "selectTimePeriod": "Pasirinkite laikotarpį",
+            "selectType": "Pasirinkite statistikos tipą",
+            "statistics": "Statistika",
+            "datasetsPerCategory": "Duomenų rinkinių pagal kategoriją",
+            "currentState": "Dabartinė būsena",
+            "meta": {
+                "description": "Čia rasite atitinkamus statistinius duomenis apie mūsų atvirojo portalo plėtrą ir daugybę data.europa.eu esančių duomenų rinkinių pagal šalį, kategoriją, katalogą."
+            },
+            "page": {
+                "title": "Atvirųjų duomenų portalo statistika | data.europa.eu"
+            }
+        },
+        "metadata": {
+            "updatedLowerCase": "atnaujinta",
+            "conformsTo": "Atitinka",
+            "dataset": "Duomenų aibė",
+            "email": "El. paštas",
+            "title": "Pavadinimas",
+            "license": "Licencija",
+            "name": "Vardas",
+            "upload": "Įkelti",
+            "created": "Sukurta",
+            "addDistribution": "Pridėti paskirstą",
+            "chooseFile": "Pasirinkti failą",
+            "distribution": "Paskirsta",
+            "label": "Etiketė",
+            "review": "Peržiūrėti",
+            "otherIdentifiers": "Kiti identifikatoriai",
+            "chooseFormat": "Pasirinkti formatą",
+            "datasets": "Duomenų rinkiniai",
+            "resource": "Išteklius",
+            "spatial": "Erdviniai duomenys",
+            "deleteItem": "Ar tikrai norite ištrinti šį elementą?",
+            "relatedResources": "Susiję ištekliai",
+            "accessUrl": "Prieigos URL",
+            "documentations": "Dokumentai",
+            "frequency": "Dažnumas",
+            "updated": "Atnaujinta",
+            "no": "Ne",
+            "landingPage": "Įėjimo tinklalapis",
+            "metadataQuality": "Metaduomenų kokybė",
+            "yes": "Taip",
+            "chooseCategory": "Pasirinkti kategoriją",
+            "update ": "Atnaujinti ",
+            "homepage": "Pradžios tinklalapis",
+            "contactPoints": "Kontaktinis punktas",
+            "chooseCatalogue": "Pasirinkti katalogą",
+            "chooseType": "Pasirinkti rūšį",
+            "description": "Aprašas",
+            "downloadUrl": "Parsisiuntimo URL",
+            "provenances": "Kilmė ",
+            "tags": "Žymės",
+            "format": "Formatas",
+            "coordinates": "Koordinatės",
+            "sources": "Šaltiniai",
+            "categories": "Kategorijos",
+            "publisher": "Leidėjas",
+            "type": "Rūšis",
+            "distributions": "Paskirstos",
+            "cancel": "Atšaukti",
+            "identifiers": "Identifikatoriai"
+        },
+        "footer": {
+            "newsletterText": "Prenumeruokite mūsų naujienlaiškį",
+            "newsletter": "Naujienlaiškis",
+            "fundedBy": "Finansuoja Europos Sąjunga",
+            "lastUpdated": "Paskutinis atnaujinimas",
+            "links": {
+                "search": "Ieškoti",
+                "newsletter": "Naujienlaiškis",
+                "cookies": "Slapukai",
+                "legalNotice": "Teisinis pranešimas",
+                "faq": "DUK",
+                "contact": "Kontaktai",
+                "login": "Prisijungti"
+            },
+            "followUs": "Sekite mus",
+            "subscribe": "Prenumeruoti",
+            "helpUsImprove": "Padėkite mums tobulėti",
+            "managedBy": "Tvarko Europos Sąjungos leidinių biuras.",
+            "helpUsImproveText": "Jūsų atsiliepimai mums padės užtikrinti geresnę bendrą vartotojų patirtį. \nTurite pasiūlymų?"
+        },
+        "catalogueFacets": {
+            "and": "IR",
+            "facets": {
+                "countries": "Šalys",
+                "licences": "Licencijos",
+                "keywords": "Raktažodžiai",
+                "formats": "Formatai",
+                "catalogues": "Katalogai",
+                "categories": "Kategorijos"
+            },
+            "operator": "Operatorius",
+            "settings": "Nuostatos",
+            "or": "ARBA",
+            "europeanCatalogues": "Europos katalogas",
+            "title": "Filtrai"
+        },
+        "similarDatasets": {
+            "notFound": "Panašių duomenų rinkinių nerasta.",
+            "lessSimilar": "Mažiau panašūs",
+            "similarDatasets": "Panašūs duomenų rinkiniai",
+            "verySimilar": "Labai panašūs",
+            "similar": "Panašūs",
+            "marginalSimilar": "Nedaug panašūs"
+        },
+        "catalogues": {
+            "geoBoundsMessageRemove": "Apribojimui pašalinti uždarykite šį pranešimą arba naudokite atkūrimo funkciją.",
+            "countMessage": "pagal  rasti katalogai",
+            "countMessageSingular": "pagal  rastas katalogas",
+            "searchBar": {
+                "placeholder": "Ieškoti katalogų..."
+            },
+            "loadingMessage": "Katalogai įkeliami...",
+            "geoBoundsMessagePre": "Jūsų paieška ribojama",
+            "countMessageNoResult": "Nerasta katalogų pagal "
+        },
+        "common": {
+            "edp": {
+                "title": "Europos duomenų portalas"
+            },
+            "currentCatalogueStatistics": "Dabartinė katalogo statistika",
+            "historicalCatalogueStatistics": "Katalogo istorijos statistika"
+        },
+        "categories": {
+            "tran": "Transportas",
+            "heal": "Sveikata",
+            "gove": "Vyriausybė ir viešasis sektorius",
+            "envi": "Aplinka",
+            "intr": "Tarptautiniai klausimai",
+            "agri": "Žemės ūkis, žuvininkystė, miškininkystė ir maistas",
+            "soci": "Gyventojų skaičius ir visuomenė",
+            "econ": "Ekonomika ir finansai",
+            "educ": "Švietimas, kultūra ir sportas",
+            "ener": "Energetika",
+            "tech": "Mokslas ir technologijos",
+            "regi": "Regionai ir miestai",
+            "just": "Teisingumas, teisės sistema ir visuomenės sauga"
+        },
+        "distributions": {
+            "footerLink": "Parsisiųsti"
+        },
+        "navigation": {
+            "navItems": {
+                "map": "Žemėlapis  ",
+                "home": "Namai",
+                "imprint": "Leidimo duomenys",
+                "privacyPolicy": "Privatumo politika",
+                "about": "Apie",
+                "data": "Duomenys"
+            }
+        },
+        "mapModal": {
+            "disclaimer": "Atsakomybės atsisakymas",
+            "fullscreen": "Visas ekranas",
+            "findDatasets": "Taikyti",
+            "close": "Uždaryti",
+            "drawRectangleMsg": "Norėdami pasirinkti regioną, nubraižykite stačiakampį",
+            "reset": "Išvalyti"
+        },
+        "datasetFacets": {
+            "facets": {
+                "catalogues": "Katalogai",
+                "formats": "Formatai",
+                "categories": "Kategorijos",
+                "licences": "Licencijos",
+                "keywords": "Raktažodžiai",
+                "countries": "Šalys",
+                "tags": "Žymės"
+            },
+            "title": "Filtrai",
+            "operator": "Vykdytojas",
+            "and": "IR",
+            "settings": "Nuostatos",
+            "europeanCatalogues": "Europos katalogai",
+            "or": "ARBA"
+        },
+        "catalogue": {
+            "searchBar": {
+                "placeholder": "Ieškoti katalogų "
+            },
+            "countMessage": "Rasta katalogų",
+            "geoBoundsMessageRemove": "Apribojimui pašalinti uždarykite šį pranešimą arba naudokite atkūrimo funkciją.",
+            "loadingMessage": "Katalogai parsisiųsti"
+        },
+        "datasets": {
+            "loadingMessage": "Duomenų rinkiniai įkeliami...",
+            "geoBoundsMessagePre": "Jūsų paieška ribojama",
+            "saveQuery": "Išsaugoti užklausą",
+            "createDataset": "Sukurti duomenų rinkinį",
+            "datasetsFeed": "Duomenų rinkinių sklaidos kanalas",
+            "countMessageSingular": "duomenų rinkinys rastas pagal ",
+            "meta": {
+                "translationNotComplete": "Vertimas nebaigtas"
+            },
+            "noResult": "Pagal  duomenų rinkinių nerasta",
+            "geoBoundsMessageRemove": "Apribojimui pašalinti uždarykite šį pranešimą arba naudokite atkūrimo funkciją.",
+            "searchBar": {
+                "placeholder": "Ieškoti duomenų rinkiniuose..."
+            },
+            "showMore": "Rodyti daugiau",
+            "findLocation": "Filtruoti pagal vietą",
+            "countMessage": "duomenų rinkiniai (-ių) rasta pagal "
+        },
+        "sort": {
+            "lastCreated": "Paskutinis sukurtas",
+            "nameAZ": "Pavadinimą didėjančia tvarka",
+            "nameZA": "Pavadinimą mažėjančia tvarka",
+            "relevance": "Atitikimą",
+            "lastUpdated": "Paskutinį kartą keista",
+            "sortBy": "Rūšiuoti pagal"
+        },
+        "datasetCategories": {
+            "foundCategory": "Rasta {number} kategorijos (-ų)",
+            "foundCategories": "Rasta {number} kategorija",
+            "noCategories": "Nerasta jokių kategorijų"
+        },
+        "distributionLicense": {
+            "notFound": "Nerasta informacijos apie licenciją.",
+            "openLA": "Atidaryti licencijos pagalbos programą",
+            "notFoundExtended": "Nėra papildomos informacijos apie licenciją. Norėdami daugiau informacijos apie šią licenciją, prašome patikrinti šaltinį.",
+            "licensingAssistant": "Licencijų išdavimo asistentas",
+            "notProvided": "Nepateikta jokių licencijų"
+        },
+        "visualisation": {
+            "previewAvailable": "Galima peržiūra",
+            "info": "Jei vizualizacija nebus įkelta po kelių sekundžių, spustelėkite čia.",
+            "loading": "Vizualizacija įkeliama ..."
+        },
+        "imprint": {
+            "msg": "LEIDIMO DUOMENIS ĮRAŠYKITE ČIA"
+        },
+        "home": {
+            "msg": "Deja, šiame puslapyje turinio dar nėra. \nNorėdami ką nors pamatyti, eikite į domenų kortelę!"
+        }
+    }
+}

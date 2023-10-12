@@ -1,0 +1,70 @@
+<ng-template cdkConnectedOverlay [cdkConnectedOverlayOrigin]="trigger" [cdkConnectedOverlayOpen]="legendOpen">
+  <ngb-accordion *ngIf="legendEntries.length > 0" #acc="ngbAccordion">
+    <ngb-panel *ngFor="let entry of legendEntries; index as i" [id]="'panel-' + i">
+      <ng-template ngbPanelHeader let-opened="opened">
+        <div class="d-flex align-items-center" (click)="toggleVisibility(entry)">
+          <div class="custom-checkbox">
+            <input type="checkbox" class="custom-control-input" [checked]="entry.layer.getVisible()">
+            <label class="custom-control-label" for="hideWelcomeCheck"></label>
+          </div>
+          <div class="entry-title flex-grow-1">{{entry.title}}</div>
+          <div (click)="acc.toggle('panel-'+i); $event.stopPropagation()" class="information-toggler">
+            <i *ngIf="!opened" class="bi-plus"></i>
+            <i *ngIf="opened" class="bi-dash"></i>
+          </div>
+        </div>
+      </ng-template>
+      <ng-template ngbPanelContent *ngIf="getLegendUrl(entry)">
+        <div>
+          <button type="button" *ngIf="entry.layer.getVisible()" class="btn btn-light btn-sm"
+            (click)="zoomToExtent(entry)">To extent</button>
+        </div>
+        <img [src]="getLegendUrl(entry)" alt="">
+      </ng-template>
+    </ngb-panel>
+  </ngb-accordion>
+</ng-template>
+
+<div class="map" [attr.id]="mapId">
+
+  <div class="spinner-border loading-spinner" *ngIf="mapLoading"> </div>
+
+  <div class="zoom-buttons btn-group-vertical btn-group-sm">
+    <button type="button" class="btn btn-light zoom-in" (click)="zoomIn()"
+      title="{{'other-features.zoom-in' | translate}}">
+      <i class="bi bi-plus"></i>
+    </button>
+    <button type="button" class="btn btn-light zoom-out" (click)="zoomOut()"
+      title="{{'other-features.zoom-in' | translate}}">
+      <i class="bi bi-dash"></i>
+    </button>
+  </div>
+
+  <div class="feature-buttons">
+    <div>
+      <button type="button" class="btn legend-button" [disabled]="legendEntries.length === 0"
+        (click)="legendOpen = !legendOpen" cdkOverlayOrigin
+        [ngClass]="{'btn-primary': legendOpen, 'btn-light': !legendOpen}" #trigger="cdkOverlayOrigin">
+        {{'functions.legend' | translate}}
+      </button>
+    </div>
+    <div>
+      <button type="button" class="btn feature-info-button" (click)="toggleFeatureInfo()"
+        [ngClass]="{'btn-primary': featureInfoActive, 'btn-light': !featureInfoActive}">
+        {{'functions.feature-info' | translate}}
+      </button>
+    </div>
+  </div>
+
+  <ng-template #dynamic></ng-template>
+
+</div>
+
+<div id="popup" class="ol-popup">
+  <div class="popup-header">
+    <i class="bi bi-x" (click)="closePopup()"></i>
+  </div>
+  <div class="content">
+    <ng-template #popupContent></ng-template>
+  </div>
+</div>

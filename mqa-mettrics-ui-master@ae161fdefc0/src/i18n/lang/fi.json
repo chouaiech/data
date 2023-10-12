@@ -1,0 +1,525 @@
+{
+    "message": {
+        "navigation": {
+            "dashboard": "Koontinäyttö",
+            "download_report": {
+                "help": "Lataa täydellinen raportti tästä luettelosta.",
+                "second_ods": "Open Document Spreadsheet (.ods)",
+                "direct": "Lataa raporttina",
+                "second_xls": "Microsoft Excel (.xlsx)",
+                "second_pdf": "Portable Document Format (.pdf)"
+            },
+            "catalogues": "Luettelot",
+            "about": "dokumentointi",
+            "methodology": "Metodologia",
+            "validation": "validointi"
+        },
+        "dashboard": {
+            "overview": {
+                "header": {
+                    "allCatalogues": "kaikki luettelot",
+                    "topNumber": "Ylin {number}",
+                    "topNumberCatalogues": "Ylimmät {number} luetteloa"
+                },
+                "table_tooltip": {
+                    "dcat_ap": "DCAT-AP-yhteensopivan metadatan prosenttiosuus. Tämä tarkistus tehdään vain portaaleille, jotka tukevat DCAT-AP:tä, esimerkiksi CKANEXT-DCAT-laajennuksen kautta.",
+                    "machine_readability": "Koneellisesti tulkittavassa muodossa olevien jakelujen prosenttiosuus.",
+                    "accessibility_download_url": "Saatavilla olevien latausosoitteiden prosenttiosuus. Saavutettavuus määritellään HTTP GET -menetelmällä. Latausosoite ei ole pakollinen tieto, joten tarkistusta ei voi tehdä, jos tietoja puuttuu.",
+                    "known_licenses": "Käytössä olevien tunnettujen lisenssien prosenttiosuus. Lisätietoja tunnetuista lisensseistä on seuraavissa osioissa. Lisenssi ei ole pakollinen, joten tarkistusta ei voi tehdä, jos tietoja puuttuu.",
+                    "accessibility_access_url": "Saavutettavissa olevien verkko-osoitteiden prosenttiosuus. Saavutettavuus määritellään HTTP GET -menetelmällä."
+                },
+                "headline": "Yleiskatsaus",
+                "table_title": {
+                    "desc": "Kuvaus",
+                    "known_licences": "Tunnetut lisenssit",
+                    "dcat_ap": "DCAT-AP-yhteensopivuus",
+                    "accessibility_access_url": "Verkkosivuston saavutettavuus",
+                    "accessibility_download_url": "Latausverkkosivuston saavutettavuus",
+                    "country": "Maa",
+                    "scoring": "Luokitus",
+                    "machine_readability": "Koneluettavuus",
+                    "rating": "Arvosana",
+                    "name": "Nimi"
+                },
+                "table_description": "Seuraava taulukko antaa yleiskuvan mainituista neljästä kriteeristä. Voit lajitella taulukon tietoja napsauttamalla sarakkeen otsikkoja. Huomaa, että MQA voi tulkita vain lähdeportaalien tarjoamaa tietoa. Jakelut, latausverkko-osoite ja lisenssitiedot eivät ole pakollisia, ja MQA merkitsee puuttuvan tiedon miinus-merkillä \"-\". Huomaa myös, että DCAT-AP-yhteensopivuus voidaan määrittää vain, jos lähdeportaalin metatiedot ovat saatavilla DCAT-AP-linkitetyissä tiedoissa. Muut formaatit on merkitty miinus-merkillä \"-\"."
+            },
+            "interoperability": {
+                "plots": {
+                    "title": {
+                        "formatMediaTypeAlignment": "Formaatti/mediatyyppi sanastosta",
+                        "formatMediaTypeNonProprietary": "Ei-yksinoikeudellinen",
+                        "mediaTypeAvailability": "Mediatyyppi",
+                        "formatAvailability": "Muoto",
+                        "dcatApCompliance": "DCAT-AP-yhteensopivuus",
+                        "formatMediaTypeMachineReadable": "Koneellisesti luettava"
+                    }
+                },
+                "description": "Nämä kriteerit selvittävät tietoaineiston yhteentoimivuuden",
+                "title": "Yhteentoimivuus"
+            },
+            "reusability": {
+                "description": "Seuraavassa taulukossa on kuvattu, mitä mittareita datan uudelleenkäytettävyyden tarkistamiseen käytetään. Tällä alueella voi saada enintään 75 pistettä.",
+                "plots": {
+                    "title": {
+                        "accessRightsAlignment": "Käyttörajoitusten sanasto",
+                        "contactPointAvailability": "Yhteyspiste",
+                        "licenceAlignment": "Lisenssisanasto",
+                        "publisherAvailability": "Julkaisija",
+                        "licenceAvailability": "Lisenssitiedot",
+                        "accessRightsAvailability": "Käyttörajoitukset"
+                    }
+                },
+                "title": "Uudelleenkäytettävyys"
+            },
+            "show_history": "Näytä historia",
+            "contextuality": {
+                "description": "Tiedot, jotka sisältävät lisää kontekstia käyttäjälle",
+                "plots": {
+                    "title": {
+                        "dateIssuedAvailability": "Julkaisupäivä",
+                        "rightsAvailability": "Oikeudet",
+                        "byteSizeAvailability": "Tiedostokoko",
+                        "dateModifiedAvailability": "Muokkaustiedot"
+                    }
+                },
+                "title": "Tilannekohtaisuus"
+            },
+            "accessibility": {
+                "plots": {
+                    "title": {
+                        "accessibilityOfDistributions": "Jakelujen saavutettavuus",
+                        "accessUrlAvailability": "Saatavilla olevat verkko-osoitteet",
+                        "existingDownloadUrl": "Olemassa olevat latausosoitteet",
+                        "accessibilityAccessUrl": "Verkko-osoitteiden saavutettavuus",
+                        "accessUrl": "Verkko-osoite",
+                        "accessUrlStatusCodes": "Useimmin käytettyjen verkko-osoitteiden tilakoodit",
+                        "downloadUrlStatusCodes": "Useimmin käytettyjen latausosoitteiden tilakoodit",
+                        "downloadUrlAvailability": "Latausosoite",
+                        "statusErrorCode": "Virhetilakoodit",
+                        "accessibilityDownloadUrl": "Latausosoitteiden saavutettavuus"
+                    }
+                },
+                "title": "Saavutettavuus",
+                "headline": "Käytettävissä olevat jakelut",
+                "description": "Seuraavat diagrammit sisältävät tietoa jakelujen saavutettavuudesta. Jokaista jakelun URL-osoitetta kohti suoritetaan HTTP HEAD -pyyntö ja vastaus tarkistetaan. Huomaa, että latausosoite on DCAT-AP:n mukaan vapaaehtoinen ja selkeästi merkittävä sellaiseksi lähdeportaalista. Tämä saattaa päteä vain lähdeportaaleihin, jotka asettavat metatietonsa saataville DCAT-AP:ssa."
+            },
+            "site_title": "Euroopan dataportaali| MQA | Koontinäyttö",
+            "findability": {
+                "title": "Löydettävyys",
+                "plots": {
+                    "title": {
+                        "keywordAvailability": "Avainsanojen käyttö",
+                        "spatialAvailability": "Maantieteellinen haku",
+                        "temporalAvailability": "Aikaperusteinen haku",
+                        "categoryAvailability": "Luokat"
+                    }
+                },
+                "description": "Nämä kriteerit auttavat ihmisiä ja koneita tietoaineistojen etsinnässä"
+            },
+            "scoring": {
+                "description": "Luokitus ilmaisee kaikkien dimensioiden metadatan yleisen laadun.",
+                "plots": {
+                    "known": "tunnettu",
+                    "unknown": "tuntematon",
+                    "title": {
+                        "timeBasedScoring": "Luokituksen kehitys"
+                    }
+                },
+                "title": "Luokituksen kehitys"
+            },
+            "show_today": "Näytä tämä päivä",
+            "weight": "Paino",
+            "points": "Pisteet",
+            "intro": {
+                "desc": "<p>Metadatan laadunvarmistuksen tarkoituksena on auttaa tiedontuottajia ja dataportaaleja tarkistamaan metatietojaan eri indikaattoreista. Lisätietoja siitä, mitä mittareita käytämme indikaattorimittauksissa, tutustu metodologiasivullemme.</p>\n<p>Tällä sivulla on yleiskuva kaikista data.europa.eu:n käytettävissä olevista metatiedoista. Yksityiskohtainen näkymä kustakin yksittäisestä luettelosta saa luettelon sivulta ja valitse haluamasi luettelo.</p>"
+            },
+            "dimensions": "Dimensiot"
+        },
+        "catalogue_detail": {
+            "introduction": "Tällä sivulla näkyy luettelon yleinen tila koskien jakeluita ja DCAT-AP-yhdenmukaisuutta.",
+            "harvesting": {
+                "run": {
+                    "updated": "Päivitetty",
+                    "duration": "Kesto (päiviä tunteja:minuutteja:sekunteja)",
+                    "show_log": "Näytä edellisen ajon lokimerkinnät",
+                    "end": "Lopetusaika",
+                    "start": "Aloitusaika",
+                    "log_noattachment": "Liitettä haettaessa tapahtui virhe.",
+                    "skipped": "Ohitettu",
+                    "log": "{0} Lokit {1} - {2} / {3}",
+                    "deleted": "Poistettu",
+                    "no_runs": "Aikaisempia haravointiajoja ei ole saatavilla tai ei vielä ajoitettu.",
+                    "rejected": "Hylätty",
+                    "added": "Lisätty"
+                },
+                "repository_harvester": "Tiedostojen lähdeluettelo",
+                "show_script": "Näytä muunnoskomentosarja",
+                "show_information": "Nähty haravoijan tiedot",
+                "publisher": "Julkaisija",
+                "next_schedule": "Seuraava aikataulu",
+                "default_language": "Oletuskieli",
+                "homepage": "Kotisivu",
+                "email_address": "Sähköpostiosoite",
+                "incremental": "Inkrementaalinen",
+                "frequency": "Taajuus",
+                "type": "Tyyppi",
+                "transformation_script": "{0} Muunnoskomentosarja",
+                "title": "Haravoidaan tietoja",
+                "not_present": "Tämä ei ole haravoitu luettelo, joten haravointitietoa ei ole saatavilla.",
+                "last_run": "Viimeisin haravointiajo"
+            },
+            "violations": {
+                "location": "Virheen sijainti",
+                "non_compliant": "Yhteensopimaton",
+                "resultPath": "Tuloksen polku",
+                "subheadline": "Tietoaineistojen loukkaukset",
+                "title": "Yhteensopimattomat tietoaineistot",
+                "value": "Arvo",
+                "desc": "Rikkomuksen kuvaus",
+                "site_title": "Euroopan dataportaali | MQA | Rikkomukset",
+                "introduction": "Tämä näkymä listaa kaikki tietoaineistot, jotka eivät ole SHACL DCAT-AP -sääntöjen mukaisia.",
+                "own_headline": "DCAT-AP-skeeman rikkomukset",
+                "resultMessage": "Tuloksen viesti"
+            },
+            "distributions": {
+                "introduction": "Tämä näkymä listaa kaikki tietoaineistot, joilla on jakeluja, jotka eivät ole käytettävissä.",
+                "help": "Katso valitusta luettelosta jakelut, jotka eivät ole käytettävissä.",
+                "mediatype_checked": "Mediatyyppi (testistä)",
+                "desc": "Tietoaineistot, joilla on jakeluita, jotka eivät ole käytettävissä",
+                "not_available_access": "Ei saatavilla olevaa verkko-osoitetta",
+                "title": "Jakelun esteettömyyskysymykset",
+                "format": {
+                    "not_machine_readable": "Ei koneluettava",
+                    "name": "Muoto"
+                },
+                "not_available_dl": "Ei saatavilla olevaa latausosoitetta",
+                "download_url": "Latausosoite",
+                "mediatype_given": "Mediatyyppi (testistä)",
+                "nodistributions": "Ei jakeluja saatavana tarkastusta varten.",
+                "access_url": "Access URL",
+                "site_title": "Euroopan dataportaali | MQA | Jakelut",
+                "availability_checked_on": "Saatavuus tarkistettu {date}"
+            },
+            "call_to_action": "Valitse luettelo nähdäksesi tiedot",
+            "title": "Luettelon koontinäyttö",
+            "site_title": "Euroopan dataportaali| MQA | Koontinäyttö"
+        },
+        "common": {
+            "compliant": "Yhteensopiva",
+            "json": "CKAN JSON",
+            "deu": {
+                "url": "www.data.europa.eu",
+                "title": "data.europa.eu"
+            },
+            "site_title_violations": "DCAT-AP-skeemarikkomus",
+            "all": "kaikki",
+            "close": "Sulje",
+            "affacteddatasets": "Tietoaineistot, joihin tämä vaikuttaa",
+            "cataloguedetails": "Luettelon tietonäkymä",
+            "previous": "Edellinen",
+            "violation": "DCAT-AP-skeemarikkomus",
+            "edp": {
+                "title": "Euroopan dataportaali"
+            },
+            "yes": "Kyllä",
+            "error": "Virhe",
+            "portal_page": "Portaalisivu",
+            "since": "Alkaen",
+            "site_title": "Metatietojen laatu | EU:n datan virallinen portaali",
+            "version": "Versio",
+            "ok": "Ok",
+            "distributions": "Jakelut",
+            "no": "Ei",
+            "violations": "DCAT-AP-skeemarikkomukset",
+            "download_url": "Latausosoite",
+            "datasets": "Tietoaineistot",
+            "site_title_distributions": "Jakelun esteettömyyskysymykset",
+            "home": "Koti",
+            "page": "Sivu",
+            "notavailable": "Ei käytettävissä",
+            "status": "Tila"
+        },
+        "methodology": {
+            "dimensions": {
+                "reuse": {
+                    "main_text": " <p>Seuraavassa taulukossa on kuvattu, mitä mittareita käytetään datan uudelleenkäytettävyyden tarkistamiseen. Tällä alueella voi saada enintään 75 pistettä.</p>",
+                    "keywords_name_6": "Julkaisija",
+                    "keywords_name_5": "Yhteyspiste",
+                    "keywords_name_4": "Käyttörajoitusten sanasto",
+                    "keywords_name_3": "Käyttörajoitukset",
+                    "keywords_name_2": "Lisenssisanasto",
+                    "keywords_name_1": "Lisenssitiedot",
+                    "keywords_metric_6": "Tarkistetaan, onko ominaisuus määritetty vai ei.",
+                    "keywords_metric_5": "Tarkistetaan, onko ominaisuus määritetty vai ei.",
+                    "keywords_metric_4": "<p>Tarkistetaan, onko <a href='https://publications.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/access-right' target=’_blank’>käyttöoikeuksien valvottu sanasto</a> käytössä.</p>",
+                    "keywords_metric_3": "Tarkistetaan, onko ominaisuus määritetty vai ei.",
+                    "keywords_metric_2": "<p>Tässä osiossa kuvataan kaikki mitat, joita MQA tutkii laadun määrittämiseksi. Mitat perustuvat <a target=’_blank’ href=’https://www.go-fair.org/fair-principles/'>FAIR periaatteisiin <i class=’fas fa-external-link-alt fa-sm’></i></a>.</p>\n\n<p>MQA suosittelee ja hyvittää valvottujen sanastojen käyttöä. Data.europa.eu-portaali julkaisee valvotut sanastonsa sivustolla <a href=’https://gitlab.com/european-data-portal/edp-vocabularies'target='_blank'>GitLab</a>. Sanastot ovat peräisin osoitteesta <a href=’https://op.europa.eu/en/web/eu-vocabularies/authority-tables'target='_blank'>EU Vocabularies</a>.</p>",
+                    "keywords_metric_1": "Tarkistetaan, onko ominaisuus määritetty vai ei.",
+                    "dcat_name_6": "dct:Publisher",
+                    "dcat_name_5": "dcat:ContactPoint",
+                    "dcat_name_4": "dct:AccessRights",
+                    "dcat_name_3": "dct:AccessRights",
+                    "dcat_name_2": "dct:License",
+                    "dcat_name_1": "dct:License",
+                    "keywords_desc_6": "Julkaisija on datan julkaissut henkilö tai organisaatio.",
+                    "keywords_desc_5": "Yhteyspiste sisältää tietoja siitä, kenelle dataa koskevat kyselyt voi osoittaa.",
+                    "keywords_desc_4": "Valvotun sanaston käyttö parantaa uudelleenkäytettävyyttä.",
+                    "keywords_desc_3": "Tämä kenttä ilmaisee, onko datan käyttöoikeus yleinen vai rajattu.",
+                    "keywords_desc_2": "Virheellisistä lisenssitiedoista kertovia ilmoituksia halutaan rajoittaa. Usein törmätään esimerkiksi CC-lisensseihin, joista puuttuvat versiotiedot.",
+                    "keywords_desc_1": "Lisenssi on arvokasta tietoa datan uudelleenkäyttöä ajatellen."
+                },
+                "contextual": {
+                    "main_text": "Seuraavassa taulukossa on joitakin kevyitä ominaisuuksia, jotka tarjoavat lisää kontekstia käyttäjälle. Tällä alueella voi saada enintään 20 pistettä.",
+                    "keywords_metric_4": "Tarkistetaan, onko ominaisuus määritetty vai ei.",
+                    "keywords_metric_3": "Tarkistetaan, onko ominaisuus määritetty vai ei.",
+                    "keywords_metric_2": "Tarkistetaan, onko ominaisuus määritetty vai ei.",
+                    "keywords_metric_1": "Tarkistetaan, onko ominaisuus määritetty vai ei.",
+                    "keywords_name_4": "Muokkaustiedot",
+                    "keywords_name_3": "Julkaisupäivä",
+                    "keywords_name_2": "Tiedostokoko",
+                    "keywords_name_1": "Oikeudet",
+                    "keywords_desc_4": "Päivämäärä, jona tietoaineistoa tai jakelua muutettiin viimeksi.",
+                    "keywords_desc_3": "Päivämäärä, jona tietoaineisto tai jakelu julkaistiin.",
+                    "keywords_desc_2": "Määrittää tiedoston koon tavuina.",
+                    "keywords_desc_1": "Joissakin tapauksissa tietoaineistoon ei voi käyttää tiettyä lisenssiä. Oikeudet-kentässä voi määrittää viittauksen resurssiin, jossa kerrotaan käyttäjälle hänen oikeuksistaan tietoaineistoa käytettäessä.",
+                    "dcat_name_4": "dcat:Modified",
+                    "dcat_name_3": "dct:Issued",
+                    "dcat_name_2": "dcat:ByteSize",
+                    "dcat_name_1": "dcat:Rights"
+                },
+                "table": {
+                    "metric_name": "Kriteeri",
+                    "dataset_and_distribution": "Tietoaineisto ja jakelu",
+                    "metric": "Mittari",
+                    "dataset": "Tietoaineisto",
+                    "desc": "Kuvaus",
+                    "distribution": "Jakelu",
+                    "weight": "Paino"
+                },
+                "accessible": {
+                    "main_text": " <p>Seuraavassa taulukossa on kuvattu mittareita, joiden avulla määritetään, onko jakelujen viittaama data varmasti saavutettavissa. Tällä alueella voi saada enintään 100 pistettä.</p>",
+                    "dcat_name_3": "dcat:spatial",
+                    "dcat_name_2": "dcat:downloadURL",
+                    "dcat_name_1": "dcat:accessURL",
+                    "keywords_desc_3": "Jos latausosoite on annettu, saavutettavuus tarkistetaan.",
+                    "keywords_desc_2": "Latausosoite on suora linkki viitattuun dataan.",
+                    "keywords_desc_1": "Verkko-osoite ei ole välttämättä suora linkki dataan, vaan se voi myös viitata verkko-osoitteeseen, jonka kautta tietoaineistoon pääsee tai jossa on siitä lisätietoja.",
+                    "keywords_metric_3": "Määritetyn verkko-osoitteen saavutettavuus tarkistetaan HTTP HEAD -pyynnöllä. Jos vastaukseksi saatu tilakoodi on 200- tai 300-alueella, resurssin saavutettavuus arvioidaan positiivisesti.",
+                    "keywords_metric_2": "Tarkistetaan, onko ominaisuus määritetty vai ei.",
+                    "keywords_metric_1": "Määritetyn verkko-osoitteen saavutettavuus tarkistetaan HTTP HEAD -pyynnöllä. Jos vastaukseksi saatu tilakoodi on 200- tai 300-alueella, resurssin saavutettavuus arvioidaan positiivisesti.",
+                    "keywords_name_3": "Latausosoitteen saavutettavuus",
+                    "keywords_name_2": "Latausosoite",
+                    "keywords_name_1": "Verkko-osoitteen saavutettavuus"
+                },
+                "interoperable": {
+                    "main_text": " <p>Seuraavassa taulukossa on kuvattu mittareita, joilla määritellään, voidaanko jakelu katsoa yhteentoimivaksi. Sama sisältö, useita jakeluja -olettamuksen mukaisesti pisteiden laskennassa käytetään vain jakelua, jolla on suurin pistemäärä. Tällä alueella voi saada enintään 110 pistettä.</p>",
+                    "keywords_desc_6": "<p>DCAT-AP-vaatimustenmukaisuus lasketaan kaikista luettelossa olevista lähteistä ja tietoaineistoista. Tämä tarkistus tehdään vain, jos metatiedot on alun perin korjattu DCAT-AP:nä tai pätevänä johdannaisena.</p><p><a href=’https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe'target='_blank'>DCAT-AP</a> on eritelmä linkitettyjen julkisten tietojen kuvaamiseksi Euroopassa. Data.europa.eu-portaali voi myös kerätä metatietoja, jotka eivät ole täysin DCAT-AP:n mukaisia. Parantaakseen DCAT-AP:n vaatimustenmukaisuutta MQA tarkistaa kunkin metatiedon DCAT-AP-yhteensopivuuden osalta.</p>",
+                    "keywords_desc_5": "Tarkistaa, onko jakelun formaatti koneellisesti luettava.",
+                    "keywords_desc_4": "Tarkistaa, onko jakelun formaatti ei-yksinoikeudellinen.",
+                    "keywords_desc_3": "Tarkistaa, kuuluvatko formaatti ja mediatyyppi valvottuun sanastoon.",
+                    "keywords_desc_2": "Tässä kentässä määritetään jakelun mediatyyppi.",
+                    "keywords_desc_1": "Tässä kentässä määritetään jakelun tiedostomuoto.",
+                    "keywords_metric_6": "<p>Metatiedot validoidaan käyttäen joukkoa <a href=’https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe/releases'target='_blank'>SHACL muotoja</a>. Metatiedot eivät ole vaatimusten mukaisia, jos SHACL-validointiraportit sisältävät vähintään yhden ongelman.</p>\n\n<p>MQA käyttää <a href=’/shacl’target=’_blank’>data.europa.eu:n DCAT-AP SHACL</a> validointipalvelua.</p> \n\n<p><a href=’https://www.w3.org/TR/shacl/'target='_blank'>SHACL</a> on W3C:n suositus, ja sitä käytetään RDF-kaavioiden validoimiseen tiettyjä muotoja vastaan.</p>",
+                    "keywords_metric_5": "Jakelua pidetään koneellisesti luettavana, jos määritetty muoto sisältyy vastaavaan dataan.europa.eu <a href=’https://gitlab.com/european-data-portal/edp-vocabularies'target='_blank'>GitLab database</a> sanasto.",
+                    "keywords_metric_4": "Jakelua ei pidetä yleisenä, jos määritetty muoto sisältyy vastaavaan dataan.europa.eu <a href=’https://gitlab.com/european-data-portal/edp-vocabularies'target='_blank'>GitLab database</a> sanasto.",
+                    "keywords_metric_3": "<p>formaatti sanasto löytyy data.europa.eu <a href=’https://gitlab.com/european-data-portal/edp-vocabularies'target='_blank'>GitLab arkisto</a>.</p>\n\n<p>Mediatyyppi on tarkistus suhteessa <a href=’https://www.iana.org/assignments/media-types/media-types.xhtml'target='_blank'>IANA list</a></p>",
+                    "keywords_metric_2": "<p>Tarkistetaan, onko ominaisuus määritetty vai ei.</p>",
+                    "keywords_metric_1": "<p>Tarkistetaan, onko ominaisuus määritetty vai ei.</p>",
+                    "keywords_name_6": "DCAT-AP-yhteensopivuus",
+                    "keywords_name_5": "Koneellisesti luettava",
+                    "keywords_name_4": "Ei-yksinoikeudellinen",
+                    "keywords_name_3": "Formaatti/mediatyyppi sanastosta",
+                    "keywords_name_2": "Mediatyyppi",
+                    "keywords_name_1": "Formaatti",
+                    "dcat_name_6": "Tietoaineisto ja jakelu",
+                    "dcat_name_5": "DCT:Format dcat:MediaType tai/alaomistus dct:Format",
+                    "dcat_name_4": "DCT:Format dcat:MediaType tai/alaomistus dct:Format",
+                    "dcat_name_3": "DCT:Format dcat:MediaType tai/alaomistus dct:Format",
+                    "dcat_name_2": "dcat:MediaType or subproperty of dct:Format",
+                    "dcat_name_1": "dct:Format"
+                },
+                "findability": {
+                    "keywords_desc_4": "Väliaikaisten tietojen avulla käyttäjät voivat tehdä aikaperusteisia hakuja.",
+                    "keywords_desc_3": "Paikkatietojen avulla käyttäjät voivat etsiä tietoaineistoa maantieteellisellä haulla.",
+                    "keywords_desc_2": "Luokat auttavat käyttäjiä tutkimaan tietoaineistoja aihealueen mukaan.",
+                    "keywords_desc_1": "Avainsanat tukevat hakua suoraan ja parantavat siten tietoaineiston löydettävyyttä.",
+                    "keywords_metric_4": "Tarkistetaan, onko ominaisuus määritetty vai ei.",
+                    "keywords_metric_3": "Tarkistetaan, onko ominaisuus määritetty vai ei.",
+                    "keywords_metric_2": "Tarkistetaan, onko tietoaineistolle määritetty yksi vai useampi luokka. Luokkien määrä ei vaikuta pistemäärään.",
+                    "keywords_metric_1": "Järjestelmä tarkistaa, onko avainsanoja määritetty. Avainsanojen määrä ei vaikuta pistemäärään.",
+                    "keywords_name_4": "Aikaperusteinen haku",
+                    "keywords_name_3": "Maantieteellinen haku",
+                    "keywords_name_2": "Luokat",
+                    "keywords_name_1": "Avainsanojen käyttö",
+                    "dcat_name_4": " dcat:temporal",
+                    "dcat_name_3": "dcat:spatial",
+                    "dcat_name_2": "dcat:theme",
+                    "dcat_name_1": "dcat:Keyword",
+                    "main_text": "<p> Seuraavassa taulukossa on kuvattu mittareita, jotka auttavat ihmisiä ja koneita tietoaineistojen etsinnässä. Tällä alueella voi saada enintään 100 pistettä.</p>"
+                },
+                "main_text": "<p>Tässä osiossa on kuvattu kaikkia dimensioita, joita metadatan laadunvarmistus tutkii laatua määritellessään. Dimensiot on johdettu <a target='_blank' href=’https://www.go-fair.org/fair-principles/’>FAIR-periaatteista<i class='fas fa-external-link-alt fa-sm'></i></a>.</p>"
+            },
+            "scoring": {
+                "table": {
+                    "bad": "Huono",
+                    "range": "Pistemääräväli",
+                    "sufficient": "Kohtalainen",
+                    "scoring_cat": "Luokitus",
+                    "good": "Hyvä",
+                    "max_points": "Enimmäispistemäärä",
+                    "excellent": "Erinomainen",
+                    "sum": "Summa",
+                    "dimension": "Dimensio"
+                },
+                "main_text": "Tietoaineiston yleinen pistemäärä on kustakin dimensiosta saatujen pisteiden yhteistulos.",
+                "text": "Lopullinen luokitus tapahtuu neljän luokitusryhmän kautta. Pisteiden yhdistäminen luokitusluokkaan on esitetty alla olevassa taulukossa. Luokituksen edustus metadatan laadunvarmistuksessa ilmaistaan yksinomaan luokitusluokkien avulla. Näin datan tuottajat voivat saavuttaa korkeimman luokituksen, vaikka pisteitä hieman vähennettäisiin.",
+                "headline": "Luokitus"
+            },
+            "headline": "Metadatan laadunvarmistusmetodologia",
+            "cover": {
+                "validator_service": "DCAT-AP SHACL validointipalvelu API",
+                "main_text": " <p> MQA on rajoitettu metatiedot se voi tutkia. Tutkimus rajoittuu yksinomaan metatietoihin, joita data.europa.eu kerää sadonkorjuuprosessin aikana. Jos lähdemetatiedoissa on virheitä, ne voivat väärentää kokonaistuloksen. Tämän virhepotentiaalin rajoittamiseksi MQA tarjoaa validointipalvelun, jota datan tarjoajat voivat käyttää validoidakseen metatiedot kelvollisissa muodoissa ja vaatimustenmukaisissa DCAT-AP:issä ennen kuin ne integroidaan korjuuprosessiin.",
+                "validator_ui": "DCAT-AP SHACL validointipalvelun verkkosivu ",
+                "headline": "Mitä ei käsitellä"
+            },
+            "process": {
+                "main_text": "<p> Metadatan laadunvarmistus tarkistaa metadatan kunkin haravoinnin yhteydessä. Metadatan laadunvarmistus mittaa eri kriteerien laatua. Kriteerit on selostettu alla olevissa taulukoissa. Tarkistusten tulokset tallennetaan datan laatusanastona <a href='https://www.w3.org/TR/vocab-dqv/'>(DQV)<i class='fas fa-external-link-alt fa-sm'></i></a>. DQV on W3C:n spesifikaatio, jota käytetään tietoaineiston laadun kuvailemiseen.</p>\n\n<p>Saavutettavuus voi vaihdella, joten verkko- ja latausosoitteet on tarkistettava toistuvasti. Siksi metadatan laadunvarmistus tarkistaa kaikkien jakelujen saavutettavuuden säännöllisesti. Muiden kriteerien tarkistuksesta poiketen tämä tarkistus kestää kauemmin, sillä jakelut tarkistetaan HTTP:n kautta, ja kullakin pyydetyllä verkko-osoitteella voi olla pitempi vasteaika. Metadatan laadunvarmistuksen käyttämä mekanismi huomioi sen, että jokaisen verkko-osoitteen saavutettavuus tarkistetaan uudelleen muutaman viikon kuluessa edellisestä tarkistuksesta. </p>",
+                "headline": "Metadatan laadunvarmistusprosessi"
+            },
+            "scope": {
+                "main_text": "<p> Metadatan laadunvarmistuksen avulla halutaan vastata seuraavaan kysymykseen: <br> Mikä on metadatan laatu julkisen sektorin datalle yleiseurooppalaisella alueella ja mitkä ovat suurimmat esteet datan laadun parantamiselle? </p><p>Tämän perusteella metadatan laadunvarmistus tutkii seuraavia konkreettisia kysymyksiä:</p><ul><li> Yhteensopivuus DCAT-AP:n ja DCAT-AP-johdannaisten kanssa </li><li> Sellaisten tietojen luovuttaminen, joille DCAT-AP ei ole pakollinen</li><li> Metadatassa viitatun datan saavutettavuus verkko- ja latausosoitteissa</li><li> Viitatun datan koneellinen luettavuus </li><li> Lisenssien käyttö</li></ul><p> Jokaisesta kysymyksestä seuraa yksittäisiä tutkimuksia, joita on kuvattu tarkemmin jäljempänä.</p>",
+                "headline": "Tutkimuksen laajuus"
+            },
+            "assumptions": {
+                "main_text": "<p> MQA perustuu seuraaviin oletuksiin.</p><h6> Ei-pakollisten kenttien käyttö</h6><p> Uskomme, että DCAT-AP:n pakollisten kenttien täyttäminen ei yksin riitä korkealaatuisen metatiedon tuottamiseen. Tästä syystä arvioinnissa tarkastetaan myös kenttiä, joita ei ole määritelty pakollisiksi DCAT-AP:n mukaan. Tarkat tarkastettavat kentät on lueteltu alla.</p><h6> \n\nSama sisältö useille jakeluille</h6><p>Jos aineisto sisältää useamman kuin yhden jakauman, kaikki jakaumat ovat sisällöltään samanlaisia, ne eroavat toisistaan vain tietojen esittämisessä. Esimerkiksi tietoaineistossa voi olla kaksi jakelua, joista toinen tarjoaa datan PDF-muodossa ja toinen identtiset tiedot koneellisesti luettavana RDF/XML:nä. Tämä määritelmä liittyy siihen, miten tietoaineistot luokitellaan MQA:ssa (eräänlainen ”paras käytäntö”), mutta sitä ei pitäisi pitää jakauman vakiomääritelmänä.</p>",
+                "headline": "Olettamukset"
+            },
+            "intro_text": "<p><strong>The Metadata Quality Assessment (MQA) on data.europa.eu:n kehittämä työkalu data.europa.eu:n keräämän metatiedon laadun tutkimiseen.europa.eu./vahva> Tarkoituksena on auttaa tiedontuottajia ja dataportaaleja tarkistamaan metatietojen laatua ja saamaan parannusehdotuksia. Tulokset esitetään MQA:n kautta, ja ne ovat myös ladattavissa. Seuraavassa kuvataan MQA:n toimivuutta ja sen käyttämiä menetelmiä.</p>\n<p> Jos tämä sivu ei vieläkään vastaa kaikkiin kysymyksiisi, ota meihin yhteyttä palautelomakkeella sivun lopussa. </p>",
+            "sub_headline": "Miten data.europa.eu mittaa kaikkien tallennettujen metatietojen laatua"
+        },
+        "header": {
+            "navigation": {
+                "usingData": {
+                    "checklistForUsingData": "Datan käytön tarkistusluettelo",
+                    "useCases": "Käyttötapaukset",
+                    "tellUsYourStory": "Kerro meille tarinasi",
+                    "title": "Datan käyttäminen",
+                    "benefitsOfUsingData": "Datan käyttämisen hyödyt"
+                },
+                "impactStudies": {
+                    "useCases": "Käyttötapaukset",
+                    "overview": "Yleiskatsaus",
+                    "opendatamaturity": "Avoimen datan kypsyys",
+                    "countryInsights": "Maakohtaiset tiedot",
+                    "tellUsYourStory": "Kerro meille tarinasi",
+                    "studies": "Tutkimukset",
+                    "opendataimpact": "Avoimen datan vaikutukset",
+                    "title": "Vaikutukset ja tutkimukset"
+                },
+                "training": {
+                    "dataProvidersGuide": "Datan tuottajan opas",
+                    "whatIsOpenData": "Mitä avoin data on",
+                    "title": "Koulutus",
+                    "elearning": "eLearning",
+                    "moreTrainingMaterial": "Lisää koulutusmateriaalia",
+                    "licensingAssistant": "Lisenssiassistentti"
+                },
+                "data": {
+                    "datasets": "Tietoaineistot",
+                    "sparqlsearch": "SPARQL-haku",
+                    "metadataQuality": "Metadatan laatu",
+                    "licensingAssistant": "Lisenssiassistentti",
+                    "title": "Data",
+                    "statistics": "Tilastot",
+                    "euInternationalData": "EU ja kansainvälinen data",
+                    "sparqlManager": "SPARQL Manager -kyselyeditori",
+                    "catalogues": "Luettelot",
+                    "countryData": "Maatiedot"
+                },
+                "resources": {
+                    "moreTrainingMaterial": "Lisää koulutusmateriaalia",
+                    "title": "Resurssit",
+                    "elearning": "eLearning",
+                    "trainingCompanion": "Koulutuskumppani",
+                    "reportsAboutOpenData": "Avointa dataa koskevat raportit"
+                },
+                "providingData": {
+                    "beHarvestedByUs": "Tarjoudu haravointikohteeksemme",
+                    "title": "Datan tuottaminen",
+                    "cataloguesHarvestedByUs": "Haravoimamme luettelot",
+                    "practicalGuide": "Käytännön opas"
+                },
+                "whatWeDo": {
+                    "openDataMaturity": "Avoimen datan kypsyys",
+                    "ourActivities": "Mitä me teemme",
+                    "factsheetsAndReports": "Esitteet ja raportit",
+                    "title": "Mitä me teemme",
+                    "calendar": "Kalenteri",
+                    "featuredHighlights": "Tärkeät kohteet",
+                    "news": "Uutiset"
+                },
+                "about": {
+                    "beHarvestedByUs": "Tarjoudu haravointikohteeksemme",
+                    "documentation": "Dokumentaatio",
+                    "title": "Tietoja",
+                    "europeanDataPortal": "Euroopan Dataportaali"
+                },
+                "newsEvents": {
+                    "title": "Uutiset ja tapahtumat",
+                    "events": "Tapahtumat",
+                    "news": "Uutiset"
+                }
+            },
+            "subnav": {
+                "contact": "Ota yhteyttä",
+                "legalNotice": "Oikeudellinen huomautus",
+                "search": "Hae",
+                "newsletter": "Uutiskirje",
+                "cookies": "Evästeet",
+                "login": "Sisäänkirjautuminen",
+                "faq": "UKK"
+            },
+            "searchInputPlaceholder": "Hae sivun sisällöstä…",
+            "european": "Euroopan",
+            "searchOptions": {
+                "siteContent": "Sivuston sisältö",
+                "datasets": "Tietoaineistot"
+            },
+            "dataPortal": "Dataportaali"
+        },
+        "footer": {
+            "links": {
+                "search": "Haku",
+                "newsletter": "Uutiskirje",
+                "faq": "UKK",
+                "contact": "Ota yhteyttä",
+                "subscribe": "Tilaa",
+                "cookies": "Evästeet",
+                "login": "Sisäänkirjautuminen",
+                "legalNotice": "Oikeudellinen huomautus"
+            },
+            "managedBy": "Euroopan unionin julkaisutoimiston hallinnoima.",
+            "fundedBy": "Rahoitetaan Euroopan unionin",
+            "newsletter": "Tilaa uutiskirjeemme",
+            "helpUsImproveText": "Palautteesi avulla voimme parantaa yleistä käyttökokemusta. Onko sinulla ehdotuksia?",
+            "newsletterText": "Tilaa uutiskirjeemme",
+            "subscribe": "Tilaa",
+            "followUs": "Seuraa meitä",
+            "lastUpdate": "Viimeksi päivitetty",
+            "helpUsImprove": "Auta meitä parantamaan"
+        },
+        "maintenance_message": "Hyviä uutisia! Parannamme järjestelmää. Sinä aikana tämä komponentti on huoltotilassa, eivätkä kaikki saatavana olevat tiedot välttämättä näy.",
+        "catalogue_list": {
+            "description": "Valitse luettelo nähdäksesi tiedot",
+            "search": {
+                "placeholder": "Etsi luettelonimeä tai kuvausta"
+            }
+        },
+        "title": "Metadata Quality Assurance",
+        "empty": "",
+        "no_data": "Tälle kriteerille ei ole saatavilla mittauksia.",
+        "meta": {
+            "description": "Metadatan laadunvarmistustyökalu antaa yleiskuvan kaikista data.europa.eu-portaalissa saatavilla olevista metatiedoista eri indikaattoreiden mukaisesti."
+        }
+    }
+}

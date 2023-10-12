@@ -1,0 +1,556 @@
+{
+  "success": true,
+  "result": {
+    "country": {
+      "resource": "http://publications.europa.eu/resource/authority/continent/EUROPE",
+      "label": "EU institutions",
+      "id": "eu"
+    },
+    "keywords": [
+      {
+        "language": "en",
+        "id": "piveau",
+        "label": "piveau"
+      },
+      {
+        "language": "en",
+        "id": "open-data",
+        "label": "open data"
+      }
+    ],
+    "catalog": {
+      "country": {
+        "resource": "http://publications.europa.eu/resource/authority/continent/EUROPE",
+        "label": "EU institutions",
+        "id": "eu"
+      },
+      "creator": {
+        "name": "Example Creator",
+        "type": "Agent",
+        "resource": "http://somecreator.example.com",
+        "email": "creator@example.com",
+        "homepage": "www.example.com"
+      },
+      "catalog": [
+        "https://europeandataportal.eu/id/catalogue/test-catalog"
+      ],
+      "is_part_of": "https://europeandataportal.eu/id/catalogue/test-catalog",
+      "description": {
+        "en": "This catalog holds example DCAT-AP 2 datasets."
+      },
+      "language": [
+        {
+          "resource": "http://publications.europa.eu/resource/authority/language/ENG",
+          "id": "en",
+          "label": "English"
+        }
+      ],
+      "title": {
+        "en": "DCAT-AP 2 Showroom"
+      },
+      "theme_taxonomy": [
+        "http://publications.europa.eu/resource/authority/data-theme"
+      ],
+      "license": {
+        "description": "Naamsvermelding-GelijkDelen 3.0 Nederland",
+        "la_url": "https://data.europa.eu/en/content/show-license?license_id=CC-BY-SA3.0NL",
+        "id": "CC_BYSA_3_0_NL",
+        "label": "Naamsvermelding-GelijkDelen 3.0 Nederland",
+        "resource": "https://creativecommons.org/licenses/by-sa/3.0/nl/legalcode/"
+      },
+      "spatial_resource": null,
+      "rights": {
+        "resource": "http://rights.example.com",
+        "label": "public"
+      },
+      "publisher": {
+        "name": "European Commission",
+        "type": "Organization",
+        "resource": "http://publications.europa.eu/resource/authority/corporate-body/COM",
+        "homepage": "https://ec.europa.eu"
+      },
+      "modified": "2021-10-15T12:42:02Z",
+      "id": "dcatap2-showcase",
+      "has_part": [
+        "https://europeandataportal.eu/id/catalogue/test-catalog"
+      ],
+      "spatial": [
+        {
+          "coordinates": [
+            [
+              [
+                12.915,
+                53.1485
+              ],
+              [
+                12.915,
+                53.1985
+              ],
+              [
+                12.9983,
+                53.1985
+              ],
+              [
+                12.9983,
+                53.1485
+              ],
+              [
+                12.915,
+                53.1485
+              ]
+            ]
+          ],
+          "type": "Polygon"
+        }
+      ],
+      "issued": "2021-10-15T12:42:02Z",
+      "homepage": "https://piveau-hub-ui-data-europa-eu.apps.osc.fokus.fraunhofer.de/data/datasets?catalog=dcatap2-showroom&showcataloguedetails=true&locale=de"
+    },
+    "subject": [
+      {
+        "resource": "http://eurovoc.europa.eu/2379",
+        "label": {
+          "de": "Piemont",
+          "fi": "Piemonte",
+          "pt": "Piemonte",
+          "bg": "Пиемонт",
+          "lt": "Pjemontas",
+          "lv": "Pjemonta",
+          "hr": "Pijemont",
+          "fr": "Piémont",
+          "hu": "Piemonte",
+          "sk": "Piemont",
+          "sl": "Piemont",
+          "mk": "Пиемонт",
+          "sq": "Piemonte",
+          "sr": "Пијемонт",
+          "sv": "Piemonte",
+          "el": "Πεδεμόντιο",
+          "mt": "Pjemonte",
+          "en": "Piedmont",
+          "it": "Piemonte",
+          "es": "Piamonte",
+          "et": "Piemonte",
+          "cs": "Piemont",
+          "pl": "Piemont",
+          "ro": "Piemont",
+          "da": "Piemonte",
+          "nl": "Piemonte"
+        }
+      }
+    ],
+    "language": [
+      {
+        "resource": "http://publications.europa.eu/resource/authority/language/ENG",
+        "id": "en",
+        "label": "English"
+      }
+    ],
+    "source": [
+      "http://europeandataportal.eu/set/data/806fb6df-f6d1-4ffc-b0dd-bbc7ad52f7ed"
+    ],
+    "type": {
+      "resource": "http://publications.europa.eu/resource/authority/dataset-type/OP_DATPRO",
+      "id": "OP_DATPRO",
+      "label": "Provisional data"
+    },
+    "temporal_resolution": [
+      "P1960Y11M22DT13H23M44S"
+    ],
+    "relation": [
+      "http://relation.example.com"
+    ],
+    "legal_base": {
+      "id": "somelegalbase",
+      "label": "SomeLegalBase"
+    },
+    "stat_unit_measure": [
+      "http://some.unit.measure.2.example.com",
+      "http://some.unit.measure.1.example.com"
+    ],
+    "qualified_relation": [
+      {
+        "had_role": [
+          "http://www.iana.org/assignments/relation/original"
+        ],
+        "relation": [
+          "https://europeandataportal.eu/set/data/e3b7133c-7347-41b9-b3c3-29fe79d874d1"
+        ]
+      }
+    ],
+    "spatial_resource": null,
+    "modified": "2020-05-25T00:00:00Z",
+    "id": "test-dataset",
+    "issued": "2020-05-25T00:00:00Z",
+    "spatial": [
+      {
+        "coordinates": [
+          [
+            [
+              12.915,
+              53.1485
+            ],
+            [
+              12.915,
+              53.1985
+            ],
+            [
+              12.9983,
+              53.1985
+            ],
+            [
+              12.9983,
+              53.1485
+            ],
+            [
+              12.915,
+              53.1485
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "temporal": [
+      {
+        "lte": "2015-06-09T00:00:00Z",
+        "gte": "2015-06-09T00:00:00Z"
+      }
+    ],
+    "identifier": [
+      "dcatap2-dataset-1"
+    ],
+    "is_version_of": [
+      "http://europeandataportal.eu/set/data/a774145a-4882-4829-a1fe-c17aea8f5cd6"
+    ],
+    "distributions": [
+      {
+        "description": {
+          "en": "Official DCAT-AP specification"
+        },
+        "language": [
+          {
+            "resource": "http://publications.europa.eu/resource/authority/language/ENG",
+            "id": "en",
+            "label": "English"
+          }
+        ],
+        "availability": {
+          "resource": "http://availability.example.com",
+          "label": "stable"
+        },
+        "type": {
+          "resource": "http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE",
+          "label": "Downloadable file"
+        },
+        "title": {
+          "en": "DCAT Application Profile for data portals in Europe (DCAT-AP)"
+        },
+        "temporal_resolution": [
+          "P3Y6M4DT12H30M17S"
+        ],
+        "media_type": "application/pdf",
+        "rights": {
+          "resource": "http://rights.example.com",
+          "label": "public"
+        },
+        "checksum": {
+          "checksum_value": "4c3a106cf3925d14d986d2b0839f5d1e",
+          "algorithm": "checksumAlgorithm_md5"
+        },
+        "download_url": [
+          "http://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe/releases"
+        ],
+        "modified": "2018-04-03T13:48:21.950626Z",
+        "id": "6d45b6de-9cd9-4e7d-ad32-a7a467f3ed5c",
+        "issued": "2015-08-28T00:00:00Z",
+        "byte_size": 255,
+        "access_url": [
+          "https://joinup.ec.europa.eu/sites/default/files/distribution/access_url/2019-12/12f0dc1d-50b6-43e4-90c2-0afe213ac2be/DCAT_AP_2.0.0.pdf",
+          "http://joinup.ec.europa.eu/sites/default/files/distribution/access_url/2019-12/12f0dc1d-50b6-43e4-90c2-0afe213ac2be/DCAT_AP_2.0.0.pdf"
+        ],
+        "format": {
+          "resource": "http://publications.europa.eu/resource/authority/file-type/PDF",
+          "id": "PDF",
+          "label": "PDF"
+        },
+        "package_format": "http://www.iana.org/assignments/media-types/application/gzip",
+        "access_service": [
+          {
+            "endpoint_url": [
+              "http://example.com/service/api/endpoint"
+            ],
+            "title": {
+              "en": "Example Data Service"
+            },
+            "description": {
+              "en": "This is an example Data Service"
+            }
+          }
+        ],
+        "license": {
+          "description": "Naamsvermelding-GelijkDelen 3.0 Nederland",
+          "la_url": "https://data.europa.eu/en/content/show-license?license_id=CC-BY-SA3.0NL",
+          "id": "CC_BYSA_3_0_NL",
+          "label": "Naamsvermelding-GelijkDelen 3.0 Nederland",
+          "resource": "https://creativecommons.org/licenses/by-sa/3.0/nl/legalcode/"
+        },
+        "conforms_to": [
+          {
+            "resource": "http://conformsto.example.com",
+            "label": "Conforms to Example"
+          }
+        ],
+        "compress_format": "http://www.iana.org/assignments/media-types/application/gzip",
+        "page": [
+          {
+            "format": {
+              "resource": "http://publications.europa.eu/resource/authority/file-type/OP_DATPRO",
+              "id": "OP_DATPRO",
+              "label": "Provisional data"
+            },
+            "description": {
+              "en": "More information on Eurostat Website"
+            },
+            "title": {
+              "en": "More information on Eurostat Website"
+            },
+            "resource": "http://page.example.com"
+          }
+        ],
+        "spatial_resolution_in_meters": [
+          10
+        ],
+        "has_policy": "http://policy.example.com",
+        "status": {
+          "resource": "http://purl.org/adms/status/Completed",
+          "label": "Completed"
+        }
+      },
+      {
+        "format": {
+          "id": "api, csv",
+          "label": "api, csv"
+        },
+        "description": {
+          "en": "A malformed distribution with relative access URL"
+        },
+        "id": "bb30e1bb-9488-4ca9-893e-b225db22acc7",
+        "title": {
+          "en": "Malformed"
+        },
+        "access_url": [
+          "/datastore/dump/b7d5e9fc-103a-4ced-ab32-b06ed0236e62"
+        ],
+        "status": {}
+      }
+    ],
+    "is_referenced_by": [
+      "http://europeandataportal.eu/set/data/55a3b733-eeff-4a4d-8c45-ad1170ff56d4"
+    ],
+    "quality_meas": {
+      "scoring": 335
+    },
+    "publisher": {
+      "name": "Customs Cooperation Council",
+      "type": "Organization",
+      "resource": "http://publications.europa.eu/resource/authority/corporate-body/CCC"
+    },
+    "was_generated_by": [
+      "http://wasgeneratedbyexaple.com"
+    ],
+    "page": [
+      {
+        "format": {
+          "resource": "http://publications.europa.eu/resource/authority/file-type/OP_DATPRO",
+          "id": "OP_DATPRO",
+          "label": "Provisional data"
+        },
+        "description": {
+          "en": "More information on Eurostat Website"
+        },
+        "title": {
+          "en": "More information on Eurostat Website"
+        },
+        "resource": "http://page.example.com"
+      }
+    ],
+    "has_quality_annotation": [
+      "http://some.quality.annotation.1.example.com",
+      "http://some.quality.annotation.2.example.com"
+    ],
+    "spatial_resolution_in_meters": [
+      120
+    ],
+    "catalog_record": {
+      "issued": "2021-10-15T08:33:16Z",
+      "modified": "2021-11-29T18:13:10Z"
+    },
+    "contact_point": [
+      {
+        "name": "John Doe",
+        "telephone": "133742424242",
+        "organisation_name": "Some Organization",
+        "type": "Kind",
+        "email": "mailto:john@doe.de"
+      }
+    ],
+    "translation_meta": {
+      "full_available_languages": [
+        "en"
+      ],
+      "details": {
+        "en": {
+          "machine_translated": false
+        }
+      },
+      "status": "unknown"
+    },
+    "description": {
+      "en": "This is an example DCAT-AP 2 Dataset"
+    },
+    "version_notes": {
+      "en": "Release"
+    },
+    "title": {
+      "en": "DCAT-AP 2 Example Dataset"
+    },
+    "has_version": [
+      "http://europeandataportal.eu/set/data/55a3b733-eeff-4a4d-8c45-ad1170ff56d4"
+    ],
+    "accrual_periodicity": {
+      "resource": "http://publications.europa.eu/resource/authority/frequency/ANNUAL",
+      "label": "annual"
+    },
+    "geocoding_description": {
+      "id": "somegeocodingdescription",
+      "label": "SomeGeocodingDescription"
+    },
+    "access_right": {
+      "resource": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+      "label": "public"
+    },
+    "provenance": [
+      {
+        "resource": "http://provenance.example.com",
+        "label": "This is a provenance statement"
+      }
+    ],
+    "categories": [
+      {
+        "resource": "http://publications.europa.eu/resource/authority/data-theme/ENVI",
+        "id": "ENVI",
+        "label": {
+          "no": "Miljø",
+          "de": "Umwelt",
+          "fi": "Ympäristö",
+          "pt": "Ambiente",
+          "bg": "Околна среда",
+          "lt": "Aplinka",
+          "lv": "Vide",
+          "hr": "Okoliš",
+          "fr": "Environnement",
+          "hu": "Környezet",
+          "sk": "Životné prostredie",
+          "sl": "Okolje",
+          "ga": "Comhshaol",
+          "sv": "Miljö",
+          "mt": "Ambjent",
+          "el": "Περιβάλλον",
+          "en": "Environment",
+          "it": "Ambiente",
+          "es": "Medio ambiente",
+          "et": "Keskkond",
+          "cs": "Životní prostředí",
+          "pl": "Środowisko",
+          "ro": "Mediu",
+          "da": "Miljø",
+          "nl": "Milieu"
+        }
+      },
+      {
+        "resource": "http://publications.europa.eu/resource/authority/data-theme/AGRI",
+        "id": "AGRI",
+        "label": {
+          "no": "Jordbruk, fiskeri, skogbruk og mat",
+          "de": "Landwirtschaft, Fischerei, Forstwirtschaft und Nahrungsmittel",
+          "fi": "Maatalous, kalastus, metsätalous ja elintarvikkeet",
+          "pt": "Agricultura, pesca, silvicultura e alimentação",
+          "bg": "Селско стопанство, рибарство, горско стопанство и храни",
+          "lt": "Žemės ūkis, žuvininkystė, miškininkystė ir maistas",
+          "hr": "Poljoprivreda, ribarstvo, šumarstvo i hrana",
+          "lv": "Lauksaimniecība, zivsaimniecība, mežsaimniecība un pārtika",
+          "fr": "Agriculture, pêche, sylviculture et alimentation",
+          "hu": "Mezőgazdaság, halászat, erdészet és élelmiszer",
+          "sk": "Poľnohospodárstvo, rybné hospodárstvo, lesníctvo a potravinárstvo",
+          "sl": "Kmetijstvo, ribištvo, gozdarstvo in prehrana",
+          "ga": "Talmhaíocht, iascach, foraoiseacht agus bia",
+          "sv": "Jordbruk, fiske, skogsbruk och livsmedel",
+          "mt": "Agrikoltura, sajd, forestrija u ikel",
+          "el": "Γεωργία, αλιεία, δασοκομία και τρόφιμα",
+          "en": "Agriculture, fisheries, forestry and food",
+          "it": "Agricoltura, pesca, silvicoltura e prodotti alimentari",
+          "es": "Agricultura, pesca, silvicultura y alimentación",
+          "et": "Põllumajandus, kalandus, metsandus ja toiduained",
+          "cs": "Zemědělství, rybolov, lesnictví a výživa",
+          "pl": "Rolnictwo, rybołówstwo, leśnictwo i żywność",
+          "da": "Landbrug, fiskeri, skovbrug og fødevarer",
+          "ro": "Agricultură, pescuit, silvicultură şi hrană",
+          "nl": "Landbouw, visserij, bosbouw en voeding"
+        }
+      }
+    ],
+    "adms_identifier": [
+      {
+        "scheme": "http://purl.org/spar/datacite/doi",
+        "identifier": "http://www.doi.org/123456789"
+      }
+    ],
+    "attribute": [
+      "http://some.attribute.1.example.com",
+      "http://some.attribute.2.example.com"
+    ],
+    "deadline": "2020-05-25T00:00:00Z",
+    "qualified_attribution": [
+      "http://qualifiedattribution.example.com"
+    ],
+    "dimension": [
+      "http://some.dimension.2.example.com",
+      "http://some.dimension.1.example.com"
+    ],
+    "creator": {
+      "name": "Example Creator",
+      "type": "Agent",
+      "resource": "http://piveau.eu/def/creator",
+      "email": "creator@example.com",
+      "homepage": "www.creator.example.com"
+    },
+    "landing_page": [
+      {
+        "format": {
+          "resource": "http://publications.europa.eu/resource/authority/file-type/OP_DATPRO",
+          "id": "OP_DATPRO",
+          "label": "Provisional data"
+        },
+        "description": {
+          "en": "More information on Eurostat Website"
+        },
+        "title": {
+          "en": "More information on Eurostat Website"
+        },
+        "resource": "http://page.example.com"
+      }
+    ],
+    "version_info": "1.0.0",
+    "sample": [
+      "https://europeandataportal.eu/set/distribution/6d45b6de-9cd9-4e7d-ad32-a7a467f3ed5c"
+    ],
+    "conforms_to": [
+      {
+        "resource": "http://conformsto.example.com",
+        "label": "Conforms to Example"
+      }
+    ],
+    "num_series": 42
+  }
+}

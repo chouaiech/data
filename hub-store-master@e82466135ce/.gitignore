@@ -1,0 +1,14 @@
+.idea/*
+.vertx
+target/
+siemens-data-exchange.iml
+dependency-reduced-pom.xml
+fileuploader.iml
+config.json
+file-uploads/*
+fileuploader_config.env
+docker-compose.yaml
+.project
+*.iml
+/.classpath
+/.settings/

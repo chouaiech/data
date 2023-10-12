@@ -1,0 +1,37 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dqv:  <http://www.w3.org/ns/dqv#>
+PREFIX pv:   <https://piveau.eu/ns/voc#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+
+SELECT ?dist ?ds ?url ?statusCode ?time ?measurementOf WHERE
+{
+    GRAPH ?g3
+    {
+        ?dist dqv:hasQualityMeasurement [
+            dqv:isMeasurementOf ?measurementOf ;
+            dqv:computedOn ?url ;
+            prov:generatedAtTime ?time ;
+            dqv:value ?statusCode
+        ]
+        FILTER(?statusCode > 299)
+        VALUES ?measurementOf { pv:accessUrlStatusCode pv:downloadUrlStatusCode }
+    }
+    {
+        SELECT ?dist ?ds WHERE
+        {
+            GRAPH ?g2
+            {
+                ?ds dcat:distribution ?dist
+            }
+            {
+                SELECT ?ds WHERE
+                {
+                    GRAPH ?g1
+                    {
+                        <%1$s> dcat:dataset ?ds
+                    }
+                }
+            }
+        }
+    }
+} OFFSET %2$s LIMIT %3$s

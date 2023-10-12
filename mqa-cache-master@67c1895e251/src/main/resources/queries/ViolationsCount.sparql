@@ -1,0 +1,28 @@
+PREFIX dcat:    <http://www.w3.org/ns/dcat#>
+PREFIX dqv:     <http://www.w3.org/ns/dqv#>
+PREFIX oa:      <http://www.w3.org/ns/oa#>
+PREFIX shacl:   <http://www.w3.org/ns/shacl#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX edp:  <https://europeandataportal.eu/voc#>
+
+SELECT (COUNT(?resultSeverity) as ?count)  WHERE
+{
+    GRAPH ?g2
+    {
+        ?ds dqv:hasQualityAnnotation/oa:hasBody/shacl:result [
+            shacl:resultMessage ?resultMessage ;
+            shacl:resultPath ?resultPath ;
+            shacl:value ?resultValue ;
+            shacl:resultSeverity ?resultSeverity
+        ]
+    }
+    {
+        SELECT ?ds WHERE
+        {
+            GRAPH ?g1
+            {
+                <%1$s> dcat:dataset ?ds
+            }
+        }
+    }
+}

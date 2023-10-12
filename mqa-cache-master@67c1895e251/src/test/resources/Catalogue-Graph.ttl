@@ -1,0 +1,22 @@
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+
+<https://example.eu/id/catalogue/example-catalogue>
+    rdf:type            dcat:Catalog ;
+    dcterms:modified    "2019-12-06T10:08:14Z"^^xsd:dateTime ;
+    dcterms:type        "dcat-ap" ;
+    dcterms:description "Open Data Portal Germany"@en ;
+    dcterms:language    <http://publications.europa.eu/resource/authority/language/SPA> ;
+    dcterms:publisher   [ a             foaf:Agent ;
+                          foaf:homepage <http://www.fokus.fraunhofer.de> ;
+                          foaf:name     "Fraunhofer FOKUS" ] ;
+    dcterms:spatial     <http://publications.europa.eu/resource/authority/country/GBR> ;
+    dcterms:title       "GovData"@de ;
+    dcat:record         <https://example.eu/set/record/test-dataset-1>,
+                        <https://example.eu/set/record/test-dataset-2> ;
+    dcat:dataset        <https://example.eu/set/data/test-dataset-1>,
+                        <https://example.eu/set/data/test-dataset-2> .

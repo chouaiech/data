@@ -1,0 +1,48 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix locn: <http://www.w3.org/ns/locn#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix time: <http://www.w3.org/2006/time> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix edp: <https://europeandataportal.eu/voc#> .
+
+<https://piveau.io/set/data/test-dataset>
+    a dcat:Dataset ;
+    dct:title "Example Dataset"@en ;
+    dct:title "Beispieldatensatz"@de-t-en-t0-mtec ;
+    dct:description "Dies ist ein Beispieldatensatz"@de ;
+    dct:description "This is an example dataset"@en-t-de-t0-mtec ;
+    dcat:distribution <https://piveau.io/set/distribution/1>,
+        <https://piveau.io/set/distribution/2>,
+        <https://piveau.io/set/distribution/3> .
+
+<https://piveau.io/set/distribution/1>
+    a dcat:Distribution ;
+    dct:title "Distribution example 1" ;
+    dct:description "This is an example Distribution 1" .
+
+<https://piveau.io/set/distribution/2>
+    a dcat:Distribution ;
+    dct:title "Example Distribution 2" ;
+    dct:description "This is an example Distribution 2" ;
+    dct:description "Dies ist eine Beispiel-Distribution 2"@de .
+
+<https://piveau.io/set/distribution/3>
+    a dcat:Distribution ;
+    dct:title "Beispiel-Distribution 3"@de ;
+    dct:description "This is an example Distribution 3" .
+
+<https://piveau.io/set/record/test-dataset>
+    a dcat:CatalogRecord ;
+    dct:creator <http://piveau.io> ;
+    edp:transStatus edp:TransCompleted ;
+    foaf:primaryTopic <https://piveau.io/set/data/test-dataset> ;
+    dct:identifier "test-dataset" .

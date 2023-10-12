@@ -1,0 +1,19 @@
+nc_ms*
+cs_ms*
+*config.yml
+*config.docker.yml
+.vscode/launch.json
+build*
+nc.db
+ap_catalog.json
+
+# api keys
+keys*
+
+/services/messagechecker/messagechecker
+/services/gateway/gateway
+/services/datapermit/datapermit
+/services/datapermitcentralservice/datapermitcentralservice
+/services/datadiscoverycentralservice/datadiscoverycentralservice
+
+

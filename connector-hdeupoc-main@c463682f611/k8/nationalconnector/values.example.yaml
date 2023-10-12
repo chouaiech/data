@@ -1,0 +1,10 @@
+domibus:
+  username: national_connector_user
+  url: <domibus ip>
+  port: 8080
+  usehttps: true
+  from: <national domibus name>
+  to: centralpocnode
+nodePort: 30000
+namespace: national-connector
+releaseTag: b0.1

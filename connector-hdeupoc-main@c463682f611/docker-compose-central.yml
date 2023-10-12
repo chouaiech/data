@@ -1,0 +1,34 @@
+version: '2.1'
+
+services:
+  centralservice-datadiscovery:
+    build: datadiscovery
+    mem_limit: 350m
+    extra_hosts:
+      - host.docker.internal:host-gateway
+    volumes:
+      - ${PWD}/config.yml:/usr/src/app/config.yml
+      - ~/.domibuspass:/root/.domibuspass
+      - ~/.fairdatapointpass:/root/.fairdatapointpass
+      - ${PWD}/ap_catalog.json:/usr/src/app/ap_catalog.json
+
+  centralservice-datapermit:
+    build: datapermit
+    mem_limit: 350m
+    ports:
+      - "8103:8103"
+    extra_hosts:
+      - host.docker.internal:host-gateway
+    volumes:
+      - ${PWD}/config.yml:/usr/src/app/config.yml
+      - ${PWD}/ap_catalog.json:/usr/src/app/ap_catalog.json
+      - ~/.domibuspass:/root/.domibuspass
+
+  centralservice-messagechecker:
+    build: messagechecker
+    mem_limit: 350m
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - ${PWD}/config.yml:/usr/src/app/config.yml
+      - ~/.domibuspass:/root/.domibuspass

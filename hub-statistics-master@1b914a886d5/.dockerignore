@@ -1,0 +1,22 @@
+# Project files
+.idea
+env
+
+# Python environment files
+__pycache__
+*.pyc
+
+# Versioning files
+.git
+.gitignore
+
+# Archive files
+archive
+*.xlsx
+*.csv
+*.zip
+*.log
+
+# OS files
+_MACOSX
+.DS_Store

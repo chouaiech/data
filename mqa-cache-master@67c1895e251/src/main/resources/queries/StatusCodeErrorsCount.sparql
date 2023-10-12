@@ -1,0 +1,34 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dqv:  <http://www.w3.org/ns/dqv#>
+PREFIX pv:   <https://piveau.eu/ns/voc#>
+
+SELECT (COUNT(?statusCode) AS ?count) WHERE
+{
+    GRAPH ?g3
+    {
+        ?dist dqv:hasQualityMeasurement [
+              dqv:isMeasurementOf ?measurementOf ;
+              dqv:value ?statusCode
+        ]
+        FILTER(?statusCode > 299)
+        VALUES ?measurementOf { pv:accessUrlStatusCode pv:downloadUrlStatusCode }
+    }
+    {
+        SELECT ?dist WHERE
+        {
+            GRAPH ?g2
+            {
+                ?ds dcat:distribution ?dist
+            }
+            {
+                SELECT ?ds WHERE
+                {
+                    GRAPH ?g1
+                    {
+                        <%1$s> dcat:dataset ?ds
+                    }
+                }
+            }
+        }
+    }
+}

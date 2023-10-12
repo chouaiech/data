@@ -1,0 +1,5 @@
+*
+!target/hub-repo.jar
+!conf/config.sample.json
+!conf/shapes
+!misc

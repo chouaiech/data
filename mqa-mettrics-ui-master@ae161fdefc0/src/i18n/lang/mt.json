@@ -1,0 +1,525 @@
+{
+    "message": {
+        "navigation": {
+            "dashboard": "Daxxbord",
+            "download_report": {
+                "help": "Niżżel ir-rapport kollu dwar dan il-katalogu.",
+                "second_ods": "Open Document Spreadsheet (.ods)",
+                "direct": "Niżżel bħala rapport",
+                "second_xls": "Microsoft Excel (.xlsx)",
+                "second_pdf": "Portable Document Format (.pdf)"
+            },
+            "catalogues": "Katalogi",
+            "about": "Dokumentazzjoni",
+            "methodology": "Metodoloġija",
+            "validation": "validazzjoni"
+        },
+        "dashboard": {
+            "overview": {
+                "header": {
+                    "allCatalogues": "Katalogi kollha",
+                    "topNumber": "L-ogħla {number}",
+                    "topNumberCatalogues": "L-ogħla {number} Katalogi"
+                },
+                "table_tooltip": {
+                    "dcat_ap": "Il-perċentwal tal-metadata konformi mad-DCAT-AP. Din il-verifika ssir biss għal portali li jfornu d-DCAT-AP, pereżempju permezz tal-estensjoni CKANEXT-DCAT",
+                    "machine_readability": "Il-perċentwal tad-distribuzzjonijiet li jinbidel fil-format li jista' jiġi interpretat permezz ta' magna.",
+                    "accessibility_download_url": "Il-perċentwal tal-URLs għat-tniżżil disponibbli. L-aċċessibilità hija ddeterminata bl-użu ta' metodu HTTP GET. Peress li d-DownloadURL mhux informazzjoni obbligatorja, ma tistax issir verifika f'każ ta' informazzjoni nieqsa.",
+                    "known_licenses": "Il-perċentwal tal-liċenzji magħrufa użati. Għal aktar informazzjoni dwar liċenzji magħrufa, jekk jogħġbok irreferi għat-taqsimiet li ġejjin. Billi l-liċenzja mhijiex obbligatorja, ma tistax issir verifika jekk l-informazzjoni tkun nieqsa.",
+                    "accessibility_access_url": "Il-perċentwal ta' Aċċessibbiltà tal-URL għall-Aċċessi. L-aċċessibilità hija ddeterminata bl-użu ta' metodu HTTP GET."
+                },
+                "headline": "Ħarsa ġenerali",
+                "table_title": {
+                    "desc": "Deskrizzjoni",
+                    "known_licences": "Liċenzji magħrufa",
+                    "dcat_ap": "Konformità mad-DCAT-AP",
+                    "accessibility_access_url": "Aċċessibbiltà tal-URL għall-Aċċess",
+                    "accessibility_download_url": "Aċċessibbiltà tal-URL għat-Tniżżil",
+                    "country": "Pajjiż",
+                    "scoring": "Klassifikazzjoni",
+                    "machine_readability": "Kapaċità ta' Qari Permezz ta' Magna",
+                    "rating": "Klassifikazzjoni",
+                    "name": "Isem"
+                },
+                "table_description": "It-tabella li ġejja tagħti ħarsa ġenerali dwar l-erba' kriterji msemmija. Int tista' tissortja t-tabella billi tikklikkja fuq l-intestaturi tal-kolonni. Jekk jogħġbok innota li l-MQA tista' tinterpreta biss l-informazzjoni li tingħata mill-portali tas-sors. Id-Distribuzzjonijiet, il-URL għat-Tniżżil u l-informazzjoni dwar il-liċenzja mhumiex obbligatorji u l-MQA tindika l-informazzjoni li tkun nieqsa permezz ta' minus \"-\". Innota wkoll li l-konformità mad-DCAT-AP tista' tiġi ddeterminata biss jekk il-portal tas-sors jipprovdi l-metadata tiegħu fid-data marbuta mad-DCAT-AP. Formats oħrajn huma indikati permezz ta' minus \"-\"."
+            },
+            "interoperability": {
+                "plots": {
+                    "title": {
+                        "formatMediaTypeAlignment": "Format / Tip tal-midja mill-vokabularju",
+                        "formatMediaTypeNonProprietary": "Nonproprjetarju",
+                        "mediaTypeAvailability": "Tip tal-midja",
+                        "formatAvailability": "Format",
+                        "dcatApCompliance": "Konformità DCAT-AP",
+                        "formatMediaTypeMachineReadable": "Jinqara permezz ta' magna"
+                    }
+                },
+                "description": "Dawn huma indikaturi li jiksbu l-interoperabbiltà ta' sett ta' data",
+                "title": "Interoperabbiltà"
+            },
+            "reusability": {
+                "description": "It-tabella li ġejja tiddeskrivi liema metrika tintuża biex jiġi kkontrollat l-użu mill-ġdid tad-data. F'dan il-qasam jista' jingħata sa massimu ta' 75 punt.",
+                "plots": {
+                    "title": {
+                        "accessRightsAlignment": "Vokabularju ta' restrizzjonijiet ta' aċċess",
+                        "contactPointAvailability": "Punt ta' kuntatt",
+                        "licenceAlignment": "Vokabularju tal-liċenzja",
+                        "publisherAvailability": "Pubblikatur",
+                        "licenceAvailability": "Informazzjoni dwar il-liċenzja",
+                        "accessRightsAvailability": "Restrizzjonijiet ta' aċċess"
+                    }
+                },
+                "title": "Użu mill-ġdid"
+            },
+            "show_history": "Uri l-istorja",
+            "contextuality": {
+                "description": "Informazzjoni li tipprovdi aktar kuntest lill-utent",
+                "plots": {
+                    "title": {
+                        "dateIssuedAvailability": "Data tal-pubblikazzjoni",
+                        "rightsAvailability": "Drittijiet",
+                        "byteSizeAvailability": "Daqs tal-fajl",
+                        "dateModifiedAvailability": "Data tal-modifka"
+                    }
+                },
+                "title": "Kuntestwalità"
+            },
+            "accessibility": {
+                "plots": {
+                    "title": {
+                        "accessibilityOfDistributions": "Aċċessibbiltà tad-Distribuzzjonijiet",
+                        "accessUrlAvailability": "URL għall-Aċċess disponibbli",
+                        "existingDownloadUrl": "URLs Eżistenti għat-Tniżżil",
+                        "accessibilityAccessUrl": "Aċċessibbiltà ta' URLs għall-Aċċess",
+                        "accessUrl": "Aċċessa l-URL",
+                        "accessUrlStatusCodes": "L-iktar kodiċijiet tal-istatus tal-URL għall-Aċċess frekwenti",
+                        "downloadUrlStatusCodes": "L-iktar kodiċijiet tal-istatus tal-URL għat-Tniżżil frekwenti",
+                        "downloadUrlAvailability": "Niżżel il-URL",
+                        "statusErrorCode": "Kodiċijiet tal-Istatus ta' Żball",
+                        "accessibilityDownloadUrl": "Aċċessibbiltà ta' URLs għat-Tniżżil"
+                    }
+                },
+                "title": "Aċċessibbiltà",
+                "headline": "Distribuzzjonijiet Disponibbli",
+                "description": "Id-dijagrammi li ġejjin jipprovdu informazzjoni dwar l-aċċessibbiltà tad-distribuzzjonijiet. Għal kull URL ta' distribuzzjoni, issir talba HTTP HEAD u t-tweġiba tiġi vverifikata. Jekk jogħġbok, innota li l-URL għat-Tniżżil huwa fakultattiv skont id-DCAT-AP u dan irid jiġi indikat b'mod ċar bħala tali mill-portal tas-sors. Dan jista' jkun il-każ biss għal portali tas-sors li jipprovdu l-metadata tagħhom fid-DCAT-AP."
+            },
+            "site_title": "Il-Portal tad-Data Ewropew l MQA l Daxxbord",
+            "findability": {
+                "title": "Traċċabbiltà",
+                "plots": {
+                    "title": {
+                        "keywordAvailability": "Użu ta' kliem ewlieni",
+                        "spatialAvailability": "Tiftix ġeografiku",
+                        "temporalAvailability": "Tiftix ibbażat skont iż-żmien",
+                        "categoryAvailability": "Kategoriji"
+                    }
+                },
+                "description": "Dawn huma indikaturi li jgħinu lin-nies u l-magni jsibu settijiet tad-data"
+            },
+            "scoring": {
+                "description": "Il-klassifikazzjoni tindika l-kwalità ġenerali tal-metadata tad-dimensjonijiet kollha.",
+                "plots": {
+                    "known": "magħruf",
+                    "unknown": "mhux magħruf",
+                    "title": {
+                        "timeBasedScoring": "Evoluzzjoni tal-klassifikazzjoni"
+                    }
+                },
+                "title": "Evoluzzjoni tal-klassifikazzjoni"
+            },
+            "show_today": "Uri Llum",
+            "weight": "Piż",
+            "points": "Punti",
+            "intro": {
+                "desc": "<p>L-Assigurazzjoni tal-Kwalità tal-Metadata hija maħsuba biex tgħin lill-fornituri tad-data u lill-portali tad-data jiċċekkjaw il-metadata tagħhom ma’ diversi indikaturi. Għal informazzjoni dwar liema metriċi nużaw għall-kejl tal-indikaturi, jekk jogħġbok agħti ħarsa lejn il-paġna tal-metodoloġija tagħna.</p>\n<p>Din il-paġna tipprovdi ħarsa ġenerali lejn il-metadata kollha disponibbli għad-data.europa.eu. Għal ħarsa dettaljata ta’ kull katalogu individwali, jekk jogħġbok uża l-paġna tal-Katalogi u agħżel il-katalgu mixtieq.</p>"
+            },
+            "dimensions": "Dimensjonijiet"
+        },
+        "catalogue_detail": {
+            "introduction": "Din il-paġna turi l-istatus ġenerali tal-katalogu fir-rigward tad-distribuzzjonijiet u l-konformità mad-DCAT-AP.",
+            "harvesting": {
+                "run": {
+                    "updated": "Aġġornat",
+                    "duration": "Durata (jiem sigħat:minuti:sekondi)",
+                    "show_log": "Uri l-entraturi biex tilloggja l-aħħar ħidma",
+                    "end": "Ħin tat-tmiem",
+                    "start": "Ħin tal-bidu",
+                    "log_noattachment": "Kien hemm żball waqt li kienet qed tiġi rkuprata l-hemza",
+                    "skipped": "Maqbuż",
+                    "log": "{0} Reġistri {1} sa {2} ta' {3}",
+                    "deleted": "Imħassar",
+                    "no_runs": "L-ebda ħidmiet ta' ħżin tal-passat mhuma disponibbli jew s'issa skedati",
+                    "rejected": "Irrifjutat",
+                    "added": "Miżjud"
+                },
+                "repository_harvester": "Katalogu tas-Sors tar-Repożitorju",
+                "show_script": "Uri l-iskript ta' trasformazzjoni",
+                "show_information": "Uri l-informazzjoni maħżuna",
+                "publisher": "Pubblikatur",
+                "next_schedule": "L-iskeda li jmiss",
+                "default_language": "Lingwa awtomatika",
+                "homepage": "Il-Paġna Ewlenija",
+                "email_address": "Indirizz tal-email",
+                "incremental": "Inkrementali",
+                "frequency": "Frekwenza",
+                "type": "Tip",
+                "transformation_script": "{0} Skript tat-trasformazzjoni",
+                "title": "Qed Jaħżen l-Informazzjoni",
+                "not_present": "Dan mhuwiex katalogu maħżun, b'hekk l-ebda informazzjoni maħżuna mhija disponibbli.",
+                "last_run": "L-aħħar ħidma maħżuna"
+            },
+            "violations": {
+                "location": "Post tal-Ksur",
+                "non_compliant": "Mhux Konformi",
+                "resultPath": "Mogħdija tar-Riżultat",
+                "subheadline": "Ksur tas-Sett tad-Data",
+                "title": "Settijiet tad-data mhux konformi",
+                "value": "Valur",
+                "desc": "Deskrizzjoni tal-ksur",
+                "site_title": "Il-Portal tad-Data Ewropew l MQA l Ksur",
+                "introduction": "Din id-dehra telenka s-settijiet kollha tad-data li mhumiex konformi mar-regoli ta' SHACL DCAT-AP.",
+                "own_headline": "Ksur tal-Iskema DCAT-AP",
+                "resultMessage": "Messaġġ tar-Riżultat"
+            },
+            "distributions": {
+                "introduction": "Din id-dehra telenka s-settijiet kollha tad-data li m'għandhomx distribuzzjonijiet aċċessibbli.",
+                "help": "Ħares lejn id-distribuzzjonijiet mhux aċċessibbli mill-katalogu magħżul.",
+                "mediatype_checked": "Tip tal-Midja (mit-test)",
+                "desc": "Settijiet tad-data b'distribuzzjonijiet mhux aċċessibbli",
+                "not_available_access": "L-ebda URL għall-Aċċess mhuwa disponibbli",
+                "title": "Kwistjonijiet ta 'aċċessibilità għad-distribuzzjoni",
+                "format": {
+                    "not_machine_readable": "Ma jinqarax permezz ta' magna",
+                    "name": "Format"
+                },
+                "not_available_dl": "L-ebda URL għat-Tniżżil mhuwa disponibbli",
+                "download_url": "Niżżel il-URL",
+                "mediatype_given": "Tip tal-Midja (mit-test)",
+                "nodistributions": "Ma hawn l-ebda distribuzzjoni disponibbli għall-iċċekkjar.",
+                "access_url": "Access URL",
+                "site_title": "Il-Portal tad-Data Ewropew l MQA l Distribuzzjonijiet",
+                "availability_checked_on": "Id-disponibbiltà ċċekkjata fi {data}"
+            },
+            "call_to_action": "Agħżel katalgu għal dettalji",
+            "title": "Id-daxxbord tal-Katalogu",
+            "site_title": "Il-Portal tad-Data Ewropew l MQA l Daxxbord"
+        },
+        "common": {
+            "compliant": "Konformi",
+            "json": "CKAN JSON",
+            "deu": {
+                "url": "www.data.europa.eu",
+                "title": "data.europa.eu"
+            },
+            "site_title_violations": "Ksur tal-Iskema DCAT-AP",
+            "all": "Kollha",
+            "close": "Agħlaq",
+            "affacteddatasets": "Settijiet tad-data li kellhom impatt",
+            "cataloguedetails": "Dehra tad-Dettalji dwar il-Katalogu",
+            "previous": "Qabel",
+            "violation": "Ksur tal-Iskema DCAT-AP",
+            "edp": {
+                "title": "Il-Portal tad-Data Ewropew"
+            },
+            "yes": "Iva",
+            "error": "Żball",
+            "portal_page": "Il-Paġna tal-Portal",
+            "since": "Minn",
+            "site_title": "Kwalità tal-metadata | Portal Uffiċjali għad-Data tal-UE",
+            "version": "Verżjoni",
+            "ok": "Ok",
+            "distributions": "Distribuzzjonijiet",
+            "no": "Le",
+            "violations": "Ksur tal-Iskema DCAT-AP",
+            "download_url": "Niżżel il-URL",
+            "datasets": "Settijiet tad-data",
+            "site_title_distributions": "Kwistjonijiet ta 'aċċessibilità għad-distribuzzjoni",
+            "home": "Il-Paġna ewlenija",
+            "page": "Paġna",
+            "notavailable": "Mhux aċċessibbli",
+            "status": "Status"
+        },
+        "methodology": {
+            "dimensions": {
+                "reuse": {
+                    "main_text": " <p>It-tabella li ġejja tiddeskrivi liema metrika tintuża biex jiġi vverifikat l-użu mill-ġdid tad-data. F'dan il-qasam jista' jingħata punteġġ massimu ta' 75 punt.</p>",
+                    "keywords_name_6": "Pubblikatur",
+                    "keywords_name_5": "Punt ta' kuntatt",
+                    "keywords_name_4": "Vokabularju ta' restrizzjonijiet ta' aċċess",
+                    "keywords_name_3": "Restrizzjonijiet ta' aċċess",
+                    "keywords_name_2": "Vokabularju tal-liċenzja",
+                    "keywords_name_1": "Informazzjoni dwar il-liċenzja",
+                    "keywords_metric_6": "Huwa vverifikat ​​jekk il-propjetà hijiex stabbilita jew le.",
+                    "keywords_metric_5": "Huwa vverifikat ​​jekk il-propjetà hijiex stabbilita jew le.",
+                    "keywords_metric_4": "<p>Huwa vverifikat jekk jintużax il-<a href='https://publications.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/access-right' target='_blank'>vokabolarju kkontrollat għad-drittijiet ta' aċċess</a>.</p>",
+                    "keywords_metric_3": "Huwa vverifikat ​​jekk il-propjetà hijiex stabbilita jew le.",
+                    "keywords_metric_2": "<p>Din it-taqsima tiddeskrivi d-dimensjonijiet kollha li l-MQA teżamina sabiex tiddetermina l-kwalità. Id-dimensjonijiet huma derivati mill- <a target=\"_blank\" href=\"https://www.go-fair.org/fair-principles/'>FAIR prinċipji <i class=\"fas fa-link-alt fa-sm\"></i></a>.</p>\n\n<p>L-MQA jirrakkomanda u jikkredita l-użu ta’ vokabularji kkontrollati. Il-portal data.europa.eu jippubblika l-vokabularji kkontrollati tiegħu f’ <a href=“https://gitlab.com/european-data-portal/edp-vocabularies” target=“_blank”>GitLab</a>. Il-vokabularji huma derivati mill- <a href=“https://op.europa.eu/en/web/eu-vocabularies/authority-tables” target=“_blank”>EU Vocabularies</a>.</p>",
+                    "keywords_metric_1": "Huwa vverifikat ​​jekk il-propjetà hijiex stabbilita jew le.",
+                    "dcat_name_6": "dct:Publisher",
+                    "dcat_name_5": "dcat:ContactPoint",
+                    "dcat_name_4": "dct:AccessRights",
+                    "dcat_name_3": "dct:AccessRights",
+                    "dcat_name_2": "dct:License",
+                    "dcat_name_1": "dct:License",
+                    "keywords_desc_6": "Il-pubblikatur huwa l-persuna jew l-organizzazzjoni li ppubblikat id-data.",
+                    "keywords_desc_5": "Il-punt ta' kuntatt fih informazzjoni dwar min għandu jkun indirizzat f'każ ta' mistoqsijiet rigward id-data.",
+                    "keywords_desc_4": "L-użu ta' vokabularju kkontrollat ​​iżid l-użu mill-ġdid.",
+                    "keywords_desc_3": "Dan il-kamp jindika jekk l-aċċess għad-data huwiex pubbliku jew ristrett.",
+                    "keywords_desc_2": "Nixtiequ nillimitaw l-indikazzjoni ta' informazzjoni ħażina dwar il-liċenzja. Pereżempju, niltaqgħu ma' ħafna liċenzji CC li m'għandhomx informazzjoni dwar il-verżjoni.",
+                    "keywords_desc_1": "Liċenzja hija informazzjoni siewja għall-użu mill-ġdid tad-data."
+                },
+                "contextual": {
+                    "main_text": "It-tabella li ġejja turi xi proprjetajiet ta' piż ħafif, li jipprovdu aktar kuntest lill-utent. F'dan il-qasam jista' jingħata sa massimu ta' 20 punt.",
+                    "keywords_metric_4": "Huwa vverifikat ​​jekk il-propjetà hijiex stabbilita jew le.",
+                    "keywords_metric_3": "Huwa vverifikat ​​jekk il-propjetà hijiex stabbilita jew le.",
+                    "keywords_metric_2": "Huwa vverifikat ​​jekk il-propjetà hijiex stabbilita jew le.",
+                    "keywords_metric_1": "Huwa vverifikat ​​jekk il-propjetà hijiex stabbilita jew le.",
+                    "keywords_name_4": "Data tal-modifka",
+                    "keywords_name_3": "Data tal-pubblikazzjoni",
+                    "keywords_name_2": "Daqs tal-fajl",
+                    "keywords_name_1": "Drittijiet",
+                    "keywords_desc_4": "Id-data li fiha nbidel l-aħħar is-sett tad-data jew id-distribuzzjoni.",
+                    "keywords_desc_3": "Id-data li fiha nħareġ is-sett tad-data jew id-distribuzzjoni.",
+                    "keywords_desc_2": "Jispeċifika d-daqs tal-fajl bħal bytes.",
+                    "keywords_desc_1": "F'xi każijiet, liċenzja speċifika ma tistax tiġi applikata għal sett tad-data. Il-kamp \"Drittijiet\" jista' jintuża biex tiġi speċifikata referenza għal riżorsa li tinforma lil utent dwar id-drittijiet li jkollu meta juża s-sett tad-data.",
+                    "dcat_name_4": "dcat:Modified",
+                    "dcat_name_3": "dct:Issued",
+                    "dcat_name_2": "dcat:ByteSize",
+                    "dcat_name_1": "dcat:Rights"
+                },
+                "table": {
+                    "metric_name": "Indikatur",
+                    "dataset_and_distribution": "Sett tad-Data u Distribuzzjoni",
+                    "metric": "Metrika",
+                    "dataset": "Sett tad-Data",
+                    "desc": "Deskrizzjoni",
+                    "distribution": "Distribuzzjoni",
+                    "weight": "Piż"
+                },
+                "accessible": {
+                    "main_text": " <p>It-tabella li ġejja tiddeskrivi liema metrika tintuża biex jiġi ddeterminat jekk huwiex iggarantit aċċess għad-data li ssir referenza għaliha fid-distribuzzjonijiet. F'dan il-qasam jista' jingħata punteġġ massimu ta' 100 punt.</p>",
+                    "dcat_name_3": "dcat:downloadURL",
+                    "dcat_name_2": "dcat:downloadURL",
+                    "dcat_name_1": "dcat:accessURL",
+                    "keywords_desc_3": "Jekk il-URL għat-Tniżżil  jeżisti, tiġi vverifikata l-aċċessbbiltà.",
+                    "keywords_desc_2": "Il-URL għat-Tniżżil huwa link dirett għad-data referenzjata.",
+                    "keywords_desc_1": "Il-URL għall-Aċċess mhux neċessarjament huwa link dirett għad-data, iżda jista' wkoll jirreferi għal URL li jagħti aċċess għal sett tad-data jew fejn aktar informazzjoni dwar id-sett tad-data tkun disponibbli.",
+                    "keywords_metric_3": "Il-URL speċifikat huwa vverifikat ​​għal raġunijiet ta' aċċessibbiltà permezz ta' talba HTTP HEAD. Jekk il-kodiċi tal-istatus tar-risposta ikun fil-medda ta' 200 jew 300, l-aċċessibbiltà tar-riżorsa tiġi evalwata b'mod pożittiv.",
+                    "keywords_metric_2": "Huwa vverifikat ​​jekk il-propjetà hijiex stabbilita jew le.",
+                    "keywords_metric_1": "Il-URL speċifikat huwa vverifikat ​​għal raġunijiet ta' aċċessibbiltà permezz ta' talba HTTP HEAD. Jekk il-kodiċi tal-istatus tar-risposta ikun fil-medda ta' 200 jew 300, l-aċċessibbiltà tar-riżorsa tiġi evalwata b'mod pożittiv.",
+                    "keywords_name_3": "Aċċessibbiltà għall-URL għat-Tniżżil",
+                    "keywords_name_2": "URL għat-Tniżżil",
+                    "keywords_name_1": "Aċċessibbiltà għall-URL għall-Access"
+                },
+                "interoperable": {
+                    "main_text": " <p>It-tabella li ġejja tiddeskrivi l-metrika użata biex jiġi ddeterminat jekk distribuzzjoni titqiesx bħala interoperabbli. Skont is-suppożizzjoni \"kontenut identiku b'aktar minn distribuzzjoni waħda\", tintuża biss d-distribuzzjoni bl-akbar numru ta' punti biex jiġu kkalkulati l-punti. F'dan il-qasam jista' jingħata punteġġ massimu ta' 110 punt.</p>",
+                    "keywords_desc_6": "<p>il-konformità tad-DCAT-AP tiġi kkalkulata fis-sorsi u s-settijiet tad-data kollha disponibbli fuq katalogu. Dan il-kontroll jitwettaq biss jekk il-metadata tinħasad oriġinarjament bħala DCAT-AP jew bħala derivat validu</p><p><a href='https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe' target='_blank’>DCAT-AP</a> hija speċifikazzjoni għad-deskrizzjoni ta’ data pubblika konnessa fl-Ewropa. Il-portal data.europa.eu jista’ wkoll jaħżen metadata li ma tikkonformax bis-sħiħ mad-DCAT-AP. Sabiex tiżdied il-konformità mad-DCAT-AP, l-MQA tivverifika kull metadata għall-konformità DCAT-AP tagħha.</p>",
+                    "keywords_desc_5": "Jivverifika jekk il-format tad-distribuzzjoni jinqarax permezz ta' magna.",
+                    "keywords_desc_4": "Jivverifika jekk il-format tad-distribuzzjoni huwiex nonproprjetarju.",
+                    "keywords_desc_3": "Jivverifika jekk il-format u t-tip tal-midja jappartjenux għal vokabularju kkontrollat.",
+                    "keywords_desc_2": "Dan il-kamp jispeċifika t-tip tal-midja tad-distribuzzjoni.",
+                    "keywords_desc_1": "Dan il-kamp jispeċifika l-format tal-fajl tad-distribuzzjoni.",
+                    "keywords_metric_6": "<p>Il-metadata hija vvalidata skont sett ta’ <a href=“https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe/releases” target=“_blank”>foromSHACL</a>. Il-metadata ma tkunx konformi, jekk il-validazzjoni tax-SHACL tirrapporta mill-inqas kwistjoni waħda.</p>\n\n<p>The MQA use <a href=‘/shacl’ target=’_blank’>data.europa.eu’s DCAT-AP SHACL</a> servizz ta’ validazzjoni.</p> \n\n<p><a href=“https://www.w3.org/TR/shacl/” target=“_blank”>SHACL</a> hija rakkomandazzjoni mill-W3C u tintuża għall-validazzjoni tal-graffs RDF kontra sett ta’ forom.</p>",
+                    "keywords_metric_5": "Id-distribuzzjoni titqies li tista’ tinqara minn magna jekk il-format speċifikat ikun jinsab fid-data korrispondenti.europa.eu <a href=“https://gitlab.com/european-data-portal/edp-vocabularies” target=“_blank”>GitLab repository</a> vokabularju.",
+                    "keywords_metric_4": "Id-distribuzzjoni titqies bħala mhux proprjetarju jekk il-format speċifikat ikun jinsab fid-data korrispondenti.europa.eu <a href=“https://gitlab.com/european-data-portal/edp-vocabularies” target=“_blank”>GitLab repożitorju</a> vokabularju.",
+                    "keywords_metric_3": "<p>Il-vokabularju tal-format jista’ jinstab fid-data.europa.eu <a href=“https://gitlab.com/european-data-portal/edp-vocabularies” target=“_blank”>GitLab repository</a>.</p>\n\n<p>It-tip tal-midja jivverifika mal- <a href='https://www.iana.org/assignments/media-types/media-types.xhtml' target='_blank’>IANA list</a></p>",
+                    "keywords_metric_2": "<p>Huwa vverifikat jekk il-proprjetà hijiex issettjata jew le.</p>",
+                    "keywords_metric_1": "<p>Huwa vverifikat jekk il-proprjetà hijiex issettjata jew le.</p>",
+                    "keywords_name_6": "Konformità DCAT-AP",
+                    "keywords_name_5": "Jinqara permezz ta' magna",
+                    "keywords_name_4": "Nonproprjetarju",
+                    "keywords_name_3": "Format / Tip tal-midja mill-vokabularju",
+                    "keywords_name_2": "Tip tal-midja",
+                    "keywords_name_1": "Format",
+                    "dcat_name_6": "Sett tad-Data u Distribuzzjoni",
+                    "dcat_name_5": "DCT:Format dcat:MediaType jew/sottoproprjetà ta’",
+                    "dcat_name_4": "DCT:Format dcat:MediaType jew/sottoproprjetà ta’",
+                    "dcat_name_3": "DCT:Format dcat:MediaType jew/sottoproprjetà ta’",
+                    "dcat_name_2": "dcat:MediaType or subproperty of dct:Format",
+                    "dcat_name_1": "dct:Format"
+                },
+                "findability": {
+                    "keywords_desc_4": "L-użu ta' informazzjoni temporali tippermetti lill-utenti jagħmlu tfittxija skont aspetti ibbażat fuq iż-żmien.",
+                    "keywords_desc_3": "L-użu ta' informazzjoni ġeografika tippermetti lill-utenti jsibu s-sett tad-data bi tfittxija skont aspett ġeografiku.",
+                    "keywords_desc_2": "Il-kategoriji jgħinu lill-utenti jesploraw is-settijiet tad-data skont it-tema.",
+                    "keywords_desc_1": "Il-kliem ewlieni jappoġġjaw direttament it-tfittxija u b'hekk iżidu l-faċilità li jinstab sett tad-data.",
+                    "keywords_metric_4": "Huwa vverifikat ​​jekk il-propjetà hijiex stabbilita jew le.",
+                    "keywords_metric_3": "Huwa vverifikat ​​jekk il-propjetà hijiex stabbilita jew le.",
+                    "keywords_metric_2": "Huwa vverifikat ​​jekk kategorija waħda jew iktar humiex assenjati fis-sett tad-data. In-numru ta' kategoriji assenjati m'għandux impatt fuq il-punteġġ.",
+                    "keywords_metric_1": "Is-sistema tivverifika jekk il-kliem ewlieni humiex definiti. In-numru ta' kliem ewlieni m'għandux impatt fuq il-punteġġ.",
+                    "keywords_name_4": "Tiftix ibbażat skont iż-żmien",
+                    "keywords_name_3": "Tiftix ġeografiku",
+                    "keywords_name_2": "Kategoriji",
+                    "keywords_name_1": "Użu ta' kliem ewlieni",
+                    "dcat_name_4": " dcat:temporal",
+                    "dcat_name_3": "dcat:spatial",
+                    "dcat_name_2": "dcat:theme",
+                    "dcat_name_1": "dcat:Keyword",
+                    "main_text": "<p> It-tabella li ġejja tiddeskrivi l-metrika li tgħin lin-nies u lill-magni jsibu s-settijiet tad-data. F'dan il-qasam jista' jingħata punteġġ massimu ta' 100 punt.</p>"
+                },
+                "main_text": "<p>Din it-taqsima tiddeskrivi d-dimensjonijiet kollha li l-MQA teżamina biex tiddetermina l-kwalità. Id-dimensjonijiet huma derivati mill-<a target='_blank' href='https://www.go-fair.org/fair-principles/'>priniċipji FAIR <i class='fas fa-external-link-alt fa-sm'></i></a>.</p>"
+            },
+            "scoring": {
+                "table": {
+                    "bad": "Ħażin",
+                    "range": "Firxa ta' punti",
+                    "sufficient": "Biżżejjed",
+                    "scoring_cat": "Klassifikazzjoni",
+                    "good": "Tajjeb",
+                    "max_points": "Punti massimi",
+                    "excellent": "Eċċellenti",
+                    "sum": "Total",
+                    "dimension": "Dimensjoni"
+                },
+                "main_text": "Il-punteġġ ġenerali ta' sett ta' data jirriżulta miż-żieda tal-punti għal kull dimensjoni.",
+                "text": "Il-klassifikazzjoni finali sseħħ permezz ta' erba' gruppi ta' klassifikazzjoni. L-immappjar tal-punti għall-kategorija tal-klassifikazzjoni jidher fit-tabella ta' hawn taħt. Ir-rappreżentazzjoni tal-klassifikazzjoni fl-MQA hija espressa esklussivament permezz tal-kategoriji tal-klassifikazzjoni. Dan jippermetti lill-fornituri jiksbu l-ogħla grad anki bi tnaqqis żgħir ta' punti.",
+                "headline": "Klassifikazzjoni"
+            },
+            "headline": "Metodoloġija tal-Valutazzjoni tal-Kwalità tal-Metadata",
+            "cover": {
+                "validator_service": "DCAT-AP servizz ta’ validazzjoni SHACL API",
+                "main_text": " <p> L-MQA hija limitata mill-metadata li tista’ teżamina. L-investigazzjoni hija limitata esklussivament għall-metadata li d-data.europa.eu tiġbor matul il-proċess tal-ħsad. Jekk ikun hemm żbalji fil-metadejta tas-sors, dawn jistgħu jiffalsifikaw ir-riżultat ġenerali. Biex jiġi limitat dan il-potenzjal ta’ żball, l-MQA tipprovdi servizz ta’ validazzjoni li jista’ jintuża mill-fornituri tad-data biex jivvalidaw il-metadata tagħhom għal formati validi u għal DCAT-AP konformi qabel ma jintegrawha fil-proċess tal-ħsad.",
+                "validator_ui": "Paġna web tas-servizz ta’ validazzjoni DCAT-AP SHACL ",
+                "headline": "Dak li ma nkoprux"
+            },
+            "process": {
+                "main_text": "<p> Ma' kull ġenerazzjoni, il-metadata tiġi vverfikata wkoll mill-MQA. L-MQA tkejjel il-kwalità tad-diversi indikaturi, kull indikatur huwa spjegat fit-tabella ta' hawn taħt. Ir-riżultati tal-verifiki huma maħżuna bħala Vokabolarju tal-Kwalità tad-Data <a href='https://www.w3.org/TR/vocab-dqv/'>(DQV) <i class='fas fa-external-link-alt fa-sm'></i></a>. DQV huwa speċifikazzjoni tad-W3C li tintuża biex tiddeskrivi l-kwalità tas-sett tad-data.</p>\n\n<p>Peress li l-aċċessibbiltà tista' tkun volatili, huma meħtieġa verifiki ripetuti għal accessURL u downloadURL. Għal din ir-raġuni, l-MQA tivverifika b'mod regolari l-aċċessibbiltà tad-distribuzzjonijiet kollha. B'kuntrast mal-verifika tal-indikaturi l-oħra kollha, din għandha perjodu ta' tħaddim itwal, peress li d-distribuzzjonijiet huma vverifikati permezz ta' HTTP u kull URL mitlub jaf ikollu ħin ta' rispons itwal. L-MQA tuża mekkaniżmu li jqis li kull URL huwa eżaminat mill-ġdid għal aċċessibbiltà fi żmien ftit ġimgħat mill-aħħar reviżjoni. </p>",
+                "headline": "Il-Proċess MQA"
+            },
+            "scope": {
+                "main_text": "<p> Bl-MQA, irridu nwieġbu l-mistoqsija li ġejja: <br> X'inhi l-kwalità tal-metadata għad-data tas-settur pubbliku fir-reġjun pan-Ewropew u fejn jinstabu l-ikbar ostakli biex tinkiseb kwalità aħjar? </p><p> Abbażi ta' dan, l-MQA bħalissa qed tinvestiga l-mistoqsijiet konkreti li ġejjin: </p><ul><li> Tikkonforma mad-derivati DCAT-AP u DCAT-AP </li><li> Żvelar ta ' informazzjoni li għaliha d-DCAT-AP mhuwiex obbligat</li><li> Aċċessibbiltà tad-data msemmija fil-metadata permezz tal-URL ta' Aċċess u Tniżżil</li><li> Il-leġġibbiltà tal-magni tad-data li ssir referenza għaliha </li><li> Użu ta' liċenzji</li></ul><p> Kull mistoqsija terġa' tirriżulta f'investigazzjonijiet individwali, li huma deskritti fid-dettall hawn taħt.</p>\n",
+                "headline": "Kamp ta' applikazzjoni tar-riċerka"
+            },
+            "assumptions": {
+                "main_text": "<p> L-MQA huwa bbażat fuq is-suppożizzjonijiet li ġejjin.</p><h6> Użu ta’ oqsma mhux obbligatorji</h6><p> Aħna nemmnu li l-mili tal-oqsma obbligatorji tad-DCAT-AP waħdu mhuwiex biżżejjed biex jipprovdi metadata ta’ kwalità għolja. Għal din ir-raġuni, l-evalwazzjoni tiċċekkja wkoll oqsma li mhumiex speċifikati bħala obbligatorji skont id-DCAT-AP. L-oqsma eżatti li huma ċċekkjati huma elenkati hawn taħt.</p><h6> \n\nKontenut identiku għal distribuzzjonijiet multipli</h6><p>Jekk sett ta’ data jkun fih aktar minn distribuzzjoni waħda, id-distribuzzjonijiet kollha jkunu identiċi fil-kontenut, ikunu differenti biss fir-rappreżentazzjoni tad-data. Pereżempju, sett ta’ data jista’ jkollu żewġ distribuzzjonijiet, waħda li toffri d-data bħala PDF u l-oħra li toffri data identika bħala RDF/XML li tinqara mill-magni. Din id-definizzjoni hija relattiva għal kif is-settijiet ta’ data jiġu kklassifikati fl-MQA (tip ta’ “l-aħjar prattika”) iżda ma għandhiex titqies bħala d-definizzjoni standard ta’ distribuzzjonijiet.</p>",
+                "headline": "Suppożizzjonijiet"
+            },
+            "intro_text": "<p><strong>Il-Valutazzjoni tal-Kwalità tal-Metadata (MQA) hija għodda żviluppata mill-konsorzju ta’ data.europa.eu biex tiġi studjata l-kwalità tal-metadata miġbura minn data.europa.eu.</strong> Hija maħsuba biex tgħin lill-fornituri tad-data u l-portali tad-data jivverifikaw il-kwalità tal-metadata tagħhom u jirċievu suġġerimenti għal titjib. Ir-riżultati huma ppreżentati permezz tal-MQA u huma disponibbli wkoll bħala download. F’dan li ġej niddeskrivu l-funzjonalità tal-MQA u l-metodoloġija li tuża.</p>\n<p> Jekk din il-paġna għadha ma tweġibx il-mistoqsijiet kollha tiegħek, nitolbok li tħossok liberu li tikkuntattjana permezz tal-formola tal-feedback tagħna fl-aħħar tal-paġna. </p>",
+            "sub_headline": "How data.europa.eu measures the quality of all stored metadata"
+        },
+        "header": {
+            "navigation": {
+                "usingData": {
+                    "checklistForUsingData": "Lista ta' Kontroll għall-Użu tad-Data",
+                    "useCases": "Każijiet tal-Użu",
+                    "tellUsYourStory": "Għidilna l-istorja tiegħek",
+                    "title": "L-Użu tad-Data",
+                    "benefitsOfUsingData": "Benefiċċji tal-Użu tad-Data"
+                },
+                "impactStudies": {
+                    "useCases": "Uża l-Każijiet",
+                    "overview": "Ħarsa ġenerali",
+                    "opendatamaturity": "Maturità tal-Open Data",
+                    "countryInsights": "Informazzjoni speċjalizzata dwa",
+                    "tellUsYourStory": "Għidilna l-istorja tiegħek",
+                    "studies": "Studji",
+                    "opendataimpact": "Impatt tad-data miftuħa",
+                    "title": "Impatt u Studji"
+                },
+                "training": {
+                    "dataProvidersGuide": "Gwida għall-fornituri tad-data",
+                    "whatIsOpenData": "X'inhi data miftuħa",
+                    "title": "Taħriġ",
+                    "elearning": "Tagħlim elettroniku",
+                    "moreTrainingMaterial": "Aktar Materjal għat-Taħriġ",
+                    "licensingAssistant": "Assistent tal-Ħruġ tal-Liċenzji"
+                },
+                "data": {
+                    "datasets": "Settijiet tad-data",
+                    "sparqlsearch": "Tiftix SPARQL",
+                    "metadataQuality": "Kwalità tal-Metadata",
+                    "licensingAssistant": "Assistent tal-Ħruġ tal-Liċenzji",
+                    "title": "Data",
+                    "statistics": "Statistika",
+                    "euInternationalData": "Data Internazzjonali u tal-UE",
+                    "sparqlManager": "Maniġer SPARQL",
+                    "catalogues": "Katalogi",
+                    "countryData": "Data tal-pajjiż"
+                },
+                "resources": {
+                    "moreTrainingMaterial": "Aktar Materjal għat-Taħriġ",
+                    "title": "Riżorsi",
+                    "elearning": "Tagħlim elettroniku",
+                    "trainingCompanion": "Kumpann tat-Taħriġ",
+                    "reportsAboutOpenData": "Rapporti dwar id-Data Miftuħa"
+                },
+                "providingData": {
+                    "beHarvestedByUs": "Maħżunin minna",
+                    "title": "Għoti ta' Data",
+                    "cataloguesHarvestedByUs": "Katalogi Maħżunin minna",
+                    "practicalGuide": "Gwida Prattika"
+                },
+                "whatWeDo": {
+                    "openDataMaturity": "Maturità tad-Data Miftuħa",
+                    "ourActivities": "L-Attivitajiet Tagħna",
+                    "factsheetsAndReports": "Skedi Informattivi u Rapporti",
+                    "title": "X'nagħmlu aħna",
+                    "calendar": "Kalendarju",
+                    "featuredHighlights": "Punti ta' Enfasi Murija",
+                    "news": "Aħbarijiet"
+                },
+                "about": {
+                    "beHarvestedByUs": "Jinħażen minna",
+                    "documentation": "Dokumentazzjoni",
+                    "title": "Dwar",
+                    "europeanDataPortal": "Portal tad-data Ewropew"
+                },
+                "newsEvents": {
+                    "title": "Aħbarijiet u avvenimenti",
+                    "events": "Avvenimenti",
+                    "news": "Aħbarijiet"
+                }
+            },
+            "subnav": {
+                "contact": "Kuntatt",
+                "legalNotice": "Avviż legali",
+                "search": "Fittex",
+                "newsletter": "Bullettin",
+                "cookies": "Cookies",
+                "login": "Illoggja",
+                "faq": "FAQ"
+            },
+            "searchInputPlaceholder": "Fittex kontenut fuq is-sit...",
+            "european": "Ewropew",
+            "searchOptions": {
+                "siteContent": "Kontenut tas-sit",
+                "datasets": "Settijiet tad-data"
+            },
+            "dataPortal": "Portal tad-Data"
+        },
+        "footer": {
+            "links": {
+                "search": "Fittex",
+                "newsletter": "Bullettin",
+                "faq": "FAQ",
+                "contact": "Kuntatt",
+                "subscribe": "Abbona",
+                "cookies": "Cookies",
+                "login": "Illoggja",
+                "legalNotice": "Avviż legali"
+            },
+            "managedBy": "Immaniġġjat mill-Uffiċċju tal-Pubblikazzjonijiet tal-Unjoni Ewropea.",
+            "fundedBy": "Iffinanzjat mill-Unjoni Ewropea",
+            "newsletter": "Abbona għall-Bullettin tagħna",
+            "helpUsImproveText": "Il-feedback tiegħek se jgħinna ntejbu l-esperjenza ġenerali tal-utenti. \nGħandek xi suġġerimenti?",
+            "newsletterText": "Abbona għall-Bullettin tagħna",
+            "subscribe": "Abbona",
+            "followUs": "Segwina fuq",
+            "lastUpdate": "L-Aħħar Aġġornament",
+            "helpUsImprove": "Għinna nitjiebu"
+        },
+        "maintenance_message": "Aħbar tajba! Aħna qed intejbu s-sistema tagħna. Sadanittant, dan il-komponent jinsab fil-modalità ta' manutenzjoni u jista' ma jurix id-data kollha disponibbli.",
+        "catalogue_list": {
+            "description": "Agħżel katalgu għal dettalji",
+            "search": {
+                "placeholder": "Fittex għall-isem tal-katalogu jew id-deskrizzjoni"
+            }
+        },
+        "title": "Metadata Quality Assurance",
+        "empty": "",
+        "no_data": "L-ebda kejl disponibbli għal dan l-indikatur",
+        "meta": {
+            "description": "L-Assigurazzjoni tal-Kwalità tal-Metadata toffri ħarsa ġenerali lejn il-metadata kollha disponibbli għall-portal tad-data miftuħa data.europa.eu skont diversi indikaturi."
+        }
+    }
+}

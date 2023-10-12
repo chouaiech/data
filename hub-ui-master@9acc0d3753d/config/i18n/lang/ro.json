@@ -1,0 +1,969 @@
+{
+    "message": {
+        "metadata": {
+            "catalogRecord": "Registru catalog",
+            "deleteItem": "Sigur doriți să ștergeți acest element?",
+            "availability": "Disponibilitate",
+            "versionInfo": "Informații versiune",
+            "chooseCategory": "Alegeți o categorie",
+            "chooseFile": "Alegeți un fișier",
+            "versionNotes": "Observații versiune",
+            "review": "Examinare",
+            "tooltipKeywords": "Introduceți aici cuvintele-cheie ale setului dvs. de date!",
+            "pageDescriptionDataset": "Adăugați titlul, descrierea, catalogul, cuvintele-cheie și categoriile la setul dvs. de date!",
+            "no": "Nu",
+            "relatedResources": "Resurse conexe",
+            "pageDescriptionPublisher": "Adăugați tipul autorului publicării, numele și pagina principală la setul dvs. de date!",
+            "tooltipTitle": "Introduceți aici titlul setului dvs. de date!",
+            "linkedData": "Date conexate",
+            "numSeries": "Numărul seriei de date",
+            "releaseDate": "Data publicării",
+            "yes": "Da",
+            "unitsOfMeasurement": "Unități de măsură",
+            "distributionsEmpty": "Ne pare rău, momentan nu există distribuiri încărcate disponibile pentru acest set de date. Vă rugăm să adăugați cel puțin o distribuire!",
+            "enterDownloadUrl": "Intră în Descarcă Url",
+            "frequency": "Frecvență",
+            "type": "Tip",
+            "telephone": "Telefon",
+            "label": "Etichetă",
+            "addedToDataEuropaEU": "Adăugat la data.europa.eu",
+            "tooltipCategories": "Alegeți aici categoriile setului dvs. de date!",
+            "temporal": "Acoperire temporală",
+            "enterDescription": "Introduceți o descriere",
+            "accrualPeriodicity": "Periodicitatea cumulării",
+            "showXMore": "Arată {increment}  mai multe ",
+            "identifier": "Identificator",
+            "isPartOf": "Este subcatalogul",
+            "dataServices": "Servicii de date",
+            "chooseType": "Alegeți un tip",
+            "organizationName": "Denumirea organizației",
+            "catalog": "Catalog",
+            "qualityAnnotations": "Adnotări de calitate",
+            "update": "Actualizare ",
+            "showAll": "Arată toate",
+            "coordinates": "Coordonate",
+            "email": "E-mail",
+            "tooltipContactType": "Alegeți aici tipul punctului de contact pentru setul dvs. de date!",
+            "checksum": "Sumă de verificare",
+            "enterEmail": "Introduceți o adresă de e-mail",
+            "cancel": "Anulare",
+            "conformsTo": "Conform cu",
+            "downloadUrl": "URL de descărcare",
+            "chooseLicense": "Alegeți o licență",
+            "tooltipDescription": "Introduceți aici descrierea setului dvs. de date!",
+            "tags": "Etichete",
+            "accessUrl": "URL de acces",
+            "languages": "Limbi",
+            "title": "Titlu",
+            "enterTitle": "Introduceți un titlu",
+            "url": "Adresă URL",
+            "resource": "Resursă",
+            "tooltipPublisherHomepage": "Introduceți aici pagina principală a autorului publicării pentru setul dvs. de date!",
+            "creator": "Creator",
+            "description": "Descriere",
+            "spatial": "Spațial",
+            "readLess": "Citire mai puțin",
+            "tooltipPublisherType": "Alegeți aici tipul autorului publicării pentru setul dvs. de date!",
+            "accessRights": "Drepturi de acces",
+            "tooltipDistributionDownloadUrl": "Introduceți aici URL-ul de descărcare al distribuirii dvs.!",
+            "attributes": "Atribute",
+            "mediaType": "Tip media",
+            "categories": "Categorii",
+            "pageDescriptionDistribution": "Adăugați distribuiri la setul dvs. de date!",
+            "pages": "Pagini",
+            "goToCatalog": "Mergeți la pagina catalogului",
+            "tooltipDistributionDescription": "Introduceți aici descrierea distribuirii dvs.!",
+            "identifiers": "Identificatori",
+            "scheme": "Schema de ajutoare",
+            "contactPoints": "Puncte de contact",
+            "hasPart": "Are subcatalog",
+            "showLess": "Afișează mai puține",
+            "byteSize": "Dimensiune bytes",
+            "tooltipCatalog": "Alegeți aici catalogul setului dvs. de date!",
+            "methodologyPage": "Pagina de metodologie MQA",
+            "hasVersion": "Are versiune",
+            "useDownloadUrl": "Vreau să introduc un URL de descărcare în locul încărcării unui fișier!",
+            "created": "Creat",
+            "themeTaxonomy": "Taxonomia tematică",
+            "homepage": "Pagina principală",
+            "address": "Adresa",
+            "visualisations": "Vizualizări",
+            "tooltipDistributionFormat": "Alegeți aici formatul distribuirii dvs.!",
+            "upload": "Încărcare",
+            "notFound": "Nu s-a găsit",
+            "dimensions": "Dimensiuni",
+            "addDistribution": "Adăugare distribuire",
+            "name": "Denumire",
+            "metadataQuality": "Calitatea metadatelor",
+            "provenances": "Proveniență",
+            "enterKeywords": "Introduceți cuvinte-cheie",
+            "landingPage": "Pagina de destinație",
+            "tooltipDistributionTitle": "Introduceți aici titlul distribuirii dvs.!",
+            "license": "Licență",
+            "chooseCatalog": "Alegeți un catalog",
+            "enterHomepage": "Introduceți o pagină principală",
+            "tooltipDistributionLicence": "Alegeți aici licența aferentă distribuirii dvs.!",
+            "readMore": "Citiți mai multe",
+            "format": "Format",
+            "chooseFormat": "Alegeți un format",
+            "publisher": "Autorul publicării",
+            "dataset": "Set de date",
+            "updated": "Actualizat",
+            "pageDescriptionUpload": "Adăugați fișiere la distribuirile dvs.!",
+            "spatialResource": "Resursă spațială",
+            "distribution": "Distribuire",
+            "tooltipContactName": "Introduceți aici numele punctului de contact pentru setul dvs. de date!",
+            "distributions": "Distribuiri",
+            "status": "Stare",
+            "datasets": "Seturi de date",
+            "showMore": "Arată mai multe",
+            "rights": "Drepturi",
+            "tooltipContactEmail": "Introduceți aici adresa de e-mail a punctului de contact pentru setul dvs. de date!",
+            "otherIdentifiers": "Alți identificatori",
+            "tooltipPublisherName": "Introduceți aici numele autorului publicării pentru setul dvs. de date!",
+            "enterName": "Introduceți un nume",
+            "documentations": "Documentații",
+            "sources": "Surse",
+            "modificationDate": "Data modificării",
+            "isVersionOf": "Este versiune a",
+            "pageDescriptionContactPoint": "Adăugați tipul punctului de contact, numele și adresa de e-mail la setul dvs. de date!",
+            "goToDataset": "Mergeți la pagina setului de date",
+            "updatedOnDataEuropaEU": "Informații actualizate la data a.europa.eu"
+        },
+        "dataupload": {
+            "info": {
+                "defaultdescription": "Faceți clic pe pictograma „informații” pentru a afișa explicații detaliate ale câmpului.",
+                "information": "Informații"
+            },
+            "datasets": {
+                "step2": {
+                    "source": {
+                        "label": "Sursa"
+                    },
+                    "type": {
+                        "placeholder": "Text rezervat tipului de set de date"
+                    },
+                    "subject": {
+                        "help": "O categorie a setului de date."
+                    },
+                    "isReferencedByUrl": {
+                        "label": "URL"
+                    },
+                    "contactPointAddressStreet": {
+                        "placeholder": "Text rezervat punctului de contact pentru setul de date Address Street"
+                    },
+                    "conformsTo": {
+                        "placeholder": "Configurații ale setului de date – text rezervat titularului"
+                    },
+                    "isVersionOf": {
+                        "label": "Este versiunea"
+                    },
+                    "provenance": {
+                        "label": "Proveniența"
+                    },
+                    "language": {
+                        "label": "Limba"
+                    },
+                    "qualifiedAttribution": {
+                        "help": "Link către un agent care are o anumită formă de responsabilitate pentru resursă"
+                    },
+                    "temporal": {
+                        "placeholder": "Set de date Temporal placeholder text (text rezervat temporar)"
+                    },
+                    "accessRights": {
+                        "info": "Această proprietate se referă la informații care indică dacă setul de date este date deschise, are restricții de acces sau nu este public."
+                    },
+                    "identifier": {
+                        "help": "Această proprietate conține identificatorul principal al setului de date."
+                    },
+                    "versionInfo": {
+                        "help": "Numărul versiunii setului de date."
+                    },
+                    "hasVersion": {
+                        "info": "Această proprietate se referă la un set de date conex care este o versiune, o ediție sau o adaptare a setului de date descris."
+                    },
+                    "wasGeneratedBy": {
+                        "add-label": "Adăugați Was Generated By"
+                    },
+                    "qualifiedRelation": {
+                        "label": "Relația calificată"
+                    },
+                    "conformsToTitle": {
+                        "label": "Titlu"
+                    },
+                    "creatorType": {
+                        "label": "Tip"
+                    },
+                    "spatial": {
+                        "info": "Această proprietate se referă la o regiune geografică care este acoperită de setul de date."
+                    },
+                    "temporalResolutionMonth": {
+                        "label": "Luna rezoluției temporale"
+                    },
+                    "contactPointName": {
+                        "label": "Denumirea"
+                    },
+                    "temporalResolutionMinute": {
+                        "placeholder": "Set de date Rezoluție temporală Minute text locholder"
+                    },
+                    "contactPointEmail": {
+                        "label": "E-mail"
+                    },
+                    "contactPointOrganisationName": {
+                        "label": "Denumirea organizației"
+                    },
+                    "contactPoint": {
+                        "help": "Această proprietate conține informații de contact."
+                    },
+                    "temporalResolutionDay": {
+                        "placeholder": "Set de date Rezoluție temporală zi spațiu spațiu text"
+                    },
+                    "provenanceText": {
+                        "placeholder": "Text de înlocuire text pentru setul de date"
+                    }
+                },
+                "step1": {
+                    "publisherType": {
+                        "placeholder": "Text rezervat tipului de editor de seturi de date"
+                    },
+                    "datasetID": {
+                        "label": "Identificatorul setului de date"
+                    },
+                    "modified": {
+                        "label": "Modificat"
+                    },
+                    "publisher": {
+                        "label": "Editor"
+                    },
+                    "issued": {
+                        "help": "Data emiterii oficiale (de exemplu, data publicării) a setului de date. Formate acceptabile pentru date: AAAA-LL-ZZ, AAAA-LL, AAAA."
+                    },
+                    "publisherHomepage": {
+                        "label": "Prima pagină a paginii de internet"
+                    }
+                },
+                "step3": {
+                    "spatialResolutionInMeters": {
+                        "help": "Separarea spațială minimă care poate fi rezolvată într-un set de date."
+                    },
+                    "mediaType": {
+                        "placeholder": "Text rezervat pentru tipul de media de distribuție"
+                    },
+                    "language": {
+                        "help": "O limbă utilizată în distribuție."
+                    },
+                    "title": {
+                        "info": "Această proprietate conține o denumire dată distribuției. Această proprietate poate fi repetată pentru versiuni lingvistice paralele ale descrierii."
+                    },
+                    "status": {
+                        "label": "Statutul"
+                    },
+                    "checksum": {
+                        "placeholder": "Distribuție text spațiu rezervat „Checksum”"
+                    },
+                    "hasPolicyUrl": {
+                        "placeholder": "Distribuire Has Policy Url text rezervat spațiu rezervat"
+                    },
+                    "page": {
+                        "help": "O pagină sau un document despre această distribuție."
+                    },
+                    "availability": {
+                        "placeholder": "Text rezervat pentru distribuire Disponibilitate"
+                    },
+                    "format": {
+                        "placeholder": "Formular de distribuire text rezervat"
+                    },
+                    "conformsTo": {
+                        "add-label": "Adăugați Conforme la"
+                    },
+                    "issued": {
+                        "label": "Eliberat"
+                    },
+                    "description": {
+                        "help": "Această proprietate conține un cont de distribuire cu text liber."
+                    },
+                    "hasPolicy": {
+                        "help": "Politica care exprimă drepturile."
+                    },
+                    "temporalResolutionMonth": {
+                        "label": "Luna rezoluției temporale"
+                    },
+                    "temporalResolutionHour": {
+                        "placeholder": "Set de date Rezoluție temporală Oră de plasare text"
+                    },
+                    "licence": {
+                        "help": "Licența în temeiul căreia este pusă la dispoziție distribuția."
+                    },
+                    "date": {
+                        "label": "Data"
+                    }
+                },
+                "stepper": {
+                    "step3": {
+                        "children": {
+                            "distribution3": {
+                                "name": "Informații suplimentare"
+                            },
+                            "distribution4": {
+                                "name": "Informații suplimentare"
+                            },
+                            "distribution1": {
+                                "name": "Informații generale"
+                            },
+                            "distribution2": {
+                                "name": "Informații suplimentare"
+                            }
+                        }
+                    },
+                    "overview": "Prezentare generală a setului de date"
+                }
+            },
+            "catalogues": {
+                "step2": {
+                    "isPartOf": {
+                        "info": "Această proprietate se referă la un catalog conex în care catalogul descris este inclus fizic sau logic."
+                    },
+                    "language": {
+                        "help": "Un limbaj utilizat în metadatele textuale care descriu titlurile, descrierile etc."
+                    },
+                    "spatial": {
+                        "info": "Această proprietate se referă la o zonă geografică inclusă în catalog."
+                    },
+                    "hasPart": {
+                        "help": "Această proprietate se referă la un catalog conex care face parte din catalogul descris."
+                    },
+                    "creator": {
+                        "add-label": "Adaugă Creatorul"
+                    },
+                    "creatorName": {
+                        "label": "Denumire"
+                    }
+                },
+                "step1": {
+                    "title": {
+                        "help": "O denumire dată registrului de catalog. "
+                    },
+                    "description": {
+                        "info": "Această proprietate conține un cont de text liber al înregistrării. Această proprietate poate fi repetată pentru versiuni lingvistice paralele ale descrierii."
+                    },
+                    "licence": {
+                        "placeholder": "Text rezervat pentru licența catalogului"
+                    },
+                    "modified": {
+                        "label": "Modificat"
+                    },
+                    "licenceDescription": {
+                        "label": "Denumirea licenței"
+                    },
+                    "homepage": {
+                        "help": "O pagină web care acționează ca pagină principală pentru catalog."
+                    }
+                },
+                "stepper": {
+                    "overview": "Catalog Prezentare generală",
+                    "step1": {
+                        "name": "Etapa 1: Creare Catalog"
+                    },
+                    "step2": {
+                        "name": "Etapa 2: Definirea proprietăților catalogului"
+                    }
+                }
+            },
+            "clear": "Limpede",
+            "deletemodal": {
+                "deleteDistribution": "Ștergere distribuție",
+                "areyousure": "Sunteți sigur că doriți să ștergeți această distribuție?"
+            },
+            "createUniqueID": "Creați un ID unic",
+            "saveasdraft": "Salvați ca proiect",
+            "savedataset": "Salvează setul de date",
+            "next": "Etapa următoare",
+            "noDistributions": "Nu sunt disponibile distributii",
+            "savedraft": "Salvează proiectul",
+            "searchVocabulary": "Vocabularul de căutare",
+            "error": {
+                "general": "S-a produs o eroare. Vă rugăm să încercați din nou mai târziu.",
+                "invalid-message": "Lipsesc unele câmpuri. Vă rugăm să completați toate câmpurile obligatorii!"
+            },
+            "type": "Tip",
+            "preview": "Etapa anterioară",
+            "submit": "Trimitere",
+            "publishdataset": "Publică setul de date",
+            "validationtitle": "Validarea",
+            "publishdraft": "Publică proiectul",
+            "newDistribution": "Adăugați o altă distribuție",
+            "validationerror": "A apărut o eroare la validarea formularului!",
+            "createDataset": "Creare set de date",
+            "defineDatasetProperties": "Definirea proprietăților setului de date",
+            "createDistributions": "Creați distribuiri"
+        },
+        "datasetDetails": {
+            "subnav": {
+                "quality": "Calitatea",
+                "similarDatasets": "Seturi de date similare",
+                "categories": "Categorii",
+                "dataset": "Set de date",
+                "activityStream": "Fluxul activităților"
+            },
+            "quality": {
+                "licenceAvailability": "Informații despre licență",
+                "mediaTypeAvailability": "Tip media",
+                "temporalAvailability": "Căutare temporală",
+                "accessibility": "Accesibilitate",
+                "dcatApCompliance": "Conformitatea cu DCAT-AP",
+                "distributions": {
+                    "downloadUrlStatusCode": "Cod de stare downloadUrl",
+                    "accessUrlStatusCode": "Codul statutului AccessURL"
+                },
+                "accessRightsVocabularyAlignment": "Vocabular pentru restricțiile de acces",
+                "contactPointAvailability": "Punct de contact",
+                "dateIssuedAvailability": "Data publicării",
+                "nodata": "Se pare că există o problemă în ceea ce ne privește. Nu au putut fi încărcate date de calitate. Vă rugăm să încercați mai târziu.",
+                "dateModifiedAvailability": "Data modificării",
+                "contextuality": "Contextualitate",
+                "reusability": "Posibilitățile de reutilizare",
+                "accessUrlStatusCode": "Cele mai frecvente coduri de stare pentru URL-urile de acces",
+                "downloadUrlStatusCode": "Cele mai frecvente coduri de stare pentru URL-urile de descărcare",
+                "formatMediaTypeVocabularyAlignment": "Tip de format / media din vocabular",
+                "metaDataQuality": "Calitatea metadatelor",
+                "downloadUrlAvailability": "URL de descărcare",
+                "dataQuality": "Calitatea datelor",
+                "categoryAvailability": "Categorii",
+                "interoperability": "Interoperabilitate",
+                "findability": "Ușurința găsirii",
+                "spatialAvailability": "Căutare geografică",
+                "formatAvailability": "Format",
+                "byteSizeAvailability": "Dimensiunea fișierului",
+                "accessRightsAvailability": "Restricții de acces",
+                "distributionQuality": "Calitatea distribuției",
+                "publisherAvailability": "Autorul publicării",
+                "keywordAvailability": "Utilizarea de cuvinte-cheie",
+                "rightsAvailability": "Drepturi"
+            },
+            "follow": "Urmăriți",
+            "accessURLTooltip": "Acest link poate conține informații despre modul de obținere a fișierului de referință sau este un link direct către fișierul menționat.",
+            "dataStream": "Streamuri de date",
+            "downloadURLTooltip": "Aceasta este o legătură directă cu fișierul menționat.",
+            "upload": {
+                "organisation": "Organizație",
+                "individual": "Individual",
+                "resetText": "Resetați întregul formular?",
+                "person": "Persoană",
+                "unknownFormat": "Format necunoscut",
+                "reset": "Resetare formular"
+            },
+            "preview": "Previzualizare",
+            "feedback": "Feedback",
+            "access": "Acces",
+            "datasets": {
+                "modal": {
+                    "downloadingFiles": "Descărcarea fișierelor",
+                    "zipNumberOfFiles": "Fișierele „zip to number” (Număr de înregistrare)",
+                    "waitingForDownload": "(în așteptarea descărcării)",
+                    "downloadProgress": "Descărcați Progress",
+                    "notDownloaded": "Nedescărcate",
+                    "error": "Eroare! Încercați „Again”",
+                    "okay": "Okay",
+                    "cancel": "Anulare",
+                    "close": "Închidere",
+                    "coupleOfMinutes": "(acest lucru poate dura câteva minute)",
+                    "notDownloadedTooltip": "Detalii pot fi găsite în fișierul file_report.csv anexat"
+                },
+                "leavePageWindow": {
+                    "text": "Doriți într-adevăr să plecați? Descărcarea va fi oprită atunci când plecați!"
+                },
+                "downloadAll": "Descărcați Toate"
+            },
+            "translation": {
+                "update": "O traducere actualizată a acestui set de date este în curs.",
+                "original": "Limba originală",
+                "message": "Titlul și descrierea acestui set de date sunt traduse automat.",
+                "noTranslation": "Acest set de date nu este încă disponibil în limba dumneavoastră. El este însă în curs de traducere.",
+                "link": "Dați clic aici pentru a vizualiza setul de date în limba originală"
+            },
+            "cite": "Citează",
+            "relatedResources": "Resurse conexe",
+            "share": "Distribuiți",
+            "geoVisualisation": "Deschidere geovizualizare",
+            "download": "Descărcare",
+            "intro": {
+                "distribution": "În cele ce urmează sunt enumerate măsurarea calității tuturor distribuirilor setului de date. Pentru informații cu privire la indicatorii pe care îi folosim pentru măsurarea indicatorilor, vă rugăm să consultați pagina noastră <a href='/mqa/methodology?locale={locale}'>metodologică</a>.",
+                "metadataQuality": "Asigurarea calității metadatelor este menită să ajute furnizorii de date și portalurile de date să își verifice metadatele în raport cu diverși indicatori. Pentru informații cu privire la indicatorii pe care îi folosim pentru măsurarea indicatorilor, vă rugăm să consultați pagina noastră <a href='/mqa/methodology?locale={locale}'>metodologică</a>."
+            },
+            "about": "despre",
+            "datasetFeed": "Setul de date alimentat",
+            "delete": "Ștergere",
+            "openResource": "Mergeți la resursă",
+            "visualisation": "Deschidere vizualizare",
+            "isUsedBy": "Este utilizat de către",
+            "unfollow": "Anulare urmărire",
+            "shareOn": "Distribuiți pe",
+            "additionalInfo": "Informații suplimentare",
+            "contactPoints": {
+                "organizationName": "Denumirea organizației"
+            },
+            "edit": "Editare",
+            "menu": "Meniu",
+            "manage": "Gestionare ",
+            "geoInfo": "Sfera setului de date",
+            "options": "Opțiuni"
+        },
+        "tooltip": {
+            "catalogDetails": {
+                "created": "Data emiterii oficiale (de exemplu, data publicării) catalogului.",
+                "publisher": "O entitate (organizație) responsabilă cu punerea la dispoziție a catalogului.",
+                "updated": "Cea mai recentă dată la care a fost modificat catalogul.",
+                "description": "O descriere a catalogului.",
+                "title": "Titlul catalogului.",
+                "metadata": "Opțiuni de descărcare a metadatelor catalogului în diferite reprezentări de date conexe.",
+                "language": "Limbajul utilizat în metadatele textuale care descriu titlurile, descrierile etc. ale seturilor de date din catalog. Această proprietate poate fi repetată dacă metadatele sunt furnizate în mai multe limbi.",
+                "spatial": "Zona geografică care face obiectul catalogului."
+            },
+            "datasetDetails": {
+                "frequency": "Frecvența la care setul de date este actualizat.",
+                "dataset": "Setul de date sau detalii privind serviciul.",
+                "updated": "Cea mai recentă dată la care setul de date sau serviciul a fost modificat sau modificat.",
+                "versionInfo": "Numărul versiunii sau altă denumire a setului de date.",
+                "distributions": {
+                    "updated": "Cea mai recentă dată la care distribuția a fost modificată sau modificată.",
+                    "title": "Denumirea dată distribuției.",
+                    "linkedSchema": "Schema stabilită căreia îi corespunde distribuția descrisă.",
+                    "linkedData": "Opțiuni de descărcare a metadatelor de distribuție în diferite reprezentări de date conectate.",
+                    "status": "Scadența distribuției. Aceasta TREBUIE să ia una dintre valorile finalizate, deprecate, în curs de dezvoltare, retrase.",
+                    "licence": "Licența în temeiul căreia este pusă la dispoziție distribuția.",
+                    "availability": "Indică perioada de timp planificată pentru a menține disponibilă distribuția setului de date.",
+                    "rights": "Declarație care specifică drepturile asociate distribuției.",
+                    "checksum": "Un mecanism care poate fi utilizat pentru a verifica dacă conținutul unei distribuții nu s-a schimbat. Suma de verificare este legată de downloadUrl.",
+                    "mediaType": "Tipul media al distribuției, astfel cum este definit în registrul oficial al tipurilor de mass-media gestionat de IANA.",
+                    "spatialResolution": "Separarea spațială minimă care poate fi rezolvată într-o distribuție a setului de date, măsurată în metri.",
+                    "byteSize": "Conține dimensiunea unei distribuții în octeți.",
+                    "download": "Descărcați sau accesați distribuția.",
+                    "type": "Linkuri către un tip de tribuție Dis, de exemplu, că este o vizualizare.",
+                    "created": "Data emiterii oficiale (de exemplu, publicarea) distribuției.",
+                    "language": "Limba utilizată în distribuție.",
+                    "options": "Deschideți o previzualizare a distribuției.",
+                    "temporalResolution": "Se referă la perioada minimă de timp care poate fi rezolvată în distribuția setului de date."
+                },
+                "otherIdentifier": "Identificator secundar al setului de date, cum ar fi MAST/ADS16, DataCite17, DOI18, EZID19 sau W3ID20.",
+                "numSeries": "Conține numărul de serii de date conținute în setul de date.",
+                "versionOf": "Set de date conex al cărui set de date descris este o versiune, o ediție sau o adaptare.",
+                "unitsOfMeasurement": "O unitate de măsură a observațiilor din setul de date.",
+                "distribution": "O încorporare fizică a setului de date sau a serviciului într-un anumit format, de exemplu un link către fișierul setului de date.",
+                "quality": "Informații privind calitatea metadatelor pentru acest set de date sau serviciu.",
+                "catalogue": "Catalogul din care face parte acest set de date sau serviciu.",
+                "linkedData": "Opțiuni de descărcare a setului de date sau a metadatelor serviciului în diferite reprezentări de date conectate.",
+                "versionNotes": "Descrierea diferențelor dintre această versiune și o versiune anterioară a setului de date. Această proprietate poate fi repetată pentru versiuni lingvistice paralele ale notelor de versiune.",
+                "similarDatasets": "Alte seturi de date sau servicii care sunt similare cu acesta.",
+                "identifier": "Identificatorul principal al setului de date, de exemplu URI sau alt identificator unic în contextul catalogului.",
+                "uriRef": "URIref este un identificator unic pentru setul de date/serviciul de date din data.europa.eu",
+                "creator": "Entitatea responsabilă în principal de producerea setului de date.",
+                "spatial": "Regiunea geografică care face obiectul setului de date.",
+                "language": "Limba setului de date.",
+                "format": "Formatul care este disponibil pentru acest set de date sau serviciu.",
+                "conformsTo": "Norme de punere în aplicare sau alte specificații.",
+                "landingPage": "Pagina web care oferă acces la setul de date, la distribuția acestuia și/sau la informații suplimentare.",
+                "provenance": "Declarație cu privire la linia unui set de date.",
+                "documentation": "Pagină sau document despre acest set de date.",
+                "publisher": "O entitate (organizație) responsabilă cu punerea la dispoziție a setului de date sau a serviciului.",
+                "created": "Data emiterii oficiale (de exemplu, data publicării) a setului de date sau a serviciului.",
+                "relatedResource": "Resursa conexă.",
+                "categories": "Categorii care sunt atribuite acestui set de date sau serviciu.",
+                "share": "Partajați acest set de date sau serviciu prin intermediul platformelor de comunicare socială.",
+                "feedback": "Spuneți-ne ce credeți despre acest set de date sau serviciu.",
+                "dqvData": "Opțiuni de descărcare a setului de date sau a măsurătorilor calității serviciului în diferite reprezentări de date conexe.",
+                "hasVersion": "Set de date conex care este o versiune, o ediție sau o adaptare a setului de date descris"
+            },
+            "quality": {
+                "keywordAvailability": "Cuvintele-cheie sprijină direct căutarea și, astfel, sporesc gradul de identificare a setului de date. & ampbr > &br > Sistemul verifică dacă sunt definite cuvinte-cheie. Numărul de cuvinte-cheie nu are niciun impact asupra punctajului.",
+                "formatMediaTypeVocabularyAlignment": "Verifică dacă alte formate și tipuri de suporturi aparțin unui vocabular controlat. &br > br > Vocabularul formatului poate fi găsit în depozitul de date a.europa.eu GitLab. & ampbr > &br > Tipul media este verificat pe lista IANA.",
+                "licenceAvailability": "O licență este o informație valoroasă pentru reutilizarea datelor. &br > Se verifică dacă proprietatea este stabilită sau nu.",
+                "publisherAvailability": "Editorul este o persoană sau o organizație care a publicat datele.",
+                "formatAvailability": "Această rubrică precizează formatul fișierului distribuției. &br > Probr > Se verifică dacă proprietatea este setată sau nu.",
+                "temporalAvailability": "Utilizarea informațiilor temporale ar permite utilizatorilor să efectueze o căutare facetată în timp util.",
+                "rightsAvailability": "În unele cazuri, o licență specifică nu poate fi aplicată unui set de date. Câmpul „Drepturi” poate fi utilizat pentru a specifica o trimitere la o resursă care va informa un utilizator cu privire la drepturile pe care le are atunci când utilizează setul de date.",
+                "mediaTypeAvailability": "Această rubrică indică tipul de suport al distribuției. &br > Probr > Se verifică dacă proprietatea este setată sau nu.",
+                "accessRightsVocabularyAlignment": "Utilizarea unui vocabular controlat sporește posibilitățile de reutilizare. Este verificat dacă se utilizează vocabularul controlat pentru drepturile de acces.",
+                "dcatApCompliance": "Conformitatea DCAT-AP se calculează pentru toate sursele și seturile de date disponibile într-un catalog. Această verificare se efectuează numai dacă metadatele sunt recoltate inițial ca DCAT-AP sau ca un derivat valabil. &br > DCAT-AP este o specificație pentru descrierea datelor publice conexate din Europa. Portalul data.europe.eu poate, de asemenea, să colecteze metadate care nu respectă pe deplin DCAT-AP. Pentru a spori conformitatea cu DCAT-AP, MQA verifică fiecare metadat pentru conformitatea sa DCAT-AP. & ampbr > &br > metadatele sunt validate în raport cu un set de forme SHACL. Metadatele nu sunt conforme în cazul în care raportul de validare SHACL raportează cel puțin o problemă. &br > br > MQA utilizează datele a.europe.eu în validarea DCAT-AP SHACL sevice. & ampbr > br > SCHACL este o recomandare a W3C și este utilizată pentru validarea graficelor RDF în raport cu un set de forme.",
+                "accessRightsAvailability": "Acest câmp indică dacă accesul la date este public sau restricționat. &br > Probr > Se verifică dacă proprietatea este setată sau nu.",
+                "accessUrlStatusCode": "AccessURL nu este neapărat o legătură directă cu datele, ci se poate referi, de asemenea, la un URL care oferă acces la setul de date sau la care sunt disponibile mai multe informații despre setul de date. Dacă codul de stare răspuns se încadrează în intervalul 200 sau 300, accesibilitatea resursei este evaluată pozitiv.",
+                "categoryAvailability": "Categoriile ajută utilizatorii să exploreze seturile de date din punct de vedere tematic. &br > Se verifică dacă mai multe categorii sunt atribuite setului de date. Numărul categoriilor atribuite nu are niciun impact asupra punctajului.",
+                "downloadUrlStatusCode": "Dacă există un downloadUrl, accesibilitatea este verificată. Din cererea HTTP HEAD, URL-ul specificat este verificat pentru accesibilitatea resurselor prin intermediul cererii HTTP HEAD. Dacă codul de stare răspuns se încadrează în intervalul 200 sau 300, accesibilitatea resursei este evaluată pozitiv.",
+                "byteSizeAvailability": "Specifică dimensiunea fișierului în octeți. & ampbr > &br > Se verifică dacă proprietatea este setată sau nu.",
+                "downloadUrlAvailability": "DownloadUrl este o legătură directă cu datele de referință.",
+                "spatialAvailability": "Utilizarea informațiilor spațiale ar permite utilizatorilor să găsească setul de date cu o căutare geofacetată. & ampbr > &br > Se verifică dacă proprietatea este setată sau nu.",
+                "contactPointAvailability": "Punctul de contact conține informații pe care trebuie să le adreseze în cazul în care există întrebări cu privire la date.",
+                "dateIssuedAvailability": "Data la care setul de date sau distribuirea a fost eliberată. &br > Se verifică dacă proprietatea este sau nu fixată.",
+                "dateModifiedAvailability": "Data la care setul de date sau distribuția a fost modificată ultima dată."
+            },
+            "catalogRecord": "O descriere a înscrierii unui set de date în catalog.",
+            "lastModified": "Sortarea rezultatelor în funcție de cea mai recentă modificare a setului de date",
+            "editorialContent": "Căutați conținut editorial, de exemplu știri, evenimente, cazuri de utilizare",
+            "datasets": "Căutarea seturilor de date",
+            "relevance": "Sortarea setului de date în funcție de relevanță. Relevanța se calculează pe baza corespondenței termenilor de căutare din titlu, cuvinte-cheie și descriere",
+            "contactPoints": "Datele de contact care pot fi utilizate pentru trimiterea de observații cu privire la setul de date.",
+            "locationFilter": "Pentru a vizualiza seturile de date legate de o anumită locație, faceți clic pe hartă și utilizați pictograma stiloului pentru a o selecta. Apoi faceți clic pe „Aplicare” pentru a filtra numai seturile de date care se referă la zona selectată. Rețineți că numai seturile de date care includ metadate cu informații geografice vor fi incluse în rezultatele căutării.",
+            "catalogues": "Căutați cataloage. Un catalog găzduiește seturi de date și servicii"
+        },
+        "visualisationDistribution": {
+            "barChartExplain": "O diagramă bară ilustrează valorile numerice pentru nivelurile unui element categoric ca bare. Nivelurile sunt trasate pe o axă cartografică, iar valorile sunt trasate pe cealaltă axă.",
+            "semicolon": "Punct și virgulă",
+            "exportSucceeded": "Configurația a fost creată cu succes!",
+            "yAxis": "axa y",
+            "pipe": "Conductă",
+            "cancel": "Anulare",
+            "fileTypeNotSupported": "Încercați să faceți un tip de fișier care nu este sprijinit.",
+            "confirm": "Confirmați",
+            "fileNotFound": "Încercați să creați un fișier al cărui conținut nu a putut fi citit.",
+            "comma": "Virgulă",
+            "space": "Spațiu",
+            "exportDataTip": "Câmpul de intrare nu trebuie să fie gol!",
+            "countRow": "Numărare",
+            "exportMessagesHeader": "Sunteți sigur (ă) că doriți să salvați configurația? Vă rugăm să îl verificați înainte de a salva!",
+            "exportMessagesLabel": "Vă rugăm să introduceți numele configurației dumneavoastră",
+            "exportNameExistsAlert": "Denumirea este deja în uz. Vă rugăm să încercați o alta!",
+            "hiddenMessages": "sunt ascunse – faceți clic pentru a afișa toate",
+            "connectedLineChart": "Diagramă de linie conectată",
+            "barChart": "Harta bară",
+            "someRows": "Unele Rows",
+            "row": "Rânduri",
+            "tab": "Filă",
+            "connectToDatabaseError": "Eroare la obținerea datelor din baza de date. Vă rugăm să încercați sau să verificați din nou contribuția dumneavoastră!",
+            "badgateway": "Serverul nu este disponibil sau denumirea DNS este incorectă.",
+            "goBack": "Go Back",
+            "forbidden": "Accesul la resursa solicitată este interzis.",
+            "unauthorized": "Cererea nu a fost aplicată. Acesta nu dispune de acreditări de autentificare valabile.",
+            "xAxis": "X Axă",
+            "delimiter": "Delimitator",
+            "someColumns": "Unele coloane",
+            "exportMessagesFooter": "Faceți clic pe „Confirmare” pentru a-l salva!",
+            "table": "Tabel",
+            "connectedLineChartExplain": "Este vorba despre o parcelă difuză conectată este, în esență, un hibrid între o parcelă dispersată și o parcelă liniară. Pentru a o face, trebuie să alegeți Xaxis."
+        },
+        "sort": {
+            "lastCreated": "Ultima editare",
+            "lastUpdated": "Ultima modificare",
+            "nameZA": "Nume - descrescător",
+            "relevance": "Relevanță",
+            "sortBy": "Ordonare după",
+            "nameAZ": "Nume - crescător"
+        },
+        "distributionLicense": {
+            "openLA": "Deschidere asistent licență",
+            "notProvided": "Nicio licență furnizată",
+            "licensingAssistant": "Asistent de licențe ",
+            "notFound": "Nicio informație de licențiere găsită.",
+            "notFoundExtended": "Nicio informație de licențiere găsită, vă rugăm să verificați sursa pentru mai multe informații despre licență."
+        },
+        "catalogs": {
+            "countMessageSingular": "catalog găsit ",
+            "geoBoundsMessagePre": "Căutarea dvs. a fost limitată la:",
+            "downloadAsLinkedData": "Metadatele catalogului ca date legate",
+            "countMessageNoResult": "Niciun catalog găsit",
+            "searchBar": {
+                "placeholder": "Căutare cataloage..."
+            },
+            "countMessage": "cataloage găsite",
+            "loadingMessage": "Se încarcă cataloagele…",
+            "geoBoundsMessageRemove": "Închideți această notificare pentru a elimina limitarea sau folosiți funcția de resetare."
+        },
+        "datasetFacets": {
+            "facets": {
+                "datascopeField": {
+                    "countryData": "Date naționale",
+                    "io": "Date internaționale",
+                    "eu": "Datele Uniunii Europene"
+                },
+                "datascope": "Domeniul de aplicare al datelor",
+                "dataServices": {
+                    "dataServicesOnly": "Numai servicii de date"
+                },
+                "country": "Țări",
+                "format": "Formate",
+                "scoring": {
+                    "badScoring": "Oricare",
+                    "sufficientScoring": "Îndeajuns",
+                    "goodScoring": "Bun",
+                    "excellentScoring": "Excelent"
+                },
+                "publisher": "@: mesage.metadata.editor",
+                "license": "Licențe",
+                "keywords": "Cuvinte-cheie",
+                "categories": "Categorii",
+                "catalog": "Cataloage",
+                "countrydata": "Date ale țărilor",
+                "tags": "Etichete"
+            },
+            "title": "Filtre",
+            "and": "AND",
+            "settings": "Setarea filtrului",
+            "scoring": "Punctaj",
+            "or": "OR",
+            "europeanCatalogs": "Cataloage europene",
+            "operator": "Operator"
+        },
+        "header": {
+            "navigation": {
+                "data": {
+                    "euInternationalData": "Date ale UE și internaționale",
+                    "datasets": "Seturi de date",
+                    "catalogs": "Cataloage",
+                    "metadataquality": "Calitatea metadatelor",
+                    "sparqleditor": "Editorul SPARQL",
+                    "statistics": "Statistici",
+                    "sparqlsearch": "Căutare SPARQL",
+                    "title": "Date"
+                },
+                "impactStudies": {
+                    "opendataimpact": "Impactul datelor deschise",
+                    "tellUsYourStory": "Împărtășiți-ne povestea dvs.",
+                    "studies": "Studii",
+                    "opendatamaturity": "Maturitatea datelor cu acces liber",
+                    "countryInsights": "Detalii țări",
+                    "useCases": "Cazuri de utilizare",
+                    "title": "Impact și studii",
+                    "overview": "Prezentare generală"
+                },
+                "training": {
+                    "licensingAssistant": "Asistent de licențe",
+                    "dataProvidersGuide": "Ghidul furnizorilor de date",
+                    "moreTrainingMaterial": "Mai multe materiale de formare",
+                    "whatIsOpenData": "Ce sunt datele deschise",
+                    "title": "Formare",
+                    "elearning": "E-learning"
+                },
+                "about": {
+                    "beHarvestedByUs": "Punerea la dispoziție a datelor dvs.",
+                    "documentation": "Documentație",
+                    "title": "Despre",
+                    "europeanDataPortal": "Portalul european de date"
+                },
+                "newsEvents": {
+                    "events": "Evenimente",
+                    "news": "Știri",
+                    "title": "Știri și evenimente",
+                    "stories": "Povești despre date"
+                },
+                "covid-19": {
+                    "title": "COVID-19",
+                    "datasets": "Seturi de date",
+                    "overview": "Prezentare generală",
+                    "initiatives": "Inițiative legate de date"
+                }
+            },
+            "subnav": {
+                "newsletter": "Buletin informativ",
+                "cookies": "Cookie-uri",
+                "login": "Autentificare",
+                "contact": "Contact",
+                "search": "Căutare",
+                "logout": "Deconectare",
+                "legalNotice": "Aviz juridic",
+                "faq": "Întrebări frecvente"
+            },
+            "european": "European",
+            "searchInputPlaceholder": "Căutare în conținutul site-ului…",
+            "dataPortal": "Portalul de date",
+            "searchOptions": {
+                "siteContent": "Conținutul site-ului",
+                "datasets": "Seturi de date"
+            }
+        },
+        "catalogues": {
+            "foundCataloguesSingular": "1 catalog găsit",
+            "foundCatalogues": "existența cataloagelor la care s-a ajuns"
+        },
+        "datasets": {
+            "foundDatasets": "data seturilor de date la care s-a ajuns",
+            "countMessage": "seturi de date găsite",
+            "foundDatasetsSingular": "1 set de date găsit",
+            "meta": {
+                "translationNotComplete": "Traducere incompletă"
+            },
+            "geoBoundsMessageRemove": "Închideți această notificare pentru a elimina limitarea sau folosiți funcția de resetare.",
+            "createDataset": "Creare set de date",
+            "geoBoundsMessagePre": "Căutarea dvs. a fost limitată la:",
+            "loadingMessage": "Se încarcă seturile de date...",
+            "countMessageSingular": "set de date găsit",
+            "datasetsFeed": "Flux seturi de date",
+            "scoreDisclaimer": "Rezultatele actuale ale căutării sunt filtrate pentru a corespunde punctajului minim de calitate solicitat și specificat în fațeta din stânga. Vizitați {0} dacă doriți să aflați mai multe despre măsurătorile calității.",
+            "noResult": "Nu s-a găsit niciun set de date",
+            "findLocation": "Filtrare după localizare",
+            "searchBar": {
+                "placeholder": "Căutare seturi de date"
+            },
+            "createCatalogue": "Creare Catalog",
+            "saveQuery": "Salvare interogare"
+        },
+        "footer": {
+            "helpUsImproveText": "Feedbackul dvs. ne va ajuta să îmbunătățim experiența generală a utilizatorilor. Aveți sugestii?",
+            "lastUpdated": "Ultima actualizare",
+            "links": {
+                "cookies": "Cookie-uri",
+                "contact": "Contact",
+                "faq": "Întrebări frecvente",
+                "newsletter": "Buletin informativ",
+                "search": "Căutare",
+                "login": "Autentificare",
+                "legalNotice": "Aviz juridic"
+            },
+            "subscribe": "Abonare",
+            "helpUsImprove": "Ajutați-ne să ne îmbunătățim",
+            "newsletterText": "Abonați-vă la buletinul nostru informativ",
+            "newsletter": "Buletin informativ",
+            "followUs": "Urmăriți-ne pe",
+            "managedBy": "Gestionat de Oficiul pentru Publicații al Uniunii Europene.",
+            "fundedBy": "Finanțat de Uniunea Europeană"
+        },
+        "helpIcon": {
+            "dataServices": "În data.europa.eu, o distribuție poate acționa, de asemenea, ca un serviciu de date. Aceasta înseamnă că nu are legătură cu un fișier care poate fi descărcat, ci cu un API. Selectați „Da” dacă doriți să filmați seturile de date care au cel puțin un serviciu de date.",
+            "scoring": "data.europa.eu măsoară calitatea tuturor seturilor și serviciilor de date. În secțiunea privind calitatea datelor/metadatelor, avem o pagină metodologică care descrie procesul. Fiecare set de date și fiecare serviciu este reprezentat, de asemenea, de un punctaj de calitate. Acest punctaj poate fi suficient, bun sau excelent. Dacă filtrul „suficient +” este setat, vor fi afișate toate seturile de date și serviciile care au un punctaj suficient sau mai bun. Același lucru este valabil și pentru „Good”. „Excelent” prezintă doar seturi de date și servicii excelente.",
+            "license": "O licență descrie condițiile legale privind modul în care poate fi utilizat un set de date.",
+            "dataScope": "Datele UE dețin seturi de date și servicii furnizate de instituțiile UE. Datele internaționale conțin seturi de date și servicii care provin din afara UE. Datele naționale conțin seturi de date și servicii din statele membre ale UE.",
+            "format": "Fiecare set de date are trimiteri la fișiere sau servicii. Formatul descrie tipul de fișier sau tipul de serviciu al acestor referințe. Nu fiecare tip de fișier poate fi utilizat în toate scopurile, de exemplu, un calcul poate fi efectuat mai bine cu un fișier CSV în loc de un PDF.",
+            "catalog": "Un catalog sau un depozit de date care găzduiește seturi de date și servicii. Un catalog reprezintă în principal un portal din care sunt colectate seturile de date.",
+            "settings": "Decideți dacă selectarea filtrului este exclusivă sau nu. Dacă selectați ȘI toate rezultatele căutării trebuie să corespundă tuturor filtrelor. Sau înseamnă că cel puțin un filtru trebuie să corespundă.",
+            "categories": "O categorie grupează seturi de date care au o temă comună.",
+            "publisher": "Editorul este o entitate (de exemplu, o organizație) care este responsabilă cu punerea la dispoziție a setului de date.",
+            "keywords": "Cuvintele-cheie sunt idei și subiecte care definesc conținutul."
+        },
+        "userQueries": {
+            "executeQuery": "Execuție interogare",
+            "queriesFound": "{number} interogări găsite",
+            "placeholderNotes": "de ex. Unele observații utile despre interogare",
+            "querySaved": "Interogarea a fost salvată",
+            "queryFound": "{number} interogare găsită",
+            "myQueries": "Interogările mele",
+            "noDescription": "Această interogare nu are nicio descriere",
+            "noQueryFound": "Nu s-a găsit nicio interogare",
+            "queryDeleted": "Interogarea a fost ștearsă",
+            "searchAllQueries": "Căutare interogări…",
+            "save": "Salvare interogare",
+            "areYourSure": "Sigur doriți să ștergeți această interogare?",
+            "noQueriesSaved": "Nu ați salvat nicio interogare.",
+            "searchQueries": "Căutare în interogările mele…"
+        },
+        "catalogFacets": {
+            "facets": {
+                "licences": "Licențe",
+                "catalogs": "Cataloage",
+                "categories": "Categorii",
+                "countries": "Țări",
+                "formats": "Formate",
+                "keywords": "Cuvinte-cheie"
+            },
+            "operator": "Operator",
+            "title": "Filtre",
+            "europeanCatalogs": "Cataloage europene",
+            "or": "OR",
+            "and": "AND",
+            "euInstitutions": "Instituțiile UE",
+            "settings": "Setări"
+        },
+        "statistics": {
+            "statistics": "Statistici",
+            "datasetsPerCatalog": "Seturi de date per catalog",
+            "currentState": "Starea actuală",
+            "datasetsPerCountry": "Seturi de date per țară",
+            "selectType": "Selectați tipul de statistică",
+            "datasetsPerCountryAndCatalog": "Seturi de date per țară și catalog",
+            "evolution": "Evoluție",
+            "evolutionStartEnd": "Evoluția numărului total de seturi de date între {start_date} și {end_date}",
+            "increaseStartEnd": "Creșterea {dataset_model} în % între {start_date} și {end_date}",
+            "totalNumber": "Numărul total de seturi de date",
+            "datasetsPerCategory": "Seturi de date per categorie",
+            "selectTimePeriod": "Selectați intervalul de timp",
+            "evolutionNumber": "Evoluția numărului de {dataset_model} între {start_date} și {end_date}",
+            "numberDate": "Numărul de {dataset_model} la {date}"
+        },
+        "categories": {
+            "tran": "Transport",
+            "heal": "Sănătate",
+            "tech": "Știință și tehnologie",
+            "envi": "Mediu",
+            "econ": "Economie și finanțe",
+            "soci": "Populație și societate",
+            "agri": "Agricultură, pescuit, silvicultură și alimente",
+            "educ": "Educație, cultură și sport",
+            "ener": "Energie",
+            "intr": "Afaceri internaționale",
+            "gove": "Administrație și sectorul public",
+            "just": "Justiție, sistem juridic și siguranță publică",
+            "regi": "Regiuni și orașe"
+        },
+        "pagination": {
+            "nextPage": "Următoarea",
+            "previousPage": "Anterioară"
+        },
+        "navigation": {
+            "navItems": {
+                "home": "Pagina principală",
+                "about": "Despre",
+                "data": "Date",
+                "privacyPolicy": "Politica de confidențialitate",
+                "map": "Hartă",
+                "imprint": "Marcare"
+            }
+        },
+        "catalogsAndDatasets": {
+            "noDescriptionAvailable": "Nu este disponibilă nicio descriere",
+            "more": "Mai multe"
+        },
+        "datasetCategories": {
+            "foundCategories": "{number} categorie găsită",
+            "foundCategory": "{number} categorii găsite",
+            "noCategories": "Nicio categorie găsită"
+        },
+        "mapModal": {
+            "fullscreen": "Ecran complet",
+            "findDatasets": "Aplică",
+            "reset": "Ștergere",
+            "close": "Închidere",
+            "drawRectangleMsg": "Glisați pentru a forma un dreptunghi și a selecta o regiune",
+            "disclaimer": "Declinarea responsabilității",
+            "copyright": "Harta © contribuitori OpenStreetMap"
+        },
+        "similarDatasets": {
+            "similar": "Similare",
+            "verySimilar": "Extrem de similare",
+            "marginalSimilar": "Relativ similare",
+            "notFound": "Nu s-au găsit seturi de date similare.",
+            "lessSimilar": "Mai puțin similare",
+            "similarDatasets": "Seturi de date similare"
+        },
+        "searchTabs": {
+            "editorialContent": "Conținut editorial"
+        },
+        "visualisation": {
+            "loading": "Se încarcă vizualizarea...",
+            "previewAvailable": "Previzualizare disponibilă",
+            "info": "Dacă vizualizarea nu se încarcă în decurs de câteva secunde, dați clic aici."
+        },
+        "catalog": {
+            "loadingMessage": "Se preiau cataloagele",
+            "searchBar": {
+                "placeholder": "Căutare cataloage"
+            },
+            "geoBoundsMessageRemove": "Închideți această notificare pentru a elimina limitarea sau folosiți funcția de resetare.",
+            "countMessage": "Cataloage găsite"
+        },
+        "sparql": {
+            "subHeadlineText2": "Pentru a-i ajuta pe utilizatori să construiască interogări SPARQL utile, oferim o pagină cu o pagină cu mereu <a href='{sample_sparql_queries}'>sample SPARQL queries</a> care pot fi executate prin intermediul punctului nostru final. Seturile de date și cataloagele publicate sub formă de triple RDF pe portal urmează documentul <a href='https://github.com/SEMICeu/DCAT-AP'>DCAT-AP specification</a>. Pentru a citi mai departe ontologia metadatelor, vă rugăm să consultați pagina academală data.europa.eu de pe DCAT-AP, la adresa: <a href=' https://data.europa.eu/en/academy/dcat-and-dcat-ap'> https://data.europa.eu/en/academy/dcat-and-dcat-ap</a>.",
+            "subHeadlineText1": "Toate metadatele data.europa.eu sunt stocate ca triple RDF (<a href='https://www.w3.org/RDF/'>RDF</a>) și pot fi interogate utilizând limbajul de căutare SPARQL la acest punct final. Interogările pot fi efectuate prin intermediul editorului de interogare (de mai jos) sau prin intermediul punctului final care poate fi citit automat (<a href='https://data.europa.eu/sparql'>https://data.europa.eu/sparql</a>)."
+        },
+        "distributions": {
+            "footerLink": "Descărcare"
+        },
+        "distributionDetails": "{}",
+        "spokenLanguage": "Limba engleză",
+        "cite": {
+            "copyToClipboard": "Copiați în clipboard",
+            "title": "Citează acest set de date"
+        },
+        "home": {
+            "msg": "Ne pare rău, această pagină nu are deocamdată conținut. Vizitați fila Date pentru a vedea ceva!"
+        },
+        "imprint": {
+            "msg": "INTRODUCEȚI MARCAREA AICI"
+        }
+    }
+}

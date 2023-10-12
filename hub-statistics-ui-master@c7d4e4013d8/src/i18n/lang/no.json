@@ -1,0 +1,373 @@
+{
+    "message": {
+        "datasetDetails": {
+            "openResource": "Gå til ressurs",
+            "upload": {
+                "unknownFormat": "Ukjent format",
+                "resetText": "Tilbakestille hele skjemaet?",
+                "reset": "Tilbakestill skjema",
+                "individual": "Individ",
+                "person": "Person",
+                "organisation": "Organisasjon"
+            },
+            "about": "om",
+            "geoInfo": "Datasettgrad",
+            "translation": {
+                "link": "Klikk her for å se datasettet på originalspråket.",
+                "message": "Tittelen og beskrivelsen for dette datasettet er oversatt maskinelt.",
+                "noTranslation": "Det er ingen oversettelse tilgjengelig for ønsket språk. Informasjonen vises på standardspråket",
+                "original": "Originalspråket",
+                "update": "En oppdatert oversetting av dette datasettet er arbeid"
+            },
+            "options": "Alternativer",
+            "subnav": {
+                "activityStream": "Aktivitetsstrøm",
+                "similarDatasets": "Lignende datasett",
+                "categories": "Kategorier",
+                "dataset": "Datasett"
+            },
+            "edit": "Rediger",
+            "follow": "Følg",
+            "preview": "Forhåndsvis",
+            "visualisation": "Åpne visualisering",
+            "additionalInfo": "Mer informasjon",
+            "feedback": "Tilbakemelding",
+            "unfollow": "Ikke følg",
+            "manage": "Administrer",
+            "delete": "Slett",
+            "geoVisualisation": "Åpne geo-visualisering",
+            "download": "Nedlasting",
+            "menu": "Meny"
+        },
+        "userQueries": {
+            "searchAllQueries": "Søk etter spørringer …",
+            "queryDeleted": "Spørring slettet",
+            "querySaved": "Spørring lagret",
+            "searchQueries": "Søk etter mine spørringer …",
+            "noQueryFound": "Ingen spørring funnet",
+            "myQueries": "Mine spørringer",
+            "noDescription": "Denne spørringen har ingen beskrivelse",
+            "placeholderNotes": "f.eks. noen nyttige merknader om spørringen",
+            "noQueriesSaved": "Du har ikke lagret noen spørringer.",
+            "queryFound": "{number} spørring funnet",
+            "areYourSure": "Er du sikker på at du vil slette denne spørringen?",
+            "queriesFound": "{number} spørringer funnet",
+            "save": "Lagre spørring",
+            "executeQuery": "Utfør spørring"
+        },
+        "header": {
+            "navigation": {
+                "about": {
+                    "beHarvestedByUs": "Blir høstet av oss",
+                    "title": "Om",
+                    "documentation": "Dokumentasjon",
+                    "europeanDataPortal": "Den europeiske dataportalen"
+                },
+                "training": {
+                    "whatIsOpenData": "Hva er åpne data",
+                    "title": "Trening",
+                    "dataProvidersGuide": "Dataleverandørens veiledning",
+                    "moreTrainingMaterial": "Mer treningsmateriale",
+                    "elearning": "eLæring",
+                    "licensingAssistant": "Licensing Assistant"
+                },
+                "data": {
+                    "sparqlsearch": "SPARQL-søk",
+                    "statistics": "Statistikk",
+                    "euInternationalData": "EU og internasjonale data",
+                    "catalogues": "Kataloger",
+                    "datasets": "Datasett",
+                    "countryData": "Landdata",
+                    "metadataQuality": "Metadatakvalitet",
+                    "title": "Data"
+                },
+                "newsEvents": {
+                    "title": "Nyheter og hendelser",
+                    "events": "Hendelser",
+                    "news": "Nyheter"
+                },
+                "impactStudies": {
+                    "studies": "Studier",
+                    "useCases": "Brukersaker",
+                    "tellUsYourStory": "Fortell oss din historie",
+                    "title": "Påvirkning og studier",
+                    "opendataimpact": "Påvirkning fra åpne data",
+                    "countryInsights": "Landinnsyn",
+                    "overview": "Oversikt",
+                    "opendatamaturity": "Åpne data-modenhet"
+                },
+                "covid-19": {
+                    "title": "COVID-19",
+                    "datasets": "Datasett",
+                    "overview": "Oversikt",
+                    "initiatives": "Datarelaterte initiativer"
+                }
+            },
+            "subnav": {
+                "logout": "Avlogging",
+                "cookies": "Informasjonskapsler",
+                "login": "Logg inn",
+                "search": "Søk",
+                "newsletter": "Nyhetsbrev",
+                "contact": "Kontakt",
+                "legalNotice": "Juridisk melding",
+                "faq": "Vanlige spørsmål"
+            },
+            "searchOptions": {
+                "siteContent": "Sideinnhold",
+                "datasets": "Datasett"
+            },
+            "searchInputPlaceholder": "Søk etter sideinnhold …",
+            "dataPortal": "Dataportalen",
+            "european": "Den europeiske"
+        },
+        "pagination": {
+            "previousPage": "Forrige",
+            "nextPage": "Neste"
+        },
+        "statistics": {
+            "tableHead": {
+                "trend": "Trend",
+                "country": "Land",
+                "catalogue": "Katalog",
+                "numberOfDatasets": "Antall datasett",
+                "name": "Navn",
+                "category": "Kategori",
+                "percent": "Andel av totale datasett"
+            },
+            "totalNumber": "Totalt antall datasett",
+            "evolution": "Evolusjon",
+            "datasetsPerCountryAndCatalogue": "Datasett per land og katalog",
+            "datasetsPerCountry": "Datasett per land",
+            "datasetsPerCatalogue": "Datasett per katalog",
+            "selectTimePeriod": "Velg tidsperiode",
+            "selectType": "Velg statistikktype",
+            "statistics": "Statistikk",
+            "datasetsPerCategory": "Datasett per kategori",
+            "currentState": "Nåværende status"
+        },
+        "metadata": {
+            "updatedLowerCase": "oppdatert",
+            "conformsTo": "Samsvarer med",
+            "dataset": "Datasett",
+            "email": "E-post",
+            "title": "Tittel",
+            "license": "Lisenser",
+            "name": "Navn",
+            "upload": "Last opp",
+            "created": "Opprettet",
+            "addDistribution": "Legg til fordeling",
+            "chooseFile": "Velg en fil",
+            "distribution": "Distribusjon",
+            "label": "Etikett",
+            "review": "Gjennomgå",
+            "otherIdentifiers": "Andre identifikatorer",
+            "chooseFormat": "Velg et format",
+            "datasets": "Datasett",
+            "resource": "Ressurs",
+            "spatial": "Romslig",
+            "deleteItem": "Er du sikker på at du vil slette dette elementet?",
+            "relatedResources": "Tilknyttede ressurser",
+            "accessUrl": "Tilgangs-URL",
+            "documentations": "Dokumentasjoner",
+            "frequency": "Frekvens",
+            "updated": "Oppdatert",
+            "no": "Nei",
+            "landingPage": "Startside",
+            "metadataQuality": "Metadatakvalitet",
+            "yes": "Ja",
+            "chooseCategory": "Velg en kategori",
+            "update ": "Oppdater",
+            "homepage": "Hjemmeside",
+            "contactPoints": "Kontaktpunkter",
+            "chooseCatalogue": "Velg en katalog",
+            "chooseType": "Velg en type",
+            "description": "Beskrivelse",
+            "downloadUrl": "Nedlastings-URL",
+            "provenances": "Opphav",
+            "tags": "Tagger",
+            "format": "Format",
+            "coordinates": "Koordinater",
+            "sources": "Kilder",
+            "categories": "Kategorier",
+            "publisher": "Utgiver",
+            "type": "Type",
+            "distributions": "Distribusjoner",
+            "cancel": "Avbryt",
+            "identifiers": "Identifikatorer"
+        },
+        "footer": {
+            "newsletterText": "Abonner på vårt nyhetsbrev",
+            "newsletter": "Nyhetsbrev",
+            "fundedBy": "Finansiert av Den europeiske union",
+            "lastUpdated": "Sist oppdatert",
+            "links": {
+                "search": "Søk",
+                "newsletter": "Nyhetsbrev",
+                "cookies": "Informasjonskapsler",
+                "legalNotice": "Juridisk melding",
+                "faq": "Vanlige spørsmål",
+                "contact": "Kontakt",
+                "login": "Logg inn"
+            },
+            "followUs": "Følg oss på",
+            "subscribe": "Abonner",
+            "helpUsImprove": "Hjelp oss å forbedre oss",
+            "managedBy": "Administrert av publikasjonskontoret til EU.",
+            "helpUsImproveText": "Tilbakemeldingen din vil hjelpe oss å forbedre den samlede brukeropplevelsen. Noen forslag?"
+        },
+        "catalogueFacets": {
+            "and": "OG",
+            "facets": {
+                "countries": "Land",
+                "licences": "Lisenser",
+                "keywords": "Nøkkelord",
+                "formats": "Formater",
+                "catalogues": "Kataloger",
+                "categories": "Kategorier"
+            },
+            "operator": "Operatør",
+            "settings": "Innstillinger",
+            "or": "ELLER",
+            "europeanCatalogues": "Europeiske kategorier",
+            "title": "Filtere"
+        },
+        "similarDatasets": {
+            "notFound": "Ingen lignende datasett der det ble funnet.",
+            "lessSimilar": "Mindre Lignende",
+            "similarDatasets": "Lignende datasett",
+            "verySimilar": "Veldig lik",
+            "similar": "Lignende ",
+            "marginalSimilar": "Marginal Lignende"
+        },
+        "catalogues": {
+            "geoBoundsMessageRemove": "Lukk dette varselet for å fjerne begrensningen eller bruke tilbakestillingsfunksjonen.",
+            "countMessage": "kataloger funnet for \"{query} \"",
+            "countMessageSingular": "katalog funnet for \"{query} \"",
+            "searchBar": {
+                "placeholder": "Søk kataloger …"
+            },
+            "loadingMessage": "Laster kataloger …",
+            "geoBoundsMessagePre": "Søket ditt har blitt begrenset til:",
+            "countMessageNoResult": "Ingen kataloger funnet for \"{query} \""
+        },
+        "common": {
+            "edp": {
+                "title": "Den europeiske dataportalen"
+            },
+            "currentCatalogueStatistics": "Nåværende katalog Statistikk",
+            "historicalCatalogueStatistics": "Historikk katalog Statistikk"
+        },
+        "categories": {
+            "tran": "Transport",
+            "heal": "Helse",
+            "gove": "Forvaltning og offentlig sektor",
+            "envi": "Miljø",
+            "intr": "Internasjonale spørsmål",
+            "agri": "Jordbruk, fiskeri, skogbruk og mat",
+            "soci": "Befolkning og samfunn",
+            "econ": "Økonomi og finans",
+            "educ": "Utdanning, kultur og sport",
+            "ener": "Energi",
+            "tech": "Vitenskap og teknologi",
+            "regi": "Regioner og byer",
+            "just": "Rettsvesen, juridisk system og offentlig sikkerhet"
+        },
+        "distributions": {
+            "footerLink": "Last ned"
+        },
+        "navigation": {
+            "navItems": {
+                "map": "Kart",
+                "home": "Hjem",
+                "imprint": "Avtrykk",
+                "privacyPolicy": "Personvernerklæring",
+                "about": "Om",
+                "data": "Data"
+            }
+        },
+        "mapModal": {
+            "disclaimer": "Ansvarsfraskrivelse",
+            "fullscreen": "Fullskjerm",
+            "findDatasets": "Anvend",
+            "close": "Lukk",
+            "drawRectangleMsg": "Tegn et rektangel for å velge en region",
+            "reset": "Rens"
+        },
+        "datasetFacets": {
+            "facets": {
+                "catalogues": "Kataloger",
+                "formats": "Format",
+                "categories": "Kategorier",
+                "licences": "Lisenser",
+                "keywords": "Nøkkelord",
+                "countries": "Land",
+                "tags": "Tagger"
+            },
+            "title": "Filtere",
+            "operator": "Operatør",
+            "and": "OG",
+            "settings": "Innstillinger",
+            "europeanCatalogues": "Europeiske kataloger",
+            "or": "eller"
+        },
+        "catalogue": {
+            "searchBar": {
+                "placeholder": "Søk etter kataloger"
+            },
+            "countMessage": "Kataloger funnet",
+            "geoBoundsMessageRemove": "Lukk dette varselet for å fjerne begrensningen eller bruke tilbakestillingsfunksjonen.",
+            "loadingMessage": "Kataloger er hentet"
+        },
+        "datasets": {
+            "loadingMessage": "Laster datasett …",
+            "geoBoundsMessagePre": "Søket ditt har blitt begrenset til:",
+            "saveQuery": "Lagre søk",
+            "createDataset": "Opprett datasett",
+            "datasetsFeed": "Datasettfeed",
+            "countMessageSingular": "datasett funnet for ",
+            "meta": {
+                "translationNotComplete": "Oversetting ikke fullført"
+            },
+            "noResult": "Ingen datasett funnet for ",
+            "geoBoundsMessageRemove": "Lukk dette varselet for å fjerne begrensningen eller bruke tilbakestillingsfunksjonen.",
+            "searchBar": {
+                "placeholder": "Søk i datasett …"
+            },
+            "showMore": "Vis mer",
+            "findLocation": "Filtrer etter steder",
+            "countMessage": "datasett funnet for "
+        },
+        "sort": {
+            "lastCreated": "Sist opprettet",
+            "nameAZ": "Navn A-Å",
+            "nameZA": "Navn Å-A",
+            "relevance": "Relevans",
+            "lastUpdated": "Sist endret",
+            "sortBy": "Sorter etter"
+        },
+        "datasetCategories": {
+            "foundCategory": "{number} kategorier funnet",
+            "foundCategories": "{number} kategori funnet",
+            "noCategories": "Ingen kategorier funnet"
+        },
+        "distributionLicense": {
+            "notFound": "Ingen informasjon om lisens funnet",
+            "openLA": "Åpen lisens-assistent",
+            "notFoundExtended": "Ingen ytterligere informasjon om lisens er funnet, vennligst sjekk kilden for mer informasjon om lisensen.",
+            "licensingAssistant": "Lisensassistent",
+            "notProvided": "Ingen lisens angitt"
+        },
+        "visualisation": {
+            "previewAvailable": "Forhåndsvisning tilgjengelig",
+            "info": "Dersom visualiseringen ikke lastes innen få sekunder, klikk her.",
+            "loading": "Visualisering laster …"
+        },
+        "imprint": {
+            "msg": "SETT INN AVTRYKK HER"
+        },
+        "home": {
+            "msg": "Beklager, denne siden har ikke innhold ennå. Besøk Data-fanen for å se noe!"
+        }
+    }
+}

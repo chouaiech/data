@@ -1,0 +1,49 @@
+.pagination {
+  .page-item {
+    display: flex;
+    min-width: 35px;
+    max-height: 35px;
+    line-height: 16px;
+
+    .page-link {
+      border: 0px solid #FFFFFF;
+
+        &.page-button {
+          min-width: 35px;
+          max-height: 35px;
+          border-radius: 35px;
+        }
+
+        &.material-icons {
+          padding-left: 0;
+          padding-right: 0;
+          align-self: center;
+          cursor: pointer;
+        }
+    }
+
+    &.active {
+      .page-link {
+        color: #000000;
+        background-color: #FFFFFF;
+        border: 2px solid #000000;
+        border-radius: 35px;
+
+        &.page-button {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .page-item-next, .page-item-previous {
+      display: none;
+    }
+  }
+}
+
+.items-per-page {
+  .ecl-select__icon {
+    background-color: #404040 !important;
+  }
+}

@@ -1,0 +1,969 @@
+{
+    "message": {
+        "metadata": {
+            "catalogRecord": "Katalógus-nyilvántartás",
+            "deleteItem": "Biztosan törli ezt az elemet?",
+            "availability": "Rendelkezésre állás",
+            "versionInfo": "Verzióinformációk",
+            "chooseCategory": "Kategória kiválasztása",
+            "chooseFile": "Fájl kiválasztása",
+            "versionNotes": "Verzióval kapcsolatos megjegyzések",
+            "review": "Felülvizsgálat",
+            "tooltipKeywords": "Adjon meg kulcsszavakat az adatkészlethez!",
+            "pageDescriptionDataset": "Adjon hozzá címet, leírást, katalógust, kulcsszavakat és kategóriákat az adatkészlethez!",
+            "no": "Nem",
+            "relatedResources": "kapcsolódó elemek",
+            "pageDescriptionPublisher": "Adja hozzá a közzétevő típusát, nevét és kezdőlapját az adatkészlethez!",
+            "tooltipTitle": "Adja meg az adatkészlet címét!",
+            "linkedData": "Kapcsolt adatok",
+            "numSeries": "Az adatsorok száma",
+            "releaseDate": "Megjelenés dátuma",
+            "yes": "Igen",
+            "unitsOfMeasurement": "Mérési egységek",
+            "distributionsEmpty": "Sajnos jelenleg nem állnak rendelkezésre feltöltött disztribúciók ehhez az adatkészlethez. Adjon meg legalább egy disztribúciót!",
+            "enterDownloadUrl": "Írja be az Url letöltését",
+            "frequency": "Gyakoriság",
+            "type": "Típus",
+            "telephone": "Telefonszám",
+            "label": "Címke",
+            "addedToDataEuropaEU": "Hozzáadva a data.europa.eu-hoz",
+            "tooltipCategories": "Válassza ki az adatkészlet kategóriáit!",
+            "temporal": "Lefedett időszak",
+            "enterDescription": "Leírás hozzáadása",
+            "accrualPeriodicity": "Felhalmozási időszakosság",
+            "showXMore": "Mutass  {increment} többet ",
+            "identifier": "Azonosító",
+            "isPartOf": "A következő alkatalógus:",
+            "dataServices": "Adatszolgáltatások",
+            "chooseType": "Típus kiválasztása",
+            "organizationName": "Szervezet neve",
+            "catalog": "Katalógus",
+            "qualityAnnotations": "Minőségi jegyzetek",
+            "update": "Frissítés ",
+            "showAll": "Az összes megjelenítése",
+            "coordinates": "Koordináták",
+            "email": "E-mail",
+            "tooltipContactType": "Válassza ki az adatkészlet kapcsolattartási pontjának típusát!",
+            "checksum": "Ellenőrző összeg",
+            "enterEmail": "E-mail-cím hozzáadása",
+            "cancel": "Mégse",
+            "conformsTo": "Megfelel a következőnek:",
+            "downloadUrl": "URL letöltése",
+            "chooseLicense": "Licenc kiválasztása",
+            "tooltipDescription": "Adja meg az adatkészlet leírását!",
+            "tags": "Címkék",
+            "accessUrl": "Hozzáférési URL-cím",
+            "languages": "Nyelv",
+            "title": "Cím",
+            "enterTitle": "Cím hozzáadása",
+            "url": "URL",
+            "resource": "Erőforrás",
+            "tooltipPublisherHomepage": "Adja meg az adatkészlet közzétevőjének kezdőlapját!",
+            "creator": "Létrehozó",
+            "description": "Leírás",
+            "spatial": "Térbeli",
+            "readLess": "Olvassa el a Kevesebbet!",
+            "tooltipPublisherType": "Válassza ki az adatkészlet közzétevőjének típusát!",
+            "accessRights": "Hozzáférési jogosultságok",
+            "tooltipDistributionDownloadUrl": "Adja meg a disztribúció letöltési URL-címét!",
+            "attributes": "Attribútumok",
+            "mediaType": "Médiatípus",
+            "categories": "Kategóriák",
+            "pageDescriptionDistribution": "Adjon hozzá disztribúciókat az adatkészlethez!",
+            "pages": "Oldal",
+            "goToCatalog": "Ugrás a Katalógus oldalra",
+            "tooltipDistributionDescription": "Adja meg a disztribúció leírását!",
+            "identifiers": "Azonosítók",
+            "scheme": "A támogatási program",
+            "contactPoints": "Kapcsolattartási pontok",
+            "hasPart": "Rendelkezik alkatalógussal",
+            "showLess": "Kevesebb megjelenítése",
+            "byteSize": "Bájtméret",
+            "tooltipCatalog": "Válassza ki az adatkészlet katalógusát!",
+            "methodologyPage": "MQA módszertani oldal",
+            "hasVersion": "Verzióval rendelkezik",
+            "useDownloadUrl": "A fájl feltöltése helyett egy letöltési URL-címet szeretnék megadni!",
+            "created": "Létrehozva",
+            "themeTaxonomy": "Téma taxonómia",
+            "homepage": "Kezdőlap",
+            "address": "Cím",
+            "visualisations": "Vizualizációk",
+            "tooltipDistributionFormat": "Válassza ki a disztribúció formátumát!",
+            "upload": "Feltöltés",
+            "notFound": "Nem található",
+            "dimensions": "Méretek",
+            "addDistribution": "Disztribúció hozzáadása",
+            "name": "Név",
+            "metadataQuality": "Metaadatok minősége",
+            "provenances": "Eredet",
+            "enterKeywords": "Kulcsszavak hozzáadása",
+            "landingPage": "Érkezési oldal",
+            "tooltipDistributionTitle": "Adja meg a disztribúció címét!",
+            "license": "Licenc",
+            "chooseCatalog": "Katalógus kiválasztása",
+            "enterHomepage": "Kezdőlap hozzáadása",
+            "tooltipDistributionLicence": "Válassza ki a disztribúció licencét!",
+            "readMore": "Olvasson bővebben!",
+            "format": "Formátum",
+            "chooseFormat": "Formátum kiválasztása",
+            "publisher": "Közzétevő",
+            "dataset": "Adatkészlet",
+            "updated": "Frissítve",
+            "pageDescriptionUpload": "Adjon hozzá fájlokat a disztribúciókhoz!",
+            "spatialResource": "Térbeli erőforrás",
+            "distribution": "Terjesztés",
+            "tooltipContactName": "Adja meg az adatkészlet kapcsolattartási pontjának nevét!",
+            "distributions": "Disztribúciók",
+            "status": "Állapot",
+            "datasets": "Adatkészletek",
+            "showMore": "Több megjelenítése",
+            "rights": "Jogok",
+            "tooltipContactEmail": "Adja meg az adatkészlet kapcsolattartási pontjának e-mail-címét!",
+            "otherIdentifiers": "Egyéb azonosítók",
+            "tooltipPublisherName": "Adja meg az adatkészlet közzétevőjének nevét!",
+            "enterName": "Név hozzáadása",
+            "documentations": "Dokumentációk",
+            "sources": "Források",
+            "modificationDate": "Módosítás dátuma",
+            "isVersionOf": "Valaminek a verziója",
+            "pageDescriptionContactPoint": "Adja hozzá a kapcsolattartási pont típusát, nevét és e-mail-címét az adatkészlethez!",
+            "goToDataset": "Ugrás az Adatkészlet oldalra",
+            "updatedOnDataEuropaEU": "Frissítve: data.europa.eu"
+        },
+        "dataupload": {
+            "info": {
+                "defaultdescription": "A mező részletes magyarázatának megjelenítéséhez kattintson az „Információ” ikonra.",
+                "information": "Tájékoztatás a tájékoztatásról"
+            },
+            "datasets": {
+                "step2": {
+                    "source": {
+                        "label": "Forrás"
+                    },
+                    "type": {
+                        "placeholder": "Helymeghatározó adatkészlet szövege"
+                    },
+                    "subject": {
+                        "help": "Az adatkészlet egy kategóriája."
+                    },
+                    "isReferencedByUrl": {
+                        "label": "URL"
+                    },
+                    "contactPointAddressStreet": {
+                        "placeholder": "Adatkészlet kapcsolattartó pont címe: Street placeholder text"
+                    },
+                    "conformsTo": {
+                        "placeholder": "Adatkészlet-megfelelőségek Helyreállításra szánt szöveg"
+                    },
+                    "isVersionOf": {
+                        "label": "Az F verziója"
+                    },
+                    "provenance": {
+                        "label": "Származási hely"
+                    },
+                    "language": {
+                        "label": "Nyelv"
+                    },
+                    "qualifiedAttribution": {
+                        "help": "Link egy olyan megbízotthoz, aki valamilyen módon felelős az erőforrásért"
+                    },
+                    "temporal": {
+                        "placeholder": "Adatkészlet Időszakos helytartó szöveg"
+                    },
+                    "accessRights": {
+                        "info": "Ez a tulajdonság olyan információkat jelöl, amelyek azt jelzik, hogy az adatkészlet nyílt hozzáférésű adat-e, hozzáférési korlátozással rendelkezik-e, vagy nem nyilvános."
+                    },
+                    "identifier": {
+                        "help": "Ez a tulajdonság az adatkészlet fő azonosítóját tartalmazza."
+                    },
+                    "versionInfo": {
+                        "help": "Az adatkészlet verziószáma."
+                    },
+                    "hasVersion": {
+                        "info": "Ez az adatkészlet a leírt adatkészlet verziója, kiadása vagy adaptációja."
+                    },
+                    "wasGeneratedBy": {
+                        "add-label": "A megtermelt hulladék hozzáadása"
+                    },
+                    "qualifiedRelation": {
+                        "label": "Minősített kapcsolat"
+                    },
+                    "conformsToTitle": {
+                        "label": "Cím"
+                    },
+                    "creatorType": {
+                        "label": "Típus"
+                    },
+                    "spatial": {
+                        "info": "Ez a tulajdonság az adatkészlet által lefedett földrajzi régióra vonatkozik."
+                    },
+                    "temporalResolutionMonth": {
+                        "label": "Időbeli felbontás Hónap"
+                    },
+                    "contactPointName": {
+                        "label": "Név"
+                    },
+                    "temporalResolutionMinute": {
+                        "placeholder": "Adatkészlet Ideiglenes felbontás A helymeghatározó jegyzőkönyv szövege"
+                    },
+                    "contactPointEmail": {
+                        "label": "E-mail-cím"
+                    },
+                    "contactPointOrganisationName": {
+                        "label": "A szervezet neve"
+                    },
+                    "contactPoint": {
+                        "help": "Ez a tulajdonság tartalmazza az elérhetőségi adatokat."
+                    },
+                    "temporalResolutionDay": {
+                        "placeholder": "Adatkészlet Ideiglenes Szanálási Nap Helymeghatározó szöveg"
+                    },
+                    "provenanceText": {
+                        "placeholder": "Adatkészlet Szervezési Szöveg – Területtári szöveg"
+                    }
+                },
+                "step1": {
+                    "publisherType": {
+                        "placeholder": "Adatkészlet Kiadói típushelyre vonatkozó szöveg"
+                    },
+                    "datasetID": {
+                        "label": "Adatkészlet azonosítója"
+                    },
+                    "modified": {
+                        "label": "Módosítva"
+                    },
+                    "publisher": {
+                        "label": "Kiadó"
+                    },
+                    "issued": {
+                        "help": "Az adatkészlet hivatalos kibocsátásának (pl. közzététel) dátuma. Elfogadható dátumformátumok: ÉÉÉÉ-HH-NN, ÉÉÉÉ-HH-NN, YYYY."
+                    },
+                    "publisherHomepage": {
+                        "label": "Kezdőlap"
+                    }
+                },
+                "step3": {
+                    "spatialResolutionInMeters": {
+                        "help": "Egy adatkészletben feloldható minimális térbeli elválasztás."
+                    },
+                    "mediaType": {
+                        "placeholder": "Terjesztés – Médiatípus helymeghatározó szöveg"
+                    },
+                    "language": {
+                        "help": "A terjesztésben használt nyelv."
+                    },
+                    "title": {
+                        "info": "Ez a tulajdonság tartalmazza a terjesztés nevét. Ez a tulajdonság megismételhető a leírás párhuzamos nyelvi változatai esetében."
+                    },
+                    "status": {
+                        "label": "Státusz"
+                    },
+                    "checksum": {
+                        "placeholder": "Forgalmazási Checksum placeholder szöveg"
+                    },
+                    "hasPolicyUrl": {
+                        "placeholder": "Terjesztés Has Policy Url placeholder text"
+                    },
+                    "page": {
+                        "help": "A terjesztésről szóló oldal vagy dokumentum."
+                    },
+                    "availability": {
+                        "placeholder": "Terjesztés A rendelkezésre állás helye szerinti szöveg"
+                    },
+                    "format": {
+                        "placeholder": "Terjesztés: Format placeholder text (formai helymeghatározó szöveg)"
+                    },
+                    "conformsTo": {
+                        "add-label": "Hozzá kell adni a megfelelőséget a következőhöz:"
+                    },
+                    "issued": {
+                        "label": "Kibocsátották"
+                    },
+                    "description": {
+                        "help": "Ez az ingatlan a terjesztés szabad szöveges számláját tartalmazza."
+                    },
+                    "hasPolicy": {
+                        "help": "A jogokat kifejező politika."
+                    },
+                    "temporalResolutionMonth": {
+                        "label": "Időbeli felbontás Hónap"
+                    },
+                    "temporalResolutionHour": {
+                        "placeholder": "Adatkészlet Ideiglenes felbontás óra helymegőrző szöveg"
+                    },
+                    "licence": {
+                        "help": "Az engedély, amely alapján a forgalmazást rendelkezésre bocsátják."
+                    },
+                    "date": {
+                        "label": "Dátum"
+                    }
+                },
+                "stepper": {
+                    "step3": {
+                        "children": {
+                            "distribution3": {
+                                "name": "Kiegészítő információk"
+                            },
+                            "distribution4": {
+                                "name": "Kiegészítő információk"
+                            },
+                            "distribution1": {
+                                "name": "Általános információk"
+                            },
+                            "distribution2": {
+                                "name": "Kiegészítő információk"
+                            }
+                        }
+                    },
+                    "overview": "Az adatkészlet áttekintése"
+                }
+            },
+            "catalogues": {
+                "step2": {
+                    "isPartOf": {
+                        "info": "Ez a tulajdonság olyan kapcsolódó katalógusra utal, amelybe a leírt katalógus fizikailag vagy logikusan beletartozik."
+                    },
+                    "language": {
+                        "help": "A címeket, leírásokat stb. leíró szöveges metaadatokban használt nyelv."
+                    },
+                    "spatial": {
+                        "info": "Ez az ingatlan a katalógusban szereplő földrajzi területre vonatkozik."
+                    },
+                    "hasPart": {
+                        "help": "Ez a tulajdonság a leírt katalógus részét képező kapcsolódó katalógusra vonatkozik."
+                    },
+                    "creator": {
+                        "add-label": "Alkotó hozzáadása"
+                    },
+                    "creatorName": {
+                        "label": "Név"
+                    }
+                },
+                "step1": {
+                    "title": {
+                        "help": "A katalógusban szereplő név. "
+                    },
+                    "description": {
+                        "info": "Ez az ingatlan a rekord szabad szöveges fiókját tartalmazza. Ez a tulajdonság megismételhető a leírás párhuzamos nyelvi változatai esetében."
+                    },
+                    "licence": {
+                        "placeholder": "Katalógus Licence placeholder text (katalógus engedély helybirtokosának szövege)"
+                    },
+                    "modified": {
+                        "label": "Módosítva"
+                    },
+                    "licenceDescription": {
+                        "label": "Az engedély leírása"
+                    },
+                    "homepage": {
+                        "help": "A katalógus főoldalaként szolgáló weboldal."
+                    }
+                },
+                "stepper": {
+                    "overview": "Katalógus áttekintése",
+                    "step1": {
+                        "name": "1. lépés: Katalógus létrehozása"
+                    },
+                    "step2": {
+                        "name": "Lépés: A katalógus tulajdonságainak meghatározása"
+                    }
+                }
+            },
+            "clear": "Egyértelmű",
+            "deletemodal": {
+                "deleteDistribution": "Az elosztás törlése",
+                "areyousure": "Biztosan törölni szeretné ezt a disztribúciót?"
+            },
+            "createUniqueID": "Hozzon létre egy egyedi azonosítót",
+            "saveasdraft": "Mentés vázlatként",
+            "savedataset": "Adatkészlet mentése",
+            "next": "A következő lépés",
+            "noDistributions": "Nem áll rendelkezésre disztribúció",
+            "savedraft": "Vázlat mentése",
+            "searchVocabulary": "Keresés szójegyzékben",
+            "error": {
+                "general": "Hiba történt. Kérjük, próbálja meg később.",
+                "invalid-message": "Néhány mező hiányzik. Kérjük, töltse ki az összes előírt mezőt!"
+            },
+            "type": "Típus",
+            "preview": "Előző lépés",
+            "submit": "Küldés",
+            "publishdataset": "Adatkészlet közzététele",
+            "validationtitle": "Validálás",
+            "publishdraft": "Tervezet közzététele",
+            "newDistribution": "Újabb terjesztés hozzáadása",
+            "validationerror": "Hiba történt az űrlap érvényesítésekor!",
+            "createDataset": "Adatkészlet létrehozása",
+            "defineDatasetProperties": "Az adatkészlet tulajdonságainak meghatározása",
+            "createDistributions": "Terjesztések létrehozása"
+        },
+        "datasetDetails": {
+            "subnav": {
+                "quality": "Minőség",
+                "similarDatasets": "Hasonló adatkészletek",
+                "categories": "Kategóriák",
+                "dataset": "Adatkészlet",
+                "activityStream": "Tevékenységfolyam"
+            },
+            "quality": {
+                "licenceAvailability": "Licencinformációk",
+                "mediaTypeAvailability": "Médiatípus",
+                "temporalAvailability": "Időbeli szempontú keresés",
+                "accessibility": "Hozzáférhetőség",
+                "dcatApCompliance": "DCAT-AP-megfelelőség",
+                "distributions": {
+                    "downloadUrlStatusCode": "Letöltési státuszkód (Url)",
+                    "accessUrlStatusCode": "AccessURL status kód"
+                },
+                "accessRightsVocabularyAlignment": "Hozzáférés a korlátozási szószedethez",
+                "contactPointAvailability": "Kapcsolattartási pont",
+                "dateIssuedAvailability": "Közzététel dátuma",
+                "nodata": "Úgy tűnik, hogy a mi oldalunkon van egy probléma. Minőségi adatokat nem lehetett feltölteni. Kérjük, próbálja újra később.",
+                "dateModifiedAvailability": "Módosítási adatok",
+                "contextuality": "Kontextualitás",
+                "reusability": "Újrafelhasználhatóság",
+                "accessUrlStatusCode": "Letöltési URL-ek hozzáférhetősége",
+                "downloadUrlStatusCode": "Letöltési URL elérhető",
+                "formatMediaTypeVocabularyAlignment": "Formátum/médiatípus szószedetből",
+                "metaDataQuality": "Metaadatok minősége",
+                "downloadUrlAvailability": "Letöltési URL",
+                "dataQuality": "Az adatok minősége",
+                "categoryAvailability": "Kategóriák",
+                "interoperability": "Interoperabilitás",
+                "findability": "Kereshetőség",
+                "spatialAvailability": "Földrajzi szempontú keresés",
+                "formatAvailability": "Formátum",
+                "byteSizeAvailability": "Fájlméret",
+                "accessRightsAvailability": "Hozzáférés korlátozása",
+                "distributionQuality": "Az elosztás minősége",
+                "publisherAvailability": "Közzétevő",
+                "keywordAvailability": "Kulcsszavak használata",
+                "rightsAvailability": "Jogosultságok"
+            },
+            "follow": "Követés",
+            "accessURLTooltip": "Ez a link tartalmazhat információt arról, hogyan lehet a hivatkozott fájlt, vagy közvetlen linket a hivatkozott fájlhoz.",
+            "dataStream": "Adatátviteli áramlatok",
+            "downloadURLTooltip": "Ez egy közvetlen link a hivatkozott fájlhoz.",
+            "upload": {
+                "organisation": "Szervezet",
+                "individual": "Egyéni",
+                "resetText": "Visszaállítja a teljes űrlapot?",
+                "person": "Személy",
+                "unknownFormat": "Ismeretlen formátum",
+                "reset": "Űrlap visszaállítása"
+            },
+            "preview": "Előzetes megtekintés",
+            "feedback": "Visszajelzés",
+            "access": "Hozzáférés a hozzáféréshez",
+            "datasets": {
+                "modal": {
+                    "downloadingFiles": "Fájlok letöltése",
+                    "zipNumberOfFiles": "Zip -számmal kapcsolatos fájlok",
+                    "waitingForDownload": "(letöltésre vár)",
+                    "downloadProgress": "A Progress letöltése",
+                    "notDownloaded": "Nem töltötték le",
+                    "error": "Hiba történt! Próbálja meg az Againt",
+                    "okay": "Őszinte",
+                    "cancel": "Mégse",
+                    "close": "Bezárás",
+                    "coupleOfMinutes": "(ez néhány percet vesz igénybe.)",
+                    "notDownloadedTooltip": "A részletek a mellékelt fájl_report.csv fájlban találhatók."
+                },
+                "leavePageWindow": {
+                    "text": "Biztosan távozni kíván? Amikor elhagyja a letöltést, leállítjuk a letöltést!"
+                },
+                "downloadAll": "Töltse le az „Összes”"
+            },
+            "translation": {
+                "update": "Folyamatban van ennek az adatkészletnek egy frissített fordítása.",
+                "original": "Eredeti nyelv",
+                "message": "A jelen adatkészlet címe és leírása \ngépi fordítás eredménye.",
+                "noTranslation": "Ez az adatkészlet még nem áll rendelkezésre az Ön által választott nyelven, de már készül a fordítása.",
+                "link": "Kattintson ide az adatkészlet eredeti nyelven való megtekintéséhez"
+            },
+            "cite": "Hivatkozás a hivatkozásra",
+            "relatedResources": "Kapcsolódó források",
+            "share": "Megosztás",
+            "geoVisualisation": "A Geo-Visualisation megnyitása",
+            "download": "Letöltés",
+            "intro": {
+                "distribution": "Az alábbiakban felsoroljuk az adatkészlet valamennyi eloszlásának minőségmérését. Ha információt szeretne kapni arról, hogy milyen mérőszámokat használunk a mutatók méréséhez, kérjük, tekintse meg a <a href='/mqa/methodology?locale={locale}'>módszertanról szóló oldalunkat</a>.",
+                "metadataQuality": "A metaadatminőség-biztosítás célja, hogy segítse az adatszolgáltatókat és az adatportálokat a metaadatok különböző mutatókkal való összevetésében. Ha információt szeretne kapni arról, hogy milyen mérőszámokat használunk a mutatók méréséhez, kérjük, tekintse meg a <a href='/mqa/methodology?locale={locale}'>módszertanról szóló oldalunkat</a>."
+            },
+            "about": "Névjegy",
+            "datasetFeed": "Az adatkészlet betáplálása",
+            "delete": "Törlés",
+            "openResource": "Ugrás a forráshoz",
+            "visualisation": "Megjelenítés megnyitása",
+            "isUsedBy": "Használja:",
+            "unfollow": "Követés megszüntetése",
+            "shareOn": "Megosztás itt:",
+            "additionalInfo": "Kiegészítő információk",
+            "contactPoints": {
+                "organizationName": "A szervezet neve"
+            },
+            "edit": "Szerkesztés",
+            "menu": "Menü",
+            "manage": "Kezelés ",
+            "geoInfo": "Adatkészlet mérete",
+            "options": "Opciók"
+        },
+        "tooltip": {
+            "catalogDetails": {
+                "created": "A katalógus hivatalos kiállításának (pl. közzétételének) dátuma.",
+                "publisher": "A katalógus rendelkezésre bocsátásáért felelős szervezet (szervezet).",
+                "updated": "A katalógus módosításának legutóbbi időpontja.",
+                "description": "A katalógus leírása.",
+                "title": "A katalógus címe.",
+                "metadata": "A katalógus metaadatainak letöltésére vonatkozó lehetőségek különböző összekapcsolt adatmegjelenítésekben.",
+                "language": "A katalógusban szereplő adatkészletek címét, leírását stb. leíró szöveges metaadatokban használt nyelv. Ez a tulajdonság megismételhető, ha a metaadatokat több nyelven adják meg.",
+                "spatial": "A katalógus által lefedett földrajzi terület."
+            },
+            "datasetDetails": {
+                "frequency": "Az adatkészlet frissítésének gyakorisága.",
+                "dataset": "Adatkészlet vagy szolgáltatás részletei.",
+                "updated": "A legutóbbi időpont, amikor az adatkészletet vagy szolgáltatást megváltoztatták vagy módosították.",
+                "versionInfo": "Az adatkészlet verziószáma vagy egyéb verziómegjelölése.",
+                "distributions": {
+                    "updated": "A legutóbbi időpont, amikor a terjesztést megváltoztatták vagy módosították.",
+                    "title": "A terjesztés neve.",
+                    "linkedSchema": "Meghatározott séma, amelynek a leírt terjesztés megfelel.",
+                    "linkedData": "A terjesztési metaadatok különböző összekapcsolt adatmegjelenítésekben való letöltésének lehetőségei.",
+                    "status": "A forgalmazás lejárata. KÖTELEZŐ, hogy a Teljesített, deprecated, Under Development, Withdrawn értékek egyikét vegye figyelembe.",
+                    "licence": "Engedély, amely alapján a forgalmazást rendelkezésre bocsátják.",
+                    "availability": "Jelzi, hogy a tervek szerint mennyi ideig áll rendelkezésre az adatkészlet terjesztése.",
+                    "rights": "Nyilatkozat, amely meghatározza a terjesztéshez kapcsolódó jogokat.",
+                    "checksum": "Olyan mechanizmus, amely annak ellenőrzésére használható, hogy a terjesztés tartalma nem változott. Az ellenőrző összeg a letöltési felülethez kapcsolódik.",
+                    "mediaType": "A terjesztés médiatípusa az IANA által kezelt médiatípusok hivatalos nyilvántartásában meghatározottak szerint.",
+                    "spatialResolution": "Az adatkészlet eloszlásában feloldható legkisebb térbeli elválasztás, méterben mérve.",
+                    "byteSize": "Az elosztás méretét bájtokban tartalmazza.",
+                    "download": "Letöltés vagy hozzáférés a terjesztéshez.",
+                    "type": "Linkek a terjesztés egy típusához, pl. az, hogy megjelenítésről van szó.",
+                    "created": "A terjesztés hivatalos kibocsátásának (pl. közzététel) dátuma.",
+                    "language": "A terjesztésben használt nyelv.",
+                    "options": "Nyissa meg az elosztás előnézetét.",
+                    "temporalResolution": "Az adatkészlet-elosztásban feloldható minimális időtartam."
+                },
+                "otherIdentifier": "Az adatkészlet másodlagos azonosítója, például MAST/ADS16, DataCite17, DOI18, EZID19 vagy W3ID20.",
+                "numSeries": "Az adatkészletben szereplő adatsorok számát tartalmazza.",
+                "versionOf": "Kapcsolódó adatkészlet, amelynek a leírt adatkészlet egy verziója, kiadása vagy kiigazítása.",
+                "unitsOfMeasurement": "Az adatkészletben szereplő megfigyelések mértékegysége.",
+                "distribution": "Az adatkészlet vagy szolgáltatás adott formátumban történő fizikai megjelenítése, pl. az adatkészlet-fájlra mutató internetes hivatkozás.",
+                "quality": "Metaadatminőségi információk ehhez az adatkészlethez vagy szolgáltatáshoz.",
+                "catalogue": "Az a katalógus, amelyhez az adatkészlet vagy szolgáltatás tartozik.",
+                "linkedData": "Az adatkészlet vagy a szolgáltatási metaadatok különböző összekapcsolt adatrekordokban történő letöltésének lehetőségei.",
+                "versionNotes": "Az e verzió és az adatkészlet korábbi verziója közötti eltérések leírása. Ez a tulajdonság megismételhető a verziójegyzetek párhuzamos nyelvi változatai esetében.",
+                "similarDatasets": "Más, ehhez hasonló adatkészletek vagy szolgáltatások.",
+                "identifier": "Az adatkészlet fő azonosítója, pl. az URI vagy a katalógussal összefüggésben más egyedi azonosító.",
+                "uriRef": "Az URIref az data.europa.eu adatkészlet/adatszolgáltatás egyedi azonosítója.",
+                "creator": "Az adatkészlet előállításáért elsődlegesen felelős szervezet.",
+                "spatial": "Az adatkészlet által lefedett földrajzi régió.",
+                "language": "Az adatkészlet nyelve.",
+                "format": "Az adatkészlethez vagy szolgáltatáshoz rendelkezésre álló formátum.",
+                "conformsTo": "Végrehajtási szabály vagy egyéb előírás.",
+                "landingPage": "Az adatkészlethez, annak terjesztéséhez és/vagy további információkhoz való hozzáférést biztosító weboldal.",
+                "provenance": "Nyilatkozat az adatkészlet vonaláról.",
+                "documentation": "Az adatkészletről szóló oldal vagy dokumentum.",
+                "publisher": "Az adatkészlet vagy szolgáltatás rendelkezésre bocsátásáért felelős szervezet (szervezet).",
+                "created": "Az adatkészlet vagy szolgáltatás hivatalos kibocsátásának (pl. közzététel) dátuma.",
+                "relatedResource": "Kapcsolódó forrás.",
+                "categories": "Az adatkészlethez vagy szolgáltatáshoz rendelt kategóriák.",
+                "share": "Az adatkészlet vagy szolgáltatás megosztása a közösségi médián keresztül.",
+                "feedback": "Kérjük, ossza meg velünk, mit gondol erről az adatkészletről vagy szolgáltatásról.",
+                "dqvData": "Az adatkészlet vagy szolgáltatásminőség-mérések letöltésének lehetőségei különböző összekapcsolt adatmegjelenítésekben.",
+                "hasVersion": "Kapcsolódó adatkészlet, amely a leírt adatkészlet verziója, kiadása vagy kiigazítása"
+            },
+            "quality": {
+                "keywordAvailability": "A kulcsszavak közvetlenül támogatják a keresést, és ezáltal javítják az adatkészlet fellelhetőségét.&br> &br> A rendszer ellenőrzi, hogy meghatározásra kerültek-e kulcsszavak. A kulcsszavak száma nem befolyásolja a pontszámot.",
+                "formatMediaTypeVocabularyAlignment": "A nedvesített formátum és a médiatípus ellenőrzése egy ellenőrzött szójegyzékbe tartozik.&br> &br> A formátum szószedete a Data.europa.eu GitLab repository.&br> &br> A médiatípust az IANA-lista alapján ellenőrzi.",
+                "licenceAvailability": "Az engedély értékes információ az adatok további felhasználásához.&br> &br> Ellenőrzik, hogy az ingatlan be van-e kapcsolva vagy sem.",
+                "publisherAvailability": "A kiadó olyan személy vagy szervezet, aki vagy amely közzétette az adatokat.&br> &br> Ellenőrzik az ingatlan beállítását vagy sem.",
+                "formatAvailability": "Ez a mező az elosztás fájlformátumát határozza meg.&br>&br>Az ingatlan be van kapcsolva vagy sem.",
+                "temporalAvailability": "Az időbeli információk használata lehetővé tenné a felhasználók számára, hogy időben végzett profilalapú keresést végezzenek.&br> &br> Ellenőrzik, hogy az ingatlan be van kapcsolva vagy sem.",
+                "rightsAvailability": "Egyes esetekben egy adott engedély nem alkalmazható adatkészletre. A „Jogok” mezőben megadható egy olyan forrásra való hivatkozás, amely tájékoztatja a felhasználót arról, hogy milyen jogokkal rendelkezik az adatkészlet használatakor.&br> &br> Az ingatlan be van kapcsolva vagy sem.",
+                "mediaTypeAvailability": "Ez a mező a forgalmazás médiatípusát határozza meg.&br> &br> Az ingatlan be van kapcsolva vagy sem.",
+                "accessRightsVocabularyAlignment": "Az ellenőrzött szókincs használata növeli az újrafelhasználhatóságot. &br> &br> Ellenőrzik, hogy a hozzáférési jogok ellenőrzött szószedetét használják.",
+                "dcatApCompliance": "A DCAT-AP-nak való megfelelést a katalógusban rendelkezésre álló valamennyi forrásra és adatkészletre ki kell számítani. Az ellenőrzésre csak akkor kerül sor, ha a metaadatokat eredetileg DCAT-AP-ként vagy érvényes derivátumként.&br> &br> DCAT-AP néven gyűjtik le. A data.europe.eu portál olyan metaadatokat is gyűjthet, amelyek nem felelnek meg teljes mértékben a DCAT-AP-nak. A DCAT-AP-nak való megfelelés növelése érdekében az MQA minden metaadatot ellenőriz a DCAT-AP megfelelése szempontjából.&br> &br> A metaadatok validálása SHACL alakok sorozata alapján történik. A metaadatok nem megfelelőek, ha a SHACL validálása legalább egy kiadást.&br> &br> Az MQA az data.europe.eu DCAT-AP SHACL validáló sevice.&br> &br> SCHACL-t használja a W3C ajánlása alapján, és azt az RDF grafikonok alakok alapján történő hitelesítésére használják.",
+                "accessRightsAvailability": "Ez a mező azt jelzi, hogy az adatokhoz való hozzáférés nyilvános vagy korlátozott.&br> &br> Ellenőrzik az ingatlan beállítását.",
+                "accessUrlStatusCode": "Az AccessURL nem feltétlenül közvetlen link az adatokhoz, hanem olyan URL-re is utalhat, amely hozzáférést biztosít az adatkészlethez, vagy ahol több információ áll rendelkezésre az adatkészletről.&br> &br> A megadott URL-címet HTTP HEAD kérés útján ellenőrzik. Ha a megválaszolt állapotkód 200 vagy 300 tartományba esik, az erőforrás hozzáférhetőségét pozitívan értékelik.",
+                "categoryAvailability": "A kategóriák segítik a felhasználókat az adatkészletek tematikus feltárásában.&br> &br> Ellenőrzés: Egy vagy több kategória van hozzárendelve az adatkészlethez. A hozzárendelt kategóriák száma nincs hatással a pontszámra.",
+                "downloadUrlStatusCode": "Ha van letöltési URL, a hozzáférhetőséget ellenőrzik.&br> &br> A megadott URL-cím a HTTP HEAD kérésen keresztül ellenőrzi az e-forráshoz való hozzáférést. Ha a megválaszolt állapotkód 200 vagy 300 tartományba esik, az erőforrás hozzáférhetőségét pozitívan értékelik.",
+                "byteSizeAvailability": "A fájl méretét a bájt;br> &br> Bájt;br> Bájtban kell megadni.",
+                "downloadUrlAvailability": "A letöltési felület közvetlen link a hivatkozott adatokhoz. &br> &br> Ellenőrzik, hogy az ingatlan be van kapcsolva vagy sem.",
+                "spatialAvailability": "A térinformáció használata lehetővé tenné a felhasználók számára, hogy földrajzi profillal ellátott kereséssel megtalálják az adatkészletet.&br> &br> Ellenőrzik, hogy a tulajdonság be van kapcsolva vagy sem.",
+                "contactPointAvailability": "A kapcsolattartó pont információkat tartalmaz arról, hogy kihez kell fordulni az adatokkal kapcsolatos kérdések esetén.&br> &br> Ellenőrzik az ingatlan beállítását vagy sem.",
+                "dateIssuedAvailability": "Az az időpont, amikor az adatkészletet vagy terjesztést közzétették.&br> &br> Ellenőrzik, hogy az ingatlan be van kapcsolva vagy sem.",
+                "dateModifiedAvailability": "Az az időpont, amikor az adatkészletet vagy a terjesztést legutóbb megváltoztatták.&br> &br> Ellenőrzik, hogy az ingatlan be van kapcsolva vagy sem."
+            },
+            "catalogRecord": "Az adatkészlet katalógusba való bejegyzésének leírása.",
+            "lastModified": "Az eredmények sorrendje a legutóbbi adatkészlet-módosítások szerint",
+            "editorialContent": "Szerkesztői tartalom keresése, pl. hírek, események, használati ügyek",
+            "datasets": "Adatkészletek keresése",
+            "relevance": "Az adatkészlet relevancia szerinti elrendezése. A relevancia kiszámítása a címben, kulcsszavakban és leírásban szereplő kifejezések egyezése alapján történik.",
+            "contactPoints": "Az adatkészlettel kapcsolatos észrevételek küldéséhez felhasználható elérhetőségi adatok.",
+            "locationFilter": "Egy adott helyhez kapcsolódó adatkészletek megtekintéséhez kattintson a térképre, és használja a toll ikont a kiválasztáshoz. Ezt követően kattintson az „Apply” gombra, ha csak a kiválasztott területre vonatkozó adatkészleteket szűri le. Felhívjuk figyelmét, hogy a keresési eredmények csak olyan adatkészleteket tartalmaznak, amelyek geoinformációs metaadatokat tartalmaznak.",
+            "catalogues": "Katalógusok keresése. Adatkészleteket és szolgáltatásokat tartalmazó katalógus"
+        },
+        "visualisationDistribution": {
+            "barChartExplain": "A vonaldiagram egy kategorikus jellemző szintjeinek numerikus értékeit mutatja be rúdként. A szinteket az egyik térképtengelyen ábrázolják, az értékeket pedig a másik tengelyen ábrázolják.",
+            "semicolon": "Pontosvessző",
+            "exportSucceeded": "A konfiguráció létrehozása sikeresen megtörtént!",
+            "yAxis": "y tengely",
+            "pipe": "Cső",
+            "cancel": "Mégse",
+            "fileTypeNotSupported": "Olyan fájltípust próbál kitenni, amely nem támogatott.",
+            "confirm": "Erősítse meg a következőket:",
+            "fileNotFound": "Olyan fájlt próbál készíteni, amelynek tartalmát nem lehetett elolvasni.",
+            "comma": "Vessző",
+            "space": "Tér",
+            "exportDataTip": "A beviteli mezőt kötelező kitölteni!",
+            "countRow": "Számlálás",
+            "exportMessagesHeader": "Biztosan el kívánja menteni a konfigurációját? Kérjük, hogy mentése előtt ellenőrizze azt!",
+            "exportMessagesLabel": "Kérjük, adja meg a konfiguráció nevét.",
+            "exportNameExistsAlert": "A név már használatban van. Kérjük, próbálkozzon meg egy másikkal!",
+            "hiddenMessages": "elrejtve – kattintson a gombra a teljes megjelenítéshez",
+            "connectedLineChart": "A csatlakoztatott vonal térképe",
+            "barChart": "Oszlopdiagram",
+            "someRows": "Néhány sor",
+            "row": "Sorok",
+            "tab": "Fül:",
+            "connectToDatabaseError": "Hiba történt az adatbázisból történő adatfelvétel során. Kérjük, próbálja meg, vagy ellenőrizze újra a válaszait!",
+            "badgateway": "A szerver nem áll rendelkezésre vagy helytelen DNS-név.",
+            "goBack": "Visszalépés a visszalépéshez",
+            "forbidden": "A kért forráshoz való hozzáférés tilos.",
+            "unauthorized": "A kérést nem alkalmazták. Nem rendelkezik érvényes hitelesítési adatokkal.",
+            "xAxis": "X tengely",
+            "delimiter": "Körülhatárolása",
+            "someColumns": "Néhány oszlop",
+            "exportMessagesFooter": "Mentéséhez kattintson a „Megerősítés” gombra!",
+            "table": "Táblázat",
+            "connectedLineChartExplain": "Egy csatlakoztatott szórt térelválasztó alapjában véve hibrid a szórványtér és a bélés között. Ehhez a Xaxis-t kell választania."
+        },
+        "sort": {
+            "lastCreated": "Utoljára létrehozva",
+            "lastUpdated": "Utoljára módosítva",
+            "nameZA": "Név csökkenő ABC-sorrendben",
+            "relevance": "Relevancia",
+            "sortBy": "Rendezés",
+            "nameAZ": "Név növekvő ABC-sorrendben"
+        },
+        "distributionLicense": {
+            "openLA": "Licencsegéd megnyitása",
+            "notProvided": "Nincs kapott licenc",
+            "licensingAssistant": "Licencelési segédlet",
+            "notFound": "Nem találtunk licencinformációkat.",
+            "notFoundExtended": "Nem találtunk további licencinformációkat, ellenőrizze a forrást a licenccel kapcsolatos további információkért."
+        },
+        "catalogs": {
+            "countMessageSingular": "megtalált katalógus",
+            "geoBoundsMessagePre": "A keresése korlátozva a következőre:",
+            "downloadAsLinkedData": "Metaadat-katalógusok kapcsolt adatokként",
+            "countMessageNoResult": "Nem található katalógus",
+            "searchBar": {
+                "placeholder": "Keresés a katalógusokban…"
+            },
+            "countMessage": "vonatkozásában talált katalógusok",
+            "loadingMessage": "Katalógusok betöltése...",
+            "geoBoundsMessageRemove": "Zárja be ezt az értesítést a korlátozás eltávolításához vagy a visszaállítás funkció használatához."
+        },
+        "datasetFacets": {
+            "facets": {
+                "datascopeField": {
+                    "countryData": "Nemzeti adatok",
+                    "io": "Nemzetközi adatok",
+                    "eu": "Európai uniós adatok"
+                },
+                "datascope": "Az adatok köre",
+                "dataServices": {
+                    "dataServicesOnly": "Csak adatszolgáltatások"
+                },
+                "country": "Országok",
+                "format": "Formátumok",
+                "scoring": {
+                    "badScoring": "Bármelyik",
+                    "sufficientScoring": "pont elég",
+                    "goodScoring": "jó",
+                    "excellentScoring": "kitűnő"
+                },
+                "publisher": "@:message.metadata.publisher",
+                "license": "Licencek",
+                "keywords": "Kulcsszavak",
+                "categories": "Kategóriák",
+                "catalog": "Katalógusok",
+                "countrydata": "Országos adatok",
+                "tags": "Címkék"
+            },
+            "title": "Szűrők",
+            "and": "ÉS",
+            "settings": "Szűrőbeállítás",
+            "scoring": "Pontozás",
+            "or": "VAGY",
+            "europeanCatalogs": "Európai katalógusok",
+            "operator": "Operátor"
+        },
+        "header": {
+            "navigation": {
+                "data": {
+                    "euInternationalData": "Uniós és nemzetközi adatok",
+                    "datasets": "Adatkészletek",
+                    "catalogs": "Katalógusok",
+                    "metadataquality": "Metaadatok minősége",
+                    "sparqleditor": "SPARQL szerkesztő",
+                    "statistics": "Statisztikák",
+                    "sparqlsearch": "SPARQL-keresés",
+                    "title": "Adatok"
+                },
+                "impactStudies": {
+                    "opendataimpact": "Nyílt hozzáférésű adatok hatása",
+                    "tellUsYourStory": "Ossza meg a történetét",
+                    "studies": "Tanulmányok",
+                    "opendatamaturity": "Nyílt adatok érettsége",
+                    "countryInsights": "Országon belüli összefüggések",
+                    "useCases": "Esetek felhasználása",
+                    "title": "Hatás és tanulmányok",
+                    "overview": "Áttekintés"
+                },
+                "training": {
+                    "licensingAssistant": "Licencelési segédlet",
+                    "dataProvidersGuide": "Adatszolgáltatói útmutató",
+                    "moreTrainingMaterial": "További képzési anyagok",
+                    "whatIsOpenData": "Mik azok a nyílt hozzáférésű adatok?",
+                    "title": "Képzés",
+                    "elearning": "Elektronikus tanulás"
+                },
+                "about": {
+                    "beHarvestedByUs": "Gyűjtesse be velünk az adatait",
+                    "documentation": "Dokumentáció",
+                    "title": "Névjegy",
+                    "europeanDataPortal": "Európai Adatportál"
+                },
+                "newsEvents": {
+                    "events": "Események",
+                    "news": "Hírek",
+                    "title": "Hírek és események",
+                    "stories": "Esetleírások"
+                },
+                "covid-19": {
+                    "title": "COVID19",
+                    "datasets": "Adatkészletek",
+                    "overview": "Áttekintés",
+                    "initiatives": "Adatokkal kapcsolatos kezdeményezések"
+                }
+            },
+            "subnav": {
+                "newsletter": "Hírlevél",
+                "cookies": "Cookie-k",
+                "login": "Bejelentkezés",
+                "contact": "Kapcsolat",
+                "search": "Keresés",
+                "logout": "Kijelentkezés",
+                "legalNotice": "Jogi nyilatkozat",
+                "faq": "GYIK"
+            },
+            "european": "Európai",
+            "searchInputPlaceholder": "Keresés a webhely tartalmában...",
+            "dataPortal": "Adatportál",
+            "searchOptions": {
+                "siteContent": "Oldal tartalma",
+                "datasets": "Adatkészletek"
+            }
+        },
+        "catalogues": {
+            "foundCataloguesSingular": "1 katalógus található",
+            "foundCatalogues": "a katalógusok megtalálhatók"
+        },
+        "datasets": {
+            "foundDatasets": "állandó adatkészletek a következő adatkészletekhez:",
+            "countMessage": "adatkészletek talált",
+            "foundDatasetsSingular": "1 adatkészlet található",
+            "meta": {
+                "translationNotComplete": "A fordítás nem teljes"
+            },
+            "geoBoundsMessageRemove": "Zárja be ezt az értesítést a korlátozás eltávolításához vagy a visszaállítás funkció használatához.",
+            "createDataset": "Adatkészlet létrehozása",
+            "geoBoundsMessagePre": "A keresése korlátozva a következőre:",
+            "loadingMessage": "Adatkészletek betöltése...",
+            "countMessageSingular": "adatkészletet talált",
+            "datasetsFeed": "Adatkészlet-csatorna",
+            "scoreDisclaimer": "A jelenlegi keresési eredmények szűrve jelennek meg, hogy megfeleljenek a bal oldali panelen megadott minimális minőségi értékeknek. Látogasson el a(z) {0} oldalra, ha többet szeretne megtudni a minőségi méréseinkről.",
+            "noResult": "Nem található adatkészlet",
+            "findLocation": "Szűrés hely szerint",
+            "searchBar": {
+                "placeholder": "Keresés adatsorok"
+            },
+            "createCatalogue": "Katalógus létrehozása",
+            "saveQuery": "Lekérdezés mentése"
+        },
+        "footer": {
+            "helpUsImproveText": "A visszajelzésével javíthatjuk az átfogó felhasználói élményt.\nVan bármilyen javaslata?",
+            "lastUpdated": "Legutóbb frissítve",
+            "links": {
+                "cookies": "Cookie-k",
+                "contact": "Kapcsolat",
+                "faq": "GYIK",
+                "newsletter": "Hírlevél",
+                "search": "Keresés",
+                "login": "Bejelentkezés",
+                "legalNotice": "Jogi nyilatkozat"
+            },
+            "subscribe": "Feliratkozás",
+            "helpUsImprove": "Segítsen nekünk a javulásban",
+            "newsletterText": "Iratkozzon fel a hírlevelünkre",
+            "newsletter": "Hírlevél",
+            "followUs": "Kövessen minket itt:",
+            "managedBy": "Gondozza: az Európai Unió Kiadóhivatala.",
+            "fundedBy": "Amelyet az Európai Unió"
+        },
+        "helpIcon": {
+            "dataServices": "A data.europa.eu-ban a terjesztés adatszolgáltatásként is működhet. Ez azt jelenti, hogy nem egy letölthető fájlhoz, hanem egy API-hoz kapcsolódik. Válassza az „Igen” opciót, ha olyan adatkészletekre kíván szűrni, amelyek legalább egy adatszolgáltatással rendelkeznek.",
+            "scoring": "a data.europa.eu az összes adatkészlet és szolgáltatás minőségét méri. Az Adatok/Metadata Minőség szakaszban található egy módszertani oldal, amely leírja a folyamatot. Minden adatkészletet és szolgáltatást minőségi pontszám is képvisel. Ez a pontszám elegendő, jó vagy kiváló lehet. Ha az „elégséges+” szűrő be van állítva, minden olyan adatkészletet és szolgáltatást meg kell jeleníteni, amelynek pontszáma megfelelő vagy jobb. Ugyanez vonatkozik a „jó”-ra is. A „kiváló” csak kiváló adatkészleteket és szolgáltatásokat mutat.",
+            "license": "Az engedély ismerteti az adatkészlet felhasználásának jogi feltételeit.",
+            "dataScope": "Az uniós adatok uniós intézményektől származó adatkészleteket és szolgáltatásokat tartalmaznak. A nemzetközi adatok olyan adatkészleteket és szolgáltatásokat tartalmaznak, amelyek az EU-n kívülről származnak. Az országadatok az EU tagállamaiból származó adatkészleteket és szolgáltatásokat tartalmaznak.",
+            "format": "Minden adatkészlet tartalmaz fájlokra vagy szolgáltatásokra való hivatkozásokat. A formátum e hivatkozások fájltípusát vagy szolgáltatástípusát írja le. Nem minden fájltípus szolgál minden célra, pl. a számítást PDF helyett inkább CSV-fájllal is el lehet végezni.",
+            "catalog": "Adatkészleteket és szolgáltatásokat tároló katalógus vagy adattár. A katalógus többnyire azt a portált ábrázolja, ahol az adatkészleteket összegyűjtik.",
+            "settings": "Eldöntse, hogy a szűrő kiválasztása kizárólagos-e vagy sem. Az AND keresési eredmények mindegyikének meg kell egyeznie az összes szűrővel. Vagy azt jelenti, hogy legalább egy szűrőnek meg kell egyeznie.",
+            "categories": "Egy kategória olyan adatkészleteket csoportosít, amelyek közös témát képviselnek.",
+            "publisher": "A kiadó az adatkészlet rendelkezésre bocsátásáért felelős szervezet (pl. szervezet).",
+            "keywords": "A kulcsszavak olyan ötletek és témák, amelyek meghatározzák, miről szól a tartalom."
+        },
+        "userQueries": {
+            "executeQuery": "Lekérdezés futtatása",
+            "queriesFound": "A keresés {number} lekérdezést talált",
+            "placeholderNotes": "pl. néhány hasznos jegyzet a lekérdezéssel kapcsolatban",
+            "querySaved": "Lekérdezés mentve",
+            "queryFound": "A keresés {number} lekérdezést talált",
+            "myQueries": "Saját lekérdezések",
+            "noDescription": "Ennek a lekérdezésnek nincs leírása",
+            "noQueryFound": "Nem található lekérdezés",
+            "queryDeleted": "Lekérdezés törölve",
+            "searchAllQueries": "Lekérdezések keresése...",
+            "save": "Lekérdezés mentése",
+            "areYourSure": "Biztosan törli ezt a lekérdezést?",
+            "noQueriesSaved": "Nem mentett egyetlen lekérdezést sem.",
+            "searchQueries": "Keresés a lekérdezéseimben..."
+        },
+        "catalogFacets": {
+            "facets": {
+                "licences": "Licencek",
+                "catalogs": "Katalógusok",
+                "categories": "Kategóriák",
+                "countries": "Országok",
+                "formats": "Formátumok",
+                "keywords": "Kulcsszavak"
+            },
+            "operator": "Operátor",
+            "title": "Szűrők",
+            "europeanCatalogs": "Európai katalógusok",
+            "or": "VAGY",
+            "and": "ÉS",
+            "euInstitutions": "Az uniós intézmények",
+            "settings": "Beállítások"
+        },
+        "statistics": {
+            "statistics": "Statisztikák",
+            "datasetsPerCatalog": "Adatkészletek katalógusonként",
+            "currentState": "Jelenlegi állapot",
+            "datasetsPerCountry": "Adatkészletek országonként",
+            "selectType": "Statisztika típusának kiválasztása",
+            "datasetsPerCountryAndCatalog": "Adatkészletek országonként és katalógusonként",
+            "evolution": "Fejlődés",
+            "evolutionStartEnd": "Az adatkészletek teljes számának fejlődése {start_date} és {end_date} között",
+            "increaseStartEnd": "A(z) {dataset_model} növekedése %-ban kifejezve {start_date} és {end_date} között",
+            "totalNumber": "Adatkészletek száma összesen",
+            "datasetsPerCategory": "Adatkészletek kategóriánként",
+            "selectTimePeriod": "Időszak kiválasztása",
+            "evolutionNumber": "A(z) {dataset_model} számának fejlődése {start_date} és {end_date} között",
+            "numberDate": "Összesen {dataset_model} adatkészlet ettől a dátumtól kezdve: {date}"
+        },
+        "categories": {
+            "tran": "Közlekedés",
+            "heal": "Egészségügy",
+            "tech": "Tudomány és technológia",
+            "envi": "Környezet",
+            "econ": "Gazdaság és pénzügy",
+            "soci": "Népesség és társadalom",
+            "agri": "Mezőgazdaság, halászat, erdészet és élelmiszer",
+            "educ": "Oktatás, kultúra és sport",
+            "ener": "Energia",
+            "intr": "Nemzetközi ügyek",
+            "gove": "Kormányzat és közszféra",
+            "just": "Igazságügy, jogrendszer és közbiztonság",
+            "regi": "Régiók és városok"
+        },
+        "pagination": {
+            "nextPage": "Következő",
+            "previousPage": "Előző"
+        },
+        "navigation": {
+            "navItems": {
+                "home": "Főoldal",
+                "about": "Névjegy",
+                "data": "Adatok",
+                "privacyPolicy": "Adatvédelmi politika",
+                "map": "Térkép",
+                "imprint": "Nyomat"
+            }
+        },
+        "catalogsAndDatasets": {
+            "noDescriptionAvailable": "Nem áll rendelkezésre leírás",
+            "more": "További információk"
+        },
+        "datasetCategories": {
+            "foundCategories": "A keresés {number} kategóriát talált",
+            "foundCategory": "A keresés {number} kategóriát talált",
+            "noCategories": "A keresés nem talált kategóriá(ka)t"
+        },
+        "mapModal": {
+            "fullscreen": "Teljes képernyő",
+            "findDatasets": "Alkalmaz",
+            "reset": "Törlés",
+            "close": "Bezárás",
+            "drawRectangleMsg": "Rajzoljon egy téglalapot egy régió kiválasztásához",
+            "disclaimer": "Felelősségkizáró nyilatkozat",
+            "copyright": "Térkép: © OpenStreetMap hozzájárulói"
+        },
+        "similarDatasets": {
+            "similar": "Hasonló",
+            "verySimilar": "Nagyon hasonló",
+            "marginalSimilar": "Éppen csak hasonló",
+            "notFound": "Nem található hasonló adatbázis.",
+            "lessSimilar": "Kevésbé hasonló",
+            "similarDatasets": "Hasonló adatkészletek"
+        },
+        "searchTabs": {
+            "editorialContent": "Szerkesztési tartalom"
+        },
+        "visualisation": {
+            "loading": "Megjelenítés betöltése folyamatban...",
+            "previewAvailable": "Megtekinthető előnézet",
+            "info": "Amennyiben a megjelenítés nem töltődik be néhány másodpercen belül, kattintson ide."
+        },
+        "catalog": {
+            "loadingMessage": "Katalógusok lekérve",
+            "searchBar": {
+                "placeholder": "Katalógusok keresése"
+            },
+            "geoBoundsMessageRemove": "Zárja be ezt az értesítést a korlátozás eltávolításához vagy a visszaállítás funkció használatához.",
+            "countMessage": "Talált katalógusok"
+        },
+        "sparql": {
+            "subHeadlineText2": "Annak érdekében, hogy segítséget nyújtsunk a felhasználóknak a hasznos SPARQL-lekérdezések összeállításában, megadunk egy oldalt, amelyen szerepel <a href='{sample_sparql_queries}'>sample SPARQL queries</a> a végpontunkon keresztül végrehajtható. A portálon RDF-háromlapként közzétett adatkészletek és katalógusok a <a href='https://github.com/SEMICeu/DCAT-AP'>DCAT-AP specification</a> címet követik. A metaadat ontológiával kapcsolatos további információkért látogasson el a DCAT-AP (DCAT-AP) Data.europa.eu academy oldalára a következő címen: <a href=' https://data.europa.eu/en/academy/dcat-and-dcat-ap'> https://data.europa.eu/en/academy/dcat-and-dcat-ap</a>.",
+            "subHeadlineText1": "Az data.europa.eu valamennyi metaadatát RDF triples (<a href='https://www.w3.org/RDF/'>RDF</a>) formájában tárolják, és ebben a végpontban a SPARQL lekérdezési nyelv használatával lekérdezhetők. A lekérdezéseket a lekérdezés szerkesztőjén (alább) vagy a géppel olvasható végponton (<a href='https://data.europa.eu/sparql'>https://data.europa.eu/sparql</a>) keresztül lehet végrehajtani."
+        },
+        "distributions": {
+            "footerLink": "Letöltés"
+        },
+        "distributionDetails": "{}",
+        "spokenLanguage": "Angolul",
+        "cite": {
+            "copyToClipboard": "Másolás a billentyűzetre",
+            "title": "Hivatkozzon erre az adatkészletre"
+        },
+        "home": {
+            "msg": "Sajnos ezen az oldalon még nincs tartalom. Látogassa meg az Adatok lapot, ha látni szeretne valamit!"
+        },
+        "imprint": {
+            "msg": "KOLOFON BESZÚRÁSA IDE"
+        }
+    }
+}

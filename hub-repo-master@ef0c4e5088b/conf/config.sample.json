@@ -1,0 +1,69 @@
+{
+  "PIVEAU_HUB_SERVICE_PORT": 8080,
+  "PIVEAU_HUB_CORS_DOMAINS": ["healthdata-local.com", "localhost"],
+  "greeting": "You know, for metadata!",
+  "PIVEAU_HUB_API_KEY": "7c6a7c98-20e1-4915-ba0c-985b6724560b",
+  "PIVEAU_DCATAP_SCHEMA_CONFIG" : {
+    "baseUri" : "http://piveau.io/",
+    "catalogueContext" : "id/catalogue/",
+    "datasetContext" : "set/data/",
+    "distributionContext" : "set/distribution/",
+    "historyMetricsContext" : "id/history_metrics/",
+    "metricsContext" : "id/metrics/",
+    "recordContext" : "set/record/"
+  },
+  "PIVEAU_HUB_VALIDATOR" : {
+    "enabled": false,
+    "metricsPipeName": "metrics",
+    "history": false
+  },
+  "PIVEAU_HUB_SEARCH_SERVICE": {
+    "enabled": true,
+    "url": "piveau-hub-search",
+    "port": 8080,
+    "api_key": "a92b814f-63f8-4a5d-abc7-8710de0d2e86"
+  },
+  "PIVEAU_HUB_LOAD_VOCABULARIES": true,
+  "PIVEAU_HUB_LOAD_VOCABULARIES_FETCH": false,
+  "PIVEAU_HUB_XML_DECLARATION": false,
+  "PIVEAU_TRANSLATION_SERVICE": {
+    "enable": false,
+    "accepted_languages": ["en", "bg", "hr", "cs", "da", "nl", "et", "fi", "fr", "el",
+      "hu", "ga", "it", "lv", "lt", "mt", "pl", "pt", "ro", "sk", "sl", "es", "sv", "nb", "de"],
+    "translation_service_url": "https://www.url.eu/translation-service/",
+    "callback_url": "http://localhost:8080/translation"
+  },
+  "PIVEAU_DATA_UPLOAD": {
+    "url": "http://piveau-hub-simple-store:8080",
+    "service_url": "http://piveau-hub-simple-store:8080",
+    "api_key": "0e3296cb-5106-4d77-9e9d-25ef9b6eac71"
+  },
+  "PIVEAU_TRIPLESTORE_CONFIG": {
+    "address": "http://virtuoso:8890",
+    "graphEndpoint": "/sparql-graph-crud",
+    "graphAuthEndpoint": "/sparql-graph-crud-auth",
+    "queryEndpoint": "/sparql",
+    "queryAuthEndpoint": "/sparql-auth",
+    "username": "dba",
+    "password": "dba"
+  },
+  "PIVEAU_SHADOW_TRIPLESTORE_CONFIG": {
+    "address": "http://shadow-virtuoso:8890",
+    "username": "dba",
+    "password": "dba"
+  },
+  "PIVEAU_IDENTIFIERS_REGISTRATION": [
+    {
+      "type": "eu-ra-doi",
+      "enabled": false,
+      "api": "https://xxxxxx",
+      "prefix": "xx.xxxx",
+      "user": "xxxxx",
+      "password": "xxxxx"
+    },
+    {
+      "type": "mock",
+      "enabled": true
+    }
+  ]
+}

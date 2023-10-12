@@ -1,0 +1,11 @@
+domibus:
+  username: {username} 
+  url: localhost
+  port: 8081
+  usehttps: false
+  from: centralpocnode
+  to: nationalpocnode
+datapermitcentralservice:
+  url: localhost
+  port: 8103
+  message_list_size: 100

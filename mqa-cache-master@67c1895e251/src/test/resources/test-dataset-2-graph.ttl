@@ -1,0 +1,65 @@
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dqv: <http://www.w3.org/ns/dqv#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ns0: <https://spdx.org/rdf/terms/#> .
+
+
+<https://example.eu/set/distribution/0fdd318d-bf60-49ad-8599-385a4e2fb68d>
+    a dcat:Distribution ;
+    dcat:accessURL <https://statistik.leipzig.de/opendata/api/values?kategorie_nr=8&rubrik_nr=8&periode=y&format=json> ;
+    dc:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcat:mediaType "application/ld+json" ;
+    dc:description "Test distribution 1" ;
+    dc:identifier "af95c05c-89dd-4433-89a5-b2e74a910112" .
+
+<https://example.eu/set/distribution/4fb2dd90-5de0-4485-afe8-fd7859de194f>
+    a dcat:Distribution ;
+    dc:format "CSV" ;
+    dcat:accessURL <https://statistik.leipzig.de/opendata/api/values?kategorie_nr=8&rubrik_nr=8&periode=y&format=csv> ;
+    dc:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcat:mediaType "text/csv" ;
+    dc:description "Test distribution 2" ;
+    dc:identifier "da60fa28-3423-46ba-b3f6-62f1e1bb590b" .
+
+<https://example.eu/set/data/test-dataset-2>
+    a dcat:Dataset ;
+    dc:modified "2019-09-17T00:00:00"^^xsd:dateTime ;
+    dc:issued "2016-02-23T00:00:00"^^xsd:dateTime ;
+    dcat:distribution <https://example.eu/set/distribution/0fdd318d-bf60-49ad-8599-385a4e2fb68d>, <https://example.eu/set/distribution/4fb2dd90-5de0-4485-afe8-fd7859de194f> ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TECH>, <http://publications.europa.eu/resource/authority/data-theme/ECON> ;
+    dcat:contactPoint <https://example.de/def/contact/fokus> ;
+    dc:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/ANNUAL> ;
+    dc:description "This is an example Dataset" ;
+    dc:publisher <https://example.de/def/publisher/fokus> ;
+    dc:title "Test Dataset",
+    "Title in spanish"@es ,
+    "Title in german"@de;
+    dc:identifier "test-dataset-2" .
+
+<https://example.eu/set/record/test-dataset-2>
+    a dcat:CatalogRecord ;
+    dc:created "2019-12-06T18:26:37Z"^^xsd:dateTime ;
+    dc:modified "2019-12-06T18:26:37Z"^^xsd:dateTime ;
+    foaf:primaryTopic <https://example.eu/set/data/test-dataset-2> ;
+    ns0:checksum [
+                     a ns0:Checksum ;
+                     ns0:algorithm ns0:checksumAlgorithm_md5 ;
+                     ns0:checksumValue "63a7cfe25a79dc4a2b66b0c00f43054d"
+                 ] ;
+    dqv:hasQualityMetadata <https://example.eu/id/metrics/test-dataset-2> ;
+    dc:identifier "test-dataset-2" .
+
+
+
+<https://example.de/def/publisher/fokus>
+    a foaf:Organization ;
+    foaf:homepage  "http://www.fokus.fraunhofer.de" ;
+    foaf:name      "Fraunhofer FOKUS" .
+
+<https://example.de/def/contact/fokus>
+    a vcard:Individual ;
+    vcard:hasEmail  <mailto:max@mustermann.de> ;
+    vcard:fn "Max Mustermann" .

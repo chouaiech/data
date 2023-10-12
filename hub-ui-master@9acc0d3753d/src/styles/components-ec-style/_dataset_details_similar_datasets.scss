@@ -1,0 +1,21 @@
+.pv-badge {
+  border-radius: 0;
+   
+  &.badge {
+    &-success {
+      background-color: #467A39;
+    }
+  
+    &-info {
+      background-color: #006FB4;
+    }
+  
+    &-warning {
+      background-color: #F29527   ;
+    }
+  
+    &-secondary {
+      background-color: #707070;
+    }
+  }
+}

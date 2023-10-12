@@ -1,0 +1,379 @@
+{
+    "message": {
+        "datasetDetails": {
+            "openResource": "Pojdi na vir",
+            "upload": {
+                "unknownFormat": "Neznani format",
+                "resetText": "Ponastavi celoten obrazec?",
+                "reset": "Ponastavi obrazec",
+                "individual": "Posameznik",
+                "person": "Oseba",
+                "organisation": "Organizacija"
+            },
+            "about": "o",
+            "geoInfo": "Obseg podatkovnega niza",
+            "translation": {
+                "link": "Za ogled zbirke podatkov v izvirnem jeziku kliknite tukaj.",
+                "message": "Naslov in opis te zbirke podatkov sta prevedena strojno.",
+                "noTranslation": "Prevod za izbrani jezik ni na voljo. Informacije so prikazane v privzetem jeziku",
+                "original": "Izvirni jezik",
+                "update": "Posodobljeni prevod te zbirke podatkov je v teku"
+            },
+            "options": "Nastavitve",
+            "subnav": {
+                "activityStream": "Tok dejavnosti",
+                "similarDatasets": "Podobne zbirke podatkov",
+                "categories": "Kategorije",
+                "dataset": "Nabor podatkov"
+            },
+            "edit": "Uredi",
+            "follow": "Sledi",
+            "preview": "Pregled",
+            "visualisation": "Odpri vizualizacijo",
+            "additionalInfo": "Dodatne informacije",
+            "feedback": "Povratne informacije",
+            "unfollow": "Prenehaj slediti",
+            "manage": "Upravljaj",
+            "delete": "Izbriši",
+            "geoVisualisation": "Odpri vizualizacijo Geo",
+            "download": "Prenos",
+            "menu": "Meni"
+        },
+        "userQueries": {
+            "searchAllQueries": "Iskalne poizvedbe …",
+            "queryDeleted": "Izbriši poizvedbo",
+            "querySaved": "Shrani poizvedbo",
+            "searchQueries": "Išči po mojih poizvedbah …",
+            "noQueryFound": "Najdena ni bila nobena poizvedba.",
+            "myQueries": "Moje poizvedbe",
+            "noDescription": "Ta poizvedba nima opisa",
+            "placeholderNotes": "npr. Nekaj uporabnih opomb k tej poizvedbi",
+            "noQueriesSaved": "Shranili niste nobene poizvedbe.",
+            "queryFound": "{number} najdena poizvedba",
+            "areYourSure": "Ali res želite izbrisati to poizvedbo?",
+            "queriesFound": "{number} najdene/i/ih poizvedb/e/i",
+            "save": "Shrani poizvedbo",
+            "executeQuery": "Izvedi poizvedbo"
+        },
+        "header": {
+            "navigation": {
+                "about": {
+                    "beHarvestedByUs": "Dovolite nam, da zajamemo vaše podatke",
+                    "title": "O nas",
+                    "documentation": "Dokumentacija",
+                    "europeanDataPortal": "Evropski Podatkovni Portal"
+                },
+                "training": {
+                    "whatIsOpenData": "Kaj so odprti podatki",
+                    "title": "Usposabljanje",
+                    "dataProvidersGuide": "Vodnik za ponudnike podatkov",
+                    "moreTrainingMaterial": "Več gradiv za usposabljanje",
+                    "elearning": "E-učenje",
+                    "licensingAssistant": "Pomočnik za licence"
+                },
+                "data": {
+                    "sparqlsearch": "Iskanje SPARQL",
+                    "statistics": "Statistike",
+                    "euInternationalData": "Podatki EU in mednarodni podatki",
+                    "catalogues": "Katalogi",
+                    "datasets": "Zbirke podatkov",
+                    "countryData": "Podatki o državi",
+                    "metadataQuality": "Kakovost metapodatkov",
+                    "title": "Podatki"
+                },
+                "newsEvents": {
+                    "title": "Novice in dogodki",
+                    "events": "Dogodki",
+                    "news": "Novice"
+                },
+                "impactStudies": {
+                    "studies": "Študije",
+                    "useCases": "Primeri uporabe",
+                    "tellUsYourStory": "Povejte nam svojo zgodbo",
+                    "title": "Vpliv in študije",
+                    "opendataimpact": "Vpliv odprtih podatkov",
+                    "countryInsights": "Vpogled po državah",
+                    "overview": "Pregled",
+                    "opendatamaturity": "Zrelost odprtih podatkov"
+                },
+                "covid-19": {
+                    "title": "COVID-19",
+                    "datasets": "Zbirke podatkov",
+                    "overview": "Pregled",
+                    "initiatives": "Podatkovne pobude"
+                }
+            },
+            "subnav": {
+                "logout": "Izpis",
+                "cookies": "Piškotki",
+                "login": "Vpis",
+                "search": "Išči",
+                "newsletter": "Glasilo",
+                "contact": "Kontakt",
+                "legalNotice": "Pravno obvestilo",
+                "faq": "Pogosta vprašanja"
+            },
+            "searchOptions": {
+                "siteContent": "Vsebina strani",
+                "datasets": "Zbirke podatkov"
+            },
+            "searchInputPlaceholder": "Iskanje vsebine spletnega mesta ...",
+            "dataPortal": "podatkovni portal",
+            "european": "Evropski"
+        },
+        "pagination": {
+            "previousPage": "Prejšnji",
+            "nextPage": "Naslednji"
+        },
+        "statistics": {
+            "tableHead": {
+                "trend": "Trend",
+                "country": "Država",
+                "catalogue": "Katalog",
+                "numberOfDatasets": "Število naborov podatkov",
+                "name": "Ime",
+                "category": "Kategorija",
+                "percent": "Odstotek vseh naborov podatkov"
+            },
+            "totalNumber": "Celotno število zbirk podatkov",
+            "evolution": "Razvoj",
+            "datasetsPerCountryAndCatalogue": "Zbirke podatkov po državah in katalogih",
+            "datasetsPerCountry": "Zbirke podatkov po državah",
+            "datasetsPerCatalogue": "Zbirke podatkov po katalogih",
+            "selectTimePeriod": "Izberi časovno obdobje",
+            "selectType": "Izberi statistično vrsto",
+            "statistics": "Statistike",
+            "datasetsPerCategory": "Zbirke podatkov po kategoriji",
+            "currentState": "Trenutno stanje",
+            "meta": {
+                "description": "Relevantni statistični podatki o razvoju našega odprtega portala in število naborov podatkov po državah, kategorijah in katalogih na portalu data.europa.eu."
+            },
+            "page": {
+                "title": "Statistični podatki o portalu odprtih podatkov | data.europa.eu"
+            }
+        },
+        "metadata": {
+            "updatedLowerCase": "posodobljeno",
+            "conformsTo": "Ustreza",
+            "dataset": "Zbirka podatkov",
+            "email": "E-pošta",
+            "title": "Naslov",
+            "license": "Licenca",
+            "name": "Ime",
+            "upload": "Naloži",
+            "created": "Ustvarjeno",
+            "addDistribution": "Dodaj distribucijo",
+            "chooseFile": "Izberi datoteko",
+            "distribution": "Distribucija",
+            "label": "Oznaka",
+            "review": "Revizija",
+            "otherIdentifiers": "Drugi identifikatorji",
+            "chooseFormat": "Izberi format",
+            "datasets": "Zbirke podatkov",
+            "resource": "Vir",
+            "spatial": "Prostorski",
+            "deleteItem": "Ali res želite izbrisati to postavko?",
+            "relatedResources": "sorodni predmeti",
+            "accessUrl": "Dostop do naslova URL",
+            "documentations": "Dokumentacija",
+            "frequency": "Pogostost",
+            "updated": "Posodobljeno",
+            "no": "Ne",
+            "landingPage": "Ciljna stran",
+            "metadataQuality": "Kakovost metapodatkov",
+            "yes": "Da",
+            "chooseCategory": "Izberi kategorijo",
+            "update ": "Posodobi",
+            "homepage": "Domača stran",
+            "contactPoints": "Kontaktne točke",
+            "chooseCatalogue": "Izberi katalog",
+            "chooseType": "Izberi vrsto",
+            "description": "Opis",
+            "downloadUrl": "Prenos naslova URL",
+            "provenances": "Izvor",
+            "tags": "Oznake",
+            "format": "Format",
+            "coordinates": "Usklajuje",
+            "sources": "Viri",
+            "categories": "Kategorije",
+            "publisher": "Objavil",
+            "type": "Tip",
+            "distributions": "Distribucije",
+            "cancel": "Izbriši",
+            "identifiers": "Identifikatorji"
+        },
+        "footer": {
+            "newsletterText": "Naročite se na naš novičnik",
+            "newsletter": "Glasilo",
+            "fundedBy": "Financira Evropska unija",
+            "lastUpdated": "Nazadnje posodobljeno",
+            "links": {
+                "search": "Išči",
+                "newsletter": "Glasilo",
+                "cookies": "Piškotki",
+                "legalNotice": "Pravno obvestilo",
+                "faq": "Pogosta vprašanja",
+                "contact": "Kontakt",
+                "login": "Vpis"
+            },
+            "followUs": "Spremljajte nas na",
+            "subscribe": "Naroči",
+            "helpUsImprove": "Pomagajte nam izboljšati",
+            "managedBy": "Upravlja Urad za publikacije Evropske unije.",
+            "helpUsImproveText": "Vaše povratne informacije nam bodo pomagale izboljšati celotno uporabniško izkušnjo. \nAli imate kakšen predlog?"
+        },
+        "catalogueFacets": {
+            "and": "IN",
+            "facets": {
+                "countries": "Države",
+                "licences": "Licence",
+                "keywords": "Ključne besede",
+                "formats": "Formati",
+                "catalogues": "Katalogi",
+                "categories": "Kategorije"
+            },
+            "operator": "Upravitelj",
+            "settings": "Nastavitve",
+            "or": "ALI",
+            "europeanCatalogues": "Evropski katalogi",
+            "title": "Filtri"
+        },
+        "similarDatasets": {
+            "notFound": "Najdena ni bila nobena podobna zbirka podatkov.",
+            "lessSimilar": "Manj podobne",
+            "similarDatasets": "Podobne zbirke podatkov",
+            "verySimilar": "Zelo podobne",
+            "similar": "Podobne",
+            "marginalSimilar": "Minimalno podobne"
+        },
+        "catalogues": {
+            "geoBoundsMessageRemove": "Zaprite to obvestilo, da odstranite omejitev ali uporabite funkcijo za ponastavitev.",
+            "countMessage": "najdeni katalogi za ",
+            "countMessageSingular": "najden katalog za ",
+            "searchBar": {
+                "placeholder": "Išči po katalogih ..."
+            },
+            "loadingMessage": "Nalaganje katalogov ...",
+            "geoBoundsMessagePre": "Vaše iskanje je omejeno na:",
+            "countMessageNoResult": "Najden ni bil noben katalog za "
+        },
+        "common": {
+            "edp": {
+                "title": "Evropski podatkovni portal"
+            },
+            "currentCatalogueStatistics": "Trenutna kataložna statistika",
+            "historicalCatalogueStatistics": "Zgodovinska kataložna statistika"
+        },
+        "categories": {
+            "tran": "Promet",
+            "heal": "Zdravje",
+            "gove": "Vlada in javni sektor",
+            "envi": "Okolje",
+            "intr": "Mednarodna vprašanja",
+            "agri": "Kmetijstvo, ribištvo, gozdarstvo in hrana",
+            "soci": "Prebivalstvo in družba",
+            "econ": "Gospodarstvo in finance",
+            "educ": "Izobraževanje, kultura in šport",
+            "ener": "Energetika",
+            "tech": "Znanost in tehnologija",
+            "regi": "Regije in mesta",
+            "just": "Pravosodje, pravni sistem in javna varnost"
+        },
+        "distributions": {
+            "footerLink": "Prenos"
+        },
+        "navigation": {
+            "navItems": {
+                "map": "Zemljevid",
+                "home": "Domov",
+                "imprint": "Odtis",
+                "privacyPolicy": "Pravilnik o zasebnosti",
+                "about": "O nas",
+                "data": "Podatki"
+            }
+        },
+        "mapModal": {
+            "disclaimer": "Izjava o omejitvi odgovornosti",
+            "fullscreen": "Celozaslonski način",
+            "findDatasets": "Uporabi",
+            "close": "Zapri",
+            "drawRectangleMsg": "Narišite pravokotnik, da izberete regijo",
+            "reset": "Počisti"
+        },
+        "datasetFacets": {
+            "facets": {
+                "catalogues": "Katalogi",
+                "formats": "Formati",
+                "categories": "Kategorije",
+                "licences": "Licence",
+                "keywords": "Ključne besede",
+                "countries": "Države",
+                "tags": "Oznake"
+            },
+            "title": "Filtri",
+            "operator": "Operater",
+            "and": "IN",
+            "settings": "Nastavitve",
+            "europeanCatalogues": "Evropski katalogi",
+            "or": "ali"
+        },
+        "catalogue": {
+            "searchBar": {
+                "placeholder": "Iskanje katalogov"
+            },
+            "countMessage": "Najdeni katalogi",
+            "geoBoundsMessageRemove": "Zaprite to obvestilo, da odstranite omejitev ali uporabite funkcijo za ponastavitev.",
+            "loadingMessage": "Katalogi so obnovljeni"
+        },
+        "datasets": {
+            "loadingMessage": "Nalaganje naborov podatkov ...",
+            "geoBoundsMessagePre": "Vaše iskanje je omejeno na:",
+            "saveQuery": "Shrani poizvedbo",
+            "createDataset": "Ustvari zbirko podatkov",
+            "datasetsFeed": "Seznam naborov podatkov",
+            "countMessageSingular": "najden nabor podatkov za ",
+            "meta": {
+                "translationNotComplete": "Prevod ni dokončan"
+            },
+            "noResult": "Najdena ni bila nobena zbirka podatkov za ",
+            "geoBoundsMessageRemove": "Zaprite to obvestilo, da odstranite omejitev ali uporabite funkcijo za ponastavitev.",
+            "searchBar": {
+                "placeholder": "Išči po zbirkah podatkov ..."
+            },
+            "showMore": "Prikaži več",
+            "findLocation": "Filtriraj po lokaciji",
+            "countMessage": "najdeni nabori podatkov za "
+        },
+        "sort": {
+            "lastCreated": "Nazadnje ustvarjeno",
+            "nameAZ": "Ime v naraščajočem zaporedju",
+            "nameZA": "Ime v padajočem zaporedju",
+            "relevance": "Ustreznost",
+            "lastUpdated": "Zadnjič spremenjeno",
+            "sortBy": "Naročil"
+        },
+        "datasetCategories": {
+            "foundCategory": "Najdenih je bilo {number} kategorij",
+            "foundCategories": "Najdena je bila {number} kategorija",
+            "noCategories": "Najdenih ni bilo nobenih kategorij"
+        },
+        "distributionLicense": {
+            "notFound": "Najdenih ni bilo nobenih informacij o licenci.",
+            "openLA": "Odprite Pomočnika za licence",
+            "notFoundExtended": "Najdenih ni bilo nobenih dodatnih informacij o licenci. Preverite vir za dodatne informacije o licenci.",
+            "licensingAssistant": "Pomočnik za licence",
+            "notProvided": "Ni licence"
+        },
+        "visualisation": {
+            "previewAvailable": "Na voljo je predogled",
+            "info": "Če se vizualizacija ne naloži v nekaj sekundah, kliknite tukaj.",
+            "loading": "Vizualizacija se nalaga ..."
+        },
+        "imprint": {
+            "msg": "ODTIS VSTAVITE TUKAJ"
+        },
+        "home": {
+            "msg": "Ta stran žal še nima vsebine. \nObiščite zavihek Podatki, da si nekaj ogledate!"
+        }
+    }
+}

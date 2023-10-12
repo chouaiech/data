@@ -1,0 +1,379 @@
+{
+    "message": {
+        "datasetDetails": {
+            "openResource": "Siirry resurssiin",
+            "upload": {
+                "unknownFormat": "Tuntematon muoto",
+                "resetText": "Palautetaanko koko lomake?",
+                "reset": "Palauta alkaen",
+                "individual": "Yksilöllinen",
+                "person": "Henkilö",
+                "organisation": "Organisaatio"
+            },
+            "about": "tietoja",
+            "geoInfo": "Tietoaineiston laajuus",
+            "translation": {
+                "link": "Tutustu tietoaineistoon alkuperäisellä kielellä napsauttamalla tästä",
+                "message": "Tämän tietoaineiston otsikko ja kuvaus \novat konekäännetyt.",
+                "noTranslation": "Halutulle kielelle ei ole käännöstä. Tiedot näytetään niiden oletuskielellä",
+                "original": "Alkuperäinen kieli",
+                "update": "Tämän tietoaineiston käännöksen päivitys on meneillään."
+            },
+            "options": "Vaihtoehdot",
+            "subnav": {
+                "activityStream": "Aktiivisuusvirta",
+                "similarDatasets": "Samankaltaiset tietoaineistot",
+                "categories": "Luokat",
+                "dataset": "Tietoaineisto"
+            },
+            "edit": "Muokkaa",
+            "follow": "Seuraa",
+            "preview": "Esikatselu",
+            "visualisation": "Avaa visualisointi",
+            "additionalInfo": "Lisätietoja",
+            "feedback": "Palaute",
+            "unfollow": "Lopeta seuraaminen",
+            "manage": "Hallinnoi ",
+            "delete": "Poista",
+            "geoVisualisation": "Avaa Geo-visualisointi",
+            "download": "Lataa",
+            "menu": "Valikko"
+        },
+        "userQueries": {
+            "searchAllQueries": "Hae kyselyitä…",
+            "queryDeleted": "Kysely poistettu",
+            "querySaved": "Kysely tallennettu",
+            "searchQueries": "Hae kyselyitäni…",
+            "noQueryFound": "Kyselyä ei löytynyt",
+            "myQueries": "Omat kyselyt",
+            "noDescription": "Tällä kyselyllä ei ole kuvausta",
+            "placeholderNotes": "esim. joitain hyödyllisiä muistiinpanoja kyselystä",
+            "noQueriesSaved": "Et ole tallentanut kyselyitä",
+            "queryFound": "{number} kysely löytyi",
+            "areYourSure": "Haluatko varmasti poistaa tämän kyselyn?",
+            "queriesFound": "{number} kyselyä löytyi",
+            "save": "Tallenna kysely",
+            "executeQuery": "Tee kysely"
+        },
+        "header": {
+            "navigation": {
+                "about": {
+                    "beHarvestedByUs": "Tarjoudu haravointikohteeksemme",
+                    "title": "Tietoja",
+                    "documentation": "Dokumentaatio",
+                    "europeanDataPortal": "Euroopan Dataportaali"
+                },
+                "training": {
+                    "whatIsOpenData": "Mitä avoin data on",
+                    "title": "Koulutus",
+                    "dataProvidersGuide": "Datan tuottajan opas",
+                    "moreTrainingMaterial": "Lisää koulutusmateriaalia",
+                    "elearning": "eLearning",
+                    "licensingAssistant": "Lisenssiassistentti"
+                },
+                "data": {
+                    "sparqlsearch": "SPARQL-haku",
+                    "statistics": "Tilastot",
+                    "euInternationalData": "EU ja kansainvälinen data",
+                    "catalogues": "Luettelot",
+                    "datasets": "Tietoaineistot",
+                    "countryData": "Maatiedot",
+                    "metadataQuality": "Metadatan laatu",
+                    "title": "Data"
+                },
+                "newsEvents": {
+                    "title": "Uutiset ja tapahtumat",
+                    "events": "Tapahtumat",
+                    "news": "Uutiset"
+                },
+                "impactStudies": {
+                    "studies": "Tutkimukset",
+                    "useCases": "Käyttötapaukset",
+                    "tellUsYourStory": "Kerro meille tarinasi",
+                    "title": "Vaikutukset ja tutkimukset",
+                    "opendataimpact": "Avoimen datan vaikutukset",
+                    "countryInsights": "Maakohtaiset tiedot",
+                    "overview": "Yleiskatsaus",
+                    "opendatamaturity": "Avoimen datan kypsyys"
+                },
+                "covid-19": {
+                    "title": "COVID-19",
+                    "datasets": "Tietoaineistot",
+                    "overview": "Yleiskatsaus",
+                    "initiatives": "Dataan liittyvät hankkeet"
+                }
+            },
+            "subnav": {
+                "logout": "Kirjaudu ulos",
+                "cookies": "Evästeet",
+                "login": "Sisäänkirjautuminen",
+                "search": "Hae",
+                "newsletter": "Uutiskirje",
+                "contact": "Ota yhteyttä",
+                "legalNotice": "Oikeudellinen huomautus",
+                "faq": "UKK"
+            },
+            "searchOptions": {
+                "siteContent": "Sivuston sisältö",
+                "datasets": "Tietoaineistot"
+            },
+            "searchInputPlaceholder": "Hae sivun sisällöstä…",
+            "dataPortal": "Dataportaali",
+            "european": "Euroopan"
+        },
+        "pagination": {
+            "previousPage": "Edellinen",
+            "nextPage": "Seuraava"
+        },
+        "statistics": {
+            "tableHead": {
+                "trend": "Suuntaus",
+                "country": "Maa",
+                "catalogue": "Luettelo",
+                "numberOfDatasets": "Tietoaineistojen määrä",
+                "name": "Nimi",
+                "category": "Luokka",
+                "percent": "Prosenttiosuus tietojoukoista"
+            },
+            "totalNumber": "Tietoaineistojen kokonaismäärä",
+            "evolution": "Evoluutio",
+            "datasetsPerCountryAndCatalogue": "Tietoaineistot maata ja luetteloa kohti",
+            "datasetsPerCountry": "Tietoaineistot maata kohti",
+            "datasetsPerCatalogue": "Tietoaineistot luetteloa kohti",
+            "selectTimePeriod": "Valitse ajanjakso",
+            "selectType": "Valitse tilastollinen tyyppi",
+            "statistics": "Tilastot",
+            "datasetsPerCategory": "Tietoaineistot luokkaa kohti",
+            "currentState": "Nykyinen tila",
+            "meta": {
+                "description": "Tutustu tilastoihin avoimen datan portaalimme kehityksestä ja tietoaineistoista, jotka ovat saatavana mm. maa-, kategoria- ja katalogikohtaisesti data.europa.eu-sivustolla."
+            },
+            "page": {
+                "title": "Avoimen datan portaalin tilastot | Eurooppalainen data"
+            }
+        },
+        "metadata": {
+            "updatedLowerCase": "päivitetty",
+            "conformsTo": "Vastaa",
+            "dataset": "Tietoaineisto",
+            "email": "S-posti",
+            "title": "Otsikko",
+            "license": "Lisenssi",
+            "name": "Nimi",
+            "upload": "Lataa",
+            "created": "Laadittu",
+            "addDistribution": "Lisää jakelu",
+            "chooseFile": "Valitse tiedosto",
+            "distribution": "Jakelu",
+            "label": "Tunnusmerkki",
+            "review": "Tarkasta",
+            "otherIdentifiers": "Muut tunnisteet",
+            "chooseFormat": "Valitse muoto",
+            "datasets": "Tietoaineistot",
+            "resource": "Tietoaineistolinkki",
+            "spatial": "Alueellinen",
+            "deleteItem": "Haluatko varmasti poistaa tämän kohdan?",
+            "relatedResources": "liittyvät kohteet",
+            "accessUrl": "Sivustoon siirtymisen URL",
+            "documentations": "Asiakirjat",
+            "frequency": "Tiheys",
+            "updated": "Päivitetty",
+            "no": "Ei",
+            "landingPage": "Laskeutumissivu",
+            "metadataQuality": "Metadatan laatu",
+            "yes": "Kyllä",
+            "chooseCategory": "Valitse luokka",
+            "update ": "Päivitä ",
+            "homepage": "Kotisivu",
+            "contactPoints": "Yhteyspisteet",
+            "chooseCatalogue": "Valitse luettelo",
+            "chooseType": "Valitse tyyppi",
+            "description": "Viestisi",
+            "downloadUrl": "Latauksen URL-osoite",
+            "provenances": "Alkuperä",
+            "tags": "Tagit",
+            "format": "Muoto",
+            "coordinates": "Koordinaatit",
+            "sources": "Lähteet",
+            "categories": "Luokat",
+            "publisher": "Julkaisija",
+            "type": "Tyyppi",
+            "distributions": "Jakelut",
+            "cancel": "Peruuta",
+            "identifiers": "Tunnisteet"
+        },
+        "footer": {
+            "newsletterText": "Tilaa uutiskirjeemme",
+            "newsletter": "Uutiskirje",
+            "fundedBy": "Rahoitetaan Euroopan unionin",
+            "lastUpdated": "Viimeksi päivitetty",
+            "links": {
+                "search": "Haku",
+                "newsletter": "Uutiskirje",
+                "cookies": "Evästeet",
+                "legalNotice": "Oikeudellinen huomautus",
+                "faq": "UKK",
+                "contact": "Ota yhteyttä",
+                "login": "Sisäänkirjautuminen"
+            },
+            "followUs": "Seuraa meitä",
+            "subscribe": "Tilaa",
+            "helpUsImprove": "Auta meitä parantamaan",
+            "managedBy": "Euroopan unionin julkaisutoimiston hallinnoima.",
+            "helpUsImproveText": "Palautteesi avulla voimme parantaa yleistä käyttökokemusta. Onko sinulla ehdotuksia?"
+        },
+        "catalogueFacets": {
+            "and": "JA",
+            "facets": {
+                "countries": "Maat",
+                "licences": "Lisenssit",
+                "keywords": "Avainsanat",
+                "formats": "Muodot",
+                "catalogues": "Luettelot",
+                "categories": "Luokat"
+            },
+            "operator": "Operaattori",
+            "settings": "Asetukset",
+            "or": "TAI",
+            "europeanCatalogues": "Eurooppalaiset luettelot",
+            "title": "Suodattimet"
+        },
+        "similarDatasets": {
+            "notFound": "Samankaltaisia tietoaineistoja ei löytynyt",
+            "lessSimilar": "Vähemmän samankaltaiset",
+            "similarDatasets": "Samankaltaiset tietoaineistot",
+            "verySimilar": "Hyvin samankaltaiset",
+            "similar": "Samankaltaiset",
+            "marginalSimilar": "Vähäisessä määrin samankaltaiset"
+        },
+        "catalogues": {
+            "geoBoundsMessageRemove": "Sulje tämä ilmoitus rajoituksen poistamiseksi tai käytä palautustoimintoa.",
+            "countMessage": "luetteloa löytyi haulla ",
+            "countMessageSingular": "luettelo löytyi haulla ",
+            "searchBar": {
+                "placeholder": "Hae luetteloita..."
+            },
+            "loadingMessage": "Ladataan katalogeja…",
+            "geoBoundsMessagePre": "Hakusi on rajattu seuraavaan:",
+            "countMessageNoResult": "Luetteloita ei löytynyt haulla "
+        },
+        "common": {
+            "edp": {
+                "title": "Euroopan dataportaali"
+            },
+            "currentCatalogueStatistics": "Nykyiset luettelotilastot",
+            "historicalCatalogueStatistics": "Historialliset luettelotilastot"
+        },
+        "categories": {
+            "tran": "Liikenne",
+            "heal": "Terveys",
+            "gove": "Valtioneuvosto ja julkinen sektori",
+            "envi": "Ympäristö",
+            "intr": "Kansainväliset kysymykset",
+            "agri": "Maanviljelys, kalatalous, metsänhoito ja elintarvikkeet",
+            "soci": "Väestö ja yhteiskunta",
+            "econ": "Talous ja raha-asiat",
+            "educ": "Koulutus, kulttuuri ja urheilu",
+            "ener": "Energia",
+            "tech": "Tiede ja teknologia",
+            "regi": "Alueet ja kaupungit",
+            "just": "Oikeus, oikeusjärjestelmä ja yleinen turvallisuus"
+        },
+        "distributions": {
+            "footerLink": "Lataa"
+        },
+        "navigation": {
+            "navItems": {
+                "map": "Kartta",
+                "home": "Aloitussivu",
+                "imprint": "Julkaisutiedot",
+                "privacyPolicy": "Tietosuojakäytäntö",
+                "about": "Tietoja",
+                "data": "Data"
+            }
+        },
+        "mapModal": {
+            "disclaimer": "Vastuuvapauslauseke",
+            "fullscreen": "Koko näyttö",
+            "findDatasets": "Ota käyttöön",
+            "close": "Sulje",
+            "drawRectangleMsg": "Valitse alue piirtämällä suorakulmio",
+            "reset": "Tyhjennä"
+        },
+        "datasetFacets": {
+            "facets": {
+                "catalogues": "Luettelot",
+                "formats": "Formaatit",
+                "categories": "Luokat",
+                "licences": "Lisenssit",
+                "keywords": "Avainsanat",
+                "countries": "Maat",
+                "tags": "Tagit"
+            },
+            "title": "Suodattimet",
+            "operator": "Ylläpitäjä",
+            "and": "JA",
+            "settings": "Asetukset",
+            "europeanCatalogues": "Eurooppalaiset luettelot",
+            "or": "tai"
+        },
+        "catalogue": {
+            "searchBar": {
+                "placeholder": "Hae katalogeja"
+            },
+            "countMessage": "Katalogeja löydetty",
+            "geoBoundsMessageRemove": "Sulje tämä ilmoitus rajoituksen poistamiseksi tai käytä palautustoimintoa.",
+            "loadingMessage": "Katalogeja löydetty"
+        },
+        "datasets": {
+            "loadingMessage": "Ladataan tietoaineistoja…",
+            "geoBoundsMessagePre": "Hakusi on rajattu seuraavaan:",
+            "saveQuery": "Tallenna haku",
+            "createDataset": "Luo tietoaineisto",
+            "datasetsFeed": "Tietoaineistojen syöte",
+            "countMessageSingular": "Haulle  löytyi tietoaineisto",
+            "meta": {
+                "translationNotComplete": "Käännös ei ole valmis"
+            },
+            "noResult": "Haulle  ei löytynyt tietoaineistoja",
+            "geoBoundsMessageRemove": "Sulje tämä ilmoitus rajoituksen poistamiseksi tai käytä palautustoimintoa.",
+            "searchBar": {
+                "placeholder": "Hae tietoaineistoja…"
+            },
+            "showMore": "Näytä lisää",
+            "findLocation": "Suodata sijainnin mukaan",
+            "countMessage": "tietoaineistoa löytyi haulla "
+        },
+        "sort": {
+            "lastCreated": "Viimeksi luotu",
+            "nameAZ": "Nimi, nouseva",
+            "nameZA": "Nimi Å-A",
+            "relevance": "Tärkeys",
+            "lastUpdated": "Viimeksi muokattu",
+            "sortBy": "Järjestys"
+        },
+        "datasetCategories": {
+            "foundCategory": "{number} luokkaa löytyi",
+            "foundCategories": "{number} luokka löytyi",
+            "noCategories": "Luokkia ei löytynyt"
+        },
+        "distributionLicense": {
+            "notFound": "Lisenssitietoa ei löydy.",
+            "openLA": "Avaa lisenssiassistentti",
+            "notFoundExtended": "Lisenssitietoa ei löydy. Tarkista lähteestä tarkemmat lisenssitiedot.",
+            "licensingAssistant": "Lisenssiassistentti",
+            "notProvided": "Ei lisenssiä käytettävissä"
+        },
+        "visualisation": {
+            "previewAvailable": "Esikatselu saatavilla",
+            "info": "Jos visualisointi ei lataudu muutamassa sekunnissa, napsauta tästä.",
+            "loading": "Visualisointia ladataan..."
+        },
+        "imprint": {
+            "msg": "SYÖTÄ JULKAISUTIEDOT TÄHÄN"
+        },
+        "home": {
+            "msg": "Pahoittelemme, tällä sivulla ei ole vielä sisältöä. Katso Tieto-välilehdeltä lisää!"
+        }
+    }
+}

@@ -1,0 +1,18 @@
+# Changelog
+
+## Unreleased
+(2023-04-17)
+removed moment.min.js script from index.html and added this as  package "moment": "^2.29.4",
+
+**Added**
+
+**Removed**
+
+**Changed**
+
+**Fixed**
+
+## [x.y.z](https://gitlab.fokus.fraunhofer.de/group/project/tags/x.y.z) (2019-07-31)
+
+**Added**
+* Describe what you added #[issue]

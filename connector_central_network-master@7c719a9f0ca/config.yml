@@ -1,0 +1,23 @@
+domibus:
+  username: rodrnun
+  url: central-domibus
+  port: 8080
+  usehttps: false
+  from: central-domibus
+  to: pt-node-domibus
+fairdatapoint:
+  usehttps: false
+  url: piveau-hub-repo
+  port: 8080
+  username: test
+messagechecker:
+  port: 8150
+  url: centralservice-messagechecker
+datadiscoverycentralservice:
+  port: 8101
+  url: centralservice-datadiscovery  
+datapermitcentralservice:
+  url: centralservice-datapermit
+  port: 8103
+  message_list_size: 100
+

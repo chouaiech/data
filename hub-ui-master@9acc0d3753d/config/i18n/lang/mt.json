@@ -1,0 +1,969 @@
+{
+    "message": {
+        "metadata": {
+            "catalogRecord": "Reġistru tal-Katalgu",
+            "deleteItem": "Ċert li tixtieq tħassar dan l-oġġett?",
+            "availability": "Disponibbiltà",
+            "versionInfo": "Informazzjoni dwar il-verżjoni",
+            "chooseCategory": "Agħżel Kategorija",
+            "chooseFile": "Agħżel Fajl",
+            "versionNotes": "Noti dwar il-verżjoni",
+            "review": "Rieżami",
+            "tooltipKeywords": "Daħħal il-kliem prinċipali tas-sett tad-data tiegħek hawnhekk!",
+            "pageDescriptionDataset": "Żid titlu, deskrizzjoni, katalogu, kliem prinċipali u kategoriji fis-sett tad-data tiegħek!",
+            "no": "Le",
+            "relatedResources": "Riżorsi Relatati",
+            "pageDescriptionPublisher": "Żid tip, isem u paġna ewlenija ta' pubblikatur fis-sett tad-data tiegħek! ",
+            "tooltipTitle": "Daħħal it-titlu tas-sett tad-data tiegħek hawnhekk!",
+            "linkedData": "Data Marbuta",
+            "numSeries": "Numru ta’ serje ta’ data",
+            "releaseDate": "Data ta' Ħruġ",
+            "yes": "Iva",
+            "unitsOfMeasurement": "Unitajiet ta’ Kejl",
+            "distributionsEmpty": "Jiddispjaċina, bħalissa mhemm l-ebda distribuzzjoni mtella' disponibbli għal dan is-sett tad-data. Jekk jogħġbok żid tal-anqas distribuzzjoni waħda!",
+            "enterDownloadUrl": "Ikteb Url Niżżel",
+            "frequency": "Frekwenza",
+            "type": "Tip",
+            "telephone": "Telefon",
+            "label": "Tikketta",
+            "addedToDataEuropaEU": "Miżjud ma’ data.europa.eu",
+            "tooltipCategories": "Agħżel il-kategoriji tas-sett tad-data tiegħek hawnhekk!",
+            "temporal": "Kopertura temporali",
+            "enterDescription": "Daħħal deskrizzjoni",
+            "accrualPeriodicity": "Perjodiċità tad-Dovuti",
+            "showXMore": "Uri  {increment} aktar ",
+            "identifier": "Identifikatur",
+            "isPartOf": "Huwa subkatalogu ta’",
+            "dataServices": "Servizzi tad-data",
+            "chooseType": "Agħżel Tip",
+            "organizationName": "Isem l-Organizzazzjoni",
+            "catalog": "Katalogu",
+            "qualityAnnotations": "Annotazzjonijiet tal-Kwalità",
+            "update": "Aġġorna",
+            "showAll": "Uri kollha",
+            "coordinates": "Koordinati",
+            "email": "Indirizz Elettroniku",
+            "tooltipContactType": "Agħżel it-tip ta' punt ta' kuntatt tas-sett tad-data tiegħek hawnhekk!",
+            "checksum": "Checksum",
+            "enterEmail": "Daħħal indirizz elettroniku",
+            "cancel": "Ikkanċella",
+            "conformsTo": "Jikkonforma ma'",
+            "downloadUrl": "URL għat-tnżżil",
+            "chooseLicense": "Agħżel liċenzja",
+            "tooltipDescription": "Daħħal id-deskrizzjoni tas-sett tad-data tiegħek hawnhekk!",
+            "tags": "Tikketti",
+            "accessUrl": "URL tal-Aċċess",
+            "languages": "Lingwi",
+            "title": "Titlu",
+            "enterTitle": "Daħħal titlu",
+            "url": "URL",
+            "resource": "Riżorsa",
+            "tooltipPublisherHomepage": "Daħħal il-paġna ewlenija tal-pubblikatur tas-sett tad-data tiegħek hawnhekk!",
+            "creator": "Kreatur",
+            "description": "Deskrizzjoni",
+            "spatial": "Spazjali",
+            "readLess": "Aqra Anqas",
+            "tooltipPublisherType": "Agħżel it-tip ta' pubblikatur tas-sett tad-data tiegħek hawnhekk!",
+            "accessRights": "Drittijiet ta' Aċċess",
+            "tooltipDistributionDownloadUrl": "Daħħal il-Url għat-tniżżil tad-distribuzzjoni tiegħek hawnhekk!",
+            "attributes": "Attributi",
+            "mediaType": "Tip tal-Midja",
+            "categories": "Kategoriji",
+            "pageDescriptionDistribution": "Żid distribuzzjonijiet fis-sett tad-data tiegħek!",
+            "pages": "Paġni",
+            "goToCatalog": "Mur fil-Paġna tal-Katalogu",
+            "tooltipDistributionDescription": "Daħħal id-deskrizzjoni tad-distribuzzjoni tiegħek hawnhekk!",
+            "identifiers": "Identifikaturi",
+            "scheme": "Skema",
+            "contactPoints": "Punti ta' Kuntatt",
+            "hasPart": "Għandu sottokatalogu",
+            "showLess": "Uri Anqas",
+            "byteSize": "Daqs tal-Byte",
+            "tooltipCatalog": "Agħżel il-katalogu tas-sett tad-data tiegħek hawnhekk!",
+            "methodologyPage": "Paġna tal-metodoloġija tal-MQA",
+            "hasVersion": "Għandu l-verżjoni",
+            "useDownloadUrl": "Nixtieq indaħħal URL għat-Tniżżil minflok intella' fajl!",
+            "created": "Maħluq",
+            "themeTaxonomy": "Tassonomija tematika",
+            "homepage": "Paġna Ewlenija",
+            "address": "Indirizz",
+            "visualisations": "Viżwalizzazzjonijiet",
+            "tooltipDistributionFormat": "Agħżel il-format tad-distribuzzjoni tiegħek hawnhekk!",
+            "upload": "Tella'",
+            "notFound": "Ma nstabx",
+            "dimensions": "Dimensjonijiet",
+            "addDistribution": "Żid Distribuzzjoni",
+            "name": "Isem",
+            "metadataQuality": "Kwalità tal-Metadata",
+            "provenances": "Provenjenza",
+            "enterKeywords": "Daħħal Kliem prinċipali",
+            "landingPage": "Paġna tal-Bidu",
+            "tooltipDistributionTitle": "Daħħal it-titlu tad-distribuzzjoni tiegħek hawnhekk!",
+            "license": "Liċenzja",
+            "chooseCatalog": "Agħżel Katalogu",
+            "enterHomepage": "Daħħal paġna ewlenija",
+            "tooltipDistributionLicence": "Agħżel il-liċenzja tad-distribuzzjoni tiegħek hawnhekk!",
+            "readMore": "Aqra Aktar",
+            "format": "Format",
+            "chooseFormat": "Agħżel Format",
+            "publisher": "Pubblikatur",
+            "dataset": "Sett tad-data",
+            "updated": "Aġġornati",
+            "pageDescriptionUpload": "Żid fajls mad-distribuzzjonijiet tiegħek!",
+            "spatialResource": "Riżors Spazjali",
+            "distribution": "Distribuzzjoni",
+            "tooltipContactName": "Daħħal l-isem tal-punt ta' kuntatt tas-sett tad-data tiegħek hawnhekk!",
+            "distributions": "Distribuzzjonijiet",
+            "status": "Stat",
+            "datasets": "Settijiet tad-data",
+            "showMore": "Uri Aktar",
+            "rights": "Drittijiet",
+            "tooltipContactEmail": "Daħħal l-indirizz elettroniku tal-punt ta' kuntatt tas-sett tad-data tiegħek hawnhekk!",
+            "otherIdentifiers": "Identifikaturi Oħra",
+            "tooltipPublisherName": "Daħħal l-isem tal-pubblikatur tas-sett tad-data tiegħek hawnhekk!",
+            "enterName": "Daħħal isem",
+            "documentations": "Dokumentazzjonijiet",
+            "sources": "Sorsi",
+            "modificationDate": "Data ta' Modifika",
+            "isVersionOf": "Huwa verżjoni ta'",
+            "pageDescriptionContactPoint": "Żid tip, isem u indirizz elettroniku ta' punt ta' kuntatt fis-sett tad-data tiegħek! ",
+            "goToDataset": "Mur fil-Paġna tas-Sett tad-Data",
+            "updatedOnDataEuropaEU": "Aġġornat fuq data.europa.eu"
+        },
+        "dataupload": {
+            "info": {
+                "defaultdescription": "Ikklikkja l-ikona tal-informazzjoni biex turi spjegazzjoni dettaljata tal-qasam.",
+                "information": "Informazzjoni"
+            },
+            "datasets": {
+                "step2": {
+                    "source": {
+                        "label": "Sors"
+                    },
+                    "type": {
+                        "placeholder": "Spazju riżervat għat-Tip ta’ Sett ta’ Data"
+                    },
+                    "subject": {
+                        "help": "Kategorija tas-Sett ta’ Data."
+                    },
+                    "isReferencedByUrl": {
+                        "label": "URL"
+                    },
+                    "contactPointAddressStreet": {
+                        "placeholder": "Spazju riżervat għall-Punt ta’ Kuntatt tas-Sett ta’ Data tat-Triq"
+                    },
+                    "conformsTo": {
+                        "placeholder": "Sett ta’ data Konformi Għal test bi spazju riżervat"
+                    },
+                    "isVersionOf": {
+                        "label": "Hija Verżjoni ta’ f"
+                    },
+                    "provenance": {
+                        "label": "Provenjenza"
+                    },
+                    "language": {
+                        "label": "Il-lingwa"
+                    },
+                    "qualifiedAttribution": {
+                        "help": "Link għal Aġent li għandu xi forma ta’ responsabbiltà għar-riżorsa"
+                    },
+                    "temporal": {
+                        "placeholder": "Sett ta’ data Test ta’ spazju riżervat temporanju"
+                    },
+                    "accessRights": {
+                        "info": "Din il-proprjetà tirreferi għal informazzjoni li tindika jekk is-Sett tad-Data huwiex data miftuħa, għandux restrizzjonijiet fuq l-aċċess jew le."
+                    },
+                    "identifier": {
+                        "help": "Din il-proprjetà fiha l-identifikatur ewlieni għas-Sett tad-Data."
+                    },
+                    "versionInfo": {
+                        "help": "Numru tal-verżjoni tas-Sett ta’ Data."
+                    },
+                    "hasVersion": {
+                        "info": "Din il-karatteristika tirreferi għal sett tad-data relatat li hu verżjoni, edizzjoni, jew adattament tas-sett tad-data deskritt."
+                    },
+                    "wasGeneratedBy": {
+                        "add-label": "Żid Was Ġenerat By"
+                    },
+                    "qualifiedRelation": {
+                        "label": "Relazzjoni Kwalifikata"
+                    },
+                    "conformsToTitle": {
+                        "label": "Titolu"
+                    },
+                    "creatorType": {
+                        "label": "Tip"
+                    },
+                    "spatial": {
+                        "info": "Din il-proprjetà tirreferi għal reġjun ġeografiku li huwa kopert mis-Sett tad-Data."
+                    },
+                    "temporalResolutionMonth": {
+                        "label": "Xahar ta’ Riżoluzzjoni temporali"
+                    },
+                    "contactPointName": {
+                        "label": "Isem"
+                    },
+                    "temporalResolutionMinute": {
+                        "placeholder": "Test tad-Detentur tal-Post tal-Minuti tas-sett tad-data"
+                    },
+                    "contactPointEmail": {
+                        "label": "Email"
+                    },
+                    "contactPointOrganisationName": {
+                        "label": "Isem l-Organizzazzjoni"
+                    },
+                    "contactPoint": {
+                        "help": "Din il-proprjetà fiha informazzjoni ta’ kuntatt."
+                    },
+                    "temporalResolutionDay": {
+                        "placeholder": "Test tad-detentur tal-post tas-sett tad-data Jum ta’ Riżoluzzjoni Temporali"
+                    },
+                    "provenanceText": {
+                        "placeholder": "Test tal-pompa għal Test tal-Provenjenza tas-Sett ta’ Data"
+                    }
+                },
+                "step1": {
+                    "publisherType": {
+                        "placeholder": "Dataset Publisher Type placeholder text"
+                    },
+                    "datasetID": {
+                        "label": "Id tas-sett ta’ data"
+                    },
+                    "modified": {
+                        "label": "Immodifikat"
+                    },
+                    "publisher": {
+                        "label": "Pubblikatur"
+                    },
+                    "issued": {
+                        "help": "Id-data tal-ħruġ formali (eż., il-pubblikazzjoni) tas-sett tad-data. Formati ta’ data aċċettabbli: SSSS-XX-JJ, SSSS-XX, SSSS."
+                    },
+                    "publisherHomepage": {
+                        "label": "Il-paġna ewlenija"
+                    }
+                },
+                "step3": {
+                    "spatialResolutionInMeters": {
+                        "help": "Separazzjoni ġeografika minima riżolvibbli f’sett ta’ data."
+                    },
+                    "mediaType": {
+                        "placeholder": "Spazju riżervat għat-Tip tal-Media ta’ Distribuzzjoni"
+                    },
+                    "language": {
+                        "help": "Lingwa użata fid-Distribuzzjoni."
+                    },
+                    "title": {
+                        "info": "Din il-proprjetà fiha isem mogħti lid-Distribuzzjoni. Din il-proprjetà tista’ tiġi ripetuta għal verżjonijiet lingwistiċi paralleli tad-deskrizzjoni."
+                    },
+                    "status": {
+                        "label": "Status"
+                    },
+                    "checksum": {
+                        "placeholder": "Spazju riżervat għall-kontroll tad-distribuzzjoni"
+                    },
+                    "hasPolicyUrl": {
+                        "placeholder": "Spazju riżervat għal Url Politika ta’ Distribuzzjoni"
+                    },
+                    "page": {
+                        "help": "Paġna jew dokument dwar din id-Distribuzzjoni."
+                    },
+                    "availability": {
+                        "placeholder": "Spazju riżervat għad-Disponibbiltà tad-Distribuzzjoni"
+                    },
+                    "format": {
+                        "placeholder": "Spazju riżervat għall-Format ta’ Distribuzzjoni"
+                    },
+                    "conformsTo": {
+                        "add-label": "Żid Konformi Biex"
+                    },
+                    "issued": {
+                        "label": "Maħruġ"
+                    },
+                    "description": {
+                        "help": "Din il-proprjetà fiha kont b’test liberu tad-Distribuzzjoni."
+                    },
+                    "hasPolicy": {
+                        "help": "Il-politika li tesprimi d-drittijiet."
+                    },
+                    "temporalResolutionMonth": {
+                        "label": "Xahar ta’ Riżoluzzjoni temporali"
+                    },
+                    "temporalResolutionHour": {
+                        "placeholder": "Test tad-Detentur tal-Post tas-Sett ta’ Data Temporali"
+                    },
+                    "licence": {
+                        "help": "Il-liċenzja li taħtha tkun disponibbli d-Distribuzzjoni."
+                    },
+                    "date": {
+                        "label": "Data"
+                    }
+                },
+                "stepper": {
+                    "step3": {
+                        "children": {
+                            "distribution3": {
+                                "name": "Informazzjoni Addizzjonali"
+                            },
+                            "distribution4": {
+                                "name": "Informazzjoni Addizzjonali"
+                            },
+                            "distribution1": {
+                                "name": "Informazzjoni Ġenerali"
+                            },
+                            "distribution2": {
+                                "name": "Informazzjoni Addizzjonali"
+                            }
+                        }
+                    },
+                    "overview": "Ħarsa ġenerali lejn is-sett tad-data"
+                }
+            },
+            "catalogues": {
+                "step2": {
+                    "isPartOf": {
+                        "info": "Din il-proprjetà tirreferi għal Katalogu relatat li fih il-Katalogu deskritt huwa fiżikament jew loġikament inkluż."
+                    },
+                    "language": {
+                        "help": "Lingwa użata fil-metadejta testwali li tiddeskrivi t-titli, id-deskrizzjonijiet, eċċ."
+                    },
+                    "spatial": {
+                        "info": "Din il-proprjetà tirreferi għal żona ġeografika koperta mill-Katalogu."
+                    },
+                    "hasPart": {
+                        "help": "Din il-proprjetà tirreferi għal Katalogu relatat li huwa parti mill-Katalogu deskritt"
+                    },
+                    "creator": {
+                        "add-label": "Żid Ħallieq"
+                    },
+                    "creatorName": {
+                        "label": "Isem"
+                    }
+                },
+                "step1": {
+                    "title": {
+                        "help": "Isem mogħti lir-Reġistru tal-Katalogu. "
+                    },
+                    "description": {
+                        "info": "Din il-proprjetà fiha kont b’test liberu tar-rekord. Din il-proprjetà tista’ tiġi ripetuta għal verżjonijiet lingwistiċi paralleli tad-deskrizzjoni."
+                    },
+                    "licence": {
+                        "placeholder": "Spazju riżervat għal-Liċenzja tal-Katalogu test"
+                    },
+                    "modified": {
+                        "label": "Immodifikat"
+                    },
+                    "licenceDescription": {
+                        "label": "Deskrizzjoni tal-Liċenzja"
+                    },
+                    "homepage": {
+                        "help": "Paġna web li taġixxi bħala l-paġna ewlenija għall-Katalogu."
+                    }
+                },
+                "stepper": {
+                    "overview": "Ħarsa ġenerali lejn il-katalogu",
+                    "step1": {
+                        "name": "Pass 1: Oħloq Katalogu"
+                    },
+                    "step2": {
+                        "name": "Pass 2: Definizzjoni tal-proprjetajiet tal-Katalogu"
+                    }
+                }
+            },
+            "clear": "Ċar",
+            "deletemodal": {
+                "deleteDistribution": "Ħassar id-Distribuzzjoni",
+                "areyousure": "Ċert li trid tħassar din id-distribuzzjoni?"
+            },
+            "createUniqueID": "Oħloq ID uniku",
+            "saveasdraft": "Issejvja bħala Abbozz",
+            "savedataset": "Issejvja s-sett ta’ data",
+            "next": "Il-pass li jmiss",
+            "noDistributions": "M’hemmx Distribuzzjonijiet disponibbli",
+            "savedraft": "Issejvja l-abbozz",
+            "searchVocabulary": "Fittex il-Vokabolarju",
+            "error": {
+                "general": "Seħħ żball. Jekk jogħġbok erġa’ pprova aktar tard!",
+                "invalid-message": "Hemm xi oqsma neqsin. Jekk jogħġbok imla l-oqsma kollha meħtieġa!"
+            },
+            "type": "Tip",
+            "preview": "Pass preċedenti",
+            "submit": "Issottometti",
+            "publishdataset": "Pubblikazzjoni tas-Sett ta’ Data",
+            "validationtitle": "Validazzjoni",
+            "publishdraft": "Pubblikazzjoni tal-Abbozz",
+            "newDistribution": "Żid Distribuzzjoni oħra",
+            "validationerror": "Kien hemm żball fil-validazzjoni tal-formola tiegħek!",
+            "createDataset": "Oħloq Sett ta’ Data",
+            "defineDatasetProperties": "Definizzjoni tal-proprjetajiet tas-Sett ta’ Data",
+            "createDistributions": "Oħloq Distribuzzjoni"
+        },
+        "datasetDetails": {
+            "subnav": {
+                "quality": "Kwalità",
+                "similarDatasets": "Settijiet tad-Data simili",
+                "categories": "Kategoriji",
+                "dataset": "Sett tad-data",
+                "activityStream": "Stream tal-Attività"
+            },
+            "quality": {
+                "licenceAvailability": "Informazzjoni dwar il-liċenzja",
+                "mediaTypeAvailability": "Tip tal-midja",
+                "temporalAvailability": "Tiftix ibbażat skont iż-żmien",
+                "accessibility": "Aċċessibbiltà",
+                "dcatApCompliance": "Konformità DCAT-AP",
+                "distributions": {
+                    "downloadUrlStatusCode": "Niżżel il-kodiċi tal-istatus Url",
+                    "accessUrlStatusCode": "Kodiċi tal-istatus AċċessURL"
+                },
+                "accessRightsVocabularyAlignment": "Vokabularju ta' restrizzjonijiet ta' aċċess",
+                "contactPointAvailability": "Punt ta' kuntatt",
+                "dateIssuedAvailability": "Data tal-pubblikazzjoni",
+                "nodata": "Jidher li hemm kwistjoni min-naħa tagħna. Ma setgħet tiġi llowdjata l-ebda data ta’ kwalità. Jekk jogħġbok erġa’ pprova aktar tard.",
+                "dateModifiedAvailability": "Data tal-modifka",
+                "contextuality": "Kuntestwalità",
+                "reusability": "Użu mill-ġdid",
+                "accessUrlStatusCode": "L-iktar kodiċijiet tal-istatus tal-URL għall-Aċċess frekwenti",
+                "downloadUrlStatusCode": "L-iktar kodiċijiet tal-istatus tal-URL għat-Tniżżil frekwenti",
+                "formatMediaTypeVocabularyAlignment": "Format / Tip tal-midja mill-vokabularju",
+                "metaDataQuality": "Kwalità tal-Metadata",
+                "downloadUrlAvailability": "Niżżel il-URL",
+                "dataQuality": "Kwalità tad-Data",
+                "categoryAvailability": "Kategoriji",
+                "interoperability": "Interoperabbiltà",
+                "findability": "Traċċabbiltà",
+                "spatialAvailability": "Tiftix ġeografiku",
+                "formatAvailability": "Format",
+                "byteSizeAvailability": "Daqs tal-fajl",
+                "accessRightsAvailability": "Restrizzjonijiet ta' aċċess",
+                "distributionQuality": "Kwalità ta’ Distribuzzjoni",
+                "publisherAvailability": "Pubblikatur",
+                "keywordAvailability": "Użu ta' kliem ewlieni",
+                "rightsAvailability": "Drittijiet"
+            },
+            "follow": "Segwi",
+            "accessURLTooltip": "Din il-link jista’ jkun fiha informazzjoni dwar kif tikseb il-fajl referenzjat jew hija link diretta għall-fajl imsemmi.",
+            "dataStream": "Flussi ta’ Data",
+            "downloadURLTooltip": "Din hija link diretta għall-fajl imsemmi.",
+            "upload": {
+                "organisation": "Organizzazzjoni",
+                "individual": "Individwali",
+                "resetText": "Tixtieq tirrisettja l-formola kollha?",
+                "person": "Persuna",
+                "unknownFormat": "Format Mhux Magħruf",
+                "reset": "Irrisettja Formola"
+            },
+            "preview": "Previżjoni",
+            "feedback": "Feedback",
+            "access": "Aċċess",
+            "datasets": {
+                "modal": {
+                    "downloadingFiles": "Tniżżil ta’ fajls",
+                    "zipNumberOfFiles": "Zip i-numru tal-faxxikli (zip number)",
+                    "waitingForDownload": "(stennija għat-tniżżil)",
+                    "downloadProgress": "Niżżel il-Progress",
+                    "notDownloaded": "Mhux imniżżel",
+                    "error": "Żball! Ipprova Ipprova",
+                    "okay": "Okay",
+                    "cancel": "Ikkanċella",
+                    "close": "Agħlaq",
+                    "coupleOfMinutes": "(dan jista’ jieħu ftit minuti)",
+                    "notDownloadedTooltip": "Id-dettalji jistgħu jinstabu fil-fajl mehmuż file_report.csv"
+                },
+                "leavePageWindow": {
+                    "text": "Żgur li trid titlaq? It-tniżżil se jitwaqqaf meta titlaq!"
+                },
+                "downloadAll": "Iddawnlowdja Kollha"
+            },
+            "translation": {
+                "update": "Traduzzjoni aġġornata ta' dan is-sett tad-data tinsab għaddejja.",
+                "original": "Lingwa oriġinali",
+                "message": "It-titlu u d-deskrizzjoni ta' dan is-sett tad-data ġew magħmula b'traduzzjoni awtomatika.",
+                "noTranslation": "Dan is-sett tad-data għadu mhux disponibbli fil-lingwa tiegħek. It-traduzzjonijiet għadhom għaddejjin.",
+                "link": "Ikklikkja hawn biex tara s-sett tad-data bil-lingwa oriġinali"
+            },
+            "cite": "Cite",
+            "relatedResources": "Riżorsi relatati",
+            "share": "Aqsam",
+            "geoVisualisation": "Iftaħ il-Viżwalizzazzjoni Ġeografika",
+            "download": "Niżżel",
+            "intro": {
+                "distribution": "Dan li ġej jelenka l-kejl tal-kwalità tad-distribuzzjonijiet kollha tas-sett tad-data. Għal informazzjoni dwar liema metriċi nużaw għall-kejl tal-indikaturi, jekk jogħġbok agħti ħarsa lejn <a href='/mqa/methodology?locale={locale}'>il-paġna tal-metodoloġija tagħna</a>.",
+                "metadataQuality": "L-assigurazzjoni tal-Kwalità tal-Metadata hija maħsuba biex tgħin lill-fornituri tad-data u lill-portali tad-data jiċċekkjaw il-metadata tagħhom ma’ diversi indikaturi. Għal informazzjoni dwar liema metriċi nużaw għall-kejl tal-indikaturi, jekk jogħġbok agħti ħarsa lejn <a href='/mqa/methodology?locale={locale}'>il-paġna tal-metodoloġija tagħna</a>."
+            },
+            "about": "dwar",
+            "datasetFeed": "Għalf għas-Sett ta’ Data",
+            "delete": "Ħassar",
+            "openResource": "Mur fuq ir-riżorsa",
+            "visualisation": "Viżwalizzazzjoni Miftuħa",
+            "isUsedBy": "Jintuża minn",
+            "unfollow": "Ieqaf segwi",
+            "shareOn": "Aqsam dwar",
+            "additionalInfo": "Informazzjoni Addizzjonali",
+            "contactPoints": {
+                "organizationName": "Isem l-Organizzazzjoni"
+            },
+            "edit": "Editja",
+            "menu": "Menù",
+            "manage": "Immaniġġja",
+            "geoInfo": "Limitu Massimu tas-Sett tad-Data",
+            "options": "Għażliet"
+        },
+        "tooltip": {
+            "catalogDetails": {
+                "created": "Id-data tal-ħruġ formali (eż. il-pubblikazzjoni) tal-katalogu.",
+                "publisher": "Entità (organizzazzjoni) responsabbli biex tagħmel il-katalgu disponibbli.",
+                "updated": "L-aktar data reċenti li fiha ġie mmodifikat il-katalogu.",
+                "description": "Deskrizzjoni tal-katalogu.",
+                "title": "It-Titolu tal-katalogu.",
+                "metadata": "Għażliet biex tiddawnlowdja l-metadata tal-katalogu f’diversi rappreżentazzjonijiet tad-data llinkjati.",
+                "language": "Il-lingwa użata fil-metadata testwali li tiddeskrivi t-titli, id-deskrizzjonijiet, eċċ. tas-Settijiet tad-Data fil-Katalogu. Din il-proprjetà tista’ tiġi ripetuta jekk il-metadata tiġi pprovduta f’diversi lingwi.",
+                "spatial": "Iż-żona ġeografika koperta mill-Katalogu."
+            },
+            "datasetDetails": {
+                "frequency": "Frekwenza li biha jiġi aġġornat is-Sett ta’ Data.",
+                "dataset": "Dettalji tas-sett tad-data jew tas-servizz.",
+                "updated": "L-aktar data reċenti li fiha s-sett tad-data jew is-servizz inbidel jew ġie mmodifikat.",
+                "versionInfo": "Numru tal-verżjoni jew deżinjazzjoni ta’ verżjoni oħra tas-Sett tad-Data.",
+                "distributions": {
+                    "updated": "L-aktar data riċenti li fiha d-Distribuzzjoni nbidlet jew ġiet modifikata.",
+                    "title": "Isem mogħti lid-Distribuzzjoni.",
+                    "linkedSchema": "Skema stabbilita li magħha hija konformi d-Distribuzzjoni deskritta.",
+                    "linkedData": "Għażliet biex tiddawnlowdja l-metadata tad-distribuzzjoni f’diversi rappreżentazzjonijiet tad-data llinkjati.",
+                    "status": "Maturità tad-Distribuzzjoni. Huwa GĦANDU jieħu wieħed mill-valuri Ikkompletati, depredikati, Taħt Żvilupp, Irtirat.",
+                    "licence": "Liċenzja li taħtha tkun disponibbli d-Distribuzzjoni.",
+                    "availability": "Jindika kemm hu ppjanat li d-Distribuzzjoni tas-Sett tad-Data tibqa’ disponibbli.",
+                    "rights": "Dikjarazzjoni li tispeċifika d-drittijiet assoċjati mad-Distribuzzjoni.",
+                    "checksum": "Mekkaniżmu li jista’ jintuża biex jivverifika li l-kontenut ta’ distribuzzjoni ma nbidilx. Iċ-checksum huwa relatat mad-downloadUrl.",
+                    "mediaType": "It-tip ta’ midja tad-Distribuzzjoni kif definit fir-reġistru uffiċjali tat-tipi ta’ midja ġestit mill-IANA.",
+                    "spatialResolution": "Separazzjoni ġeografika minima riżolvibbli f’distribuzzjoni ta’ sett ta’ data, imkejla f’metri.",
+                    "byteSize": "Fih id-daqs ta’ Distribuzzjoni f’bytes.",
+                    "download": "Niżżel jew aċċessa d-distribuzzjoni.",
+                    "type": "Links għal tip ta’ Kontribuzzjoni Dis, eż. li hija viżwalizzazzjoni.",
+                    "created": "Data tal-ħruġ formali (eż., pubblikazzjoni) tad-Distribuzzjoni.",
+                    "language": "Il-lingwa użata fid-Distribuzzjoni.",
+                    "options": "Iftaħ previżjoni tad-distribuzzjoni.",
+                    "temporalResolution": "Tirreferi għall-perjodu ta’ żmien minimu riżolvibbli fid-distribuzzjoni tas-sett ta’ data."
+                },
+                "otherIdentifier": "Identifikatur sekondarju tas-Sett ta’ Data, bħal MAST/ADS16, DataCite17, DOI18, EZID19 jew W3ID20.",
+                "numSeries": "Fih in-numru ta’ serje ta’ data li tinsab fis-Sett ta’ Data.",
+                "versionOf": "Sett ta’ Data Relatat li s-Sett ta’ Data deskritt tiegħu huwa verżjoni, edizzjoni, jew adattament.",
+                "unitsOfMeasurement": "Unità ta’ kejl tal-osservazzjonijiet fis-sett tad-data.",
+                "distribution": "Inkorporazzjoni fiżika tas-sett tad-data jew tas-servizz f’format partikolari, eż. link web għall-fajl tas-sett tad-data.",
+                "quality": "Informazzjoni dwar il-kwalità tal-metadata għal dan is-sett ta’ data jew servizz.",
+                "catalogue": "Il-katalgu fejn jappartjeni dan is-sett ta’ data jew servizz.",
+                "linkedData": "Għażliet biex tniżżel is-sett tad-data jew il-metadata tas-servizz f’diversi rappreżentazzjonijiet tad-data llinkjati.",
+                "versionNotes": "Deskrizzjoni tad-differenzi bejn din il-verżjoni u verżjoni preċedenti tas-Sett tad-Data. Din il-proprjetà tista’ tiġi ripetuta għal verżjonijiet lingwistiċi paralleli tan-noti tal-verżjoni.",
+                "similarDatasets": "Settijiet ta’ data jew servizzi oħrajn li huma simili għal dan.",
+                "identifier": "Identifikatur ewlieni għas-Sett tad-Data, eż. l-URI jew identifikatur uniku ieħor fil-kuntest tal-Katalogu.",
+                "uriRef": "L-URIref huwa identifikatur uniku għas-sett ta’ data/servizz tad-data f’data.europa.eu",
+                "creator": "Entità primarjament responsabbli għall-produzzjoni tas-sett ta’ data.",
+                "spatial": "Reġjun ġeografiku li huwa kopert mid-Dataset.",
+                "language": "Il-lingwa tas-Sett ta’ Data.",
+                "format": "Il-format li huwa disponibbli għal dan is-sett ta’ data jew servizz.",
+                "conformsTo": "Regola ta’ implimentazzjoni jew speċifikazzjoni oħra.",
+                "landingPage": "Il-paġna web li tipprovdi aċċess għas-Sett tad-Data, id-Distribuzzjoni tiegħu u/jew informazzjoni addizzjonali.",
+                "provenance": "Dikjarazzjoni dwar in-nisel ta’ Sett ta’ Data.",
+                "documentation": "Paġna jew dokument dwar dan is-Sett ta’ Data.",
+                "publisher": "Entità (organizzazzjoni) responsabbli biex tagħmel is-sett tad-data jew is-servizz disponibbli.",
+                "created": "Id-data tal-ħruġ formali (eż. il-pubblikazzjoni) tas-sett tad-data jew tas-servizz.",
+                "relatedResource": "Riżorsa relatata.",
+                "categories": "Kategoriji li huma assenjati għal dan is-sett ta’ data jew servizz.",
+                "share": "Aqsam dan is-sett ta’ data jew servizz permezz tal-midja soċjali.",
+                "feedback": "Għidilna x’taħseb dwar dan is-sett ta’ data jew servizz.",
+                "dqvData": "Għażliet biex tniżżel is-sett tad-data jew il-kejl tal-kwalità tas-servizz f’diversi rappreżentazzjonijiet tad-data llinkjati.",
+                "hasVersion": "Sett tad-Data Relatat li huwa verżjoni, edizzjoni, jew adattament tas-Sett tad-Data deskritt"
+            },
+            "quality": {
+                "keywordAvailability": "Il-kliem ewlieni jappoġġa direttament it-tiftix u b’hekk iżid is-sejbien tas-sett tad-data. &br > &br > Is-sistema tivverifika jekk il-kliem ewlieni huwiex definit. L-għadd ta’ kliem ewlieni ma għandu l-ebda impatt fuq il-punteġġ.",
+                "formatMediaTypeVocabularyAlignment": "Iċċekkja jekk il-format u t-tip ta’ midja jappartjenux għal vokabularju kkontrollat. & ampbr > & ampbr > Il-vokabularju tal-format jista’ jinstab fir-repożitorju data.europa.eu GitLab. &br > &br > It-tip ta’ midja jiġi ċċekkjat mal-lista tal-IANA.",
+                "licenceAvailability": "Liċenzja hija informazzjoni siewja għall-użu mill-ġdid tad-data. &br > &br > Tiġi ċċekkjata jekk il-proprjetà hijiex issettjata jew le.",
+                "publisherAvailability": "Il-pubblikatur huwa persuna jew organizzazzjoni li ppubblikat id-data. &br > &br > Tiġi ċċekkjata jekk il-proprjetà hijiex issettjata jew le.",
+                "formatAvailability": "Dan il-qasam jispeċifika l-format tal-fajl tad-distribuzzjoni. &br > &br > Tiġi ċċekkjata jekk il-proprjetà hijiex issettjata jew le.",
+                "temporalAvailability": "L-użu ta’ informazzjoni temporali jippermetti lill-utenti għal tiftixa fatta bbażata fil-ħin. &br > &br > Tiġi ċċekkjata jekk il-proprjetà hijiex issettjata jew le.",
+                "rightsAvailability": "F’xi każijiet, liċenzja speċifika ma tistax tiġi applikata għal sett ta’ data. Il-qasam “Drittijiet” jista’ jintuża biex jispeċifika referenza għal riżorsa li tinforma lil utent dwar id-drittijiet li għandu meta juża s-sett tad-data. &br > &br > Tiġi ċċekkjata jekk il-proprjetà hijiex issettjata jew le.",
+                "mediaTypeAvailability": "Dan il-qasam jispeċifika t-tip ta’ midja tad-distribuzzjoni. &br > &br > Tiġi ċċekkjata jekk il-proprjetà hijiex issettjata jew le.",
+                "accessRightsVocabularyAlignment": "L-użu ta’ vokabularju kkontrollat iżid l-użu mill-ġdid. &br > &br > Tiġi ċċekkjata jekk jintużax il-vokabularju kkontrollat għad-drittijiet ta’ aċċess.",
+                "dcatApCompliance": "Il-konformità tad-DCAT-AP tiġi kkalkulata fis-sorsi u s-settijiet ta’ data kollha disponibbli fuq katalogu. Din il-verifika ssir biss jekk il-metadata tkun oriġinarjament maħsuda bħala DCAT-AP jew bħala derivata valida. & ampbr > & ampbr > DCAT-AP hija speċifikazzjoni għad-deskrizzjoni tad-data pubblika llinkjata fl-Ewropa. Il-portal data.europe.eu jista’ wkoll jaħsad metadata li ma tikkonformax bis-sħiħ mad-DCAT-AP. Sabiex tiżdied il-konformità mad-DCAT-AP, l-MQA tiċċekkja kull metadata għall-konformità tagħha tad-DCAT-AP. & ampbr > & ampbr > Il-metadata tiġi vvalidata skont sett ta’ forom SHACL. Il-metadata ma tkunx konformi, jekk il-validazzjoni SHACL tirrapporta mill-inqas ħarġa waħda. & ampbr > & ampbr > The MQA tuża data.europe.eu DCAT-AP SHACL ta’ validazzjoni viċi. & ampbr > & ampbr > SCHACL hija rakkomandazzjoni mid-W3C u tintuża għall-validazzjoni ta’ graffs RDF kontra sett ta’ forom.",
+                "accessRightsAvailability": "Dan il-qasam jindika jekk l-aċċess għad-data huwiex pubbliku jew ristrett. &br > &br > Tiġi ċċekkjata jekk il-proprjetà hijiex issettjata jew le.",
+                "accessUrlStatusCode": "L-AċċessURL mhuwiex neċessarjament link diretta għad-data, iżda jista’ jirreferi wkoll għal URL li jagħti aċċess għas-sett tad-data jew fejn tkun disponibbli aktar informazzjoni dwar is-sett tad-data. &br > &br > Il-URL speċifikat jiġi ċċekkjat għall-aċċessibbiltà permezz ta’ talba tal-HTTP HEAD. Jekk il-kodiċi tal-istatus imwieġeb ikun fil-medda ta’ 200 jew 300, l-aċċessibbiltà tar-riżorsa tiġi evalwata b’mod pożittiv.",
+                "categoryAvailability": "Il-kategoriji jgħinu lill-utenti jesploraw is-settijiet tad-data tematikament. &br > &br > Tiġi ċċekkjata jekk tiġix assenjata kategorija waħda jew aktar lis-sett tad-data. L-għadd ta’ kategoriji assenjati ma għandu l-ebda impatt fuq il-punteġġ.",
+                "downloadUrlStatusCode": "Jekk ikun jeżisti downloadUrl, l-aċċessibbiltà tiġi ċċekkjata. & ampbr > & ampbr > Il-URL speċifikat jiġi ċċekkjat għall-aċċessibbiltà tar-riżorsi permezz tat-talba tal-HTTP HEAD. Jekk il-kodiċi tal-istatus imwieġeb ikun fil-medda ta’ 200 jew 300, l-aċċessibbiltà tar-riżorsa tiġi evalwata b’mod pożittiv.",
+                "byteSizeAvailability": "Tispeċifika d-daqs tal-fajl f’bytes. &br > &br > Tiġi ċċekkjata jekk il-proprjetà hijiex issettjata jew le.",
+                "downloadUrlAvailability": "DownloadUrl hija link diretta għad-data referenzjata. &br > &br > Tiġi ċċekkjata jekk il-proprjetà hijiex issettjata jew le.",
+                "spatialAvailability": "L-użu ta’ informazzjoni ġeografika jippermetti lill-utenti jsibu s-sett tad-data b’tiftixa ġeo facetted. &br > &br > Tiġi ċċekkjata jekk il-proprjetà hijiex issettjata jew le.",
+                "contactPointAvailability": "Il-punt ta’ kuntatt fih informazzjoni lil min għandu jindirizza f’każ ta’ mistoqsijiet dwar id-data. &br > &br > Tiġi ċċekkjata jekk il-proprjetà hijiex issettjata jew le.",
+                "dateIssuedAvailability": "Id-data li fiha ġie rilaxxat is-sett tad-data jew id-distribuzzjoni. &br > &br > Tiġi ċċekkjata jekk il-proprjetà hijiex issettjata jew le.",
+                "dateModifiedAvailability": "Id-data li fiha s-sett tad-data jew id-distribuzzjoni nbidel l-aħħar. & ampbr > &br > Tiġi ċċekkjata jekk il-proprjetà hijiex issettjata jew le."
+            },
+            "catalogRecord": "Deskrizzjoni ta’ entrata ta’ Sett ta’ Data fil-Katalogu.",
+            "lastModified": "Issortja r-riżultati skont l-aħħar modifika tas-sett ta’ data",
+            "editorialContent": "Fittex kontenut editorjali, eż. aħbarijiet, avvenimenti, użu ta’ każijiet",
+            "datasets": "Fittex għal settijiet ta’ data",
+            "relevance": "Issortja s-sett ta’ data skont ir-rilevanza. Ir-rilevanza tiġi kkalkulata abbażi ta’ konkordanzi bejn it-termini tat-tiftix fit-titlu, il-kliem ewlieni u d-deskrizzjoni",
+            "contactPoints": "Informazzjoni ta’ kuntatt li tista’ tintuża biex jintbagħtu kummenti dwar is-Sett tad-Data.",
+            "locationFilter": "Biex tara s-settijiet tad-data relatati ma’ post speċifiku kklikkja fuq il-mappa u uża l-ikona tal-pinna biex tagħżilha. Imbagħad ikklikkja fuq “Applika” biex tiffiltra s-settijiet tad-data biss li jirreferu għaż-żona magħżula. Innota li huma biss is-settijiet tad-data li jinkludu metadata ta’ ġeoinformazzjoni li se jiġu inklużi fir-riżultati tat-tiftix.",
+            "catalogues": "Fittex katalgi. Katalgu jospita settijiet ta’ data u servizzi"
+        },
+        "visualisationDistribution": {
+            "barChartExplain": "Bar chart tpinġi l-valuri numeriċi għal-livelli ta’ karatteristika kategorika bħala vireg. Il-livelli huma pplottjati fuq assi tal-mappa waħda, u l-valuri huma pplottjati fuq l-assi l-ieħor.",
+            "semicolon": "Punt u virgola",
+            "exportSucceeded": "Il-konfigurazzjoni nħolqot b’suċċess!",
+            "yAxis": "y Assi",
+            "pipe": "Pajp",
+            "cancel": "Ikkanċella",
+            "fileTypeNotSupported": "Qed tipprova tagħmel tip ta’ fajl li mhux appoġġjat.",
+            "confirm": "Ikkonferma",
+            "fileNotFound": "Qed tipprova tagħmel fajl li l-kontenut tiegħu ma setax jinqara.",
+            "comma": "Virgola",
+            "space": "Spazju",
+            "exportDataTip": "Il-qasam tal-input m’għandux jitħalla vojt!",
+            "countRow": "Għadd",
+            "exportMessagesHeader": "Ċert li trid tissejvja l-konfigurazzjoni tiegħek? Jekk jogħġbok iċċekkjaha qabel ma tissejvja!",
+            "exportMessagesLabel": "Jekk jogħġbok daħħal l-isem tal-konfigurazzjoni tiegħek",
+            "exportNameExistsAlert": "L-isem diġà qed jintuża. Jekk jogħġbok ipprova ieħor!",
+            "hiddenMessages": "moħbija — ikklikkja biex turi",
+            "connectedLineChart": "Ċart tal-Linja Konnessa",
+            "barChart": "Ċart tal-Avukati",
+            "someRows": "Xi Ringieli",
+            "row": "Ringieli",
+            "tab": "Tab",
+            "connectToDatabaseError": "Żball waqt li kienet qed tinkiseb data mill-bażi tad-data. Jekk jogħġbok ipprova jew erġa’ ċċekkja l-input tiegħek!",
+            "badgateway": "Server mhux disponibbli jew isem DNS żbaljat.",
+            "goBack": "Go Back",
+            "forbidden": "L-aċċess għar-riżorsa mitluba huwa pprojbit.",
+            "unauthorized": "It-talba ma ġietx applikata. Hija nieqsa minn kredenzjali validi ta’ awtentikazzjoni.",
+            "xAxis": "X Assi",
+            "delimiter": "Delimitatur",
+            "someColumns": "Xi Kolonni",
+            "exportMessagesFooter": "Ikklikkja “Ikkonferma” biex tissejvjah!",
+            "table": "Tabella",
+            "connectedLineChartExplain": "Huwa scatterplot konness huwa bażikament ibridu bejn scatterplot u lineplot. Trid tagħżel Xaxis biex tagħmlu."
+        },
+        "sort": {
+            "lastCreated": "L-Aħħar li Nħoloq",
+            "lastUpdated": "Immodifikat l-Aħħar",
+            "nameZA": "Isem f'Ordni Dixxendenti",
+            "relevance": "Rilevanza",
+            "sortBy": "Qiegħed f'ordni skont",
+            "nameAZ": "Isem f'Ordni Axxendenti"
+        },
+        "distributionLicense": {
+            "openLA": "Assistent tal-Liċenzja Miftuħa",
+            "notProvided": "Ma Ġiet Ipprovduta l-Ebda Liċenzja",
+            "licensingAssistant": "Assistent tal-Ħruġ tal-Liċenzji",
+            "notFound": "Ma nstabet l-ebda informazzjoni dwar il-liċenzja.",
+            "notFoundExtended": "Ma nstabet l-ebda informazzjoni dwar il-liċenzja, jekk jogħġbok iċċekkja s-sors għal aktar informazzjoni dwar il-liċenzja."
+        },
+        "catalogs": {
+            "countMessageSingular": "katalogu li nstab",
+            "geoBoundsMessagePre": "It-Tfittxija tiegħek ġiet limitata għal:",
+            "downloadAsLinkedData": "Metadata tal-Katalgu bħala Data Marbuta",
+            "countMessageNoResult": "Ma nstab l-ebda katalogu ",
+            "searchBar": {
+                "placeholder": "Fittex il-katalogi..."
+            },
+            "countMessage": "katalogi li nstabu għal",
+            "loadingMessage": "Qed jillowdja l-katalogi...",
+            "geoBoundsMessageRemove": "Agħlaq din in-notifika biex tneħħi l-limitazzjoni jew uża l-funzjoni tar-risettjar."
+        },
+        "datasetFacets": {
+            "facets": {
+                "datascopeField": {
+                    "countryData": "Data Nazzjonali",
+                    "io": "Data Internazzjonali",
+                    "eu": "Data tal-Unjoni Ewropea"
+                },
+                "datascope": "Kamp ta’ applikazzjoni tad-data",
+                "dataServices": {
+                    "dataServicesOnly": "Servizzi tad-data biss"
+                },
+                "country": "Pajjiżi",
+                "format": "Formati",
+                "scoring": {
+                    "badScoring": "Kull",
+                    "sufficientScoring": "Biżżejjed",
+                    "goodScoring": "Tajjeb",
+                    "excellentScoring": "Eċċellenti"
+                },
+                "publisher": "@: message.metadata.pubblikatur",
+                "license": "Liċenzji",
+                "keywords": "Kliem prinċipali",
+                "categories": "Kategoriji",
+                "catalog": "Katalogi",
+                "countrydata": "Data tal-pajjiż",
+                "tags": "Tikketti"
+            },
+            "title": "Filtri",
+            "and": "U",
+            "settings": "L-issettjar tal-filtru",
+            "scoring": "Punteġġ",
+            "or": "JEW",
+            "europeanCatalogs": "Katalogi Ewropej",
+            "operator": "Operatur"
+        },
+        "header": {
+            "navigation": {
+                "data": {
+                    "euInternationalData": "Data tal-UE u internazzjonali",
+                    "datasets": "Settijiet tad-data",
+                    "catalogs": "Katalogi",
+                    "metadataquality": "Kwalità tal-Metadata",
+                    "sparqleditor": "Editur ta’ SPARQL",
+                    "statistics": "Statistiki",
+                    "sparqlsearch": "Tiftix SPARQL",
+                    "title": "Data"
+                },
+                "impactStudies": {
+                    "opendataimpact": "Impatt tad-data miftuħa",
+                    "tellUsYourStory": "Għidilna l-istorja tiegħek",
+                    "studies": "Studji",
+                    "opendatamaturity": "Maturità tal-Open Data",
+                    "countryInsights": "Informazzjoni speċjalizzata dwa",
+                    "useCases": "Uża l-Każijiet",
+                    "title": "Impatt u Studji",
+                    "overview": "Ħarsa ġenerali"
+                },
+                "training": {
+                    "licensingAssistant": "Assistent tal-Ħruġ tal-Liċenzji",
+                    "dataProvidersGuide": "Gwida għall-fornituri tad-data",
+                    "moreTrainingMaterial": "Aktar Materjal għat-Taħriġ",
+                    "whatIsOpenData": "X'inhi data miftuħa",
+                    "title": "Taħriġ",
+                    "elearning": "Tagħlim elettroniku"
+                },
+                "about": {
+                    "beHarvestedByUs": "Jinħażen minna",
+                    "documentation": "Dokumentazzjoni",
+                    "title": "Dwar",
+                    "europeanDataPortal": "Portal tad-data Ewropew"
+                },
+                "newsEvents": {
+                    "events": "Avvenimenti",
+                    "news": "Aħbarijiet",
+                    "title": "Aħbarijiet u avvenimenti",
+                    "stories": "Stejjer tad-Data"
+                },
+                "covid-19": {
+                    "title": "COVID-19",
+                    "datasets": "Settijiet tad-Data",
+                    "overview": "Ħarsa ġenerali",
+                    "initiatives": "Inizjattivi Relatati mad-Data"
+                }
+            },
+            "subnav": {
+                "newsletter": "Bullettin",
+                "cookies": "Cookies",
+                "login": "Illoggjar",
+                "contact": "Kuntatt",
+                "search": "Fittex",
+                "logout": "Oħroġ",
+                "legalNotice": "Avviż legali",
+                "faq": "FAQ"
+            },
+            "european": "Ewropew",
+            "searchInputPlaceholder": "Fittex kontenut fuq is-sit...",
+            "dataPortal": "Portal tad-Data",
+            "searchOptions": {
+                "siteContent": "Kontenut tas-sit",
+                "datasets": "Settijiet tad-data"
+            }
+        },
+        "catalogues": {
+            "foundCataloguesSingular": "1 il-katalogu misjub",
+            "foundCatalogues": "għadd ta’ katalogi li nstabu"
+        },
+        "datasets": {
+            "foundDatasets": "Ġabra ta’ settijiet ta’ data misjuba",
+            "countMessage": "settijiet tad-data li nsabtu għal ",
+            "foundDatasetsSingular": "1 sett ta’ data misjub",
+            "meta": {
+                "translationNotComplete": "It-traduzzjoni mhix kompluta"
+            },
+            "geoBoundsMessageRemove": "Agħlaq din in-notifika biex tneħħi l-limitazzjoni jew uża l-funzjoni tar-risettjar.",
+            "createDataset": "Oħloq Sett tad-Data",
+            "geoBoundsMessagePre": "It-Tfittxija tiegħek ġiet limitata għal:",
+            "loadingMessage": "Qed jillowdja s-settijiet tad-data...",
+            "countMessageSingular": "instab sett tad-data",
+            "datasetsFeed": "Feed tas-Settijiet tad-Data",
+            "scoreDisclaimer": "Ir-riżultati tat-tiftix attwali huma ffiltrati biex jaqblu mal-punteġġ minimu mitlub tal-kwalità speċifikat fl-istrixxa fuq ix-xellug. Żur {0} tagħna jekk tixtieq issir taf aktar dwar il-kejl tal-kwalità tagħna.",
+            "noResult": "Ma nstab l-ebda sett tad-data",
+            "findLocation": "Iffiltra skont il-lokalità",
+            "searchBar": {
+                "placeholder": "Fittex settijiet tad-data"
+            },
+            "createCatalogue": "Oħloq Katalogu",
+            "saveQuery": "Issejvja l-Mistoqsija"
+        },
+        "footer": {
+            "helpUsImproveText": "Il-feedback tiegħek se jgħinna ntejbu l-esperjenza ġenerali tal-utenti. \nGħandek xi suġġerimenti?",
+            "lastUpdated": "L-Aħħar Aġġornament",
+            "links": {
+                "cookies": "Cookies",
+                "contact": "Kuntatt",
+                "faq": "FAQ",
+                "newsletter": "Bullettin",
+                "search": "Fittex",
+                "login": "Illoggjar",
+                "legalNotice": "Avviż legali"
+            },
+            "subscribe": "Abbona",
+            "helpUsImprove": "Għinna nitjiebu",
+            "newsletterText": "Abbona għall-Bullettin tagħna",
+            "newsletter": "Bullettin",
+            "followUs": "Segwina fuq",
+            "managedBy": "Immaniġġjat mill-Uffiċċju tal-Pubblikazzjonijiet tal-Unjoni Ewropea.",
+            "fundedBy": "Iffinanzjat mill-Unjoni Ewropea"
+        },
+        "helpIcon": {
+            "dataServices": "F’data.europa.eu distribuzzjoni tista’ taġixxi wkoll bħala servizz tad-data. Dan ifisser li ma tillinkjax ma’ fajl li jista’ jitniżżel, iżda ma’ API minflok. Agħżel “Iva” jekk tixtieq tiffiltra għal settijiet ta’ data li għandhom mill-inqas servizz ta’ data wieħed.",
+            "scoring": "data.europa.eu jkejjel il-kwalità tas-settijiet tad-data u s-servizzi kollha. Fit-Taqsima tal-Kwalità tad-Data/Metadata għandna paġna tal-metodoloġija li tiddeskrivi l-proċess. Kull sett ta’ data u servizz huwa rrappreżentat ukoll minn punteġġ ta’ kwalità. Dan il-punteġġ jista’ jkun biżżejjed, tajjeb jew eċċellenti. Jekk jiġi ssettjat il-filtru “Suffiċjenti +”, jintwerew is-settijiet tad-data u s-servizzi kollha li jkollhom punteġġ suffiċjenti jew aħjar. L-istess japplika għal “Tajba”. “Eċċellenti” turi biss settijiet ta’ data u servizzi eċċellenti.",
+            "license": "Liċenzja tiddeskrivi l-kundizzjonijiet legali dwar kif jista’ jintuża sett ta’ data.",
+            "dataScope": "Id-data tal-UE għandha settijiet ta’ data u servizzi mill-istituzzjonijiet tal-UE. Id-data internazzjonali għandha settijiet ta’ data u servizzi li jiġu minn barra l-UE. Id-data tal-pajjiżi għandha settijiet ta’ data u servizzi mill-istati membri tal-UE.",
+            "format": "Kull sett ta’ data għandu referenzi għal fajls jew servizzi. Il-format jiddeskrivi t-tip ta’ fajl jew it-tip ta’ servizz ta’ dawn ir-referenzi. Mhux kull tip ta’ fajl jista’ jservi għall-finijiet kollha, eż. kalkolu jista’ jsir aħjar b’fajl CSV minflok PDF.",
+            "catalog": "Katalogu jew repożitorju li jospita settijiet ta’ data u servizzi. Katalgu jirrappreżenta l-aktar portal minn fejn jinġabru s-settijiet tad-data.",
+            "settings": "Iddeċiedi jekk l-għażla tal-filtru tiegħek hijiex esklużiva jew le. Jekk tagħżel U r-riżultati kollha tat-tfittxija jridu jaqblu mal-filtri kollha. Jew tfisser li mill-inqas filtru wieħed għandu jaqbel.",
+            "categories": "Settijiet tad-data tal-gruppi tal-kategorija li jikkondividu suġġett komuni.",
+            "publisher": "Pubblikatur huwa entità (eż. organizzazzjoni) li hija responsabbli biex tagħmel is-Sett tad-Data disponibbli.",
+            "keywords": "Il-kliem ewlieni huma ideat u suġġetti li jiddefinixxu x’inhu l-kontenut."
+        },
+        "userQueries": {
+            "executeQuery": "Esegwixxi Mistoqsija",
+            "queriesFound": "Instabu {number} mistoqsijiet",
+            "placeholderNotes": "eż. Xi noti utli dwar il-mistoqsija",
+            "querySaved": "Mistoqsija Ssejvjata",
+            "queryFound": "Instabet {number} mistoqsija",
+            "myQueries": "Il-Mistoqsijiet Tiegħi",
+            "noDescription": "Din il-mistoqsija m'għandha l-ebda deskrizzjoni",
+            "noQueryFound": "Ma nstabet l-ebda mistoqsija",
+            "queryDeleted": "Mistoqsija mħassra",
+            "searchAllQueries": "Fittex il-mistoqsijiet...",
+            "save": "Issejvja l-Mistoqsija",
+            "areYourSure": "Ċert li tixtieq tħassar din il-mistoqsija?",
+            "noQueriesSaved": "Ma ssejvjajt l-ebda mistoqsija",
+            "searchQueries": "Fittex il-mistoqsijiet tiegħi..."
+        },
+        "catalogFacets": {
+            "facets": {
+                "licences": "Liċenzji",
+                "catalogs": "Katalogi",
+                "categories": "Kategoriji",
+                "countries": "Pajjiżi",
+                "formats": "Formats",
+                "keywords": "Kliem prinċipali"
+            },
+            "operator": "Operatur",
+            "title": "Filtri",
+            "europeanCatalogs": "Katalogi Ewropej",
+            "or": "JEW",
+            "and": "U",
+            "euInstitutions": "Istituzzjonijiet tal-UE",
+            "settings": "Settings"
+        },
+        "statistics": {
+            "statistics": "Statistika",
+            "datasetsPerCatalog": "Settijiet tad-Data għal kull Katalogu",
+            "currentState": "Stat Attwali",
+            "datasetsPerCountry": "Settijiet tad-Data għal kull Pajjiż",
+            "selectType": "Agħżel Tip ta' Statistika",
+            "datasetsPerCountryAndCatalog": "Settijiet tad-Data għal kull Pajjiż u Katalogu",
+            "evolution": "Evoluzzjoni",
+            "evolutionStartEnd": "Evoluzzjoni tal-għadd totali ta' Settijiet tad-Data bejn {start_date} u {end_date}",
+            "increaseStartEnd": "Żieda ta' {dataset_model} f'% bejn {start_date} u {end_date}",
+            "totalNumber": "Għadd Totali ta' Settijiet tad-Data",
+            "datasetsPerCategory": "Settijiet tad-Data għal kull Kategorija",
+            "selectTimePeriod": "Agħżel Perjodu ta' Żmien",
+            "evolutionNumber": "Evoluzzjoni tal-għadd ta' {dataset_model} bejn {start_date} u {end_date}",
+            "numberDate": "Għadd ta' {dataset_model} minn {date}"
+        },
+        "categories": {
+            "tran": "Trasport",
+            "heal": "Saħħa",
+            "tech": "Xjenza u teknoloġija",
+            "envi": "Ambjent",
+            "econ": "Ekonomija u finanzi",
+            "soci": "Populazzjoni u soċjetà",
+            "agri": "Agrikoltura, sajd, forestija u ikel",
+            "educ": "Edukazzjoni, kultura u sport",
+            "ener": "Enerġija",
+            "intr": "Kwistjonijiet internazzjonali",
+            "gove": "Il-Gvern u s-settur pubbliku",
+            "just": "Ġustizzja, sistema legali u sigurtà pubblika",
+            "regi": "Reġjuni u bliet"
+        },
+        "pagination": {
+            "nextPage": "Li Jmiss",
+            "previousPage": "Lura"
+        },
+        "navigation": {
+            "navItems": {
+                "home": "Paġna Ewlenija",
+                "about": "Dwar",
+                "data": "Data",
+                "privacyPolicy": "Politika tal-privatezza",
+                "map": "Mappa",
+                "imprint": "Marka"
+            }
+        },
+        "catalogsAndDatasets": {
+            "noDescriptionAvailable": "Ma hemm l-ebda deskrizzjoni disponibbli",
+            "more": "Aktar"
+        },
+        "datasetCategories": {
+            "foundCategories": "Instabu {number} kategoriji",
+            "foundCategory": "Instabu {number} kategoriji",
+            "noCategories": "Ma nstabet l-ebda kategorija"
+        },
+        "mapModal": {
+            "fullscreen": "Skrin sħiħ",
+            "findDatasets": "Applika",
+            "reset": "Neħħi",
+            "close": "Agħlaq",
+            "drawRectangleMsg": "Pinġi rettangolu biex tagħżel reġjun",
+            "disclaimer": "Dikjarazzjoni ta’ ċaħda ta’ responsabbiltà",
+            "copyright": "Kontributuri ta' Map © OpenStreetMap"
+        },
+        "similarDatasets": {
+            "similar": "Simili",
+            "verySimilar": "Simili ħafna",
+            "marginalSimilar": "Simili Marġinali",
+            "notFound": "Ma nstab l-ebda sett tad-data simili.",
+            "lessSimilar": "Inqas simili",
+            "similarDatasets": "Settijiet tad-data simili"
+        },
+        "searchTabs": {
+            "editorialContent": "Kontenut editorjali"
+        },
+        "visualisation": {
+            "loading": "Il-viżwalizzazzjoni qed tillowdja...",
+            "previewAvailable": "Previżjoni disponibbli",
+            "info": "Jekk il-Viżwalizzazzjoni ma tillowdjax wara ftit sekondi kklikkja hawn."
+        },
+        "catalog": {
+            "loadingMessage": "Il-Katalogi jiġu rkuprati",
+            "searchBar": {
+                "placeholder": "Fittex għal katalogi"
+            },
+            "geoBoundsMessageRemove": "Agħlaq din in-notifika biex tneħħi l-limitazzjoni jew uża l-funzjoni tar-risettjar.",
+            "countMessage": "Katalogi misjuba"
+        },
+        "sparql": {
+            "subHeadlineText2": "Biex ngħinu lill-utenti jibnu mistoqsijiet utli tal-SPARQL, aħna nipprovdu paġna bil-preżenza ta’ <a href='{sample_sparql_queries}'>sample SPARQL queries</a> li jistgħu jiġu eżegwiti permezz tal-punt ta’ tmiem tagħna. Settijiet ta’ data u katalgi ppubblikati bħala triples RDF fuq il-portal isegwu l- <a href='https://github.com/SEMICeu/DCAT-AP'>DCAT-AP specification</a>. Għal aktar qari dwar l-ontoloġija tal-metadata, jekk jogħġbok irreferi għall-paġna akkademika data.europa.eu fuq DCAT-AP fuq: <a href=' https://data.europa.eu/en/academy/dcat-and-dcat-ap'> https://data.europa.eu/en/academy/dcat-and-dcat-ap</a>.",
+            "subHeadlineText1": "Il-metadata kollha ta’ data.europa.eu tinħażen bħala triples tal-RDF (<a href='https://www.w3.org/RDF/'>RDF</a>) u tista’ tiġi mfittxija bl-użu tal-lingwa ta’ mistoqsijiet tal-SPARQL f’dan il-punt ta’ tmiem. Il-mistoqsijiet jistgħu jitwettqu permezz tal-editur tat-tfittxija (hawn taħt) jew permezz tal-punt ta’ tmiem li jinqara mill-magni (<a href='https://data.europa.eu/sparql'>https://data.europa.eu/sparql</a>)."
+        },
+        "distributions": {
+            "footerLink": "Niżżel"
+        },
+        "distributionDetails": "{}",
+        "spokenLanguage": "Ingliż",
+        "cite": {
+            "copyToClipboard": "Kopja għall-clipboard",
+            "title": "Ikkwota dan is-sett ta’ data"
+        },
+        "home": {
+            "msg": "Jiddispjaċina, din il-paġna għad m'għandhiex kontenut. Żur it-tab tad-Data biex tara xi ħaġa!"
+        },
+        "imprint": {
+            "msg": "DAĦĦAL IL-MARKA HAWN"
+        }
+    }
+}

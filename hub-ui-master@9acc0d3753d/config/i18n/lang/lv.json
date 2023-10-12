@@ -1,0 +1,969 @@
+{
+    "message": {
+        "metadata": {
+            "catalogRecord": "Kataloga ieraksts",
+            "deleteItem": "Vai tiešām vēlaties dzēst šo vienumu?",
+            "availability": "Pieejamība",
+            "versionInfo": "Versijas informācija",
+            "chooseCategory": "Izvēlēties kategoriju",
+            "chooseFile": "Izvēlēties failu",
+            "versionNotes": "Versijas piezīmes",
+            "review": "Pārskatīt",
+            "tooltipKeywords": "Ievadiet savas datu kopas atslēgvārdus šeit!",
+            "pageDescriptionDataset": "Pievienojiet savai datu kopai nosaukumu, aprakstu, katalogu, atslēgvārdu un kategorijas!",
+            "no": "Nē",
+            "relatedResources": "Saistītie avoti",
+            "pageDescriptionPublisher": "Pievienojiet savai datu kopai izdevēja tipu, nosaukumu un sākumlapu!",
+            "tooltipTitle": "Ievadiet savas datu kopas nosaukumu šeit!",
+            "linkedData": "Saistītie dati",
+            "numSeries": "Datu sēriju skaits",
+            "releaseDate": "Izdošanas datums",
+            "yes": "Jā",
+            "unitsOfMeasurement": "Mērvienības",
+            "distributionsEmpty": "Atvainojiet, pašlaik šai datu kopai nav pieejami augšupielādēti sadalījumi. Lūdzu, pievienojiet vismaz vienu sadalījumu!",
+            "enterDownloadUrl": "Ievadiet lejupielādes Url",
+            "frequency": "Biežums",
+            "type": "Tips",
+            "telephone": "Tālrunis",
+            "label": "Birka",
+            "addedToDataEuropaEU": "Pievienots data.europa.eu",
+            "tooltipCategories": "Izvēlieties savas datu kopas kategorijas šeit!",
+            "temporal": "Periods",
+            "enterDescription": "Ievadīt aprakstu",
+            "accrualPeriodicity": "Uzkrāšanas periodiskums",
+            "showXMore": "Parādīt  {increment} vairāk Pokaži više",
+            "identifier": "Identifikators",
+            "isPartOf": "Ir apakš katalogs par",
+            "dataServices": "Datu pakalpojumi",
+            "chooseType": "Izvēlēties tipu",
+            "organizationName": "Organizācijas nosaukums",
+            "catalog": "Katalogs",
+            "qualityAnnotations": "Kvalitātes anotācijas",
+            "update": "Atjaunināt",
+            "showAll": "Parādīt visu ",
+            "coordinates": "Koordinātes",
+            "email": "E-pasta adrese",
+            "tooltipContactType": "Izvēlieties savas datu kopas kontaktpunkta tipu šeit!",
+            "checksum": "Kontrolsumma",
+            "enterEmail": "Ievadīt e-pasta adresi",
+            "cancel": "Atcelt",
+            "conformsTo": "Atbilst",
+            "downloadUrl": "Lejupielādes URL",
+            "chooseLicense": "Izvēlēties licenci",
+            "tooltipDescription": "Ievadiet savas datu kopas aprakstu šeit!",
+            "tags": "Tagi",
+            "accessUrl": "Piekļuves URL",
+            "languages": "Valodas",
+            "title": "Virsraksts",
+            "enterTitle": "Ievadīt nosaukumu",
+            "url": "URL",
+            "resource": "Avoti",
+            "tooltipPublisherHomepage": "Ievadiet savas datu kopas izdevēja sākumlapu šeit!",
+            "creator": "Izveidotājs",
+            "description": "Apraksts",
+            "spatial": "Ģeogrāfiskā atrašanās vieta",
+            "readLess": "Lasiet mazāk",
+            "tooltipPublisherType": "Izvēlieties savas datu kopas izdevēju šeit!",
+            "accessRights": "Piekļuves tiesības",
+            "tooltipDistributionDownloadUrl": "Ievadiet sava sadalījuma lejupielādes URL šeit!",
+            "attributes": "Atribūti",
+            "mediaType": "Multivides tips",
+            "categories": "Kategorijas",
+            "pageDescriptionDistribution": "Pievienojiet savai datu kopai sadalījumus!",
+            "pages": "Lapas",
+            "goToCatalog": "Doties uz katalogu lapu",
+            "tooltipDistributionDescription": "Ievadiet sava sadalījuma aprakstu šeit!",
+            "identifiers": "Identifikatori",
+            "scheme": "Shēma",
+            "contactPoints": "Kontaktpunkts",
+            "hasPart": "Ir apakš katalogs",
+            "showLess": "Rādīt mazāk",
+            "byteSize": "Baitu lielums",
+            "tooltipCatalog": "Izvēlieties savas datu kopas katalogu šeit!",
+            "methodologyPage": "MQA metodikas lapa",
+            "hasVersion": "Ir versija",
+            "useDownloadUrl": "Faila augšupielādēšanas vietā vēlos ievadīt lejupielādes URL!",
+            "created": "Izveidots",
+            "themeTaxonomy": "Temata taksonomija",
+            "homepage": "Sākumlapa",
+            "address": "Adrese",
+            "visualisations": "Vizualizācija",
+            "tooltipDistributionFormat": "Izvēlieties sava sadalījuma formātu šeit!",
+            "upload": "Augšupielādēt",
+            "notFound": "Nav atrasts",
+            "dimensions": "Izmēri",
+            "addDistribution": "Pievienot sadalījumu",
+            "name": "Vārds",
+            "metadataQuality": "Metadatu kvalitāte",
+            "provenances": "Pirmavots",
+            "enterKeywords": "Ievadīt atslēgvārdus",
+            "landingPage": "Galvenā lapa",
+            "tooltipDistributionTitle": "Ievadiet sava sadalījuma nosaukumu šeit!",
+            "license": "Licence",
+            "chooseCatalog": "Izvēlēties katalogu",
+            "enterHomepage": "Ievadīt sākumlapu",
+            "tooltipDistributionLicence": "Izvēlieties sava sadalījuma licenci šeit!",
+            "readMore": "Lasiet vairāk",
+            "format": "Formāts",
+            "chooseFormat": "Izvēlēties formātu",
+            "publisher": "Publicētājs",
+            "dataset": "Datu kopa",
+            "updated": "Atjaunot",
+            "pageDescriptionUpload": "Pievienojiet sadalījumiem failus!",
+            "spatialResource": "Telpiskais resurss",
+            "distribution": "Sadalījums",
+            "tooltipContactName": "Ievadiet savas datu kopas kontaktpunkta nosaukumu šeit!",
+            "distributions": "Sadalījumi",
+            "status": "Statuss",
+            "datasets": "Datu kopas ",
+            "showMore": "Rādīt vairāk",
+            "rights": "Tiesības",
+            "tooltipContactEmail": "Ievadiet savas datu kopas kontaktpunkta e-pasta adresi šeit!",
+            "otherIdentifiers": "Citi identifikatori",
+            "tooltipPublisherName": "Ievadiet savas datu kopas izdevēja nosaukumu šeit!",
+            "enterName": "Ievadīt nosaukumu",
+            "documentations": "Dokumentācija",
+            "sources": "Avoti",
+            "modificationDate": "Modificēšanas datums",
+            "isVersionOf": "Ir versija",
+            "pageDescriptionContactPoint": "Pievienojiet savai datu kopai kontaktpunkta veidu, nosaukumu un e-pasta adresi! ",
+            "goToDataset": "Doties uz datu kopas lapu",
+            "updatedOnDataEuropaEU": "Jaunākā informācija par Data.europa.eu"
+        },
+        "dataupload": {
+            "info": {
+                "defaultdescription": "Noklikšķiniet uz informācijas ikonas, lai parādītu detalizētu lauka skaidrojumu.",
+                "information": "Informācija"
+            },
+            "datasets": {
+                "step2": {
+                    "source": {
+                        "label": "Avots"
+                    },
+                    "type": {
+                        "placeholder": "Datu kopa Tikai vietturis teksts"
+                    },
+                    "subject": {
+                        "help": "Datu kopas kategorija."
+                    },
+                    "isReferencedByUrl": {
+                        "label": "URL URL"
+                    },
+                    "contactPointAddressStreet": {
+                        "placeholder": "Datu kopas “kontaktpunkts” adreses ielas teksts vietturī"
+                    },
+                    "conformsTo": {
+                        "placeholder": "Datu kopa Atbilstības viettura tekstam"
+                    },
+                    "isVersionOf": {
+                        "label": "Ir versija,"
+                    },
+                    "provenance": {
+                        "label": "Izcelsme"
+                    },
+                    "language": {
+                        "label": "Valoda"
+                    },
+                    "qualifiedAttribution": {
+                        "help": "Saite uz pārstāvi, kas ir atbildīgs par resursu"
+                    },
+                    "temporal": {
+                        "placeholder": "Datu kopa viettura pagaidu teksts"
+                    },
+                    "accessRights": {
+                        "info": "Šis raksturlielums attiecas uz informāciju, kas norāda, vai datu kopa ir atvērti dati, tai ir piekļuves ierobežojumi vai tā nav publiska."
+                    },
+                    "identifier": {
+                        "help": "Šajā īpašībā ir datu kopas galvenais identifikators."
+                    },
+                    "versionInfo": {
+                        "help": "Datu kopas versijas numurs."
+                    },
+                    "hasVersion": {
+                        "info": "Šīs rekvizīts norāda uz saistītu datu kopu, kas ir aprakstītās datu kopas versija, izdevums vai adaptācija."
+                    },
+                    "wasGeneratedBy": {
+                        "add-label": "Pievienot Was Generated By"
+                    },
+                    "qualifiedRelation": {
+                        "label": "Kvalificētas attiecības"
+                    },
+                    "conformsToTitle": {
+                        "label": "Nosaukums"
+                    },
+                    "creatorType": {
+                        "label": "Tips"
+                    },
+                    "spatial": {
+                        "info": "Šis īpašums attiecas uz ģeogrāfisko reģionu, uz kuru attiecas datu kopa."
+                    },
+                    "temporalResolutionMonth": {
+                        "label": "Laika izšķirtspējas mēnesis"
+                    },
+                    "contactPointName": {
+                        "label": "Nosaukums"
+                    },
+                    "temporalResolutionMinute": {
+                        "placeholder": "Datu kopa Laika izšķirtspēja Minute placeholder teksts"
+                    },
+                    "contactPointEmail": {
+                        "label": "E-pasts"
+                    },
+                    "contactPointOrganisationName": {
+                        "label": "Organizācijas nosaukums"
+                    },
+                    "contactPoint": {
+                        "help": "Šis rekvizīti satur kontaktinformāciju."
+                    },
+                    "temporalResolutionDay": {
+                        "placeholder": "Datu kopa Laika izšķirtspējas diena placeholder teksts"
+                    },
+                    "provenanceText": {
+                        "placeholder": "Datu kopa “Izmantošana” Teksts vietturis"
+                    }
+                },
+                "step1": {
+                    "publisherType": {
+                        "placeholder": "Datu kopa “Izdevēja tipa viettura teksts”"
+                    },
+                    "datasetID": {
+                        "label": "Datu kopas ID"
+                    },
+                    "modified": {
+                        "label": "Grozīts"
+                    },
+                    "publisher": {
+                        "label": "Izdevējs"
+                    },
+                    "issued": {
+                        "help": "Datu kopas oficiālās izdošanas (piemēram, publicēšanas) datums. Pieņemamie datumu formāti: GGGG-MM-DD, GGGG-MM, YYYY."
+                    },
+                    "publisherHomepage": {
+                        "label": "Sākumlapa"
+                    }
+                },
+                "step3": {
+                    "spatialResolutionInMeters": {
+                        "help": "Minimālais telpiskais atdalījums, kas atdalāms datu kopā."
+                    },
+                    "mediaType": {
+                        "placeholder": "Izplatīšanas plašsaziņas līdzekļu tipa viettura teksts"
+                    },
+                    "language": {
+                        "help": "Valoda, ko izmanto izdalē."
+                    },
+                    "title": {
+                        "info": "Šajā īpašībā ir nosaukums, kas norādīts sadalījumam. Šo īpašību var atkārtot paralēlās apraksta valodu versijās."
+                    },
+                    "status": {
+                        "label": "Statuss"
+                    },
+                    "checksum": {
+                        "placeholder": "Viettura “izplatīšana Checksum” teksts"
+                    },
+                    "hasPolicyUrl": {
+                        "placeholder": "Izplatīšana ir Url viettura teksts"
+                    },
+                    "page": {
+                        "help": "Lapa vai dokuments par šo izplatīšanu."
+                    },
+                    "availability": {
+                        "placeholder": "Izplatīšanas pieejamības viettura teksts"
+                    },
+                    "format": {
+                        "placeholder": "Izplatīšanas formāts viettura teksts"
+                    },
+                    "conformsTo": {
+                        "add-label": "Pievienot “Atbilstības”"
+                    },
+                    "issued": {
+                        "label": "Izdots"
+                    },
+                    "description": {
+                        "help": "Šajā īpašībā ir sadales brīvā teksta konts."
+                    },
+                    "hasPolicy": {
+                        "help": "Tiesību izpausmes politika."
+                    },
+                    "temporalResolutionMonth": {
+                        "label": "Laika izšķirtspējas mēnesis"
+                    },
+                    "temporalResolutionHour": {
+                        "placeholder": "Datu kopa Temporālā izšķirtspēja Stundas vietturis teksts"
+                    },
+                    "licence": {
+                        "help": "Licence, saskaņā ar kuru ir pieejama izplatīšana."
+                    },
+                    "date": {
+                        "label": "Datums"
+                    }
+                },
+                "stepper": {
+                    "step3": {
+                        "children": {
+                            "distribution3": {
+                                "name": "Papildu informācija"
+                            },
+                            "distribution4": {
+                                "name": "Papildu informācija"
+                            },
+                            "distribution1": {
+                                "name": "Vispārīga informācija"
+                            },
+                            "distribution2": {
+                                "name": "Papildu informācija"
+                            }
+                        }
+                    },
+                    "overview": "Datu kopas pārskats"
+                }
+            },
+            "catalogues": {
+                "step2": {
+                    "isPartOf": {
+                        "info": "Šī īpašība attiecas uz saistītu katalogu, kurā aprakstītais katalogs ir fiziski vai loģiski iekļauts."
+                    },
+                    "language": {
+                        "help": "Valoda, ko izmanto teksta metadatos, aprakstot nosaukumus, aprakstus utt."
+                    },
+                    "spatial": {
+                        "info": "Šis īpašums attiecas uz ģeogrāfisko apgabalu, uz kuru attiecas katalogs."
+                    },
+                    "hasPart": {
+                        "help": "Šis rekvizīts attiecas uz saistītu katalogu, kas ir daļa no aprakstītā kataloga."
+                    },
+                    "creator": {
+                        "add-label": "Pievienot Radītāju"
+                    },
+                    "creatorName": {
+                        "label": "Vārds, uzvārds"
+                    }
+                },
+                "step1": {
+                    "title": {
+                        "help": "Kataloga reģistra nosaukums. "
+                    },
+                    "description": {
+                        "info": "Šajā īpašībā ir ieraksta brīvā teksta konts. Šo īpašību var atkārtot paralēlās apraksta valodu versijās."
+                    },
+                    "licence": {
+                        "placeholder": "Kataloga licences viettura teksts"
+                    },
+                    "modified": {
+                        "label": "Grozīts"
+                    },
+                    "licenceDescription": {
+                        "label": "Licences apraksts"
+                    },
+                    "homepage": {
+                        "help": "Tīmekļa vietne, kas darbojas kā kataloga galvenā lapa."
+                    }
+                },
+                "stepper": {
+                    "overview": "Kataloga pārskats",
+                    "step1": {
+                        "name": "Posms: Izveidot katalogu"
+                    },
+                    "step2": {
+                        "name": "Posms: Noteikt kataloga īpašības"
+                    }
+                }
+            },
+            "clear": "Skaidri salasāmi",
+            "deletemodal": {
+                "deleteDistribution": "Dzēst izplatīšanu",
+                "areyousure": "Vai tiešām vēlaties dzēst šo sadalījumu?"
+            },
+            "createUniqueID": "Izveidot unikālu ID",
+            "saveasdraft": "Saglabāt kā melnrakstu",
+            "savedataset": "Saglabāt datu kopu",
+            "next": "Nākamais solis",
+            "noDistributions": "Izplatīšana nav pieejama",
+            "savedraft": "Saglabāt projektu",
+            "searchVocabulary": "Meklēt vārdnīcu",
+            "error": {
+                "general": "Radusies kļūda. Lūdzu, mēģiniet vēlreiz vēlāk!",
+                "invalid-message": "Trūkst dažu lauku. Lūdzu, aizpildiet visus prasītos laukus!"
+            },
+            "type": "Tips",
+            "preview": "Iepriekšējais solis",
+            "submit": "Iesniegt",
+            "publishdataset": "Publicēt datu kopu",
+            "validationtitle": "Validācija",
+            "publishdraft": "Publicēt projektu",
+            "newDistribution": "Pievienot vēl vienu izplatīšanu",
+            "validationerror": "Apstiprinot jūsu veidlapu, radās kļūda!",
+            "createDataset": "Izveidot datu kopu",
+            "defineDatasetProperties": "Definēt datu kopas īpašības",
+            "createDistributions": "Izveidot izplatīšanu"
+        },
+        "datasetDetails": {
+            "subnav": {
+                "quality": "Kvalitāte",
+                "similarDatasets": "Līdzīgas datu kopas",
+                "categories": "Kategorijas",
+                "dataset": "Datu kopa",
+                "activityStream": "Darbību plūsma"
+            },
+            "quality": {
+                "licenceAvailability": "Licences informācija",
+                "mediaTypeAvailability": "Multivides veids",
+                "temporalAvailability": "Uz laiku balstīta meklēšana",
+                "accessibility": "Pieejamība",
+                "dcatApCompliance": "DCAT-AP atbilstība",
+                "distributions": {
+                    "downloadUrlStatusCode": "Lejupielādēt Url statusa kodu",
+                    "accessUrlStatusCode": "AccessURL statusa kods"
+                },
+                "accessRightsVocabularyAlignment": "Piekļuves ierobežojumu vārdnīca",
+                "contactPointAvailability": "Kontaktpunkts",
+                "dateIssuedAvailability": "Izdošanas datums",
+                "nodata": "Šķiet, ka mūsu pusē ir problēma. Nebija iespējams ievadīt kvalitatīvus datus. Lūdzam vēlāk mēģināt vēlreiz.",
+                "dateModifiedAvailability": "Modificēšanas datums",
+                "contextuality": "Kontekstualitāte",
+                "reusability": "Atkārtota izmantojamība",
+                "accessUrlStatusCode": "Biežākās piekļuves URL statusa kodi",
+                "downloadUrlStatusCode": "Biežākās lejupielādes URL statusa kodi",
+                "formatMediaTypeVocabularyAlignment": "Formāts/multivides veids no vārdnīcas",
+                "metaDataQuality": "Metadatu kvalitāte",
+                "downloadUrlAvailability": "Lejupielādes URL",
+                "dataQuality": "Datu kvalitāte",
+                "categoryAvailability": "Kategorijas",
+                "interoperability": "Savietojamība",
+                "findability": "Atrodamība",
+                "spatialAvailability": "Ģeogrāfiskā meklēšana",
+                "formatAvailability": "Formāts",
+                "byteSizeAvailability": "Faila lielums",
+                "accessRightsAvailability": "Piekļuves ierobežojumi",
+                "distributionQuality": "Izplatīšanas kvalitāte",
+                "publisherAvailability": "Publicētājs",
+                "keywordAvailability": "Atslēgvārdu izmantošana",
+                "rightsAvailability": "Tiesības"
+            },
+            "follow": "Sekot",
+            "accessURLTooltip": "Šī saite var saturēt informāciju par to, kā iegūt atsauces datni, vai ir tieša saite uz atsauces datni.",
+            "dataStream": "Datu plūsmas",
+            "downloadURLTooltip": "Šī ir tieša saite uz atsauces datni.",
+            "upload": {
+                "organisation": "Organizācija",
+                "individual": "Individuāli",
+                "resetText": "Vai atiestatīt visu formu?",
+                "person": "Persona",
+                "unknownFormat": "Nezināms formāts",
+                "reset": "Atiestatīt no"
+            },
+            "preview": "Priekšskatījums",
+            "feedback": "Atsauksmes",
+            "access": "Piekļuve",
+            "datasets": {
+                "modal": {
+                    "downloadingFiles": "Datņu lejupielāde",
+                    "zipNumberOfFiles": "Zip ~numuri faili",
+                    "waitingForDownload": "(gaida lejupielādi)",
+                    "downloadProgress": "Lejupielādēt “Progress”",
+                    "notDownloaded": "Nav lejupielādēts",
+                    "error": "Kļūda! Pamēģiniet guvumu",
+                    "okay": "Okay",
+                    "cancel": "Atcelt",
+                    "close": "Aizvērt",
+                    "coupleOfMinutes": "(tas var aizņemt pāris minūtes)",
+                    "notDownloadedTooltip": "Sīkāka informācija atrodama pievienotajā failā_report.csv."
+                },
+                "leavePageWindow": {
+                    "text": "Vai tiešām vēlaties doties prom? Pēc aizbraukšanas lejupielāde tiks apturēta!"
+                },
+                "downloadAll": "Lejupielādējiet visus"
+            },
+            "translation": {
+                "update": "Šīs datu kopas atjaunināts tulkojums tiek sagatavots.",
+                "original": "Oriģinālvaloda",
+                "message": "Šīs datu kopas nosaukums un apraksts ir mašīntulkots.",
+                "noTranslation": "Šī datu kopa jūsu valodā vēl nav pieejama. Notiek tulkošana.",
+                "link": "Noklikšķiniet šeit, lai apskatītu datu kopu oriģinālvalodā"
+            },
+            "cite": "Cit.",
+            "relatedResources": "Saistītie resursi",
+            "share": "Dalīties",
+            "geoVisualisation": "Atvērt ģeogrāfisko vizualizāciju",
+            "download": "Lejupielādēt",
+            "intro": {
+                "distribution": "Turpmāk uzskaitīti visu datu kopas izplatīšanas veidu kvalitātes mērījumi. Lai iegūtu informāciju par to, kādus rādītājus mēs izmantojam rādītāju mērīšanai, skatiet mūsu <a href='/mqa/methodology?locale={locale}'>metodikas lapu</a>.",
+                "metadataQuality": "Metadatu kvalitātes nodrošināšanas mērķis ir palīdzēt datu sniedzējiem un datu portāliem pārbaudīt to metadatus, izmantojot dažādus rādītājus. Lai iegūtu informāciju par to, kādus rādītājus mēs izmantojam rādītāju mērīšanai, skatiet mūsu <a href='/mqa/methodology?locale={locale}'>metodikas lapu</a>."
+            },
+            "about": "par",
+            "datasetFeed": "Datu kopas Feed",
+            "delete": "Dzēst",
+            "openResource": "Iet uz resursu",
+            "visualisation": "Atvērt vizualizāciju",
+            "isUsedBy": "Izmanto",
+            "unfollow": "Atsekot",
+            "shareOn": "Dalīties",
+            "additionalInfo": "Papildu informācija",
+            "contactPoints": {
+                "organizationName": "Organizācijas nosaukums"
+            },
+            "edit": "Rediģēt",
+            "menu": "Izvēlne",
+            "manage": "Pārvaldīt",
+            "geoInfo": "Datu kopas apjoms",
+            "options": "Iespējas"
+        },
+        "tooltip": {
+            "catalogDetails": {
+                "created": "Kataloga oficiālās izdošanas (piemēram, publicēšanas) datums.",
+                "publisher": "Struktūra (organizācija), kas atbild par kataloga pieejamību.",
+                "updated": "Pēdējais datums, kad katalogs tika grozīts.",
+                "description": "Kataloga apraksts.",
+                "title": "Kataloga nosaukums.",
+                "metadata": "Iespējas lejupielādēt kataloga metadatus dažādos saistītos datu attēlos.",
+                "language": "Valoda, kas izmantota teksta metadatos, kuros aprakstīti kataloga datu kopu nosaukumi, apraksti u. c. Šo īpašību var atkārtot, ja metadatus sniedz vairākās valodās.",
+                "spatial": "Ģeogrāfiskais apgabals, uz kuru attiecas katalogs."
+            },
+            "datasetDetails": {
+                "frequency": "Datu kopas atjaunināšanas biežums.",
+                "dataset": "Datu kopa vai pakalpojuma dati.",
+                "updated": "Pēdējais datums, kurā datu kopa vai pakalpojums ir mainīts vai mainīts.",
+                "versionInfo": "Datu kopas versijas numurs vai cits versijas apzīmējums.",
+                "distributions": {
+                    "updated": "Pēdējais datums, kad tika mainīts vai grozīts sadalījums.",
+                    "title": "Izplatītājam piešķirtais nosaukums.",
+                    "linkedSchema": "Izveidota shēma, kurai atbilst aprakstītais sadalījums.",
+                    "linkedData": "Iespējas lejupielādēt izplatīšanas metadatus dažādos saistītos datu attēlos.",
+                    "status": "Sadales termiņš. Tai ir JĀIEKĻAUJ viena no vērtībām “Pabeigta, deprecēta”, “Attīstība”, atsaukta.",
+                    "licence": "Licence, saskaņā ar kuru ir pieejama izplatīšana.",
+                    "availability": "Norāda, cik ilgi ir plānots saglabāt datu kopas izplatīšanas pieejamību.",
+                    "rights": "Paziņojums, kurā norādītas ar izplatīšanu saistītās tiesības.",
+                    "checksum": "Mehānisms, ko var izmantot, lai pārbaudītu, vai izplatīšanas saturs nav mainījies. Kontrolsumma ir saistīta ar lejupielādējamo Url.",
+                    "mediaType": "Izplatīšanas plašsaziņas līdzekļu veids, kā noteikts IANA pārvaldītajā oficiālajā plašsaziņas līdzekļu veidu reģistrā.",
+                    "spatialResolution": "Minimālais telpiskais atdalījums, ko var izšķirt datu kopu sadalījumā, mērot metros.",
+                    "byteSize": "Satur izkliedes lielumu baitos.",
+                    "download": "Lejupielādējiet vai piekļūstiet izplatīšanai.",
+                    "type": "Saites uz izkliedes veidu, piemēram, ka tā ir vizualizācija.",
+                    "created": "Izplatīšanas oficiālās izdošanas (piemēram, publicēšanas) datums.",
+                    "language": "Izplatīšanas procesā izmantotā valoda.",
+                    "options": "Atveriet izplatīšanas priekšskatījumu.",
+                    "temporalResolution": "Attiecas uz minimālo laika periodu, kas ir noregulējams datu kopu sadalījumā."
+                },
+                "otherIdentifier": "Datu kopas sekundārais identifikators, piemēram, MAST/ADS16, DataCite17, DOI18, EZID19 vai W3ID20.",
+                "numSeries": "Satur datu kopā iekļauto datu rindu skaitu.",
+                "versionOf": "Saistītā datu kopa, kuras aprakstītā datu kopa ir versija, izdevums vai pielāgojums.",
+                "unitsOfMeasurement": "Datu kopas novērojumu mērvienība.",
+                "distribution": "Datu kopas vai pakalpojuma fiziska iemiesojums konkrētā formātā, piemēram, tīmekļa saite uz datu kopas datni.",
+                "quality": "Metadatu kvalitātes informācija par šo datu kopu vai pakalpojumu.",
+                "catalogue": "Katalogs, pie kura pieder šī datu kopa vai pakalpojums.",
+                "linkedData": "Iespējas lejupielādēt datu kopu vai pakalpojuma metadatus dažādos saistītos datu attēlos.",
+                "versionNotes": "Apraksts par atšķirībām starp šo versiju un datu kopas iepriekšējo versiju. Šo rekvizītu var atkārtot paralēlās valodu versijās piezīmju versijām.",
+                "similarDatasets": "Citas datu kopas vai pakalpojumi, kas ir līdzīgi šai.",
+                "identifier": "Galvenais datu kopas identifikators, piemēram, URI vai cits unikāls identifikators kataloga kontekstā.",
+                "uriRef": "URIref ir unikāls identifikators datu kopai/datu pakalpojumam data.europa.eu",
+                "creator": "Struktūra, kas galvenokārt atbild par datu kopas izveidi.",
+                "spatial": "Ģeogrāfiskais reģions, uz kuru attiecas datu kopa.",
+                "language": "Datu kopas valoda.",
+                "format": "Formāts, kas ir pieejams šai datu kopai vai pakalpojumam.",
+                "conformsTo": "Īstenošanas noteikumi vai citas specifikācijas.",
+                "landingPage": "Tīmekļa vietne, kas nodrošina piekļuvi datu kopai, tās izplatīšanai un/vai papildu informācijai.",
+                "provenance": "Paziņojums par datu kopas līniju.",
+                "documentation": "Lapa vai dokuments par šo datu kopu.",
+                "publisher": "Struktūra (organizācija), kas atbild par datu kopas vai pakalpojuma pieejamības nodrošināšanu.",
+                "created": "Datu kopas vai pakalpojuma oficiālās izdošanas (piemēram, publicēšanas) datums.",
+                "relatedResource": "Saistītie resursi.",
+                "categories": "Kategorijas, kas piešķirtas šai datu kopai vai pakalpojumam.",
+                "share": "Kopīgot šo datu kopu vai pakalpojumu, izmantojot sociālos plašsaziņas līdzekļus.",
+                "feedback": "Dariet mums zināmu, ko jūs domājat par šo datu kopu vai pakalpojumu.",
+                "dqvData": "Iespējas lejupielādēt datu kopu vai pakalpojumu kvalitātes mērījumus dažādos saistītos datu attēlos.",
+                "hasVersion": "Saistītā datu kopa, kas ir aprakstītās datu kopas versija, izdevums vai pielāgojums"
+            },
+            "quality": {
+                "keywordAvailability": "Atslēgvārdi tieši atbalsta meklēšanu un tādējādi palielina datu kopas atrodamību.&br>&br> Sistēma pārbauda, vai atslēgvārdi ir definēti. Atslēgvārdu skaits neietekmē rezultātu.",
+                "formatMediaTypeVocabularyAlignment": "Pārbauda metinātāju formātu un nesēja veidu, kas pieder kontrolētai vārdnīcai. &br> &br>formāta vārdnīca ir atrodama Data.europa.eu GitLab repository. &br> &br> Plašsaziņas līdzekļu tipu pārbauda IANA sarakstā.",
+                "licenceAvailability": "Licence ir vērtīga informācija datu atkalizmantošanai.&br>&br>tiek pārbaudīts, vai īpašums ir vai nav iestatīts.",
+                "publisherAvailability": "Izdevējs ir persona vai organizācija, kas publicējusi datus.&br>&br>tiek pārbaudīts, vai īpašums ir vai nav iestatīts.",
+                "formatAvailability": "Šajā laukā norādīts izplatīšanas datnes formāts.&br>&br>Ir pārbaudīts, vai īpašība ir iestatīta vai ne.",
+                "temporalAvailability": "Laika informācijas izmantošana ļautu lietotājiem laikus veikt horizontālu meklēšanu.&br>&br>Tā pārbauda, vai īpašība ir iestatīta vai ne.",
+                "rightsAvailability": "Dažos gadījumos datu kopai nevar piemērot īpašu licenci. Lauku “Tiesības” var izmantot, lai norādītu atsauci uz resursu, kas informēs lietotāju par tiesībām, kuras viņam ir, izmantojot datu kopu. &br>&br> tiek pārbaudīts, vai īpašums ir vai nav iestatīts.",
+                "mediaTypeAvailability": "Šajā laukā norāda izplatīšanas datu nesēja veidu.&br>&br> Pārbauda, vai īpašība ir iestatīta vai ne.",
+                "accessRightsVocabularyAlignment": "Kontrolētas vārdnīcas izmantošana palielina atkārtotu izmantojamību. &br>&br>pārbauda, vai tiek izmantota kontrolētā vārdnīca attiecībā uz piekļuves tiesībām.",
+                "dcatApCompliance": "Atbilstību DCAT-AP aprēķina visiem katalogā pieejamajiem avotiem un datu kopām. Šo pārbaudi veic tikai tad, ja metadatus sākotnēji vāc kā DCAT-AP vai kā derīgu atvasinājumu. &br>&br> DCAT-AP ir specifikācija saistīto publisko datu aprakstīšanai Eiropā. Portāls data.europe.eu var vākt arī metadatus, kas pilnībā neatbilst DCAT-AP. Lai palielinātu atbilstību DCAT-AP, MQA pārbauda katru metadatu atbilstību DCAT-AP. &br>&br> Metadati ir validēti attiecībā pret SHACL formu kopumu. Metadati nav atbilstīgi, ja SHACL validācijas ziņojumi par vismaz vienu emisiju.&br> &br> MQA izmanto data.europe.eu DCAT-AP SHACL validācija.ce. &br> &br> SCHACL ir W3C ieteikums un to izmanto RDF diagrammu validēšanai attiecībā pret formu kopumu.",
+                "accessRightsAvailability": "Šajā laukā norāda, vai piekļuve datiem ir publiska vai ierobežota.&br>&br>tiek pārbaudīts, vai īpašums ir iestatīts vai nē.",
+                "accessUrlStatusCode": "AccessURL ne vienmēr ir tieša saite uz datiem, bet var arī atsaukties uz URL, kas nodrošina piekļuvi datu kopai vai kur ir pieejama plašāka informācija par datu kopu.&br>&br> Norādītā URL tiek pārbaudīta, izmantojot HTTP HEAD pieprasījumu. Ja atbildes statusa kods ir 200 vai 300 diapazonā, resursa pieejamību novērtē pozitīvi.",
+                "categoryAvailability": "Kategorijas palīdz lietotājiem izpētīt datu kopas tematiski. &br>&br>tiek pārbaudīts, vai datu kopai tiek piešķirta viena vai vairākas kategorijas. Piešķirto kategoriju skaits neietekmē punktu skaitu.",
+                "downloadUrlStatusCode": "Ja pastāv lejupielāde Url, piekļūstamība tiek pārbaudīta.&br>&br> Norādītā URL tiek pārbaudīta, lai noteiktu e-resursu pieejamību, izmantojot HTTP HEAD pieprasījumu. Ja atbildes statusa kods ir 200 vai 300 diapazonā, resursa pieejamību novērtē pozitīvi.",
+                "byteSizeAvailability": "Norāda datnes lielumu baitos. &br>&br>tiek pārbaudīts, vai īpašība ir iestatīta vai ne.",
+                "downloadUrlAvailability": "Lejupielāde Url ir tieša saite uz minētajiem datiem. &br>&br> tiek pārbaudīts, vai īpašība ir iestatīta vai ne.",
+                "spatialAvailability": "Telpiskās informācijas izmantošana ļautu lietotājiem atrast datu kopu ar ģeotelpisku meklēšanu.&br>&br> tiek pārbaudīts, vai īpašība ir iestatīta vai ne.",
+                "contactPointAvailability": "Kontaktpunktā ir informācija, kas jāsniedz, ja rodas jautājumi par datiem.&br>&br>tiek pārbaudīts, vai īpašums ir iestatīts vai nē.",
+                "dateIssuedAvailability": "Datu kopas vai izplatīšanas datums.&br>&br>tiek pārbaudīts, vai īpašība ir vai nav iestatīta.",
+                "dateModifiedAvailability": "Datums, kurā pēdējo reizi mainīta datu kopa vai izplatīšana.&br>&br> tiek pārbaudīts, vai īpašība ir vai nav iestatīta."
+            },
+            "catalogRecord": "Datu kopas ieraksta apraksts katalogā.",
+            "lastModified": "Rezultātu šķirošana pēc jaunākajām izmaiņām datu kopā",
+            "editorialContent": "Meklēt redakcionālu saturu, piemēram, ziņas, notikumus, lietošanas lietas",
+            "datasets": "Datu kopu meklēšana",
+            "relevance": "Šķirojiet datu kopu pēc būtiskuma. Atbilstību aprēķina, pamatojoties uz meklēto terminu atbilsmi nosaukumā, atslēgvārdos un aprakstā.",
+            "contactPoints": "Kontaktinformācija, ko var izmantot, lai nosūtītu komentārus par datu kopu.",
+            "locationFilter": "Lai aplūkotu datu kopas, kas saistītas ar konkrētu atrašanās vietu, noklikšķiniet uz kartes un izmantojiet pildspalvas ikonu, lai to atlasītu. Pēc tam noklikšķiniet uz “Pieteikties”, lai filtrētu tikai tās datu kopas, kas attiecas uz izvēlēto jomu. Ņemiet vērā, ka meklēšanas rezultātos tiks iekļautas tikai datu kopas, kas ietver ģeoinformācijas metadatus.",
+            "catalogues": "Meklēt katalogus. Katalogā ir datu kopas un pakalpojumi"
+        },
+        "visualisationDistribution": {
+            "barChartExplain": "Svītru diagrammā attēlotas kategoriskas pazīmes līmeņu skaitliskas vērtības kā bāri. Līmeņus attēlo uz vienas kartes ass un vērtības attēlo uz otras ass.",
+            "semicolon": "Semikols",
+            "exportSucceeded": "Konfigurācija ir veiksmīgi izveidota!",
+            "yAxis": "Y ass",
+            "pipe": "Caurule",
+            "cancel": "Atcelt",
+            "fileTypeNotSupported": "Jūs cenšaties izveidot faila veidu, kas netiek atbalstīts.",
+            "confirm": "Apstiprināt",
+            "fileNotFound": "Jūs cenšat izveidot datni, kuras saturu nevarēja izlasīt.",
+            "comma": "Komats",
+            "space": "Kosmoss",
+            "exportDataTip": "Ievades lauks nedrīkst būt tukšs!",
+            "countRow": "Skaits",
+            "exportMessagesHeader": "Vai tiešām vēlaties saglabāt savu konfigurāciju? Pārbaudiet to pirms saglabāšanas!",
+            "exportMessagesLabel": "Ievadiet savas konfigurācijas nosaukumu",
+            "exportNameExistsAlert": "Nosaukums jau tiek lietots. Lūdzu, mēģiniet citu!",
+            "hiddenMessages": "ir paslēpti — noklikšķiniet, lai parādītu visus",
+            "connectedLineChart": "Savienotā līnijas karte",
+            "barChart": "Svītru karte",
+            "someRows": "Dažas rindas",
+            "row": "Rindas",
+            "tab": "Cilne",
+            "connectToDatabaseError": "Kļūda, iegūstot datus no datubāzes. Lūdzu, mēģiniet to vai vēlreiz pārbaudiet ievadītos datus!",
+            "badgateway": "Serveris nav pieejams vai DNS nosaukums ir nepareizs.",
+            "goBack": "“Go Back”",
+            "forbidden": "Piekļuve pieprasītajiem resursiem ir aizliegta.",
+            "unauthorized": "Pieprasījums nav piemērots. Tam trūkst derīgu autentifikācijas datu.",
+            "xAxis": "X ass",
+            "delimiter": "Delimitētājs",
+            "someColumns": "Dažas slejas",
+            "exportMessagesFooter": "Noklikšķiniet uz “Apstiprināt”, lai to saglabātu!",
+            "table": "Tabula",
+            "connectedLineChartExplain": "Tā ir savienota izkliede, kas būtībā ir hibrīds starp izkliedi un līniju. Lai to sagatavotu, jums jāizvēlas Xaxis."
+        },
+        "sort": {
+            "lastCreated": "Pēdējo reizi izveidots",
+            "lastUpdated": "Pēdējo reizi mainīts",
+            "nameZA": "Vārds, dilstošā secībā",
+            "relevance": "Atbilstība",
+            "sortBy": "Kārtot pēc",
+            "nameAZ": "Vārds, augošā secībā"
+        },
+        "distributionLicense": {
+            "openLA": "Atveriet licences palīgu",
+            "notProvided": "Nav sniegta licence",
+            "licensingAssistant": "Licencēšanas palīgs",
+            "notFound": "Nav atrasta informācija par licenci.",
+            "notFoundExtended": "Nav atrasta informācija par licenci; lūdzu, pārbaudiet avotu, lai iegūtu papildu informāciju par licenci."
+        },
+        "catalogs": {
+            "countMessageSingular": "atrasts katalogs",
+            "geoBoundsMessagePre": "Jūsu meklēšanas kritēriji ir ierobežoti uz:",
+            "downloadAsLinkedData": "Kataloga metadati kā saistītie dati",
+            "countMessageNoResult": "Nav atrasti katalogi ",
+            "searchBar": {
+                "placeholder": "Meklēt katalogos..."
+            },
+            "countMessage": " atrasti katalogi vaicājumam ",
+            "loadingMessage": "Ielādē katalogus…",
+            "geoBoundsMessageRemove": "Aizveriet šo paziņojumu, lai noņemtu ierobežojumu, vai izmantojiet atiestatīšanas funkciju."
+        },
+        "datasetFacets": {
+            "facets": {
+                "datascopeField": {
+                    "countryData": "Valstu dati",
+                    "io": "Starptautiskie dati",
+                    "eu": "Eiropas Savienības dati"
+                },
+                "datascope": "Datu tvērums",
+                "dataServices": {
+                    "dataServicesOnly": "Tikai datu pakalpojumi"
+                },
+                "country": "Valstis",
+                "format": "Formāti",
+                "scoring": {
+                    "badScoring": "Jebkuri",
+                    "sufficientScoring": "Pietiekami",
+                    "goodScoring": "Labi",
+                    "excellentScoring": "Teicami"
+                },
+                "publisher": "@:message.metadata.publisher",
+                "license": "Licences",
+                "keywords": "Atslēgvārdi",
+                "categories": "Kategorijas",
+                "catalog": "Katalogi",
+                "countrydata": "Valsts dati",
+                "tags": "Tagi"
+            },
+            "title": "Filtri",
+            "and": "UN",
+            "settings": "Filtra iestatījums",
+            "scoring": "Rezultāts",
+            "or": "VAI",
+            "europeanCatalogs": "Eiropas katalogi",
+            "operator": "Operators"
+        },
+        "header": {
+            "navigation": {
+                "data": {
+                    "euInternationalData": "ES un starptautiskie dati",
+                    "datasets": "Datu kopas",
+                    "catalogs": "Katalogi",
+                    "metadataquality": "Metadatu kvalitāte",
+                    "sparqleditor": "SPARQL redaktors",
+                    "statistics": "Statistika",
+                    "sparqlsearch": "SPARQL meklēšana",
+                    "title": "Dati"
+                },
+                "impactStudies": {
+                    "opendataimpact": "Atvērto datu ietekme",
+                    "tellUsYourStory": "Pastāstiet mums savu stāstu",
+                    "studies": "Pētījumi",
+                    "opendatamaturity": "Situācija atklāto datu jomā",
+                    "countryInsights": "Informācija par valsti",
+                    "useCases": "Izmantošanas gadījumi",
+                    "title": "Ietekme un pētījumi",
+                    "overview": "Pārskats"
+                },
+                "training": {
+                    "licensingAssistant": "Licencēšanas palīgs",
+                    "dataProvidersGuide": "Datu sniedzēja ceļvedis",
+                    "moreTrainingMaterial": "Papildu mācību materiāli",
+                    "whatIsOpenData": "Kas ir atvērtie dati",
+                    "title": "Apmācības",
+                    "elearning": "E-mācības"
+                },
+                "about": {
+                    "beHarvestedByUs": "Pieteikties rasmošanai",
+                    "documentation": "Dokumentācija",
+                    "title": "Par",
+                    "europeanDataPortal": "Eiropas Datu Portāls"
+                },
+                "newsEvents": {
+                    "events": "Notikumi",
+                    "news": "Ziņas",
+                    "title": "Ziņas un notikumi",
+                    "stories": "Datu saturs"
+                },
+                "covid-19": {
+                    "title": "COVID-19",
+                    "datasets": "Datu kopas",
+                    "overview": "Pārskats",
+                    "initiatives": "Ar datiem saistītas iniciatīvas"
+                }
+            },
+            "subnav": {
+                "newsletter": "Biļetens",
+                "cookies": "Sīkdatnes",
+                "login": "Pieteikties",
+                "contact": "Kontakti",
+                "search": "Meklēt",
+                "logout": "Atteikties",
+                "legalNotice": "Juridisks paziņojums",
+                "faq": "BUJ"
+            },
+            "european": "Eiropas",
+            "searchInputPlaceholder": "Meklēt vietnes saturā...",
+            "dataPortal": "Datu portāls",
+            "searchOptions": {
+                "siteContent": "Vietnes saturs",
+                "datasets": "Datu kopas"
+            }
+        },
+        "catalogues": {
+            "foundCataloguesSingular": "Atrasts 1 katalogs",
+            "foundCatalogues": "atrasti katalogi"
+        },
+        "datasets": {
+            "foundDatasets": "atrasto datu kopu skaits:",
+            "countMessage": "atrastas datu kopas vaicājumam ",
+            "foundDatasetsSingular": "Atrasta 1 datu kopa",
+            "meta": {
+                "translationNotComplete": "Tulkojums nav pabeigts"
+            },
+            "geoBoundsMessageRemove": "Aizveriet šo paziņojumu, lai noņemtu ierobežojumu, vai izmantojiet attiestatīšanas funkciju.",
+            "createDataset": "Izveidot datu kopu",
+            "geoBoundsMessagePre": "Jūsu meklēšanas kritēriji ir ierobežoti uz:",
+            "loadingMessage": "Ielādē datu kopas…",
+            "countMessageSingular": "atrasta datu kopa ",
+            "datasetsFeed": "Datu kopu plūsma",
+            "scoreDisclaimer": "Pašreizējie meklēšanas rezultāti tiek filtrēti, lai atbilstu minimālajam kvalitātes rezultātam, kas norādīts kreisajā pusē. Apmeklējiet {0}, ja vēlaties uzzināt plašāku informāciju par mūsu kvalitātes mērījumiem.",
+            "noResult": "Nav atrastas datu kopas ",
+            "findLocation": "Filtrēt pēc atrašanās vietas",
+            "searchBar": {
+                "placeholder": "Meklēt datu kopās"
+            },
+            "createCatalogue": "Izveidot katalogu",
+            "saveQuery": "Saglabāt vaicājumu"
+        },
+        "footer": {
+            "helpUsImproveText": "Jūsu atsauksmes palīdzēs mums uzlabot lietotāja pieredzi. Vai varat ko ieteikt?",
+            "lastUpdated": "Pēdējo reizi atjaunināts",
+            "links": {
+                "cookies": "Sīkdatnes",
+                "contact": "Kontakti",
+                "faq": "BUJ",
+                "newsletter": "Biļetens",
+                "search": "Meklēt",
+                "login": "Pieteikties",
+                "legalNotice": "Juridisks paziņojums"
+            },
+            "subscribe": "Abonēt",
+            "helpUsImprove": "Palīdziet mums pilnveidoties",
+            "newsletterText": "Abonējiet mūsu biļetenu",
+            "newsletter": "Biļetens",
+            "followUs": "Sekojiet mums",
+            "managedBy": "Pārvalda Eiropas Savienības Publikāciju birojs.",
+            "fundedBy": "Finansē Eiropas Savienība"
+        },
+        "helpIcon": {
+            "dataServices": "Data.europa.eu izplatīšana var darboties arī kā datu pakalpojums. Tas nozīmē, ka tā nav saistīta ar lejupielādējamu datni, bet gan ar API. Ja vēlaties filtrēt datu kopas, kurām ir vismaz viens datu pakalpojums, izvēlieties “Jā”.",
+            "scoring": "data.europa.eu mēra visu datu kopu un pakalpojumu kvalitāti. Sadaļā “Datu/Metadatu kvalitāte” ir metodikas lapa, kurā aprakstīts process. Katrai datu kopai un pakalpojumam ir arī kvalitātes vērtējums. Šis rezultāts var būt pietiekams, labs vai izcils. Ja ir iestatīts filtrs “pietiekams+”, tiktu parādītas visas datu kopas un pakalpojumi, kuriem ir pietiekams vai labāks vērtējums. Tas pats attiecas uz “labu”. “Izcilība” liecina tikai par izcilām datu kopām un pakalpojumiem.",
+            "license": "Licencē ir aprakstīti juridiskie nosacījumi par to, kā var izmantot datu kopu.",
+            "dataScope": "ES dati glabā ES iestāžu datu kopas un pakalpojumus. Starptautiskie dati glabā datu kopas un pakalpojumus, kas nāk no valstīm ārpus ES. Valstu datos glabājas ES dalībvalstu datu kopas un pakalpojumi.",
+            "format": "Katrai datu kopai ir atsauces uz datnēm vai pakalpojumiem. Formāts apraksta šo atsauču datnes veidu vai pakalpojuma veidu. Ne katrs datnes veids var kalpot visiem nolūkiem, piemēram, aprēķinu labāk var veikt ar CSV datni, nevis PDF failu.",
+            "catalog": "Katalogs vai repozitorijs, kas mitina datu kopas un pakalpojumus. Katalogs galvenokārt ir portāls, no kura tiek apkopotas datu kopas.",
+            "settings": "Izlemt, vai jūsu filtra izvēle ir vai nav ekskluzīva. Ja atlasāt UN visiem meklēšanas rezultātiem ir jāatbilst visiem filtriem. Vai arī tas, ka jāsakrīt vismaz vienam filtram.",
+            "categories": "Kategorija apvieno datu kopas, kurām ir kopīgs temats.",
+            "publisher": "Izdevējs ir struktūra (piemēram, organizācija), kas ir atbildīga par datu kopas pieejamības nodrošināšanu.",
+            "keywords": "Atslēgvārdi ir idejas un temati, kas nosaka saturu."
+        },
+        "userQueries": {
+            "executeQuery": "Izpildīt vaicājumu",
+            "queriesFound": "{number} vaicājumi atrasti",
+            "placeholderNotes": "piem., dažas noderīgas piezīmes par šo vaicājumu",
+            "querySaved": "Vaicājums saglabāts",
+            "queryFound": "{number} vaicājums atrasts",
+            "myQueries": "Mani vaicājumi",
+            "noDescription": "Šim vaicājumam nav apraksta",
+            "noQueryFound": "Neviens vaicājums nav atrasts",
+            "queryDeleted": "Vaicājums dzēsts",
+            "searchAllQueries": "Meklēt vaicājumus...",
+            "save": "Saglabāt vaicājumu",
+            "areYourSure": "Vai tiešām vēlaties dzēst šo vaicājumu?",
+            "noQueriesSaved": "Nav saglabāts neviens vaicājums.",
+            "searchQueries": "Meklēt manus vaicājumus..."
+        },
+        "catalogFacets": {
+            "facets": {
+                "licences": "Licences",
+                "catalogs": "Katalogi",
+                "categories": "Kategorijas",
+                "countries": "Valstis",
+                "formats": "Formāti",
+                "keywords": "Atslēgvārdi"
+            },
+            "operator": "Operators",
+            "title": "Filtrs",
+            "europeanCatalogs": "Eiropas katalogi",
+            "or": "VAI",
+            "and": "UN",
+            "euInstitutions": "ES iestādes",
+            "settings": "Iestatījumi"
+        },
+        "statistics": {
+            "statistics": "Statistika",
+            "datasetsPerCatalog": "Datu kopas uz katalogu",
+            "currentState": "Pašreizējais stāvoklis",
+            "datasetsPerCountry": "Datu kopas uz valsti",
+            "selectType": "Atlasīt statistikas veidu",
+            "datasetsPerCountryAndCatalog": "Datu kopas uz valsti un katalogu",
+            "evolution": "Attīstība",
+            "evolutionStartEnd": "Kopējā datu kopu skaita attīstība no {start_date} līdz {end_date}",
+            "increaseStartEnd": "{dataset_model} pieaugums % no {start_date} līdz {end_date}",
+            "totalNumber": "Kopējais datu kopu skaits",
+            "datasetsPerCategory": "Datu kopas uz kategoriju",
+            "selectTimePeriod": "Atlasīt laika periodu",
+            "evolutionNumber": "{dataset_model} skaita attīstība no {start_date} līdz {end_date}",
+            "numberDate": "{dataset_model} skaits kopš {date}"
+        },
+        "categories": {
+            "tran": "Transports",
+            "heal": "Veselība",
+            "tech": "Zinātne un tehnoloģija",
+            "envi": "Vide",
+            "econ": "Ekonomika un finanses",
+            "soci": "Iedzīvotāji un sabiedrība",
+            "agri": "Lauksaimniecība, zivsaimniecība, mežsaimniecība un pārtika",
+            "educ": "Izglītība, kultūra un sports",
+            "ener": "Enerģētika",
+            "intr": "Starptautiskie jautājumi",
+            "gove": "Pārvalde un publiskais sektors",
+            "just": "Tieslietas, tiesību sistēma un sabiedrības drošība",
+            "regi": "Reģioni un pilsētas"
+        },
+        "pagination": {
+            "nextPage": "Tālāk",
+            "previousPage": "Atpakaļ"
+        },
+        "navigation": {
+            "navItems": {
+                "home": "Sākumlapa",
+                "about": "Par",
+                "data": "Dati",
+                "privacyPolicy": "Privātuma politika",
+                "map": "Karte",
+                "imprint": "Nospiedums"
+            }
+        },
+        "catalogsAndDatasets": {
+            "noDescriptionAvailable": "Apraksts nav pieejams",
+            "more": "Vairāk"
+        },
+        "datasetCategories": {
+            "foundCategories": "{number} atrasta kategorija",
+            "foundCategory": "{number} atrastas kategorijas",
+            "noCategories": "Nav atrastas kategorijas"
+        },
+        "mapModal": {
+            "fullscreen": "Pilnekrāna režīms",
+            "findDatasets": "Piemērot",
+            "reset": "Notīrīt",
+            "close": "Aizvērt",
+            "drawRectangleMsg": "Uzzīmējiet taisnstūri, lai izvēlētos reģionu",
+            "disclaimer": "Atruna",
+            "copyright": "Map © OpenStreetMap atbalstītāji"
+        },
+        "similarDatasets": {
+            "similar": "Līdzīgas",
+            "verySimilar": "Ļoti līdzīgas",
+            "marginalSimilar": "Attāli līdzīgas",
+            "notFound": "Netika atrasta neviena līdzīga datu kopa.",
+            "lessSimilar": "Mazāk līdzīgas",
+            "similarDatasets": "Līdzīgas datu kopas"
+        },
+        "searchTabs": {
+            "editorialContent": "Redakcionālais saturs"
+        },
+        "visualisation": {
+            "loading": "Notiek vizualizācijas ielāde...",
+            "previewAvailable": "Pieejams priekšskatījums",
+            "info": "Ja vizualizācija neielādējas dažu sekunžu laikā, klikšķiniet šeit."
+        },
+        "catalog": {
+            "loadingMessage": "Katalogi ir atgūti",
+            "searchBar": {
+                "placeholder": "Meklēt katalogus"
+            },
+            "geoBoundsMessageRemove": "Aizveriet šo paziņojumu, lai noņemtu ierobežojumu, vai izmantojiet attiestatīšanas funkciju.",
+            "countMessage": "Atrastie katalogi"
+        },
+        "sparql": {
+            "subHeadlineText2": "Lai palīdzētu lietotājiem izveidot noderīgus SPARQL vaicājumus, mēs nodrošinām lapu ar iespējotu <a href='{sample_sparql_queries}'>sample SPARQL queries</a>, ko var izpildīt, izmantojot mūsu galapunktu. Datu kopas un katalogi, kas portālā publicēti kā RDF trīskārši, atbilst <a href='https://github.com/SEMICeu/DCAT-AP'>DCAT-AP specification</a>. Lai uzzinātu vairāk metadatu ontoloģijas, skatiet Data.europa.eu academy lapu DCAT-AP vietnē: <a href=' https://data.europa.eu/en/academy/dcat-and-dcat-ap'> https://data.europa.eu/en/academy/dcat-and-dcat-ap</a>.",
+            "subHeadlineText1": "Visus Data.europa.eu metadatus glabā kā RDF triples (<a href='https://www.w3.org/RDF/'>RDF</a>), un šajā beigu punktā tos var meklēt, izmantojot SPARQL vaicājumu valodu. Vaicājumus var veikt, izmantojot vaicājumu redaktoru (turpmāk) vai mašīnlasāmu beigupunktu (<a href='https://data.europa.eu/sparql'>https://data.europa.eu/sparql</a>)."
+        },
+        "distributions": {
+            "footerLink": "Lejupielādēt"
+        },
+        "distributionDetails": "{}",
+        "spokenLanguage": "Angļu valodā",
+        "cite": {
+            "copyToClipboard": "Kopija uz lipekli",
+            "title": "Norādīt šo datu kopu"
+        },
+        "home": {
+            "msg": "Atvainojiet, šajā lapā vēl nav satura. Apmeklējiet datu sadaļu, lai kaut ko redzētu!"
+        },
+        "imprint": {
+            "msg": "IEVIETOJIET NOSPIEDUMU ŠEIT"
+        }
+    }
+}

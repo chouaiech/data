@@ -1,0 +1,299 @@
+{
+  "PIVEAU_HUB_SEARCH_SERVICE_PORT": 8080,
+  "PIVEAU_HUB_SEARCH_GAZETTEER_CONFIG": {
+    "url": "{{env.HUB_SEARCH_GAZETTEER_CONFIG_URL}}"
+  },
+  "PIVEAU_HUB_SEARCH_CLI_CONFIG": {
+    "http": {},
+    "telnet": {}
+  },
+  "PIVEAU_HUB_SEARCH_SITEMAP_CONFIG": {
+    "url": "https://www.europeandataportal.eu/data/",
+    "drupal": "https://www.europeandataportal.eu/sitemap_drupal.xml",
+    "languages": ["bg","es","cs","da","de","et","el","en","fr","ga","hr","it","lv","lt","hu","mt","nl","pl","pt","ro","sk","sl","fi","sv","no"],
+    "size": 10000,
+    "interval": 86400000
+  },
+  "PIVEAU_HUB_SEARCH_FEED_CONFIG": {
+    "title": "data.europa.eu",
+    "relative_path_datasets": "/data/datasets/",
+    "relative_path_search": "/data/search",
+    "relative_path_datasets_api_endpoint": "/api/hub/search/datasets/"
+  },
+  "PIVEAU_HUB_SEARCH_API_KEY": "{{env.HUB_SEARCH_API_KEY}}",
+  "PIVEAU_HUB_SEARCH_ES_CONFIG": {
+    "user": "elastic",
+    "password": "{{env.ELASTIC_PASSWORD}}",
+    "host": "elasticsearch",
+    "port": 9200,
+    "scheme": "http",    
+    "circuitBreakerTries": 10,
+    "index": {
+      "dataset": {
+        "max_agg_size": 250,
+        "max_result_window": 2000000,
+        "settings": "conf/elasticsearch/settings/dataset/settings.json",
+        "mapping": "conf/elasticsearch/mapping/dataset/standard.json",
+        "boost": {
+          "title": 10.0,
+          "keywords": 5.0,
+          "description": 3.0
+        },
+        "searchParams": [
+          {
+            "name": "scoring",
+            "field": "quality_meas.scoring"
+          },
+          {
+            "name": "temporal",
+            "field": "temporal"
+          },
+          {
+            "name": "spatial",
+            "field": "spatial"
+          },
+          {
+            "name": "dataServices",
+            "field": "distributions.access_service"
+          },
+          {
+            "name": "countryData",
+            "values": ["eu", "io"]
+          },
+          {
+            "name": "autocomplete",
+            "field": "title.*.autocomplete"
+          }
+        ],
+        "facets": [
+          {
+            "name": "dataScope",
+            "title": "Data scope",
+            "path": "country",
+            "type": "nested",
+            "facets": [
+              {
+                "name": "eu",
+                "title": "European Union Data",
+                "path": "country",
+                "type": "mustNotMatch",
+                "match": false,
+                "values": ["eu"]
+              },
+              {
+                "name": "io",
+                "title": "International Data",
+                "path": "country",
+                "type": "mustNotMatch",
+                "match": false,
+                "values": ["io"]
+              },
+              {
+                "name": "countryData",
+                "title": "National Data",
+                "path": "country",
+                "type": "mustNotMatch",
+                "match": true,
+                "values": ["eu", "io"]
+              }
+            ]
+          },
+          {
+            "name": "country",
+            "title": "Provenance",
+            "path": "country"
+          },
+          {
+            "name": "catalog",
+            "title": "Catalogues",
+            "path": "catalog"
+          },
+          {
+            "name": "categories",
+            "title": "Categories",
+            "path": "categories"
+          },
+          {
+            "name": "publisher",
+            "title": "Publisher",
+            "path": "publisher",
+            "aggregation_term": "resource",
+            "display_id": "resource",
+            "display_title": "name"
+          },
+          {
+            "name": "keywords",
+            "title": "Keywords",
+            "path": "keywords"
+          },
+          {
+            "name": "scoring",
+            "title": "Scoring",
+            "type": "nested",
+            "facets": [
+              {
+                "name": "excellentScoring",
+                "title": "Excellent Scoring",
+                "path": "quality_meas.scoring",
+                "type": "range",
+                "from": 351,
+                "to": 406
+              },
+              {
+                "name": "goodScoring",
+                "title": "Good Scoring",
+                "path": "quality_meas.scoring",
+                "type": "range",
+                "from": 221,
+                "to": 351
+              },
+              {
+                "name": "sufficientScoring",
+                "title": "Sufficient Scoring",
+                "path": "quality_meas.scoring",
+                "type": "range",
+                "from": 121,
+                "to": 221
+              },
+              {
+                "name": "badScoring",
+                "title": "Bad Scoring",
+                "path": "quality_meas.scoring",
+                "type": "range",
+                "from": 0,
+                "to": 121
+              }
+            ]
+          },
+          {
+            "name": "format",
+            "title": "Formats",
+            "path": "distributions.format"
+          },
+          {
+            "name": "license",
+            "title": "Licenses",
+            "path": "distributions.license"
+          }
+        ]
+      },
+      "catalogue": {
+        "max_agg_size": 50,
+        "max_result_window": 10000,
+        "settings": "conf/elasticsearch/settings.json",
+        "mapping": "conf/elasticsearch/mapping/catalogue/standard.json",
+        "facets": [
+          {
+            "name": "country",
+            "title": "Countries",
+            "path": "country"
+          }
+        ],
+        "searchParams": [
+          {
+            "name": "temporal",
+            "field": "issued"
+          },
+          {
+            "name": "spatial",
+            "field": "spatial"
+          },
+          {
+            "name": "autocomplete",
+            "field": "title.*.autocomplete"
+          }
+        ]
+      },
+      "dataservice": {
+        "max_agg_size": 50,
+        "max_result_window": 10000,
+        "settings": "conf/elasticsearch/settings.json",
+        "mapping": "conf/elasticsearch/mapping/dataservice/standard.json",
+        "facets": [],
+        "searchParams": [
+          {
+            "name": "autocomplete",
+            "field": "title.*.autocomplete"
+          }
+        ]
+      },
+      "vocabulary": {
+        "max_agg_size": 50,
+        "max_result_window": 10000,
+        "settings": "conf/elasticsearch/settings.json",
+        "mapping": "conf/elasticsearch/mapping/vocabulary/standard.json",
+        "facets": [],
+        "searchParams": [
+          {
+            "name": "autocomplete",
+            "field": "pref_label.*.autocomplete"
+          }
+        ]
+      },
+      "dataset-revisions": {
+        "max_agg_size": 50,
+        "max_result_window": 10000,
+        "settings": "conf/elasticsearch/settings/dataset/settings.json",
+        "mapping": "conf/elasticsearch/mapping/dataset/standard.json",
+        "indexTemplate": "conf/elasticsearch/indexTemplate.json",
+        "policy": "conf/elasticsearch/policy.json",
+        "facets": [],
+        "searchParams": []
+      }
+    },
+    "vocabulary": {
+      "dataset-type": {
+        "fields": [
+          "type"
+        ],
+        "excludes": [
+          "distributions"
+        ],
+        "replacements": [
+          "id:id",
+          "label:pref_label.en",
+          "resource:resource"
+        ]
+      },
+      "data-theme": {
+        "fields": [
+          "categories"
+        ],
+        "replacements": [
+          "id:id",
+          "label:pref_label",
+          "resource:resource"
+        ]
+      },
+      "eurovoc": {
+        "fields": [
+          "subject"
+        ],
+        "replacements": [
+          "label:pref_label",
+          "resource:resource"
+        ]
+      },
+      "iana-media-types": {
+        "prefix": true,
+        "fields": [
+          "compress_format",
+          "package_format"
+        ],
+        "replacements": [
+          "label:pref_label.en",
+          "resource:resource"
+        ]
+      },
+      "planned-availability": {
+        "fields": [
+          "availability"
+        ],
+        "replacements": [
+          "label:pref_label.en",
+          "resource:resource"
+        ]
+      }
+    }
+  }
+}

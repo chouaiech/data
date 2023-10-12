@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dcat="http://www.w3.org/ns/dcat#"
+         xmlns:dc="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+
+  <dcat:Catalog rdf:about="https://example.eu/id/catalogue/example-catalogue">
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-12-06T10:08:14Z</dc:modified>
+    <dc:type>dcat-ap</dc:type>
+    <dc:description xml:lang="en">Open Data Portal Germany</dc:description>
+    <dc:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+    <dc:publisher>
+      <foaf:Agent>
+        <foaf:homepage rdf:resource="http://www.fokus.fraunhofer.de"/>
+        <foaf:name>Fraunhofer FOKUS</foaf:name>
+      </foaf:Agent>
+    </dc:publisher>
+
+    <dc:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/GBR"/>
+    <dc:title xml:lang="de">GovData</dc:title>
+    <dcat:record rdf:resource="https://europeandataportal.eu/set/record/test-dataset-1"/>
+    <dcat:dataset rdf:resource="https://europeandataportal.eu/set/data/test-dataset-1"/>
+    <dcat:record rdf:resource="https://europeandataportal.eu/set/record/test-dataset-2"/>
+    <dcat:dataset rdf:resource="https://europeandataportal.eu/set/data/test-dataset-2"/>
+  </dcat:Catalog>
+
+</rdf:RDF>

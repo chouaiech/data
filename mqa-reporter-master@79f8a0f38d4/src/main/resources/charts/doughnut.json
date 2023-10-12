@@ -1,0 +1,55 @@
+{
+  "backgroundColor": "rgb(255, 255, 255)",
+  "width": 450,
+  "height": 300,
+  "format": "png",
+  "chart": {
+    "type": "doughnut",
+    "data": {
+      "labels": [],
+      "datasets": [
+        {
+          "label": " ",
+          "data": [],
+          "backgroundColor": [
+            "rgb(60, 175, 206)",
+            "rgb(183, 242, 229)"
+          ],
+          "borderColor": "rgb(255,255,255)",
+          "borderWidth": 1
+        }
+      ]
+    },
+    "options": {
+      "title": {
+        "display": false,
+        "text": "Add Chart Title here",
+        "fontColor": "rgb(33,37,41)",
+        "fontSize": 18
+      },
+      "cutoutPercentage": 80,
+      "rotation": 0.7,
+      "plugins": {
+        "legend": false,
+        "outlabels": {
+          "text": "%l %p",
+          "color": "rgb(33, 37, 41)",
+          "stretch": 25,
+          "font": {
+            "resizable": true,
+            "minSize": 18,
+            "maxSize": 22
+          }
+        }
+      },
+      "layout": {
+        "padding": {
+          "left": 0,
+          "right": 0,
+          "top": 40,
+          "bottom": 40
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:dcat="http://www.w3.org/ns/dcat#"
+         xmlns:dqv="http://www.w3.org/ns/dqv#"
+         xmlns:dc="http://purl.org/dc/terms/"
+         xmlns:schema="http://schema.org/"
+         xmlns:ns0="http://www.w3.org/ns/locn#"
+         xmlns:ns1="https://spdx.org/rdf/terms/#">
+
+  <vcard:Organization rdf:about="https://example.de/def/contact/fokus=mailto:contact@example.de">
+    <vcard:fn>Fraunhofer FOKUS</vcard:fn>
+    <vcard:hasEmail rdf:resource="mailto:contact@example.de"/>
+  </vcard:Organization>
+
+  <foaf:Organization rdf:about="https://example.de/def/publisher/fokus=mailto:publisher@example.de">
+    <foaf:mbox>mailto:publisher@example.de</foaf:mbox>
+    <foaf:name>Fraunhofer FOKUS</foaf:name>
+  </foaf:Organization>
+
+  <dcat:Dataset rdf:about="https://example.eu/set/data/test-dataset-1">
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-12-06T09:47:08.360541</dc:modified>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-16T00:00:00</dc:issued>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://example.eu/set/distribution/49c09c2a-9fe0-48e4-a7c0-3ca8aab27d2f">
+        <dc:format>CSV</dc:format>
+        <dcat:accessURL rdf:resource="https://www.statistik.sachsen.de/genonline/online?sequenz=tabelleDownload&amp;selectionname=61511-032K&amp;regionalschluessel="/>
+        <dc:license rdf:resource="http://dcat-ap.de/def/licenses/dl-by-de/2.0"/>
+        <dcat:mediaType>text/csv</dcat:mediaType>
+        <dc:description>CSV-Datei der Tabelle</dc:description>
+        <dc:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
+        <dc:identifier>https://www.statistik.sachsen.de/genonline/61511-032k</dc:identifier>
+      </dcat:Distribution>
+    </dcat:distribution>
+
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <dcat:keyword>landkreis-a</dcat:keyword>
+    <dcat:keyword>höchster-kaufwert</dcat:keyword>
+    <dcat:keyword>durchschnittlicher-kaufwert</dcat:keyword>
+    <dcat:keyword>baureifes-land</dcat:keyword>
+    <dcat:keyword>veräußerte-fläche</dcat:keyword>
+    <dcat:keyword>landkreis-b</dcat:keyword>
+    <dcat:keyword>kauffälle</dcat:keyword>
+    <dcat:keyword>landkreis-bc-land</dcat:keyword>
+    <dcat:keyword>niedrigster-kaufwert</dcat:keyword>
+    <dc:temporal>
+      <dc:PeriodOfTime>
+        <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1993-01-01T00:00:00</schema:startDate>
+        <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1994-01-31T00:00:00</schema:endDate>
+      </dc:PeriodOfTime>
+    </dc:temporal>
+
+    <dcat:contactPoint rdf:resource="https://example.de/def/contact/fokus=mailto:contact@example.de"/>
+    <dcat:landingPage rdf:resource="http://landingpage.de"/>
+    <dc:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
+    <dc:description>This is a second example dataset</dc:description>
+    <dc:publisher rdf:resource="https://example.de/def/publisher/fokus=mailto:publisher@example.de"/>
+    <dc:spatial>
+      <dc:Location>
+        <ns0:geometry rdf:datatype="http://www.openlinksw.com/schemas/virtrdf#Geometry">POLYGON((11.67 51.8,15.05 51.8,15.05 50,11.67 50,11.67 51.8))</ns0:geometry>
+        <ns0:geometry rdf:datatype="https://www.iana.org/assignments/media-types/application/vnd.geo+json">{&quot;type&quot;: &quot;Polygon&quot;, &quot;coordinates&quot;: [[[11.67, 51.8], [15.05, 51.8], [15.05, 50.0], [11.67, 50.0], [11.67, 51.8]]]}</ns0:geometry>
+      </dc:Location>
+    </dc:spatial>
+
+    <dc:title>Example Dataset 1</dc:title>
+    <dc:identifier>https://www.statistik.sachsen.de/genonline/online?sequenz=tabelleErgebnis&amp;selectionname=61511-032K&amp;regionalschluessel=</dc:identifier>
+  </dcat:Dataset>
+
+  <dcat:CatalogRecord rdf:about="https://example.eu/set/record/test-dataset-1">
+    <dc:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-12-06T18:26:38Z</dc:created>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-12-06T18:26:38Z</dc:modified>
+    <foaf:primaryTopic rdf:resource="https://example.eu/set/data/test-dataset-1"/>
+    <dqv:hasQualityMetadata rdf:resource="https://example.eu/id/metrics/test-dataset-1"/>
+    <ns1:checksum>
+      <ns1:Checksum>
+        <ns1:algorithm rdf:resource="https://spdx.org/rdf/terms/#checksumAlgorithm_md5"/>
+        <ns1:checksumValue>c4d6e40388e7e7f7c4ef0ff0f76b12f</ns1:checksumValue>
+      </ns1:Checksum>
+    </ns1:checksum>
+    <dc:identifier>https://www.statistik.sachsen.de/genonline/online?sequenz=tabelleErgebnis&amp;selectionname=61511-032K&amp;regionalschluessel=</dc:identifier>
+  </dcat:CatalogRecord>
+
+</rdf:RDF>

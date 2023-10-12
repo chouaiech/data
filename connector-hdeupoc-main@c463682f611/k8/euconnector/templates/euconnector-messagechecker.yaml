@@ -1,0 +1,57 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: eu-messagechecker-service
+  namespace: {{ .Values.namespace }}
+spec:
+  selector:
+    app: eu-messagechecker
+  ports:
+    - protocol: TCP
+      port: 8150
+      targetPort: 8150
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: eu-messagechecker
+  namespace: {{ .Values.namespace }}
+  labels:
+    app: eu-messagechecker
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: eu-messagechecker
+  template:
+    metadata:
+      labels:
+        app: eu-messagechecker
+    spec:
+      volumes:
+      - name: eu-configmap
+        configMap:
+          name: eu-configmap
+          items:
+            - key: config.yml
+              path: config.yml
+      - name: eu-pass
+        secret:
+          secretName: passwords
+          items:
+            - key: .domibuspass
+              path: .domibuspass
+      containers:
+      - name: eu-messagechecker
+        image: code.europa.eu:4567/healthdataeu-nodes/hdeupoc/cs_messagechecker:{{ .Values.releaseTag }}
+        ports:
+        - containerPort: 8150
+        volumeMounts:
+        - name: eu-configmap
+          mountPath: /usr/src/app/config.yml
+          subPath: config.yml
+          readOnly: true
+        - name: eu-pass
+          mountPath: /root/.domibuspass
+          subPath: .domibuspass
+          readOnly: true

@@ -1,0 +1,379 @@
+{
+    "message": {
+        "datasetDetails": {
+            "openResource": "Mergeți la resursă",
+            "upload": {
+                "unknownFormat": "Format necunoscut",
+                "resetText": "Resetați întregul formular?",
+                "reset": "Resetare formular",
+                "individual": "Individual",
+                "person": "Persoană",
+                "organisation": "Organizație"
+            },
+            "about": "despre",
+            "geoInfo": "Sfera setului de date",
+            "translation": {
+                "link": "Dați clic aici pentru a vizualiza setul de date în limba originală",
+                "message": "Titlul și descrierea acestui set de date sunt traduse automat.",
+                "noTranslation": "Nu există o traducere disponibilă pentru limba dorită. Informațiile sunt afișate în limba aferentă implicită.",
+                "original": "Limba originală",
+                "update": "O traducere actualizată a acestui set de date este în curs."
+            },
+            "options": "Opțiuni",
+            "subnav": {
+                "activityStream": "Fluxul activităților",
+                "similarDatasets": "Seturi de date similare",
+                "categories": "Categorii",
+                "dataset": "Set de date"
+            },
+            "edit": "Editare",
+            "follow": "Urmăriți",
+            "preview": "Previzualizare",
+            "visualisation": "Deschidere vizualizare",
+            "additionalInfo": "Informații suplimentare",
+            "feedback": "Feedback",
+            "unfollow": "Anulare urmărire",
+            "manage": "Gestionare ",
+            "delete": "Ștergere",
+            "geoVisualisation": "Deschidere geovizualizare",
+            "download": "Descărcare",
+            "menu": "Meniu"
+        },
+        "userQueries": {
+            "searchAllQueries": "Căutare interogări…",
+            "queryDeleted": "Interogarea a fost ștearsă",
+            "querySaved": "Interogarea a fost salvată",
+            "searchQueries": "Căutare în interogările mele…",
+            "noQueryFound": "Nu s-a găsit nicio interogare",
+            "myQueries": "Interogările mele",
+            "noDescription": "Această interogare nu are nicio descriere",
+            "placeholderNotes": "de ex. Unele observații utile despre interogare",
+            "noQueriesSaved": "Nu ați salvat nicio interogare.",
+            "queryFound": "{number} interogare găsită",
+            "areYourSure": "Sigur doriți să ștergeți această interogare?",
+            "queriesFound": "{number} interogări găsite",
+            "save": "Salvare interogare",
+            "executeQuery": "Execuție interogare"
+        },
+        "header": {
+            "navigation": {
+                "about": {
+                    "beHarvestedByUs": "Punerea la dispoziție a datelor dvs.",
+                    "title": "Despre",
+                    "documentation": "Documentație",
+                    "europeanDataPortal": "Portalul european de date"
+                },
+                "training": {
+                    "whatIsOpenData": "Ce sunt datele deschise",
+                    "title": "Formare",
+                    "dataProvidersGuide": "Ghidul furnizorilor de date",
+                    "moreTrainingMaterial": "Mai multe materiale de formare",
+                    "elearning": "E-learning",
+                    "licensingAssistant": "Asistent de licențe"
+                },
+                "data": {
+                    "sparqlsearch": "Căutare SPARQL",
+                    "statistics": "Statistici",
+                    "euInternationalData": "Date ale UE și internaționale",
+                    "catalogues": "Cataloage",
+                    "datasets": "Seturi de date",
+                    "countryData": "Date ale țărilor",
+                    "metadataQuality": "Calitatea metadatelor",
+                    "title": "Date"
+                },
+                "newsEvents": {
+                    "title": "Știri și evenimente",
+                    "events": "Evenimente",
+                    "news": "Știri"
+                },
+                "impactStudies": {
+                    "studies": "Studii",
+                    "useCases": "Cazuri de utilizare",
+                    "tellUsYourStory": "Împărtășiți-ne povestea dvs.",
+                    "title": "Impact și studii",
+                    "opendataimpact": "Impactul datelor deschise",
+                    "countryInsights": "Detalii țări",
+                    "overview": "Prezentare generală",
+                    "opendatamaturity": "Maturitatea datelor cu acces liber"
+                },
+                "covid-19": {
+                    "title": "COVID-19",
+                    "datasets": "Seturi de date",
+                    "overview": "Prezentare generală",
+                    "initiatives": "Inițiative legate de date"
+                }
+            },
+            "subnav": {
+                "logout": "Deconectare",
+                "cookies": "Cookie-uri",
+                "login": "Autentificare",
+                "search": "Căutare",
+                "newsletter": "Buletin informativ",
+                "contact": "Contact",
+                "legalNotice": "Aviz juridic",
+                "faq": "Întrebări frecvente"
+            },
+            "searchOptions": {
+                "siteContent": "Conținutul site-ului",
+                "datasets": "Seturi de date"
+            },
+            "searchInputPlaceholder": "Căutare în conținutul site-ului…",
+            "dataPortal": "Portalul de date",
+            "european": "European"
+        },
+        "pagination": {
+            "previousPage": "Anterioară",
+            "nextPage": "Următoarea"
+        },
+        "statistics": {
+            "tableHead": {
+                "trend": "Tendință",
+                "country": "Țara",
+                "catalogue": "Catalog",
+                "numberOfDatasets": "Nr. de seturi de date",
+                "name": "Denumire",
+                "category": "Categorie",
+                "percent": "Procentul total de seturi de date"
+            },
+            "totalNumber": "Numărul total de seturi de date",
+            "evolution": "Evoluție",
+            "datasetsPerCountryAndCatalogue": "Seturi de date per țară și catalog",
+            "datasetsPerCountry": "Seturi de date per țară",
+            "datasetsPerCatalogue": "Seturi de date per catalog",
+            "selectTimePeriod": "Selectați intervalul de timp",
+            "selectType": "Selectați tipul de statistică",
+            "statistics": "Statistici",
+            "datasetsPerCategory": "Seturi de date per categorie",
+            "currentState": "Starea actuală",
+            "meta": {
+                "description": "Descoperiți statistici despre evoluția Portalului de date deschise. Aflați câte seturi de date există pentru fiecare țară, categorie și catalog pe data.europa.eu."
+            },
+            "page": {
+                "title": "Statistici privind Portalul de date deschise | data.europa.eu"
+            }
+        },
+        "metadata": {
+            "updatedLowerCase": "actualizat",
+            "conformsTo": "Conform cu",
+            "dataset": "Set de date",
+            "email": "E-mail",
+            "title": "Titlu",
+            "license": "Licență",
+            "name": "Denumire",
+            "upload": "Încărcare",
+            "created": "Creat",
+            "addDistribution": "Adăugare distribuire",
+            "chooseFile": "Alegeți un fișier",
+            "distribution": "Distribuire",
+            "label": "Etichetă",
+            "review": "Examinare",
+            "otherIdentifiers": "Alți identificatori",
+            "chooseFormat": "Alegeți un format",
+            "datasets": "Seturi de date",
+            "resource": "Resursă",
+            "spatial": "Spațial",
+            "deleteItem": "Sigur doriți să ștergeți acest element?",
+            "relatedResources": "Resurse conexe",
+            "accessUrl": "URL de acces",
+            "documentations": "Documentații",
+            "frequency": "Frecvență",
+            "updated": "Actualizat",
+            "no": "Nu",
+            "landingPage": "Pagina de destinație",
+            "metadataQuality": "Calitatea metadatelor",
+            "yes": "Da",
+            "chooseCategory": "Alegeți o categorie",
+            "update ": "Actualizare ",
+            "homepage": "Pagina principală",
+            "contactPoints": "Puncte de contact",
+            "chooseCatalogue": "Alegeți un catalog",
+            "chooseType": "Alegeți un tip",
+            "description": "Descriere",
+            "downloadUrl": "URL de descărcare",
+            "provenances": "Proveniență",
+            "tags": "Etichete",
+            "format": "Format",
+            "coordinates": "Coordonate",
+            "sources": "Surse",
+            "categories": "Categorii",
+            "publisher": "Autorul publicării",
+            "type": "Tip",
+            "distributions": "Distribuiri",
+            "cancel": "Anulare",
+            "identifiers": "Identificatori"
+        },
+        "footer": {
+            "newsletterText": "Abonați-vă la buletinul nostru informativ",
+            "newsletter": "Buletin informativ",
+            "fundedBy": "Finanțat de Uniunea Europeană",
+            "lastUpdated": "Ultima actualizare",
+            "links": {
+                "search": "Căutare",
+                "newsletter": "Buletin informativ",
+                "cookies": "Cookie-uri",
+                "legalNotice": "Aviz juridic",
+                "faq": "Întrebări frecvente",
+                "contact": "Contact",
+                "login": "Autentificare"
+            },
+            "followUs": "Urmăriți-ne pe",
+            "subscribe": "Abonare",
+            "helpUsImprove": "Ajutați-ne să ne îmbunătățim",
+            "managedBy": "Gestionat de Oficiul pentru Publicații al Uniunii Europene.",
+            "helpUsImproveText": "Feedbackul dvs. ne va ajuta să îmbunătățim experiența generală a utilizatorilor. Aveți sugestii?"
+        },
+        "catalogueFacets": {
+            "and": "AND",
+            "facets": {
+                "countries": "Țări",
+                "licences": "Licențe",
+                "keywords": "Cuvinte-cheie",
+                "formats": "Formate",
+                "catalogues": "Cataloage",
+                "categories": "Categorii"
+            },
+            "operator": "Operator",
+            "settings": "Setări",
+            "or": "OR",
+            "europeanCatalogues": "Cataloage europene",
+            "title": "Filtre"
+        },
+        "similarDatasets": {
+            "notFound": "Nu s-au găsit seturi de date similare.",
+            "lessSimilar": "Mai puțin similare",
+            "similarDatasets": "Seturi de date similare",
+            "verySimilar": "Extrem de similare",
+            "similar": "Similare",
+            "marginalSimilar": "Relativ similare"
+        },
+        "catalogues": {
+            "geoBoundsMessageRemove": "Închideți această notificare pentru a elimina limitarea sau folosiți funcția de resetare.",
+            "countMessage": "cataloage găsite",
+            "countMessageSingular": "catalog găsit",
+            "searchBar": {
+                "placeholder": "Căutare cataloage..."
+            },
+            "loadingMessage": "Se încarcă cataloagele…",
+            "geoBoundsMessagePre": "Căutarea dvs. a fost limitată la:",
+            "countMessageNoResult": "Niciun catalog găsit"
+        },
+        "common": {
+            "edp": {
+                "title": "Portalul european de date"
+            },
+            "currentCatalogueStatistics": "Statistici actuale cataloage",
+            "historicalCatalogueStatistics": "Statistici anterioare cataloage"
+        },
+        "categories": {
+            "tran": "Transport",
+            "heal": "Sănătate",
+            "gove": "Administrație și sectorul public",
+            "envi": "Mediu",
+            "intr": "Afaceri internaționale",
+            "agri": "Agricultură, pescuit, silvicultură și alimente",
+            "soci": "Populație și societate",
+            "econ": "Economie și finanțe",
+            "educ": "Educație, cultură și sport",
+            "ener": "Energie",
+            "tech": "Știință și tehnologie",
+            "regi": "Regiuni și orașe",
+            "just": "Justiție, sistem juridic și siguranță publică"
+        },
+        "distributions": {
+            "footerLink": "Descărcare"
+        },
+        "navigation": {
+            "navItems": {
+                "map": "Hartă",
+                "home": "Pagina principală",
+                "imprint": "Marcare",
+                "privacyPolicy": "Politica de confidențialitate",
+                "about": "Despre",
+                "data": "Date"
+            }
+        },
+        "mapModal": {
+            "disclaimer": "Declinarea responsabilității",
+            "fullscreen": "Ecran complet",
+            "findDatasets": "Aplică",
+            "close": "Închidere",
+            "drawRectangleMsg": "Glisați pentru a forma un dreptunghi și a selecta o regiune",
+            "reset": "Ștergere"
+        },
+        "datasetFacets": {
+            "facets": {
+                "catalogues": "Cataloage",
+                "formats": "Formate",
+                "categories": "Categorii",
+                "licences": "Licențe",
+                "keywords": "Cuvinte-cheie",
+                "countries": "Țări",
+                "tags": "Etichete"
+            },
+            "title": "Filtre",
+            "operator": "Operator",
+            "and": "AND",
+            "settings": "Setări",
+            "europeanCatalogues": "Cataloage europene",
+            "or": "OR"
+        },
+        "catalogue": {
+            "searchBar": {
+                "placeholder": "Căutare cataloage"
+            },
+            "countMessage": "Cataloage găsite",
+            "geoBoundsMessageRemove": "Închideți această notificare pentru a elimina limitarea sau folosiți funcția de resetare.",
+            "loadingMessage": "Se preiau cataloagele"
+        },
+        "datasets": {
+            "loadingMessage": "Se încarcă seturile de date...",
+            "geoBoundsMessagePre": "Căutarea dvs. a fost limitată la:",
+            "saveQuery": "Salvare interogare",
+            "createDataset": "Creare set de date",
+            "datasetsFeed": "Flux seturi de date",
+            "countMessageSingular": "set de date găsit",
+            "meta": {
+                "translationNotComplete": "Traducere incompletă"
+            },
+            "noResult": "Nu s-a găsit niciun set de date",
+            "geoBoundsMessageRemove": "Închideți această notificare pentru a elimina limitarea sau folosiți funcția de resetare.",
+            "searchBar": {
+                "placeholder": "Căutare seturi de date…"
+            },
+            "showMore": "Arată mai multe",
+            "findLocation": "Filtrare după localizare",
+            "countMessage": "seturi de date găsite pentru "
+        },
+        "sort": {
+            "lastCreated": "Ultima editare",
+            "nameAZ": "Nume - crescător",
+            "nameZA": "Nume - descrescător",
+            "relevance": "Relevanță",
+            "lastUpdated": "Ultima modificare",
+            "sortBy": "Ordonare după"
+        },
+        "datasetCategories": {
+            "foundCategory": "{number} categorii găsite",
+            "foundCategories": "{number} categorie găsită",
+            "noCategories": "Nicio categorie găsită"
+        },
+        "distributionLicense": {
+            "notFound": "Nicio informație de licențiere găsită.",
+            "openLA": "Deschidere asistent licență",
+            "notFoundExtended": "Nicio informație de licențiere găsită, vă rugăm să verificați sursa pentru mai multe informații despre licență.",
+            "licensingAssistant": "Asistent de licențe ",
+            "notProvided": "Nicio licență furnizată"
+        },
+        "visualisation": {
+            "previewAvailable": "Previzualizare disponibilă",
+            "info": "Dacă vizualizarea nu se încarcă în decurs de câteva secunde, dați clic aici.",
+            "loading": "Se încarcă vizualizarea..."
+        },
+        "imprint": {
+            "msg": "INTRODUCEȚI MARCAREA AICI"
+        },
+        "home": {
+            "msg": "Ne pare rău, această pagină nu are deocamdată conținut. Vizitați fila Date pentru a vedea ceva!"
+        }
+    }
+}

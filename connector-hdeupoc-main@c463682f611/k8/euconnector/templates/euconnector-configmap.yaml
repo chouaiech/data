@@ -1,0 +1,38 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: eu-configmap
+  namespace: {{ .Values.namespace }}
+data:
+  config.yml: |-
+    domibus:
+      username: {{ .Values.domibus.username }}
+      url: {{ .Values.domibus.url }}
+      port: {{ default 8080 .Values.domibus.port }}
+      usehttps: {{ default true .Values.domibus.usehttps }}
+      from: {{ .Values.domibus.from }}
+      to: {{ .Values.domibus.to }}
+    fairdatapoint:
+      usehttps: {{ default true .Values.fairdatapoint.usehttps }}
+      url: {{ .Values.fairdatapoint.url }}
+      username: {{ .Values.fairdatapoint.username }}
+    messagechecker:
+      port: 8150
+      url: eu-messagechecker-service.{{ .Values.namespace }}.svc.cluster.local
+    datadiscoverycentralservice:
+      port: 8101
+      url: eu-datadiscovery-service.{{ .Values.namespace }}.svc.cluster.local
+    datapermitcentralservice:
+      url: centralservice-datapermit
+      port: 8103
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: passwords
+  namespace: {{ .Values.namespace }}
+stringData:
+  .domibuspass: |-
+{{ .Values.domibuspass | indent 4 }}
+  .fairdatapointpass: |-
+{{ .Values.fairdatapointpass | indent 4 }}

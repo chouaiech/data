@@ -1,0 +1,224 @@
+[
+  {
+    "id": "eurovoc",
+    "uriRef": "http://publications.europa.eu/resource/authority/eurovoc",
+    "file": "eurovoc-skos-ap-act-stripped.rdf",
+    "remote": "http://publications.europa.eu/resource/distribution/eurovoc/rdf/skos_ap_act/eurovoc-skos-ap-act.rdf",
+    "tags": ["extended","skos"]
+  },
+  {
+    "id": "adms",
+    "uriRef": "http://purl.org/adms",
+    "file": "ADMS_SKOS_v1.00.rdf",
+    "remote": "https://raw.githubusercontent.com/SEMICeu/ADMS-AP/master/purl.org/ADMS_SW_v1-00_Taxonomies.rdf",
+    "tags": ["core","skos"]
+  },
+  {
+    "id": "data-theme",
+    "uriRef": "http://publications.europa.eu/resource/authority/data-theme",
+    "file": "data-theme-skos.rdf",
+    "remote": "http://publications.europa.eu/resource/distribution/data-theme/rdf/skos_ap_act/data-theme-skos-ap-act.rdf",
+    "tags": ["core","authority-tables","skos"]
+  },
+  {
+    "id": "file-type",
+    "uriRef": "http://publications.europa.eu/resource/authority/file-type",
+    "file": "filetypes-skos.rdf",
+    "remote": "http://publications.europa.eu/resource/distribution/file-type/rdf/skos_ap_act/filetypes-skos-ap-act.rdf",
+    "extensions": [
+      "piveau-filetypes-skos.rdf"
+    ],
+    "tags": ["core","authority-tables","skos"]
+  },
+  {
+    "id": "country",
+    "uriRef": "http://publications.europa.eu/resource/authority/country",
+    "file": "countries-skos.rdf",
+    "remote": "http://publications.europa.eu/resource/distribution/country/rdf/skos_ap_act/countries-skos-ap-act.rdf",
+    "extensions": [
+      "piveau-countries-skos.rdf"
+    ],
+    "tags": ["core","authority-tables","skos"]
+  },
+  {
+    "id": "continent",
+    "uriRef": "http://publications.europa.eu/resource/authority/continent",
+    "file": "continents-skos.rdf",
+    "remote": "http://publications.europa.eu/resource/distribution/continent/rdf/skos_ap_act/continents-skos-ap-act.rdf",
+    "extensions": [
+      "piveau-continents-skos.rdf"
+    ],
+    "tags": ["core","authority-tables","skos"]
+  },
+  {
+    "id": "access-right",
+    "uriRef": "http://publications.europa.eu/resource/authority/access-right",
+    "file": "access-right-skos.rdf",
+    "remote": "http://publications.europa.eu/resource/distribution/access-right/rdf/skos_ap_act/access-right-skos-ap-act.rdf",
+    "tags": ["core","authority-tables","skos"]
+  },
+  {
+    "id": "dataset-type",
+    "uriRef": "http://publications.europa.eu/resource/authority/dataset-type",
+    "file": "dataset-types-skos.rdf",
+    "remote": "http://publications.europa.eu/resource/distribution/dataset-type/rdf/skos_ap_act/dataset-types-skos-ap-act.rdf",
+    "tags": ["core","authority-tables","skos"]
+  },
+  {
+    "id": "frequency",
+    "uriRef": "http://publications.europa.eu/resource/authority/frequency",
+    "file": "frequencies-skos.rdf",
+    "remote": "http://publications.europa.eu/resource/distribution/frequency/rdf/skos_ap_act/frequencies-skos-ap-act.rdf",
+    "tags": ["core","authority-tables","skos"]
+  },
+  {
+    "id": "corporate-body",
+    "uriRef": "http://publications.europa.eu/resource/authority/corporate-body",
+    "file": "corporatebodies-skos.rdf",
+    "remote": "http://publications.europa.eu/resource/distribution/corporate-body/rdf/skos_ap_act/corporatebodies-skos-ap-act.rdf",
+    "tags": ["core","authority-tables","skos"]
+  },
+  {
+    "id": "notation-type",
+    "uriRef": "http://publications.europa.eu/resource/authority/notation-type",
+    "file": "notation-type-skos.rdf",
+    "remote": "http://publications.europa.eu/resource/distribution/notation-type/rdf/skos_ap_act/notation-type-skos-ap-act.rdf",
+    "tags": ["extended","authority-tables","skos"]
+  },
+  {
+    "id": "documentation-type",
+    "uriRef": "http://publications.europa.eu/resource/authority/documentation-type",
+    "file": "documentation-types-skos.rdf",
+    "remote": "http://publications.europa.eu/resource/distribution/documentation-type/rdf/skos_ap_act/documentation-types-skos-ap-act.rdf",
+    "tags": ["extended","authority-tables","skos"]
+  },
+  {
+    "id": "distribution-type",
+    "uriRef": "http://publications.europa.eu/resource/authority/distribution-type",
+    "file": "distribution-types-skos.rdf",
+    "remote": "http://publications.europa.eu/resource/distribution/distribution-type/rdf/skos_ap_act/distribution-types-skos-ap-act.rdf",
+    "tags": ["extended","authority-tables","skos"]
+  },
+  {
+    "id": "dataset-status",
+    "uriRef": "http://publications.europa.eu/resource/authority/dataset-status",
+    "file": "datasetstatus-skos.rdf",
+    "remote": "http://publications.europa.eu/resource/distribution/dataset-status/rdf/skos_ap_act/datasetstatus-skos-ap-act.rdf",
+    "tags": ["extended","authority-tables","skos"]
+  },
+  {
+    "id": "language",
+    "uriRef": "http://publications.europa.eu/resource/authority/language",
+    "file": "languages-skos.rdf",
+    "remote": "http://publications.europa.eu/resource/distribution/language/rdf/skos_ap_act/languages-skos-ap-act.rdf",
+    "tags": ["core","authority-tables","skos"]
+  },
+  {
+    "id": "place",
+    "uriRef": "http://publications.europa.eu/resource/authority/place",
+    "file": "places-skos.rdf",
+    "remote": "http://publications.europa.eu/resource/distribution/place/rdf/skos_ap_act/places-skos-ap-act.rdf",
+    "tags": ["core","authority-tables","skos"]
+  },
+  {
+    "id": "planned-availability",
+    "uriRef": "http://publications.europa.eu/resource/authority/planned-availability",
+    "file": "planned-availability-skos.rdf",
+    "remote": "http://publications.europa.eu/resource/distribution/planned-availability/rdf/skos_ap_act/planned-availability-skos-ap-act.rdf",
+    "tags": ["core","authority-tables","skos"]
+  },
+  {
+    "id": "licence",
+    "uriRef": "http://publications.europa.eu/resource/authority/licence",
+    "file": "licences-skos.rdf",
+    "remote": "http://publications.europa.eu/resource/distribution/licence/rdf/skos_ap_act/licences-skos-ap-act.rdf",
+    "extensions": [
+      "piveau-licences-skos.rdf"
+    ],
+    "tags": ["core","authority-tables","skos"]
+  },
+  {
+    "id": "contributors",
+    "uriRef": "http://dcat-ap.de/def/contributors",
+    "file": "de-contributors-skos.rdf",
+    "remote": "https://www.dcat-ap.de/def/contributors/20230424.rdf",
+    "tags": ["skos","dcat-ap.de"]
+  },
+  {
+    "id": "dataset-types",
+    "uriRef": "http://dcat-ap.de/def/datasetTypes",
+    "file": "de-dataset-types-skos.rdf",
+    "remote": "https://www.dcat-ap.de/def/datasetTypes/1_0.rdf",
+    "tags": ["skos","dcat-ap.de"]
+  },
+  {
+    "id": "hash-algorithms",
+    "uriRef": "http://dcat-ap.de/def/hashAlgorithms",
+    "file": "de-hash-algorithms-skos.rdf",
+    "remote": "https://www.dcat-ap.de/def/hashAlgorithms/20200729.rdf",
+    "tags": ["skos","dcat-ap.de"]
+  },
+  {
+    "id": "licence",
+    "uriRef": "http://dcat-ap.de/def/licenses",
+    "file": "de-licenses-skos.rdf",
+    "remote": "https://www.dcat-ap.de/def/licenses/20210721.rdf",
+    "tags": ["skos","dcat-ap.de"]
+  },
+  {
+    "id": "planned-availability",
+    "uriRef": "http://dcat-ap.de/def/plannedAvailability",
+    "file": "de-planned-availability-skos.rdf",
+    "remote": "https://www.dcat-ap.de/def/plannedAvailability/1_0.rdf",
+    "tags": ["skos","dcat-ap.de"]
+  },
+  {
+    "id": "political-geocoding-level",
+    "uriRef": "http://dcat-ap.de/def/politicalGeocoding/Level",
+    "file": "de-political-geocoding-level-skos.rdf",
+    "remote": "https://www.dcat-ap.de/def/politicalGeocoding/Level/1_0.rdf",
+    "tags": ["skos","dcat-ap.de"]
+  },
+  {
+    "id": "political-geocoding-district-key",
+    "uriRef": "http://dcat-ap.de/def/politicalGeocoding/districtKey",
+    "file": "de-district-key-skos.rdf",
+    "remote": "https://www.dcat-ap.de/def/politicalGeocoding/districtKey/20210731.rdf",
+    "tags": ["skos","dcat-ap.de"]
+  },
+  {
+    "id": "political-geocoding-government-district-key",
+    "uriRef": "http://dcat-ap.de/def/politicalGeocoding/governmentDistrictKey",
+    "file": "de-government-district-key-skos.rdf",
+    "remote": "https://www.dcat-ap.de/def/politicalGeocoding/governmentDistrictKey/20190731.rdf",
+    "tags": ["skos","dcat-ap.de"]
+  },
+  {
+    "id": "political-geocoding-municipal-association-key",
+    "uriRef": "http://dcat-ap.de/def/politicalGeocoding/municipalAssociationKey",
+    "file": "de-municipal-association-key-skos.rdf",
+    "remote": "https://www.dcat-ap.de/def/politicalGeocoding/municipalAssociationKey/20230331.rdf",
+    "tags": ["skos","dcat-ap.de"]
+  },
+  {
+    "id": "political-geocoding-municipality-key",
+    "uriRef": "http://dcat-ap.de/def/politicalGeocoding/municipalityKey",
+    "file": "de-municipality-key-skos.rdf",
+    "remote": "https://www.dcat-ap.de/def/politicalGeocoding/municipalityKey/20230331.rdf",
+    "tags": ["skos","dcat-ap.de"]
+  },
+  {
+    "id": "political-geocoding-regional-key",
+    "uriRef": "http://dcat-ap.de/def/politicalGeocoding/regionalKey",
+    "file": "de-regional-key-skos.rdf",
+    "remote": "https://www.dcat-ap.de/def/politicalGeocoding/regionalKey/20230331.rdf",
+    "tags": ["skos","dcat-ap.de"]
+  },
+  {
+    "id": "political-geocoding-state-key",
+    "uriRef": "http://dcat-ap.de/def/politicalGeocoding/stateKey",
+    "file": "de-state-key-skos.rdf",
+    "remote": "https://www.dcat-ap.de/def/politicalGeocoding/stateKey/20100401.rdf",
+    "tags": ["skos","dcat-ap.de"]
+  }
+]

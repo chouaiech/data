@@ -1,0 +1,757 @@
+{
+  "result": {
+    "country": {
+      "resource": "http://publications.europa.eu/resource/authority/continent/EUROPE",
+      "label": "EU institutions",
+      "id": "eu"
+    },
+    "keywords": [
+      {
+        "language": "en",
+        "id": "risk-assessment",
+        "label": "risk-assessment"
+      },
+      {
+        "language": "en",
+        "id": "systematic-review",
+        "label": "systematic-review"
+      },
+      {
+        "language": "en",
+        "id": "qps",
+        "label": "QPS"
+      },
+      {
+        "language": "en",
+        "id": "safety",
+        "label": "safety"
+      },
+      {
+        "language": "en",
+        "id": "literature-search",
+        "label": "literature-search"
+      }
+    ],
+    "catalog": {
+      "country": {
+        "resource": "http://publications.europa.eu/resource/authority/continent/EUROPE",
+        "label": "EU institutions",
+        "id": "eu"
+      },
+      "creator": null,
+      "catalog": null,
+      "is_part_of": "http://data.europa.eu/88u/catalogue/european-union-open-data-portal",
+      "description": {
+        "en": "European Food Safety Authority"
+      },
+      "language": [
+        {
+          "resource": "http://publications.europa.eu/resource/authority/language/ENG",
+          "id": "en",
+          "label": "English"
+        }
+      ],
+      "title": {
+        "en": "European Food Safety Authority"
+      },
+      "theme_taxonomy": null,
+      "license": null,
+      "spatial_resource": null,
+      "rights": null,
+      "publisher": {
+        "name": "European Food Safety Authority",
+        "type": "Organization",
+        "resource": "http://publications.europa.eu/resource/authority/corporate-body/EFSA",
+        "homepage": "https://www.efsa.europa.eu"
+      },
+      "modified": "2021-12-03T11:20:22Z",
+      "id": "efsa",
+      "has_part": null,
+      "spatial": [],
+      "issued": "2021-12-03T11:20:22Z",
+      "homepage": null
+    },
+    "subject": [
+      {
+        "resource": "http://eurovoc.europa.eu/3135",
+        "label": {
+          "de": "Giftstoff",
+          "fi": "myrkyllinen aine",
+          "pt": "substância tóxica",
+          "bg": "токсично вещество",
+          "lt": "toksinė medžiaga",
+          "hr": "otrovna tvar",
+          "lv": "toksiska viela",
+          "fr": "substance toxique",
+          "hu": "toxikus anyag",
+          "sk": "toxická látka",
+          "sl": "strupena snov",
+          "ga": "substaint thocsaineach",
+          "sq": "substancë toksike",
+          "mk": "токсична материја",
+          "sr": "отровна материја",
+          "sv": "giftigt ämne",
+          "el": "τοξική ουσία",
+          "mt": "sustanza tossika",
+          "en": "toxic substance",
+          "it": "sostanza tossica",
+          "es": "sustancia tóxica",
+          "et": "mürgine aine",
+          "cs": "jedovatá látka",
+          "pl": "substancja toksyczna",
+          "ro": "substanțe toxice",
+          "da": "giftigt stof",
+          "nl": "giftige stof"
+        }
+      },
+      {
+        "resource": "http://eurovoc.europa.eu/6111",
+        "label": {
+          "de": "Enzym",
+          "fi": "entsyymi",
+          "pt": "enzima",
+          "bg": "ензим",
+          "lt": "fermentas",
+          "hr": "enzim",
+          "lv": "ferments",
+          "fr": "enzyme",
+          "hu": "enzim",
+          "sk": "enzým",
+          "sl": "encim",
+          "ga": "einsím",
+          "sq": "enzimë",
+          "mk": "ензим",
+          "sr": "ензим",
+          "sv": "enzym",
+          "el": "ένζυμο",
+          "mt": "enzima",
+          "en": "enzyme",
+          "it": "enzima",
+          "es": "enzima",
+          "et": "ensüüm",
+          "cs": "enzym",
+          "pl": "enzym",
+          "ro": "enzime",
+          "da": "enzym",
+          "nl": "enzym"
+        }
+      },
+      {
+        "resource": "http://eurovoc.europa.eu/4474",
+        "label": {
+          "de": "Toxikologie",
+          "fi": "toksikologia",
+          "pt": "toxicologia",
+          "bg": "токсикология",
+          "lt": "toksikologija",
+          "hr": "toksikologija",
+          "lv": "toksikoloģija",
+          "fr": "toxicologie",
+          "hu": "toxikológia",
+          "sk": "toxikológia",
+          "sl": "toksikologija",
+          "ga": "tocsaineolaíocht",
+          "sq": "toksikologji",
+          "mk": "токсикологија",
+          "sr": "токсикологија",
+          "sv": "toxikologi",
+          "mt": "tossikoloġija",
+          "el": "τοξικολογία",
+          "en": "toxicology",
+          "it": "tossicologia",
+          "es": "toxicología",
+          "et": "toksikoloogia",
+          "cs": "toxikologie",
+          "pl": "toksykologia",
+          "da": "toksikologi",
+          "ro": "toxicologie",
+          "nl": "toxicologie"
+        }
+      },
+      {
+        "resource": "http://eurovoc.europa.eu/1224",
+        "label": {
+          "de": "Futtermittel",
+          "fi": "rehut",
+          "pt": "alimento para gado",
+          "bg": "храна за добитъка",
+          "lt": "gyvulių pašaras",
+          "lv": "dzīvnieku barība",
+          "hr": "stočna hrana",
+          "fr": "aliment du bétail",
+          "hu": "állati takarmány",
+          "sk": "krmivo pre zvieratá",
+          "sl": "živalska krma",
+          "ga": "ábhair beathúcháin ainmhithe",
+          "sq": "ushqim për kafshë",
+          "mk": "сточна храна",
+          "sr": "сточна храна",
+          "sv": "fodermedel",
+          "mt": "għalf tal-annimali",
+          "el": "ζωοτροφές",
+          "en": "animal feedingstuffs",
+          "it": "alimenti per il bestiame",
+          "es": "alimento para el ganado",
+          "et": "loomatoit",
+          "cs": "krmiva",
+          "pl": "karma dla zwierząt",
+          "da": "foder",
+          "ro": "hrană pentru animale",
+          "nl": "veevoeder"
+        }
+      },
+      {
+        "resource": "http://eurovoc.europa.eu/3730",
+        "label": {
+          "de": "Gesundheitsrisiko",
+          "fi": "terveysvaara",
+          "pt": "risco sanitário",
+          "bg": "здравен риск",
+          "lt": "sveikatos rizika",
+          "lv": "veselības apdraudējums",
+          "hr": "zdravstveni rizik",
+          "fr": "risque sanitaire",
+          "hu": "egészségügyi kockázat",
+          "sk": "zdravotné riziko",
+          "sl": "tveganje za zdravje",
+          "ga": "riosca sláinte",
+          "mk": "здравствен ризик",
+          "sq": "risk shëndetësor",
+          "sr": "здравствени ризик",
+          "sv": "hälsorisk",
+          "mt": "riskju għas-saħħa",
+          "el": "κίνδυνος για την υγεία",
+          "en": "health risk",
+          "it": "rischio sanitario",
+          "es": "riesgo sanitario",
+          "et": "terviserisk",
+          "cs": "zdravotní riziko",
+          "pl": "ryzyko zdrowotne",
+          "ro": "riscuri de sănătate",
+          "da": "sundhedsrisiko",
+          "nl": "gevaren voor de gezondheid"
+        }
+      },
+      {
+        "resource": "http://eurovoc.europa.eu/6569",
+        "label": {
+          "de": "Lebensmittelsicherheit",
+          "fi": "elintarviketurvallisuus",
+          "pt": "segurança dos alimentos",
+          "bg": "безопасност на храните",
+          "lt": "maisto sauga",
+          "lv": "pārtikas nekaitīgums",
+          "hr": "sigurnost hrane",
+          "fr": "sécurité des aliments",
+          "hu": "élelmiszer-biztonság",
+          "sk": "bezpečnosť potravín",
+          "sl": "varnost hrane",
+          "ga": "sábháilteacht bia",
+          "sq": "siguri ushqimore",
+          "mk": "безбедност на храната",
+          "sr": "безбедност хране",
+          "sv": "livsmedelssäkerhet",
+          "el": "ασφάλεια των τροφίμων",
+          "mt": "sikurezza alimentari",
+          "en": "food safety",
+          "it": "sicurezza degli alimenti",
+          "es": "seguridad de los alimentos",
+          "et": "toiduohutus",
+          "cs": "bezpečnost potravin",
+          "pl": "bezpieczeństwo żywności",
+          "ro": "siguranță alimentară",
+          "da": "fødevaresikkerhed",
+          "nl": "voedselveiligheid"
+        }
+      },
+      {
+        "resource": "http://eurovoc.europa.eu/6052",
+        "label": {
+          "de": "Lebensmittelzusatzstoff",
+          "fi": "elintarvikelisäaine",
+          "pt": "aditivo alimentar",
+          "bg": "добавка в храна",
+          "lt": "maisto priedas",
+          "lv": "pārtikas piedeva",
+          "hr": "dodatak hrani",
+          "fr": "additif alimentaire",
+          "hu": "élelmiszer-adalékanyag",
+          "sk": "potravinárske aditívum",
+          "sl": "živilski dodatek",
+          "ga": "breiseán bia",
+          "mk": "адитив",
+          "sq": "përbërës shtesë në ushqim",
+          "sr": "додатак храни",
+          "sv": "livsmedelstillsats",
+          "el": "πρόσθετα τροφίμων",
+          "mt": "addittiv alimentari",
+          "en": "food additive",
+          "it": "additivo alimentare",
+          "es": "aditivo alimentario",
+          "et": "lisaaine",
+          "cs": "potravinářské aditivum",
+          "pl": "dodatek do żywności",
+          "ro": "aditivi alimentari",
+          "da": "levnedsmiddeladditiv",
+          "nl": "levensmiddelenadditief"
+        }
+      },
+      {
+        "resource": "http://eurovoc.europa.eu/6004",
+        "label": {
+          "de": "Klassifikation",
+          "fi": "luokitus",
+          "pt": "classificação",
+          "bg": "класификация",
+          "lt": "klasifikacija",
+          "hr": "klasificiranje",
+          "lv": "klasifikācija",
+          "fr": "classification",
+          "hu": "osztályozás",
+          "sk": "klasifikácia",
+          "sl": "klasifikacija",
+          "ga": "aicmiúchán",
+          "mk": "класификација",
+          "sq": "klasifikim",
+          "sr": "класификација",
+          "sv": "klassificering",
+          "mt": "klassifikazzjoni",
+          "el": "ταξινόμηση",
+          "en": "classification",
+          "it": "classificazione",
+          "es": "clasificación",
+          "et": "klassifikatsioon",
+          "cs": "klasifikace",
+          "pl": "klasyfikacja",
+          "da": "klassifikation",
+          "ro": "clasificare documentară",
+          "nl": "classificatie"
+        }
+      }
+    ],
+    "language": null,
+    "source": null,
+    "type": null,
+    "temporal_resolution": null,
+    "relation": null,
+    "legal_base": null,
+    "stat_unit_measure": null,
+    "qualified_relation": null,
+    "spatial_resource": null,
+    "modified": "2017-07-25",
+    "id": "database-on-the-taxonomical-identification-and-potential-toxigenic-capacities-of-non-qps",
+    "issued": "2017-07-25",
+    "spatial": null,
+    "temporal": null,
+    "identifier": [
+      "10.5281/zenodo.827184",
+      "http://data.europa.eu/88u/dataset/database-on-the-taxonomical-identification-and-potential-toxigenic-capacities-of-non-qps"
+    ],
+    "is_version_of": null,
+    "resource": "http://data.europa.eu/88u/dataset/database-on-the-taxonomical-identification-and-potential-toxigenic-capacities-of-non-qps",
+    "distributions": [
+      {
+        "license": {
+          "description": "Creative Commons Attribution 4.0 International",
+          "id": "CC_BY_4_0",
+          "label": "Creative Commons Attribution 4.0 International",
+          "resource": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        "media_type": "application/vnd.ms-excel",
+        "access_url": [
+          "https://zenodo.org/record/827184#.WXb-VVV97cu"
+        ],
+        "rights": {
+          "resource": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
+        },
+        "download_url": [
+          "https://zenodo.org/record/827184#.WXb-VVV97cu"
+        ],
+        "format": {
+          "resource": "http://publications.europa.eu/resource/authority/file-type/XLS",
+          "id": "XLS",
+          "label": "Excel XLS"
+        },
+        "description": {
+          "de": "Datenbankdatei",
+          "fi": "Tietokantatiedosto",
+          "sv": "Databasfil",
+          "pt": "Ficheiro da base de dados",
+          "bg": "Файл с база данни",
+          "el": "Αρχείο βάσης δεδομένων",
+          "mt": "Fajl tal-bażi tad-data",
+          "lt": "Duomenų bazės failas",
+          "en": "Database file",
+          "hr": "Datoteka baze podataka",
+          "lv": "Datubāzes datne",
+          "it": "File della banca dati",
+          "fr": "Fichier de base de données",
+          "hu": "Adatbázis-fájl",
+          "es": "Archivo de base de datos",
+          "et": "Andmebaasi fail",
+          "cs": "Databázový soubor",
+          "sk": "Databázový súbor",
+          "sl": "Datoteka zbirke podatkov",
+          "ga": "Comhad bunachar sonraí",
+          "pl": "Plik bazy danych",
+          "da": "Databasefil",
+          "ro": "Fișier de bază de date",
+          "nl": "Databasebestand"
+        },
+        "id": "ef6d0e9c-e8d6-4ad6-a4dc-b7180faf8103",
+        "title": {
+          "de": "Datenbank über die taxonomische Identifizierung und mögliche toxigene Kapazitäten von Nicht-QPS",
+          "fi": "Tietokanta muiden kuin QPS-järjestelmien taksonomisesta tunnistamisesta ja mahdollisista toksigeenisista valmiuksista",
+          "sv": "Databas över taxonomisk identifiering och potentiell toxigen kapacitet för icke-QPS",
+          "pt": "Base de dados sobre a identificação taxonómica e as potenciais capacidades toxigénicas de não-QPS",
+          "bg": "База данни за таксономичната идентификация и потенциалния токсигенен капацитет на нeQPS",
+          "mt": "Bażi tad-data dwar l-identifikazzjoni tassonomika u l-kapaċitajiet toksiġeniċi potenzjali ta’ dawk li mhumiex QPS",
+          "el": "Βάση δεδομένων για την ταξινομική ταυτοποίηση και τις δυνητικές τοξιγονικές ικανότητες των μη QPS",
+          "lt": "Ne QPS taksonominio identifikavimo ir galimų toksiškų pajėgumų duomenų bazė",
+          "en": "Database on the taxonomical identification and potential toxigenic capacities of non-QPS",
+          "hr": "Baza podataka o taksonomskoj identifikaciji i potencijalnim toksigenskim kapacitetima ne-QPS-a",
+          "lv": "Datubāze par ne-QPS taksonomisko identifikāciju un iespējamām toksiogēnajām spējām",
+          "it": "Banca dati sull'identificazione tassonomica e le potenziali capacità tossigene dei non-QPS",
+          "fr": "Base de données sur l’identification taxonomique et les capacités toxigènes potentielles des non-QPS",
+          "hu": "Adatbázis a nem QPS taxonómiai azonosításáról és potenciális toxigén kapacitásairól",
+          "es": "Base de datos sobre la identificación taxonómica y las capacidades toxigénicas potenciales de no QPS",
+          "et": "Andmebaas mitte-QPS taksonoomilise identifitseerimise ja võimaliku toksigeensuse kohta",
+          "cs": "Databáze taxonomické identifikace a potenciálních toxigenních kapacit jiných než QPS",
+          "sk": "Databáza o taxonomickej identifikácii a potenciálnych toxigénnych kapacitách iných ako QPS",
+          "sl": "Podatkovna zbirka o taksonomski identifikaciji in potencialnih toksigenskih zmogljivostih ne-QPS",
+          "ga": "Bunachar sonraí maidir le sainaithint tacsanomaíoch agus acmhainneachtaí toxigenic féideartha neamh-QPS",
+          "pl": "Baza danych dotycząca identyfikacji taksonomicznej i potencjalnych zdolności toksycznych innych niż QPS",
+          "ro": "Baza de date privind identificarea taxonomică și capacitățile toxigenice potențiale ale non-QPS",
+          "da": "Database om taksonomisk identifikation og potentiel toksigenic kapacitet hos ikke-QPS",
+          "nl": "Databank over taxonomische identificatie en potentiële toxigenic capaciteiten van niet-QPS"
+        },
+        "issued": "2017-07-25T08:25:49.299068Z",
+        "type": {
+          "resource": "http://publications.europa.eu/resource/authority/distribution-type/FEED_INFO",
+          "label": "Information feed"
+        },
+        "status": {
+          "resource": "http://purl.org/adms/status/Completed",
+          "label": "Completed"
+        }
+      }
+    ],
+    "is_referenced_by": null,
+    "quality_meas": {
+      "scoring": 305
+    },
+    "publisher": {
+      "name": "European Food Safety Authority",
+      "type": "Organization",
+      "resource": "http://publications.europa.eu/resource/authority/corporate-body/EFSA",
+      "homepage": "https://www.efsa.europa.eu"
+    },
+    "was_generated_by": null,
+    "page": null,
+    "has_quality_annotation": null,
+    "spatial_resolution_in_meters": null,
+    "catalog_record": {
+      "issued": "2021-12-03T11:38:16Z",
+      "modified": "2022-02-25T10:01:55Z"
+    },
+    "contact_point": [
+      {
+        "type": "Kind",
+        "resource": "http://www.w3.org/2006/vcard/ns#Kind/f657cc57-7c78-4f4c-bc02-0ed3341dee6d",
+        "email": "mailto:data.collection@efsa.europa.eu"
+      }
+    ],
+    "translation_meta": {
+      "full_available_languages": [
+        "lt",
+        "ga",
+        "da",
+        "hr",
+        "nl",
+        "lv",
+        "fi",
+        "et",
+        "sv",
+        "pt",
+        "sl",
+        "mt",
+        "cs",
+        "hu",
+        "bg",
+        "el",
+        "sk",
+        "en",
+        "fr",
+        "ro",
+        "pl",
+        "es",
+        "it",
+        "de"
+      ],
+      "details": {
+        "de": {
+          "machine_translated": true,
+          "original_language": "en",
+          "received": "2022-02-04T05:36:36Z",
+          "issued": "2022-02-01T10:01:53Z"
+        },
+        "fi": {
+          "machine_translated": true,
+          "original_language": "en",
+          "received": "2022-02-04T05:36:36Z",
+          "issued": "2022-02-01T10:01:53Z"
+        },
+        "sv": {
+          "machine_translated": true,
+          "original_language": "en",
+          "received": "2022-02-04T05:36:36Z",
+          "issued": "2022-02-01T10:01:53Z"
+        },
+        "pt": {
+          "machine_translated": true,
+          "original_language": "en",
+          "received": "2022-02-04T05:36:36Z",
+          "issued": "2022-02-01T10:01:53Z"
+        },
+        "bg": {
+          "machine_translated": true,
+          "original_language": "en",
+          "received": "2022-02-04T05:36:36Z",
+          "issued": "2022-02-01T10:01:53Z"
+        },
+        "mt": {
+          "machine_translated": true,
+          "original_language": "en",
+          "received": "2022-02-04T05:36:36Z",
+          "issued": "2022-02-01T10:01:53Z"
+        },
+        "el": {
+          "machine_translated": true,
+          "original_language": "en",
+          "received": "2022-02-04T05:36:36Z",
+          "issued": "2022-02-01T10:01:53Z"
+        },
+        "lt": {
+          "machine_translated": true,
+          "original_language": "en",
+          "received": "2022-02-04T05:36:36Z",
+          "issued": "2022-02-01T10:01:53Z"
+        },
+        "en": {
+          "issued": "2022-02-01T10:01:53Z",
+          "machine_translated": false,
+          "received": "2022-02-04T05:36:36Z"
+        },
+        "hr": {
+          "machine_translated": true,
+          "original_language": "en",
+          "received": "2022-02-04T05:36:36Z",
+          "issued": "2022-02-01T10:01:53Z"
+        },
+        "lv": {
+          "machine_translated": true,
+          "original_language": "en",
+          "received": "2022-02-04T05:36:36Z",
+          "issued": "2022-02-01T10:01:53Z"
+        },
+        "it": {
+          "machine_translated": true,
+          "original_language": "en",
+          "received": "2022-02-04T05:36:36Z",
+          "issued": "2022-02-01T10:01:53Z"
+        },
+        "fr": {
+          "machine_translated": true,
+          "original_language": "en",
+          "received": "2022-02-04T05:36:36Z",
+          "issued": "2022-02-01T10:01:53Z"
+        },
+        "hu": {
+          "machine_translated": true,
+          "original_language": "en",
+          "received": "2022-02-04T05:36:36Z",
+          "issued": "2022-02-01T10:01:53Z"
+        },
+        "es": {
+          "machine_translated": true,
+          "original_language": "en",
+          "received": "2022-02-04T05:36:36Z",
+          "issued": "2022-02-01T10:01:53Z"
+        },
+        "et": {
+          "machine_translated": true,
+          "original_language": "en",
+          "received": "2022-02-04T05:36:36Z",
+          "issued": "2022-02-01T10:01:53Z"
+        },
+        "cs": {
+          "machine_translated": true,
+          "original_language": "en",
+          "received": "2022-02-04T05:36:36Z",
+          "issued": "2022-02-01T10:01:53Z"
+        },
+        "sk": {
+          "machine_translated": true,
+          "original_language": "en",
+          "received": "2022-02-04T05:36:36Z",
+          "issued": "2022-02-01T10:01:53Z"
+        },
+        "sl": {
+          "machine_translated": true,
+          "original_language": "en",
+          "received": "2022-02-04T05:36:36Z",
+          "issued": "2022-02-01T10:01:53Z"
+        },
+        "ga": {
+          "machine_translated": true,
+          "original_language": "en",
+          "received": "2022-02-04T05:36:36Z",
+          "issued": "2022-02-01T10:01:53Z"
+        },
+        "pl": {
+          "machine_translated": true,
+          "original_language": "en",
+          "received": "2022-02-04T05:36:36Z",
+          "issued": "2022-02-01T10:01:53Z"
+        },
+        "da": {
+          "machine_translated": true,
+          "original_language": "en",
+          "received": "2022-02-04T05:36:36Z",
+          "issued": "2022-02-01T10:01:53Z"
+        },
+        "ro": {
+          "machine_translated": true,
+          "original_language": "en",
+          "received": "2022-02-04T05:36:36Z",
+          "issued": "2022-02-01T10:01:53Z"
+        },
+        "nl": {
+          "machine_translated": true,
+          "original_language": "en",
+          "received": "2022-02-04T05:36:36Z",
+          "issued": "2022-02-01T10:01:53Z"
+        }
+      },
+      "status": "completed"
+    },
+    "description": {
+      "de": "Die durchgeführten Arbeiten bilden den externen wissenschaftlichen Bericht des EFSA-Vertrags OC/EFSA/FEED/2015/01. Ziel des Projekts war es, der EFSA eine Datenbank aus einer Überprüfung der taxonomischen Beschreibung und der möglichen toxigenen Kapazitäten von Mikroorganismen zur industriellen Herstellung von Futtermittelzusatzstoffen und Lebensmittelenzymen zur Verfügung zu stellen. Die Überprüfung umfasst Mikroorganismen, die Futtermittelzusatzstoffe und Lebensmittelenzyme erzeugen, für die die EFSA Anträge auf Sicherheitsbewertung erhalten hat oder erhalten kann und die nicht für den Status „qualifizierte Vermutung der Sicherheit“ (QPS) empfohlen wurden. Die Datenbank umfasst auch die molekularen taxonomischen Identifikatoren und biosynthetischen Pfade, die an der Herstellung toxischer Verbindungen und verantwortlicher Gene beteiligt sind. Das Hauptergebnis des Projekts wird als Datenbank nach der EFSA-Datenstruktur dargestellt. In diesem Bericht werden die methodischen Aspekte und die bei der systematischen Suche verwendeten Fragen und das Verfahren für das Screening zurückgerufener wissenschaftlicher Dokumente beschrieben. Einzelheiten sind in ergänzenden Anhängen zu diesem Bericht zu finden. \n\nInsgesamt wurden in der Literaturrecherche 22970 wissenschaftliche Dokumente untersucht, aus denen zunächst 411 ausgewählt wurden, um relevante Daten für den Projektumfang bereitzustellen. Aus der Überprüfung der ausgewählten Artikel wurden 474 bioaktive Sekundärmetaboliten erfasst und 59 Verbindungen wurden weiter untersucht, um Daten über ihre Toxikologie und ihre Produktion durch Mikroorganismen zu erhalten, die in industriellen Fermentationen eingesetzt werden. Die im Rahmen dieses Projekts erstellte Datenbank enthält Details, die die Bedingungen, Gene und Toxizität dieser 59 Verbindungen charakterisiert haben. Dies liefert Informationen, die verwendet werden können, um Sicherheitsmaßnahmen bei der Verwendung potenziell toxigener Mikroorganismen in industriellen Gärungen festzulegen. \n\nDie Suchstrategie wurde nach einer Vorstudie definiert, in der allgemeine Informationen über den fermentativen Prozess, an dem die Mikroorganismen im Anwendungsbereich beteiligt sind, eingeholt wurden. Dies ermöglichte es, mögliche Probleme zu erkennen, die beim Abrufen von Daten aus dieser heterogenen Gruppe von Mikroorganismen auftreten können. \n\nZur Durchführung der Suchstrategie wurden mehrere Artengruppen und Gruppen von Keywords eingerichtet. Die Kategorien von Schlüsselwörtern sind die folgenden: \n\nSchlüsselwörter Gruppe 1: Begriffe im Zusammenhang mit der Herstellung von Toxinen und Gefahren\nSchlüsselwörter Gruppe 2: Begriffe in Bezug auf Futtermittelzusatzstoffe und Lebensmittelenzyme\nSchlüsselwörter Gruppe 3: Begriffe im Zusammenhang mit fermentativen Prozessen\nSchlüsselwörter Gruppe 4: Begriffe im Zusammenhang mit der Toxikologie\nSchlagwörter Gruppe 5: Begriffe im Zusammenhang mit biosynthetischen Pfaden\nDie mikrobiellen Arten wurden in 3 Gruppen unterteilt, Arten I, Spezies II und Spezies III, nach dem vorläufigen Ergebnis in der PubMed-Suche: \n\nArt I: Mikroorganismen, die bei der Suche nach wissenschaftlicher Bezeichnung ≤ 200 Einträge erzeugt haben. \n\nArt II: Mikroorganismen, die bei der Suche nach wissenschaftlichen Namen und Schlüsselwörtern aus der Gruppe ≤ 500 Einträge erzeugt haben\n\nArt III: Mikroorganismen, die > 500 Einträge produziert haben, wenn sie nach wissenschaftlichen Namen und Schlüsselwörtern der Gruppe 1 gesucht werden",
+      "fi": "Tehty työ on EFSAn sopimusta OC/EFSA/FEED/2015/01 koskeva ulkoinen tieteellinen raportti. Hankkeen tavoitteena on ollut tuottaa EFSAlle tietokanta, joka perustuu rehujen lisäaineiden ja elintarvike-entsyymien teollisessa tuotannossa käytettävien mikro-organismien taksonomiseen kuvaukseen ja mahdolliseen toksigeeniseen kapasiteettiin. Uudelleentarkasteluun sisältyy mikro-organismeja, jotka tuottavat rehun lisäaineita ja elintarvike-entsyymejä, joista Euroopan elintarviketurvallisuusviranomainen on vastaanottanut tai jotka voivat saada turvallisuusarviointia koskevia hakemuksia ja joita ei ole suositeltu hyväksytyn turvallisuusolettaman (QPS) osalta. Tietokanta sisältää myös toksisten yhdisteiden ja vastuullisten geenien tuotantoon liittyvät molekyylitaksonomiset tunnisteet ja biosynteettiset reitit. Hankkeen päätulos esitetään EFSAn tietorakenteen mukaisena tietokantana. Tässä raportissa kuvataan järjestelmällisessä etsinnässä käytetyt metodologiset näkökohdat ja hakumenettelyt sekä haettujen tieteellisten asiakirjojen seulonnassa sovellettava menettely. Tarkempia tietoja on tämän kertomuksen lisäliitteissä. \n\nKirjallisuushaussa seulottiin yhteensä 22970 tieteellistä asiakirjaa, joista 411 valittiin alun perin hankkeen laajuuden kannalta merkityksellisten tietojen toimittamiseen. Valittujen artikkelien tarkastelun perusteella kirjattiin 474 bioaktiivista sekundaarimetaboliittia, ja 59 yhdistettä tutkittiin edelleen, jotta saataisiin tietoja niiden toksikologiasta ja teollisissa käymisissä käytettävien mikro-organismien tuotantoominaisuuksista. Tässä hankkeessa luodussa tietokannassa on yksityiskohtaisia tietoja, jotka kuvaavat näiden 59 yhdisteen olosuhteita, niihin liittyviä geenejä ja toksisuutta. Tämä antaa tietoja, joita voidaan käyttää turvallisuustoimenpiteiden määrittämiseen käytettäessä mahdollisesti toksigeenisia mikro-organismeja teollisissa käymisissä. \n\nEtsintästrategia määriteltiin alustavan tutkimuksen jälkeen, jossa saatiin yleistä tietoa fermentatiivisesta prosessista, jossa mikro-organismit olivat mukana. Tämän avulla voitiin tunnistaa mahdolliset ongelmat, joita voi syntyä, kun tietoja haetaan tästä heterogeenisestä mikro-organismiryhmästä. \n\nHakustrategian toteuttamiseksi perustettiin useita lajien ja avainsanojen ryhmiä. Avainsanojen ryhmät ovat seuraavat: \n\nAvainsanat ryhmä 1: Toksiinien tuotantoon ja vaaroihin liittyvät termit\nAvainsanat ryhmä 2: Rehun lisäaineisiin ja elintarvike-entsyymeihin liittyvät termit\nAvainsanat ryhmä 3: Fermentatiivisiin prosesseihin liittyvät termit\nAvainsanat ryhmä 4: Toksikologiaan liittyvät termit\nAvainsanat ryhmä 5: Biosynteettisiin väyliin liittyvät termit\nMikrobilaji on jaettu kolmeen ryhmään (laji I, laji II ja laji III) PubMed-haun alustavan tuloksen mukaan: \n\nLaji I: Mikro-organismit, jotka tuottavat ≤ 200 merkintää, kun niitä etsitään tieteellisellä nimellä. \n\nLaji II: Mikro-organismit, jotka tuottavat ≤ 500 merkintää, kun niitä etsitään tieteellisen nimen ja avainsanojen perusteella ryhmästä\n\nLaji III: Mikro-organismit, jotka ovat tuottaneet > 500 merkintää ryhmän 1 tieteellisen nimen ja avainsanojen perusteella",
+      "sv": "Det arbete som utförs utgör den externa vetenskapliga rapporten från Efsas avtal OC/EFSA/FEED/2015/01. Syftet med projektet har varit att förse Efsa med en databas från en översyn av den taxonomiska beskrivningen och den potentiella toxigena kapaciteten hos mikroorganismer som används för industriell produktion av fodertillsatser och livsmedelsenzymer. Översynen omfattar mikroorganismer som producerar fodertillsatser och livsmedelsenzymer för vilka Efsa har mottagit eller kan komma att få ansökningar om säkerhetsbedömning, och som inte har rekommenderats för status som kvalificerat antagande om säkerhet (QPS). Databasen omfattar också de molekylära taxonomiska identifierare och biosyntetiska vägar som är involverade i produktionen av giftiga föreningar och ansvariga gener.Det huvudsakliga resultatet av projektet visas som en databas enligt Efsas datastruktur har tagits fram.\nDe metodologiska aspekterna och de frågor som används vid den systematiska sökningen och det förfarande som tillämpas för screening av inhämtade vetenskapliga dokument beskrivs i denna rapport.Närmare uppgifter finns i kompletterande bilagor till denna rapport.\n  \nTotalt granskades 22970 vetenskapliga dokument i litteratursökningen, varav 411 ursprungligen valdes ut för att tillhandahålla relevanta uppgifter för projektets omfattning.Från granskningen av de utvalda artiklarna registrerades 474 bioaktiva sekundära metaboliter och 59 föreningar studerades ytterligare för att få fram data om deras toxikologi och karakteristiska egenskaper för deras produktion av mikroorganismer som används i industriella fermenteringar.\nDen databas som genereras i detta projekt innehåller detaljer som karakteriserade de villkor, gener som är inblandade och toxiciteten hos dessa 59 föreningar. Detta ger information som kan användas för att fastställa säkerhetsåtgärder vid användning av potentiellt toxigena mikroorganismer i industriella fermenteringar.   \nSökstrategin definierades efter en förstudie där allmän information om jäsningsprocessen med de mikroorganismer som omfattas av tillämpningsområdet erhölls.Detta gjorde det möjligt att identifiera eventuella problem som kan uppstå när data hämtas från denna heterogena grupp av mikroorganismer.\n  \nFlera grupper av arter och grupper av nyckelord etablerades för att utföra sökstrategin.Nyckelordsgrupperna är följande:\n\n  Nyckelord grupp 1:Termer som rör toxinproduktion och faror\nNyckelord grupp 2:\nVillkor för fodertillsatser och livsmedelsenzymer  Nyckelord grupp 3:Villkor för jäsningsprocesser\nNyckelord grupp 4:\nTermer relaterade till toxikologi Nyckelord grupp 5:\nTermer relaterade till biosyntetiska vägar  De mikrobiella arterna har delats in i 3 grupper, Art I, Art II, och Art III, enligt det preliminära resultatet i PubMed-sökning:\n  \nArt I:\nMikroorganismer som producerar ≤ 200 poster vid sökning efter vetenskapligt namn.\n\n\n\n\nArt II:\nMikroorganismer som producerar ≤ 500 poster vid sökning efter vetenskapligt namn och nyckelord från grupp\n\n\n\nArt III:\nMikroorganismer som producerar > 500 poster vid sökning efter vetenskapligt namn och nyckelord från grupp 1",
+      "pt": "O trabalho realizado constitui o relatório científico externo do contrato OC/EFSA/FEED/2015/01 da EFSA. O objetivo do projeto foi fornecer à EFSA uma base de dados a partir de uma análise da descrição taxonómica e das potenciais capacidades toxigénicas dos microrganismos utilizados na produção industrial de aditivos para a alimentação animal e enzimas alimentares.A revisão inclui microrganismos que produzem aditivos para a alimentação animal e enzimas alimentares para os quais a EFSA recebeu ou pode potencialmente receber pedidos de avaliação da segurança, e que não foram recomendados para o estatuto de Presunção Qualificada de Segurança (QPS).\nA base de dados também compreende os identificadores taxonômicos moleculares e as vias biossintéticas envolvidas na produção de compostos tóxicos e genes responsáveis. O principal resultado do projeto é apresentado como uma base de dados de acordo com a estrutura de dados da EFSA. Os aspetos metodológicos e as consultas utilizadas na busca sistemática e o procedimento aplicado para a triagem de documentos científicos recuperados são descritos no presente relatório. Os pormenores encontram-se disponíveis em apêndices complementares ao presente relatório.\n \nNo total, 22970 documentos científicos foram rastreados na busca bibliográfica, dos quais 411 foram inicialmente selecionados para fornecer dados pertinentes para o escopo do projeto. A partir da revisão dos artigos selecionados, foram registrados 474 metabolitos secundários bioativos e 59 compostos foram estudados para obtenção de dados toxicológicos e característicos de sua produção por microrganismos utilizados em fermentações industriais. A base de dados gerada neste projeto compreende pormenores que caracterizaram as condições, genes envolvidos e toxicidade desses 59 compostos. Isso fornece informações que podem ser usadas para estabelecer medidas de segurança ao usar microrganismos potencialmente toxigênicos em fermentações industriais.\n \nA estratégia de busca foi definida após um estudo preliminar no qual foram obtidas informações gerais sobre o processo fermentativo envolvendo os microrganismos dentro do escopo.Isso permitiu identificar possíveis problemas que podem surgir ao recuperar dados desse grupo heterogêneo de microrganismos.\n    Vários grupos de espécies e grupos de palavras-chave foram estabelecidos para realizar a estratégia de busca.Os grupos de palavras-chave são os seguintes:\n\n  Palavras-chave grupo 1:Termos relacionados com a produção de toxinas e perigos\nPalavras-chave grupo 2:\nTermos relacionados com aditivos para a alimentação animal e enzimas alimentares\nPalavras-chave grupo 3: Termos relacionados com processos fermentativos Palavras-chave grupo 4:\nTermos relacionados à toxicologia\nPalavras-chave grupo 5: Termos relacionados às vias biossintéticas A espécie microbiana foi dividida em 3 grupos, Espécies I, Espécies II e Espécie III, de acordo com o resultado preliminar na pesquisa PubMed:\n\n Espécie I:\nMicrorganismos que produziram ≤ 200 entradas quando pesquisados por nome científico.  \n Espécie II: Microrganismos que produziram ≤ 500 entradas quando pesquisados por nome científico e palavras-chave do grupo\n\n\n\nEspécie III:\nMicrorganismos que produziram > 500 entradas quando pesquisadas por nome científico e palavras-chave do grupo 1",
+      "bg": "Извършената работа представлява външен научен доклад от договора на ЕОБХ OC/EFSA/FEED/2015/01. Целта на проекта е да се предостави на ЕОБХ база данни от преглед на таксономичното описание и потенциалния токсигенен капацитет на микроорганизмите, използвани за промишлено производство на фуражни добавки и ензими в храните. Прегледът включва микроорганизми, произвеждащи фуражни добавки и ензими в храните, за които ЕОБХ е получил или потенциално може да получи заявления за оценка на безопасността и които не са били препоръчани за статус на квалифицирана презумпция за безопасност (QPS). Базата данни включва също така молекулярни таксономични идентификатори и биосинтетични пътища, участващи в производството на токсични съединения и отговорни гени. Основният резултат от проекта е показан като разработена база данни в съответствие със структурата на данните на ЕОБХ. Методологичните аспекти и търсенията, използвани при систематичното търсене, и процедурата, прилагана за проверка на извлечените научни документи, са описани в настоящия доклад. Подробности могат да бъдат намерени в допълнителните приложения към настоящия доклад. \n\nВ литературното търсене бяха прегледани общо 22970 научни документа, от които първоначално бяха избрани 411 за предоставяне на подходящи данни за обхвата на проекта. От прегледа на подбраните изделия са регистрирани 474 биоактивни вторични метаболита и 59 съединения са допълнително проучени за получаване на данни за тяхната токсикология и характеристика на тяхното производство от микроорганизми, използвани в промишлени ферментация. Базата данни, генерирана в този проект, съдържа подробности, които характеризират условията, гените и токсичността на тези 59 съединения. Това предоставя информация, която може да се използва за установяване на мерки за безопасност при използване на потенциално токсигенни микроорганизми в промишлени ферменти. \n\nСтратегията за търсене е определена след предварително проучване, в което е получена обща информация за ферментационния процес, включващ микроорганизмите в обхвата. Това позволява да се идентифицират възможните проблеми, които могат да възникнат при извличане на данни от тази хетерогенна група микроорганизми. \n\nЗа изпълнение на стратегията за търсене бяха създадени няколко групи видове и групи ключови думи. Групите от ключови думи са следните: \n\nКлючови думи група 1: Термини, свързани с производството на токсини и опасности\nКлючови думи група 2: Термини, свързани с фуражни добавки и хранителни ензими\nКлючови думи група 3: Термини, свързани с ферментационните процеси\nГрупа по ключови думи 4: Термини, свързани с токсикологията\nГрупа по ключови думи 5: Термини, свързани с биосинтетичните пътища\nМикробните видове са разделени на 3 групи, вид I, вид II и вид III, според предварителния резултат от търсенето на PubMed: \n\nВид I: Микроорганизми, които са произвели ≤ 200 вписвания при търсене по научно наименование. \n\nВид II: Микроорганизми, които произвеждат ≤ 500 вписвания при търсене по научно наименование и ключови думи от група\n\nВид III: Микроорганизми, които са произвели > 500 вписвания при търсене по научно наименование и ключови думи от група 1",
+      "el": "Το έργο που εκτελείται αποτελεί την εξωτερική επιστημονική έκθεση της σύμβασης ΕΑΑΤ OC/EFSA/FEED/2015/01. Στόχος του έργου ήταν να παράσχει στην EFSA βάση δεδομένων από επανεξέταση της ταξινομικής περιγραφής και των δυνητικών τοξιγονικών ικανοτήτων των μικροοργανισμών που χρησιμοποιούνται για τη βιομηχανική παραγωγή πρόσθετων υλών ζωοτροφών και ενζύμων τροφίμων. Η επανεξέταση περιλαμβάνει μικροοργανισμούς που παράγουν πρόσθετες ύλες ζωοτροφών και ένζυμα τροφίμων για τους οποίους η EFSA έχει λάβει ή μπορεί δυνητικά να λάβει αιτήσεις για αξιολόγηση της ασφάλειας, και οι οποίοι δεν έχουν προταθεί για καθεστώς ειδικού τεκμηρίου ασφάλειας (QPS). Η βάση δεδομένων περιλαμβάνει επίσης τα μοριακά ταξινομικά αναγνωριστικά στοιχεία και τις βιοσυνθετικές οδούς που εμπλέκονται στην παραγωγή τοξικών ενώσεων και υπεύθυνων γονιδίων. Το κύριο αποτέλεσμα του έργου παρουσιάζεται ως βάση δεδομένων σύμφωνα με τη δομή δεδομένων της EFSA. Οι μεθοδολογικές πτυχές και τα ερωτήματα που χρησιμοποιούνται στη συστηματική έρευνα και η διαδικασία που εφαρμόζεται για τον έλεγχο των ανακτηθέντων επιστημονικών εγγράφων περιγράφονται στην παρούσα έκθεση. Λεπτομέρειες διατίθενται σε συμπληρωματικά προσαρτήματα της παρούσας έκθεσης. \n\nΣυνολικά, εξετάστηκαν 22970 επιστημονικά έγγραφα στην έρευνα βιβλιογραφίας, από την οποία επιλέχθηκαν αρχικά 411 για την παροχή σχετικών δεδομένων για το αντικείμενο του έργου. Από την επανεξέταση των επιλεγμένων αντικειμένων, καταγράφηκαν 474 βιοενεργοί δευτερογενείς μεταβολίτες και 59 ενώσεις μελετήθηκαν περαιτέρω για τη συγκέντρωση στοιχείων σχετικά με την τοξικολογία τους και τα χαρακτηριστικά της παραγωγής τους από μικροοργανισμούς που χρησιμοποιούνται σε βιομηχανικές ζυμώσεις. Η βάση δεδομένων που δημιουργήθηκε στο πλαίσιο αυτού του έργου περιλαμβάνει λεπτομέρειες που χαρακτηρίζουν τις συνθήκες, τα γονίδια και την τοξικότητα αυτών των 59 ενώσεων. Αυτό παρέχει πληροφορίες που μπορούν να χρησιμοποιηθούν για τη θέσπιση μέτρων ασφάλειας όταν χρησιμοποιούνται δυνητικά τοξιγονικοί μικροοργανισμοί σε βιομηχανικές ζυμώσεις. \n\nΗ στρατηγική αναζήτησης καθορίστηκε μετά από μια προκαταρκτική μελέτη στην οποία ελήφθησαν γενικές πληροφορίες σχετικά με τη ζυμωτική διαδικασία που αφορά τους μικροοργανισμούς εντός του πεδίου εφαρμογής. Αυτό επέτρεψε τον εντοπισμό πιθανών προβλημάτων που μπορεί να προκύψουν κατά την ανάκτηση δεδομένων από αυτή την ετερογενή ομάδα μικροοργανισμών. \n\nΓια την υλοποίηση της στρατηγικής αναζήτησης δημιουργήθηκαν διάφορες ομάδες ειδών και ομάδων λέξεων-κλειδιών. Οι ομάδες λέξεων-κλειδιών είναι οι ακόλουθες: \n\nΛέξεις-κλειδιά ομάδα 1: Όροι που σχετίζονται με την παραγωγή τοξινών και τους κινδύνους\nΛέξεις-κλειδιά ομάδα 2: Όροι σχετικοί με τις πρόσθετες ύλες ζωοτροφών και τα ένζυμα τροφίμων\nΛέξεις-κλειδιά ομάδα 3: Όροι που σχετίζονται με διεργασίες ζύμωσης\nΛέξεις-κλειδιά ομάδα 4: Όροι σχετικοί με την τοξικολογία\nΛέξεις-κλειδιά ομάδα 5: Όροι που σχετίζονται με τις βιοσυνθετικές διαδρομές\nΤο μικροβιακό είδος έχει χωριστεί σε 3 ομάδες, τα είδη I, τα είδη II και τα είδη III, σύμφωνα με το προκαταρκτικό αποτέλεσμα της αναζήτησης PubMed: \n\nΕίδος I: Μικροοργανισμοί που παρήγαγαν ≤ 200 καταχωρήσεις κατά την έρευνα με επιστημονική ονομασία. \n\nΕίδος II: Μικροοργανισμοί που παρήγαγαν ≤ 500 καταχωρίσεις κατά την αναζήτηση με επιστημονική ονομασία και λέξεις-κλειδιά από την ομάδα\n\nΕίδος III: Μικροοργανισμοί που παρήγαγαν > 500 καταχωρίσεις κατά την αναζήτηση με επιστημονική ονομασία και λέξεις-κλειδιά από την ομάδα 1",
+      "mt": "Ix-xogħol imwettaq jikkostitwixxi r-rapport xjentifiku estern tal-kuntratt tal-EFSA OC/EFSA/FEED/2015/01. L-għan tal-proġett kien li jipprovdi lill-EFSA b’bażi tad-data minn reviżjoni dwar id-deskrizzjoni tassonomika u l-kapaċitajiet toksiġeniċi potenzjali tal-mikroorganiżmi użati għall-produzzjoni industrijali ta’ addittivi tal-għalf u enzimi tal-ikel. Ir-reviżjoni tinkludi mikroorganiżmi li jipproduċu addittivi tal-għalf u enzimi tal-ikel li għalihom l-EFSA rċeviet jew tista’ potenzjalment tirċievi applikazzjonijiet għall-valutazzjoni tas-sikurezza, u li ma ġewx rakkomandati għall-istatus ta’ Preżunzjoni Kwalifikata tas-Sikurezza (QPS). Il-bażi tad-data tinkludi wkoll l-identifikaturi tassonomiċi molekulari u l-mogħdijiet bijosintetiċi involuti fil-produzzjoni ta’ komposti tossiċi u ġeni responsabbli.Ġie żviluppat ir-riżultat ewlieni tal-proġett bħala bażi tad-data skont l-istruttura tad-data tal-EFSA.\nL-aspetti metodoloġiċi u t-tfittxijiet użati fit-tfittxija sistematika u l-proċedura applikata għall-iskrinjar ta’ dokumenti xjentifiċi miġbura huma deskritti f’dan ir-rapport. Id-dettalji huma disponibbli f’appendiċijiet supplimentari għal dan ir-rapport.\n   B’kollox, ġew skrinjati 22970 dokument xjentifiku fit-tfittxija tal-letteratura li minnhom inizjalment intgħażlu 411 biex jipprovdu data pertinenti għall-ambitu tal-proġett. Mir-reviżjoni tal-artikoli magħżula, ġew irreġistrati 474 metabolit sekondarju bijoattiv u 59 kompost ġew studjati aktar biex tinkiseb dejta dwar it-tossikoloġija u l-karatteristiċi tal-produzzjoni tagħhom minn mikroorganiżmi użati fil-fermentazzjonijiet industrijali.Il-bażi tad-data ġġenerata f’dan il-proġett tinkludi dettalji li kkaratterizzaw il-kundizzjonijiet, il-ġeni involuti u t-tossiċità ta’ dawn id-59 kompost.\nDan jipprovdi informazzjoni li tista’ tintuża biex jiġu stabbiliti miżuri ta’ sikurezza meta jintużaw mikroorganiżmi potenzjalment tossiċi fil-fermentazzjonijiet industrijali. \n\nL-istrateġija ta’ tiftix ġiet definita wara studju preliminari li fih inkisbet informazzjoni ġenerali dwar il-proċess ta’ fermentazzjoni li jinvolvi l-mikroorganiżmi fl-ambitu.Dan ippermetta li jiġu identifikati problemi possibbli li jistgħu jinqalgħu meta tiġi rkuprata data minn dan il-grupp eteroġenju ta’ mikroorganiżmi.\n    Diversi gruppi ta’ speċi u gruppi ta’ kliem prinċipali ġew stabbiliti biex iwettqu l-istrateġija ta’ tiftix.Il-gruppi ta’ kliem prinċipali huma dawn li ġejjin:\n\n  Il-kliem prinċipali grupp 1:Termini relatati mal-produzzjoni tat-tossini u l-perikli\nIl-Grupp tal-kliem prinċipali 2:\nTermini relatati mal-addittivi tal-għalf u l-enzimi tal-ikel  Il-Grupp tal-kliem prinċipali 3:Termini relatati mal-proċessi fermentattivi\n Il-Grupp tal-kliem prinċipali 4:\nTermini relatati mat-tossikoloġija\n\nIl-kliem prinċipali grupp 5:\nTermini relatati mal-mogħdijiet bijosintetiċi\n\nL-ispeċi mikrobika ġiet maqsuma fi 3 gruppi, Speċi I, Speċi II, u Speċi III, skont ir-riżultat preliminari fit-tfittxija ta’ PubMed:\n\n\n\n\nSpeċi I:\nMikroorganiżmi li pproduċew ≤ 200 entrata meta ġew imfittxijin b’isem xjentifiku.\n\n\n\n\nSpeċi II:\nMikroorganiżmi li pproduċew ≤ 500 entrata meta mfittxija bl-isem xjentifiku u l-kliem prinċipali minn grupp\n\n\n\nSpeċi III:\nMikroorganiżmi li pproduċew > 500 entrata meta mfittxija bl-isem xjentifiku u l-kliem prinċipali mill-grupp 1",
+      "lt": "Atliktas darbas yra EMST sutarties OC/EFSA/FEED/2015/01 išorės mokslinė ataskaita. Projekto tikslas – pateikti EFSA duomenų bazę, pagrįstą taksonominio mikroorganizmų, naudojamų pašarų priedų ir maisto fermentų pramoninei gamybai, apibūdinimo ir galimų toksiškų pajėgumų apžvalga. Peržiūra apima mikroorganizmus, gaminančius pašarų priedus ir maisto fermentus, dėl kurių EFSA gavo arba gali gauti paraiškas dėl saugos vertinimo ir kuriems nebuvo rekomenduota taikyti kvalifikuotos saugos prielaidos (QPS) statusą. Duomenų bazę taip pat sudaro molekuliniai taksonominiai identifikatoriai ir biosintetiniai būdai, susiję su toksinių junginių ir atsakingų genų gamyba. Pagrindinis projekto rezultatas pateikiamas kaip duomenų bazė pagal EFSA duomenų struktūrą. Šioje ataskaitoje aprašomi metodiniai aspektai ir užklausos, naudojamos atliekant sistemingą paiešką ir atliekant gautų mokslinių dokumentų patikrą. Išsamesnė informacija pateikiama šios ataskaitos papildomuose priedėliuose.\n  Literatūros paieškoje iš viso buvo atlikta 22970 mokslinių dokumentų, iš kurių 411 iš pradžių buvo atrinkti siekiant pateikti su projekto apimtimi susijusius duomenis.\nPeržiūrėjus pasirinktus straipsnius, buvo užregistruoti 474 biologiškai aktyvūs antriniai metabolitai ir toliau tiriami 59 junginiai, siekiant gauti duomenų apie jų toksikologiją ir jų gamybos naudojant pramoninėms fermentacijoms naudojamus mikroorganizmus charakteristikas.Šiame projekte sukurtą duomenų bazę sudaro duomenys, apibūdinantys šių 59 junginių sąlygas, susijusius genus ir toksiškumą.\nJame pateikiama informacija, kuri gali būti naudojama nustatant saugos priemones, kai pramoninėse fermentacijose naudojami potencialiai toksiški mikroorganizmai. \n\nPaieškos strategija buvo apibrėžta atlikus preliminarų tyrimą, kuriame buvo gauta bendra informacija apie fermentacijos procesą, kuriame dalyvauja į taikymo sritį patenkantys mikroorganizmai.Tai leido nustatyti galimas problemas, kurios gali kilti renkant duomenis iš šios nevienalytės mikroorganizmų grupės.\n    Paieškos strategijai atlikti buvo sukurtos kelios rūšių grupės ir raktinių žodžių grupės.Raktažodžių grupės yra šios:\n\n  Raktažodžiai 1 grupė:Terminai, susiję su toksinų gamyba ir pavojais\nRaktažodžiai 2 grupė:\nSu pašarų priedais ir maisto fermentais susiję terminai\nRaktažodžiai 3 grupė: Terminai, susiję su fermentacijos procesais 4 raktažodžių grupė:\nSu toksikologija susiję terminai\nRaktažodžių grupė 5: Terminai, susiję su biosintetiniais būdais Pagal preliminarius PubMed paieškos rezultatus mikrobinės rūšys buvo suskirstytos į 3 grupes: I rūšis, II rūšis ir III rūšis:\n\n I rūšis:\nMikroorganizmai, kuriuose atlikus paiešką pagal mokslinį pavadinimą gauta ≤ 200 įrašų.  \n II rūšis: Mikroorganizmai, kurie pateikė ≤ 500 įrašų, kai ieškoma pagal mokslinį pavadinimą ir raktinius žodžius iš grupės\n\n\n\nIII rūšis:\nMikroorganizmai, kurie pateikė > 500 įrašų, kai ieškoma pagal mokslinį pavadinimą ir raktinius žodžius iš 1 grupės",
+      "en": "The work performed constitutes the external scientific report of the EFSA contract OC/EFSA/FEED/2015/01. The aim of the project has been to provide EFSA with a database from a review on the taxonomical description and potential toxigenic capacities of microorganisms used for the industrial production of feed additives and food enzymes. The review includes microorganisms producing feed additives and food enzymes for which EFSA has received or can potentially receive applications for safety assessment, and which have not been recommended for Qualified Presumption of Safety (QPS) status. The database also comprises the molecular taxonomical identifiers and biosynthetic pathways involved in the production of toxic compounds and responsible genes. The main result of the project is shown as a database according to the EFSA data structure has been developed. The methodological aspects and the queries used in the systematic search and the procedure applied for the screening of retrieved scientific documents are described in this report. Details are available in supplementary appendices to this report.\r\n\r\nIn total, 22970 scientific documents were screened in the literature search from which 411 were initially selected for providing pertinent data for the scope of the project. From the review of the selected articles, 474 bioactive secondary metabolites were recorded and 59 compounds were further studied for obtaining data on their toxicology and characteristic of their production by microorganisms used in industrial fermentations. The database generated in this project comprises details that characterized the conditions, genes involved and toxicity of these 59 compounds. This provides information that can be used to establish safety measures when using potentially toxigenic microorganisms in industrial fermentations.\r\n\r\nThe searching strategy was defined after a preliminary study in which, general information about the fermentative process involving the microorganisms within the scope was obtained. This allowed to identify possible problems that can arise when retrieving data from this heterogeneous group of microorganisms.\r\n\r\nSeveral groups of species and groups of keywords were established to perform the searching strategy. The groups of keywords are the following:\r\n\r\nKeywords group 1: Terms related to toxin production and hazards\r\nKeywords group 2: Terms related to feed additives and food enzymes\r\nKeywords group 3: Terms related to fermentative processes\r\nKeywords group 4: Terms related to toxicology\r\nKeywords group 5: Terms related to biosynthetic pathways\r\nThe microbial species has been divided into 3 groups, Species I, Species II, and Species III, according to the preliminary outcome in PubMed search:\r\n\r\nSpecies I: Microorganisms that produced ≤ 200 entries when searched by scientific name.\r\n\r\nSpecies II: Microorganisms that produced ≤ 500 entries when searched by scientific name and keywords from group\r\n\r\nSpecies III: Microorganisms that produced > 500 entries when searched by scientific name and keywords from group 1",
+      "lv": "Veiktais darbs ir ārējais zinātniskais ziņojums par EFSA līgumu OC/EFSA/FEED/2015/01. Projekta mērķis bija nodrošināt EPNI ar datubāzi, kurā analizēts barības piedevu un pārtikas fermentu rūpnieciskajā ražošanā izmantoto mikroorganismu taksonomiskais apraksts un potenciālās toksigēnās spējas.Pārskatīšana ietver mikroorganismus, kas ražo barības piedevas un pārtikas fermentus, par kuriem EFSA ir saņēmusi vai, iespējams, var saņemt pieteikumus nekaitīguma novērtējumam, un kuriem nav ieteikts kvalificēts pieņēmums par nekaitīgumu (QPS).\nDatubāzē ir iekļauti arī molekulārie taksonomiskie identifikatori un biosintētiskie ceļi, kas saistīti ar toksisku savienojumu un atbildīgu gēnu veidošanos. Projekta galvenie rezultāti ir parādīti kā datubāze saskaņā ar EFSA datu struktūru. Sistemātiskajā meklēšanā izmantotie metodiskie aspekti un vaicājumi, kā arī procedūra, ko piemēro izgūto zinātnisko dokumentu pārbaudei, ir aprakstīti šajā ziņojumā. Sīkāka informācija ir pieejama šā ziņojuma papildu papildinājumos.\n \nKopumā literatūras meklēšanā tika pārbaudīti 22970 zinātniskie dokumenti, no kuriem sākotnēji tika atlasīti 411, lai sniegtu atbilstošus datus par projekta darbības jomu. No atlasīto izstrādājumu pārskatīšanas tika reģistrēti 474 bioloģiski aktīvi sekundārie metabolīti un 59 savienojumi tika pētīti, lai iegūtu datus par to toksikoloģiju un to ražošanai raksturīgajiem mikroorganismiem, ko izmanto rūpnieciskajā fermentācijā. Šajā projektā izveidotajā datubāzē ir dati, kas raksturo šo 59 savienojumu apstākļus, gēnus un toksicitāti. Tajā sniegta informācija, ko var izmantot, lai noteiktu drošības pasākumus, ja rūpnieciskā fermentācijā tiek izmantoti potenciāli toksiski mikroorganismi.\n \nMeklēšanas stratēģija tika noteikta pēc iepriekšēja pētījuma, kurā tika iegūta vispārīga informācija par fermentatīvo procesu, kurā iesaistīti mikroorganismi, uz kuriem attiecas darbības joma.Tas ļāva noteikt iespējamās problēmas, kas var rasties, izgūstot datus no šīs neviendabīgās mikroorganismu grupas.\n    Lai veiktu meklēšanas stratēģiju, tika izveidotas vairākas sugu grupas un atslēgvārdu grupas.Atslēgvārdu grupas ir šādas:\n\n  Atslēgas vārdi 1. grupa:Termini, kas saistīti ar toksīnu ražošanu un bīstamību\nAtslēgas vārdi 2. grupa:\nTermini, kas attiecas uz barības piedevām un pārtikas fermentiem\nAtslēgvārdi 3. grupa: Apzīmējumi, kas saistīti ar fermentācijas procesiem Atslēgvārdi 4. grupa:\nTermini, kas saistīti ar toksikoloģiju\nAtslēgvārdi 5. grupa: Termini, kas saistīti ar biosintētiskiem ceļiem Saskaņā ar PubMed meklēšanas sākotnējo iznākumu mikrobu sugas ir iedalītas 3 grupās: I, II un III suga:\n\n I suga:\nMikroorganismi, kas, meklējot pēc zinātniskā nosaukuma, radīja ≤ 200 ierakstus.  \n II suga: Mikroorganismi, kas radīja ≤ 500 ierakstus, meklējot pēc zinātniskajiem nosaukumiem un grupas atslēgvārdiem\n\n\n\nIII suga:\nMikroorganismi, kas radīja > 500 ierakstus, meklējot zinātnisko nosaukumu un atslēgvārdus no 1. grupas",
+      "hr": "Obavljeni rad predstavlja vanjsko znanstveno izvješće ugovora EFSA-e OC/EFSA/FEED/2015/01. Cilj projekta bio je EFSA-i osigurati bazu podataka iz pregleda taksonomskog opisa i potencijalnih toksigenskih kapaciteta mikroorganizama koji se upotrebljavaju za industrijsku proizvodnju dodataka hrani za životinje i prehrambenih enzima. Preispitivanje uključuje mikroorganizme koji proizvode dodatke hrani za životinje i prehrambene enzime za koje je EFSA zaprimila ili bi mogla primiti zahtjeve za procjenu sigurnosti, a koji nisu preporučeni za kvalificiranu pretpostavku o sigurnosti (QPS). Baza podataka također obuhvaća molekularne taksonomske identifikatore i biosintetske putove uključene u proizvodnju toksičnih spojeva i odgovornih gena. Glavni rezultat projekta prikazan je kao baza podataka prema strukturi podataka EFSA-e. Metodološki aspekti i upiti koji se upotrebljavaju u sustavnom pretraživanju i postupak primijenjen za pregled dobivenih znanstvenih dokumenata opisani su u ovom izvješću. Pojedinosti su dostupne u dodatnim dodacima ovom izvješću.\n  Ukupno je prikazano 22970 znanstvenih dokumenata u potrazi za literaturom iz kojih je prvotno odabrano 411 znanstvenih dokumenata za pružanje relevantnih podataka za opseg projekta.\nNa temelju pregleda odabranih članaka zabilježeno je 474 bioaktivne sekundarne metabolite, a 59 spojeva dodatno je ispitano za dobivanje podataka o njihovoj toksikologiji i karakteristikama njihove proizvodnje mikroorganizmima koji se koriste u industrijskim fermentacijama.Baza podataka generirana u ovom projektu obuhvaća detalje koji karakteriziraju stanja, gene koji su uključeni i toksičnost tih 59 spojeva.\nTime se pružaju informacije koje se mogu upotrijebiti za utvrđivanje sigurnosnih mjera pri uporabi potencijalno toksigenskih mikroorganizama u industrijskim fermentacijama. \n\nStrategija pretraživanja definirana je nakon preliminarne studije u kojoj su dobivene opće informacije o fermentacijskom procesu koji uključuje mikroorganizme unutar opsega.To je omogućilo prepoznavanje mogućih problema koji se mogu pojaviti pri dohvaćanju podataka iz ove heterogene skupine mikroorganizama.\n    Uspostavljeno je nekoliko skupina vrsta i skupina ključnih riječi kako bi se provela strategija pretraživanja.Skupine ključnih riječi su sljedeće:\n\n  Parallel keywords (Croatian) skupina 1:Izrazi koji se odnose na proizvodnju toksina i opasnosti\nParallel keywords (Croatian) skupina 2:\nIzrazi koji se odnose na dodatke hrani za životinje i prehrambene enzime\nKljučne riječi skupina 3: Izrazi koji se odnose na fermentacijske procese Ključne riječi skupina 4:\nPojmovi koji se odnose na toksikologiju\nKljučne riječi skupina 5: Pojmovi koji se odnose na biosintetske putove Mikrobne vrste podijeljene su u tri skupine, vrste I, Vrsta II i Vrsta III, prema preliminarnom ishodu pretraživanja PubMed:\n\n Vrsta I:\nMikroorganizmi koji su proizveli ≤ 200 unosa kada se pretražuju znanstveni nazivi.  \n Vrsta II.: Mikroorganizmi koji su proizveli ≤ 500 unosa kada se pretražuju prema znanstvenom nazivu i ključnim riječima iz skupine\n\n\n\nVrsta III.:\nMikroorganizmi koji su proizveli > 500 unosa po znanstvenom nazivu i ključnim riječima iz skupine 1",
+      "it": "Il lavoro svolto costituisce la relazione scientifica esterna del contratto dell'EFSA OC/EFSA/FEED/2015/01. L'obiettivo del progetto è stato quello di fornire all'EFSA una banca dati a partire da un riesame della descrizione tassonomica e delle potenziali capacità tossigene dei microrganismi utilizzati per la produzione industriale di additivi per mangimi e enzimi alimentari. Il riesame comprende microrganismi che producono additivi per mangimi e enzimi alimentari per i quali l'EFSA ha ricevuto o potenzialmente può ricevere domande di valutazione della sicurezza e che non sono stati raccomandati per lo status di presunzione qualificata di sicurezza (QPS). La banca dati comprende anche gli identificatori tassonomici molecolari e le vie biosintetiche coinvolte nella produzione di composti tossici e geni responsabili. Il risultato principale del progetto è stato messo a punto come banca dati secondo la struttura dei dati dell'EFSA. Gli aspetti metodologici e le interrogazioni utilizzate per la ricerca sistematica e la procedura applicata per lo screening dei documenti scientifici reperiti sono descritti nella presente relazione. I dettagli sono disponibili in allegati supplementari alla presente relazione.\n  In totale, 22970 documenti scientifici sono stati esaminati nella ricerca della letteratura, da cui 411 sono stati inizialmente selezionati per fornire dati pertinenti per l'ambito del progetto.\nDalla revisione degli articoli selezionati sono stati registrati 474 metaboliti secondari bioattivi e 59 composti sono stati ulteriormente studiati per ottenere dati sulla loro tossicologia e caratteristiche della loro produzione da parte di microrganismi utilizzati nelle fermentazioni industriali.Il database generato in questo progetto comprende dettagli che hanno caratterizzato le condizioni, i geni coinvolti e la tossicità di questi 59 composti.\nCiò fornisce informazioni che possono essere utilizzate per stabilire misure di sicurezza quando si utilizzano microrganismi potenzialmente tossigeni nelle fermentazioni industriali. \n\nLa strategia di ricerca è stata definita dopo uno studio preliminare in cui sono state ottenute informazioni generali sul processo fermentativo che coinvolge i microrganismi rientranti nell'ambito di applicazione.Ciò ha permesso di identificare eventuali problemi che possono sorgere quando si recuperano dati da questo gruppo eterogeneo di microrganismi.\n    Diversi gruppi di specie e gruppi di parole chiave sono stati istituiti per eseguire la strategia di ricerca.I gruppi di parole chiave sono i seguenti:\n\n  Parole chiave gruppo 1:Termini relativi alla produzione di tossine e pericoli\nParole chiave gruppo 2:\nTermini relativi agli additivi per mangimi e agli enzimi alimentari\nParole chiave gruppo 3: Termini relativi ai processi fermentativi Parole chiave gruppo 4:\nTermini relativi alla tossicologia\nParole chiave gruppo 5: Termini relativi alle vie biosintetiche La specie microbica è stata suddivisa in 3 gruppi, Specie I, Specie II e Specie III, secondo l'esito preliminare della ricerca PubMed:\n\n Specie I:\nMicrorganismi che hanno prodotto ≤ 200 voci durante la ricerca con nome scientifico.  \n Specie II: Microrganismi che hanno prodotto ≤ 500 voci durante la ricerca per nome scientifico e parole chiave di gruppo\n\n\n\nSpecie III:\nMicrorganismi che hanno prodotto > 500 voci durante la ricerca per nome scientifico e parole chiave del gruppo 1",
+      "fr": "Les travaux effectués constituent le rapport scientifique externe du contrat OC/EFSA/FEED/2015/01 de l’EFSA. L’objectif du projet était de fournir à l’EFSA une base de données issue d’un examen de la description taxonomique et des capacités toxigènes potentielles des micro-organismes utilisés pour la production industrielle d’additifs pour l’alimentation animale et d’enzymes alimentaires. L’examen porte sur les micro-organismes produisant des additifs pour l’alimentation animale et des enzymes alimentaires pour lesquels l’EFSA a reçu ou peut potentiellement recevoir des demandes d’évaluation de la sécurité et qui n’ont pas été recommandés pour le statut de présomption de sécurité qualifiée (QPS). La base de données comprend également les identificateurs taxonomiques moléculaires et les voies biosynthétiques impliquées dans la production de composés toxiques et de gènes responsables. Le principal résultat du projet est présenté sous la forme d’une base de données selon la structure des données de l’EFSA. Les aspects méthodologiques et les requêtes utilisées dans la recherche systématique et la procédure appliquée pour l’examen des documents scientifiques récupérés sont décrits dans le présent rapport. Des détails sont disponibles dans les annexes supplémentaires au présent rapport. \n\nAu total, 22970 documents scientifiques ont été examinés dans le cadre de la recherche documentaire, dont 411 ont d’abord été sélectionnés pour fournir des données pertinentes pour la portée du projet. D’après l’examen des articles sélectionnés, 474 métabolites secondaires bioactifs ont été enregistrés et 59 composés ont été étudiés plus avant afin d’obtenir des données sur leur toxicologie et les caractéristiques de leur production par des microorganismes utilisés dans les fermentations industrielles. La base de données générée dans le cadre de ce projet comprend des détails qui ont caractérisé les conditions, les gènes impliqués et la toxicité de ces 59 composés. Cela fournit des informations qui peuvent être utilisées pour établir des mesures de sécurité en cas d’utilisation de micro-organismes potentiellement toxigènes dans les fermentations industrielles. \n\nLa stratégie de recherche a été définie à la suite d’une étude préliminaire dans laquelle des informations générales sur le processus fermentatif impliquant les micro-organismes dans le champ d’application ont été obtenues. Cela a permis d’identifier les problèmes éventuels qui peuvent survenir lors de la récupération des données de ce groupe hétérogène de microorganismes. \n\nPlusieurs groupes d’espèces et groupes de mots clés ont été établis pour réaliser la stratégie de recherche. Les groupes de mots-clés sont les suivants: \n\nMots-clés groupe 1: Termes relatifs à la production de toxines et aux dangers\nMots-clés groupe 2: Termes relatifs aux additifs pour l’alimentation animale et aux enzymes alimentaires\nMots-clés groupe 3: Termes relatifs aux procédés fermentatifs\nMots-clés groupe 4: Termes liés à la toxicologie\nMots-clés groupe 5: Termes relatifs à voies biosynthétiques\nL’espèce microbienne a été divisée en 3 groupes, Espèces I, Espèces II et Espèce III, selon les résultats préliminaires de la recherche PubMed: \n\nEspèce I: Microorganismes ayant produit ≤ 200 entrées lors d’une recherche par nom scientifique. \n\nEspèce II: Microorganismes ayant produit ≤ 500 entrées lors d’une recherche par nom scientifique et mots-clés du groupe\n\nEspèce III: Microorganismes ayant produit > 500 entrées à la recherche par nom scientifique et mots-clés du groupe 1",
+      "hu": "Az elvégzett munka az EFSA OC/EFSA/FEED/2015/01 számú szerződésének külső tudományos jelentése. A projekt célja az volt, hogy az EFSA rendelkezésére bocsásson egy olyan adatbázist, amely a takarmány-adalékanyagok és élelmiszerenzimek ipari előállításához használt mikroorganizmusok taxonómiai leírását és potenciális toxigén kapacitásait tartalmazza. A felülvizsgálat kiterjed azokra a takarmány-adalékanyagokat és élelmiszerenzimeket előállító mikroorganizmusokra, amelyekre vonatkozóan az EFSA biztonsági értékelés iránti kérelmet kapott vagy kaphat, és amelyeket nem ajánlottak a biztonságosság minősített vélelme (QPS) státuszra. Az adatbázis tartalmazza a toxikus vegyületek és a felelősségteljes gének előállításában részt vevő molekuláris taxonómiai azonosítókat és bioszintetikus útvonalakat is. A projekt fő eredménye az EFSA adatstruktúrája szerinti adatbázisként jelenik meg. Ez a jelentés ismerteti a módszeres keresés során használt módszertani szempontokat és lekérdezéseket, valamint a lekérdezett tudományos dokumentumok szűrésére alkalmazott eljárást. A részletek e jelentés kiegészítő függelékeiben találhatók. \n\nÖsszesen 22970 tudományos dokumentumot vizsgáltak meg a szakirodalomban, amelyből eredetileg 411-et választottak ki a projekt hatókörére vonatkozó adatok szolgáltatására. A kiválasztott árucikkek áttekintése alapján 474 bioaktív másodlagos metabolitot jegyeztek fel, 59 vegyületet pedig további vizsgálatnak vetettek alá annak érdekében, hogy adatokat szerezzenek toxikológiai jellemzőikről és az ipari fermentációkban használt mikroorganizmusok által történő előállításuk jellemzőiről. Az ebben a projektben létrehozott adatbázis olyan részleteket tartalmaz, amelyek ezen 59 vegyület körülményeit, génjeit és toxicitását jellemezték. Ez olyan információkat nyújt, amelyek felhasználhatók a potenciálisan toxigén mikroorganizmusok ipari fermentációkban történő alkalmazásakor alkalmazandó biztonsági intézkedések megállapításához. \n\nA keresési stratégiát egy előzetes vizsgálatot követően határozták meg, amelynek során általános információkat szereztek a hatály alá tartozó mikroorganizmusokat érintő fermentációs folyamatról. Ez lehetővé tette azoknak a lehetséges problémáknak az azonosítását, amelyek a mikroorganizmusok e heterogén csoportjából származó adatok lehívásakor merülhetnek fel.  \n\n\nA keresési stratégia végrehajtására több fajcsoportot és kulcsszava-csoportot hoztak létre.\nA kulcsszavak a következők:\n\n\n\n\nKulcsszavak csoport:\nToxintermeléssel és veszélyekkel kapcsolatos kifejezések\n\nKulcsszavak csoport:\nA takarmány-adalékanyagokra és az élelmiszerenzimekre vonatkozó kifejezések\n\nKulcsszavak csoport:\nFermentációs folyamatokhoz kapcsolódó kifejezések\n\nKulcsszavak csoport:\nToxikológiai fogalmak\n\nKulcsszavak csoport:\nBioszintetikus utakkal kapcsolatos kifejezések\n\nA mikrobiális fajokat 3 csoportra osztották, az I., II. és III. fajra, a PubMed keresés előzetes eredménye szerint:\n\n\n\n\nI. faj:\nOlyan mikroorganizmusok, amelyek tudományos név alapján történő keresés esetén legfeljebb 200 bejegyzést állítottak elő.\n\n\n\n\nFaj:\nLegfeljebb 500 bejegyzést előállító mikroorganizmusok tudományos név és csoport kulcsszavai alapján történő kereséskor\n\n\n\nFaj:\nOlyan mikroorganizmusok, amelyek tudományos név és az 1. csoportba tartozó kulcsszavak alapján több mint 500 bejegyzést állítottak elő",
+      "es": "El trabajo realizado constituye el informe científico externo del contrato de la EFSA OC/EFSA/FEED/2015/01. El objetivo del proyecto ha sido proporcionar a la EFSA una base de datos a partir de una revisión sobre la descripción taxonómica y las capacidades toxigénicas potenciales de los microorganismos utilizados para la producción industrial de aditivos para piensos y enzimas alimentarias. La revisión incluye microorganismos que producen aditivos para piensos y enzimas alimentarias para los que la EFSA ha recibido o puede recibir solicitudes de evaluación de la seguridad, y que no se han recomendado para la condición de presunción cualificada de seguridad (QPS). La base de datos también incluye los identificadores taxonómicos moleculares y las vías biosintéticas que intervienen en la producción de compuestos tóxicos y genes responsables. El principal resultado del proyecto se muestra como base de datos de acuerdo con la estructura de datos de la EFSA. En el presente informe se describen los aspectos metodológicos y las consultas utilizadas en la búsqueda sistemática y el procedimiento aplicado para el cribado de los documentos científicos recuperados. Los detalles figuran en los apéndices complementarios del presente informe. \n\nEn total, 22970 documentos científicos fueron examinados en la búsqueda bibliográfica de la que se seleccionaron 411 inicialmente para proporcionar datos pertinentes para el alcance del proyecto. A partir de la revisión de los artículos seleccionados, se registraron 474 metabolitos bioactivos secundarios y se estudiaron 59 compuestos para obtener datos sobre su toxicología y características de su producción por microorganismos utilizados en fermentaciones industriales. La base de datos generada en este proyecto incluye detalles que caracterizan las condiciones, genes involucrados y toxicidad de estos 59 compuestos. Esto proporciona información que puede utilizarse para establecer medidas de seguridad cuando se utilizan microorganismos potencialmente toxigénicos en fermentaciones industriales. \n\nLa estrategia de búsqueda se definió después de un estudio preliminar en el que se obtuvo información general sobre el proceso fermentativo que involucra a los microorganismos dentro del ámbito de aplicación. Esto permitió identificar posibles problemas que pueden surgir al recuperar datos de este grupo heterogéneo de microorganismos. \n\nSe establecieron varios grupos de especies y grupos de palabras clave para llevar a cabo la estrategia de búsqueda. Los grupos de palabras clave son los siguientes: \n\nPalabras clave grupo 1: Términos relacionados con la producción de toxinas y los peligros\nPalabras clave grupo 2: Términos relacionados con aditivos para piensos y enzimas alimentarias\nPalabras clave grupo 3: Términos relacionados con los procesos fermentativos\nPalabras clave grupo 4: Términos relacionados con toxicología\nPalabras clave grupo 5: Términos relacionados con las vías biosintéticas\nLa especie microbiana se ha dividido en 3 grupos, Especies I, Especies II y Especies III, según el resultado preliminar en la búsqueda PubMed: \n\nEspecie I: Microorganismos que producen ≤ 200 entradas cuando se buscan por nombre científico. \n\nEspecie II: Microorganismos que produjeron ≤ 500 entradas cuando se buscan por nombre científico y palabras clave del grupo\n\nEspecie III: Microorganismos que produjeron > 500 entradas cuando se buscaron por nombre científico y palabras clave del grupo 1",
+      "et": "Tehtud töö moodustab EFSA lepingu OC/EFSA/FEED/2015/01 välise teadusliku aruande. Projekti eesmärk on anda EFSA-le andmebaas söödalisandite ja toiduensüümide tööstuslikuks tootmiseks kasutatavate mikroorganismide taksonoomilise kirjelduse ja võimaliku toksigeensuse kohta. Läbivaatamine hõlmab mikroorganisme, kes toodavad söödalisandeid ja toiduensüüme, mille kohta EFSA on saanud või võib saada ohutushindamise taotlusi ning mida ei ole soovitatud ohutuse kvalifitseeritud eelduse (QPS) staatuse saamiseks. Andmebaas sisaldab ka molekulaarseid taksonoomilisi tunnuseid ja biosünteetilisi radasid, mis on seotud toksiliste ühendite ja vastutustundlike geenide tootmisega. Projekti peamine tulemus on esitatud andmebaasina vastavalt EFSA andmestruktuurile. Käesolevas aruandes kirjeldatakse süstemaatilises otsingus kasutatud metoodilisi aspekte ja päringuid ning saadud teaduslike dokumentide sõelumisel kohaldatavat menetlust. Üksikasjad on esitatud käesoleva aruande lisalisades.\n  Kokku kontrolliti kirjanduse otsingus 22970 teadusdokumenti, millest algselt valiti välja 411 teadusdokumenti, et esitada projekti ulatuse kohta asjakohaseid andmeid.\nValitud toodete läbivaatamise tulemusena registreeritakse 474 bioaktiivset sekundaarset metaboliiti ning täiendavalt uuriti 59 ühendit, et saada andmeid nende toksikoloogilise ja iseloomuliku tootmise kohta mikroorganismides, mida kasutatakse tööstuslikul kääritamisel.Selle projekti käigus loodud andmebaas sisaldab üksikasju, mis iseloomustasid nende 59 ühendi tingimusi, geene ja toksilisust.\nSee annab teavet, mida saab kasutada ohutusmeetmete kehtestamiseks, kui tööstuslikul kääritamisel kasutatakse potentsiaalselt toksigeenseid mikroorganisme. \n\nOtsingustrateegia määratleti pärast eeluuringut, milles saadi üldist teavet reguleerimisalasse kuuluvate mikroorganismidega seotud fermentatsiooniprotsessi kohta.See võimaldas kindlaks teha võimalikud probleemid, mis võivad tekkida andmete saamisel sellest heterogeensest mikroorganismide rühmast.\n    Otsingustrateegia elluviimiseks loodi mitu liigi- ja märksõnarühma.Märksõnade rühmad on järgmised:\n\n  Märksõnad rühm 1:Toksiinide tootmise ja ohtudega seotud mõisted\nMärksõnad rühm 2:\nSöödalisandite ja toiduensüümidega seotud mõisted\nMärksõnad rühm 3: Fermentatsiooniprotsessiga seotud mõisted Märksõnad rühm 4:\nToksikoloogiaga seotud terminid\nMärksõnad rühm 5: Biosünteetiliste radadega seotud terminid Vastavalt PubMed otsingu esialgsele tulemusele on mikroobsed liigid jaotatud kolme rühma: I, II ja III liik:\n\n Liik I:\nMikroorganismid, mis tekitasid teadusliku nimetuse järgi otsimisel ≤ 200 kannet.  \n Liik II: Mikroorganismid, mis tekitasid ≤ 500 kannet, kui neid otsiti teadusliku nime ja märksõnade järgi rühmast\n\n\n\nLiik III:\nMikroorganismid, mis tegid 1. rühma teadusliku nime ja märksõnade järgi otsides > 500 kannet",
+      "cs": "Vykonaná práce představuje externí vědeckou zprávu smlouvy EFSA OC/EFSA/FEED/2015/01. Cílem projektu bylo poskytnout úřadu EFSA databázi z přezkumu taxonomického popisu a potenciálních toxigenních kapacit mikroorganismů používaných pro průmyslovou výrobu doplňkových látek a potravinářských enzymů. Přezkum zahrnuje mikroorganismy produkující doplňkové látky a potravinářské enzymy, pro něž úřad EFSA obdržel nebo může případně obdržet žádosti o posouzení bezpečnosti a které nebyly doporučeny pro status kvalifikované presumpce bezpečnosti (QPS). Databáze rovněž obsahuje molekulární taxonomické identifikátory a biosyntetické cesty, které se podílejí na výrobě toxických sloučenin a odpovědných genů. Hlavní výsledek projektu je zobrazen jako databáze podle datové struktury EFSA. V této zprávě jsou popsány metodické aspekty a dotazy používané při systematickém vyhledávání a postup použitý při prověřování získaných vědeckých dokumentů. Podrobnosti jsou k dispozici v dodatcích k této zprávě. \n\nCelkem bylo při vyhledávání literatury prověřeno 22970 vědeckých dokumentů, z nichž bylo původně vybráno 411 pro poskytnutí relevantních údajů o rozsahu projektu. Z přezkumu vybraných předmětů bylo zaznamenáno 474 bioaktivních sekundárních metabolitů a 59 sloučenin bylo dále zkoumáno za účelem získání údajů o jejich toxikologii a charakteristických vlastnostech jejich produkce mikroorganismy používanými v průmyslových fermentacích. Databáze generovaná v tomto projektu obsahuje podrobnosti, které charakterizují podmínky, zapojené geny a toxicitu těchto 59 sloučenin. To poskytuje informace, které lze použít k zavedení bezpečnostních opatření při používání potenciálně toxigenních mikroorganismů v průmyslových fermentacích. \n\nStrategie vyhledávání byla definována po předběžné studii, ve které byly získány obecné informace o fermentačním procesu zahrnujícím mikroorganismy v rozsahu. To umožnilo identifikovat možné problémy, které mohou nastat při získávání údajů z této heterogenní skupiny mikroorganismů. \n\nPro provádění strategie vyhledávání bylo vytvořeno několik skupin druhů a skupin klíčových slov. Skupiny klíčových slov jsou následující: \n\nKlíčová slova skupina 1: Pojmy týkající se produkce toxinů a nebezpečí\nKlíčová slova skupina 2: Výrazy týkající se doplňkových látek v krmivech a potravinářských enzymů\nKlíčová slova skupina 3: Podmínky týkající se fermentačních procesů\nKlíčová slova skupina 4: Termíny týkající se toxikologie\nKlíčová slova skupina 5: Termíny vztahující se k biosyntetickým cestám\nMikrobiální druhy byly rozděleny do 3 skupin, Druh I, Druh II a Druh III, podle předběžného výsledku vyhledávání PubMed: \n\nDruh I: Mikroorganismy, které vyprodukovaly ≤ 200 položek při vyhledávání podle vědeckého názvu. \n\nDruh II: Mikroorganismy, které vyprodukovaly ≤ 500 položek při vyhledávání podle vědeckého názvu a klíčových slov ze skupiny\n\nDruh III: Mikroorganismy, které vyprodukovaly > 500 položek při vyhledávání podle vědeckého názvu a klíčových slov ze skupiny 1",
+      "sk": "Vykonaná práca predstavuje externú vedeckú správu zo zmluvy EFSA OC/EFSA/FEED/2015/01. Cieľom projektu bolo poskytnúť EFSA databázu z preskúmania taxonomického opisu a potenciálnych toxigénnych kapacít mikroorganizmov používaných na priemyselnú výrobu kŕmnych doplnkových látok a potravinárskych enzýmov. Preskúmanie zahŕňa mikroorganizmy produkujúce kŕmne doplnkové látky a potravinárske enzýmy, v prípade ktorých EFSA dostal alebo môže prípadne dostať žiadosti o posúdenie bezpečnosti a ktoré neboli odporučené pre štatút kvalifikovaného predpokladu bezpečnosti (QPS). Databáza obsahuje aj molekulárne taxonomické identifikátory a biosyntetické cesty, ktoré sa podieľajú na výrobe toxických zlúčenín a zodpovedných génov.Hlavný výsledok projektu sa uvádza ako databáza podľa štruktúry údajov EFSA.\nV tejto správe sú opísané metodické aspekty a dopyty použité pri systematickom vyhľadávaní a postup použitý pri skríningu získaných vedeckých dokumentov.Podrobnosti sú k dispozícii v doplňujúcich prílohách k tejto správe.\n  \nCelkovo bolo preverených 22970 vedeckých dokumentov pri vyhľadávaní literatúry, z ktorých bolo pôvodne vybraných 411 na poskytnutie relevantných údajov pre rozsah projektu.Z preskúmania vybraných článkov bolo zaznamenaných 474 bioaktívnych sekundárnych metabolitov a 59 zlúčenín bolo ďalej študovaných na získanie údajov o ich toxikológii a charakteristikách ich produkcie mikroorganizmami používanými pri priemyselných fermentáciách.\nDatabáza vytvorená v rámci tohto projektu obsahuje podrobnosti, ktoré charakterizujú podmienky, príslušné gény a toxicitu týchto 59 zlúčenín. Poskytuje informácie, ktoré možno použiť na stanovenie bezpečnostných opatrení pri používaní potenciálne toxigénnych mikroorganizmov pri priemyselných fermentáciách.   \nStratégia vyhľadávania bola definovaná po predbežnej štúdii, v ktorej boli získané všeobecné informácie o fermentačnom procese zahŕňajúceho mikroorganizmy v rozsahu pôsobnosti.To umožnilo identifikovať možné problémy, ktoré môžu vzniknúť pri získavaní údajov z tejto heterogénnej skupiny mikroorganizmov.\n  \nNa vykonanie stratégie vyhľadávania bolo vytvorených niekoľko skupín druhov a skupín kľúčových slov.Skupiny kľúčových slov sú tieto:\n\n  Kľúčové slová skupina 1:Pojmy týkajúce sa výroby toxínov a nebezpečenstiev\nKľúčové slová skupina 2:\nPojmy súvisiace s kŕmnymi doplnkovými látkami a potravinárskymi enzýmami  Kľúčové slová skupina 3:Pojmy súvisiace s fermentačnými procesmi\nKľúčové slová skupina 4:\nPojmy súvisiace s toxikológiou Kľúčové slová skupina 5:\nPojmy súvisiace s biosyntetickými cestami  Mikrobiálne druhy boli rozdelené do 3 skupín, druhu I, druhu II a druhu III, podľa predbežného výsledku vyhľadávania PubMed:\n  \nDruh I:\nMikroorganizmy, ktoré pri vyhľadávaní podľa vedeckého názvu vyprodukovali ≤ 200 záznamov.\n\n\n\n\nDruh II:\nMikroorganizmy, ktoré vyprodukovali položky ≤ 500 pri vyhľadávaní podľa vedeckého názvu a kľúčových slov zo skupiny\n\n\n\nDruh III:\nMikroorganizmy, ktoré vyprodukovali > 500 položiek pri vyhľadávaní podľa vedeckého názvu a kľúčových slov zo skupiny 1",
+      "sl": "Opravljeno delo je zunanje znanstveno poročilo pogodbe EFSA OC/EFSA/FEED/2015/01. Cilj projekta je bil zagotoviti Evropski agenciji za varnost hrane podatkovno zbirko iz pregleda taksonomskega opisa in potencialnih toksogenih zmogljivosti mikroorganizmov, ki se uporabljajo za industrijsko proizvodnjo krmnih dodatkov in živilskih encimov. Pregled vključuje mikroorganizme, ki proizvajajo krmne dodatke in živilske encime, za katere je EFSA prejela ali bi lahko prejela vloge za oceno varnosti in ki niso bili priporočeni za status kvalificirane domneve varnosti (QPS). Podatkovna zbirka vsebuje tudi molekularne taksonomske identifikatorje in biosintetične poti, vključene v proizvodnjo strupenih spojin in odgovornih genov.Glavni rezultat projekta je prikazan kot podatkovna zbirka v skladu s strukturo podatkov EFSA.\nMetodološki vidiki in poizvedbe, ki se uporabljajo pri sistematičnem iskanju, in postopek, ki se uporablja za preverjanje pridobljenih znanstvenih dokumentov, so opisani v tem poročilu.Podrobnosti so na voljo v dodatnih dodatkih k temu poročilu.\n  \nSkupaj je bilo v iskanju literature pregledanih 22970 znanstvenih dokumentov, od katerih je bilo prvotno izbranih 411 za zagotovitev ustreznih podatkov za obseg projekta.Po pregledu izbranih izdelkov je bilo zabeleženih 474 bioaktivnih sekundarnih metabolitov, 59 spojin pa je bilo nadalje raziskanih za pridobitev podatkov o njihovi toksikologiji in značilnostih njihove proizvodnje v mikroorganizmih, ki se uporabljajo pri industrijskih fermentacijah.\nPodatkovna zbirka, ustvarjena v tem projektu, vsebuje podrobnosti, ki so značilne za pogoje, vključene gene in toksičnost teh 59 spojin. To zagotavlja informacije, ki se lahko uporabijo za določitev varnostnih ukrepov pri uporabi potencialno toksigenih mikroorganizmov pri industrijskih fermentacijah.   \nStrategija iskanja je bila opredeljena po predhodni študiji, v kateri so bile pridobljene splošne informacije o fermentacijskem procesu, ki vključuje mikroorganizme v obsegu.To je omogočilo opredelitev morebitnih težav, ki se lahko pojavijo pri pridobivanju podatkov iz te heterogene skupine mikroorganizmov.\n  \nZa izvedbo strategije iskanja je bilo ustanovljenih več skupin vrst in skupin ključnih besed.Ključne besede so naslednje:\n\n  Ključne besede skupine 1:Izrazi, povezani s proizvodnjo toksinov in nevarnostmi\nKljučne besede skupine 2:\nIzrazi, povezani s krmnimi dodatki in encimi za živila  Ključne besede skupine 3:Izrazi, povezani s fermentacijskimi procesi\nKljučne besede skupine 4:\nIzrazi, povezani s toksikologijo Ključne besede skupine 5:\nIzrazi, povezani z biosintetičnimi potmi  Mikrobne vrste so bile razdeljene v tri skupine, tj. vrste I, vrste II in vrste III, glede na predhodni izid iskanja PubMed:\n  \nVrsta I:\nMikroorganizmi, ki so pri iskanju z znanstvenim imenom proizvedli ≤ 200 vnosov.\n\n\n\n\nVrsta II:\nMikroorganizmi, ki so pri iskanju z znanstvenim imenom in ključnimi besedami iz skupine proizvedli ≤ 500 vnosov\n\n\n\nVrsta III:\nMikroorganizmi, ki so pri iskanju z znanstvenim imenom in ključnimi besedami iz skupine 1 proizvedli > 500 vnosov",
+      "ga": "Is ionann an obair a dhéantar agus an tuarascáil eolaíoch sheachtrach ar chonradh EFSA OC/EFSA/FEED/2015/01. Is é is aidhm don tionscadal bunachar sonraí a chur ar fáil do EFSA ó athbhreithniú ar an tuairisc thacsanomaíoch agus ar chumas toxigenic féideartha na miocrorgánach a úsáidtear chun breiseáin bheatha agus einsímí bia a tháirgeadh go tionsclaíoch.Áirítear san athbhreithniú miocrorgánaigh a tháirgeann breiseáin bheatha agus einsímí bia a bhfuair EFSA iarratais ar mheasúnú sábháilteachta ina leith nó ar féidir leis na hiarratais sin a fháil ina leith, agus nár moladh maidir le stádas Toimhde Cáilithe Sábháilteachta (QPS).\nCuimsíonn an bunachar sonraí freisin na haitheantóirí tacsanomaíocha móilíneacha agus conairí bithsintéiseacha a bhfuil baint acu le táirgeadh comhdhúile tocsaineacha agus géinte freagracha. Tá príomhthoradh an tionscadail léirithe mar bhunachar sonraí de réir struchtúr sonraí EFSA. Tugtar tuairisc sa tuarascáil seo ar na gnéithe modheolaíochta agus ar na cuardaigh a úsáidtear sa chuardach córasach agus ar an nós imeachta a cuireadh i bhfeidhm chun scagadh a dhéanamh ar dhoiciméid eolaíocha aisghabhtha. Tá sonraí ar fáil in aguisíní forlíontacha a ghabhann leis an tuarascáil seo.\n \nAr an iomlán, rinneadh 22970 doiciméad eolaíochta a scagadh sa chuardach litríochta ónar roghnaíodh 411 doiciméad ar dtús chun sonraí ábhartha a sholáthar do raon feidhme an tionscadail. Ón athbhreithniú ar na hearraí roghnaithe, taifeadadh 474 meitibilítí tánaisteacha bithghníomhacha agus rinneadh staidéar breise ar 59 gcomhdhúil chun sonraí a fháil maidir lena dtocsaineolaíocht agus maidir le saintréithe a dtáirgthe ag miocrorgánaigh a úsáidtear i gcoipeadh tionsclaíocha. Cuimsíonn an bunachar sonraí a ghintear sa tionscadal seo sonraí a shainaithníonn na coinníollacha, na géinte lena mbaineann agus tocsaineacht na gcomhdhúl 59 seo. Soláthraíonn sé seo faisnéis is féidir a úsáid chun bearta sábháilteachta a bhunú nuair a úsáidtear miocrorgánaigh thocsaigineacha a d’fhéadfadh a bheith i gcoipeadh tionsclaíoch.\n \nSainíodh an straitéis chuardaigh tar éis réamhstaidéar ina bhfuarthas faisnéis ghinearálta faoin bpróiseas coiptheach a bhain leis na miocrorgánaigh laistigh den raon feidhme.Leis sin, bhíothas in ann fadhbanna féideartha a aithint a d’fhéadfadh teacht chun cinn agus sonraí á n-aisghabháil ón ngrúpa ilchineálach miocrorgánach sin.\n    Bunaíodh roinnt grúpaí de speicis agus grúpaí de eochairfhocail a dhéanamh ar an straitéis cuardaigh.Is iad seo a leanas grúpaí na n-eochairfhocail:\n\n  Eochairfhocail Grúpa 1:Téarmaí a bhaineann le táirgeadh tocsaine agus guaiseacha\nEochairfhocail grúpa 2:\nTéarmaí a bhaineann le breiseáin bheatha agus einsímí bia\nEochairfhocail Grúpa 3: Téarmaí a bhaineann le próisis choiptheacha Grúpa na nEochairfhocail 4:\nTéarmaí a bhaineann le tocsaineolaíocht\nEochairfhocail Grúpa 5: Téarmaí a bhaineann le conairí bithsintéiseacha Tá an speiceas miocróbach roinnte ina 3 ghrúpa, Speicis I, Speicis II, agus Speicis III, de réir an réamhthorthaí i gcuardach PubMed:\n\n Speiceas I:\nMiocrorgánaigh a chruthaigh ≤ 200 iontráil nuair a chuardaítear iad de réir ainm eolaíoch.  \n Speiceas II: Miocrorgánaigh a tháirg iontráil ≤ 500 nuair a chuardaítear iad de réir ainm eolaíoch agus eochairfhocail ón ngrúpa\n\n\n\nSpeiceas III:\nMiocrorgánaigh a tháirg > 500 iontráil nuair a chuardaítear iad de réir ainm eolaíoch agus eochairfhocail ó ghrúpa 1",
+      "pl": "Wykonane prace stanowią zewnętrzne sprawozdanie naukowe z umowy EFSA OC/EFSA/FEED/2015/01. Celem projektu było dostarczenie EFSA bazy danych z przeglądu opisu taksonomicznego i potencjału toksycznego mikroorganizmów wykorzystywanych do przemysłowej produkcji dodatków paszowych i enzymów spożywczych. Przegląd obejmuje mikroorganizmy produkujące dodatki paszowe i enzymy spożywcze, w odniesieniu do których EFSA otrzymał lub może otrzymać wnioski o ocenę bezpieczeństwa i które nie zostały zalecane w odniesieniu do statusu kwalifikowanego domniemania bezpieczeństwa (QPS). Baza danych obejmuje również identyfikatory taksonomiczne molekularne i ścieżki biosyntetyczne związane z wytwarzaniem związków toksycznych i odpowiedzialnych genów.Główny wynik projektu przedstawiono jako bazę danych zgodnie ze strukturą danych EFSA.\nW niniejszym sprawozdaniu opisano aspekty metodologiczne i zapytania stosowane przy systematycznym wyszukiwaniu oraz procedurę stosowaną do kontroli przesiewowej pozyskanych dokumentów naukowych.Szczegółowe informacje są dostępne w dodatkowych załącznikach do niniejszego sprawozdania.\n  \nW sumie w poszukiwaniu literatury przeanalizowano 22970 dokumentów naukowych, z których wstępnie wybrano 411 w celu dostarczenia istotnych danych dotyczących zakresu projektu.Na podstawie przeglądu wybranych artykułów odnotowano 474 bioaktywne metabolity wtórne, a 59 związków zostało dalej zbadanych w celu uzyskania danych o ich toksykologii i charakterystyce ich produkcji przez mikroorganizmy wykorzystywane w fermentacjach przemysłowych.\nBaza danych wygenerowana w ramach tego projektu zawiera szczegóły, które charakteryzują warunki, geny i toksyczność tych 59 związków. Dostarcza to informacji, które można wykorzystać do ustanowienia środków bezpieczeństwa przy stosowaniu potencjalnie toksycznych mikroorganizmów w procesach fermentacji przemysłowych.   \nStrategia poszukiwania została zdefiniowana po wstępnym badaniu, w którym uzyskano ogólne informacje na temat procesu fermentacyjnego z udziałem mikroorganizmów objętych zakresem.Pozwoliło to zidentyfikować możliwe problemy, które mogą pojawić się podczas pobierania danych z tej niejednorodnej grupy mikroorganizmów.\n  \nW celu realizacji strategii wyszukiwania utworzono kilka grup gatunków i grup słów kluczowych.Grupy słów kluczowych są następujące:\n\n  Grupa słów kluczowych 1:Terminy związane z produkcją toksyn i zagrożeniami\nGrupa słów kluczowych 2:\nTerminy związane z dodatkami paszowymi i enzymami spożywczymi  Grupa słów kluczowych 3:Terminy związane z procesami fermentacyjnymi\nGrupa słów kluczowych 4:\nTerminy związane z toksykologią Grupa słów kluczowych 5:\nTerminy związane ze szlakami biosyntetycznymi  Gatunek drobnoustrojów podzielono na 3 grupy, gatunki I, gatunki II i gatunki III, zgodnie ze wstępnymi wynikami badania PubMed:\n  \nGatunek I:\nMikroorganizmy, które wyprodukowały ≤ 200 wpisów po przeszukaniu według nazwy naukowej.\n\n\n\n\nGatunek II:\nMikroorganizmy, które wyprodukowały ≤ 500 wpisów po wyszukiwaniu według nazwy naukowej i słów kluczowych z grupy\n\n\n\nGatunek III:\nMikroorganizmy, które wyprodukowały > 500 wpisów po wyszukiwaniu według nazwy naukowej i słów kluczowych z grupy 1",
+      "ro": "Activitatea desfășurată constituie raportul științific extern al contractului EFSA OC/EFSA/FEED/2015/01. Scopul proiectului a fost de a furniza EFSA o bază de date dintr-o revizuire a descrierii taxonomice și a capacităților toxigenice potențiale ale microorganismelor utilizate pentru producția industrială de aditivi furajeri și enzime alimentare.Revizuirea include microorganisme care produc aditivi pentru hrana animalelor și enzime alimentare pentru care EFSA a primit sau ar putea primi cereri de evaluare a siguranței și care nu au fost recomandate pentru statutul de prezumție calificată de siguranță (QPS).\nBaza de date cuprinde, de asemenea, identificatorii taxonomici moleculari și căile biosintetice implicate în producerea compușilor toxici și a genelor responsabile. Principalul rezultat al proiectului este prezentat sub forma unei baze de date în conformitate cu structura de date a EFSA. Aspectele metodologice și întrebările utilizate în cadrul căutării sistematice și procedura aplicată pentru examinarea documentelor științifice extrase sunt descrise în prezentul raport. Detaliile sunt disponibile în anexele suplimentare la prezentul raport.\n \nÎn total, 22970 de documente științifice au fost analizate în cercetarea literară, din care 411 au fost selectate inițial pentru furnizarea de date pertinente pentru domeniul de aplicare al proiectului. Din revizuirea articolelor selectate au fost înregistrați 474 de metaboliți secundari bioactivi și 59 de compuși au fost studiați în continuare pentru a obține date privind toxicologia și caracteristicile producției lor de microorganisme utilizate în fermentațiile industriale. Baza de date generată în cadrul acestui proiect cuprinde detalii care au caracterizat condițiile, genele implicate și toxicitatea acestor 59 de compuși. Aceasta oferă informații care pot fi utilizate pentru a stabili măsuri de siguranță atunci când se utilizează microorganisme potențial toxigenice în fermentațiile industriale.\n \nStrategia de căutare a fost definită în urma unui studiu preliminar în care s-au obținut informații generale despre procesul de fermentare care implică microorganismele din domeniul de aplicare.Acest lucru a permis identificarea posibilelor probleme care pot apărea la extragerea datelor din acest grup eterogen de microorganisme.\n    Mai multe grupuri de specii și grupuri de cuvinte cheie au fost stabilite pentru a efectua strategia de căutare.Grupurile de cuvinte-cheie sunt următoarele:\n\n  Cuvinte-cheie grupa 1:Termeni referitori la producția de toxine și pericole\nCuvinte-cheie grupa 2:\nTermeni referitori la aditivii furajeri și enzimele alimentare\nCuvinte-cheie grupa 3: Termeni referitori la procesele fermentative Cuvinte-cheie grupa 4:\nTermeni referitori la toxicologie\nCuvinte-cheie grupa 5: Termeni referitori la căile biosintetice Specia microbiană a fost împărțită în 3 grupe, speciile I, II și III, în funcție de rezultatul preliminar al căutării PubMed:\n\n Specia I:\nMicroorganisme care au produs ≤ 200 de intrări atunci când sunt căutate după denumirea științifică.  \n Specia II: Microorganisme care au produs ≤ 500 de intrări atunci când sunt căutate după denumirea științifică și cuvintele-cheie din grup\n\n\n\nSpecia III:\nMicroorganisme care au produs > 500 de intrări atunci când sunt căutate după denumirea științifică și cuvintele-cheie din grupul 1",
+      "da": "Det udførte arbejde udgør den eksterne videnskabelige rapport fra EFSA's kontrakt OC/EFSA/FEED/2015/01. Formålet med projektet har været at forsyne EFSA med en database fra en gennemgang af den taksonomiske beskrivelse og den potentielle toksigenkapacitet af mikroorganismer, der anvendes til industriel produktion af fodertilsætningsstoffer og fødevareenzymer. Gennemgangen omfatter mikroorganismer, der producerer fodertilsætningsstoffer og fødevareenzymer, for hvilke EFSA har modtaget eller potentielt kan modtage ansøgninger om sikkerhedsvurdering, og som ikke er blevet anbefalet til status som kvalificeret formodning for sikkerhed (QPS). Databasen omfatter også molekylære taksonomiske identifikatorer og biosyntetiske veje, der er involveret i produktionen af giftige forbindelser og ansvarlige gener. Hovedresultatet af projektet er vist som en database i henhold til EFSA's datastruktur. De metodologiske aspekter og de forespørgsler, der anvendes i forbindelse med den systematiske søgning, og den procedure, der anvendes til screening af hentede videnskabelige dokumenter, er beskrevet i denne rapport. Nærmere oplysninger findes i supplerende bilag til denne rapport. \n\nI alt blev 22970 videnskabelige dokumenter screenet i litteratursøgningen, hvoraf 411 oprindeligt blev udvalgt til at levere relevante data for projektets omfang. Efter gennemgangen af de udvalgte artikler blev 474 bioaktive sekundære metabolitter registreret, og 59 forbindelser blev yderligere undersøgt for at fremskaffe data om deres toksikologi og karakteristiske egenskaber ved deres produktion af mikroorganismer, der anvendes i industriel gæring. Den database, der genereres i dette projekt, indeholder nærmere oplysninger om disse 59 forbindelsers tilstande, gener og toksicitet. Dette giver oplysninger, der kan anvendes til at fastlægge sikkerhedsforanstaltninger ved anvendelse af potentielt toksige mikroorganismer i industriel gæring. \n\nSøgestrategien blev fastlagt efter en indledende undersøgelse, hvor der blev indhentet generelle oplysninger om den fermenteringsproces, der involverer mikroorganismerne inden for anvendelsesområdet. Dette gjorde det muligt at identificere mulige problemer, der kan opstå, når der hentes data fra denne heterogene gruppe af mikroorganismer. \n\nFlere grupper af arter og grupper af søgeord blev etableret for at udføre søgestrategien. Grupperne af nøgleord er følgende: \n\nNøgleord gruppe 1: Udtryk vedrørende toksinproduktion og farer\nNøgleord gruppe 2: Udtryk vedrørende fodertilsætningsstoffer og fødevareenzymer\nNøgleord gruppe 3: Termer vedrørende gæringsprocesser\nNøgleord gruppe 4: Termer relateret til toksikologi\nNøgleord gruppe 5: Termer vedrørende biosyntetiske veje\nDe mikrobielle arter er blevet opdelt i 3 grupper, Art I, Art II og Art III, i henhold til det foreløbige resultat i PubMed Search: \n\nArt I: Mikroorganismer, der har produceret ≤ 200 indgange, når de søges med videnskabeligt navn. \n\nArt II: Mikroorganismer, der har produceret ≤ 500 indgange, når de søges efter videnskabeligt navn og nøgleord fra gruppe\n\nArt III: Mikroorganismer, der producerede > 500 indgange ved søgning efter videnskabeligt navn og nøgleord fra gruppe 1",
+      "nl": "De verrichte werkzaamheden vormen het externe wetenschappelijk verslag van het EFSA-contract OC/EFSA/FEED/2015/01. Het doel van het project was de EFSA te voorzien van een databank uit een evaluatie van de taxonomische beschrijving en de potentiële toxigenic capaciteiten van micro-organismen die worden gebruikt voor de industriële productie van toevoegingsmiddelen voor diervoeders en voedingsenzymen. De evaluatie omvat micro-organismen die toevoegingsmiddelen voor diervoeding en voedingsenzymen produceren waarvoor de EFSA aanvragen voor een veiligheidsbeoordeling heeft ontvangen of kan ontvangen en die niet zijn aanbevolen voor de status van gekwalificeerd vermoeden van veiligheid (QPS). De databank bevat ook de moleculaire taxonomische identificatoren en biosynthetische routes die betrokken zijn bij de productie van toxische verbindingen en verantwoordelijke genen.Het belangrijkste resultaat van het project wordt weergegeven als een databank volgens de gegevensstructuur van de EFSA.\nDe methodologische aspecten en de bij de systematische bevraging gebruikte zoekopdrachten en de toegepaste procedure voor de screening van opgehaalde wetenschappelijke documenten worden in dit verslag beschreven.Nadere bijzonderheden zijn te vinden in de aanvullende bijlagen bij dit verslag.\n  \nIn totaal werden 22970 wetenschappelijke documenten gescreend in het literatuuronderzoek, waaruit in eerste instantie 411 werden geselecteerd voor het verstrekken van relevante gegevens voor de reikwijdte van het project.Uit het onderzoek van de geselecteerde artikelen zijn 474 bioactieve secundaire metabolieten geregistreerd en 59 verbindingen zijn verder onderzocht om gegevens te verkrijgen over hun toxicologie en kenmerkend voor de productie ervan door micro-organismen die worden gebruikt bij industriële fermentaties.\nDe databank die in dit project wordt gegenereerd, bevat details die de betrokken aandoeningen, genen en toxiciteit van deze 59 verbindingen kenmerken. Dit verschaft informatie die kan worden gebruikt om veiligheidsmaatregelen vast te stellen bij het gebruik van potentieel toxigene micro-organismen in industriële fermentaties.   \nDe zoekstrategie werd vastgesteld na een vooronderzoek waarin algemene informatie werd verkregen over het fermentatieve proces waarbij de micro-organismen binnen het toepassingsgebied betrokken waren.Hierdoor konden mogelijke problemen worden geïdentificeerd die zich kunnen voordoen bij het ophalen van gegevens uit deze heterogene groep micro-organismen.\n  \nOm de zoekstrategie uit te voeren werden verschillende groepen soorten en groepen zoekwoorden opgericht.De groepen van trefwoorden zijn de volgende:\n\n  Trefwoorden groep 1:Termen in verband met de productie van toxines en gevaren\nTrefwoorden groep 2:\nTermen met betrekking tot toevoegingsmiddelen voor diervoeders en voedingsenzymen  Trefwoorden groep 3:Termen met betrekking tot fermentatieve processen\nTrefwoorden groep 4:\nTermen gerelateerd aan toxicologie Trefwoorden groep 5:\nTermen gerelateerd aan biosynthetische routes  De microbiële soort is onderverdeeld in 3 groepen, Soorten I, Soorten II en Soort III, volgens de voorlopige uitkomst van de PubMed-zoekopdracht:\n  \nSoort I:\nMicro-organismen die ≤ 200 vermeldingen hebben geproduceerd wanneer op wetenschappelijke naam wordt gezocht.\n\n\n\n\nSoort II:\nMicro-organismen die ≤ 500 vermeldingen hebben geproduceerd wanneer gezocht op wetenschappelijke naam en trefwoorden uit de groep\n\n\n\nSoort III:\nMicro-organismen die > 500 items hebben geproduceerd wanneer gezocht op wetenschappelijke naam en trefwoorden uit groep 1"
+    },
+    "version_notes": null,
+    "title": {
+      "de": "Datenbank über die taxonomische Identifizierung und mögliche toxigene Kapazitäten von Nicht-QPS",
+      "fi": "Tietokanta muiden kuin QPS-järjestelmien taksonomisesta tunnistamisesta ja mahdollisista toksigeenisista valmiuksista",
+      "sv": "Databas över taxonomisk identifiering och potentiell toxigen kapacitet för icke-QPS",
+      "pt": "Base de dados sobre a identificação taxonómica e as potenciais capacidades toxigénicas de não-QPS",
+      "bg": "База данни за таксономичната идентификация и потенциалния токсигенен капацитет на нeQPS",
+      "mt": "Bażi tad-data dwar l-identifikazzjoni tassonomika u l-kapaċitajiet toksiġeniċi potenzjali ta’ dawk li mhumiex QPS",
+      "el": "Βάση δεδομένων για την ταξινομική ταυτοποίηση και τις δυνητικές τοξιγονικές ικανότητες των μη QPS",
+      "lt": "Ne QPS taksonominio identifikavimo ir galimų toksiškų pajėgumų duomenų bazė",
+      "en": "Database on the taxonomical identification and potential toxigenic capacities of non-QPS",
+      "hr": "Baza podataka o taksonomskoj identifikaciji i potencijalnim toksigenskim kapacitetima ne-QPS-a",
+      "lv": "Datubāze par ne-QPS taksonomisko identifikāciju un iespējamām toksiogēnajām spējām",
+      "it": "Banca dati sull'identificazione tassonomica e le potenziali capacità tossigene dei non-QPS",
+      "fr": "Base de données sur l’identification taxonomique et les capacités toxigènes potentielles des non-QPS",
+      "hu": "Adatbázis a nem QPS taxonómiai azonosításáról és potenciális toxigén kapacitásairól",
+      "es": "Base de datos sobre la identificación taxonómica y las capacidades toxigénicas potenciales de no QPS",
+      "et": "Andmebaas mitte-QPS taksonoomilise identifitseerimise ja võimaliku toksigeensuse kohta",
+      "cs": "Databáze taxonomické identifikace a potenciálních toxigenních kapacit jiných než QPS",
+      "sk": "Databáza o taxonomickej identifikácii a potenciálnych toxigénnych kapacitách iných ako QPS",
+      "sl": "Podatkovna zbirka o taksonomski identifikaciji in potencialnih toksigenskih zmogljivostih ne-QPS",
+      "ga": "Bunachar sonraí maidir le sainaithint tacsanomaíoch agus acmhainneachtaí toxigenic féideartha neamh-QPS",
+      "pl": "Baza danych dotycząca identyfikacji taksonomicznej i potencjalnych zdolności toksycznych innych niż QPS",
+      "da": "Database om taksonomisk identifikation og potentiel toksigenic kapacitet hos ikke-QPS",
+      "ro": "Baza de date privind identificarea taxonomică și capacitățile toxigenice potențiale ale non-QPS",
+      "nl": "Databank over taxonomische identificatie en potentiële toxigenic capaciteiten van niet-QPS"
+    },
+    "has_version": null,
+    "accrual_periodicity": null,
+    "geocoding_description": null,
+    "access_right": {
+      "resource": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+      "label": "public"
+    },
+    "provenance": null,
+    "categories": [
+      {
+        "resource": "http://publications.europa.eu/resource/authority/data-theme/AGRI",
+        "id": "AGRI",
+        "label": {
+          "nn": "Jordbruk, fiskeri, skogbruk og mat",
+          "no": "Jordbruk, fiskeri, skogbruk og mat",
+          "de": "Landwirtschaft, Fischerei, Forstwirtschaft und Nahrungsmittel",
+          "fi": "Maatalous, kalastus, metsätalous ja elintarvikkeet",
+          "pt": "Agricultura, pesca, silvicultura e alimentação",
+          "bg": "Селско стопанство, рибарство, горско стопанство и храни",
+          "lt": "Žemės ūkis, žuvininkystė, miškininkystė ir maistas",
+          "lv": "Lauksaimniecība, zivsaimniecība, mežsaimniecība un pārtika",
+          "hr": "Poljoprivreda, ribarstvo, šumarstvo i hrana",
+          "fr": "Agriculture, pêche, sylviculture et alimentation",
+          "hu": "Mezőgazdaság, halászat, erdészet és élelmiszer",
+          "sk": "Poľnohospodárstvo, rybné hospodárstvo, lesníctvo a potravinárstvo",
+          "sl": "Kmetijstvo, ribištvo, gozdarstvo in prehrana",
+          "ga": "Talmhaíocht, iascach, foraoiseacht agus bia",
+          "sv": "Jordbruk, fiske, skogsbruk och livsmedel",
+          "el": "Γεωργία, αλιεία, δασοκομία και τρόφιμα",
+          "mt": "Agrikoltura, sajd, forestrija u ikel",
+          "en": "Agriculture, fisheries, forestry and food",
+          "it": "Agricoltura, pesca, silvicoltura e prodotti alimentari",
+          "es": "Agricultura, pesca, silvicultura y alimentación",
+          "et": "Põllumajandus, kalandus, metsandus ja toiduained",
+          "cs": "Zemědělství, rybolov, lesnictví a výživa",
+          "nb": "Jordbruk, fiskeri, skogbruk og mat",
+          "pl": "Rolnictwo, rybołówstwo, leśnictwo i żywność",
+          "ro": "Agricultură, pescuit, silvicultură şi hrană",
+          "da": "Landbrug, fiskeri, skovbrug og fødevarer",
+          "nl": "Landbouw, visserij, bosbouw en voeding"
+        }
+      }
+    ],
+    "adms_identifier": [
+      {
+        "scheme": "http://purl.org/spar/datacite/doi",
+        "identifier": "10.5281/zenodo.827184",
+        "resource": "https://doi.org/10.5281/zenodo.827184"
+      }
+    ],
+    "attribute": null,
+    "deadline": null,
+    "qualified_attribution": null,
+    "dimension": null,
+    "creator": null,
+    "landing_page": [
+      {
+        "resource": "https://zenodo.org/record/827184#.WXb-VVV97cu"
+      }
+    ],
+    "version_info": null,
+    "sample": null,
+    "extended_metadata": null,
+    "conforms_to": null,
+    "num_series": null
+  }
+}

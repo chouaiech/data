@@ -1,0 +1,222 @@
+{
+  "host": "piveau-hub-elasticsearch-test-piveau.apps.osc.fokus.fraunhofer.de",
+  "port": -1,
+  "scheme": "https",
+  "index": {
+    "dataset": {
+      "max_agg_size": 50,
+      "max_result_window": 1500000,
+      "settings": "conf/elasticsearch/settings.json",
+      "mapping": "conf/elasticsearch/mapping/dataset/standard.json",
+      "boost": {
+        "title": 10.0,
+        "keywords": 5.0,
+        "description": 3.0
+      },
+      "searchParams": [
+        {
+          "name": "scoring",
+          "field": "quality_meas.scoring"
+        },
+        {
+          "name": "temporal",
+          "field": "temporal"
+        },
+        {
+          "name": "spatial",
+          "field": "spatial"
+        },
+        {
+          "name": "countryData",
+          "values": [
+            "eu",
+            "io"
+          ]
+        }
+      ],
+      "facets": [
+        {
+          "name": "dataScope",
+          "title": "Data scope",
+          "path": "country",
+          "type": "nested",
+          "facets": [
+            {
+              "name": "eu",
+              "title": "EU data",
+              "path": "country",
+              "type": "mustNotMatch",
+              "match": false,
+              "values": [
+                "eu"
+              ]
+            },
+            {
+              "name": "io",
+              "title": "International data",
+              "path": "country",
+              "type": "mustNotMatch",
+              "match": false,
+              "values": [
+                "io"
+              ]
+            },
+            {
+              "name": "countryData",
+              "title": "Country data",
+              "path": "country",
+              "type": "mustNotMatch",
+              "match": true,
+              "values": [
+                "eu",
+                "io"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "country",
+          "title": "Countries",
+          "path": "country"
+        },
+        {
+          "name": "catalog",
+          "title": "Catalogues",
+          "path": "catalog"
+        },
+        {
+          "name": "categories",
+          "title": "Categories",
+          "path": "categories"
+        },
+        {
+          "name": "keywords",
+          "title": "Keywords",
+          "path": "keywords"
+        },
+        {
+          "name": "scoring",
+          "title": "Scoring",
+          "type": "nested",
+          "facets": [
+            {
+              "name": "minScoring",
+              "title": "Minimum Scoring",
+              "path": "quality_meas.scoring",
+              "type": "min"
+            },
+            {
+              "name": "maxScoring",
+              "title": "Maximum Scoring",
+              "path": "quality_meas.scoring",
+              "type": "max"
+            },
+            {
+              "name": "badScoring",
+              "title": "Bad Scoring",
+              "path": "quality_meas.scoring",
+              "type": "range",
+              "from": 0,
+              "to": 121
+            },
+            {
+              "name": "sufficientScoring",
+              "title": "Sufficient Scoring",
+              "path": "quality_meas.scoring",
+              "type": "range",
+              "from": 121,
+              "to": 221
+            },
+            {
+              "name": "goodScoring",
+              "title": "Good Scoring",
+              "path": "quality_meas.scoring",
+              "type": "range",
+              "from": 221,
+              "to": 351
+            },
+            {
+              "name": "excellentScoring",
+              "title": "Excellent Scoring",
+              "path": "quality_meas.scoring",
+              "type": "range",
+              "from": 351,
+              "to": 406
+            }
+          ]
+        },
+        {
+          "name": "format",
+          "title": "Formats",
+          "path": "distributions.format"
+        },
+        {
+          "name": "license",
+          "title": "Licenses",
+          "path": "distributions.license"
+        },
+        {
+          "name": "legalBase",
+          "title": "Legal Base",
+          "path": "legal_base",
+          "type": "text"
+        },
+        {
+          "name": "geocodingDescription",
+          "title": "Geocoding Description",
+          "path": "geocoding_description",
+          "type": "text"
+        }
+      ]
+    },
+    "catalogue": {
+      "max_agg_size": 50,
+      "max_result_window": 10000,
+      "settings": "conf/elasticsearch/settings.json",
+      "mapping": "conf/elasticsearch/mapping/catalogue/standard.json",
+      "facets": [
+        {
+          "name": "country",
+          "title": "Countries",
+          "path": "country"
+        }
+      ],
+      "searchParams": [
+        {
+          "name": "temporal",
+          "field": "issued"
+        },
+        {
+          "name": "spatial",
+          "field": "spatial"
+        }
+      ]
+    },
+    "dataservice": {
+      "max_agg_size": 50,
+      "max_result_window": 10000,
+      "settings": "conf/elasticsearch/settings.json",
+      "mapping": "conf/elasticsearch/mapping/dataservice/standard.json",
+      "facets": [],
+      "searchParams": []
+    },
+    "vocabulary": {
+      "max_agg_size": 50,
+      "max_result_window": 10000,
+      "settings": "conf/elasticsearch/settings.json",
+      "mapping": "conf/elasticsearch/mapping/vocabulary/standard.json",
+      "facets": [],
+      "searchParams": []
+    },
+    "dataset-revisions": {
+      "max_agg_size": 50,
+      "max_result_window": 10000,
+      "settings": "conf/elasticsearch/settings.json",
+      "mapping": "conf/elasticsearch/mapping/dataset/standard.json",
+      "indexTemplate": "conf/elasticsearch/indexTemplate.json",
+      "policy": "conf/elasticsearch/policy.json",
+      "facets": [],
+      "searchParams": []
+    }
+  }
+}

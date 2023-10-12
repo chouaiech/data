@@ -1,0 +1,18 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dqv:  <http://www.w3.org/ns/dqv#>
+
+SELECT (COUNT(DISTINCT(?ds)) as ?count) ?value
+{
+    GRAPH ?g1
+    {
+        ?ds a dcat:Dataset
+    }
+
+    GRAPH ?g2
+    {
+        ?ds dqv:hasQualityMeasurement [
+            dqv:isMeasurementOf <%1$s> ;
+                dqv:value ?value
+        ]
+    }
+} GROUP BY ?value

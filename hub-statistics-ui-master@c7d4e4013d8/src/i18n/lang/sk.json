@@ -1,0 +1,379 @@
+{
+    "message": {
+        "datasetDetails": {
+            "openResource": "Prejsť na zdroj",
+            "upload": {
+                "unknownFormat": "Neznámy formát",
+                "resetText": "Chcete obnoviť celý formulár?",
+                "reset": "Obnoviť formulár",
+                "individual": "Jednotlivec",
+                "person": "Osoba",
+                "organisation": "Organizácia"
+            },
+            "about": "informácie",
+            "geoInfo": "Rozsah datasetu",
+            "translation": {
+                "link": "Kliknite sem, ak chcete zobraziť dataset v pôvodnom jazyku",
+                "message": "Názov a popis tohto datasetu sú preložené automaticky.",
+                "noTranslation": "Nie je k dispozícii preklad v zadanom jazyku. Informácia je zobrazené v predvolenom jazyku.",
+                "original": "Pôvodný jazyk",
+                "update": "Vykonáva sa preklad aktualizovaný preklad tohto datasetu."
+            },
+            "options": "Možnosti",
+            "subnav": {
+                "activityStream": "Tok činností",
+                "similarDatasets": "Podobné datasety",
+                "categories": "Kategórie",
+                "dataset": "Dataset"
+            },
+            "edit": "Upraviť",
+            "follow": "Sledovať",
+            "preview": "Ukážka",
+            "visualisation": "Otvoriť vizualizáciu",
+            "additionalInfo": "Ďalšie informácie",
+            "feedback": "Spätná väzba",
+            "unfollow": "Prestať odoberať",
+            "manage": "Spravovať ",
+            "delete": "Vymazať",
+            "geoVisualisation": "Otvoriť geovizualizáciu",
+            "download": "Stiahnuť",
+            "menu": "Ponuka"
+        },
+        "userQueries": {
+            "searchAllQueries": "Vyhľadávanie dotazov...",
+            "queryDeleted": "Dotaz vymazaný",
+            "querySaved": "Dotaz uložený",
+            "searchQueries": "Vyhľadávanie mojich dotazov...",
+            "noQueryFound": "Nenašiel sa žiadny dotaz",
+            "myQueries": "Moje dotazy",
+            "noDescription": "Tento dotaz neobsahuje žiaden opis",
+            "placeholderNotes": "napr. Užitočné poznámky k dotazu",
+            "noQueriesSaved": "Neuložili ste žiadne dotazy.",
+            "queryFound": "{number} nájdený dotaz",
+            "areYourSure": "Naozaj chcete vymazať tento dotaz?",
+            "queriesFound": "Počet nájdených dotazov: {number}",
+            "save": "Uložiť dotaz",
+            "executeQuery": "Vykonať dotaz"
+        },
+        "header": {
+            "navigation": {
+                "about": {
+                    "beHarvestedByUs": "Ako nám poskytnúť vaše dáta",
+                    "title": "Informácie",
+                    "documentation": "Dokumentácia",
+                    "europeanDataPortal": "Portál Európskych Údajov"
+                },
+                "training": {
+                    "whatIsOpenData": "Čo sú to otvorené dáta",
+                    "title": "Školenie",
+                    "dataProvidersGuide": "Príručka pre poskytovateľov dát",
+                    "moreTrainingMaterial": "Ďalšie vzdelávacie materiály",
+                    "elearning": "Elektronické vzdelávanie",
+                    "licensingAssistant": "Sprievodca licenciami"
+                },
+                "data": {
+                    "sparqlsearch": "Vyhľadávanie SPARQL",
+                    "statistics": "Štatistika",
+                    "euInternationalData": "Údaje EÚ a medzinárodné údaje",
+                    "catalogues": "Katalógy",
+                    "datasets": "Datasety",
+                    "countryData": "Údaje o krajine",
+                    "metadataQuality": "Kvalita metaúdajov",
+                    "title": "Údaje"
+                },
+                "newsEvents": {
+                    "title": "Správy a udalosti",
+                    "events": "Udalosti",
+                    "news": "Správy"
+                },
+                "impactStudies": {
+                    "studies": "Štúdie",
+                    "useCases": "Prípady použitia",
+                    "tellUsYourStory": "Povedzte nám svoj príbeh",
+                    "title": "Vplyv a štúdie",
+                    "opendataimpact": "Vplyv otvorených dát",
+                    "countryInsights": "Štatistiky krajín",
+                    "overview": "Prehľad",
+                    "opendatamaturity": "Vyzretosť otvorených dát"
+                },
+                "covid-19": {
+                    "title": "COVID-19",
+                    "datasets": "Datasety",
+                    "overview": "Prehľad",
+                    "initiatives": "Iniciatívy týkajúce sa údajov"
+                }
+            },
+            "subnav": {
+                "logout": "Odhlásenie",
+                "cookies": "Súbory cookie",
+                "login": "Prihlásiť",
+                "search": "Vyhľadávanie",
+                "newsletter": "Spravodajca",
+                "contact": "Kontakt",
+                "legalNotice": "Právne upozornenie",
+                "faq": "Najčastejšie otázky"
+            },
+            "searchOptions": {
+                "siteContent": "Obsah webu",
+                "datasets": "Datasety"
+            },
+            "searchInputPlaceholder": "Vyhľadávanie obsahu stránky...",
+            "dataPortal": "Údajov",
+            "european": "Portál Európskych"
+        },
+        "pagination": {
+            "previousPage": "Predošlé",
+            "nextPage": "Ďalšie"
+        },
+        "statistics": {
+            "tableHead": {
+                "trend": "Trend",
+                "country": "Krajina",
+                "catalogue": "Katalóg",
+                "numberOfDatasets": "Počet Datasetov",
+                "name": "Názov",
+                "category": "Kategória",
+                "percent": "Percento celkových množín údajov"
+            },
+            "totalNumber": "Celkový počet Datasetov",
+            "evolution": "Vývoj",
+            "datasetsPerCountryAndCatalogue": "Datasety podľa krajiny a katalógu",
+            "datasetsPerCountry": "Datasety podľa krajiny",
+            "datasetsPerCatalogue": "Datasety podľa katalógu",
+            "selectTimePeriod": "Zvoľte si časové obdobie",
+            "selectType": "Zvoľte si typ štatistiky",
+            "statistics": "Štatistika",
+            "datasetsPerCategory": "Datasety podľa kategórie",
+            "currentState": "Aktuálny stav",
+            "meta": {
+                "description": "Relevantné štatistiky o vývoji nášho otvoreného portálu a počet súborov údajov podľa jednotlivých krajín, kategórií a katalógov na portále data.europa.eu."
+            },
+            "page": {
+                "title": "Štatistiky o portále otvorených dát | data.europa.eu"
+            }
+        },
+        "metadata": {
+            "updatedLowerCase": "aktualizované",
+            "conformsTo": "Zodpovedá",
+            "dataset": "Dátová množina",
+            "email": "E-mail",
+            "title": "Názov",
+            "license": "Licencia",
+            "name": "Názov",
+            "upload": "Nahrať",
+            "created": "Vytvorené",
+            "addDistribution": "Pridať distribúciu",
+            "chooseFile": "Vybrať súbor",
+            "distribution": "Distribúcia",
+            "label": "Štítok",
+            "review": "Skontrolovať",
+            "otherIdentifiers": "Ďalšie identifikátory",
+            "chooseFormat": "Vybrať formát",
+            "datasets": "Datasety",
+            "resource": "Zdroj",
+            "spatial": "Zemepisné pokrytie",
+            "deleteItem": "Naozaj chcete vymazať túto položku?",
+            "relatedResources": "súvisiace položky",
+            "accessUrl": "AccessURL",
+            "documentations": "Dokumentácia",
+            "frequency": "Frekvencia",
+            "updated": "Aktualizované",
+            "no": "Nie",
+            "landingPage": "Úvodná stránka",
+            "metadataQuality": "Kvalita metaúdajov",
+            "yes": "Áno",
+            "chooseCategory": "Výber kategórie",
+            "update ": "Aktualizovať ",
+            "homepage": "Domovská stránka",
+            "contactPoints": "Kontaktné miesta",
+            "chooseCatalogue": "Výber katalógu",
+            "chooseType": "Výber typu",
+            "description": "Opis",
+            "downloadUrl": "DownloadURL",
+            "provenances": "Pôvod",
+            "tags": "Značky",
+            "format": "Formát",
+            "coordinates": "Súradnice",
+            "sources": "Zdroje",
+            "categories": "Kategórie",
+            "publisher": "Vydavateľ",
+            "type": "Typ",
+            "distributions": "Distribúcie",
+            "cancel": "Zrušiť",
+            "identifiers": "Identifikátory"
+        },
+        "footer": {
+            "newsletterText": "Prihláste sa na odber nášho bulletinu",
+            "newsletter": "Spravodajca",
+            "fundedBy": "Financovaný Európskou úniou",
+            "lastUpdated": "Naposledy aktualizované",
+            "links": {
+                "search": "Vyhľadávanie",
+                "newsletter": "Spravodajca",
+                "cookies": "Súbory cookie",
+                "legalNotice": "Právne upozornenie",
+                "faq": "Najčastejšie otázky",
+                "contact": "Kontakt",
+                "login": "Prihlásiť"
+            },
+            "followUs": "Sledujte nás na",
+            "subscribe": "Prihlásiť k odberu",
+            "helpUsImprove": "Pomôžte nám zlepšiť",
+            "managedBy": "Spravované zo strany Úradu pre vydávanie publikácií Európskej únie.",
+            "helpUsImproveText": "Vaša spätná väzba nám pomôže zlepšiť celkovú používateľskú skúsenosť. Máte nejakí návrhy?"
+        },
+        "catalogueFacets": {
+            "and": "A",
+            "facets": {
+                "countries": "Krajiny",
+                "licences": "Licencie",
+                "keywords": "Kľúčové slová",
+                "formats": "Formáty",
+                "catalogues": "Katalógy",
+                "categories": "Kategórie"
+            },
+            "operator": "Operátor",
+            "settings": "Nastavenia",
+            "or": "ALEBO",
+            "europeanCatalogues": "Európske katalógy",
+            "title": "Filtre"
+        },
+        "similarDatasets": {
+            "notFound": "Nenašiel sa žiadny podobný dataset.",
+            "lessSimilar": "Menej podobné",
+            "similarDatasets": "Podobné datasety",
+            "verySimilar": "Veľmi podobné",
+            "similar": "Podobné",
+            "marginalSimilar": "Okrajovo podobné"
+        },
+        "catalogues": {
+            "geoBoundsMessageRemove": "Ak chcete odstrániť obmedzenie alebo použiť funkciu resetovania, zatvorte toto oznámenie.",
+            "countMessage": "nájdené katalógy pre {query}",
+            "countMessageSingular": "nájdený katalóg pre {query}",
+            "searchBar": {
+                "placeholder": "Prehľadávať katalógy..."
+            },
+            "loadingMessage": "Načítavajú sa katalógy...",
+            "geoBoundsMessagePre": "Vaše vyhľadávanie je obmedzené na:",
+            "countMessageNoResult": "Neboli nájdené žiadne katalógy pre "
+        },
+        "common": {
+            "edp": {
+                "title": "Portál európskych údajov"
+            },
+            "currentCatalogueStatistics": "Aktuálne katalógové štatistiky",
+            "historicalCatalogueStatistics": "Historické katalógové štatistiky"
+        },
+        "categories": {
+            "tran": "Doprava",
+            "heal": "Zdravotníctvo",
+            "gove": "Vláda a verejný sektor",
+            "envi": "Životné prostredie",
+            "intr": "Medzinárodné otázky",
+            "agri": "Poľnohospodárstvo, rybné hospodárstvo, lesníctvo a potravinárstvo",
+            "soci": "Obyvateľstvo a spoločnosť",
+            "econ": "Hospodárstvo a financie",
+            "educ": "Vzdelávanie, kultúra a šport",
+            "ener": "Energetika",
+            "tech": "Veda a technika",
+            "regi": "Regióny a mestá",
+            "just": "Spravodlivosť, právny systém a verejná bezpečnosť"
+        },
+        "distributions": {
+            "footerLink": "Stiahnuť"
+        },
+        "navigation": {
+            "navItems": {
+                "map": "Mapa",
+                "home": "Domov",
+                "imprint": "Odtlačok",
+                "privacyPolicy": "Ochrana osobných údajov",
+                "about": "Informácie",
+                "data": "Údaje"
+            }
+        },
+        "mapModal": {
+            "disclaimer": "Vyhlásenie",
+            "fullscreen": "Celá obrazovka",
+            "findDatasets": "Použiť",
+            "close": "Zatvoriť",
+            "drawRectangleMsg": "Oblasť vyberiete nakreslením obdĺžnika",
+            "reset": "Vyčistiť"
+        },
+        "datasetFacets": {
+            "facets": {
+                "catalogues": "Katalógy",
+                "formats": "Formáty",
+                "categories": "Kategórie",
+                "licences": "Licencie",
+                "keywords": "Kľúčové slová",
+                "countries": "Krajiny",
+                "tags": "Značky"
+            },
+            "title": "Otvoriť vizualizáciu",
+            "operator": "Operátor",
+            "and": "A",
+            "settings": "Nastavenia",
+            "europeanCatalogues": "Európske katalógy",
+            "or": "alebo"
+        },
+        "catalogue": {
+            "searchBar": {
+                "placeholder": "Vyhľadať katalógy"
+            },
+            "countMessage": "Nájdené katalógy",
+            "geoBoundsMessageRemove": "Ak chcete odstrániť obmedzenie alebo použiť funkciu resetovania, zatvorte toto oznámenie.",
+            "loadingMessage": "Katalógy sú obnovené"
+        },
+        "datasets": {
+            "loadingMessage": "Načítavajú sa datasety...",
+            "geoBoundsMessagePre": "Vaše vyhľadávanie je obmedzené na:",
+            "saveQuery": "Uložiť zadanie",
+            "createDataset": "Vytvoriť Dataset",
+            "datasetsFeed": "Prívod datasetov",
+            "countMessageSingular": "nájdené datasety pre {query}",
+            "meta": {
+                "translationNotComplete": "Preklad nie je úplný"
+            },
+            "noResult": "Neboli nájdené žiadne datasety pre {query}",
+            "geoBoundsMessageRemove": "Ak chcete odstrániť obmedzenie alebo použiť funkciu resetovania, zatvorte toto oznámenie.",
+            "searchBar": {
+                "placeholder": "Vyhľadávanie datasetov..."
+            },
+            "showMore": "Zobraziť viac",
+            "findLocation": "Filtrovať podľa lokality",
+            "countMessage": "našli sa datasety pre "
+        },
+        "sort": {
+            "lastCreated": "Naposledy zrušené",
+            "nameAZ": "Meno vzostupne ",
+            "nameZA": "Meno zostupne ",
+            "relevance": "Závažnosť",
+            "lastUpdated": "Naposledy upravené",
+            "sortBy": "Usporiadať podľa"
+        },
+        "datasetCategories": {
+            "foundCategory": "Nájdených {number} kategórií",
+            "foundCategories": "Nájdená {number} kategória",
+            "noCategories": "Neboli nájdené žiadne kategórie"
+        },
+        "distributionLicense": {
+            "notFound": "Neboli nájdené licenčné informácie.",
+            "openLA": "Asistent k otvorenej licencii",
+            "notFoundExtended": "Neboli nájdené dodatočné licenčné informácie, skontrolujte, prosím, či zdroj neobsahuje ďalšie informácie o licencii.",
+            "licensingAssistant": "Sprievodca licenciami",
+            "notProvided": "Neposkytnutá žiadna licencia"
+        },
+        "visualisation": {
+            "previewAvailable": "Náhľad k dispozícii",
+            "info": "Ak sa vizualizácia nenahrá v najbližších sekundách, potom kliknite tu.",
+            "loading": "Vizualizácia je nahrávaná ..."
+        },
+        "imprint": {
+            "msg": "SEM VLOŽTE ODTLAČOK"
+        },
+        "home": {
+            "msg": "Ľutujeme, táto stránka ešte nemá obsah. Ak chcete niečo vidieť, navštívte kartu Údaje!"
+        }
+    }
+}

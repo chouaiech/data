@@ -1,0 +1,10 @@
+domibus:
+  username: {username} 
+  url: localhost
+  port: 8081
+  usehttps: false
+messagechecker:
+  port: 8151
+  usehttps: false 
+  keyfilename: localhost.key
+  crtfilename: localhost.crt

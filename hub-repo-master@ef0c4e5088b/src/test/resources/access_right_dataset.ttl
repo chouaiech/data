@@ -1,0 +1,66 @@
+
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.europa.eu/88u/dataset/access-right>
+    dct:description "Ar DCAT-AP saistīta vārdnīca par piekļuves tiesībām "@lv-t-en-t0-mtec ,
+                   "Besednjak v zvezi z DCAT-AP za pravice dostopa "@sl-t-en-t0-mtec ,
+                   "DCAT-AP kapcsolódó szójegyzék a hozzáférési jogokhoz "@hu-t-en-t0-mtec ,
+                   "DCAT-AP related vocabulary for access rights"@en ,
+                   "DCAT-AP-gerelateerde woordenlijst voor toegangsrechten "@nl-t-en-t0-mtec ,
+                   "DCAT-AP-relaterad vokabulär för åtkomsträttigheter "@sv-t-en-t0-mtec ,
+                   "DCAT-AP-relateret ordforråd for adgangsrettigheder "@da-t-en-t0-mtec ,
+                   "DCAT-AP-Vokabular für Zugangsrechte "@de-t-en-t0-mtec ,
+                   "DCAT-AP:hen liittyvä sanasto käyttöoikeuksia varten "@fi-t-en-t0-mtec ,
+                   "DCAT-APga seotud sõnavara kasutusõiguste kohta "@et-t-en-t0-mtec ,
+                   "Slovník související s DCAT-AP pro přístupová práva "@cs-t-en-t0-mtec ,
+                   "Slovník týkajúci sa DCAT-AP pre prístupové práva "@sk-t-en-t0-mtec ,
+                   "Słownictwo dotyczące praw dostępu związane z DCAT-AP "@pl-t-en-t0-mtec ,
+                   "Stór focal a bhaineann le DCAT-AP le haghaidh cearta rochtana "@ga-t-en-t0-mtec ,
+                   "Su DCAT ir AP susijęs bendravimo teisių žodynas "@lt-t-en-t0-mtec ,
+                   "Vocabolario DCAT-AP per i diritti di accesso "@it-t-en-t0-mtec ,
+                   "Vocabulaire lié à DCAT-AP pour les droits d’accès "@fr-t-en-t0-mtec ,
+                   "Vocabular legat de DCAT-AP pentru drepturile de acces "@ro-t-en-t0-mtec ,
+                   "Vocabulario de derechos de acceso relacionado con DCAT-AP "@es-t-en-t0-mtec ,
+                   "Vocabulário relacionado com a DCAT-AP para os direitos de acesso "@pt-t-en-t0-mtec ,
+                   "Vokabular za prava pristupa povezan s DCAT-AP-om "@hr-t-en-t0-mtec ,
+                   "Vokabularju relatat mad-DCAT-AP għad-drittijiet ta’ aċċess "@mt-t-en-t0-mtec ,
+                   "Λεξιλόγιο σχετικά με την DCAT-AP για τα δικαιώματα πρόσβασης "@el-t-en-t0-mtec ,
+                   "Свързан с DCAT-AP речник за правата на достъп "@bg-t-en-t0-mtec ;
+    dct:identifier "8dfa397fc257913cd9e1405e7ea097a2" ;
+    dct:title "Access right"@en ,
+                   "Adgangsret "@da-t-en-t0-mtec ,
+                   "Ceart rochtana "@ga-t-en-t0-mtec ,
+                   "Derecho de acceso "@es-t-en-t0-mtec ,
+                   "Direito de acesso "@pt-t-en-t0-mtec ,
+                   "Diritto di accesso "@it-t-en-t0-mtec ,
+                   "Dreptul de acces "@ro-t-en-t0-mtec ,
+                   "Dritt ta’ aċċess "@mt-t-en-t0-mtec ,
+                   "Droit d’accès "@fr-t-en-t0-mtec ,
+                   "Hozzáférési jog "@hu-t-en-t0-mtec ,
+                   "Juurdepääsuõigus "@et-t-en-t0-mtec ,
+                   "Käyttöoikeus "@fi-t-en-t0-mtec ,
+                   "Piekļuves tiesības "@lv-t-en-t0-mtec ,
+                   "Pravica dostopa "@sl-t-en-t0-mtec ,
+                   "Právo na přístup "@cs-t-en-t0-mtec ,
+                   "Pravo pristupa "@hr-t-en-t0-mtec ,
+                   "Prawo dostępu "@pl-t-en-t0-mtec ,
+                   "Prieigos teisė "@lt-t-en-t0-mtec ,
+                   "Prístupové právo "@sk-t-en-t0-mtec ,
+                   "Tillträdesrätt "@sv-t-en-t0-mtec ,
+                   "Toegangsrecht "@nl-t-en-t0-mtec ,
+                   "Zugangsrecht "@de-t-en-t0-mtec ,
+                   "Δικαίωμα Πρόσβασης "@el-t-en-t0-mtec ,
+                   "Право на достъп "@bg-t-en-t0-mtec ;
+    rdf:type dcat:Dataset ;
+    dcat:Distribution <http://data.europa.eu/88u/distribution/7ae606ba-203d-4522-8bad-3726bdc4c731> .
+
+<http://data.europa.eu/88u/distribution/7ae606ba-203d-4522-8bad-3726bdc4c731>
+    dct:description "SKOS Concept Scheme"@en ;
+    dct:format <http://publications.europa.eu/resource/authority/file-type/RDF> ;
+    dct:identifier "https://piveau.io/set/distribution/access-right" ;
+    rdf:type dcat:Distribution ;
+    dcat:accessURL <http://publications.europa.eu/resource/authority/access-right> .

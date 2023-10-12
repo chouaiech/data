@@ -1,0 +1,26 @@
+{
+  "license": null,
+  "country": {
+    "title": "EU institutions",
+    "id": "eu"
+  },
+  "spatial_resource": null,
+  "description": {
+    "en": "The European Union Open Data Portal (EU ODP) provides access to open data published by EU institutions, bodies or agencies. All data in this catalogue is free to use and reuse for commercial or non-commercial purposes."
+  },
+  "publisher": {
+    "type": "Agent"
+  },
+  "modified": "2021-04-24T08:15:03Z",
+  "language": [
+    "en"
+  ],
+  "id": "european-union-open-data-portal",
+  "title": {
+    "en": "EU institutions data"
+  },
+  "spatial": null,
+  "issued": "2021-04-24T08:15:03Z",
+  "homepage": null,
+  "count": 17349
+}

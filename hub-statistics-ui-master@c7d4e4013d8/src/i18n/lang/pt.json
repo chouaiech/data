@@ -1,0 +1,379 @@
+{
+    "message": {
+        "datasetDetails": {
+            "openResource": "Ir para recursos",
+            "upload": {
+                "unknownFormat": "Formato desconhecido",
+                "resetText": "Repor todo o formulário?",
+                "reset": "Repor formulário",
+                "individual": "Individual",
+                "person": "Pessoa",
+                "organisation": "Organização"
+            },
+            "about": "sobre",
+            "geoInfo": "Extensão de conjunto de dados ",
+            "translation": {
+                "link": "Clique aqui para ver os conjuntos de dados no idioma original",
+                "message": "O título e a descrição deste conjunto de dados foram \ntraduzidos automaticamente.",
+                "noTranslation": "Não existe tradução disponível para a língua pretendida. As informações são exibidas na língua original.",
+                "original": "Língua original",
+                "update": "Está em curso uma tradução atualizada deste conjunto de dados."
+            },
+            "options": "Opções",
+            "subnav": {
+                "activityStream": "Fluxo de atividade",
+                "similarDatasets": "Conjuntos de dados semelhantes",
+                "categories": "Categorias",
+                "dataset": "Conjunto de dados"
+            },
+            "edit": "Editar",
+            "follow": "Seguir",
+            "preview": "Pré-visualizar",
+            "visualisation": "Visualização livre",
+            "additionalInfo": "Informação adicional",
+            "feedback": "Feedback",
+            "unfollow": "Não Seguir",
+            "manage": "Gerir",
+            "delete": "Apagar",
+            "geoVisualisation": "Abrir geovisualização ",
+            "download": "Transferir",
+            "menu": "Menu"
+        },
+        "userQueries": {
+            "searchAllQueries": "Pesquisar consultas…",
+            "queryDeleted": "Consulta apagada",
+            "querySaved": "Consulta guardada",
+            "searchQueries": "Pesquisar as minhas consultas…",
+            "noQueryFound": "Nenhuma consulta encontrada",
+            "myQueries": "As minhas consultas",
+            "noDescription": "Esta pergunta não tem descrição",
+            "placeholderNotes": "p.ex., algumas notas úteis sobre a pergunta",
+            "noQueriesSaved": "Não guardou nenhuma pergunta.",
+            "queryFound": "{número} consulta encontrada",
+            "areYourSure": "Tem a certeza que quer apagar esta pergunta?",
+            "queriesFound": "{número} consultas encontradas",
+            "save": "Guardar consulta",
+            "executeQuery": "Executar consulta"
+        },
+        "header": {
+            "navigation": {
+                "about": {
+                    "beHarvestedByUs": "Recolha de dados",
+                    "title": "Sobre",
+                    "documentation": "Documentos",
+                    "europeanDataPortal": "Portal Europeu de Dados"
+                },
+                "training": {
+                    "whatIsOpenData": "O que são «dados abertos»",
+                    "title": "Formação",
+                    "dataProvidersGuide": "Guia dos fornecedores de dados",
+                    "moreTrainingMaterial": "Mais Material para Formação",
+                    "elearning": "Aprendizagem eletrónica",
+                    "licensingAssistant": "Assistente de Licenças"
+                },
+                "data": {
+                    "sparqlsearch": "Pesquisa SPARQL",
+                    "statistics": "Estatística",
+                    "euInternationalData": "Dados europeus e internacionais",
+                    "catalogues": "Catálogos",
+                    "datasets": "Conjuntos de dados",
+                    "countryData": "Dados nacionais",
+                    "metadataQuality": "Qualidade dos metadados",
+                    "title": "Dados"
+                },
+                "newsEvents": {
+                    "title": "Notícias e eventos",
+                    "events": "Eventos",
+                    "news": "Notícias"
+                },
+                "impactStudies": {
+                    "studies": "Estudos",
+                    "useCases": "Casos de Uso",
+                    "tellUsYourStory": "Conte-nos a sua história",
+                    "title": "Impacto e estudos",
+                    "opendataimpact": "Impacto dos dados abertos",
+                    "countryInsights": "Informações nacionais",
+                    "overview": "Visão geral",
+                    "opendatamaturity": "Maturidade de Dados Abertos"
+                },
+                "covid-19": {
+                    "title": "COVID-19",
+                    "datasets": "Conjuntos de dados",
+                    "overview": "Visão geral",
+                    "initiatives": "Iniciativas relacionadas com dados"
+                }
+            },
+            "subnav": {
+                "logout": "Terminar sessão",
+                "cookies": "Cookies",
+                "login": "Abrir sessão",
+                "search": "Pesquisa",
+                "newsletter": "Boletim informativo",
+                "contact": "Contacto",
+                "legalNotice": "Advertência jurídica",
+                "faq": "Perguntas frequentes"
+            },
+            "searchOptions": {
+                "siteContent": "Conteúdo do sítio",
+                "datasets": "Conjuntos de dados"
+            },
+            "searchInputPlaceholder": "Pesquisar o conteúdo do sítio…",
+            "dataPortal": "Portal de Dados",
+            "european": "Portal Europeu"
+        },
+        "pagination": {
+            "previousPage": "Anterior",
+            "nextPage": "Seguinte"
+        },
+        "statistics": {
+            "tableHead": {
+                "trend": "Tendência",
+                "country": "País",
+                "catalogue": "Catálogo",
+                "numberOfDatasets": "Número de conjuntos de dados",
+                "name": "Nome",
+                "category": "Categoria",
+                "percent": "Porcentagem do total de conjuntos de dados"
+            },
+            "totalNumber": "Número total de conjuntos de dados",
+            "evolution": "Evolução",
+            "datasetsPerCountryAndCatalogue": "Conjuntos de dados por país e catálogo",
+            "datasetsPerCountry": "Conjuntos de dados por país",
+            "datasetsPerCatalogue": "Conjuntos de dados por catálogo",
+            "selectTimePeriod": "Selecionar o período de tempo",
+            "selectType": "Selecionar o tipo de estatística",
+            "statistics": "Estatística",
+            "datasetsPerCategory": "Conjuntos de dados por categoria",
+            "currentState": "Estado atual",
+            "meta": {
+                "description": "Consulte estatísticas pertinentes sobre a evolução do nosso portal aberto e descubra o número de conjuntos de dados por país, categoria e catálogo em data.europa.eu."
+            },
+            "page": {
+                "title": "Estatísticas do portal dos dados abertos | data.europa.eu"
+            }
+        },
+        "metadata": {
+            "updatedLowerCase": "atualizado",
+            "conformsTo": "Está em confomidade com",
+            "dataset": "Conjunto de dados",
+            "email": "Correio eletrónico",
+            "title": "Título",
+            "license": "Licença",
+            "name": "Nome",
+            "upload": "Carregar",
+            "created": "Criado",
+            "addDistribution": "Adicionar distribuição",
+            "chooseFile": "Escolher um ficheiro",
+            "distribution": "Distribuição",
+            "label": "Etiqueta",
+            "review": "Rever",
+            "otherIdentifiers": "Outros identificadores",
+            "chooseFormat": "Escolher um formato",
+            "datasets": "Conjuntos de dados",
+            "resource": "Recurso",
+            "spatial": "Espacial",
+            "deleteItem": "Tem a certeza que quer apagar esta entrada?",
+            "relatedResources": "itens relacionados",
+            "accessUrl": "URL de acesso",
+            "documentations": "Documentações",
+            "frequency": "Frequência",
+            "updated": "Atualizado",
+            "no": "Não",
+            "landingPage": "Página inicial",
+            "metadataQuality": "Qualidade dos metadados",
+            "yes": "Sim",
+            "chooseCategory": "Escolher uma categoria",
+            "update ": "Atualizar",
+            "homepage": "Página inicial",
+            "contactPoints": "Ponto de Contacto",
+            "chooseCatalogue": "Escolher um catálogo",
+            "chooseType": "Escolher um tipo",
+            "description": "A sua mensagem",
+            "downloadUrl": "Descarregar URL",
+            "provenances": "Origem",
+            "tags": "Marcas",
+            "format": "Formato",
+            "coordinates": "Coordenadas",
+            "sources": "Fontes",
+            "categories": "Categorias",
+            "publisher": "Publicador",
+            "type": "Tipo",
+            "distributions": "Distribuições",
+            "cancel": "Cancelar",
+            "identifiers": "Identificadores"
+        },
+        "footer": {
+            "newsletterText": "Subscreva o nosso Boletim Informativo",
+            "newsletter": "Boletim informativo",
+            "fundedBy": "Financiado pela União Europeia",
+            "lastUpdated": "Última atualização",
+            "links": {
+                "search": "Pesquisa",
+                "newsletter": "Boletim informativo",
+                "cookies": "Cookies",
+                "legalNotice": "Advertência jurídica",
+                "faq": "Perguntas frequentes",
+                "contact": "Contacto",
+                "login": "Abrir sessão"
+            },
+            "followUs": "Siga-nos em",
+            "subscribe": "Subscrever",
+            "helpUsImprove": "Ajude-nos a melhorar",
+            "managedBy": "Gerido pelo Serviço das Publicações da União Europeia.",
+            "helpUsImproveText": "O seu feeback ajudar-nos-á a melhorar a experiência geral do utilizador. Sugestões?"
+        },
+        "catalogueFacets": {
+            "and": "E",
+            "facets": {
+                "countries": "Países",
+                "licences": "Licenças",
+                "keywords": "Palavras-chave",
+                "formats": "Formatos",
+                "catalogues": "Catálogos",
+                "categories": "Categorias"
+            },
+            "operator": "Operador",
+            "settings": "Configuração",
+            "or": "OU",
+            "europeanCatalogues": "Catálogos europeus",
+            "title": "Filtros"
+        },
+        "similarDatasets": {
+            "notFound": "Nenhum conjunto de dados semelhante encontrado",
+            "lessSimilar": "Menos Semelhante",
+            "similarDatasets": "Conjuntos de dados semelhantes",
+            "verySimilar": "Muito Semelhante",
+            "similar": "Idêntico",
+            "marginalSimilar": "Marginal Semelhante"
+        },
+        "catalogues": {
+            "geoBoundsMessageRemove": "Fechar esta notificação para remover a limitação ou utilizar a função de reinicializar.",
+            "countMessage": "catálogos encontrados para ",
+            "countMessageSingular": "catálogo encontrado para ",
+            "searchBar": {
+                "placeholder": "Pesquisar catálogos"
+            },
+            "loadingMessage": "A carregar catálogos",
+            "geoBoundsMessagePre": "A sua pesquisa foi limitada a:",
+            "countMessageNoResult": "Não foram encontrados catálogos para "
+        },
+        "common": {
+            "edp": {
+                "title": "Portal Europeu de Dados"
+            },
+            "currentCatalogueStatistics": "Estatística do catálogo atual",
+            "historicalCatalogueStatistics": "Estatística do catálogo histórico "
+        },
+        "categories": {
+            "tran": "Transportes",
+            "heal": "Saúde",
+            "gove": "Governo e setor público",
+            "envi": "Ambiente",
+            "intr": "Questões internacionais",
+            "agri": "Agricultura, pesca, silvicultura e alimentação",
+            "soci": "População e sociedade",
+            "econ": "Economia e finanças",
+            "educ": "Educação, cultura e desporto",
+            "ener": "Energia",
+            "tech": "Ciência e tecnologia",
+            "regi": "Regiões e cidades",
+            "just": "Justiça, sistema judiciário e segurança pública"
+        },
+        "distributions": {
+            "footerLink": "Transferir"
+        },
+        "navigation": {
+            "navItems": {
+                "map": "Mapa",
+                "home": "Página inicial",
+                "imprint": "Impressão",
+                "privacyPolicy": "Política de privacidade",
+                "about": "Sobre",
+                "data": "Dados"
+            }
+        },
+        "mapModal": {
+            "disclaimer": "Declaração de exoneração de responsabilidade",
+            "fullscreen": "Ecrã inteiro",
+            "findDatasets": "Aplicar",
+            "close": "Fechar",
+            "drawRectangleMsg": "Desenhar um retângulo para selecionar uma região",
+            "reset": "Cancelar"
+        },
+        "datasetFacets": {
+            "facets": {
+                "catalogues": "Catálogos",
+                "formats": "Formatos",
+                "categories": "Categorias",
+                "licences": "Licenças",
+                "keywords": "Palavras-chave",
+                "countries": "Países",
+                "tags": "Marcas"
+            },
+            "title": "Filtros",
+            "operator": "Operador",
+            "and": "E",
+            "settings": "Configuração",
+            "europeanCatalogues": "Catálogos Europeus",
+            "or": "OU"
+        },
+        "catalogue": {
+            "searchBar": {
+                "placeholder": "Pesquisa de catálogos"
+            },
+            "countMessage": "Catálogos encontrados",
+            "geoBoundsMessageRemove": "Feche esta notificação para remover a limitação ou utilizar a função de reinicialização.",
+            "loadingMessage": "Os catálogos são recolhidos"
+        },
+        "datasets": {
+            "loadingMessage": "A carregar conjuntos de dados…",
+            "geoBoundsMessagePre": "A sua pesquisa foi limitada a:",
+            "saveQuery": "Guardar Pesquisa ",
+            "createDataset": "Criar conjunto de dados",
+            "datasetsFeed": "Alimentação de conjuntos de dados",
+            "countMessageSingular": "conjunto de dados encontrados para \\ \"{query} \"",
+            "meta": {
+                "translationNotComplete": "Tradução não completa"
+            },
+            "noResult": "Nenhum conjunto de dados encontrado para \"(query)\"",
+            "geoBoundsMessageRemove": "Feche esta notificação para remover a limitação ou utilizar a função de reinicialização.",
+            "searchBar": {
+                "placeholder": "Pesquisa de conjuntos de dados..."
+            },
+            "showMore": "Mostrar mais",
+            "findLocation": "Filtrar por local",
+            "countMessage": "conjuntos de dados encontrados para \\ \"{query} \""
+        },
+        "sort": {
+            "lastCreated": "Último criado",
+            "nameAZ": "Nome crescente",
+            "nameZA": "Nome descendente",
+            "relevance": "Relevância",
+            "lastUpdated": "Última alteração",
+            "sortBy": "Ordenar por"
+        },
+        "datasetCategories": {
+            "foundCategory": "{number} categorias encontradas",
+            "foundCategories": "{number} categoria encontrada",
+            "noCategories": "Não foram encontradas categorias"
+        },
+        "distributionLicense": {
+            "notFound": "Não foram encontradas informações sobre a licença, verifique a fonte para obter informações sobre a licença",
+            "openLA": "Abrir assistente de licença",
+            "notFoundExtended": "Não foram encontradas informações adicionais sobre a licença, verifique a fonte para obter mais informações sobre a licença",
+            "licensingAssistant": "Assistente de Licenças",
+            "notProvided": "Nenhuma Licença Fornecida"
+        },
+        "visualisation": {
+            "previewAvailable": "Pré-visualização disponível",
+            "info": "Se a visualização não surgir dentro de segundos, clique aqui",
+            "loading": "Visualização em curso…"
+        },
+        "imprint": {
+            "msg": "INSERIR IMPRESSÃO AQUI"
+        },
+        "home": {
+            "msg": "Lamentamos, esta página ainda não tem conteúdo. Visite o separador \"Dados\" para ver algo!"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:edp="https://europeandataportal.eu/voc#"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+    <rdf:Description rdf:about="http://data.europa.eu/88u/catalogue/vocabularies">
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog" />
+        <dcterms:title xml:lang="en">Vocabularies</dcterms:title>
+        <dcterms:type>dcat-ap</dcterms:type>
+        <dcterms:publisher>
+            <foaf:Agent>
+                <dcterms:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority" />
+                <foaf:name xml:lang="en">Data Europa EU</foaf:name>
+            </foaf:Agent>
+        </dcterms:publisher>
+        <dcterms:description xml:lang="en">DCAT-AP related Vocabularies</dcterms:description>
+        <edp:visibility rdf:resource="https://europeandataportal.eu/voc#hidden" />
+        <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG" />
+    </rdf:Description>
+</rdf:RDF>

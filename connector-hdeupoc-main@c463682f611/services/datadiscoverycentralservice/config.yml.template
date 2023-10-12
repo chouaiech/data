@@ -1,0 +1,17 @@
+domibus:
+  username: eu_connector_user
+  url: 51.159.133.186
+  port: 8080
+  usehttps: false
+  from: nationalpocnode
+  to: centralpocnode
+fairdatapoint:
+  usehttps: false
+  url: metadatabroker.healthdataportal.eu
+  username: test
+messagechecker:
+  port: 8150
+  url: localhost
+datadiscoverycentralservice:
+  port: 8101
+  url: localhost

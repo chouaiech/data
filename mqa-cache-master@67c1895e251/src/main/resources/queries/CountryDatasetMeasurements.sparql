@@ -1,0 +1,25 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dqv:  <http://www.w3.org/ns/dqv#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+
+SELECT (COUNT(DISTINCT(?ds)) as ?count) ?value WHERE
+{
+    GRAPH ?g2
+    {
+        ?ds dqv:hasQualityMeasurement [
+            dqv:isMeasurementOf <%2$s> ;
+                dqv:value ?value
+        ]
+    }
+    {
+        SELECT ?ds WHERE
+        {
+            GRAPH ?g1
+            {
+                ?g a dcat:Catalog ;
+                    dct:spatial <%1$s> ;
+                    dcat:dataset ?ds
+            }
+        }
+    }
+} GROUP BY ?value

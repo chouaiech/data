@@ -1,0 +1,31 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+@import '../custom_theme.scss';
+
+.dataset-info-box {
+  border: 0;
+  box-shadow: none;
+
+  border-bottom: 1px solid #e5e5e5;
+
+  .card-title {
+    color: var(--primary);
+    font-size: $h4-font-size;
+    font-weight: $font-weight-bold;
+  }
+
+  &-description {
+    -webkit-line-clamp: 2;
+  }
+
+  &-footer {
+    &-catalog-img {
+      max-width: 41px;
+      max-height: 26px;
+      border: none !important;
+    }
+  }
+}
+
+.format-badge {
+  border-radius: 0;
+}

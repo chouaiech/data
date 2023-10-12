@@ -1,0 +1,57 @@
+{
+  "backgroundColor": "rgb(255, 255, 255)",
+  "width": 450,
+  "height": 300,
+  "format": "png",
+  "chart": {
+    "type": "bar",
+    "data": {
+      "labels": [],
+      "datasets": [
+        {
+          "label": "Add Chart Title here",
+          "data": [
+          ],
+          "backgroundColor": "rgb(114,214,234)"
+        }
+      ]
+    },
+    "options": {
+      "title": {
+        "display": false,
+        "text": "Fehlerstatus-Codes",
+        "fontColor": "rgb(33,37,41)",
+        "fontSize": 18,
+        "padding": 20
+      },
+      "plugins": {
+        "legend": false,
+        "datalabels": {
+          "display": true,
+          "color": "rgb(33, 37, 41)"
+        }
+      },
+      "scales": {
+        "yAxes": [
+          {
+            "gridLines": {
+              "display": false
+            },
+            "ticks": {
+              "beginAtZero": true,
+              "stepSize": 10,
+              "max": 100
+            }
+          }
+        ],
+        "xAxes": [
+          {
+            "gridLines": {
+              "display": false
+            }
+          }
+        ]
+      }
+    }
+  }
+}

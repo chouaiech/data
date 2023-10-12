@@ -1,0 +1,969 @@
+{
+    "message": {
+        "metadata": {
+            "catalogRecord": "Fortegnelse over kataloger",
+            "deleteItem": "Er du sikker på, at du ønsker at slette dette punkt?",
+            "availability": "Tilgængelighed",
+            "versionInfo": "Version info",
+            "chooseCategory": "Vælg en kategori",
+            "chooseFile": "Vælg en fil",
+            "versionNotes": "Version noter",
+            "review": "Gennemse",
+            "tooltipKeywords": "Indtast nøgleord for dit datasæt her!",
+            "pageDescriptionDataset": "Tilføj titel, beskrivelse, katalog, nøgleord og kategori til dit datasæt!",
+            "no": "Nej",
+            "relatedResources": "Relaterede ressourcer",
+            "pageDescriptionPublisher": "Tilføj forlagstype, navn og hjemmeside til dit datasæt",
+            "tooltipTitle": "Indtast titlen på dit datasæt her!",
+            "linkedData": "Sammenkædede data",
+            "numSeries": "Antal dataserier",
+            "releaseDate": "Frigivelsesdato",
+            "yes": "Ja",
+            "unitsOfMeasurement": "Måleenheder",
+            "distributionsEmpty": "Beklager, der er i øjeblikket ingen uploadede distributioner tilgængelige for dette datasæt. Tilføj mindst én distribution! ",
+            "enterDownloadUrl": "Indtast download Url",
+            "frequency": "Hyppighed",
+            "type": "Type",
+            "telephone": "Telefon",
+            "label": "Mærke",
+            "addedToDataEuropaEU": "Tilføjet til data.europa.eu",
+            "tooltipCategories": "Vælg kategorier af dit datasæt her! ",
+            "temporal": "Tidsmæssig dækning",
+            "enterDescription": "Indtast en beskrivelse",
+            "accrualPeriodicity": "Ændringshyppighed",
+            "showXMore": "Vis {increment} mere ",
+            "identifier": "Identifikator",
+            "isPartOf": "Er underkatalog af",
+            "dataServices": "Datatjenester",
+            "chooseType": "Vælg en type",
+            "organizationName": "Organisationens navn",
+            "catalog": "Katalog",
+            "qualityAnnotations": "Anmærkninger af høj kvalitet",
+            "update": "Opdater",
+            "showAll": "Vis alle",
+            "coordinates": "Koordinater",
+            "email": "E-mail",
+            "tooltipContactType": "Vælg kontaktpunkttype for dit datasæt her!",
+            "checksum": "Checksum",
+            "enterEmail": "Indtast en e-mailadresse",
+            "cancel": "Annuller",
+            "conformsTo": "Svarer til",
+            "downloadUrl": "Download URL",
+            "chooseLicense": "Vælg en licens",
+            "tooltipDescription": "Indtast beskrivelsen af dit datasæt her!",
+            "tags": "Formater",
+            "accessUrl": "Tilgå URL",
+            "languages": "Sprog",
+            "title": "Titel",
+            "enterTitle": "Indtast en titel",
+            "url": "Webadresse",
+            "resource": "Ressource",
+            "tooltipPublisherHomepage": "Indtast forlags hjemmeside for dit datasæt her!",
+            "creator": "Ophavsmand",
+            "description": "Beskrivelse",
+            "spatial": "Fysiske",
+            "readLess": "Læs mindre",
+            "tooltipPublisherType": "Vælg forlagtype for dit datasæt her!",
+            "accessRights": "Adgangsrettigheder",
+            "tooltipDistributionDownloadUrl": "Indtast download Url for din distribution her!",
+            "attributes": "Attributter",
+            "mediaType": "Medietype",
+            "categories": "Kategorier",
+            "pageDescriptionDistribution": "Tilføj distributioner til dit datasæt!",
+            "pages": "Sider",
+            "goToCatalog": "Gå til katalog side",
+            "tooltipDistributionDescription": "Indtast beskrivelsen af din distribution her!",
+            "identifiers": "Identifikatorer",
+            "scheme": "Ordning",
+            "contactPoints": "Kontaktpunkter",
+            "hasPart": "Har underkatalog",
+            "showLess": "Vis mindre",
+            "byteSize": "Bytestørrelse",
+            "tooltipCatalog": "Vælg kataloget for dit datasæt her!",
+            "methodologyPage": "MQA metodeside",
+            "hasVersion": "Har version",
+            "useDownloadUrl": "Jeg ønsker at indtaste en Download URL i stedet for at uploade en fil!",
+            "created": "Oprettet",
+            "themeTaxonomy": "Tema taksonomi",
+            "homepage": "Hjemmeside",
+            "address": "Adresse",
+            "visualisations": "Visualiseringer",
+            "tooltipDistributionFormat": "Vælg formatet af din distribution her!",
+            "upload": "Upload",
+            "notFound": "Ikke fundet",
+            "dimensions": "Dimensioner",
+            "addDistribution": "Tilføj distribution",
+            "name": "Navn",
+            "metadataQuality": "Metadataenes kvalitet",
+            "provenances": "Oprindelse",
+            "enterKeywords": "Indtast nøgleord",
+            "landingPage": "Destinationsside",
+            "tooltipDistributionTitle": "Indtast tiltlen for din distribution her!",
+            "license": "Licens",
+            "chooseCatalog": "Vælg et katalog",
+            "enterHomepage": "Indtast en hjemmeside",
+            "tooltipDistributionLicence": "Vælg licensen for din distribution her!",
+            "readMore": "Læs mere",
+            "format": "Format",
+            "chooseFormat": "Vælg et format",
+            "publisher": "Forlag",
+            "dataset": "Datasæt",
+            "updated": "Opdateret",
+            "pageDescriptionUpload": "Tilføj filer til dine distributioner!",
+            "spatialResource": "Rumlig ressource",
+            "distribution": "Distribution",
+            "tooltipContactName": "Indtast kontaktpunktnavn på dit datasæt her!",
+            "distributions": "Videresendelser",
+            "status": "Status",
+            "datasets": "Datasæt",
+            "showMore": "Vis mere",
+            "rights": "Rettigheder",
+            "tooltipContactEmail": "Indtast kontaktpunkt e-mailadresse for dit datasæt her!",
+            "otherIdentifiers": "Andre identifikatorer",
+            "tooltipPublisherName": "Indtast navn på forlagtype for dit datasæt her!",
+            "enterName": "Indtast et navn",
+            "documentations": "Dokumentationer",
+            "sources": "Kilder",
+            "modificationDate": "Ændringsdato",
+            "isVersionOf": "Er version af",
+            "pageDescriptionContactPoint": "Tilføj kontaktpunkttype, navn og e-mail til dit datasæt!",
+            "goToDataset": "Gå til Datasæt side",
+            "updatedOnDataEuropaEU": "Opdateret på data.europa.eu"
+        },
+        "dataupload": {
+            "info": {
+                "defaultdescription": "Klik på informationikonet for at få en detaljeret forklaring af feltet.",
+                "information": "Oplysninger"
+            },
+            "datasets": {
+                "step2": {
+                    "source": {
+                        "label": "Kilde:"
+                    },
+                    "type": {
+                        "placeholder": "Tekst til pladsholder for datasæt type"
+                    },
+                    "subject": {
+                        "help": "En kategori af datasættet."
+                    },
+                    "isReferencedByUrl": {
+                        "label": "URL"
+                    },
+                    "contactPointAddressStreet": {
+                        "placeholder": "Tekst til datasætkontaktpunktets adresseplads"
+                    },
+                    "conformsTo": {
+                        "placeholder": "Datasætskonforme til pladsholder tekst"
+                    },
+                    "isVersionOf": {
+                        "label": "Er version af"
+                    },
+                    "provenance": {
+                        "label": "Herkomst"
+                    },
+                    "language": {
+                        "label": "Sprog"
+                    },
+                    "qualifiedAttribution": {
+                        "help": "Forbindelse til en befuldmægtiget, der har en eller anden form for ansvar for ressourcen"
+                    },
+                    "temporal": {
+                        "placeholder": "Tekst til tidsmæssig pladsholder for datasæt"
+                    },
+                    "accessRights": {
+                        "info": "Denne egenskab henviser til oplysninger, der angiver, om datasættet er åbne data, har adgangsbegrænsninger eller ikke er offentligt tilgængelige."
+                    },
+                    "identifier": {
+                        "help": "Denne egenskab indeholder hovedidentifikatoren for datasættet."
+                    },
+                    "versionInfo": {
+                        "help": "Versionsnummer for datasættet."
+                    },
+                    "hasVersion": {
+                        "info": "Henviser til et relateret datasæt, der er en version, udgave eller tilpasning af det beskrevne datasæt."
+                    },
+                    "wasGeneratedBy": {
+                        "add-label": "Tilføj Was Generated By ved"
+                    },
+                    "qualifiedRelation": {
+                        "label": "Kvalificerede forbindelser"
+                    },
+                    "conformsToTitle": {
+                        "label": "Titel"
+                    },
+                    "creatorType": {
+                        "label": "Type"
+                    },
+                    "spatial": {
+                        "info": "Denne egenskab henviser til en geografisk region, der er omfattet af datasættet."
+                    },
+                    "temporalResolutionMonth": {
+                        "label": "Tidsmæssig afviklingsmåned"
+                    },
+                    "contactPointName": {
+                        "label": "Navn"
+                    },
+                    "temporalResolutionMinute": {
+                        "placeholder": "Datasæt Temporal Resolution Minut pladsholder tekst"
+                    },
+                    "contactPointEmail": {
+                        "label": "E-mail"
+                    },
+                    "contactPointOrganisationName": {
+                        "label": "Organisationens navn"
+                    },
+                    "contactPoint": {
+                        "help": "Denne egenskab indeholder kontaktoplysninger."
+                    },
+                    "temporalResolutionDay": {
+                        "placeholder": "Datasæt Temporal Resolution Day pladsholder tekst"
+                    },
+                    "provenanceText": {
+                        "placeholder": "Tekst til datasættet Provenance Tekstpladsholder"
+                    }
+                },
+                "step1": {
+                    "publisherType": {
+                        "placeholder": "Datasæt Publisher Type placeholder tekst"
+                    },
+                    "datasetID": {
+                        "label": "Datasæt-ID"
+                    },
+                    "modified": {
+                        "label": "Ændret"
+                    },
+                    "publisher": {
+                        "label": "Udgiver"
+                    },
+                    "issued": {
+                        "help": "Dato for formel udstedelse (f.eks. offentliggørelse) af datasættet. Acceptable datoformater: ÅÅÅÅ-MM-DD, ÅÅÅÅ-MM, YYYY."
+                    },
+                    "publisherHomepage": {
+                        "label": "Hjemmeside"
+                    }
+                },
+                "step3": {
+                    "spatialResolutionInMeters": {
+                        "help": "Mindste rumlige adskillelse, der kan afvikles i et datasæt."
+                    },
+                    "mediaType": {
+                        "placeholder": "Pladsholder til distribution af mediatype"
+                    },
+                    "language": {
+                        "help": "Et sprog, der anvendes i distributionen."
+                    },
+                    "title": {
+                        "info": "Denne egenskab indeholder et navn, der er givet til distributionen. Denne egenskab kan gentages for parallelle sprogversioner af beskrivelsen."
+                    },
+                    "status": {
+                        "label": "Status"
+                    },
+                    "checksum": {
+                        "placeholder": "Fordelingsteks-pladsholder (Checksum placeholder)"
+                    },
+                    "hasPolicyUrl": {
+                        "placeholder": "Distribution af pladsholder for Has Policy Url placeholder"
+                    },
+                    "page": {
+                        "help": "En side eller et dokument om denne distribution."
+                    },
+                    "availability": {
+                        "placeholder": "Pladsholder til distribution af tilgængelig tekst"
+                    },
+                    "format": {
+                        "placeholder": "Pladsholder for fordelingsformat"
+                    },
+                    "conformsTo": {
+                        "add-label": "Tilføj Conforms til"
+                    },
+                    "issued": {
+                        "label": "Udstedt"
+                    },
+                    "description": {
+                        "help": "Denne egenskab indeholder en fritekstkonto for distributionen."
+                    },
+                    "hasPolicy": {
+                        "help": "Den politik, der udtrykker rettighederne."
+                    },
+                    "temporalResolutionMonth": {
+                        "label": "Tidsmæssig afviklingsmåned"
+                    },
+                    "temporalResolutionHour": {
+                        "placeholder": "Datasæt Temporal Resolution Time pladsholder tekst"
+                    },
+                    "licence": {
+                        "help": "Den licens, i henhold til hvilken distributionen stilles til rådighed."
+                    },
+                    "date": {
+                        "label": "Dato"
+                    }
+                },
+                "stepper": {
+                    "step3": {
+                        "children": {
+                            "distribution3": {
+                                "name": "Yderligere oplysninger"
+                            },
+                            "distribution4": {
+                                "name": "Yderligere oplysninger"
+                            },
+                            "distribution1": {
+                                "name": "Generelle oplysninger"
+                            },
+                            "distribution2": {
+                                "name": "Yderligere oplysninger"
+                            }
+                        }
+                    },
+                    "overview": "Oversigt over datasæt"
+                }
+            },
+            "catalogues": {
+                "step2": {
+                    "isPartOf": {
+                        "info": "Denne egenskab henviser til et beslægtet katalog, hvori det beskrevne katalog er fysisk eller logisk medtaget."
+                    },
+                    "language": {
+                        "help": "Et sprog, der anvendes i tekstmetadata, der beskriver titler, beskrivelser osv."
+                    },
+                    "spatial": {
+                        "info": "Denne egenskab henviser til et geografisk område, der er omfattet af kataloget."
+                    },
+                    "hasPart": {
+                        "help": "Denne egenskab henviser til et beslægtet katalog, som er en del af det beskrevne katalog."
+                    },
+                    "creator": {
+                        "add-label": "Tilføj skaber"
+                    },
+                    "creatorName": {
+                        "label": "Navn"
+                    }
+                },
+                "step1": {
+                    "title": {
+                        "help": "Et navn, der er anført i kataloget. "
+                    },
+                    "description": {
+                        "info": "Denne egenskab indeholder en fritekstkonto for posten. Denne egenskab kan gentages for parallelle sprogversioner af beskrivelsen."
+                    },
+                    "licence": {
+                        "placeholder": "Pladsholder til kataloglicenserne"
+                    },
+                    "modified": {
+                        "label": "Ændret"
+                    },
+                    "licenceDescription": {
+                        "label": "Beskrivelse af licensen"
+                    },
+                    "homepage": {
+                        "help": "En webside, der fungerer som forside til kataloget."
+                    }
+                },
+                "stepper": {
+                    "overview": "Oversigt over kataloget",
+                    "step1": {
+                        "name": "Trin 1: Opret katalog"
+                    },
+                    "step2": {
+                        "name": "Trin 2: Definer egenskaber i kataloget"
+                    }
+                }
+            },
+            "clear": "Klar",
+            "deletemodal": {
+                "deleteDistribution": "Slet distribution",
+                "areyousure": "Er du sikker på, at du vil slette denne distribution?"
+            },
+            "createUniqueID": "Opret et unikt ID",
+            "saveasdraft": "Gem som udkast",
+            "savedataset": "Gem datasæt",
+            "next": "Næste trin",
+            "noDistributions": "Ingen distributioner til rådighed",
+            "savedraft": "Gem udkast",
+            "searchVocabulary": "Søg i glossar",
+            "error": {
+                "general": "Der opstod en fejl. Prøv igen senere!",
+                "invalid-message": "Der mangler nogle felter. Udfyld alle de krævede felter!"
+            },
+            "type": "Type",
+            "preview": "Tidligere trin",
+            "submit": "Indsend",
+            "publishdataset": "Udgiv datasæt",
+            "validationtitle": "Validering",
+            "publishdraft": "Udgiv udkast",
+            "newDistribution": "Tilføj endnu en distribution",
+            "validationerror": "Der opstod en fejl i valideringen af din formular!",
+            "createDataset": "Opret datasæt",
+            "defineDatasetProperties": "Definer datasættets egenskaber",
+            "createDistributions": "Opret distribution"
+        },
+        "datasetDetails": {
+            "subnav": {
+                "quality": "Kvalitet",
+                "similarDatasets": "Tilsvarende datasæt",
+                "categories": "Kategorier",
+                "dataset": "Datasæt",
+                "activityStream": "Aktivitetsstrøm"
+            },
+            "quality": {
+                "licenceAvailability": "Licensoplysninger",
+                "mediaTypeAvailability": "Medietype",
+                "temporalAvailability": "Tidsbaseret søgning",
+                "accessibility": "Tilgængelighed",
+                "dcatApCompliance": "DCAT-AP-kompabilitet",
+                "distributions": {
+                    "downloadUrlStatusCode": "Kode for downloadUrl-status",
+                    "accessUrlStatusCode": "Statuskode for AccessURL"
+                },
+                "accessRightsVocabularyAlignment": "Vokabular for adgangsbegrænsninger",
+                "contactPointAvailability": "Kontaktoplysninger",
+                "dateIssuedAvailability": "Udstedelsesdato",
+                "nodata": "Der synes at være et problem på vores side. Der kunne ikke indlæses data af høj kvalitet. Prøv venligst igen senere.",
+                "dateModifiedAvailability": "Ændringsdato",
+                "contextuality": "Kontekst",
+                "reusability": "Genanvendelighed",
+                "accessUrlStatusCode": "Hyppigste statuskoder for AccessURS",
+                "downloadUrlStatusCode": "Hyppigste statuskoder for Download URL",
+                "formatMediaTypeVocabularyAlignment": "Format / Medietype fra vokabular",
+                "metaDataQuality": "Metadataenes kvalitet",
+                "downloadUrlAvailability": "Download URL",
+                "dataQuality": "Datakvalitet",
+                "categoryAvailability": "Kategorier",
+                "interoperability": "Interoperabilitet",
+                "findability": "Tilgængelighed",
+                "spatialAvailability": "Geografisk søgning",
+                "formatAvailability": "Format",
+                "byteSizeAvailability": "Filstørrelse",
+                "accessRightsAvailability": "Adgangsbegrænsninger",
+                "distributionQuality": "Kvalitet i distributionen",
+                "publisherAvailability": "Udgiver",
+                "keywordAvailability": "Brug af nøgleord",
+                "rightsAvailability": "Rettigheder"
+            },
+            "follow": "Følg",
+            "accessURLTooltip": "Dette link kan indeholde oplysninger om, hvordan man får den fil, der henvises til, eller er et direkte link til den fil, der henvises til.",
+            "dataStream": "Behandling af data",
+            "downloadURLTooltip": "Dette er et direkte link til den fil, der henvises til.",
+            "upload": {
+                "organisation": "Organisation",
+                "individual": "Individuel",
+                "resetText": "Nulstil hele formularen?",
+                "person": "Person",
+                "unknownFormat": "Ukendt format",
+                "reset": "Nulstil formular"
+            },
+            "preview": "Forhåndsvisning",
+            "feedback": "Feedback",
+            "access": "Adgang",
+            "datasets": {
+                "modal": {
+                    "downloadingFiles": "Download af filer",
+                    "zipNumberOfFiles": "Zip glossar nummer-filer",
+                    "waitingForDownload": "(afventer download)",
+                    "downloadProgress": "Download Progress",
+                    "notDownloaded": "Ikke downloadet",
+                    "error": "Fejl! Prøv at vinde",
+                    "okay": "Okay",
+                    "cancel": "Annuller",
+                    "close": "Luk",
+                    "coupleOfMinutes": "(det kan tage et par minutter)",
+                    "notDownloadedTooltip": "Nærmere oplysninger findes i vedlagte file_report.csv fil"
+                },
+                "leavePageWindow": {
+                    "text": "Er du sikker på, at du ønsker at forlade landet? Download standses, når du forlader dig!"
+                },
+                "downloadAll": "Download alle"
+            },
+            "translation": {
+                "update": "En opdateret oversættelse af dette datasæt er i gang",
+                "original": "Originalsprog",
+                "message": "Titel og beskrivelse for dette datasæt er maskinoversat ",
+                "noTranslation": "Dette datasæt er endnu ikke tilgængeligt på dit sprog. Det er ved at blive oversat.",
+                "link": "Klik her for at se datasættet på originalsproget"
+            },
+            "cite": "Citat",
+            "relatedResources": "Dertil knyttede ressourcer",
+            "share": "Del",
+            "geoVisualisation": "Åbn geo-visualisering",
+            "download": "Download",
+            "intro": {
+                "distribution": "I det følgende angives kvalitetsmålingen af alle datasættets fordelinger. Du kan finde oplysninger om, hvilke parametre vi anvender til indikatormålinger, på vores <a href='/mqa/methodology?locale={locale}'>metodeside</a>.",
+                "metadataQuality": "Formålet med kvalitetssikringen af metadata er at hjælpe dataleverandører og dataportaler med at kontrollere deres metadata i forhold til forskellige indikatorer. Du kan finde oplysninger om, hvilke parametre vi anvender til indikatormålinger, på vores <a href='/mqa/methodology?locale={locale}'>metodeside</a>."
+            },
+            "about": "om",
+            "datasetFeed": "Datasæt Feed",
+            "delete": "Slet",
+            "openResource": "Gå til ressource",
+            "visualisation": "Åbn visualisering",
+            "isUsedBy": "Bruges af",
+            "unfollow": "Følg ikke",
+            "shareOn": "Del på",
+            "additionalInfo": "Yderligere information",
+            "contactPoints": {
+                "organizationName": "Organisationens navn"
+            },
+            "edit": "Rediger",
+            "menu": "Menu",
+            "manage": "Administrer",
+            "geoInfo": "Datasæt omfang",
+            "options": "Valgmuligheder"
+        },
+        "tooltip": {
+            "catalogDetails": {
+                "created": "Datoen for den formelle udstedelse (f.eks. offentliggørelse) af kataloget.",
+                "publisher": "En enhed (organisation), der er ansvarlig for at gøre kataloget tilgængeligt.",
+                "updated": "Den seneste dato, hvor kataloget blev ændret.",
+                "description": "En beskrivelse af kataloget.",
+                "title": "Titlen på kataloget.",
+                "metadata": "Muligheder for at downloade katalogmetadata i forskellige sammenkædede datagengivelser.",
+                "language": "Sprog, der anvendes i tekstmetadata, der beskriver titler, beskrivelser osv. for datasættene i kataloget. Denne egenskab kan gentages, hvis metadataene leveres på flere sprog.",
+                "spatial": "Det geografiske område, der er omfattet af kataloget."
+            },
+            "datasetDetails": {
+                "frequency": "Den hyppighed, hvormed datasættet opdateres.",
+                "dataset": "Oplysninger om datasæt eller tjenester.",
+                "updated": "Den seneste dato, hvor datasættet eller tjenesten blev ændret eller ændret.",
+                "versionInfo": "Versionsnummer eller anden versionsbetegnelse for datasættet.",
+                "distributions": {
+                    "updated": "Seneste dato, hvor distributionen blev ændret eller ændret.",
+                    "title": "Navn på distributionen.",
+                    "linkedSchema": "Etableret skema, som den beskrevne distribution er i overensstemmelse med.",
+                    "linkedData": "Muligheder for at downloade distributionsmetadata i forskellige sammenkædede datagengivelser.",
+                    "status": "Fordelingens løbetid. Den SKAL tage en af de værdier, der er afsluttet, nedskrevet, under udvikling, trukket tilbage.",
+                    "licence": "Licens, i henhold til hvilken distributionen stilles til rådighed.",
+                    "availability": "Angiver, hvor længe det er planlagt at holde distributionen af datasættet tilgængelig.",
+                    "rights": "Erklæring, der specificerer de rettigheder, der er knyttet til distributionen.",
+                    "checksum": "En mekanisme, der kan anvendes til at kontrollere, at indholdet af en distribution ikke har ændret sig. Kontrolbeløbet er knyttet til downloadUrl.",
+                    "mediaType": "Distributionstypen som defineret i det officielle register over medietyper, der forvaltes af IANA.",
+                    "spatialResolution": "Mindste rumlige adskillelse, der kan afvikles i en datasætfordeling, målt i meter.",
+                    "byteSize": "Indeholder størrelsen af en distribution i bytes.",
+                    "download": "Download eller få adgang til distributionen.",
+                    "type": "Links til en type Dis tribution, f.eks. at det er en visualisering.",
+                    "created": "Dato for formel udstedelse (f.eks. offentliggørelse) af distributionen.",
+                    "language": "Det sprog, der anvendes i distributionen.",
+                    "options": "Åbn et overblik over distributionen.",
+                    "temporalResolution": "Henviser til den minimumsperiode, der kan afvikles i datasætfordelingen."
+                },
+                "otherIdentifier": "Sekundær identifikator for datasættet, f.eks. MAST/ADS16, DataCite17, DOI18, EZID19 eller W3ID20.",
+                "numSeries": "Indeholder antallet af dataserier i datasættet.",
+                "versionOf": "Relateret datasæt, hvoraf det beskrevne datasæt er en version, udgave eller tilpasning.",
+                "unitsOfMeasurement": "En måleenhed for observationerne i datasættet.",
+                "distribution": "En fysisk inkorporering af datasættet eller tjenesten i et bestemt format, f.eks. et link til datasætfilen.",
+                "quality": "Oplysninger om metadatakvalitet for dette datasæt eller denne tjeneste.",
+                "catalogue": "Det katalog, som dette datasæt eller denne tjeneste tilhører.",
+                "linkedData": "Muligheder for at downloade datasættene eller tjenestemetadataene i forskellige sammenkædede datagengivelser.",
+                "versionNotes": "Beskrivelse af forskellene mellem denne version og en tidligere version af datasættet. Denne egenskab kan gentages for parallelle sprogudgaver af versionsnoterne.",
+                "similarDatasets": "Andre datasæt eller tjenester, der ligner denne.",
+                "identifier": "Hovedidentifikator for datasættet, f.eks. URI eller anden entydig identifikator i forbindelse med kataloget.",
+                "uriRef": "URIref er en unik identifikator for datasættet/datatjenesten i data.europa.eu",
+                "creator": "Den enhed, der primært er ansvarlig for udarbejdelsen af datasættet.",
+                "spatial": "Geografisk region, der er omfattet af datasættet.",
+                "language": "Sprog i datasættet.",
+                "format": "Det format, der er tilgængeligt for dette datasæt eller denne tjeneste.",
+                "conformsTo": "Gennemførelsesbestemmelser eller andre specifikationer.",
+                "landingPage": "Webside, der giver adgang til datasættet, dets distribution og/eller yderligere oplysninger.",
+                "provenance": "Erklæring om linie for et datasæt.",
+                "documentation": "Side eller dokument om dette datasæt.",
+                "publisher": "En enhed (organisation), der er ansvarlig for at stille datasættet eller tjenesten til rådighed.",
+                "created": "Dato for formel udstedelse (f.eks. offentliggørelse) af datasættet eller -tjenesten.",
+                "relatedResource": "Relaterede ressourcer.",
+                "categories": "Kategorier, der er tildelt dette datasæt eller denne tjeneste.",
+                "share": "Dele dette datasæt eller denne tjeneste via sociale medier.",
+                "feedback": "Fortæl os, hvad du mener om dette datasæt eller denne tjeneste.",
+                "dqvData": "Muligheder for at downloade datasæt eller servicekvalitetsmålinger i forskellige sammenkædede datagengivelser.",
+                "hasVersion": "Relateret datasæt, der er en version, udgave eller tilpasning af det beskrevne datasæt"
+            },
+            "quality": {
+                "keywordAvailability": "Søgeord understøtter direkte søgningen og øger dermed datasættets søgemuligheder. Antallet af nøgleord har ingen indflydelse på pointtallet.",
+                "formatMediaTypeVocabularyAlignment": "Check wether format og medietype hører til et kontrolleret glossar. Til brug af et kontrolleret glossar > Formatglossaret kan findes i data.europa.eu GitLab-depotet.",
+                "licenceAvailability": "En licens er værdifuld information til genanvendelse af data, og det kontrolleres, om ejendommen er indstillet eller ej.",
+                "publisherAvailability": "Udgiveren er en person eller organisation, der har offentliggjort dataene.",
+                "formatAvailability": "Dette felt angiver distributionens filformat.",
+                "temporalAvailability": "Brug af tidsoplysninger vil gøre det muligt for brugerne at foretage en rettidig, facetted søgning.",
+                "rightsAvailability": "I nogle tilfælde kan en specifik licens ikke anvendes på et datasæt. Feltet \"Rettigheder\" kan bruges til at angive en henvisning til en ressource, som informerer en bruger om de rettigheder, han har, når han bruger datasættet.",
+                "mediaTypeAvailability": "Dette felt angiver fordelingens mediatype.",
+                "accessRightsVocabularyAlignment": "Brugen af et kontrolleret glossar øger genbrugeligheden.",
+                "dcatApCompliance": "Overholdelsen af DCAT-AP beregnes på tværs af alle kilder og datasæt, der er tilgængelige i et katalog. Denne kontrol foretages kun, hvis metadataene oprindeligt høstes som DCAT-AP eller som et gyldigt derivat. Data.europe.eu-portalen kan også høste metadata, som ikke fuldt ud er i overensstemmelse med DCAT-AP. For at øge overensstemmelsen med DCAT-AP kontrollerer MQA de enkelte metadata for deres DCAT-AP-overensstemmelse. Metadataene er ikke i overensstemmelse med kravene, hvis SHACL-valideringssættet rapporterer mindst ét problem. DQA anvender data.europe.eu's DCAT-AP SHACL-valideringsevice. DCAT-AP SHACL-valideringssævice er en anbefaling fra W3C og anvendes til validering af RDF-grafer i forhold til en række former.",
+                "accessRightsAvailability": "Dette felt angiver, om adgangen til dataene er offentlig eller begrænset.",
+                "accessUrlStatusCode": "AccessURL er ikke nødvendigvis et direkte link til dataene, men kan også henvise til en URL, der giver adgang til datasættet, eller hvor der findes flere oplysninger om datasættet. Hvis den responderede statuskode ligger i intervallet 200 eller 300, vurderes ressourcens tilgængelighed positivt.",
+                "categoryAvailability": "Kategorier hjælper brugerne med at udforske datasæt tematisk. Antallet af tildelte kategorier har ingen indflydelse på pointtallet.",
+                "downloadUrlStatusCode": "Hvis der findes en downloadUrl, tjekkes tilgængeligheden ved hjælp af HTTP HEAD-anmodning via HTTP HEAD-anmodning. Hvis den responderede statuskode ligger i intervallet 200 eller 300, vurderes ressourcens tilgængelighed positivt.",
+                "byteSizeAvailability": "Specificerer filens størrelse i bytes. Sidstnævnte br > дbr > Det kontrolleres, om egenskaben er indstillet eller ej.",
+                "downloadUrlAvailability": "DownloadUrl er et direkte link til de data, der henvises til, idet det kontrolleres, om egenskaben er indstillet eller ej.",
+                "spatialAvailability": "Brug af geografisk information vil gøre det muligt for brugerne at finde datasættet med en geo-facetteret søgning.",
+                "contactPointAvailability": "Kontaktpunktet indeholder oplysninger, som du skal henvende sig til, hvis der er spørgsmål om dataene, og det kontrolleres, om egenskaben er indstillet eller ej.",
+                "dateIssuedAvailability": "Den dato, hvor datasættet eller distributionen blev frigivet, dvs. den dato, hvor datasættet eller distributionen blev frigivet. Derefter kontrolleres det, om egenskaben er indstillet eller ej.",
+                "dateModifiedAvailability": "Den dato, hvor datasættet eller fordelingen sidst blev ændret, idet det kontrolleres, om egenskaben er indstillet eller ej."
+            },
+            "catalogRecord": "En beskrivelse af et datasæts optagelse i kataloget.",
+            "lastModified": "Sortering af resultater efter seneste ændring af datasæt",
+            "editorialContent": "Søg efter redaktionelt indhold, f.eks. nyheder, arrangementer, brug sager",
+            "datasets": "Søg efter datasæt",
+            "relevance": "Sortering af datasæt efter relevans. Relevansen beregnes på grundlag af søgetermmatch i titlen, nøgleord og beskrivelse",
+            "contactPoints": "Kontaktoplysninger, der kan bruges til at sende kommentarer til datasættet.",
+            "locationFilter": "Klik på kortet for at se datasæt vedrørende et bestemt sted og bruge foldens ikon til at vælge det. Klik derefter på \"Anvend\" for kun at filtrere datasæt, der henviser til det valgte område. Bemærk, at kun datasæt, der indeholder geoinformationsmetadata, vil blive medtaget i søgeresultaterne.",
+            "catalogues": "Søg efter kataloger. Et katalog rummer datasæt og tjenester"
+        },
+        "visualisationDistribution": {
+            "barChartExplain": "Et søjlediagram viser numeriske værdier for niveauer af et kategorisk træk som stænger. Niveauerne afbildes på en kortakse, og værdierne optegnes på den anden akse.",
+            "semicolon": "Semikolon",
+            "exportSucceeded": "Konfiguration oprettet!",
+            "yAxis": "y Axis",
+            "pipe": "Rør",
+            "cancel": "Annuller",
+            "fileTypeNotSupported": "Du forsøger at lave en filtype, der ikke understøttes.",
+            "confirm": "Bekræft",
+            "fileNotFound": "Du forsøger at lave en fil, hvis indhold ikke kunne læses.",
+            "comma": "Komma",
+            "space": "Plads",
+            "exportDataTip": "Indtastningsfeltet må ikke være tomt!",
+            "countRow": "Tælling",
+            "exportMessagesHeader": "Er du sikker på, at du vil gemme din konfiguration? Tjek det, før du gemmer!",
+            "exportMessagesLabel": "Indtast navn på din konfiguration",
+            "exportNameExistsAlert": "Navnet er allerede i brug. Prøv et andet!",
+            "hiddenMessages": "er skjult — klik for at vise alle",
+            "connectedLineChart": "Diagram over den forbundne linje",
+            "barChart": "Diagram over bar",
+            "someRows": "Nogle Rows",
+            "row": "Rækker",
+            "tab": "Faneblad",
+            "connectToDatabaseError": "Fejl ved hentning af data fra databasen. Prøv det eller tjek dit input igen!",
+            "badgateway": "Serveren var ikke tilgængelig eller ukorrekt DNS-navn.",
+            "goBack": "Gå tilbage",
+            "forbidden": "Adgang til den ønskede ressource er forbudt.",
+            "unauthorized": "Anmodningen er ikke blevet anvendt. Den mangler gyldige autentifikationsoplysninger.",
+            "xAxis": "X Axis",
+            "delimiter": "Afgrænsning",
+            "someColumns": "Nogle kolonner",
+            "exportMessagesFooter": "Klik på \"Bekræft\" for at gemme den!",
+            "table": "Tabel",
+            "connectedLineChartExplain": "Det er et tilknyttet syndeområde, der grundlæggende er en hybrid mellem en sortobservationsområde og en lineplot. Du skal vælge Xaxis for at gøre den."
+        },
+        "sort": {
+            "lastCreated": "Senest oprettet",
+            "lastUpdated": "Senest ændret",
+            "nameZA": "Navn i faldende rækkefølge",
+            "relevance": "Relevans",
+            "sortBy": "Sortér efter",
+            "nameAZ": "Navn i stigende rækkefølge"
+        },
+        "distributionLicense": {
+            "openLA": "Åben licens-assistent",
+            "notProvided": "Der er ingen licens",
+            "licensingAssistant": "Licensassistent",
+            "notFound": "Ingen licensinformationer fundet",
+            "notFoundExtended": "Ingen yderligere licensinformationer fundet. Kontrollér kilden for yderligere informationer om licensen."
+        },
+        "catalogs": {
+            "countMessageSingular": "katalog fundet for ",
+            "geoBoundsMessagePre": "Din søgning er blevet begrænset til",
+            "downloadAsLinkedData": "Katalogmetadata som sammenkædede data",
+            "countMessageNoResult": "Ingen kataloger fundet for ",
+            "searchBar": {
+                "placeholder": "Søg efter kataloger…"
+            },
+            "countMessage": "katalog fundet for ",
+            "loadingMessage": "Henter kataloger",
+            "geoBoundsMessageRemove": "Luk denne meddelelse for at fjerne begrænsningen eller brug nulstillingsfunktionen"
+        },
+        "datasetFacets": {
+            "facets": {
+                "datascopeField": {
+                    "countryData": "Nationale data",
+                    "io": "Internationale data",
+                    "eu": "Den Europæiske Unions data"
+                },
+                "datascope": "Dataomfang",
+                "dataServices": {
+                    "dataServicesOnly": "Kun datatjenester"
+                },
+                "country": "Lande",
+                "format": "Formater",
+                "scoring": {
+                    "badScoring": "Alle",
+                    "sufficientScoring": "Tilstrækkelig",
+                    "goodScoring": "God",
+                    "excellentScoring": "Fremragende"
+                },
+                "publisher": "@: message.metadata.forlag",
+                "license": "Licenser",
+                "keywords": "Nøgleord",
+                "categories": "Kategorier",
+                "catalog": "Kataloger",
+                "countrydata": "Landedata",
+                "tags": "Formater"
+            },
+            "title": "Filtre",
+            "and": "OG",
+            "settings": "Filterindstilling",
+            "scoring": "Score",
+            "or": "eller",
+            "europeanCatalogs": "Europæiske kataloger",
+            "operator": "Operator"
+        },
+        "header": {
+            "navigation": {
+                "data": {
+                    "euInternationalData": "EU- og internationale data",
+                    "datasets": "Datasæt",
+                    "catalogs": "Kataloger",
+                    "metadataquality": "Kvalitet af metadata",
+                    "sparqleditor": "SPARQL Redaktør",
+                    "statistics": "Statistik",
+                    "sparqlsearch": "SPARQL-søgning",
+                    "title": "Data"
+                },
+                "impactStudies": {
+                    "opendataimpact": "Virkninger af åbne data",
+                    "tellUsYourStory": "Fortæl os din historie",
+                    "studies": "Undersøgelser",
+                    "opendatamaturity": "Åbne datas modenhed",
+                    "countryInsights": "Landebeskrivelser",
+                    "useCases": "Brugscases",
+                    "title": "Virkninger og undersøgelser",
+                    "overview": "Přehled"
+                },
+                "training": {
+                    "licensingAssistant": "Licensing Assistant",
+                    "dataProvidersGuide": "Vejledning for dataleverandører",
+                    "moreTrainingMaterial": "Mere træningsmateriale",
+                    "whatIsOpenData": "Hvad er åbne data",
+                    "title": "Træning",
+                    "elearning": "eLearning"
+                },
+                "about": {
+                    "beHarvestedByUs": "Bliv høstet af os",
+                    "documentation": "Dokumentation",
+                    "title": "Om",
+                    "europeanDataPortal": "Den Europæiske Dataportal"
+                },
+                "newsEvents": {
+                    "events": "Begivenheder",
+                    "news": "Nyheder",
+                    "title": "Nyheder og begivenheder",
+                    "stories": "Datafortællinger"
+                },
+                "covid-19": {
+                    "title": "COVID-19",
+                    "datasets": "Datasæt",
+                    "overview": "Oversigt",
+                    "initiatives": "Datarelaterede initiativer"
+                }
+            },
+            "subnav": {
+                "newsletter": "Nyhedsbrev",
+                "cookies": "Cookies",
+                "login": "Log ind",
+                "contact": "Kontakt",
+                "search": "Søg",
+                "logout": "Log ud",
+                "legalNotice": "Juridisk meddelelse",
+                "faq": "FAQ"
+            },
+            "european": "Europæisk",
+            "searchInputPlaceholder": "Søg siteindhold",
+            "dataPortal": "Dataportal",
+            "searchOptions": {
+                "siteContent": "Webstedsindhold",
+                "datasets": "Datasæt"
+            }
+        },
+        "catalogues": {
+            "foundCataloguesSingular": "1 katalog fundet",
+            "foundCatalogues": "det er blevet konstateret, at der er fundet en fortegnelse over kataloger, der er registreret"
+        },
+        "datasets": {
+            "foundDatasets": "tjek, hvor mange af datasættene der er fundet",
+            "countMessage": "datasæt fundet for ",
+            "foundDatasetsSingular": "1 datasæt fundet",
+            "meta": {
+                "translationNotComplete": "Oversættelse ikke færdig"
+            },
+            "geoBoundsMessageRemove": "Luk denne meddelelse for at fjerne begrænsningen eller brug nulstillingsfunktionen",
+            "createDataset": "Opret datasæt",
+            "geoBoundsMessagePre": "Din søgning er blevet begrænset til",
+            "loadingMessage": "Hentning af datasæt…",
+            "countMessageSingular": "datasæt fundet for ",
+            "datasetsFeed": "Datasæt feed",
+            "scoreDisclaimer": "De aktuelle søgeresultater filtreres for at matche den krævede mindste kvalitetsscore, der er angivet i facetten til venstre. Besøg vores {0}, hvis du gerne vil have mere at vide om vores kvalitetsmålinger.",
+            "noResult": "Ingen datasæt fundet for ",
+            "findLocation": "Filtrer efter lokation",
+            "searchBar": {
+                "placeholder": "Søg i datasæt"
+            },
+            "createCatalogue": "Opret katalog",
+            "saveQuery": "Gem forespørgsel"
+        },
+        "footer": {
+            "helpUsImproveText": "Din feedback vil hjælpe os med at forbedre den samlede brugeroplevelse. Nogen forslag?",
+            "lastUpdated": "Senest opdateret",
+            "links": {
+                "cookies": "Cookies",
+                "contact": "Kontakt",
+                "faq": "FAQ",
+                "newsletter": "Nyhedsbrev",
+                "search": "Søg",
+                "login": "Log ind",
+                "legalNotice": "Juridisk meddelelse"
+            },
+            "subscribe": "Tilmeld",
+            "helpUsImprove": "Hjælp os med at blive bedre",
+            "newsletterText": "Abonner på vores Nyhedsbrev",
+            "newsletter": "Nyhedsbrev",
+            "followUs": "Følg os på ",
+            "managedBy": "Administreret af Publikationskontoret for Den Europæiske Union.",
+            "fundedBy": "Finansieret af Den Europæiske Union"
+        },
+        "helpIcon": {
+            "dataServices": "I data.europa.eu kan en distribution også fungere som en datatjeneste. Det betyder, at den ikke knytter sig til en fil, der kan downloades, men til en API. Vælg \"Ja\", hvis du vil filtrere til datasæt, der har mindst én datatjeneste.",
+            "scoring": "data.europa.eu måler kvaliteten af alle datasæt og tjenester. I afsnittet Data/Metadata Kvalitet har vi en metodeside, der beskriver processen. Hvert datasæt og hver tjeneste repræsenteres også af en kvalitetsscore. Denne score kan være tilstrækkelig, god eller fremragende. Hvis filteret \"Sufficient +\" er sat, vises alle datasæt og tjenester, der har et tilstrækkeligt eller bedre resultat. Det samme gælder for \"god\". \"Fremragende\" viser kun fremragende datasæt og tjenester.",
+            "license": "En licens beskriver de retlige betingelser for, hvordan et datasæt kan anvendes.",
+            "dataScope": "EU's data indeholder datasæt og tjenester fra EU-institutionerne. Internationale data indeholder datasæt og tjenester, der kommer fra lande uden for EU. Landedata indeholder datasæt og tjenester fra EU-landene.",
+            "format": "Hvert datasæt har henvisninger til filer eller tjenester. Formatet beskriver disse referencers filtype eller tjenestetype. Ikke alle filtyper kan anvendes til alle formål, f.eks. kan en beregning bedre foretages med en CSV-fil i stedet for en pdf-fil.",
+            "catalog": "Et katalog eller et register, der huser datasæt og tjenester. Et katalog er for det meste en portal, hvor datasættene indsamles fra.",
+            "settings": "Beslut, om dit filtervalg er eksklusivt eller ej. Hvis du vælger OG alle søgeresultater skal matche alle filtre. Eller betyder, at mindst ét filter skal matche.",
+            "categories": "En kategori gruppedatasæt, der deler et fælles emne.",
+            "publisher": "En udgiver er en enhed (f.eks. organisation), der er ansvarlig for at stille datasættet til rådighed.",
+            "keywords": "Nøgleord er idéer og emner, der definerer indholdet."
+        },
+        "userQueries": {
+            "executeQuery": "Udfør forespørgsel",
+            "queriesFound": "{number] forespørgsler fundet",
+            "placeholderNotes": "f.eks. Visse nyttige noter om forespørgslen",
+            "querySaved": "Forespørgsel gemt",
+            "queryFound": "{number} forespørgsel fundet",
+            "myQueries": "Mine forespørgsler",
+            "noDescription": "Forespørgslen har ikke nogen beskrivelse",
+            "noQueryFound": "Ingen forespørgsel fundet",
+            "queryDeleted": "Forespørgsel slettet",
+            "searchAllQueries": "Søg forespørgsler",
+            "save": "Gem forespørgsel",
+            "areYourSure": "Er du sikker på, at du ønsker at slette denne forespørgsel?",
+            "noQueriesSaved": "Du har ikke gemt nogen forespørgsler",
+            "searchQueries": "Søg mine forespørgsler"
+        },
+        "catalogFacets": {
+            "facets": {
+                "licences": "Licenser",
+                "catalogs": "Kataloger",
+                "categories": "Kategorier",
+                "countries": "Lande",
+                "formats": "Formater",
+                "keywords": "Nøgleord"
+            },
+            "operator": "Operator",
+            "title": "Filtre",
+            "europeanCatalogs": "Europæiske kataloger",
+            "or": "ELLER",
+            "and": "OG",
+            "euInstitutions": "EU-institutionerne",
+            "settings": "Indstillinger"
+        },
+        "statistics": {
+            "statistics": "Statistikker",
+            "datasetsPerCatalog": "Datasæt pr. katalog",
+            "currentState": "Aktuel status",
+            "datasetsPerCountry": "Datasæt pr. land",
+            "selectType": "Vælg statistiktype",
+            "datasetsPerCountryAndCatalog": "Datasæt pr. land og katalog",
+            "evolution": "Udvikling",
+            "evolutionStartEnd": "Udvikling i det samlede antal datasæt mellem {start_date} og {end_date}",
+            "increaseStartEnd": "Stigning i {dataset_model} i % mellem {start_date} og {end_date}",
+            "totalNumber": "Samlet antal datasæt",
+            "datasetsPerCategory": "Datasæt pr. kategori",
+            "selectTimePeriod": "Vælg periode",
+            "evolutionNumber": "Udvikling antallet af {dataset_model} og {start_date} og {end_date}",
+            "numberDate": "Antal {dataset_model} pr {date}"
+        },
+        "categories": {
+            "tran": "Transport",
+            "heal": "Helbred",
+            "tech": "Videnskab og teknologi",
+            "envi": "Miljø",
+            "econ": "Økonomi og finans",
+            "soci": "Befolkning og samfund",
+            "agri": "Landbrug, fiskeri, skovbrug og fødevarer",
+            "educ": "Uddannelse, kultur og sport",
+            "ener": "Energi",
+            "intr": "Internationale emner",
+            "gove": "Forvaltning og den offentlige sektor",
+            "just": "Lovgivning, retssystem og offentlig sikkerhed",
+            "regi": "Regioner og byer"
+        },
+        "pagination": {
+            "nextPage": "Næste",
+            "previousPage": "Forrige"
+        },
+        "navigation": {
+            "navItems": {
+                "home": "Hjem",
+                "about": "Om",
+                "data": "Data",
+                "privacyPolicy": "Privatlivspolitik",
+                "map": "Kort",
+                "imprint": "Impressum"
+            }
+        },
+        "catalogsAndDatasets": {
+            "noDescriptionAvailable": "Der foreligger ingen beskrivelse",
+            "more": "Mere"
+        },
+        "datasetCategories": {
+            "foundCategories": "{number} kategori fundet",
+            "foundCategory": "{number} kategorier fundet",
+            "noCategories": "Ingen kategorier fundet"
+        },
+        "mapModal": {
+            "fullscreen": "Fuld skærm",
+            "findDatasets": "Anvend",
+            "reset": "Ryd",
+            "close": "Luk",
+            "drawRectangleMsg": "Tegn et rektangel for at vælge en region",
+            "disclaimer": "Ansvarsfraskrivelse",
+            "copyright": "Map © OpenStreetmap contributors "
+        },
+        "similarDatasets": {
+            "similar": "Tilsvarende",
+            "verySimilar": "Meget tilsvarende",
+            "marginalSimilar": "Marginal tilsvarende",
+            "notFound": "Ingen tilsvarende datasæt blev fundet.",
+            "lessSimilar": "Mindre tilsvarende",
+            "similarDatasets": "Tilsvarende datasæt"
+        },
+        "searchTabs": {
+            "editorialContent": "Redaktionelt indhold"
+        },
+        "visualisation": {
+            "loading": "Visualisering loader…",
+            "previewAvailable": "Adgang til preview",
+            "info": "Klik her, hvis billederne ikke loades inden for et par sekunder."
+        },
+        "catalog": {
+            "loadingMessage": "Kataloger hentes",
+            "searchBar": {
+                "placeholder": "Søg efter kataloger…"
+            },
+            "geoBoundsMessageRemove": "Luk denne meddelelse for at fjerne begrænsningen eller brug nulstillingsfunktionen",
+            "countMessage": "Kataloger fundet"
+        },
+        "sparql": {
+            "subHeadlineText2": "For at hjælpe brugerne med at konstruere nyttige SPARQL-søgninger giver vi en side med afbildninger <a href='{sample_sparql_queries}'>sample SPARQL queries</a>, som kan udføres via vores endepunkt. Datasæt og kataloger, der er offentliggjort som RDF treples på portalen, følger <a href='https://github.com/SEMICeu/DCAT-AP'>DCAT-AP specification</a>. Du kan læse mere om metadataontologien på data.europa.eu på DCAT-AP på: <a href=' https://data.europa.eu/en/academy/dcat-and-dcat-ap'> https://data.europa.eu/en/academy/dcat-and-dcat-ap</a>.",
+            "subHeadlineText1": "Alle metadata fra data.europa.eu er gemt som RDF triples (<a href='https://www.w3.org/RDF/'>RDF</a>) og kan forespørges ved hjælp af SPARQL-søgesproget ved dette endepunkt. Søgninger kan foretages via søgeredaktøren (nedenfor) eller via det maskinlæsbare endepunkt (<a href='https://data.europa.eu/sparql'>https://data.europa.eu/sparql</a>)."
+        },
+        "distributions": {
+            "footerLink": "Download"
+        },
+        "distributionDetails": "{}",
+        "spokenLanguage": "Engelsk",
+        "cite": {
+            "copyToClipboard": "Kopi til klipboard",
+            "title": "Citerer dette datasæt"
+        },
+        "home": {
+            "msg": "Beklager, denne side har ikke noget indhold endnu. Gå ind i fanen Data for at se noget! "
+        },
+        "imprint": {
+            "msg": "INDSÆT IMPRESSUM HER"
+        }
+    }
+}

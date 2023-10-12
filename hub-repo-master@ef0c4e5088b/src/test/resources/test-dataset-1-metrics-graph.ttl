@@ -1,0 +1,187 @@
+@prefix dqv:   <http://www.w3.org/ns/dqv#> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix shacl: <http://www.w3.org/ns/shacl#> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+@prefix dcat:  <http://www.w3.org/ns/dcat#> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+<https://piveau.io/id/metrics/test-dataset>
+    a                    dqv:QualityMetadata ;
+    prov:generatedAtTime "2019-12-06T18:26:46.366401Z"^^xsd:dateTime .
+
+<https://piveau.io/set/data/test-dataset>
+    dqv:hasQualityAnnotation   [ a dqv:QualityAnnotation ;
+                                 oa:hasBody [ a <http://www.w3.org/ns/shacl#ValidationReport> ;
+                                              shacl:result [ a   shacl:ValidationResult ;
+                                                             shacl:focusNode                 <https://piveau.io/set/data/test-dataset> ;
+                                                             shacl:resultMessage             "Value does not have shape :CorporateBodyRestriction" ;
+                                                             shacl:resultPath                dc:publisher ;
+                                                             shacl:resultSeverity            shacl:Violation ;
+                                                             shacl:sourceConstraintComponent shacl:NodeConstraintComponent ;
+                                                             shacl:sourceShape               _:genid40 ;
+                                                             shacl:value                      <https://example.de/def/publisher/fokus=mailto:publisher@example.de>],
+                                                            [ a                               shacl:ValidationResult ;
+                                                              shacl:focusNode                 <https://piveau.io/set/data/test-dataset> ;
+                                                              shacl:resultMessage             "Value must be an instance of skos:Concept" ;
+                                                              shacl:resultPath                dc:spatial ;
+                                                              shacl:resultSeverity            shacl:Violation ;
+                                                              shacl:sourceConstraintComponent shacl:ClassConstraintComponent ;
+                                                              shacl:sourceShape               _:genid26 ;
+                                                              shacl:value                     _:genid27 ],
+                                                            [ a                               shacl:ValidationResult ;
+                                                              shacl:focusNode                 <https://piveau.io/set/data/test-dataset> ;
+                                                              shacl:resultMessage             "Value does not have node kind IRI" ;
+                                                              shacl:resultPath                dc:spatial ;
+                                                              shacl:resultSeverity            shacl:Violation ;
+                                                              shacl:sourceConstraintComponent shacl:NodeKindConstraintComponent ;
+                                                              shacl:sourceShape               _:genid24 ;
+                                                              shacl:value                     _:genid27 ],
+                                                            [ a                               shacl:ValidationResult ;
+                                                              shacl:focusNode                 <https://piveau.io/set/data/test-dataset> ;
+                                                              shacl:resultMessage             "Value does not have node kind IRI" ;
+                                                              shacl:resultPath                dc:spatial ;
+                                                              shacl:resultSeverity            shacl:Violation ;
+                                                              shacl:sourceConstraintComponent shacl:NodeKindConstraintComponent ;
+                                                              shacl:sourceShape               _:genid26 ;
+                                                              shacl:value                     _:genid27 ],
+                                                            [ a                               shacl:ValidationResult ;
+                                                              shacl:focusNode                 <https://piveau.io/set/data/test-dataset> ;
+                                                              shacl:resultMessage             "Value must be an instance of foaf:Document" ;
+                                                              shacl:resultPath                dcat:landingPage ;
+                                                              shacl:resultSeverity            shacl:Violation ;
+                                                              shacl:sourceConstraintComponent shacl:ClassConstraintComponent ;
+                                                              shacl:sourceShape               _:genid24 ;
+                                                              shacl:value                     <http://landingpage.de> ],
+                                                            [ a                               shacl:ValidationResult ;
+                                                              shacl:focusNode                 <https://piveau.io/set/data/test-dataset> ;
+                                                              shacl:resultMessage             "Value must be an instance of skos:Concept" ;
+                                                              shacl:resultPath                dc:publisher ;
+                                                              shacl:resultSeverity            shacl:Violation ;
+                                                              shacl:sourceConstraintComponent shacl:ClassConstraintComponent ;
+                                                              shacl:sourceShape               _:genid40 ;
+                                                              shacl:value                     <https://example.de/def/publisher/fokus=mailto:publisher@example.de> ],
+                                                            [ a                               shacl:ValidationResult ;
+                                                              shacl:focusNode                 <https://piveau.io/set/data/test-dataset> ;
+                                                              shacl:resultMessage             "Value must be an instance of dct:Frequency" ;
+                                                              shacl:resultPath                dc:accrualPeriodicity ;
+                                                              shacl:resultSeverity            shacl:Violation ;
+                                                              shacl:sourceConstraintComponent shacl:ClassConstraintComponent ;
+                                                              shacl:sourceShape               _:genid41 ;
+                                                              shacl:value                     <http://publications.europa.eu/resource/authority/frequency/ANNUAL> ],
+                                                            [ a                               shacl:ValidationResult ;
+                                                              shacl:focusNode                 <https://piveau.io/set/data/test-dataset> ;
+                                                              shacl:resultMessage             "Value must be an instance of foaf:Agent" ;
+                                                              shacl:resultPath                dc:publisher ;
+                                                              shacl:resultSeverity            shacl:Violation ;
+                                                              shacl:sourceConstraintComponent shacl:ClassConstraintComponent ;
+                                                              shacl:sourceShape               _:genid38 ;
+                                                              shacl:value                     <https://example.de/def/publisher/fokus=mailto:publisher@example.de> ],
+                                                            [ a                               shacl:ValidationResult ;
+                                                              shacl:focusNode                 <https://piveau.io/set/data/test-dataset> ;
+                                                              shacl:resultMessage             "Value must be an instance of vcard:Kind" ;
+                                                              shacl:resultPath                dcat:contactPoint ;
+                                                              shacl:resultSeverity            shacl:Violation ;
+                                                              shacl:sourceConstraintComponent shacl:ClassConstraintComponent ;
+                                                              shacl:sourceShape               _:genid39 ;
+                                                              shacl:value                     <https://www.statistik.sachsen.de/genonline/?contactpoint=mailto:genesis@statistik.sachsen.de> ],
+                                                            [ a                               shacl:ValidationResult ;
+                                                              shacl:focusNode                 <https://piveau.io/set/data/test-dataset> ;
+                                                              shacl:resultMessage             "Value does not have shape _:08953f5444589e539f70e8387c8a7e1a" ;
+                                                              shacl:resultPath                dc:spatial ;
+                                                              shacl:resultSeverity            shacl:Violation ;
+                                                              shacl:sourceConstraintComponent shacl:NodeConstraintComponent ;
+                                                              shacl:sourceShape               _:genid26 ;
+                                                              shacl:value                     _:genid27 ] ] ;
+                                 oa:hasTarget           <https://piveau.io/set/data/test-dataset> ;
+                                 dqv:inDimension        <https://piveau.eu/ns/voc#interoperability> ;
+                                 prov:generatedAtTime   "2019-12-06T18:26:46.366181Z"^^xsd:dateTime ] ;
+
+    dqv:hasQualityMeasurement   [ a                     dqv:QualityMeasurement ;
+                                  dqv:computedOn         <https://piveau.io/set/data/test-dataset> ;
+                                  dqv:isMeasurementOf   <https://piveau.eu/ns/voc#accessRightsAvailability> ;
+                                  dqv:value             false ],
+                                [ a                     dqv:QualityMeasurement ;
+                                  dqv:computedOn         <https://piveau.io/set/data/test-dataset> ;
+                                  dqv:isMeasurementOf   <https://piveau.eu/ns/voc#categoryAvailability> ;
+                                  dqv:value             true ],
+                                [ a                     dqv:QualityMeasurement ;
+                                  dqv:computedOn         <https://piveau.io/set/data/test-dataset> ;
+                                  dqv:isMeasurementOf   <https://piveau.eu/ns/voc#keywordAvailability> ;
+                                  dqv:value             true ],
+                                [ a                     dqv:QualityMeasurement ;
+                                  dqv:computedOn         <https://piveau.io/set/data/test-dataset> ;
+                                  dqv:isMeasurementOf   <https://piveau.eu/ns/voc#spatialAvailability> ;
+                                  dqv:value             true ],
+                                [ a                     dqv:QualityMeasurement ;
+                                  dqv:computedOn         <https://piveau.io/set/data/test-dataset> ;
+                                  dqv:isMeasurementOf   <https://piveau.eu/ns/voc#publisherAvailability> ;
+                                  dqv:value             true ],
+                                [ a                     dqv:QualityMeasurement ;
+                                  prov:generatedAtTime  "2019-12-06T18:26:50.436119Z"^^xsd:dateTime ;
+                                  dqv:isMeasurementOf   <https://piveau.eu/ns/voc#scoring> ;
+                                  dqv:value             "180"^^xsd:int ;
+                                  dqv:computedOn        <https://piveau.io/set/data/test-dataset> ],
+                                [ a                     dqv:QualityMeasurement ;
+                                  dqv:computedOn         <https://piveau.io/set/data/test-dataset> ;
+                                  dqv:isMeasurementOf   <https://piveau.eu/ns/voc#accessRightsVocabularyAlignment> ;
+                                  dqv:value             false ],
+                                [ a                     dqv:QualityMeasurement ;
+                                  dqv:computedOn         <https://piveau.io/set/data/test-dataset> ;
+                                  dqv:isMeasurementOf   <https://piveau.eu/ns/voc#temporalAvailability> ;
+                                  dqv:value             true ],
+                                [ a                     dqv:QualityMeasurement ;
+                                  dqv:computedOn         <https://piveau.io/set/data/test-dataset> ;
+                                  dqv:isMeasurementOf   <https://piveau.eu/ns/voc#contactPointAvailability> ;
+                                  dqv:value             true ] .
+
+
+<https://piveau.io/distribution/1>
+    dqv:hasQualityMeasurement [ a                   dqv:QualityMeasurement ;
+                                dqv:computedOn       <https://piveau.io/distribution/1> ;
+                                dqv:isMeasurementOf <https://piveau.eu/ns/voc#mediaTypeAvailability> ;
+                                dqv:value           true ],
+                              [ a                   dqv:QualityMeasurement ;
+                                dqv:computedOn       <https://piveau.io/distribution/1> ;
+                                dqv:isMeasurementOf <https://piveau.eu/ns/voc#knownLicence> ;
+                                dqv:value           false ],
+                              [ a                   dqv:QualityMeasurement ;
+                                dqv:computedOn       <https://piveau.io/distribution/1> ;
+                                dqv:isMeasurementOf <https://piveau.eu/ns/voc#licenceAvailability> ;
+                                dqv:value           true ],
+                              [ a                   dqv:QualityMeasurement ;
+                                dqv:computedOn       <https://piveau.io/distribution/1> ;
+                                dqv:isMeasurementOf <https://piveau.eu/ns/voc#byteSizeAvailability> ;
+                                dqv:value           false ],
+                              [ a                   dqv:QualityMeasurement ;
+                                dqv:computedOn       <https://piveau.io/distribution/1> ;
+                                dqv:isMeasurementOf <https://piveau.eu/ns/voc#formatMediaTypeVocabularyAlignment> ;
+                                dqv:value           false ],
+                              [ a                   dqv:QualityMeasurement ;
+                                dqv:computedOn       <https://piveau.io/distribution/1> ;
+                                dqv:isMeasurementOf <https://piveau.eu/ns/voc#formatAvailability> ;
+                                dqv:value           true ],
+                              [ a                   dqv:QualityMeasurement ;
+                                dqv:computedOn       <https://piveau.io/distribution/1> ;
+                                dqv:isMeasurementOf <https://piveau.eu/ns/voc#formatMediaTypeMachineInterpretable> ;
+                                dqv:value           false ],
+                              [ a                   dqv:QualityMeasurement ;
+                                dqv:computedOn       <https://piveau.io/distribution/1> ;
+                                dqv:isMeasurementOf <https://piveau.eu/ns/voc#downloadUrlAvailability> ;
+                                dqv:value           false ],
+                              [ a                   dqv:QualityMeasurement ;
+                                dqv:computedOn       <https://piveau.io/distribution/1> ;
+                                dqv:isMeasurementOf <https://piveau.eu/ns/voc#rightsAvailability> ;
+                                dqv:value           false ],
+                              [ a                   dqv:QualityMeasurement ;
+                                dqv:computedOn       <https://piveau.io/distribution/1> ;
+                                dqv:isMeasurementOf <https://piveau.eu/ns/voc#formatMediaTypeNonProprietary> ;
+                                dqv:value           false ],
+                              [ a                   dqv:QualityMeasurement ;
+                                dqv:computedOn       <https://piveau.io/distribution/1> ;
+                                dqv:isMeasurementOf <https://piveau.eu/ns/voc#dateIssuedAvailability> ;
+                                dqv:value           false ],
+                              [ a                   dqv:QualityMeasurement ;
+                                dqv:computedOn       <https://piveau.io/distribution/1> ;
+                                dqv:isMeasurementOf <https://piveau.eu/ns/voc#dateModifiedAvailability> ;
+                                dqv:value           false ] .

@@ -1,0 +1,969 @@
+{
+    "message": {
+        "metadata": {
+            "catalogRecord": "Katalogový záznam",
+            "deleteItem": "Opravdu chcete tuto položku smazat?",
+            "availability": "Dostupnost",
+            "versionInfo": "Informace o verzi",
+            "chooseCategory": "Vybrat kategorii",
+            "chooseFile": "Vybrat soubor",
+            "versionNotes": "Poznámky k verzi",
+            "review": "Zkontrolovat",
+            "tooltipKeywords": "Zde zadejte klíčová slova vašeho souboru dat!",
+            "pageDescriptionDataset": "Přidejte název, popis, katalog, klíčová slova a kategorie do svého souboru dat!",
+            "no": "Ne",
+            "relatedResources": "související položky",
+            "pageDescriptionPublisher": "Přidejte typ vydavatele, jméno a domovskou stránku do svého souboru dat!",
+            "tooltipTitle": "Zde zadejte název vašeho souboru dat!",
+            "linkedData": "Propojené údaje",
+            "numSeries": "Počet datových řad",
+            "releaseDate": "Datum vydání",
+            "yes": "Ano",
+            "unitsOfMeasurement": "Jednotky měření",
+            "distributionsEmpty": "Omlouváme se, pro tento soubor dat momentálně nejsou k dispozici žádné nahrané distribuce. Přidejte alespoň jednu distribuci!",
+            "enterDownloadUrl": "Zadejte Stáhnout Url",
+            "frequency": "Frekvence",
+            "type": "Typ",
+            "telephone": "Telefon (telefon)",
+            "label": "Štítek",
+            "addedToDataEuropaEU": "Přidáno do data.europa.eu",
+            "tooltipCategories": "Zde vyberte kategorie vašeho souboru dat!",
+            "temporal": "Časové pokrytí",
+            "enterDescription": "Zadejte popis",
+            "accrualPeriodicity": "Časová periodicita",
+            "showXMore": "Zobrazit  {increment} více ",
+            "identifier": "Identifikátor",
+            "isPartOf": "Je dílčí katalog",
+            "dataServices": "Datové služby",
+            "chooseType": "Vybrat typ",
+            "organizationName": "Název organizace",
+            "catalog": "Katalog",
+            "qualityAnnotations": "Poznámky týkající se kvality",
+            "update": "Aktualizovat ",
+            "showAll": "Ukázat vše ",
+            "coordinates": "Souřadnice",
+            "email": "E-mail",
+            "tooltipContactType": "Zde vyberte typ kontaktního bodu vašeho souboru dat!",
+            "checksum": "Kontrolní součet",
+            "enterEmail": "Zadejte e-mailovou adresu",
+            "cancel": "Zrušit",
+            "conformsTo": "Je v souladu s",
+            "downloadUrl": "Adresa URL pro stahování",
+            "chooseLicense": "Vyberte licenci",
+            "tooltipDescription": "Zde zadejte popis vašeho souboru dat!",
+            "tags": "Značky",
+            "accessUrl": "Adresa URL pro přístup",
+            "languages": "Jazyky",
+            "title": "Název",
+            "enterTitle": "Zadejte název",
+            "url": "Adresa URL",
+            "resource": "Datový zdroj",
+            "tooltipPublisherHomepage": "Zde zadejte domovskou stránku vydavatele vašeho souboru dat!",
+            "creator": "Tvůrce",
+            "description": "Popis",
+            "spatial": "Místní",
+            "readLess": "Přečtěte si Méně",
+            "tooltipPublisherType": "Zde vyberte typ vydavatele vašeho souboru dat!",
+            "accessRights": "Přístupová práva",
+            "tooltipDistributionDownloadUrl": "Zde zadejte URL ke stažení vaší distribuce!",
+            "attributes": "Atributy",
+            "mediaType": "Typ média",
+            "categories": "Kategorie",
+            "pageDescriptionDistribution": "Přidejte distribuce do svého souboru dat!",
+            "pages": "Strany",
+            "goToCatalog": "Přejít na stránku katalogu",
+            "tooltipDistributionDescription": "Zde zadejte popis vaší distribuce!",
+            "identifiers": "Identifikátory",
+            "scheme": "Režim podpory",
+            "contactPoints": "Kontaktní místa",
+            "hasPart": "Má dílčí katalog",
+            "showLess": "Zobrazit méně",
+            "byteSize": "Velikost bajtu",
+            "tooltipCatalog": "Zde vyberte katalog vašeho souboru dat!",
+            "methodologyPage": "Stránka s metodikou MQA",
+            "hasVersion": "Má verzi",
+            "useDownloadUrl": "Chci místo nahrání souboru zadat URL ke stažení!",
+            "created": "Vytvořeno",
+            "themeTaxonomy": "Tematická taxonomie",
+            "homepage": "Domovská stránka",
+            "address": "Adresa",
+            "visualisations": "Vizualizace",
+            "tooltipDistributionFormat": "Zde vyberte formát vaší distribuce!",
+            "upload": "Nahrát",
+            "notFound": "Nenalezeno",
+            "dimensions": "Rozměry",
+            "addDistribution": "Přidat distribuci",
+            "name": "Název",
+            "metadataQuality": "Kvalita metadat",
+            "provenances": "Místo původu ",
+            "enterKeywords": "Zadejte klíčová slova",
+            "landingPage": "Úvodní stránka",
+            "tooltipDistributionTitle": "Zde zadejte název vaší distribuce!",
+            "license": "Licencí",
+            "chooseCatalog": "Vybrat katalog",
+            "enterHomepage": "Zadejte domovskou stránku",
+            "tooltipDistributionLicence": "Zde vyberte licenci vaší distribuce!",
+            "readMore": "Přečtěte si více informací",
+            "format": "Formát",
+            "chooseFormat": "Vybrat formát",
+            "publisher": "Vydavatel",
+            "dataset": "Soubor dat",
+            "updated": "Aktualizováno",
+            "pageDescriptionUpload": "Přidejte soubory do svých distribucí!",
+            "spatialResource": "Prostorový zdroj",
+            "distribution": "Distribuce",
+            "tooltipContactName": "Zde zadejte název kontaktního bodu vašeho souboru dat!",
+            "distributions": "Distribuce",
+            "status": "Status",
+            "datasets": "Soubory dat",
+            "showMore": "Zobrazit více",
+            "rights": "Práva",
+            "tooltipContactEmail": "Zde zadejte e-mailovou adresu kontaktního bodu vašeho souboru dat!",
+            "otherIdentifiers": "Jiné identifikátory",
+            "tooltipPublisherName": "Zde zadejte název vydavatele vašeho souboru dat!",
+            "enterName": "Zadejte jméno",
+            "documentations": "Dokumentace",
+            "sources": "Zdroje",
+            "modificationDate": "Datum úpravy",
+            "isVersionOf": "Je verze",
+            "pageDescriptionContactPoint": "Přidejte typ kontaktního bodu, jméno a e-mail do svého souboru dat!",
+            "goToDataset": "Přejít na stránku souboru dat",
+            "updatedOnDataEuropaEU": "Aktualizace údajů.europa.eu"
+        },
+        "dataupload": {
+            "info": {
+                "defaultdescription": "Podrobné vysvětlení pole zobrazíte kliknutím na informační ikonu.",
+                "information": "Informace"
+            },
+            "datasets": {
+                "step2": {
+                    "source": {
+                        "label": "Zdroj"
+                    },
+                    "type": {
+                        "placeholder": "Zástupný text datového souboru"
+                    },
+                    "subject": {
+                        "help": "Kategorie datové sady."
+                    },
+                    "isReferencedByUrl": {
+                        "label": "Adresa URL"
+                    },
+                    "contactPointAddressStreet": {
+                        "placeholder": "Kontaktní místo datového souboru Adresa ulice upřednostňovaného textu"
+                    },
+                    "conformsTo": {
+                        "placeholder": "Datový soubor Pozměňovací návrh k umisťovacímu textu"
+                    },
+                    "isVersionOf": {
+                        "label": "Je verze"
+                    },
+                    "provenance": {
+                        "label": "Provenience"
+                    },
+                    "language": {
+                        "label": "Jazyk"
+                    },
+                    "qualifiedAttribution": {
+                        "help": "Odkaz na zástupce, který má nějakou formu odpovědnosti za zdroj"
+                    },
+                    "temporal": {
+                        "placeholder": "Datový soubor Časový zástupný text"
+                    },
+                    "accessRights": {
+                        "info": "Tato vlastnost se týká informací, které uvádějí, zda je datový soubor otevřenými daty, má omezení přístupu nebo není veřejný."
+                    },
+                    "identifier": {
+                        "help": "Tato vlastnost obsahuje hlavní identifikátor souboru údajů."
+                    },
+                    "versionInfo": {
+                        "help": "Číslo verze souboru údajů."
+                    },
+                    "hasVersion": {
+                        "info": "Vztahuje se na související datovou sadu, která je verzí, vydáním nebo modifikací uvedené sady."
+                    },
+                    "wasGeneratedBy": {
+                        "add-label": "Přidat Způsobení:"
+                    },
+                    "qualifiedRelation": {
+                        "label": "Kvalifikované vztahy"
+                    },
+                    "conformsToTitle": {
+                        "label": "Název"
+                    },
+                    "creatorType": {
+                        "label": "Typ"
+                    },
+                    "spatial": {
+                        "info": "Tato vlastnost se vztahuje k zeměpisné oblasti, na kterou se datový soubor vztahuje."
+                    },
+                    "temporalResolutionMonth": {
+                        "label": "Měsíc časového rozlišení"
+                    },
+                    "contactPointName": {
+                        "label": "Název"
+                    },
+                    "temporalResolutionMinute": {
+                        "placeholder": "Datový soubor Temporal Resolution Minute placeholder text"
+                    },
+                    "contactPointEmail": {
+                        "label": "E-mail"
+                    },
+                    "contactPointOrganisationName": {
+                        "label": "Název organizace"
+                    },
+                    "contactPoint": {
+                        "help": "Tato vlastnost obsahuje kontaktní údaje."
+                    },
+                    "temporalResolutionDay": {
+                        "placeholder": "Datový soubor Temporal Resolution Day placeholder text"
+                    },
+                    "provenanceText": {
+                        "placeholder": "Datový soubor Provenance Text zástupný text"
+                    }
+                },
+                "step1": {
+                    "publisherType": {
+                        "placeholder": "Datový soubor Publiserový zástupný text typu"
+                    },
+                    "datasetID": {
+                        "label": "ID datového souboru"
+                    },
+                    "modified": {
+                        "label": "Pozměněno"
+                    },
+                    "publisher": {
+                        "label": "Vydavatel"
+                    },
+                    "issued": {
+                        "help": "Datum formálního vydání (např. zveřejnění) datového souboru. Přijatelné formáty dat: RRRR-MM-DD, RRRR-MM, RRRR."
+                    },
+                    "publisherHomepage": {
+                        "label": "Úvodní stránka"
+                    }
+                },
+                "step3": {
+                    "spatialResolutionInMeters": {
+                        "help": "Minimální prostorové oddělení, které lze obnovit v datovém souboru."
+                    },
+                    "mediaType": {
+                        "placeholder": "Zástupný text typu distribučního média"
+                    },
+                    "language": {
+                        "help": "Jazyk používaný při distribuci."
+                    },
+                    "title": {
+                        "info": "Tato nemovitost obsahuje jméno přidělené distribuci. Tuto vlastnost lze opakovat u paralelních jazykových verzí popisu."
+                    },
+                    "status": {
+                        "label": "Status"
+                    },
+                    "checksum": {
+                        "placeholder": "Distribuční záložný text „Consumsum“"
+                    },
+                    "hasPolicyUrl": {
+                        "placeholder": "Distribuce Politika Url placeholder text"
+                    },
+                    "page": {
+                        "help": "Stránka nebo dokument o tomto rozdělení."
+                    },
+                    "availability": {
+                        "placeholder": "Odstupňovaný text k distribuci"
+                    },
+                    "format": {
+                        "placeholder": "Úvodní text ve formátu rozdělení"
+                    },
+                    "conformsTo": {
+                        "add-label": "Přidat Souladu"
+                    },
+                    "issued": {
+                        "label": "Vydané"
+                    },
+                    "description": {
+                        "help": "Tato nemovitost obsahuje volně textový účet distribuce."
+                    },
+                    "hasPolicy": {
+                        "help": "Politika vyjadřující práva."
+                    },
+                    "temporalResolutionMonth": {
+                        "label": "Měsíc časového rozlišení"
+                    },
+                    "temporalResolutionHour": {
+                        "placeholder": "Datový soubor Temporal Resolution Hodina placeholder text"
+                    },
+                    "licence": {
+                        "help": "Licence, na jejímž základě je distribuce poskytována."
+                    },
+                    "date": {
+                        "label": "Datum"
+                    }
+                },
+                "stepper": {
+                    "step3": {
+                        "children": {
+                            "distribution3": {
+                                "name": "Doplňující informace"
+                            },
+                            "distribution4": {
+                                "name": "Doplňující informace"
+                            },
+                            "distribution1": {
+                                "name": "Obecné informace"
+                            },
+                            "distribution2": {
+                                "name": "Doplňující informace"
+                            }
+                        }
+                    },
+                    "overview": "Přehled souboru údajů"
+                }
+            },
+            "catalogues": {
+                "step2": {
+                    "isPartOf": {
+                        "info": "Touto vlastností se rozumí související katalog, v němž je uvedený katalog fyzicky nebo logicky zahrnut."
+                    },
+                    "language": {
+                        "help": "Jazyk používaný v textových metadatech popisujících názvy, popisy atd."
+                    },
+                    "spatial": {
+                        "info": "Tato vlastnost se vztahuje na zeměpisnou oblast, na kterou se vztahuje katalog."
+                    },
+                    "hasPart": {
+                        "help": "Tato vlastnost se týká souvisejícího katalogu, který je součástí popsaného katalogu."
+                    },
+                    "creator": {
+                        "add-label": "Přidat tvůrce"
+                    },
+                    "creatorName": {
+                        "label": "Název"
+                    }
+                },
+                "step1": {
+                    "title": {
+                        "help": "Název uvedený v katalogovém záznamu. "
+                    },
+                    "description": {
+                        "info": "Tato vlastnost obsahuje volný textový účet záznamu. Tuto vlastnost lze opakovat u paralelních jazykových verzí popisu."
+                    },
+                    "licence": {
+                        "placeholder": "Zástupný text licence na katalog"
+                    },
+                    "modified": {
+                        "label": "Pozměněno"
+                    },
+                    "licenceDescription": {
+                        "label": "Popis licence"
+                    },
+                    "homepage": {
+                        "help": "Internetová stránka, která slouží jako hlavní stránka katalogu."
+                    }
+                },
+                "stepper": {
+                    "overview": "Přehled katalogu",
+                    "step1": {
+                        "name": "Krok 1: Vytvořit katalog"
+                    },
+                    "step2": {
+                        "name": "Krok 2: Definovat vlastnosti katalogu"
+                    }
+                }
+            },
+            "clear": "Jasné",
+            "deletemodal": {
+                "deleteDistribution": "Vymazat distribuci",
+                "areyousure": "Opravdu chcete tuto distribuci odstranit?"
+            },
+            "createUniqueID": "Vytvořit jedinečné ID",
+            "saveasdraft": "Uložit jako koncept",
+            "savedataset": "Uložit datovou sadu",
+            "next": "Další krok",
+            "noDistributions": "Nejsou k dispozici žádné distribuce",
+            "savedraft": "Uložit koncept",
+            "searchVocabulary": "Slovník vyhledávání",
+            "error": {
+                "general": "Došlo k chybě. Zkuste to prosím později.",
+                "invalid-message": "Některá pole chybí. Vyplňte prosím všechna požadovaná pole!"
+            },
+            "type": "Typ",
+            "preview": "Předchozí krok",
+            "submit": "Odeslat",
+            "publishdataset": "Publikovat datovou sadu",
+            "validationtitle": "Validace",
+            "publishdraft": "Zveřejnit návrh",
+            "newDistribution": "Přidat další distribuci",
+            "validationerror": "Při validaci formuláře došlo k chybě!",
+            "createDataset": "Vytvořit soubor dat",
+            "defineDatasetProperties": "Definovat vlastnosti datové sady",
+            "createDistributions": "Vytvoření distribuce"
+        },
+        "datasetDetails": {
+            "subnav": {
+                "quality": "Kvalita",
+                "similarDatasets": "Podobné soubory dat",
+                "categories": "Kategorie",
+                "dataset": "Datová sada",
+                "activityStream": "Stream aktivit"
+            },
+            "quality": {
+                "licenceAvailability": "Informace o licenci",
+                "mediaTypeAvailability": "Typ média",
+                "temporalAvailability": "Časově orientované hledání",
+                "accessibility": "Přístupnost",
+                "dcatApCompliance": "Soulad se specifikací DCAT-AP",
+                "distributions": {
+                    "downloadUrlStatusCode": "Kód Stáhnout status Url",
+                    "accessUrlStatusCode": "Kód statusu AccessURL"
+                },
+                "accessRightsVocabularyAlignment": "Slovní zásoba k omezení přístupu",
+                "contactPointAvailability": "Kontaktní bod",
+                "dateIssuedAvailability": "Datum vydání",
+                "nodata": "Zdá se, že na naší straně existuje problém. Nebylo možné načíst žádné údaje o kvalitě. Zkuste to prosím znovu později.",
+                "dateModifiedAvailability": "Datum změny",
+                "contextuality": "Kontextovost",
+                "reusability": "Možnost opětovného využití",
+                "accessUrlStatusCode": "Kódy stavu nejčastější přístupové adresy URL",
+                "downloadUrlStatusCode": "Kódy stavu nejčastější adresy URL pro stahování",
+                "formatMediaTypeVocabularyAlignment": "Formát / Typ média ze slovní zásoby",
+                "metaDataQuality": "Kvalita metadat",
+                "downloadUrlAvailability": "Adresa URL ke stažení",
+                "dataQuality": "Kvalita údajů",
+                "categoryAvailability": "Kategorie",
+                "interoperability": "Interoperabilita",
+                "findability": "Dohledatelnost",
+                "spatialAvailability": "Geograficky orientované hledání",
+                "formatAvailability": "Formát",
+                "byteSizeAvailability": "Velikost souboru",
+                "accessRightsAvailability": "Omezení přístupu",
+                "distributionQuality": "Kvalita distribuce",
+                "publisherAvailability": "Vydavatel",
+                "keywordAvailability": "Využití klíčových slov",
+                "rightsAvailability": "Oprávnění"
+            },
+            "follow": "Sledovat",
+            "accessURLTooltip": "Tento odkaz může obsahovat informace o tom, jak získat referenční soubor, nebo je přímým odkazem na referenční soubor.",
+            "dataStream": "Datové toky",
+            "downloadURLTooltip": "Jedná se o přímý odkaz na referenční soubor.",
+            "upload": {
+                "organisation": "Organizace",
+                "individual": "Individuální",
+                "resetText": "Resetovat celý formulář?",
+                "person": "Osoba",
+                "unknownFormat": "Neznámý formát",
+                "reset": "Resetovat formulář"
+            },
+            "preview": "Náhled",
+            "feedback": "Zpětná vazba",
+            "access": "Přístup",
+            "datasets": {
+                "modal": {
+                    "downloadingFiles": "Stahování souborů",
+                    "zipNumberOfFiles": "Zipové číslo souborů",
+                    "waitingForDownload": "(čeká se na stažení)",
+                    "downloadProgress": "Stáhněte si pokrok",
+                    "notDownloaded": "Nestahováno",
+                    "error": "Chyba! Tit Again",
+                    "okay": "Okaye",
+                    "cancel": "Zrušit",
+                    "close": "Zavřít",
+                    "coupleOfMinutes": "(to může trvat několik minut)",
+                    "notDownloadedTooltip": "Podrobnosti lze nalézt v přiloženém souboru.csv."
+                },
+                "leavePageWindow": {
+                    "text": "Opravdu chcete odejít? Stažení bude zastaveno, když odjedete!"
+                },
+                "downloadAll": "Stáhněte si všechny"
+            },
+            "translation": {
+                "update": "Aktuální překlad tohoto souboru dat probíhá.",
+                "original": "Původní jazyk",
+                "message": "Název a popis tohoto souboru dat jsou strojově přeloženy.",
+                "noTranslation": "Tato datová sada zatím není k dispozici ve vašem jazyce. Na překladu se v současné době pracuje.",
+                "link": "Pro zobrazení souboru dat v původním jazyce klikněte zde"
+            },
+            "cite": "Cite",
+            "relatedResources": "Související zdroje",
+            "share": "Sdílet",
+            "geoVisualisation": "Otevřít geovizualizaci ",
+            "download": "Stáhnout",
+            "intro": {
+                "distribution": "Níže jsou uvedeny údaje o měření kvality všech rozdělení datového souboru. Pokud jde o informace o tom, které metriky používáme pro měření ukazatelů, podívejte se na naši stránku <a href='/mqa/methodology?locale={locale}'>metodiky</a>.",
+                "metadataQuality": "Cílem zajištění kvality metadat je pomoci poskytovatelům údajů a datovým portálům kontrolovat jejich metadata na základě různých ukazatelů. Pokud jde o informace o tom, které metriky používáme pro měření ukazatelů, podívejte se na naši stránku <a href='/mqa/methodology?locale={locale}'>metodiky</a>."
+            },
+            "about": "o",
+            "datasetFeed": "Datový soubor – vstupní informace",
+            "delete": "Vymazat",
+            "openResource": "Přejít ke zdroji",
+            "visualisation": "Otevřít vizualizaci",
+            "isUsedBy": "Používá se",
+            "unfollow": "Přestat sledovat",
+            "shareOn": "Sdílet na",
+            "additionalInfo": "Doplňující informace",
+            "contactPoints": {
+                "organizationName": "Název organizace"
+            },
+            "edit": "Upravit",
+            "menu": "Nabídka",
+            "manage": "Spravovat ",
+            "geoInfo": "Rozsah souboru dat",
+            "options": "Možnosti"
+        },
+        "tooltip": {
+            "catalogDetails": {
+                "created": "Datum formálního vydání (např. zveřejnění) katalogu.",
+                "publisher": "Subjekt (organizace) odpovědný za zpřístupnění katalogu.",
+                "updated": "Poslední datum změny katalogu.",
+                "description": "Popis katalogu.",
+                "title": "Název katalogu.",
+                "metadata": "Možnosti stažení metadat katalogu v různých vyobrazeních propojených dat.",
+                "language": "Jazyk používaný v textových metadatech popisujících názvy, popisy atd. datových souborů v katalogu. Tuto vlastnost lze opakovat, pokud jsou metadata poskytována ve více jazycích.",
+                "spatial": "Zeměpisná oblast, na kterou se katalog vztahuje."
+            },
+            "datasetDetails": {
+                "frequency": "Četnost aktualizace datové sady.",
+                "dataset": "Datový soubor nebo podrobnosti o službě.",
+                "updated": "Nejaktuálnější datum, kdy došlo ke změně nebo změně datového souboru nebo služby.",
+                "versionInfo": "Číslo verze nebo jiné označení verze souboru údajů.",
+                "distributions": {
+                    "updated": "Poslední datum, kdy bylo rozdělení změněno nebo změněno.",
+                    "title": "Název přidělený distribuci.",
+                    "linkedSchema": "Zavedené schéma, s nímž popsané rozdělení odpovídá.",
+                    "linkedData": "Možnosti stažení metadat distribuce v různých vyobrazeních propojených dat.",
+                    "status": "Splatnost rozdělení. MUSÍ přijmout jednu z hodnot dokončených, deprecovaných, podrozvojových, stažených.",
+                    "licence": "Licence, na jejímž základě je distribuce k dispozici.",
+                    "availability": "Uvádí, jak dlouho se plánuje distribuce souboru údajů.",
+                    "rights": "Prohlášení, které specifikuje práva spojená s distribucí.",
+                    "checksum": "Mechanismus, který lze použít k ověření, že se obsah distribuce nezměnil. Kontrolní součet se vztahuje ke stažení Url.",
+                    "mediaType": "Mediální typ distribuce, jak je definován v oficiálním rejstříku typů sdělovacích prostředků spravovaném IANA.",
+                    "spatialResolution": "Minimální prostorové oddělení nastavitelné v datovém souboru, měřené v metrech.",
+                    "byteSize": "Obsahuje velikost distribuce v bajtech.",
+                    "download": "Stáhnout distribuci nebo získat přístup k ní.",
+                    "type": "Odkazy na typ distribuce, např. že se jedná o vizualizaci.",
+                    "created": "Datum formálního vydání (např. zveřejnění) distribuce.",
+                    "language": "Jazyk používaný v distribuci.",
+                    "options": "Otevřete náhled distribuce.",
+                    "temporalResolution": "Odkazuje na minimální dobu, po kterou lze v distribuci datového souboru obnovit platební schopnost."
+                },
+                "otherIdentifier": "Sekundární identifikátor souboru údajů, např. MAST/ADS16, DataCite17, DOI18, EZID19 nebo W3ID20.",
+                "numSeries": "Obsahuje počet datových řad obsažených v souboru údajů.",
+                "versionOf": "Související soubor dat, jehož popsanou datovou sadou je verze, vydání nebo úprava.",
+                "unitsOfMeasurement": "Měrná jednotka pozorování v souboru údajů.",
+                "distribution": "Fyzické ztělesnění datového souboru nebo služby v určitém formátu, např. internetový odkaz na soubor údajů.",
+                "quality": "Informace o kvalitě metadat pro tento datový soubor nebo službu.",
+                "catalogue": "Katalog, do kterého tento datový soubor nebo služba patří.",
+                "linkedData": "Možnosti stáhnout metadata datového souboru nebo služby v různých vyobrazeních propojených dat.",
+                "versionNotes": "Popis rozdílů mezi touto verzí a předchozí verzí souboru údajů. Tuto vlastnost lze opakovat u paralelních jazykových verzí poznámek ve znění.",
+                "similarDatasets": "Jiné datové soubory nebo služby, které jsou podobné tomuto souboru.",
+                "identifier": "Hlavní identifikátor souboru údajů, např. URI nebo jiný jedinečný identifikátor v kontextu katalogu.",
+                "uriRef": "URIref je jedinečný identifikátor datového souboru/datové služby v data.europa.eu",
+                "creator": "Subjekt primárně odpovědný za vytvoření datového souboru.",
+                "spatial": "Zeměpisná oblast, na kterou se vztahuje soubor údajů.",
+                "language": "Jazyk souboru údajů.",
+                "format": "Formát, který je pro tento datový soubor nebo službu k dispozici.",
+                "conformsTo": "Prováděcí pravidlo nebo jiná specifikace.",
+                "landingPage": "Internetová stránka, která umožňuje přístup k datovému souboru, jeho distribuci a/nebo doplňujícím informacím.",
+                "provenance": "Prohlášení o řádkování datové sady.",
+                "documentation": "Stránka nebo dokument o tomto souboru údajů.",
+                "publisher": "Subjekt (organizace) odpovědný za zpřístupnění datového souboru nebo služby.",
+                "created": "Datum formálního vydání (např. zveřejnění) datového souboru nebo služby.",
+                "relatedResource": "Související zdroje.",
+                "categories": "Kategorie, které jsou přiřazeny k tomuto datovému souboru nebo službě.",
+                "share": "Sdílet tento datový soubor nebo službu prostřednictvím sociálních médií.",
+                "feedback": "Dejte nám vědět, co si myslíte o tomto datovém souboru nebo službě.",
+                "dqvData": "Možnosti stažení datového souboru nebo měření kvality služeb v různých vyobrazeních propojených dat.",
+                "hasVersion": "Související datový soubor, který je verzí, vydáním nebo úpravou popsaného souboru dat"
+            },
+            "quality": {
+                "keywordAvailability": "Klíčová slova přímo podporují vyhledávání, a zvyšují tak dohledatelnost datového souboru.&br> alt;br> Systém kontroluje, zda jsou definována klíčová slova. Počet klíčových slov nemá žádný dopad na bodové hodnocení.",
+                "formatMediaTypeVocabularyAlignment": "Kontrolní formát a typ média patří do kontrolovaného slovníku.&br> alt;br> Formátový slovník je uveden v data.europa.eu GitLab archiv.&br> alt;br> Typ média je kontrolován podle seznamu IANA.",
+                "licenceAvailability": "Licence je cennou informací pro opakované použití dat.&br>&br> Je kontrolováno, zda je vlastnost nastavena, či nikoli.",
+                "publisherAvailability": "Vydavatel je osoba nebo organizace, která zveřejnila údaje.&br>&br> Je kontrolováno, zda je nemovitost nastavena, či nikoli.",
+                "formatAvailability": "Toto pole specifikuje formát souboru pro distribuci.&br>&br>Zkontroluje se, zda je daná vlastnost nastavena, či nikoli.",
+                "temporalAvailability": "Používání časových informací by uživatelům umožnilo včasné vyhledávání.&br>&br> Je kontrolováno, zda je vlastnost nastavena, či nikoli.",
+                "rightsAvailability": "V některých případech nelze na datový soubor použít zvláštní licenci. Pole „Práva“ lze použít k upřesnění odkazu na zdroj, který bude uživatele informovat o právech, která má při používání datového souboru.&br> Je kontrolováno, zda je vlastnost nastavena, či nikoli.",
+                "mediaTypeAvailability": "Toto pole specifikuje druh média distribuce.&br> alt;br> Je kontrolováno, zda je vlastnost nastavena, či nikoli.",
+                "accessRightsVocabularyAlignment": "Použití kontrolované slovní zásoby zvyšuje opětovnou použitelnost.&br>&br> Je kontrolováno, že se používá kontrolovaný slovník pro přístupová práva.",
+                "dcatApCompliance": "Soulad DCAT-AP se vypočítává ze všech zdrojů a datových souborů dostupných v katalogu. Tato kontrola se provádí pouze tehdy, pokud jsou metadata původně sbírána jako DCAT-AP nebo jako platný derivát.&br>&br> DCAT-AP je specifikace pro popis propojených veřejných údajů v Evropě. Portál data.europe.eu může rovněž shromažďovat metadata, která nejsou plně v souladu s DCAT-AP. Aby se zvýšila shoda s DCAT-AP, kontroluje MQA všechna metadata, pokud jde o soulad s DCAT-AP.&br>&lt;br> metadata jsou validována na základě souboru tvarů SHACL. Metadata nejsou v souladu, pokud validace SHACL vykazuje alespoň jeden problém.&br>&br> MQA používá data.europe.eu’s DCAT-AP SHACL validační sevice.&br>&br> SCHACL je doporučením W3C a používá se k validaci grafů RDF na základě souboru tvarů.",
+                "accessRightsAvailability": "Toto pole udává, zda je přístup k údajům veřejný nebo omezený.&br>&lt;br> Je kontrolováno, zda je vlastnost nastavena, či nikoli.",
+                "accessUrlStatusCode": "AccessURL nemusí být nutně přímým odkazem na data, ale může také odkazovat na URL, která umožňuje přístup k datovému souboru, nebo kde je k dispozici více informací o datovém souboru.&br>&lt;br>Směrná adresa URL se zkontroluje z hlediska přístupnosti prostřednictvím žádosti o HTTP HEAD. Je-li zodpovězený statusový kód v rozmezí 200 nebo 300, dostupnost zdroje se hodnotí kladně.",
+                "categoryAvailability": "Kategorie pomáhají uživatelům zkoumat soubory údajů tematicky.&br>&lt;br> Je kontrolováno, že do datového souboru je přiřazena jedna nebo více kategorií. Počet přidělených kategorií nemá žádný dopad na bodové hodnocení.",
+                "downloadUrlStatusCode": "Existuje-li downloadUrl, zaškrtne se dostupnost.&br>&lt;br> Stanovená adresa URL se zkontroluje, zda je přístup k e-zdrojům přístupný, a to prostřednictvím žádosti HTTP HEAD. Je-li zodpovězený statusový kód v rozmezí 200 nebo 300, dostupnost zdroje se hodnotí kladně.",
+                "byteSizeAvailability": "Specifikuje velikost souboru v bajtech.&br> alt;br> Je kontrolováno, zda je vlastnost nastavena, či nikoli.",
+                "downloadUrlAvailability": "DownloadUrl je přímý odkaz na odkazované údaje.&br> andlt;br> Je kontrolováno, zda je vlastnost nastavena, či nikoli.",
+                "spatialAvailability": "Používání prostorových informací by uživatelům umožnilo nalézt datový soubor s geo- facetovaným vyhledáváním.&br>&lt;br> Je kontrolováno, zda je daná vlastnost nastavena, či nikoli.",
+                "contactPointAvailability": "Kontaktní místo obsahuje informace, na koho se má obrátit v případě dotazů týkajících se údajů.&br> Zkontroluje se, zda je vlastnost nastavena, či nikoli.",
+                "dateIssuedAvailability": "Datum, kdy byl datový soubor nebo distribuce uvolněn.&br>&br> Je kontrolováno, zda je vlastnost nastavena, či nikoli.",
+                "dateModifiedAvailability": "Datum, kdy byl datový soubor nebo distribuce naposledy změněn.&br>&lt;br> Je kontrolováno, zda je vlastnost nastavena, či nikoli."
+            },
+            "catalogRecord": "Popis záznamu datového souboru v katalogu.",
+            "lastModified": "Seřadit výsledky podle poslední úpravy datového souboru",
+            "editorialContent": "Vyhledávání redakčního obsahu, např. zpráv, akcí, případů použití",
+            "datasets": "Vyhledávání datových souborů",
+            "relevance": "Třídit datový soubor podle relevantnosti. Relevantnost se vypočítává na základě shody vyhledávacího výrazu v názvu, klíčových slovech a popisu.",
+            "contactPoints": "Kontaktní údaje, které lze použít pro zasílání připomínek k souboru údajů.",
+            "locationFilter": "Pro zobrazení datových souborů týkajících se konkrétního místa klikněte na mapu a pro jejich výběr použijte ikonu pera. Klikněte na „Žádost“ a filtruje pouze soubory údajů, které se týkají vybrané oblasti. Ve výsledcích vyhledávání budou zahrnuty pouze datové soubory, které obsahují geoinformační metadata.",
+            "catalogues": "Vyhledávání katalogů. Katalog obsahuje datové soubory a služby"
+        },
+        "visualisationDistribution": {
+            "barChartExplain": "Sloupcový graf znázorňuje číselné hodnoty úrovní kategorického prvku ve formě barů. Úrovně se znázorňují na jedné ose mapy a hodnoty se znázorňují na druhé ose.",
+            "semicolon": "Středník",
+            "exportSucceeded": "Konfigurace byla úspěšně vytvořena!",
+            "yAxis": "osa y",
+            "pipe": "Potrubí",
+            "cancel": "Zrušit",
+            "fileTypeNotSupported": "Snažíte se vytvořit typ souboru, který není podporován.",
+            "confirm": "Potvrďte",
+            "fileNotFound": "Snažíte se vytvořit soubor, jehož obsah nelze přečíst.",
+            "comma": "Čárka",
+            "space": "Prostor",
+            "exportDataTip": "Vstupní pole nesmí být prázdné!",
+            "countRow": "Počet",
+            "exportMessagesHeader": "Opravdu chcete uložit svou konfiguraci? Před uložením si je prosím zkontrolujte!",
+            "exportMessagesLabel": "Zadejte prosím název vaší konfigurace",
+            "exportNameExistsAlert": "Název se již používá. Zkuste to prosím ještě jednou!",
+            "hiddenMessages": "jsou skryty – klikněte na všechny",
+            "connectedLineChart": "Propojená traťová mapa",
+            "barChart": "Barový graf",
+            "someRows": "Některé řádky",
+            "row": "Řádky",
+            "tab": "Záložka",
+            "connectToDatabaseError": "Chyba při získávání údajů z databáze. Zkuste to prosím nebo zkontrolujte znovu!",
+            "badgateway": "Název serveru není k dispozici nebo je nesprávný.",
+            "goBack": "Zpáteční cesta",
+            "forbidden": "Přístup k požadovanému zdroji je zakázán.",
+            "unauthorized": "Žádost nebyla uplatněna. Chybí v něm platné ověřovací údaje.",
+            "xAxis": "X Osa",
+            "delimiter": "Vymezující prvek",
+            "someColumns": "Některé sloupce",
+            "exportMessagesFooter": "Chcete-li jej uložit, klikněte na „Potvrdit“.",
+            "table": "Tabulka",
+            "connectedLineChartExplain": "Jedná se o připojený rozptyl je v podstatě hybridní mezi rozptylem a lineplotem. Musíte si zvolit Xaxis, abyste ji dodali."
+        },
+        "sort": {
+            "lastCreated": "Naposledy vytvořeno",
+            "lastUpdated": "Naposledy upraveno",
+            "nameZA": "Názvy sestupně",
+            "relevance": "Relevance",
+            "sortBy": "Řadit podle",
+            "nameAZ": "Dle názvu"
+        },
+        "distributionLicense": {
+            "openLA": "Otevřít Průvodce licencemi",
+            "notProvided": "Neuvedena žádná licence",
+            "licensingAssistant": "Průvodce licencemi",
+            "notFound": "Nenalezeny žádné informace o licenci.",
+            "notFoundExtended": "Nenalezeny žádné další informace o licenci, pro podrobnější informace k licenci zkontrolujte zdroj."
+        },
+        "catalogs": {
+            "countMessageSingular": "katalog nalezen",
+            "geoBoundsMessagePre": "Vyhledávání bylo omezeno na:",
+            "downloadAsLinkedData": "Katalogová metadata jako propojená data",
+            "countMessageNoResult": "Na dotaz  nenalezeny žádné katalogy",
+            "searchBar": {
+                "placeholder": "Hledat katalogy..."
+            },
+            "countMessage": "nalezených katalogů pro dotaz ",
+            "loadingMessage": "Načítají se katalogy…",
+            "geoBoundsMessageRemove": "Chcete-li omezení odebrat, zavřete toto oznámení nebo použijte funkci resetování."
+        },
+        "datasetFacets": {
+            "facets": {
+                "datascopeField": {
+                    "countryData": "Vnitrostátní údaje",
+                    "io": "Mezinárodní údaje",
+                    "eu": "Údaje o Evropské unii"
+                },
+                "datascope": "Rozsah působnosti údajů",
+                "dataServices": {
+                    "dataServicesOnly": "Pouze datové služby"
+                },
+                "country": "Země",
+                "format": "Formáty",
+                "scoring": {
+                    "badScoring": "Jakékoli",
+                    "sufficientScoring": "Dostačující",
+                    "goodScoring": "Dobré",
+                    "excellentScoring": "Vynikající"
+                },
+                "publisher": "@:message.metadata.publisher",
+                "license": "Licencí",
+                "keywords": "Klíčová slova",
+                "categories": "Kategorie",
+                "catalog": "Katalogy",
+                "countrydata": "Údaje o zemi",
+                "tags": "Značky"
+            },
+            "title": "Filtry",
+            "and": "A",
+            "settings": "Nastavení filtru",
+            "scoring": "Bodování",
+            "or": "nebo",
+            "europeanCatalogs": "Evropské katalogy",
+            "operator": "Operátor"
+        },
+        "header": {
+            "navigation": {
+                "data": {
+                    "euInternationalData": "Data EU a mezinárodní data",
+                    "datasets": "Soubory dat",
+                    "catalogs": "Katalogy",
+                    "metadataquality": "Kvalita metadat",
+                    "sparqleditor": "Editor SPARQL",
+                    "statistics": "Statistiky",
+                    "sparqlsearch": "Vyhledávání SPARQL",
+                    "title": "Data"
+                },
+                "impactStudies": {
+                    "opendataimpact": "Dopad otevřených dat",
+                    "tellUsYourStory": "Podělte se o svou zkušenost",
+                    "studies": "Studie",
+                    "opendatamaturity": "Platnost otevřených dat",
+                    "countryInsights": "Poznatky o zemi",
+                    "useCases": "Příklady použití",
+                    "title": "Dopad a studie",
+                    "overview": "Přehled"
+                },
+                "training": {
+                    "licensingAssistant": "Průvodce licencemi",
+                    "dataProvidersGuide": "Návod pro poskytovatele dat",
+                    "moreTrainingMaterial": "Další školicí materiály",
+                    "whatIsOpenData": "Co jsou otevřená data",
+                    "title": "Školení",
+                    "elearning": "eLearning"
+                },
+                "about": {
+                    "beHarvestedByUs": "Nechte portál sbírat vaše data",
+                    "documentation": "Dokumentace",
+                    "title": "Informace",
+                    "europeanDataPortal": "Evropský Datový Portál"
+                },
+                "newsEvents": {
+                    "events": "Události",
+                    "news": "Zprávy",
+                    "title": "Novinky a události",
+                    "stories": "Zkušenosti s daty"
+                },
+                "covid-19": {
+                    "title": "COVID-19",
+                    "datasets": "Soubory dat",
+                    "overview": "Přehled",
+                    "initiatives": "Iniciativy týkající se dat"
+                }
+            },
+            "subnav": {
+                "newsletter": "Zpravodaj",
+                "cookies": "Soubory cookie",
+                "login": "Přihlášení",
+                "contact": "Kontakt",
+                "search": "Vyhledávání",
+                "logout": "Odhlásit se",
+                "legalNotice": "Právní upozornění",
+                "faq": "Nejčastější dotazy"
+            },
+            "european": "Evropský",
+            "searchInputPlaceholder": "Vyhledat na stránce…",
+            "dataPortal": "Datový portál",
+            "searchOptions": {
+                "siteContent": "Obsah webu",
+                "datasets": "Soubory dat"
+            }
+        },
+        "catalogues": {
+            "foundCataloguesSingular": "1 nalezený katalog",
+            "foundCatalogues": "počet nalezených katalogů"
+        },
+        "datasets": {
+            "foundDatasets": "počet nalezených datových souborů",
+            "countMessage": "nalezených souborů dat pro dotaz ",
+            "foundDatasetsSingular": "1 nalezený datový soubor",
+            "meta": {
+                "translationNotComplete": "Překlad není úplný"
+            },
+            "geoBoundsMessageRemove": "Chcete-li omezení odebrat, zavřete toto oznámení nebo použijte funkci resetování.",
+            "createDataset": "Vytvořit soubor dat",
+            "geoBoundsMessagePre": "Vyhledávání bylo omezeno na:",
+            "loadingMessage": "Načítají se soubory dat…",
+            "countMessageSingular": "soubor dat nalezen pro dotaz ",
+            "datasetsFeed": "Kanál souborů dat",
+            "scoreDisclaimer": "Aktuální výsledky hledání jsou filtrovány tak, aby odpovídaly požadovanému minimálnímu skóre kvality uvedenému ve fazetě vlevo. Navštivte naše {0}, pokud se chcete dozvědět více o našich měřeních kvality.",
+            "noResult": "Nenalezen žádný soubor dat pro dotaz ",
+            "findLocation": "Filtrovat podle lokality",
+            "searchBar": {
+                "placeholder": "Vyhledat v souborech dat"
+            },
+            "createCatalogue": "Vytvořit katalog",
+            "saveQuery": "Uložit dotaz"
+        },
+        "footer": {
+            "helpUsImproveText": "Zpětná vazba nám pomůže celkově zlepšovat používání. \nMáte nějaké návrhy?",
+            "lastUpdated": "Poslední změna",
+            "links": {
+                "cookies": "Cookies",
+                "contact": "Kontakt",
+                "faq": "Nejčastější dotazy",
+                "newsletter": "Zpravodaj",
+                "search": "Vyhledávání",
+                "login": "Přihlášení",
+                "legalNotice": "Právní upozornění"
+            },
+            "subscribe": "Přihlásit se k odběru",
+            "helpUsImprove": "Pomozte nám se zlepšovat",
+            "newsletterText": "Přihlaste se k odběru našeho zpravodaje",
+            "newsletter": "Zpravodaj",
+            "followUs": "Sledujte nás na",
+            "managedBy": "Spravováno Úřadem pro publikace Evropské unie.",
+            "fundedBy": "Financovaný Evropskou unií"
+        },
+        "helpIcon": {
+            "dataServices": "V data.europa.eu může distribuce fungovat také jako datová služba. To znamená, že neodkazuje na soubor ke stažení, nýbrž na rozhraní API. Zvolte „Ano“, pokud chcete filtrovat u datových souborů, které mají alespoň jednu datovou službu.",
+            "scoring": "data.europa.eu měří kvalitu všech datových souborů a služeb. V oddíle „Kvalita dat/metadat“ máme stránku s metodikou, která popisuje proces. Každý datový soubor a každá služba jsou rovněž reprezentovány hodnocením kvality. Toto hodnocení může být dostatečné, dobré nebo vynikající. Je-li nastaven filtr „Sufficient+“, zobrazí se všechny datové soubory a služby, které mají dostatečné nebo lepší skóre. Totéž platí pro „dobré“. „Vynikající“ ukazuje pouze vynikající datové soubory a služby.",
+            "license": "Licence popisuje právní podmínky pro použití datového souboru.",
+            "dataScope": "Data EU obsahují datové soubory a služby orgánů EU. Mezinárodní údaje obsahují datové soubory a služby, které pocházejí ze zemí mimo EU. Údaje o jednotlivých zemích obsahují datové soubory a služby z členských států EU.",
+            "format": "Každý datový soubor obsahuje odkazy na soubory nebo služby. Formát popisuje typ souboru nebo typ služby těchto odkazů. Ne každý typ souboru může sloužit pro všechny účely, např. výpočet lze lépe provést pomocí souboru CSV namísto souboru PDF.",
+            "catalog": "Katalog nebo úložiště, v němž jsou uloženy datové soubory a služby. Katalog většinou představuje portál, na němž jsou shromažďovány datové soubory, z nichž byly shromážděny.",
+            "settings": "Informujte se, zda je výběr filtru výlučný, či nikoli. Pokud zvolíte A všechny výsledky vyhledávání se musí shodovat se všemi filtry. Nebo znamená, že alespoň jeden filtr musí odpovídat.",
+            "categories": "Kategorie zahrnuje datové soubory, které sdílejí společné téma.",
+            "publisher": "Vydavatel je subjekt (např. organizace), který odpovídá za zpřístupnění datového souboru.",
+            "keywords": "Klíčová slova jsou nápady a témata, která definují obsah."
+        },
+        "userQueries": {
+            "executeQuery": "Provést dotaz",
+            "queriesFound": "{number} dotazů nalezeno",
+            "placeholderNotes": "např. několik užitečných poznámek k dotazu",
+            "querySaved": "Dotaz uložen",
+            "queryFound": "{number} dotaz nalezen",
+            "myQueries": "Moje dotazy",
+            "noDescription": "Tento dotaz nemá žádný popis",
+            "noQueryFound": "Nebyl nalezen žádný dotaz",
+            "queryDeleted": "Dotaz smazán",
+            "searchAllQueries": "Vyhledat dotazy…",
+            "save": "Uložit dotaz",
+            "areYourSure": "Opravdu chcete tento dotaz smazat?",
+            "noQueriesSaved": "Neuložili jste žádné dotazy.",
+            "searchQueries": "Vyhledat mé dotazy…"
+        },
+        "catalogFacets": {
+            "facets": {
+                "licences": "Licence",
+                "catalogs": "Katalogy",
+                "categories": "Kategorie",
+                "countries": "Země",
+                "formats": "Formáty",
+                "keywords": "Klíčová slova"
+            },
+            "operator": "Operátor",
+            "title": "Filtry",
+            "europeanCatalogs": "Evropské katalogy",
+            "or": "NEBO",
+            "and": "A",
+            "euInstitutions": "Orgány EU",
+            "settings": "Nastavení"
+        },
+        "statistics": {
+            "statistics": "Statistiky",
+            "datasetsPerCatalog": "Soubory dat podle katalogu",
+            "currentState": "Aktuální stav",
+            "datasetsPerCountry": "Soubory dat podle jednotlivé země",
+            "selectType": "Vyberte typ statistiky",
+            "datasetsPerCountryAndCatalog": "Soubory dat podle země a katalogu",
+            "evolution": "Vývoj",
+            "evolutionStartEnd": "Vývoj celkového počtu souborů dat mezi {start_date} a {end_date}",
+            "increaseStartEnd": "Nárůst {dataset_model} v % mezi {start_date} a {end_date}",
+            "totalNumber": "Celkový počet souborů dat",
+            "datasetsPerCategory": "Soubory dat podle kategorie",
+            "selectTimePeriod": "Vyberte časové období",
+            "evolutionNumber": "Vývoj počtu {dataset_model} mezi {start_date} a {end_date}",
+            "numberDate": "Počet {dataset_model} k {date}"
+        },
+        "categories": {
+            "tran": "Doprava",
+            "heal": "Zdraví",
+            "tech": "Věda a technika",
+            "envi": "Životní prostředí",
+            "econ": "Hospodářství a finance",
+            "soci": "Populace a společnost",
+            "agri": "Zemědělství, rybolov, lesnictví a výživa",
+            "educ": "Vzdělávání, kultura a sport",
+            "ener": "Energie",
+            "intr": "Mezinárodní otázky",
+            "gove": "Vláda a veřejný sektor",
+            "just": "Spravedlnost, právní systém a veřejná bezpečnost",
+            "regi": "Regiony a města"
+        },
+        "pagination": {
+            "nextPage": "Další",
+            "previousPage": "Předchozí"
+        },
+        "navigation": {
+            "navItems": {
+                "home": "Domů",
+                "about": "O",
+                "data": "Data",
+                "privacyPolicy": "Zásady ochrany osobních údajů",
+                "map": "Mapa",
+                "imprint": "Tiráž"
+            }
+        },
+        "catalogsAndDatasets": {
+            "noDescriptionAvailable": "Popis není k dispozici.",
+            "more": "Více"
+        },
+        "datasetCategories": {
+            "foundCategories": "{number} nalezená kategorie",
+            "foundCategory": "počet nalezených kategorií: {number}",
+            "noCategories": "Nenalezeny žádné kategorie"
+        },
+        "mapModal": {
+            "fullscreen": "Celá obrazovka",
+            "findDatasets": "Použít",
+            "reset": "Vymazat",
+            "close": "Zavřít",
+            "drawRectangleMsg": "Vyberte oblast nakreslením obdélníku",
+            "disclaimer": "Zřeknutí se odpovědnosti",
+            "copyright": "Mapa © přispěvatelů OpenStreetMap"
+        },
+        "similarDatasets": {
+            "similar": "Podobné",
+            "verySimilar": "Velmi podobné",
+            "marginalSimilar": "Minimálně podobné",
+            "notFound": "Nebyl nalezen žádný podobný soubor dat.",
+            "lessSimilar": "Méně podobné",
+            "similarDatasets": "Podobné soubory dat"
+        },
+        "searchTabs": {
+            "editorialContent": "Redakční obsah"
+        },
+        "visualisation": {
+            "loading": "Vizualizace se načítá...",
+            "previewAvailable": "Náhled je k dispozici",
+            "info": "Pokud se do několika vteřin nenačte vizualizace, klikněte sem."
+        },
+        "catalog": {
+            "loadingMessage": "Katalogy se načítají",
+            "searchBar": {
+                "placeholder": "Hledat katalogy"
+            },
+            "geoBoundsMessageRemove": "Chcete-li omezení odebrat, zavřete toto oznámení nebo použijte funkci resetování.",
+            "countMessage": "nalezených katalogů"
+        },
+        "sparql": {
+            "subHeadlineText2": "Abychom uživatelům pomohli s vytvářením užitečných dotazů SPARQL, poskytujeme stránku s vyobrazenou <a href='{sample_sparql_queries}'>sample SPARQL queries</a> které lze provést prostřednictvím našeho koncového bodu. Datové soubory a katalogy zveřejněné jako RDF triple na portálu se řídí <a href='https://github.com/SEMICeu/DCAT-AP'>DCAT-AP specification</a>. Další informace o ontologii metadat naleznete na stránce Akademie dat.europa.eu v DCAT-AP na adrese: <a href=' https://data.europa.eu/en/academy/dcat-and-dcat-ap'> https://data.europa.eu/en/academy/dcat-and-dcat-ap</a>.",
+            "subHeadlineText1": "Všechna metadata data.europa.eu jsou uložena jako RDF triples (<a href='https://www.w3.org/RDF/'>RDF</a>) a v tomto koncovém bodě lze vyhledávat pomocí jazyka pro vyhledávání SPARQL. Vyhledávání lze provést prostřednictvím editoru dotazů (níže) nebo pomocí strojově čitelného koncového bodu (<a href='https://data.europa.eu/sparql'>https://data.europa.eu/sparql</a>)."
+        },
+        "distributions": {
+            "footerLink": "Stáhnout"
+        },
+        "distributionDetails": "{}",
+        "spokenLanguage": "Angličtina",
+        "cite": {
+            "copyToClipboard": "Zkopírujte do klipboardu",
+            "title": "Citujte tento datový soubor"
+        },
+        "home": {
+            "msg": "Je nám líto, tato stránka zatím nic neobsahuje. Chcete-li něco zobrazit, otevřete kartu Data."
+        },
+        "imprint": {
+            "msg": "SEM VLOŽTE TIRÁŽ"
+        }
+    }
+}

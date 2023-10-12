@@ -1,0 +1,12 @@
+domibus:
+  username: ansinuno
+  url: pt-node-domibus
+  port: 8080
+  usehttps: false
+  from: pt-node-domibus
+  to: central-domibus
+gateway:
+  port: 8100
+datapermit:
+  port: 8102
+  url: pt-nationalconnector-datapermit

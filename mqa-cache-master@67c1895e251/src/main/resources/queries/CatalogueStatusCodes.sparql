@@ -1,0 +1,31 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dqv:  <http://www.w3.org/ns/dqv#>
+
+SELECT ?statusCode (COUNT(?statusCode) as ?count) WHERE
+{
+    GRAPH ?g3
+    {
+        ?dist dqv:hasQualityMeasurement [
+            dqv:isMeasurementOf <%2$s> ;
+                dqv:value ?statusCode
+        ]
+    }
+    {
+        SELECT ?dist WHERE
+        {
+            GRAPH ?g2
+            {
+                ?ds dcat:distribution ?dist
+            }
+            {
+                SELECT ?ds WHERE
+                {
+                    GRAPH ?g1
+                    {
+                        <%1$s> dcat:dataset ?ds
+                    }
+                }
+            }
+        }
+    }
+}

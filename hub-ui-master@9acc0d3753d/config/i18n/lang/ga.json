@@ -1,0 +1,969 @@
+{
+    "message": {
+        "metadata": {
+            "catalogRecord": "Taifead Catalóige",
+            "deleteItem": "An bhfuil tú cinnte gur mian leat an mhír seo a scrios?",
+            "availability": "Infhaighteacht",
+            "versionInfo": "Sonraí leagain",
+            "chooseCategory": "Roghnaigh Catagóir",
+            "chooseFile": "Roghnaigh Comhad",
+            "versionNotes": "Nótaí leagain",
+            "review": "Athbhreithnigh",
+            "tooltipKeywords": "Cuir isteach eochairfhocail do thacair shonraí anseo!",
+            "pageDescriptionDataset": "Cuirt teideal, tuairisc, catalóg, eochairfhocail agus catagóirí le do thacar sonraí",
+            "no": "Níl",
+            "relatedResources": "Acmhainní gaolmhara",
+            "pageDescriptionPublisher": "Cuir cineál, ainm agus leathanach baile an fhoilsitheora le do thacar sonraí!",
+            "tooltipTitle": "Cuir isteach teideal do thacair shonraí anseo!",
+            "linkedData": "Sonraí Nasctha",
+            "numSeries": "Líon na sraitheanna sonraí",
+            "releaseDate": "Dáta Eisiúna",
+            "yes": "Tá",
+            "unitsOfMeasurement": "Aonaid Tomhais",
+            "distributionsEmpty": "Ár leithscéal, níl aon dáileadh uaslódáilte ar fáil faoi láthair don tacar sonraí seo. Cuir dáileadh amháin ar a laghad leis!",
+            "enterDownloadUrl": "Iontráil Íosluchtaigh Url",
+            "frequency": "Minicíocht",
+            "type": "Clóscríobh",
+            "telephone": "Teileafón",
+            "label": "Lipéad",
+            "addedToDataEuropaEU": "Curtha le data.europa.eu",
+            "tooltipCategories": "Roghnaigh catagóirí do thacair shonraí anseo!",
+            "temporal": "Raon ama",
+            "enterDescription": "Cuir isteach tuairisc",
+            "accrualPeriodicity": "Tréimhsiúlacht Fabhraithe",
+            "showXMore": "Taispeáin  níos {increment} mó ",
+            "identifier": "Aitheantóir",
+            "isPartOf": "Is fo-chatalóg de",
+            "dataServices": "Seirbhísí sonraí",
+            "chooseType": "Roghnaigh Cineál",
+            "organizationName": "Ainm na hEagraíochta",
+            "catalog": "Catalóg",
+            "qualityAnnotations": "Nótaí Cáilíochta",
+            "update": "Nuashonraigh",
+            "showAll": "Taispeáin go léir",
+            "coordinates": "Comhordanáidí",
+            "email": "Ríomhphost",
+            "tooltipContactType": "Roghnaigh cineál pointe teagmhála do thacair shonraí anseo!",
+            "checksum": "Suim sheiceála",
+            "enterEmail": "Cuir isteach ríomhphost",
+            "cancel": "Cealaigh",
+            "conformsTo": "Tá sé de réir",
+            "downloadUrl": "Íoslódáil URL",
+            "chooseLicense": "Roghnaigh Ceadúnas",
+            "tooltipDescription": "Cuir isteach tuairisc do thacair shonraí anseo!",
+            "tags": "Clibeanna",
+            "accessUrl": "URL rochtana",
+            "languages": "Teangacha",
+            "title": "Teideal",
+            "enterTitle": "Cuir isteach teideal",
+            "url": "URL",
+            "resource": "Acmhainn",
+            "tooltipPublisherHomepage": "Cuir isteach leathanach baile fhoilsitheoir do thacair shonraí anseo!",
+            "creator": "Cruthaitheoir",
+            "description": "Do theachtaireacht",
+            "spatial": "Spásúil",
+            "readLess": "Léigh níos lú",
+            "tooltipPublisherType": "Roghnaigh  ainm fhoilsitheoir do thacair shonraí anseo!",
+            "accessRights": "Cearta Rochtana",
+            "tooltipDistributionDownloadUrl": "Cuir isteach Url íoslódála do dháilte anseo!",
+            "attributes": "Tréithe",
+            "mediaType": "Cineál Meáin",
+            "categories": "Catagóirí",
+            "pageDescriptionDistribution": "Cuir dáileadh le do thacar sonraí!",
+            "pages": "Leathanaigh",
+            "goToCatalog": "Gabh chuig an Leathanach Catalóige",
+            "tooltipDistributionDescription": "Cuir isteach tuairisc do dháilte anseo!",
+            "identifiers": "Aitheantóirí",
+            "scheme": "Scéim",
+            "contactPoints": "Pointí teagmhála",
+            "hasPart": "Tá fochatalalóg aige",
+            "showLess": "Taispeáin níos lú",
+            "byteSize": "Méid an Bhirt",
+            "tooltipCatalog": "Roghnaigh catalóg do thacair shonraí anseo!",
+            "methodologyPage": "Leathanach modheolaíochta MQA",
+            "hasVersion": "bhí leagan ann",
+            "useDownloadUrl": "Is mian liom ULR Íoslódála a chur isteach, in áit comhad a uaslódáil!",
+            "created": "Arna chruthú",
+            "themeTaxonomy": "Téama Tacsanomaíocht",
+            "homepage": "Leathanach baile",
+            "address": "Seoladh",
+            "visualisations": "Amharcléirithe",
+            "tooltipDistributionFormat": "Roghnaigh formáid do dháilte anseo!",
+            "upload": "Uaslódáil",
+            "notFound": "Ní bhfuarthas é",
+            "dimensions": "Toisí",
+            "addDistribution": "Cuir Dáileadh leis",
+            "name": "Ainm",
+            "metadataQuality": "Cáilíocht Meiteashonraí",
+            "provenances": "Bunfhoinse",
+            "enterKeywords": "Cuir isteach Eochairfhocail",
+            "landingPage": "Leathanach lamairne",
+            "tooltipDistributionTitle": "Cuir isteach teideal do dháilte anseo!",
+            "license": "Ceadúnas",
+            "chooseCatalog": "Roghnaigh Catalóg",
+            "enterHomepage": "Cuir isteach leathanach baile",
+            "tooltipDistributionLicence": "Roghnaigh ceadúnas do dháilte anseo!",
+            "readMore": "Tuilleadh eolais",
+            "format": "Formáid",
+            "chooseFormat": "Roghnaigh Formáid",
+            "publisher": "Foilsitheoir",
+            "dataset": "Tacar sonraí",
+            "updated": "Nuashonraithe",
+            "pageDescriptionUpload": "Cuir comhaid le do dháiltí!",
+            "spatialResource": "Acmhainn Spásúil",
+            "distribution": "Scaipeadh",
+            "tooltipContactName": "Cuir isteach ainm pointe teagmhála do thacair shonraí anseo!",
+            "distributions": "Dáiltí",
+            "status": "Stádas",
+            "datasets": "Tacair shonraí",
+            "showMore": "Taispeáin níos mó",
+            "rights": "Cearta",
+            "tooltipContactEmail": "Cuir isteach seoladh ríomhphoist phointe teagmhála do thacair shonraí anseo!",
+            "otherIdentifiers": "Aitheantóirí eile",
+            "tooltipPublisherName": "Cuir isteach ainm fhoilsitheoir do thacair shonraí anseo!",
+            "enterName": "Cuir isteach ainm",
+            "documentations": "Doiciméaduithe",
+            "sources": "Acmhainní",
+            "modificationDate": "Dáta Mionathraithe",
+            "isVersionOf": "tá leagan de",
+            "pageDescriptionContactPoint": "Cuir cineál, ainm agus ríomhphost an phointe teagmhala le do thacar sonraí!",
+            "goToDataset": "Gabh chuig do Leathanach Tacar sonraí",
+            "updatedOnDataEuropaEU": "Nuashonraithe ar data.europa.eu"
+        },
+        "dataupload": {
+            "info": {
+                "defaultdescription": "Cliceáil ar an bhfaisnéis chun míniú mionsonraithe ar an réimse a thaispeáint.",
+                "information": "Faisnéis"
+            },
+            "datasets": {
+                "step2": {
+                    "source": {
+                        "label": "Foinse"
+                    },
+                    "type": {
+                        "placeholder": "Tacar sonraí ionadchoinneálaí cineál téacs"
+                    },
+                    "subject": {
+                        "help": "Catagóir den Tacar Sonraí."
+                    },
+                    "isReferencedByUrl": {
+                        "label": "URL"
+                    },
+                    "contactPointAddressStreet": {
+                        "placeholder": "Pointe Teagmhála an tSeoltóra Seoladh téacs ionadchoinneálaí sráide"
+                    },
+                    "conformsTo": {
+                        "placeholder": "An tacar sonraí Comhréiríonn téacs ionadchoinneálaí"
+                    },
+                    "isVersionOf": {
+                        "label": "An bhfuil an leagan seo den"
+                    },
+                    "provenance": {
+                        "label": "Bunáitíocht"
+                    },
+                    "language": {
+                        "label": "Teanga"
+                    },
+                    "qualifiedAttribution": {
+                        "help": "Nasc le Gníomhaire a bhfuil cineál éigin freagrachta aige as an acmhainn"
+                    },
+                    "temporal": {
+                        "placeholder": "Tacar sonraí téacs ionadchoinneálaí ama"
+                    },
+                    "accessRights": {
+                        "info": "Tagraíonn an t-airí seo d’fhaisnéis a thugann le fios an sonraí oscailte atá sa tacar sonraí, an bhfuil srianta ar rochtain ann nó nach bhfuil."
+                    },
+                    "identifier": {
+                        "help": "Tá príomhaitheantóir an Tacar Sonraí san airí seo."
+                    },
+                    "versionInfo": {
+                        "help": "Uimhir leagain an tacair sonraí."
+                    },
+                    "hasVersion": {
+                        "info": "Tagraíonn an t-airí seo do Thacar sonraí gaolmhar ar leagan, eagrán nó oiriúnú den Tacar sonraí a bhfuil cur síos air é."
+                    },
+                    "wasGeneratedBy": {
+                        "add-label": "Cuir Leis Gineadh de réir"
+                    },
+                    "qualifiedRelation": {
+                        "label": "Caidreamh Cáilithe"
+                    },
+                    "conformsToTitle": {
+                        "label": "Teideal"
+                    },
+                    "creatorType": {
+                        "label": "Cineál"
+                    },
+                    "spatial": {
+                        "info": "Tagraíonn an t-airí seo do réigiún geografach atá cumhdaithe ag an Tacar Sonraí."
+                    },
+                    "temporalResolutionMonth": {
+                        "label": "Mí Réitigh Ama"
+                    },
+                    "contactPointName": {
+                        "label": "Ainm"
+                    },
+                    "temporalResolutionMinute": {
+                        "placeholder": "Tacar sonraí Rún Temporal Miontuairisc téacs ionadchoinneálaí"
+                    },
+                    "contactPointEmail": {
+                        "label": "Ríomhphost"
+                    },
+                    "contactPointOrganisationName": {
+                        "label": "Ainm na hEagraíochta"
+                    },
+                    "contactPoint": {
+                        "help": "Tá sonraí teagmhála sa mhaoin seo."
+                    },
+                    "temporalResolutionDay": {
+                        "placeholder": "Tacar sonraí téacs ionadchoinneálaí an Lae Réitigh Temporal"
+                    },
+                    "provenanceText": {
+                        "placeholder": "Tacar Sonraí Provenance Téacs ionadchoinneálaí téacs"
+                    }
+                },
+                "step1": {
+                    "publisherType": {
+                        "placeholder": "Tacar sonraí Foilsitheoir téacs ionadchoinneálaí Cineál"
+                    },
+                    "datasetID": {
+                        "label": "Aitheantas an tacair sonraí"
+                    },
+                    "modified": {
+                        "label": "Mionathraithe"
+                    },
+                    "publisher": {
+                        "label": "Foilsitheoir"
+                    },
+                    "issued": {
+                        "help": "Dáta eisiúna fhoirmiúil (e.g. foilsiú) an tacair sonraí. Formáidí dáta inghlactha: BBBB-MM-LL, BBBB-MM, BBBB."
+                    },
+                    "publisherHomepage": {
+                        "label": "Leathanach baile"
+                    }
+                },
+                "step3": {
+                    "spatialResolutionInMeters": {
+                        "help": "Deighilt spásúil íosta inréitithe i dtacar sonraí."
+                    },
+                    "mediaType": {
+                        "placeholder": "Dáileadh téacs ionadchoinneálaí Cineál na Meán"
+                    },
+                    "language": {
+                        "help": "Teanga a úsáidtear sa Dáileadh."
+                    },
+                    "title": {
+                        "info": "Tá an t-ainm a thugtar ar an Dáileadh ar an maoin seo. Is féidir an t-airí seo a athdhéanamh i gcás leaganacha comhthreomhara teanga den tuairisc."
+                    },
+                    "status": {
+                        "label": "Stádas"
+                    },
+                    "checksum": {
+                        "placeholder": "Dáileadh Seiceáil téacs ionadchoinneálaí"
+                    },
+                    "hasPolicyUrl": {
+                        "placeholder": "Dáileadh An bhfuil Beartas Url téacs ionadchoinneálaí"
+                    },
+                    "page": {
+                        "help": "Leathanach nó doiciméad faoin Dáileadh seo."
+                    },
+                    "availability": {
+                        "placeholder": "Téacs ionadchoinneálaí infhaighteachta dáilte"
+                    },
+                    "format": {
+                        "placeholder": "Leagan Formáid an logchoinneálaí téacs"
+                    },
+                    "conformsTo": {
+                        "add-label": "Cuir Comhlíonta le"
+                    },
+                    "issued": {
+                        "label": "Eisithe"
+                    },
+                    "description": {
+                        "help": "Tá cuntas saor-téacs ar an Dáileadh san airí seo."
+                    },
+                    "hasPolicy": {
+                        "help": "Cuireann an beartas na cearta in iúl."
+                    },
+                    "temporalResolutionMonth": {
+                        "label": "Mí Réitigh Ama"
+                    },
+                    "temporalResolutionHour": {
+                        "placeholder": "Tacar sonraí téacs ionadchoinneálaí Temporal Réiteach Uair"
+                    },
+                    "licence": {
+                        "help": "An ceadúnas faoina gcuirtear an Dáil ar fáil."
+                    },
+                    "date": {
+                        "label": "Dáta"
+                    }
+                },
+                "stepper": {
+                    "step3": {
+                        "children": {
+                            "distribution3": {
+                                "name": "Faisnéis Bhreise"
+                            },
+                            "distribution4": {
+                                "name": "Faisnéis Bhreise"
+                            },
+                            "distribution1": {
+                                "name": "Eolas Ginearálta"
+                            },
+                            "distribution2": {
+                                "name": "Faisnéis Bhreise"
+                            }
+                        }
+                    },
+                    "overview": "Forbhreathnú ar an tacar sonraí"
+                }
+            },
+            "catalogues": {
+                "step2": {
+                    "isPartOf": {
+                        "info": "Tagraíonn an t-airí seo do Chatalóg ghaolmhar ina n-áirítear an Chatalóg cur síos uirthi go fisiciúil nó go loighciúil."
+                    },
+                    "language": {
+                        "help": "Teanga a úsáidtear sna meiteashonraí téacsúla ina ndéantar cur síos ar theidil, cur síos, srl."
+                    },
+                    "spatial": {
+                        "info": "Tagraíonn an t-airí seo do limistéar geografach a chumhdaítear leis an gCatalóg."
+                    },
+                    "hasPart": {
+                        "help": "Tagraíonn an t-airí seo do Chatalóg ghaolmhar atá mar chuid den Chatalóg cur síos air"
+                    },
+                    "creator": {
+                        "add-label": "Cuir Cruthaitheoir leis"
+                    },
+                    "creatorName": {
+                        "label": "Ainm"
+                    }
+                },
+                "step1": {
+                    "title": {
+                        "help": "Ainm a thugtar ar an Taifead Catalóige. "
+                    },
+                    "description": {
+                        "info": "Tá cuntas saor-téacs ar an taifead sa mhaoin seo. Is féidir an t-airí seo a athdhéanamh i gcás leaganacha comhthreomhara teanga den tuairisc."
+                    },
+                    "licence": {
+                        "placeholder": "Téacs ionadchoinneálaí Catalóige an Cheadúnas"
+                    },
+                    "modified": {
+                        "label": "Mionathraithe"
+                    },
+                    "licenceDescription": {
+                        "label": "Cur síos ar an gCeadúnas"
+                    },
+                    "homepage": {
+                        "help": "Leathanach gréasáin a ghníomhaíonn mar phríomhleathanach na Catalóige."
+                    }
+                },
+                "stepper": {
+                    "overview": "Forléargas ar an gCatalóg",
+                    "step1": {
+                        "name": "Céim 1: Cruthaigh Catalóg"
+                    },
+                    "step2": {
+                        "name": "Céim 2: Airíonna na Catalóige a Shainmhíniú"
+                    }
+                }
+            },
+            "clear": "Glan",
+            "deletemodal": {
+                "deleteDistribution": "Scrios Dáileadh",
+                "areyousure": "An bhfuil tú cinnte gur mian leat an dáileadh seo a scriosadh?"
+            },
+            "createUniqueID": "Cruthaigh aitheantas uathúil",
+            "saveasdraft": "Sábháil mar Dhréacht",
+            "savedataset": "Sábháil an Tacar Sonraí",
+            "next": "An chéad chéim eile",
+            "noDistributions": "Níl Dáileacháin ar fáil",
+            "savedraft": "Sábháil an Dréacht",
+            "searchVocabulary": "Cuardaigh Focal Focal",
+            "error": {
+                "general": "Tharla earráid. Bain triail as arís ar ball!",
+                "invalid-message": "Tá roinnt réimsí in easnamh. Líon isteach na réimsí riachtanacha uile, le do thoil!"
+            },
+            "type": "Cineál",
+            "preview": "An chéim roimhe seo",
+            "submit": "Cuir isteach",
+            "publishdataset": "Foilsigh Tacar Sonraí",
+            "validationtitle": "Bailíochtú",
+            "publishdraft": "Dréacht a fhoilsiú",
+            "newDistribution": "Dáileadh eile a chur leis",
+            "validationerror": "Tharla earráid agus an fhoirm á bailíochtú agat!",
+            "createDataset": "Cruthaigh Tacar Sonraí",
+            "defineDatasetProperties": "Airíonna an tacair sonraí a shainiú",
+            "createDistributions": "Dáiltí a chruthú"
+        },
+        "datasetDetails": {
+            "subnav": {
+                "quality": "Cáilíocht",
+                "similarDatasets": "Tacair shonraí chosúla",
+                "categories": "Catagóirí",
+                "dataset": "Tacar sonraí",
+                "activityStream": "Sruth gníomhaíochta"
+            },
+            "quality": {
+                "licenceAvailability": "Faisnéis ceadúnais",
+                "mediaTypeAvailability": "cineál meáin",
+                "temporalAvailability": "Cuardach ambhunaithe",
+                "accessibility": "Inrochtaineacht",
+                "dcatApCompliance": "Comhlíonadh DCAT-AP",
+                "distributions": {
+                    "downloadUrlStatusCode": "Cód stádais downloadURL",
+                    "accessUrlStatusCode": "Cód stádais accessURL"
+                },
+                "accessRightsVocabularyAlignment": "Foclóir srianta rochtana",
+                "contactPointAvailability": "Pointe teagmhála",
+                "dateIssuedAvailability": "Dáta eisiúna",
+                "nodata": "Dealraíonn sé go bhfuil ceist ar ár taobh. Níorbh fhéidir aon sonraí cáilíochta a lódáil. Bain triail as arís ar ball.",
+                "dateModifiedAvailability": "Sonraí mionathrathe",
+                "contextuality": "Comhthéacs",
+                "reusability": "Ath-inúsáideacht",
+                "accessUrlStatusCode": "Ná cóid stádais URL rochtana is coitianta",
+                "downloadUrlStatusCode": "Ná cóid stádais URL íóslódála is coitianta",
+                "formatMediaTypeVocabularyAlignment": "Leagan amach/ cineál meáin ó fhoclóir",
+                "metaDataQuality": "Cáilíocht Meiteashonraí",
+                "downloadUrlAvailability": "URL Íoslódála",
+                "dataQuality": "Cáilíocht na sonraí",
+                "categoryAvailability": "Catagóirí",
+                "interoperability": "Idir-inoibritheacht",
+                "findability": "In-aimsitheacht",
+                "spatialAvailability": "Geochuardach",
+                "formatAvailability": "Formáid",
+                "byteSizeAvailability": "Méid an chomhaid",
+                "accessRightsAvailability": "Srianta rochtana",
+                "distributionQuality": "Cáilíocht Dáilte",
+                "publisherAvailability": "Foilsitheoir",
+                "keywordAvailability": "Úsáid na n-eochairfhocal",
+                "rightsAvailability": "Cearta"
+            },
+            "follow": "Lean",
+            "accessURLTooltip": "Is féidir eolas a bheith sa nasc seo faoi conas an comhad tagartha a fháil nó is nasc díreach é chuig an gcomhad tagartha.",
+            "dataStream": "Sruthanna Sonraí",
+            "downloadURLTooltip": "Is nasc díreach chuig an gcomhad tagartha é seo.",
+            "upload": {
+                "organisation": "Eagraíocht",
+                "individual": "Aonair",
+                "resetText": "Athshocraigh an fhoirm iomlán?",
+                "person": "Duine",
+                "unknownFormat": "Formáid Neamhaithnid",
+                "reset": "Athshocraigh an Fhoirm"
+            },
+            "preview": "Réamhamharc",
+            "feedback": "Aiseolas",
+            "access": "Rochtain",
+            "datasets": {
+                "modal": {
+                    "downloadingFiles": "Comhaid á n-íoslódáil",
+                    "zipNumberOfFiles": "Comhaid zip {number}",
+                    "waitingForDownload": "(ag fanacht le híoslódáil)",
+                    "downloadProgress": "Íoslódáil an dul chun cinn",
+                    "notDownloaded": "Ní íoslódáladh é",
+                    "error": "Earráid! Bain triail as Arís",
+                    "okay": "Ceart go leor",
+                    "cancel": "Cealaigh",
+                    "close": "Dún",
+                    "coupleOfMinutes": "(is féidir cúpla nóiméad a thógáil anseo)",
+                    "notDownloadedTooltip": "Is féidir sonraí a fháil sa chomhad file_report.csv atá iniata"
+                },
+                "leavePageWindow": {
+                    "text": "An bhfuil tú cinnte gur mian leat imeacht? Stopfar an íoslódáil nuair a fhágann tú!"
+                },
+                "downloadAll": "Íoslódáil Gach Rud"
+            },
+            "translation": {
+                "update": "Tá aistriúchán nuashonraithe ar an tacar sonraí seo ar siúl.",
+                "original": "Teanga bhunaigh",
+                "message": "Aistríodh teideal agus cur síos ar an tacar \nsonraí seo le meaisín.",
+                "noTranslation": "Níl an tacar sonraí seo ar fáil i do theanga go fóill. Tá an t-aistriúchán ar siúl faoi láthair.",
+                "link": "Cliceáil anseo chun an tacar sonraí a fheiceáil sa teanga bhunaidh"
+            },
+            "cite": "Cite",
+            "relatedResources": "Acmhainní gaolmhara",
+            "share": "Comhroinn",
+            "geoVisualisation": "Oscail geo-léirshamhlú",
+            "download": "Íoslódáil",
+            "intro": {
+                "distribution": "Liostaítear iontu seo a leanas tomhas cáilíochta gach dáileacháin den tacar sonraí. Maidir le faisnéis ar cé mhéadracht a úsáidimid le haghaidh tomhais táscaire, le do thoil ag féachaint ar ár <a href='/mqa/methodology?locale={locale}'>leathanach modheolaíocht</a>.",
+                "metadataQuality": "Tá sé i gceist leis an Dearbhú Cáilíochta Metadata cabhrú le soláthraithe sonraí agus tairseacha sonraí a meiteashonraí a sheiceáil i gcomparáid le táscairí éagsúla. Maidir le faisnéis ar cé mhéadracht a úsáidimid le haghaidh tomhais táscaire, le do thoil ag féachaint ar ár <a href='/mqa/methodology?locale={locale}'>leathanach modheolaíocht</a>."
+            },
+            "about": "maidir le",
+            "datasetFeed": "Fotha Tacar Sonraí",
+            "delete": "Scrios",
+            "openResource": "Gabh chuig an acmhainn",
+            "visualisation": "Léirshamhlú Oscailte",
+            "isUsedBy": "Atá in úsáid ag",
+            "unfollow": "Dí-lean",
+            "shareOn": "Comhroinn ar",
+            "additionalInfo": "Faisnéis bhreise",
+            "contactPoints": {
+                "organizationName": "Ainm na hEagraíochta"
+            },
+            "edit": "Cuir in eagar",
+            "menu": "Roghchlár",
+            "manage": "Bainistigh",
+            "geoInfo": "Méid tacar sonraí",
+            "options": "Roghanna"
+        },
+        "tooltip": {
+            "catalogDetails": {
+                "created": "Dáta eisiúna foirmiúla na catalóige (e.g. foilsiú).",
+                "publisher": "Eintiteas (eagraíocht) atá freagrach as an gcatalóg a chur ar fáil.",
+                "updated": "An dáta is déanaí ar ar athraíodh an chatalóg.",
+                "description": "Cur síos ar an gcatalóg.",
+                "title": "Teideal na catalóige.",
+                "metadata": "Roghanna chun na meiteashonraí catalóige a íoslódáil in ionadaíochtaí éagsúla sonraí nasctha.",
+                "language": "An teanga a úsáidtear sna meiteashonraí téacsúla ina ndéantar cur síos ar theidil, cur síos, etc. ar na Tacair Sonraí sa Chatalóg. Is féidir an t-airí seo a athrá má tá na meiteashonraí ar fáil i dteangacha éagsúla.",
+                "spatial": "An limistéar geografach a chumhdaítear leis an gCatalóg."
+            },
+            "datasetDetails": {
+                "frequency": "A mhinice a thugtar an tacar sonraí cothrom le dáta.",
+                "dataset": "Sonraí tacar sonraí nó sonraí seirbhíse.",
+                "updated": "An dáta is déanaí ar a ndearnadh an tacar sonraí nó an tseirbhís a athrú nó a mhodhnú.",
+                "versionInfo": "Uimhir leagain nó leagan eile den tacar sonraí.",
+                "distributions": {
+                    "updated": "An dáta is déanaí ar ar athraíodh nó ar athraíodh an Dáileadh.",
+                    "title": "An t-ainm a tugadh don Dáileadh.",
+                    "linkedSchema": "Scéimre Bunaithe lena mbaineann an Dáileadh cur síos.",
+                    "linkedData": "Roghanna chun na meiteashonraí dáileacháin a íoslódáil in ionadaíochtaí éagsúla sonraí nasctha.",
+                    "status": "Aibíocht an Dáilte. Ní mór é a chur ar cheann de na luachanna Críochnaithe, Tugtha, Faoi Fhorbairt, Le tarraingt.",
+                    "licence": "Ceadúnas faoina gcuirtear an Dáil ar fáil.",
+                    "availability": "Léiríonn sé cé chomh fada atá sé beartaithe Dáileadh an Tacair Sonraí a choinneáil ar fáil.",
+                    "rights": "Ráiteas ina sonraítear cearta a bhaineann leis an Dáileadh.",
+                    "checksum": "Meicníocht is féidir a úsáid chun a fhíorú nár athraíodh inneachar dáileacháin. Tá an tsuim sheiceála a bhaineann leis an downloadURL.",
+                    "mediaType": "An cineál dáilte meán mar atá sainmhínithe sa chlár oifigiúil de chineálacha meán arna bhainistiú ag IANA.",
+                    "spatialResolution": "Deighilt spásúil íosta inréitithe i ndáileadh tacar sonraí, arna thomhas i méadair.",
+                    "byteSize": "Tá an méid Dáileadh i mbeartanna.",
+                    "download": "Íoslódáil nó rochtain a fháil ar an dáileadh.",
+                    "type": "Naisc le cineál “Scríobhadh”, e.g. gur léirshamhlú é.",
+                    "created": "Dáta eisiúna foirmiúla (e.g. foilsiú) an Dáilte.",
+                    "language": "An teanga a úsáideadh sa Dáileadh.",
+                    "options": "Oscail réamhamharc ar an dáileadh.",
+                    "temporalResolution": "Tagraíonn sé don íostréimhse is féidir a réiteach sa dáileadh tacar sonraí."
+                },
+                "otherIdentifier": "Aitheantóir tánaisteach an Tacair Sonraí, mar shampla MAST/ADS16, DataCite17, DOI18, EZID19 nó W3ID20.",
+                "numSeries": "Tá líon na sraitheanna sonraí atá sa Tacar Sonraí.",
+                "versionOf": "Tacar Sonraí Gaolmhara ar leagan, eagrán nó oiriúnú de an tacar sonraí a bhfuil cur síos air.",
+                "unitsOfMeasurement": "Aonad tomhais ar na barúlacha sa tacar sonraí.",
+                "distribution": "Eabhraíocht fhisiciúil den tacar sonraí nó den tseirbhís i bhformáid ar leith, e.g. nasc gréasáin chuig an gcomhad tacar sonraí.",
+                "quality": "Faisnéis faoi cháilíocht meiteashonraí don tacar sonraí nó don tseirbhís seo.",
+                "catalogue": "An chatalóg ina mbaineann an tacar sonraí nó an tseirbhís seo.",
+                "linkedData": "Roghanna chun meiteashonraí an tacair sonraí nó na meiteashonraí seirbhíse a íoslódáil in ionadaíochtaí sonraí nasctha éagsúla.",
+                "versionNotes": "Cur síos ar na difríochtaí idir an leagan seo agus leagan roimhe sin den Tacar Sonraí. Is féidir an t-airí seo a athdhéanamh le haghaidh leaganacha comhthreomhara teanga de na nótaí leagain.",
+                "similarDatasets": "Tacair sonraí nó seirbhísí eile atá cosúil leis an gceann seo.",
+                "identifier": "Príomhaitheantóir don Tacar Sonraí, e.g. an URI nó aitheantóir uathúil eile i gcomhthéacs na Catalóige.",
+                "uriRef": "Is aitheantóir uathúil é URIref don tacar sonraí/seirbhís sonraí atá in data.europa.eu",
+                "creator": "Eintiteas atá freagrach go príomha as an tacar sonraí a tháirgeadh.",
+                "spatial": "Réigiún geografach a chumhdaítear leis an Tacar Sonraí.",
+                "language": "Teanga an tacair sonraí.",
+                "format": "An fhormáid atá ar fáil don tacar sonraí nó don tseirbhís sin.",
+                "conformsTo": "Riail cur chun feidhme nó sonraíocht eile.",
+                "landingPage": "Leathanach gréasáin a thugann rochtain ar an Tacar Sonraí, a Dháileadh agus/nó faisnéis bhreise.",
+                "provenance": "Ráiteas faoi líneáil Tacar Sonraí.",
+                "documentation": "Leathanach nó cáipéis faoin Tacar Sonraí seo.",
+                "publisher": "Eintiteas (eagraíocht) atá freagrach as an tacar sonraí nó an tseirbhís a chur ar fáil.",
+                "created": "Dáta eisiúna fhoirmiúil (e.g. foilsiú) an tacair sonraí nó na seirbhíse.",
+                "relatedResource": "Acmhainn ghaolmhar.",
+                "categories": "Catagóirí a shanntar don tacar sonraí nó don tseirbhís seo.",
+                "share": "Roinn an tacar sonraí nó an tseirbhís seo trí na meáin shóisialta.",
+                "feedback": "Cuir in iúl dúinn cad a cheapann tú faoin tacar sonraí nó faoin tseirbhís seo.",
+                "dqvData": "Roghanna chun an tacar sonraí nó na tomhais cáilíochta seirbhíse a íoslódáil in ionadaíochtaí sonraí nasctha éagsúla.",
+                "hasVersion": "Tacar Sonraí Gaolmhar ar leagan, eagrán nó oiriúnú é den Tacar sonraí a bhfuil cur síos air"
+            },
+            "quality": {
+                "keywordAvailability": "Tacaíonn eochairfhocail go díreach leis an gcuardach agus, dá bhrí sin, cuireann siad le hinaimsitheacht an tacair sonraí.<br> Seiceálann an córas an bhfuil eochairfhocail sainithe. Níl aon tionchar ag líon na n-eochairfhocail ar an scór.",
+                "formatMediaTypeVocabularyAlignment": "Baineann formáid fhliuchéir agus cineál na meán le foclóir rialaithe.<br> Is féidir teacht ar an bhfoclóir formáide sa stór data.europa.eu GitLab.<br><br> <br> Tá cineál na meán á sheiceáil in aghaidh liosta IANA.",
+                "licenceAvailability": "Is é is ceadúnas ann ná faisnéis luachmhar chun sonraí a athúsáid.<br><br> Déantar é a sheiceáil ar fhliuchóir atá suite nó nach bhfuil.",
+                "publisherAvailability": "Is é is foilsitheoir ann ná duine nó eagraíocht a d'fhoilsigh na sonraí.<br> Déantar seiceáil ar fhliuchóir an tsealúchais atá suite nó nach bhfuil.",
+                "formatAvailability": "Sonraíonn an réimse seo formáid chomhaid an dáileacháin.<br>br>Tá sé seiceáilte an fliuchán ina bhfuil an t-airí suite nó nach bhfuil.",
+                "temporalAvailability": "Chuirfeadh úsáid na faisnéise ama ar chumas úsáideoirí cuardach íomhábhunaithe a dhéanamh go tráthúil.<br> <br> Déantar seiceáil ar an bhfliuchra a bhfuil an t-áitreabh suite nó gan a bheith suite.",
+                "rightsAvailability": "I gcásanna áirithe, ní féidir ceadúnas sonrach a chur i bhfeidhm maidir le tacar sonraí. Is féidir an réimse ‘Cearta’ a úsáid chun tagairt d’acmhainn a shonrú a chuirfidh úsáideoir ar an eolas faoi na cearta atá aige agus é ag baint úsáide as an tacar sonraí.<br> <br> Déantar an fhliuchra a sheiceáil má tá an mhaoin socraithe.",
+                "mediaTypeAvailability": "Sonraíonn an réimse seo an cineál meán den dáileadh.<br> <br> Déantar é a sheiceáil ar fhliuchóir a bhfuil an t-airí suite nó nach bhfuil.",
+                "accessRightsVocabularyAlignment": "Nuair a úsáidtear stór focal rialaithe méadaítear ath-inúsáidteacht.<br><br> Déantar an stór focal rialaithe le haghaidh cearta rochtana a sheiceáil leis an bhfliuchlann.",
+                "dcatApCompliance": "Ríomhtar comhlíonadh DCAT-AP thar gach foinse agus tacar sonraí atá ar fáil ar chatalóg. Ní dhéantar an tseiceáil seo ach amháin má baineadh na meiteashonraí mar DCAT-AP nó mar dhíorthú bailí.<br> <br> Is sonraíocht é DCAT-AP chun cur síos a dhéanamh ar na sonraí poiblí nasctha san Eoraip. Féadfaidh na sonraí.tairseacheurope.eu meiteashonraí a bhaint freisin nach gcomhlíonann go hiomlán DCAT-AP. Chun comhréireacht le DCAT-AP a mhéadú, seiceálann an MQA gach meiteashonraí dá chomhlíonadh DCAT-AP.<br> Déantar na meiteashonraí a bhailíochtú in aghaidh tacar cruthanna SHACL. Níl na meiteashonraí comhlíonta, má thuairiscíonn bailíochtú SHACL eagrán amháin ar a laghad.<br> <br> Úsáideann an MQA data.europe.eu’s DCAT-AP SHACL sevice.<br><br> Is moladh ón W3C é SCHACL agus úsáidtear é chun graif RDF a bhailíochtú i gcoinne sraith cruthanna.",
+                "accessRightsAvailability": "Léiríonn an réimse seo an bhfuil rochtain phoiblí nó srianta ar rochtain ar na sonraí.<br> <br> Déantar seiceáil ar fhliuchóir an tsealúchais atá suite nó nach bhfuil.",
+                "accessUrlStatusCode": "Ní gá go mbeadh nasc díreach leis na sonraí i gceist leis an AccessURL, ach d'fhéadfadh sé tagairt freisin do URL a thugann rochtain ar an tacar sonraí nó áit a bhfuil níos mó faisnéise faoin tacar sonraí ar fáil.<br> <br> Déantar an URL sonraithe a sheiceáil le haghaidh inrochtaineachta trí iarratas HTTP HEAD. Má tá an cód stádais a d’fhreagair sé sa réimse 200 nó 300, déantar meastóireacht dhearfach ar inrochtaineacht na hacmhainne.",
+                "categoryAvailability": "Cabhraíonn catagóirí le húsáideoirí tacair shonraí a thaiscéaladh de réir téama.<br> Déantar é a sheiceáil ar an bhfliuchóir ceann amháin nó níos mó catagóirí a shanntar don tacar sonraí. Níl aon tionchar ag líon na gcatagóirí sannta ar an scór.",
+                "downloadUrlStatusCode": "Más ann do downloadURL, seiceáiltear an inrochtaineacht.<br> <br> Déantar an URL sonraithe a sheiceáil le haghaidh r-inrochtaine ar acmhainní trí iarratas HTTP HEAD. Má tá an cód stádais a d’fhreagair sé sa réimse 200 nó 300, déantar meastóireacht dhearfach ar inrochtaineacht na hacmhainne.",
+                "byteSizeAvailability": "Sonraítear méid an chomhaid sna beartanna.<br> <br> Déantar an fhliuchóir a sheiceáil a bhfuil an mhaoin suite nó nach bhfuil.",
+                "downloadUrlAvailability": "Is nasc díreach é an downloadURL leis na sonraí tagartha.<br> <br> Tá sé seiceáilte go bhfuil an mhaoin suite nó nach bhfuil.",
+                "spatialAvailability": "Chuirfeadh úsáid na faisnéise spásúla ar chumas úsáideoirí an tacar sonraí a aimsiú le cuardach geo-aitheanta.<br><br> Déantar an fhliuchra a sheiceáil.",
+                "contactPointAvailability": "Tá eolas sa phointe teagmhála cé leis an té ar cheart díriú air i gcás ceisteanna maidir leis na sonraí.<br> Déantar é a sheiceáil ar fhliuchóir a bhfuil an t-airí suite nó gan a bheith suite.",
+                "dateIssuedAvailability": "An dáta ar scaoileadh an tacar sonraí nó an dáileadh.<br><br> Déantar fliuchán na maoine a sheiceáil nó nach bhfuil.",
+                "dateModifiedAvailability": "An dáta a athraíodh an tacar sonraí nó an dáileadh go deireanach.<br><br> Déantar fliuchán na maoine a sheiceáil nó nach bhfuil."
+            },
+            "catalogRecord": "Cur síos ar iontráil Tacar Sonraí sa Chatalóg.",
+            "lastModified": "Sórtáil na torthaí de réir an tacair sonraí is déanaí a mhodhnú",
+            "editorialContent": "Cuardaigh inneachar eagarthóireachta, e.g. nuacht, imeachtaí, cásanna a úsáid",
+            "datasets": "Tacair shonraí a chuardach",
+            "relevance": "Sórtáil tacar sonraí de réir ábharthachta. Déantar ábharthacht a ríomh bunaithe ar na téarmaí cuardaigh sa teideal, sna heochairfhocail agus sa chur síos",
+            "contactPoints": "Sonraí teagmhála is féidir a úsáid chun tuairimí a sheoladh faoin Tacar Sonraí.",
+            "locationFilter": "Chun féachaint ar thacair shonraí a bhaineann le suíomh ar leith, cliceáil ar an léarscáil agus bain úsáid as an deilbhín peann chun é a roghnú. Ansin cliceáil ar “Cuir iarratas isteach” chun tacair sonraí amháin a thagraíonn don limistéar roghnaithe a scagadh. Tabhair do d’aire nach n-áireofar i dtorthaí an chuardaigh ach tacair sonraí lena n-áirítear meiteashonraí geo-fhaisnéise.",
+            "catalogues": "Cuardaigh catalóga. Catalóg ina n-óstaítear tacair sonraí agus seirbhísí"
+        },
+        "visualisationDistribution": {
+            "barChartExplain": "Ceapacha barrachairte luachanna uimhriúil do leibhéil gné chatagóiriúil mar bharraí. Tá leibhéil breactha ar ais chairt amháin, agus tá luachanna breactha ar an ais eile.",
+            "semicolon": "Leathstad",
+            "exportSucceeded": "D’éirigh leat an chumraíocht a chruthú!",
+            "yAxis": "Y Axis",
+            "pipe": "Píopa",
+            "cancel": "Cealaigh",
+            "fileTypeNotSupported": "Tá tú ag iarraidh a rindreáil cineál comhaid nach bhfuil tacaíocht.",
+            "confirm": "Deimhnigh",
+            "fileNotFound": "Tá tú ag iarraidh comhad a dhéanamh nach bhféadfaí a bhfuil ann a léamh.",
+            "comma": "Camóg",
+            "space": "Spás",
+            "exportDataTip": "Ní mór réimse ionchur a bheith folamh!",
+            "countRow": "Comhaireamh",
+            "exportMessagesHeader": "An bhfuil tú cinnte gur mian leat an chumraíocht a shábháil? Seiceáil é, le do thoil, sula sábhálfar é!",
+            "exportMessagesLabel": "Iontráil ainm na cumraíochta",
+            "exportNameExistsAlert": "Tá an t-ainm in úsáid cheana féin. Bain triail as ceann eile, le do thoil!",
+            "hiddenMessages": "i bhfolach – cliceáil chun gach rud a thaispeáint",
+            "connectedLineChart": "Cairt Líne Nasctha",
+            "barChart": "Barrachairt",
+            "someRows": "Roinnt Rataí",
+            "row": "Rónna",
+            "tab": "Táb",
+            "connectToDatabaseError": "Earráid agus sonraí á bhfáil ó bhunachar sonraí. Bain triail as nó seiceáil d’ionchur arís!",
+            "badgateway": "Níl freastalaí ar fáil nó ainm DNS mícheart.",
+            "goBack": "Ar ais",
+            "forbidden": "Tá cosc ar rochtain ar an acmhainn iarrtha.",
+            "unauthorized": "Níor cuireadh an t-iarratas i bhfeidhm. Tá easpa sonraí fíordheimhnithe bailí ann.",
+            "xAxis": "X Ais",
+            "delimiter": "Teormharcóir",
+            "someColumns": "Roinnt Colúin",
+            "exportMessagesFooter": "Cliceáil ‘Deimhnigh’ chun é a shábháil!",
+            "table": "Tábla",
+            "connectedLineChartExplain": "Tá sé ina scaipthe nasctha go bunúsach hibrideach idir scaipthe agus lineplot. Tá tú a roghnaigh xAxis chun é a rindreáil."
+        },
+        "sort": {
+            "lastCreated": "Cruthaithe den uair dheiridh",
+            "lastUpdated": "Athrú is deireanaí",
+            "nameZA": "Ainm Íslitheach",
+            "relevance": "Ábharthacht",
+            "sortBy": "Cuir in ord de réir",
+            "nameAZ": "Ainm ardaitheach"
+        },
+        "distributionLicense": {
+            "openLA": "Oscail an Cúntóir Ceadúnais",
+            "notProvided": "Ní chuirtear aon cheadúnas ar fáil",
+            "licensingAssistant": "Cúntóir Ceadúnaithe",
+            "notFound": "Níor aimsíodh faisnéis ar cheadúnas",
+            "notFoundExtended": "Níor aimsíodh aon fhaisnéis bhreise ar cheadúnas, seiceáil an fhoinse chun tuilleadh eolais faoin gceadúnas a fháil."
+        },
+        "catalogs": {
+            "countMessageSingular": "catalóg aimsithe do ",
+            "geoBoundsMessagePre": "Teorannaíodh do chuardach do:",
+            "downloadAsLinkedData": "Catalóg Meiteashonraí mar Shonraí Nasctha",
+            "countMessageNoResult": "Níor aimsíodh aon chatalóga do ",
+            "searchBar": {
+                "placeholder": "Cuardaigh catalóga..."
+            },
+            "countMessage": "catalóga aimsithe do ",
+            "loadingMessage": "Catalóga á lódáil...",
+            "geoBoundsMessageRemove": "Dún an fógra seo chun an teorainn a bhaint nó úsáid an fheidhm athshocraithe."
+        },
+        "datasetFacets": {
+            "facets": {
+                "datascopeField": {
+                    "countryData": "Sonraí Náisiúnta",
+                    "io": "Sonraí Idirnáisiúnta",
+                    "eu": "Sonraí an Aontais Eorpaigh"
+                },
+                "datascope": "Raon feidhme na sonraí",
+                "dataServices": {
+                    "dataServicesOnly": "Seirbhísí sonraí amháin"
+                },
+                "country": "Tíortha",
+                "format": "Formáidí",
+                "scoring": {
+                    "badScoring": "Aon",
+                    "sufficientScoring": "Gan tada sa bhreis",
+                    "goodScoring": "Go maith",
+                    "excellentScoring": "Sármhaith"
+                },
+                "publisher": "@:message.metadata.foilsitheoir",
+                "license": "Ceadúnais",
+                "keywords": "Eochairfhocail",
+                "categories": "Catagóirí",
+                "catalog": "Catalóga",
+                "countrydata": "Sonraí tíre",
+                "tags": "Clibeanna"
+            },
+            "title": "Scagairí",
+            "and": "AGUS",
+            "settings": "Socrú Scagaire",
+            "scoring": "Scóráil",
+            "or": "NÓ",
+            "europeanCatalogs": "Catalóga Eorpacha",
+            "operator": "Oibreoir"
+        },
+        "header": {
+            "navigation": {
+                "data": {
+                    "euInternationalData": "Sonraí AE agus idirnáisiúnta",
+                    "datasets": "Tacair shonraí",
+                    "catalogs": "Catalóga",
+                    "metadataquality": "Cáilíocht Meiteashonraí",
+                    "sparqleditor": "Eagarthóir SPARQL",
+                    "statistics": "Statistics",
+                    "sparqlsearch": "Cuardach SPARQL",
+                    "title": "Sonraí"
+                },
+                "impactStudies": {
+                    "opendataimpact": "Tionchar sonraí oscailte",
+                    "tellUsYourStory": "Inis dúinn do scéal",
+                    "studies": "Staidéir",
+                    "opendatamaturity": "Aibíocht Sonraí Oscailte",
+                    "countryInsights": "Léargais Tíre",
+                    "useCases": "Bain úsáid as Cásanna",
+                    "title": "Tionchar & Staidéir",
+                    "overview": "Forléargas"
+                },
+                "training": {
+                    "licensingAssistant": "Cúntóir Ceadúnaithe",
+                    "dataProvidersGuide": "Treoir sholáthraí na sonraí",
+                    "moreTrainingMaterial": "Tuilleadh Ábhar Oiliúna",
+                    "whatIsOpenData": "Cad is sonraí oscailte ann?",
+                    "title": "Oiliúint",
+                    "elearning": "ríomhFhoghlaim"
+                },
+                "about": {
+                    "beHarvestedByUs": "Cuir do chuid sonraí ar fáil dúinn",
+                    "documentation": "Doiciméadú",
+                    "title": "Mar gheall ar",
+                    "europeanDataPortal": "Tairseach Sonraí Eorpach"
+                },
+                "newsEvents": {
+                    "events": "Imeachtaí",
+                    "news": "Nuacht",
+                    "title": "Nuacht & imeachtaí",
+                    "stories": "Scéalta Sonraí"
+                },
+                "covid-19": {
+                    "title": "COVID-19",
+                    "datasets": "Tacair sonraí",
+                    "overview": "Forléargas",
+                    "initiatives": "Tionscnamh maidir le Sonraí"
+                }
+            },
+            "subnav": {
+                "newsletter": "Nuachtlitir",
+                "cookies": "Fianáin",
+                "login": "Logáil isteach",
+                "contact": "Teagmháil",
+                "search": "Cuardach",
+                "logout": "Logáil amach",
+                "legalNotice": "Fógra dlí",
+                "faq": "FAQ"
+            },
+            "european": "Eorpach",
+            "searchInputPlaceholder": "Cuardaigh inneachar an láithreáin...",
+            "dataPortal": "Tairseach Sonraí",
+            "searchOptions": {
+                "siteContent": "Ábhar suímh",
+                "datasets": "Tacair shonraí"
+            }
+        },
+        "catalogues": {
+            "foundCataloguesSingular": "Aimsíodh catalóg 1",
+            "foundCatalogues": "Aimsíodh catalóga {number}"
+        },
+        "datasets": {
+            "foundDatasets": "Tacar sonraí {number} aimsithe",
+            "countMessage": "tacair shonraí aimsithe maidir le ",
+            "foundDatasetsSingular": "Aimsíodh 1 tacar sonraí",
+            "meta": {
+                "translationNotComplete": "Aistriúchán neamhiomlán"
+            },
+            "geoBoundsMessageRemove": "Dún an fógra seo chun an teorainn a bhaint nó úsáid an fheidhm athshocraithe.",
+            "createDataset": "Cruthaigh tacar sonraí",
+            "geoBoundsMessagePre": "Teorannaíodh do chuardach do:",
+            "loadingMessage": "Tacair shonraí á lódáil...",
+            "countMessageSingular": "tacar sonraí aimsithe do ",
+            "datasetsFeed": "Fotha tacar sonraí",
+            "scoreDisclaimer": "Tá na torthaí cuardaigh reatha scagtha chun teacht leis an scóráil cháilíochta íosta atá sonraithe san éadan ar chlé. Tabhair cuairt ar ár {0} más mian leat tuilleadh a fháil amach faoinár gcuid tomhais cháilíochta.",
+            "noResult": "Ní bhfuarthas aon tacar sonraí le haghaidh .",
+            "findLocation": "Scagaigh de réir suímh",
+            "searchBar": {
+                "placeholder": "Cuardaigh tacair shonraí"
+            },
+            "createCatalogue": "Cruthaigh Catalóg",
+            "saveQuery": "Sábháil Fiosrú"
+        },
+        "footer": {
+            "helpUsImproveText": "Cabhróidh d'aiseolas linn an t-eispéireas iomlán d'úsáideoirí a fheabhsú. Aon mholadh?",
+            "lastUpdated": "Nuashonrú is deireanaí",
+            "links": {
+                "cookies": "Fianáin",
+                "contact": "Teagmháil",
+                "faq": "FAQ",
+                "newsletter": "Nuachtlitir",
+                "search": "Cuardach",
+                "login": "Logáil isteach",
+                "legalNotice": "Fógra dlí"
+            },
+            "subscribe": "Faigh síntiús",
+            "helpUsImprove": "Cabhraigh linn feabhsú",
+            "newsletterText": "Liostaigh dár Nuachtlitir",
+            "newsletter": "Nuachtlitir",
+            "followUs": "Lean muid ar",
+            "managedBy": "Faoi bhainistiú ag Oifig Foilseachán an Aontais Eorpaigh.",
+            "fundedBy": "Arna mhaoiniú ag an Aontas Eorpach"
+        },
+        "helpIcon": {
+            "dataServices": "In data.europa.eu, is féidir le dáileadh a bheith ina sheirbhís sonraí freisin. Ciallaíonn sé sin nach bhfuil sé nasctha le comhad in-íoslódáilte, ach le API ina ionad sin. Roghnaigh “Tá” más mian leat na tacair sonraí a scagadh le haghaidh tacar sonraí amháin ar a laghad.",
+            "scoring": "déanann data.europa.eu cáilíocht na dtacar sonraí agus na seirbhísí uile a thomhas. Sa rannán ‘Caighdeán Sonraí/Meiteashonraí’ tá leathanach modheolaíochta againn a chuireann síos ar an bpróiseas. Léirítear gach tacar sonraí agus gach seirbhís le scór cáilíochta freisin. Is féidir leis an scór seo a bheith leordhóthanach, maith nó den scoth. Má tá an scagaire “Leordhóthanach+” socraithe, thaispeánfaí gach tacar sonraí agus gach seirbhís ag a bhfuil scór dóthanach nó seirbhís níos fearr. Tá feidhm ag an rud céanna maidir le “Dea-”. Níl le feiceáil ach tacair sonraí agus seirbhísí den scoth atá “sármhaith”.",
+            "license": "Tugann ceadúnas tuairisc ar na coinníollacha dlíthiúla maidir le conas tacar sonraí a úsáid.",
+            "dataScope": "Tá tacair sonraí agus seirbhísí ó institiúidí an Aontais i seilbh sonraí an Aontais. Tá tacair sonraí agus seirbhísí ag sonraí idirnáisiúnta a thagann ó áiteanna lasmuigh den AE. Tá tacair sonraí agus seirbhísí ó Bhallstáit an Aontais i seilbh sonraí tíre.",
+            "format": "Tá tagairtí do chomhaid nó do sheirbhísí ag gach tacar sonraí. Tá cur síos san fhormáid ar chineál comhaid nó ar chineál seirbhíse na dtagairtí sin. Ní féidir gach cineál comhaid a úsáid chun gach críche, e.g. is féidir ríomh níos fearr a dhéanamh le comhad CSV seachas PDF.",
+            "catalog": "Catalóg nó stór ina n-óstaítear tacair sonraí agus seirbhísí. Is ionann catalóg den chuid is mó agus tairseach ina mbailítear na tacair sonraí.",
+            "settings": "Déan cinneadh an bhfuil do scagaire eisiach nó nach bhfuil. Má roghnaíonn tú AND ní mór na torthaí cuardaigh uile a bheith ag teacht le gach scagaire. Nó go gcaithfidh scagaire amháin ar a laghad é a mheaitseáil.",
+            "categories": "Tacar sonraí de chatagóirí grúpaí a bhfuil ábhar coiteann acu.",
+            "publisher": "Is éard is foilsitheoir ann eintiteas (e.g. eagraíocht) atá freagrach as an Tacar Sonraí a chur ar fáil.",
+            "keywords": "Tá eochairfhocail smaointe agus ábhair a shainiú cad é an t-ábhar faoi."
+        },
+        "userQueries": {
+            "executeQuery": "Feidhmigh an Cheist",
+            "queriesFound": "{number} ceist aimsithe",
+            "placeholderNotes": "m.sh. Roinnt nótaí úsáideacha faoin gceist",
+            "querySaved": "Ceist sábháilte",
+            "queryFound": "{number} ceist aimsithe",
+            "myQueries": "Mo Cheisteanna",
+            "noDescription": "Níl aon tuairisc ag an gceist seo",
+            "noQueryFound": "Ní bhfuarthas aon cheist",
+            "queryDeleted": "Ceist scriosta",
+            "searchAllQueries": "Cuardaigh ceisteanna",
+            "save": "Sábháil an Cheist",
+            "areYourSure": "An bhfuil tú cinnte gur mian leat an cheist seo a scrios?",
+            "noQueriesSaved": "Níl aon cheist sábháilte agat",
+            "searchQueries": "Cuardaigh mo cheisteanna..."
+        },
+        "catalogFacets": {
+            "facets": {
+                "licences": "Ceadúnais",
+                "catalogs": "Catalóga",
+                "categories": "Catagóirí",
+                "countries": "Tíortha",
+                "formats": "Formáidí",
+                "keywords": "Eochairfhocail"
+            },
+            "operator": "Oibreoir",
+            "title": "Scagairí",
+            "europeanCatalogs": "Catalógaí Eorpacha",
+            "or": "NÓ",
+            "and": "AGUS",
+            "euInstitutions": "Institiúidí an Aontais Eorpaigh",
+            "settings": "Socruithe"
+        },
+        "statistics": {
+            "statistics": "Staitisticí",
+            "datasetsPerCatalog": "Tacair sonraí de réir Catalóige",
+            "currentState": "Staid Reatha",
+            "datasetsPerCountry": "Tacair Shonraí de réir Catalóige",
+            "selectType": "Roghnaigh an Cineál Staitistice",
+            "datasetsPerCountryAndCatalog": "Tacair Shonraí de réir Tíre",
+            "evolution": "Tacair Shonraí de réir Tíre agus Catalóige",
+            "evolutionStartEnd": "Éabhlóid líon iomlán na dTacar Sonraí idir {start_date} agus {end_date}",
+            "increaseStartEnd": "Méadú ar {dataset_model} in % idir {start_date} agus {end_date}",
+            "totalNumber": "Líon Iomlán na dTacar Sonraí",
+            "datasetsPerCategory": "Tacair sonraí de réir Catalóige",
+            "selectTimePeriod": "Roghnaigh an Tréimhse Ama",
+            "evolutionNumber": "Éabhlóid ar líon na {dataset_model} idir {start_date} agus {end_date}",
+            "numberDate": "Éabhlóid"
+        },
+        "categories": {
+            "tran": "Iompar",
+            "heal": "Sláinte",
+            "tech": "Eolaíocht agus teicneolaíocht",
+            "envi": "Timpeallacht",
+            "econ": "Eacnamaíocht agus airgeadas",
+            "soci": "Pobal agus sochaí",
+            "agri": "Talmhaíocht, iascaireacht, foraoiseacht agus bia",
+            "educ": "Oideachas, cultúr agus spórt",
+            "ener": "Fuinneamh",
+            "intr": "Saincheisteanna idirnáisiúnta",
+            "gove": "An earnáil rialtais agus phoiblí",
+            "just": "Ceartas, córas dlí agus slándáil phoiblí",
+            "regi": "Réigiúin agus cathracha"
+        },
+        "pagination": {
+            "nextPage": "An chéad cheann eile",
+            "previousPage": "roimhe"
+        },
+        "navigation": {
+            "navItems": {
+                "home": "Baile",
+                "about": "Maidir le",
+                "data": "Sonraí",
+                "privacyPolicy": "Beartas príobháideachta",
+                "map": "Mapa",
+                "imprint": "Inphrionta"
+            }
+        },
+        "catalogsAndDatasets": {
+            "noDescriptionAvailable": "Níl aon chur síos ar fáil",
+            "more": "Tuilleadh"
+        },
+        "datasetCategories": {
+            "foundCategories": "{number} catagóir aimsithe",
+            "foundCategory": "{number} catagóirí aimsithe",
+            "noCategories": "Níor aimsíodh aon chatagóirí"
+        },
+        "mapModal": {
+            "fullscreen": "Lánscáileán",
+            "findDatasets": "Cuir i bhfeidhm",
+            "reset": "Glan",
+            "close": "Dún",
+            "drawRectangleMsg": "Roghnaigh réigiún trí dhronuilleog a tharraingt",
+            "disclaimer": "Séanadh",
+            "copyright": "Léarscáil © OpenStreetMap contributors"
+        },
+        "similarDatasets": {
+            "similar": "Cosúil",
+            "verySimilar": "An-chosúil",
+            "marginalSimilar": "Cosúil ar éigean",
+            "notFound": "Ní bhfuarthas aon tacar sonraí cosúil.",
+            "lessSimilar": "Mí-chosúil",
+            "similarDatasets": "Tacair shonraí chosúla"
+        },
+        "searchTabs": {
+            "editorialContent": "Inneachar Eagarthóireachta"
+        },
+        "visualisation": {
+            "loading": "Léirshamhlú á lódáil...",
+            "previewAvailable": "Forléargas ar fáil",
+            "info": "Mura lódálann léirshamhlú laistigh de roinnt soicind cliceáil anseo."
+        },
+        "catalog": {
+            "loadingMessage": "Déantar catalógaí a aisghabháil",
+            "searchBar": {
+                "placeholder": "Cuardaigh do chatalóga"
+            },
+            "geoBoundsMessageRemove": "Dún an fógra seo chun an teorainn a bhaint nó úsáid an fheidhm athshocraithe.",
+            "countMessage": "Catalóga aimsithe"
+        },
+        "sparql": {
+            "subHeadlineText2": "Chun cabhrú le húsáideoirí fiosruithe úsáideacha SPARQL a thógáil, cuirfimid leathanach ar fáil ar a bhfuil le feiceáil <a href='{sample_sparql_queries}'>sample SPARQL queries</a> ar féidir iad a chur chun báis tríd an bpointe deiridh. Leanann tacair sonraí agus catalóga atá foilsithe mar thríthacaí RDF ar an tairseach an <a href='https://github.com/SEMICeu/DCAT-AP'>DCAT-AP specification</a>. Chun tuilleadh eolais a fháil ar an ointeolaíocht meiteashonraí, féach ar an leathanach data.europa.eu academy ar DCAT-AP ag: <a href=' https://data.europa.eu/en/academy/dcat-and-dcat-ap'> https://data.europa.eu/en/academy/dcat-and-dcat-ap</a>.",
+            "subHeadlineText1": "Stóráiltear meiteashonraí uile na sonraí.europa.eu mar RDF triples (<a href='https://www.w3.org/RDF/'>RDF</a>) agus is féidir iad a chuardach trí úsáid a bhaint as an teanga iarratais SPARQL ag an gcríochphointe seo. Is féidir fiosruithe a dhéanamh trí eagarthóir an chuardaigh (thíos) nó tríd an gcríochphointe atá inléite ag meaisín (<a href='https://data.europa.eu/sparql'>https://data.europa.eu/sparql</a>)."
+        },
+        "distributions": {
+            "footerLink": "Íoslódáil"
+        },
+        "distributionDetails": "{}",
+        "spokenLanguage": "Béarla",
+        "cite": {
+            "copyToClipboard": "Cóipeáil go dtí an ghearrthaisce",
+            "title": "Luaigh an tacar sonraí seo"
+        },
+        "home": {
+            "msg": "Ár leithscéal, níl aon inneachar ar an leathanach seo go fóill. Oscail an táb Sonraí chun rud éigin a fheiceáil!"
+        },
+        "imprint": {
+            "msg": "IONSÁIGH INPHRIONTA ANSEO"
+        }
+    }
+}

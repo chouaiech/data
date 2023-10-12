@@ -1,0 +1,3158 @@
+{
+  "success": true,
+  "result": {
+    "index": "dataset",
+    "count": 1406501,
+    "facets": [
+      {
+        "id": "dataScope",
+        "title": "Data scope",
+        "items": [
+          {
+            "id": "eu",
+            "title": "EU data",
+            "count": 17356
+          },
+          {
+            "id": "io",
+            "title": "International data",
+            "count": 2
+          },
+          {
+            "id": "countryData",
+            "title": "Country data",
+            "count": 1389143
+          }
+        ]
+      },
+      {
+        "id": "country",
+        "title": "Countries",
+        "items": [
+          {
+            "count": 430651,
+            "id": "de",
+            "title": "Germany"
+          },
+          {
+            "count": 346290,
+            "id": "cz",
+            "title": "Czechia"
+          },
+          {
+            "count": 207234,
+            "id": "fr",
+            "title": "France"
+          },
+          {
+            "count": 68342,
+            "id": "es",
+            "title": "Spain"
+          },
+          {
+            "count": 61719,
+            "id": "it",
+            "title": "Italy"
+          },
+          {
+            "count": 52041,
+            "id": "gb",
+            "title": "United Kingdom"
+          },
+          {
+            "count": 39158,
+            "id": "ua",
+            "title": "Ukraine"
+          },
+          {
+            "count": 37303,
+            "id": "at",
+            "title": "Austria"
+          },
+          {
+            "count": 24167,
+            "id": "nl",
+            "title": "Netherlands"
+          },
+          {
+            "count": 17356,
+            "id": "eu",
+            "title": "EU institutions"
+          },
+          {
+            "count": 15038,
+            "id": "pl",
+            "title": "Poland"
+          },
+          {
+            "count": 13420,
+            "id": "ie",
+            "title": "Ireland"
+          },
+          {
+            "count": 11368,
+            "id": "be",
+            "title": "Belgium"
+          },
+          {
+            "count": 11333,
+            "id": "si",
+            "title": "Slovenia"
+          },
+          {
+            "count": 10680,
+            "id": "gr",
+            "title": "Greece"
+          },
+          {
+            "count": 9566,
+            "id": "ch",
+            "title": "Switzerland"
+          },
+          {
+            "count": 8922,
+            "id": "se",
+            "title": "Sweden"
+          },
+          {
+            "count": 8415,
+            "id": "bg",
+            "title": "Bulgaria"
+          },
+          {
+            "count": 5392,
+            "id": "fi",
+            "title": "Finland"
+          },
+          {
+            "count": 4837,
+            "id": "pt",
+            "title": "Portugal"
+          },
+          {
+            "count": 4216,
+            "id": "ee",
+            "title": "Estonia"
+          },
+          {
+            "count": 2871,
+            "id": "sk",
+            "title": "Slovakia"
+          },
+          {
+            "count": 2745,
+            "id": "dk",
+            "title": "Denmark"
+          },
+          {
+            "count": 2735,
+            "id": "ro",
+            "title": "Romania"
+          },
+          {
+            "count": 2050,
+            "id": "lu",
+            "title": "Luxembourg"
+          },
+          {
+            "count": 1999,
+            "id": "no",
+            "title": "Norway"
+          },
+          {
+            "count": 1703,
+            "id": "lt",
+            "title": "Lithuania"
+          },
+          {
+            "count": 1543,
+            "id": "hr",
+            "title": "Croatia"
+          },
+          {
+            "count": 1177,
+            "id": "md",
+            "title": "Moldova"
+          },
+          {
+            "count": 1108,
+            "id": "cy",
+            "title": "Cyprus"
+          },
+          {
+            "count": 596,
+            "id": "lv",
+            "title": "Latvia"
+          },
+          {
+            "count": 299,
+            "id": "mt",
+            "title": "Malta"
+          },
+          {
+            "count": 86,
+            "id": "is",
+            "title": "Iceland"
+          },
+          {
+            "count": 81,
+            "id": "li",
+            "title": "Liechtenstein"
+          },
+          {
+            "count": 57,
+            "id": "hu",
+            "title": "Hungary"
+          },
+          {
+            "count": 2,
+            "id": "io",
+            "title": "International organisations"
+          },
+          {
+            "count": 1,
+            "id": "rs",
+            "title": "Serbia"
+          }
+        ]
+      },
+      {
+        "id": "catalog",
+        "title": "Catalogues",
+        "items": [
+          {
+            "count": 374837,
+            "id": "gdi-de",
+            "title": "GDI-DE"
+          },
+          {
+            "count": 200766,
+            "id": "cuzk",
+            "title": "Geoportal Czech Office for Surveying, Mapping and Cadastre"
+          },
+          {
+            "count": 167084,
+            "id": "geocatalogue-fr",
+            "title": "Geocatalogue France"
+          },
+          {
+            "count": 144956,
+            "id": "nkod-opendata-cz",
+            "title": "Czech National Open Data Portal"
+          },
+          {
+            "count": 55814,
+            "id": "govdata",
+            "title": "GovData"
+          },
+          {
+            "count": 51152,
+            "id": "data-gov-uk",
+            "title": "data.gov.uk"
+          },
+          {
+            "count": 50161,
+            "id": "datos-gob-es",
+            "title": "datos.gob.es"
+          },
+          {
+            "count": 39697,
+            "id": "plateforme-ouverte-des-donnees-publiques-francaises",
+            "title": "Plateforme ouverte des données publiques françaises"
+          },
+          {
+            "count": 39693,
+            "id": "dati-gov-it",
+            "title": "dati.gov.it"
+          },
+          {
+            "count": 39158,
+            "id": "data-gov-ua",
+            "title": "data.gov.ua"
+          },
+          {
+            "count": 35645,
+            "id": "data-gv-at",
+            "title": "data.gv.at"
+          },
+          {
+            "count": 22026,
+            "id": "rndt",
+            "title": "Italian Catalogue of metadata for Spatial Data"
+          },
+          {
+            "count": 16523,
+            "id": "dataportaal-van-de-nederlandse-overheid",
+            "title": "Dataportaal van de Nederlandse overheid"
+          },
+          {
+            "count": 16327,
+            "id": "european-union-open-data-portal",
+            "title": "EU institutions data"
+          },
+          {
+            "count": 13420,
+            "id": "data-gov-ie",
+            "title": "Data.gov.ie"
+          },
+          {
+            "count": 11368,
+            "id": "data-gov-be",
+            "title": "data.gov.be"
+          },
+          {
+            "count": 11131,
+            "id": "odprti-podatki-slovenije",
+            "title": "Odprti podatki Slovenije"
+          },
+          {
+            "count": 10677,
+            "id": "open-data-greece",
+            "title": "Open Data Greece - Ministry of Administrative Reconstruction"
+          },
+          {
+            "count": 10321,
+            "id": "idee",
+            "title": "IDEE"
+          },
+          {
+            "count": 9566,
+            "id": "opendata-swiss",
+            "title": "opendata.swiss"
+          },
+          {
+            "count": 8685,
+            "id": "podgik",
+            "title": "Geo-System metadata catalogue"
+          },
+          {
+            "count": 8415,
+            "id": "open-data-bulgaria",
+            "title": "Open Data Bulgaria"
+          },
+          {
+            "count": 7644,
+            "id": "ngr-nl",
+            "title": "National Georegister of the Netherlands"
+          },
+          {
+            "count": 7563,
+            "id": "oppnadata",
+            "title": "Sveriges dataportal"
+          },
+          {
+            "count": 5342,
+            "id": "ideandalucia",
+            "title": "IDEAndalucia"
+          },
+          {
+            "count": 4837,
+            "id": "dados-gov-pt",
+            "title": "dados.gov.pt"
+          },
+          {
+            "count": 4052,
+            "id": "opole",
+            "title": "Geoportal Opole Province"
+          },
+          {
+            "count": 3976,
+            "id": "avaandmete-portaal",
+            "title": "Avaandmete portaal"
+          },
+          {
+            "count": 3453,
+            "id": "fmi",
+            "title": "FMI Catalog"
+          },
+          {
+            "count": 2706,
+            "id": "data-gov-sk",
+            "title": "data.gov.sk"
+          },
+          {
+            "count": 2454,
+            "id": "data-gov-ro",
+            "title": "data.gov.ro"
+          },
+          {
+            "count": 1939,
+            "id": "open-data-finland",
+            "title": "Open Data Finland"
+          },
+          {
+            "count": 1875,
+            "id": "geodata-info-dk",
+            "title": "Danske Geoportal"
+          },
+          {
+            "count": 1763,
+            "id": "dane-gov-pl",
+            "title": "dane.gov.pl"
+          },
+          {
+            "count": 1686,
+            "id": "la-plateforme-de-donnees-luxembourgeoise",
+            "title": "La plateforme de données luxembourgeoise"
+          },
+          {
+            "count": 1616,
+            "id": "data-norge-no",
+            "title": "data.norge.no"
+          },
+          {
+            "count": 1594,
+            "id": "navarra",
+            "title": "Infrastructura de Datos Espaciales de Navarra"
+          },
+          {
+            "count": 1560,
+            "id": "data-gov-lt",
+            "title": "data-gov-lt"
+          },
+          {
+            "count": 1359,
+            "id": "geodata-se",
+            "title": "Geodata Portal Sweden"
+          },
+          {
+            "count": 1212,
+            "id": "bmlfuw-at",
+            "title": "inspire.gv.at"
+          },
+          {
+            "count": 1180,
+            "id": "portal-otvorenih-podataka",
+            "title": "Portal otvorenih podataka"
+          },
+          {
+            "count": 1177,
+            "id": "government-open-data-portal-moldova",
+            "title": "Government Open Data Portal Moldova"
+          },
+          {
+            "count": 1108,
+            "id": "national-open-data-portal-cyprus",
+            "title": "National Open Data Portal Cyprus"
+          },
+          {
+            "count": 924,
+            "id": "ign",
+            "title": "Spanish National Geographic Institute"
+          },
+          {
+            "count": 889,
+            "id": "london-datastore",
+            "title": "London Datastore"
+          },
+          {
+            "count": 870,
+            "id": "open-data-dk",
+            "title": "OPEN DATA DK"
+          },
+          {
+            "count": 840,
+            "id": "pn",
+            "title": "EUMETSAT Product Navigator"
+          },
+          {
+            "count": 596,
+            "id": "data-gov-lv",
+            "title": "data.gov.lv"
+          },
+          {
+            "count": 453,
+            "id": "sandre",
+            "title": "Sandre"
+          },
+          {
+            "count": 446,
+            "id": "open-data-portal-austria",
+            "title": "opendataportal.at"
+          }
+        ]
+      },
+      {
+        "id": "categories",
+        "title": "Categories",
+        "items": [
+          {
+            "count": 269317,
+            "id": "AGRI",
+            "title": {
+              "no": "Jordbruk, fiskeri, skogbruk og mat",
+              "de": "Landwirtschaft, Fischerei, Forstwirtschaft und Nahrungsmittel",
+              "fi": "Maatalous, kalastus, metsätalous ja elintarvikkeet",
+              "pt": "Agricultura, pesca, silvicultura e alimentação",
+              "bg": "Селско стопанство, рибарство, горско стопанство и храни",
+              "lt": "Žemės ūkis, žuvininkystė, miškininkystė ir maistas",
+              "hr": "Poljoprivreda, ribarstvo, šumarstvo i hrana",
+              "lv": "Lauksaimniecība, zivsaimniecība, mežsaimniecība un pārtika",
+              "fr": "Agriculture, pêche, sylviculture et alimentation",
+              "hu": "Mezőgazdaság, halászat, erdészet és élelmiszer",
+              "sk": "Poľnohospodárstvo, rybné hospodárstvo, lesníctvo a potravinárstvo",
+              "sl": "Kmetijstvo, ribištvo, gozdarstvo in prehrana",
+              "ga": "Talmhaíocht, iascach, foraoiseacht agus bia",
+              "sv": "Jordbruk, fiske, skogsbruk och livsmedel",
+              "mt": "Agrikoltura, sajd, forestrija u ikel",
+              "el": "Γεωργία, αλιεία, δασοκομία και τρόφιμα",
+              "en": "Agriculture, fisheries, forestry and food",
+              "it": "Agricoltura, pesca, silvicoltura e prodotti alimentari",
+              "es": "Agricultura, pesca, silvicultura y alimentación",
+              "et": "Põllumajandus, kalandus, metsandus ja toiduained",
+              "cs": "Zemědělství, rybolov, lesnictví a výživa",
+              "pl": "Rolnictwo, rybołówstwo, leśnictwo i żywność",
+              "da": "Landbrug, fiskeri, skovbrug og fødevarer",
+              "ro": "Agricultură, pescuit, silvicultură şi hrană",
+              "nl": "Landbouw, visserij, bosbouw en voeding"
+            },
+            "resource": "http://publications.europa.eu/resource/authority/data-theme/AGRI"
+          },
+          {
+            "count": 268634,
+            "id": "ENVI",
+            "title": {
+              "no": "Miljø",
+              "de": "Umwelt",
+              "fi": "Ympäristö",
+              "pt": "Ambiente",
+              "bg": "Околна среда",
+              "lt": "Aplinka",
+              "lv": "Vide",
+              "hr": "Okoliš",
+              "fr": "Environnement",
+              "hu": "Környezet",
+              "sk": "Životné prostredie",
+              "sl": "Okolje",
+              "ga": "Comhshaol",
+              "sv": "Miljö",
+              "mt": "Ambjent",
+              "el": "Περιβάλλον",
+              "en": "Environment",
+              "it": "Ambiente",
+              "es": "Medio ambiente",
+              "et": "Keskkond",
+              "cs": "Životní prostředí",
+              "pl": "Środowisko",
+              "ro": "Mediu",
+              "da": "Miljø",
+              "nl": "Milieu"
+            },
+            "resource": "http://publications.europa.eu/resource/authority/data-theme/ENVI"
+          },
+          {
+            "count": 183640,
+            "id": "JUST",
+            "title": {
+              "de": "Justiz, Rechtssystem und öffentliche Sicherheit",
+              "no": "Justis, rettssystem og allmenn sikkerhet",
+              "fi": "Oikeus, oikeusjärjestelmä ja yleinen turvallisuus",
+              "pt": "Justiça, sistema judiciário e segurança pública",
+              "bg": "Правосъдие, съдебна система и обществена безопасност",
+              "lt": "Teisingumas, teisės sistema ir visuomenės sauga",
+              "lv": "Tieslietas, tiesību sistēma un sabiedrības drošība",
+              "hr": "Pravosuđe, pravni sustav i javna sigurnost",
+              "fr": "Justice, système juridique et sécurité publique",
+              "hu": "Igazságügy, jogrendszer és közbiztonság",
+              "sk": "Spravodlivosť, právny systém a verejná bezpečnosť",
+              "sl": "Pravosodje, pravni sistem in javna varnost",
+              "ga": "Ceartas, córas dlí agus sábháilteacht an phobail",
+              "sv": "Rättvisa, rättsliga system och allmän säkerhet",
+              "el": "Δικαιoσύνη, νομικό σύστημα και δημόσια ασφάλεια",
+              "mt": "Ġustizzja, sistema legali u sigurtà pubblika",
+              "en": "Justice, legal system and public safety",
+              "it": "Giustizia, sistema giuridico e sicurezza pubblica",
+              "es": "Justicia, sistema judicial y seguridad pública",
+              "et": "Õigusemõistmine, õigussüsteem ja avalik turvalisus",
+              "cs": "Spravedlnost, právní systém a veřejná bezpečnost",
+              "pl": "Sprawiedliwość, ustrój sądów i bezpieczeństwo publiczne",
+              "da": "Retfærdighed, retssystem og offentlig sikkerhed",
+              "ro": "Justiție, sistem juridic și siguranță publică",
+              "nl": "Justitie, rechtsstelsel en openbare veiligheid"
+            },
+            "resource": "http://publications.europa.eu/resource/authority/data-theme/JUST"
+          },
+          {
+            "count": 77255,
+            "id": "TECH",
+            "title": {
+              "de": "Wissenschaft und Technologie",
+              "no": "Vitenskap og teknologi",
+              "fi": "Tiede ja teknologia",
+              "pt": "Ciência e tecnologia",
+              "bg": "Наука и tехнологии",
+              "lt": "Mokslas ir technologijos",
+              "hr": "Znanost i tehnologija",
+              "lv": "Zinātne un tehnoloģija",
+              "fr": "Science et technologie",
+              "hu": "Tudomány és technológia",
+              "sk": "Veda a technika",
+              "sl": "Znanost in tehnologija",
+              "ga": "Eolaíocht agus teicneolaíocht",
+              "sv": "Vetenskap och teknik",
+              "el": "Επιστήμη και τεχνολογία",
+              "mt": "Xjenza u teknoloġija",
+              "en": "Science and technology",
+              "it": "Scienza e tecnologia",
+              "es": "Ciencia y tecnología",
+              "et": "Teadus ja tehnoloogia",
+              "cs": "Věda a technika",
+              "pl": "Nauka i technologia",
+              "da": "Videnskab og teknologi",
+              "ro": "Ştiinţă şi tehnologie",
+              "nl": "Wetenschap en technologie"
+            },
+            "resource": "http://publications.europa.eu/resource/authority/data-theme/TECH"
+          },
+          {
+            "count": 75301,
+            "id": "GOVE",
+            "title": {
+              "no": "Forvaltning og offentlig sektor",
+              "de": "Regierung und öffentlicher Sektor",
+              "fi": "Valtioneuvosto ja julkinen sektori",
+              "pt": "Governo e setor público",
+              "bg": "Правителство и публичен сектор",
+              "lt": "Vyriausybė ir viešasis sektorius",
+              "hr": "Vlada i javni sektor",
+              "lv": "Valdība un sabiedriskais sektors",
+              "fr": "Gouvernement et secteur public",
+              "hu": "Kormányzat és közszféra",
+              "sk": "Vláda a verejný sektor",
+              "sl": "Vlada in javni sektor",
+              "ga": "Rialtas agus earnáil phoiblí",
+              "sv": "Regeringen och den offentliga sektorn",
+              "el": "Κυβέρνηση και δημόσιος τομέας",
+              "mt": "Gvern u settur pubbliku",
+              "en": "Government and public sector",
+              "it": "Governo e settore pubblico",
+              "es": "Gobierno y sector público",
+              "et": "Valitsus ja avalik sektor",
+              "cs": "Vláda a veřejný sektor",
+              "pl": "Rząd i sektor publiczny",
+              "ro": "Guvern şi sector public",
+              "da": "Regeringen og den offentlige sektor",
+              "nl": "Overheid en publieke sector"
+            },
+            "resource": "http://publications.europa.eu/resource/authority/data-theme/GOVE"
+          },
+          {
+            "count": 61343,
+            "id": "ECON",
+            "title": {
+              "de": "Wirtschaft und Finanzen",
+              "no": "Økonomi og finans",
+              "fi": "Talous ja raha-asiat",
+              "pt": "Economia e finanças",
+              "bg": "Икономика и финанси",
+              "lt": "Ekonomika ir finansai",
+              "hr": "Ekonomija i financije",
+              "lv": "Ekonomika un finanses",
+              "fr": "Économie et finances",
+              "hu": "Gazdaság és pénzügy",
+              "sk": "Hospodárstvo a financie",
+              "sl": "Gospodarstvo in finance",
+              "ga": "Geilleagar agus airgeadas",
+              "sv": "Ekonomi och finans",
+              "mt": "Ekonomija u finanzi",
+              "el": "Οικονομία και χρηματοοικονομικά θέματα",
+              "en": "Economy and finance",
+              "it": "Economia e finanze",
+              "es": "Economía y finanzas",
+              "et": "Majandus ja rahandus",
+              "cs": "Hospodářství a finance",
+              "pl": "Gospodarka i finanse",
+              "ro": "Economie şi finanţe",
+              "da": "Økonomi og finanser",
+              "nl": "Economie en financiën"
+            },
+            "resource": "http://publications.europa.eu/resource/authority/data-theme/ECON"
+          },
+          {
+            "count": 48038,
+            "id": "SOCI",
+            "title": {
+              "de": "Bevölkerung und Gesellschaft",
+              "no": "Befolkning og samfunn",
+              "fi": "Väestö ja yhteiskunta",
+              "pt": "População e sociedade",
+              "bg": "Население и общество",
+              "lt": "Gyventojų skaičius ir visuomenė",
+              "hr": "Stanovništvo i društvo",
+              "lv": "Iedzīvotāji un sabiedrība",
+              "fr": "Population et société",
+              "hu": "Népesség és társadalom",
+              "sk": "Obyvateľstvo a spoločnosť",
+              "sl": "Prebivalstvo in družba",
+              "ga": "Daonra agus sochaí",
+              "sv": "Befolkning och samhälle",
+              "el": "Πληθυσμός και κοινωνία",
+              "mt": "Popolazzjoni u soċjetà",
+              "en": "Population and society",
+              "it": "Popolazione e società",
+              "es": "Población y sociedad",
+              "et": "Elanikkond ja ühiskond",
+              "cs": "Populace a společnost",
+              "pl": "Ludność i społeczeństwo",
+              "ro": "Populaţie şi societate",
+              "da": "Befolkning og samfund",
+              "nl": "Bevolking en samenleving"
+            },
+            "resource": "http://publications.europa.eu/resource/authority/data-theme/SOCI"
+          },
+          {
+            "count": 46192,
+            "id": "TRAN",
+            "title": {
+              "no": "Transport",
+              "de": "Verkehr",
+              "fi": "Liikenne",
+              "pt": "Transportes",
+              "bg": "Транспорт",
+              "lt": "Transportas",
+              "hr": "Promet",
+              "lv": "Transports",
+              "fr": "Transports",
+              "hu": "Közlekedés",
+              "sk": "Doprava",
+              "sl": "Transport",
+              "ga": "Iompar",
+              "sv": "Transport",
+              "mt": "Trasport",
+              "el": "Μεταφορές",
+              "en": "Transport",
+              "it": "Trasporti",
+              "es": "Transporte",
+              "et": "Transport",
+              "cs": "Doprava",
+              "pl": "Transport",
+              "ro": "Transport",
+              "da": "Transport",
+              "nl": "Vervoer"
+            },
+            "resource": "http://publications.europa.eu/resource/authority/data-theme/TRAN"
+          },
+          {
+            "count": 27160,
+            "id": "REGI",
+            "title": {
+              "no": "Regioner og byer",
+              "de": "Regionen und Städte",
+              "fi": "Alueet ja kaupungit",
+              "pt": "Regiões e cidades",
+              "bg": "Региони и градове",
+              "lt": "Regionai ir miestai",
+              "hr": "Regije i gradovi",
+              "lv": "Reģioni un pilsētas",
+              "fr": "Régions et villes",
+              "hu": "Régiók és városok",
+              "sk": "Regióny a mestá",
+              "sl": "Regije in mesta",
+              "ga": "Réigiúin agus cathracha",
+              "sv": "Regioner och städer",
+              "el": "Περιφέρειες και πόλεις",
+              "mt": "Reġjuni u bliet",
+              "en": "Regions and cities",
+              "it": "Regioni e città",
+              "es": "Regiones y ciudades",
+              "et": "Piirkonnad ja linnad",
+              "cs": "Regiony a města",
+              "pl": "Regiony i miasta",
+              "da": "Regioner og byer",
+              "ro": "Regiuni şi orașe",
+              "nl": "Regio's en steden"
+            },
+            "resource": "http://publications.europa.eu/resource/authority/data-theme/REGI"
+          },
+          {
+            "count": 17222,
+            "id": "EDUC",
+            "title": {
+              "de": "Bildung, Kultur und Sport",
+              "no": "Utdanning, kultur og sport",
+              "fi": "Koulutus, kulttuuri ja urheilu",
+              "pt": "Educação, cultura e desporto",
+              "bg": "Образование, култура и спорт",
+              "lt": "Švietimas, kultūra ir sportas",
+              "hr": "Obrazovanje, kultura i sport",
+              "lv": "Izglītība, kultūra un sports",
+              "fr": "Éducation, culture et sport",
+              "hu": "Oktatás, kultúra és sport",
+              "sk": "Vzdelávanie, kultúra a šport",
+              "sl": "Izobraževanje, kultura in šport",
+              "ga": "Oideachas, cultúr agus spórt",
+              "sv": "Utbildning, kultur och sport",
+              "mt": "Edukazzjoni, kultura u sport",
+              "el": "Παιδεία, πολιτιστικά θέματα και αθλητισμός",
+              "en": "Education, culture and sport",
+              "it": "Istruzione, cultura e sport",
+              "es": "Educación, cultura y deportes",
+              "et": "Haridus, kultuur ja sport",
+              "cs": "Vzdělávání, kultura a sport",
+              "pl": "Edukacja, kultura i sport",
+              "da": "Uddannelse, kultur og sport",
+              "ro": "Educaţie, cultură şi sport",
+              "nl": "Onderwijs, cultuur en sport"
+            },
+            "resource": "http://publications.europa.eu/resource/authority/data-theme/EDUC"
+          },
+          {
+            "count": 15156,
+            "id": "HEAL",
+            "title": {
+              "de": "Gesundheit",
+              "no": "Helse",
+              "fi": "Terveys",
+              "pt": "Saúde",
+              "bg": "Здраве",
+              "lt": "Sveikata",
+              "hr": "Zdravlje",
+              "lv": "Veselība",
+              "fr": "Santé",
+              "hu": "Egészségügy",
+              "sk": "Zdravotníctvo",
+              "sl": "Zdravje",
+              "ga": "Sláinte",
+              "sv": "Hälsa",
+              "el": "Υγεία",
+              "mt": "Saħħa",
+              "en": "Health",
+              "it": "Salute",
+              "es": "Salud",
+              "et": "Tervis",
+              "cs": "Zdraví",
+              "pl": "Zdrowie",
+              "da": "Sundhed",
+              "ro": "Sănătate",
+              "nl": "Gezondheid"
+            },
+            "resource": "http://publications.europa.eu/resource/authority/data-theme/HEAL"
+          },
+          {
+            "count": 7305,
+            "id": "ENER",
+            "title": {
+              "de": "Energie",
+              "no": "Energi",
+              "fi": "Energia",
+              "pt": "Energia",
+              "bg": "Енергетика",
+              "lt": "Energetika",
+              "hr": "Energetika",
+              "lv": "Enerģētika",
+              "fr": "Énergie",
+              "hu": "Energia",
+              "sk": "Energetika",
+              "sl": "Energetika",
+              "ga": "Fuinneamh",
+              "sv": "Energi",
+              "el": "Ενέργεια",
+              "mt": "Enerġija",
+              "en": "Energy",
+              "it": "Energia",
+              "es": "Energía",
+              "et": "Energeetika",
+              "cs": "Energie",
+              "pl": "Energia",
+              "ro": "Energie",
+              "da": "Energi",
+              "nl": "Energie"
+            },
+            "resource": "http://publications.europa.eu/resource/authority/data-theme/ENER"
+          },
+          {
+            "count": 1203,
+            "id": "INTR",
+            "title": {
+              "de": "Internationale Themen",
+              "no": "Internasjonale temaer",
+              "fi": "Kansainväliset kysymykset",
+              "pt": "Questões internacionais",
+              "bg": "Международни въпроси",
+              "lt": "Tarptautiniai klausimai",
+              "lv": "Starptautiski jautājumi",
+              "hr": "Međunarodni pitanja",
+              "fr": "Questions internationales",
+              "hu": "Nemzetközi ügyek",
+              "sk": "Medzinárodné otázky",
+              "sl": "Mednarodna vprašanja",
+              "ga": "Saincheisteanna idirnáisiúnta",
+              "sv": "Internationella frågor",
+              "el": "Διεθνή θέματα",
+              "mt": "Kwistjonijiet internazzjonali",
+              "en": "International issues",
+              "it": "Tematiche internazionali",
+              "es": "Asuntos internacionales",
+              "et": "Rahvusvahelised küsimused",
+              "cs": "Mezinárodní otázky",
+              "pl": "Kwestie międzynarodowe",
+              "da": "Internationale spørgsmål",
+              "ro": "Chestiuni internaționale",
+              "nl": "Internationale vraagstukken"
+            },
+            "resource": "http://publications.europa.eu/resource/authority/data-theme/INTR"
+          }
+        ]
+      },
+      {
+        "id": "keywords",
+        "title": "Keywords",
+        "items": [
+          {
+            "count": 187758,
+            "id": "inspireidentifiziert",
+            "title": "inspireidentifiziert"
+          },
+          {
+            "count": 180516,
+            "id": "bebauungsplan",
+            "title": "bebauungsplan"
+          },
+          {
+            "count": 159079,
+            "id": "bauleitplan",
+            "title": "bauleitplan"
+          },
+          {
+            "count": 138070,
+            "id": "bebauungspläne",
+            "title": "bebauungspläne"
+          },
+          {
+            "count": 131382,
+            "id": "b-plan",
+            "title": "b-plan"
+          },
+          {
+            "count": 119719,
+            "id": "bauleitpläne",
+            "title": "bauleitpläne"
+          },
+          {
+            "count": 116736,
+            "id": "bauvorschrift",
+            "title": "bauvorschrift"
+          },
+          {
+            "count": 116732,
+            "id": "bauplatz",
+            "title": "Bauplatz"
+          },
+          {
+            "count": 116732,
+            "id": "bauplätze",
+            "title": "Bauplätze"
+          },
+          {
+            "count": 116732,
+            "id": "gdi-bw",
+            "title": "GDI-BW"
+          },
+          {
+            "count": 114650,
+            "id": "infomapaccessservice",
+            "title": "infoMapAccessService"
+          },
+          {
+            "count": 112094,
+            "id": "katastrální-parcely",
+            "title": "Katastrální parcely"
+          },
+          {
+            "count": 93339,
+            "id": "pozemek",
+            "title": "pozemek"
+          },
+          {
+            "count": 93315,
+            "id": "nemovitost,-nemovitá-věc",
+            "title": "nemovitost, nemovitá věc"
+          },
+          {
+            "count": 91099,
+            "id": "katastrální-parcela",
+            "title": "katastrální parcela"
+          },
+          {
+            "count": 89165,
+            "id": "infofeatureaccessservice",
+            "title": "infoFeatureAccessService"
+          },
+          {
+            "count": 84812,
+            "id": "hranice",
+            "title": "hranice"
+          },
+          {
+            "count": 84787,
+            "id": "informační-systém-katastru-nemovitostí-(iskn)",
+            "title": "informační systém katastru nemovitostí (ISKN)"
+          },
+          {
+            "count": 84325,
+            "id": "parcela",
+            "title": "parcela"
+          },
+          {
+            "count": 83306,
+            "id": "adresy",
+            "title": "Adresy"
+          },
+          {
+            "count": 79833,
+            "id": "xplanung",
+            "title": "XPlanung"
+          },
+          {
+            "count": 79800,
+            "id": "xplangml",
+            "title": "XPlanGML"
+          },
+          {
+            "count": 79798,
+            "id": "xplanung-5.0",
+            "title": "XPlanung 5.0"
+          },
+          {
+            "count": 78525,
+            "id": "hranice-parcely",
+            "title": "hranice parcely"
+          },
+          {
+            "count": 65448,
+            "id": "digitalizovaná-katastrální-mapa",
+            "title": "digitalizovaná katastrální mapa"
+          },
+          {
+            "count": 65448,
+            "id": "digitální-katastrální-mapa",
+            "title": "digitální katastrální mapa"
+          },
+          {
+            "count": 65448,
+            "id": "katastr-nemovitostí-(kn)",
+            "title": "katastr nemovitostí (KN)"
+          },
+          {
+            "count": 65448,
+            "id": "katastr-nemovitostí-čr",
+            "title": "katastr nemovitostí ČR"
+          },
+          {
+            "count": 65448,
+            "id": "katastrální-mapa",
+            "title": "katastrální mapa"
+          },
+          {
+            "count": 59781,
+            "id": "archival-maps",
+            "title": "archival maps"
+          },
+          {
+            "count": 59781,
+            "id": "archivní-mapy",
+            "title": "archivní mapy"
+          },
+          {
+            "count": 59781,
+            "id": "central-archive-of-surveying-and-cadastre",
+            "title": "Central Archive of Surveying and Cadastre"
+          },
+          {
+            "count": 59781,
+            "id": "ústřední-archiv-zeměměřictví-a-katastru",
+            "title": "Ústřední archiv zeměměřictví a katastru"
+          },
+          {
+            "count": 57479,
+            "id": "definiční-bod,-reprezentační-bod,-centroid",
+            "title": "definiční bod, reprezentační bod, centroid"
+          },
+          {
+            "count": 56838,
+            "id": "měřítko-1:2-880",
+            "title": "měřítko 1:2 880"
+          },
+          {
+            "count": 56838,
+            "id": "scale-1:2,880",
+            "title": "scale 1:2,880"
+          },
+          {
+            "count": 56836,
+            "id": "mapy-stabilního-katastru",
+            "title": "mapy stabilního katastru"
+          },
+          {
+            "count": 56836,
+            "id": "stable-cadastre-maps",
+            "title": "stable cadastre maps"
+          },
+          {
+            "count": 56833,
+            "id": "císařské-povinné-otisky",
+            "title": "císařské povinné otisky"
+          },
+          {
+            "count": 56833,
+            "id": "imperial-obligatory-imprints",
+            "title": "Imperial Obligatory Imprints"
+          },
+          {
+            "count": 53501,
+            "id": "katastrální-území",
+            "title": "katastrální území"
+          },
+          {
+            "count": 52352,
+            "id": "katastrální-pracoviště-(kp)",
+            "title": "Katastrální pracoviště (KP)"
+          },
+          {
+            "count": 51840,
+            "id": "plannedlanduse",
+            "title": "PlannedLandUse"
+          },
+          {
+            "count": 51384,
+            "id": "infralocal",
+            "title": "infraLocal"
+          },
+          {
+            "count": 50274,
+            "id": "registr-územní-identifikace,-adres-a-nemovitostí-(rúian)",
+            "title": "Registr územní identifikace, adres a nemovitostí (RÚIAN)"
+          },
+          {
+            "count": 44040,
+            "id": "obec",
+            "title": "obec"
+          },
+          {
+            "count": 43999,
+            "id": "městský-obvod-městská-část-(momc)",
+            "title": "městský obvod/městská část (MOMC)"
+          },
+          {
+            "count": 43994,
+            "id": "adresní-místo",
+            "title": "adresní místo"
+          },
+          {
+            "count": 38694,
+            "id": "geografická-informace,-geoinformace,-geoprostorová-informace",
+            "title": "geografická informace, geoinformace, geoprostorová informace"
+          },
+          {
+            "count": 37641,
+            "id": "adresa",
+            "title": "adresa"
+          }
+        ]
+      },
+      {
+        "id": "scoring",
+        "title": "Scoring",
+        "items": [
+          {
+            "id": "excellentScoring",
+            "title": "Excellent Scoring",
+            "count": 72,
+            "from": 351.0,
+            "to": 406.0
+          },
+          {
+            "id": "goodScoring",
+            "title": "Good Scoring",
+            "count": 146728,
+            "from": 221.0,
+            "to": 351.0
+          },
+          {
+            "id": "sufficientScoring",
+            "title": "Sufficient Scoring",
+            "count": 579898,
+            "from": 121.0,
+            "to": 221.0
+          },
+          {
+            "id": "badScoring",
+            "title": "Bad Scoring",
+            "count": 373449,
+            "from": 0.0,
+            "to": 121.0
+          }
+        ]
+      },
+      {
+        "id": "format",
+        "title": "Formats",
+        "items": [
+          {
+            "count": 190561,
+            "id": "CSV",
+            "title": "CSV"
+          },
+          {
+            "count": 172143,
+            "id": "WMS",
+            "title": "WMS"
+          },
+          {
+            "count": 169825,
+            "id": "WFS",
+            "title": "WFS"
+          },
+          {
+            "count": 85837,
+            "id": "JSON",
+            "title": "JSON"
+          },
+          {
+            "count": 64903,
+            "id": "HTML",
+            "title": "HTML"
+          },
+          {
+            "count": 62555,
+            "id": "GML",
+            "title": "GML"
+          },
+          {
+            "count": 55734,
+            "id": "SHP",
+            "title": "Esri Shape"
+          },
+          {
+            "count": 53202,
+            "id": "XLSX",
+            "title": "Excel XLSX"
+          },
+          {
+            "count": 52049,
+            "id": "ZIP",
+            "title": "ZIP"
+          },
+          {
+            "count": 48842,
+            "id": "XLS",
+            "title": "Excel XLS"
+          },
+          {
+            "count": 35247,
+            "id": "PDF",
+            "title": "PDF"
+          },
+          {
+            "count": 32174,
+            "id": "TXT",
+            "title": "Plain text"
+          },
+          {
+            "count": 28081,
+            "id": "XML",
+            "title": "XML"
+          },
+          {
+            "count": 13867,
+            "id": "KML",
+            "title": "KML"
+          },
+          {
+            "count": 13335,
+            "id": "WMS_SRVC",
+            "title": "WMS"
+          },
+          {
+            "count": 13248,
+            "id": "TIFF",
+            "title": "TIFF"
+          },
+          {
+            "count": 11172,
+            "id": "TSV",
+            "title": "TSV"
+          },
+          {
+            "count": 11009,
+            "id": "GEOJSON",
+            "title": "GeoJSON"
+          },
+          {
+            "count": 9790,
+            "id": "WFS_SRVC",
+            "title": "WFS"
+          },
+          {
+            "count": 6711,
+            "id": "px",
+            "title": "px"
+          },
+          {
+            "count": 6709,
+            "id": "json-stat",
+            "title": "json-stat"
+          },
+          {
+            "count": 6038,
+            "id": "ATOM",
+            "title": "Atom Feed"
+          },
+          {
+            "count": 5306,
+            "id": "application/json",
+            "title": "application/json"
+          },
+          {
+            "count": 4882,
+            "id": "Karte",
+            "title": "Karte"
+          },
+          {
+            "count": 4881,
+            "id": "Webanwendung",
+            "title": "Webanwendung"
+          },
+          {
+            "count": 4497,
+            "id": "document",
+            "title": "document"
+          },
+          {
+            "count": 4031,
+            "id": "GZIP",
+            "title": "GNU zip"
+          },
+          {
+            "count": 3999,
+            "id": "RDF",
+            "title": "RDF"
+          },
+          {
+            "count": 3708,
+            "id": "ODS",
+            "title": "ODS"
+          },
+          {
+            "count": 3546,
+            "id": "DOC",
+            "title": "Word DOC"
+          },
+          {
+            "count": 3226,
+            "id": "DOCX",
+            "title": "Word DOCX"
+          },
+          {
+            "count": 2724,
+            "id": "OP_DATPRO",
+            "title": "Provisional data"
+          },
+          {
+            "count": 2672,
+            "id": "KMZ",
+            "title": "KMZ"
+          },
+          {
+            "count": 2074,
+            "id": "RDF_XML",
+            "title": "RDF XML"
+          },
+          {
+            "count": 1970,
+            "id": "Diverse",
+            "title": "Diverse"
+          },
+          {
+            "count": 1905,
+            "id": "MAP_SRVC",
+            "title": "ArcGIS Map Service"
+          },
+          {
+            "count": 1851,
+            "id": "SERVICE",
+            "title": "SERVICE"
+          },
+          {
+            "count": 1766,
+            "id": "view",
+            "title": "view"
+          },
+          {
+            "count": 1762,
+            "id": "download",
+            "title": "download"
+          },
+          {
+            "count": 1694,
+            "id": "XPlanGML",
+            "title": "XPlanGML"
+          },
+          {
+            "count": 1644,
+            "id": ".xlsx",
+            "title": ".xlsx"
+          },
+          {
+            "count": 1472,
+            "id": "хlsx",
+            "title": "хlsx"
+          },
+          {
+            "count": 1401,
+            "id": "web page",
+            "title": "web page"
+          },
+          {
+            "count": 1258,
+            "id": "OWL",
+            "title": "OWL"
+          },
+          {
+            "count": 1154,
+            "id": "JPEG",
+            "title": "JPEG"
+          },
+          {
+            "count": 1055,
+            "id": "PNG",
+            "title": "PNG"
+          },
+          {
+            "count": 1036,
+            "id": "RDF_TURTLE",
+            "title": "RDF Turtle"
+          },
+          {
+            "count": 1005,
+            "id": "arcgis geoservices rest api",
+            "title": "arcgis geoservices rest api"
+          },
+          {
+            "count": 847,
+            "id": "MAP_PRVW",
+            "title": "ArcGIS Map Preview"
+          },
+          {
+            "count": 829,
+            "id": "image",
+            "title": "image"
+          }
+        ]
+      },
+      {
+        "id": "license",
+        "title": "Licenses",
+        "items": [
+          {
+            "count": 43248,
+            "id": "CC_BY_4_0",
+            "title": "Creative Commons Attribution 4.0 International"
+          },
+          {
+            "count": 37421,
+            "id": "DLDE_BY_2_0",
+            "title": "Data licence Germany – attribution – Version 2.0"
+          },
+          {
+            "count": 31242,
+            "id": "https://creativecommons.org/licenses/by/4.0/deed.de",
+            "title": "https://creativecommons.org/licenses/by/4.0/deed.de"
+          },
+          {
+            "count": 28891,
+            "id": "OGL_3_0",
+            "title": "Open Government Licence 3.0"
+          },
+          {
+            "count": 24330,
+            "id": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+            "title": "https://www.etalab.gouv.fr/licence-ouverte-open-licence"
+          },
+          {
+            "count": 18839,
+            "id": "CC_BY",
+            "title": "Creative Commons Attribution 4.0 International"
+          },
+          {
+            "count": 8490,
+            "id": "notspecified",
+            "title": "notspecified"
+          },
+          {
+            "count": 8313,
+            "id": "https://www.ine.es/aviso_legal",
+            "title": "https://www.ine.es/aviso_legal"
+          },
+          {
+            "count": 8256,
+            "id": "CC0",
+            "title": "Creative Commons CC0 1.0 Universal"
+          },
+          {
+            "count": 7756,
+            "id": "cc-zero",
+            "title": "cc-zero"
+          },
+          {
+            "count": 7537,
+            "id": "http://www.gobiernodecanarias.org/istac/aviso_legal.html",
+            "title": "http://www.gobiernodecanarias.org/istac/aviso_legal.html"
+          },
+          {
+            "count": 6345,
+            "id": "http://creativecommons.org/licenses/by/4.0/deed.nl",
+            "title": "http://creativecommons.org/licenses/by/4.0/deed.nl"
+          },
+          {
+            "count": 6052,
+            "id": "http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+            "title": "http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0"
+          },
+          {
+            "count": 5718,
+            "id": "http://creativecommons.org/publicdomain/zero/1.0/deed.nl",
+            "title": "http://creativecommons.org/publicdomain/zero/1.0/deed.nl"
+          },
+          {
+            "count": 5657,
+            "id": "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf",
+            "title": "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf"
+          },
+          {
+            "count": 5415,
+            "id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+            "title": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)"
+          },
+          {
+            "count": 4470,
+            "id": "COM_REUSE",
+            "title": "European Commission reuse notice"
+          },
+          {
+            "count": 3870,
+            "id": "http://opendatacommons.org/licenses/odbl/summary/",
+            "title": "http://opendatacommons.org/licenses/odbl/summary/"
+          },
+          {
+            "count": 3472,
+            "id": "DLDE_ZERO_2_0",
+            "title": "Data licence Germany - Zero - Version 2.0"
+          },
+          {
+            "count": 3394,
+            "id": "",
+            "title": ""
+          },
+          {
+            "count": 3348,
+            "id": "http://creativecommons.org/publicdomain/mark/1.0/deed.nl",
+            "title": "http://creativecommons.org/publicdomain/mark/1.0/deed.nl"
+          },
+          {
+            "count": 3036,
+            "id": "ODC_PDDL",
+            "title": "Open Data Commons Public Domain Dedication and License 1.0"
+          },
+          {
+            "count": 2994,
+            "id": "Italian Open Data License 2.0 (IODL 2.0)",
+            "title": "Italian Open Data License 2.0 (IODL 2.0)"
+          },
+          {
+            "count": 2516,
+            "id": "other-open",
+            "title": "Other (Open)"
+          },
+          {
+            "count": 2499,
+            "id": "http://www.igme.es/Ayuda/CondiUso.htm",
+            "title": "http://www.igme.es/Ayuda/CondiUso.htm"
+          },
+          {
+            "count": 2160,
+            "id": "iodl2",
+            "title": "iodl2"
+          },
+          {
+            "count": 1719,
+            "id": "cc-by-3.0-it",
+            "title": "cc-by-3.0-it"
+          },
+          {
+            "count": 1707,
+            "id": "https://opendata.euskadi.eus/AVComun/r01gContainerVA/html/opendata/r01gLicencia_es.html",
+            "title": "https://opendata.euskadi.eus/AVComun/r01gContainerVA/html/opendata/r01gLicencia_es.html"
+          },
+          {
+            "count": 1696,
+            "id": "Creative Commons Attribuzione 2.5 Generica (CC BY 2.5)",
+            "title": "Creative Commons Attribuzione 2.5 Generica (CC BY 2.5)"
+          },
+          {
+            "count": 1664,
+            "id": "CC_BY_3_0",
+            "title": "Creative Commons Attribution 3.0 Unported"
+          },
+          {
+            "count": 1345,
+            "id": "http://www.cis.es/cis/opencms/ES/2_bancodatos/Productos.html",
+            "title": "http://www.cis.es/cis/opencms/ES/2_bancodatos/Productos.html"
+          },
+          {
+            "count": 1341,
+            "id": "CC_BY_3_0_DE",
+            "title": "Creative Commons Namensnennung 3.0 Deutschland"
+          },
+          {
+            "count": 1196,
+            "id": "CC_PDM_1_0",
+            "title": "Public Domain Mark 1.0"
+          },
+          {
+            "count": 1140,
+            "id": "CC_BYSA_4_0",
+            "title": "Creative Commons Attribution–ShareAlike 4.0 International"
+          },
+          {
+            "count": 1127,
+            "id": "cc-by",
+            "title": "Creative Commons Attribution"
+          },
+          {
+            "count": 1081,
+            "id": "Creative Commons Attribuzione 2.5 Italia (CC BY 2.5 IT)",
+            "title": "Creative Commons Attribuzione 2.5 Italia (CC BY 2.5 IT)"
+          },
+          {
+            "count": 1002,
+            "id": "other-nc",
+            "title": "Other (Non-Commercial)"
+          },
+          {
+            "count": 980,
+            "id": "Licenza Sconosciuta",
+            "title": "Licenza Sconosciuta"
+          },
+          {
+            "count": 971,
+            "id": "https://creativecommons.org/licenses/by/3.0/at/deed.de",
+            "title": "https://creativecommons.org/licenses/by/3.0/at/deed.de"
+          },
+          {
+            "count": 970,
+            "id": "CC_BYNCND_3_0",
+            "title": "Creative Commons Attribution–NonCommercial–NoDerivs 3.0 Unported"
+          },
+          {
+            "count": 969,
+            "id": "CC_BYSA",
+            "title": "Creative Commons Attribution–ShareAlike 4.0 International"
+          },
+          {
+            "count": 960,
+            "id": "https://www.universidades.gob.es/portal/site/universidades/menuitem.096178ad30eadc35c7d86f10026041a0/?vgnextoid=302b289195750710VgnVCM1000002006140aRCRD",
+            "title": "https://www.universidades.gob.es/portal/site/universidades/menuitem.096178ad30eadc35c7d86f10026041a0/?vgnextoid=302b289195750710VgnVCM1000002006140aRCRD"
+          },
+          {
+            "count": 926,
+            "id": "http://www.cis.es/cis/opencms/ES/Avisolegal.html",
+            "title": "http://www.cis.es/cis/opencms/ES/Avisolegal.html"
+          },
+          {
+            "count": 886,
+            "id": "License IODL v2.0",
+            "title": "License IODL v2.0"
+          },
+          {
+            "count": 829,
+            "id": "CC BY 4.0",
+            "title": "Other (Public Domain)"
+          },
+          {
+            "count": 697,
+            "id": "http://dcat-ap.de/def/licenses/other-closed",
+            "title": "http://dcat-ap.de/def/licenses/other-closed"
+          },
+          {
+            "count": 692,
+            "id": "http://standaarden.overheid.nl/owms/terms/geslotenlicentie",
+            "title": "http://standaarden.overheid.nl/owms/terms/geslotenlicentie"
+          },
+          {
+            "count": 681,
+            "id": "CC0 1.0",
+            "title": "Other (Public Domain)"
+          },
+          {
+            "count": 672,
+            "id": "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf",
+            "title": "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+          },
+          {
+            "count": 667,
+            "id": "ODC_BL",
+            "title": "Open Data Commons Open Database License v1.0"
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "release_date": "2021-09-29T01:00:07.768Z",
+        "catalog": {
+          "id": "plateforme-ouverte-des-donnees-publiques-francaises",
+          "title": {
+            "fr": "Plateforme ouverte des données publiques françaises"
+          },
+          "country": {
+            "id": "fr"
+          }
+        },
+        "modification_date": "2021-10-11T01:00:06.922Z",
+        "description": {
+          "en": "Le terme **« certification »** est générique et désigne aussi bien des diplômes, des titres à finalité professionnelle ou des certificats de qualification professionnelle (CQP).\n\nUne certification atteste d'une **qualification reconnue**, c'est-à-dire de capacités à réaliser des activités professionnelles dans le cadre de plusieurs situations de travail, à des degrés de responsabilité définis dans un référentiel. Les certifications sont formalisées par un document (parchemin de diplôme ou de certificat) qui authentifie les compétences et savoir-faire d'un individu par rapport au référentiel. Ce document délivré revêt alors une valeur juridique et ouvre des droits pour la personne qui le possède (par exemple, passer un concours, suivre une formation, être embauché, percevoir un salaire selon un barème parfois prédéterminé...).\n\nLe terme **« formation »** renvoie à un périmètre plus large que le terme « certification » puisqu’il englobe à la fois des parcours potentiels aboutissant à des certifications, mais également des parcours non certifiants.\n\nAttention : l’Onisep fait, en plus, une différence entre les « formations » (intitulés et programmes pédagogiques attendus pour ces parcours) et les **« actions de formations »** (appelées ailleurs « offres de formation ») et concrètement proposées ou mises en œuvre par des établissements identifiés.\n\n .\n\n[**Certif Info**](https://www.certifinfo.org/intercariforef/) est un **référentiel national de certifications** qui recense l’ensemble des titres et diplômes à finalité professionnelle ou non, délivrés au nom de l’État, les certificats de qualification professionnelle (CQP) élaborés dans le cadre des branches professionnelles, les habilitations, titres et diplômes élaborés par des organismes de formation, publics ou privés, accessibles en formation initiale et/ou en formation professionnelle continue.\n\nCe référentiel actualisé en permanence permet d’établir un lien entre les certifications, les formations, les métiers, les emplois et « outille » l’information-conseil en validation des acquis de l'expérience (VAE).\n\nCertif Info référence également certains éléments « non certifiants » qui permettent de documenter, par exemple, des années préparatoires ou des diplômes d’université.\n\n.\n\nLe [**Répertoire national des certifications professionnelles (RNCP)**](https://www.francecompetences.fr/recherche_certificationprofessionnelle/) est maintenu par France Compétences, qui a notamment pour missions :\n\n- la **publication** au RNCP des certifications professionnelles délivrées au nom de l’État => « enregistrement de droit »,\n- l’**instruction des demandes** d’enregistrement au RNCP et leur publication => « enregistrement sur demande »,\n\nLes certifications professionnelles au RNCP sont classées par niveaux de qualification et domaines d’activité. Elles sont constituées de blocs de compétences, ensembles homogènes et cohérents contribuant à l’exercice autonome d’une activité professionnelle. Ces compétences peuvent être évaluées et validées.\n\n .\n\nLa [**table V\\_FORMATION\\_DIPLOME de la Base centrale des nomenclatures (BCN)**](http://infocentre.pleiade.education.fr/bcn/workspace/viewTable/n/V_FORMATION_DIPLOME/d/45) ministérielle est une vue rassemblant les codifications des diplômes susceptibles d'être préparés par la voie de l’apprentissage.\n\nNomenclature très large (plus de 10 000 enregistrements), elle propose une codification (« codes scolarités » ou « codes formation-diplôme ») pour l’ensemble des diplômes technologiques et professionnels des ministères de l’Éducation nationale, de la Jeunesse et des Sports et de l’Agriculture et de l’Alimentation. Peuvent être ajoutés d’autres diplômes et titres inscrits au RNCP, s’ils sont ouverts à la voie de l’apprentissage.\n\n.\n\n**Idéo** est une des bases de données de l’Onisep. Elle a pour but de traduire et de mémoriser toutes les informations collectées par l’Onisep en objets et données documentaires exploitables pour informer les publics, et particulièrement les jeunes dans une démarche de primo-orientation (choix d’une formation initiale), sur :\n\n- les formations,\n- les structures de formation,\n- les « offres de formation » émanant de ces structures,\n- les métiers et leurs liens avec les formations.\n\n .\n\n**Périmètre de ce jeu :**\n\nLa table de passage présente exclusivement les **enregistrements actifs** présents dans la base **Certif Info**, et qui sont **liés à au moins une fiche RNCP active ou à un code scolarité de la BCN**.\n\nCes enregistrements peuvent être :\n\n- certifiants ou non\n- liés ou non à une formation référencée dans Idéo\\*\n\n \\* Attention : les enregistrements liés aux formations archivées dans Idéo ne sont pas publiés ici afin de mieux traduire la réalité d’une offre de **certification vivante et encore disponible sur le terrain**.\n\n.\n\n**Ce jeu contient :**\n\n**- des données sur les certifications référencées dans la base Certif Info :**\n\n- Certif Info (CI) Identifiant\n- CI Niveau européen (de 3 à 8 cf. [https://europa.eu/europass/fr/description-eight-eqf-levels ](https://europa.eu/europass/fr/description-eight-eqf-levels%20))\n- CI Intitulé type diplôme\n- CI Intitulé certification\n- CI Certifiant (oui/non)\n- CI Code RNCP\n- CI Code Scolarité\n\n**-** **des données sur les certifications enregistrées au RNCP par France Compétences**\n\n- RNCP Intitulé\n- RNCP Type Enregistrement\n\n**-** **des données sur les formations codées dans la nomenclature BCN**\n\n- V\\_Formation\\_Diplôme Libellé Long\n\n**-** **des données sur les formations référencées dans la base Idéo**\n\n- Idéo Identifiant Formation (de type FOR.xxx)\n- Idéo Libellé complet formation\n\n**-** **une colonne** permettant de localiser rapidement toute **modification** apportée à un enregistrement **entre 2 mises à jour** de la table de passage\n\n- Statut (« créé », ou « mis à jour » pour les lignes modifiées\\*, sinon « identique\\* »)\n\n\\* Cette précision ne prendra effet qu’à partir de la première mise à jour du jeu\n\n.\n\nCe jeu sera **mis à jour environ 10 fois par an**, au rythme du calendrier de l’orientation et des mises à jour du site onisep.fr.\n\n.\n\nPour toute question relative aux données du jeu : **pole.certification@onisep.fr**"
+        },
+        "id": "61539e77b428f10a8af5b2f4",
+        "title": {
+          "en": "Table de passage codes certifications et formations"
+        },
+        "distributions": [
+          {
+            "format": {
+              "title": "XML",
+              "id": "XML"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "JSON",
+              "id": "JSON"
+            }
+          },
+          {
+            "format": {
+              "title": "ODS",
+              "id": "ODS"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          }
+        ]
+      },
+      {
+        "id": "614d153ef75b724d24b0681a",
+        "title": {
+          "en": "[Drupal] test_elus"
+        },
+        "release_date": "2021-09-24T02:01:02.886Z",
+        "catalog": {
+          "id": "plateforme-ouverte-des-donnees-publiques-francaises",
+          "title": {
+            "fr": "Plateforme ouverte des données publiques françaises"
+          },
+          "country": {
+            "id": "fr"
+          }
+        },
+        "distributions": [
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "JSON",
+              "id": "JSON"
+            }
+          }
+        ],
+        "modification_date": "2021-10-10T23:12:03Z"
+      },
+      {
+        "release_date": "2021-09-25T02:09:01.262Z",
+        "catalog": {
+          "id": "plateforme-ouverte-des-donnees-publiques-francaises",
+          "title": {
+            "fr": "Plateforme ouverte des données publiques françaises"
+          },
+          "country": {
+            "id": "fr"
+          }
+        },
+        "modification_date": "2021-10-10T22:06:06.016Z",
+        "description": {
+          "en": "L'offre de formation de la Région a pour objectif d’accompagner les personnes, quel que soit leur statut et d’agir au plus proche des territoires. Plus de 35 000 places de formation sont programmées en 2018 dont plus de 30 000 pour les demandeurs d’emploi. \n\nL’offre de formation en faveur des demandeurs d’emploi se structure depuis juillet 2017 en 3 blocs formant le « continuum » d’un parcours vers l’emploi : \n\n  * 10 000 places pour le programme RÉGION FORMATION - PRÉPA pour aider les demandeurs d’emploi les plus en difficulté à définir un projet professionnel et se remettre à niveau ; \n  * 13 500 places pour le programme RÉGION FORMATION - VISA pour qualifier les demandeurs d’emploi dans les métiers où des besoins de recrutement sont signalés ; \n  * 5 000 places pour le programme RÉGION FORMATION - ACCÈS pour accompagner les demandeurs d’emploi à accéder directement à un emploi repéré, ou à créer / reprendre leur entreprise auxquelles s’ajoutent 2 000 places pour les dispositifs et publics spécifiques.\n\n\n\nAujourd’hui, les données ouvertes concernent uniquement les formations de la commande publique : \n\n  * Programme RÉGION FORMATION - PRÉPA dans sa globalité : RÉGION FORMATION - PRÉPA Avenir (découverte des secteurs professionnels et validation d’un projet), RÉGION FORMATION - PRÉPA Clés (acquisition des compétences clés) et RÉGION FORMATION - PRÉPA Rebond (préparation de l’insertion socio-professionnelle de jeunes sortis du système scolaire sans qualification et des bénéficiaires du RSA dans le cadre de partenariats avec les Départements) \n  * Programme RÉGION FORMATION - VISA : RÉGION FORMATION - VISA Métiers (formations qualifiantes à un métier) \n  * Programme RÉGION FORMATION - ACCÈS : Accès entrepreneur (formations à la création ou reprise d’entreprises) \n  * Programme spécifique : RÉGION FORMATION - DFPS (formations spécifiques destinées aux personnes détenues)\n\nSoit 15 550 places sur les 35 000 programmées par an.\n\nCe jeu de données traite des formations dont la date de début est comprise entre juillet 2017 et la dernière mise à jour du fichier"
+        },
+        "id": "614e689d4d673d31e4b0681a",
+        "title": {
+          "en": "Actions de formation professionnelle continue en Pays de la Loire"
+        },
+        "distributions": [
+          {
+            "format": {
+              "title": "JSON",
+              "id": "JSON"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "JSON",
+              "id": "JSON"
+            }
+          },
+          {
+            "format": {
+              "title": "Esri Shape",
+              "id": "SHP"
+            }
+          }
+        ]
+      },
+      {
+        "release_date": "2019-10-11T10:38:55.847060Z",
+        "catalog": {
+          "id": "data-gov-ua",
+          "title": {
+            "en": "data.gov.ua"
+          },
+          "country": {
+            "id": "ua"
+          }
+        },
+        "modification_date": "2021-10-10T20:07:27.084810Z",
+        "description": {
+          "en": "Фінансова та бюджетна звітність"
+        },
+        "id": "3c80a5f7-80ab-4e87-9f10-0bee4d388e97",
+        "title": {
+          "en": "Форми фінансової звітності"
+        },
+        "distributions": [
+          {
+            "format": {
+              "title": "PDF",
+              "id": "PDF"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "PDF",
+              "id": "PDF"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "PDF",
+              "id": "PDF"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "PDF",
+              "id": "PDF"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "PDF",
+              "id": "PDF"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "PDF",
+              "id": "PDF"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "PDF",
+              "id": "PDF"
+            }
+          },
+          {
+            "format": {
+              "title": "PDF",
+              "id": "PDF"
+            }
+          },
+          {
+            "format": {
+              "title": "PDF",
+              "id": "PDF"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "PDF",
+              "id": "PDF"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "PDF",
+              "id": "PDF"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "PDF",
+              "id": "PDF"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "PDF",
+              "id": "PDF"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          }
+        ]
+      },
+      {
+        "release_date": "2019-11-09T09:27:30.178783Z",
+        "catalog": {
+          "id": "data-gov-ua",
+          "title": {
+            "en": "data.gov.ua"
+          },
+          "country": {
+            "id": "ua"
+          }
+        },
+        "modification_date": "2021-10-10T19:40:35.375129Z",
+        "description": {
+          "en": "##Інформація про виписані електронні рецепти за програмою реімбурсації \"Доступні ліки\"\r\n###Розподіл рецептів за областями, населеними пунктами, закладами, віковою групою, категорією захворювання та МНН "
+        },
+        "id": "bfdf1966-a241-4eba-bf4e-44f579c5166b",
+        "title": {
+          "en": "Інформація про виписані електронні рецепти за програмою реімбурсації лікарських засобів («Доступні ліки»)"
+        },
+        "distributions": [
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          }
+        ]
+      },
+      {
+        "release_date": "2021-10-10T17:07:00.238Z",
+        "catalog": {
+          "id": "plateforme-ouverte-des-donnees-publiques-francaises",
+          "title": {
+            "fr": "Plateforme ouverte des données publiques françaises"
+          },
+          "country": {
+            "id": "fr"
+          }
+        },
+        "modification_date": "2021-10-10T17:23:55.889Z",
+        "description": {
+          "en": "Ce jeu de données répond au spécifications du schéma \"Infrastructures de recharge pour véhicules électriques\" disponible sur le site [schema.data.gouv.fr](https://schema.data.gouv.fr/etalab/schema-irve/latest.html)\nPublié le 2021-10-10"
+        },
+        "id": "6163019426c5754c57089abf",
+        "title": {
+          "en": "Infrastructures de recharge pour véhicules électriques"
+        },
+        "distributions": [
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          }
+        ]
+      },
+      {
+        "release_date": "2019-10-01T09:19:53.988080Z",
+        "catalog": {
+          "id": "data-gov-lv",
+          "title": {
+            "lv": "data.gov.lv"
+          },
+          "country": {
+            "id": "lv"
+          }
+        },
+        "modification_date": "2021-10-10T16:30:13.695816Z",
+        "description": {
+          "en": "Information on the official electronic address activated, deactivated accounts and cancelled e-addresses. Data are updated on an hourly basis."
+        },
+        "id": "9b7a9f65-58b7-4e0d-a4fd-dee6e4a1f5d3",
+        "title": {
+          "en": "Official electronic address (e-address)"
+        },
+        "distributions": [
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          }
+        ]
+      },
+      {
+        "release_date": "2020-04-08T00:00:00Z",
+        "catalog": {
+          "id": "data-gov-lv",
+          "title": {
+            "lv": "data.gov.lv"
+          },
+          "country": {
+            "id": "lv"
+          }
+        },
+        "modification_date": "2021-10-10T15:58:21.413749Z",
+        "description": {
+          "en": "Slimību profilakses un kontroles centram iesniegtā operatīvā informācija  par apstiprinātajiem COVID-19 gadījumiem.\r\nDati tiek apkopoti reizi dienā no laboratorijām un ārstniecības personām.\r\n\r\nIepriekš publicētie dati sadalījumā pa administratīvajām teritorijām var tikt aktualizēti atbilstoši precizētai informācijai par personas dzīvesvietu. \r\nNo 21.05.2020. līdz 18.10.2020. ir pieejami dati par aktīvo gadījumu skaitu.\r\nNo 18.10.2020. tiek publicēti dati par 14 dienu kumulatīvo saslimstību - personu skaits, kurām pēdējās 14 dienās konstatēta Covid-19 infekcija. \r\n"
+        },
+        "id": "e150cc9a-27c1-4920-a6c2-d20d10469873",
+        "title": {
+          "en": "COVID-19 apstiprināto gadījumu skaits un 14 dienu kumulatīvā saslimstība pa administratīvajām teritorijām"
+        },
+        "distributions": [
+          {
+            "format": {
+              "title": "JSON",
+              "id": "JSON"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          }
+        ]
+      },
+      {
+        "release_date": "2020-04-06T00:00:00Z",
+        "catalog": {
+          "id": "data-gov-lv",
+          "title": {
+            "lv": "data.gov.lv"
+          },
+          "country": {
+            "id": "lv"
+          }
+        },
+        "modification_date": "2021-10-10T15:57:12.174317Z",
+        "description": {
+          "en": "Veikto laboratorisko testu skaits, lai noteiktu SARS-CoV-2 vīrusu, saņemto ziņojumu skaits par laboratoriski apstiprinātiem gadījumiem, saņemto ziņojumu skaits par nāves gadījumiem, ziņojumu skaits par slimības iznākumu atbilstoši noteiktiem kritērijiem."
+        },
+        "id": "f01ada0a-2e77-4a82-8ba2-09cf0cf90db3",
+        "title": {
+          "en": "COVID-19 izmeklējumi, apstiprinātie gadījumi un iznākumi"
+        },
+        "distributions": [
+          {
+            "format": {
+              "title": "JSON",
+              "id": "JSON"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          }
+        ]
+      },
+      {
+        "release_date": "2021-01-19T00:00:00Z",
+        "catalog": {
+          "id": "data-gov-lv",
+          "title": {
+            "lv": "data.gov.lv"
+          },
+          "country": {
+            "id": "lv"
+          }
+        },
+        "modification_date": "2021-10-10T12:13:47.533585Z",
+        "description": {
+          "en": "The dataset contains the daily operational information provided by hospitals on the number of in-patient patients with COVID-19 infection and their disease progression for the previous day period 00:00-23:59. As well as the number of prescribed patients treated in-patient with confirmed COVID-19 who have been prescribed home for outpatient supervision, transferred to another hospital or died between the start of COVID-19 infection and 23:59 of the previous day.  \nThe clinics provide these data for the previous day, i.e. the reference data of 1 January 2021 to describe the situation as at 31 December 2020."
+        },
+        "id": "cbd91f16-0d67-465b-b89b-d315c9358c77",
+        "title": {
+          "en": "Stationary operational data for COVID-19"
+        },
+        "distributions": [
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          }
+        ]
+      },
+      {
+        "release_date": "2021-02-24T14:19:11.610586Z",
+        "catalog": {
+          "id": "data-gov-ua",
+          "title": {
+            "en": "data.gov.ua"
+          },
+          "country": {
+            "id": "ua"
+          }
+        },
+        "modification_date": "2021-10-10T11:43:22.344825Z",
+        "description": {
+          "en": "##Інформація про створені електронні медичні записи про вакцинацію населення від Коронавірусної хвороби "
+        },
+        "id": "4cced549-1a03-4e0b-afbb-461febb26007",
+        "title": {
+          "en": "Інформація про вакцинацію населення від Коронавірусної хвороби"
+        },
+        "distributions": [
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          }
+        ]
+      },
+      {
+        "release_date": "2019-10-07T14:33:06.066569Z",
+        "catalog": {
+          "id": "data-gov-ua",
+          "title": {
+            "en": "data.gov.ua"
+          },
+          "country": {
+            "id": "ua"
+          }
+        },
+        "modification_date": "2021-10-10T09:29:35.046776Z",
+        "description": {
+          "en": "##Інформація про аптечні заклади, які уклали договір з НСЗУ та відпускають електронні рецепти  за програмою реімбурсації “Доступні ліки” \r\n###Інформація про перелік місць відпуску електронних рецептів \r\n\r\nПов'язані набори даних : \r\n1. Оплати аптечним закладам за договорами реімбурсації лікарських засобів («Доступні ліки») з НСЗУ https://data.gov.ua/dataset/959dca0a-9b74-41ff-a7c8-f8de6398a219"
+        },
+        "id": "d0f0755f-ce75-4d6b-8310-6e4ddf320c11",
+        "title": {
+          "en": "Інформація про аптечні заклади, які уклали договір із НСЗУ за програмою реімбурсації лікарських засобів («Доступні ліки») та відпускають електронні рецепти."
+        },
+        "distributions": [
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          }
+        ]
+      },
+      {
+        "release_date": "2019-09-05T13:09:38.415006Z",
+        "catalog": {
+          "id": "data-gov-ua",
+          "title": {
+            "en": "data.gov.ua"
+          },
+          "country": {
+            "id": "ua"
+          }
+        },
+        "modification_date": "2021-10-10T08:59:44.945881Z",
+        "description": {
+          "en": "##Інформація щодо укладених декларацій з лікарями які надають первинну медичну допомогу в ЕСОЗ\r\n\r\n###Розподіл декларацій за областями, населеними пунктами, медичними закладами, лікарями, статтю та віковими групами пацієнтів.\r\n\r\nПов'язані набори даних :\r\n1. Інформація про суб'єктів господарювання, які уклали договір із НСЗУ за програмою медичних гарантій https://data.gov.ua/dataset/a1d554df-be4b-4d3f-8063-dd0db4d83ff5\r\n2. Укладені договори про медичне обслуговування населення за програмою медичних гарантій - https://data.gov.ua/dataset/6da6e500-e3c0-4a6a-9cb1-764582b531ee"
+        },
+        "id": "95c82130-4310-4edb-b7e5-f01b59385eb0",
+        "title": {
+          "en": "Внесені в ЕСОЗ декларації про вибір лікаря ПМД"
+        },
+        "distributions": [
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          }
+        ]
+      },
+      {
+        "release_date": "2019-11-09T09:35:00.018034Z",
+        "catalog": {
+          "id": "data-gov-ua",
+          "title": {
+            "en": "data.gov.ua"
+          },
+          "country": {
+            "id": "ua"
+          }
+        },
+        "modification_date": "2021-10-10T08:49:02.016628Z",
+        "description": {
+          "en": "##Інформація про погашені електронні рецепти за програмою реімбурсації \"Доступні ліки\"\r\n###Розподіл погашених рецептів за областями, населеними пунктами, аптеками,  категорією захворювання"
+        },
+        "id": "193cb9ba-e12e-4987-a9a9-d464e834593e",
+        "title": {
+          "en": "Інформація про погашені електронні рецепти за програмою реімбурсації лікарських засобів («Доступні ліки»)"
+        },
+        "distributions": [
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          }
+        ]
+      },
+      {
+        "release_date": "2021-07-17T12:33:47.157719Z",
+        "catalog": {
+          "id": "data-gov-ua",
+          "title": {
+            "en": "data.gov.ua"
+          },
+          "country": {
+            "id": "ua"
+          }
+        },
+        "modification_date": "2021-10-10T08:10:22.361137Z",
+        "description": {
+          "en": "## Інформація про укладені чинні договори за програмою реімбурсації лікарських засобів\r\nПов'язані набори даних : Інформація про аптечні заклади, які уклали договір із НСЗУ за програмою реімбурсації лікарських засобів («Доступні ліки») та відпускають електронні рецепти https://data.gov.ua/dataset/3503ea5a-456d-4780-905b-b74e7d8f09cf"
+        },
+        "id": "b3bb19ae-d355-4a06-92cd-854e6a5028bd",
+        "title": {
+          "en": "Укладені договори за програмою реімбурсації лікарських засобів"
+        },
+        "distributions": [
+          {
+            "format": {
+              "title": "CSV",
+              "id": "CSV"
+            }
+          },
+          {
+            "format": {
+              "title": "Excel XLSX",
+              "id": "XLSX"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

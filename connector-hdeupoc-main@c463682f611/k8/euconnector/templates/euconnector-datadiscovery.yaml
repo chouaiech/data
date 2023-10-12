@@ -1,0 +1,47 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: eu-datadiscovery-service
+  namespace: {{ .Values.namespace }}
+spec:
+  selector:
+    app: eu-datadiscovery
+  ports:
+    - protocol: TCP
+      port: 8101
+      targetPort: 8101
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: eu-datadiscovery
+  namespace: {{ .Values.namespace }}
+  labels:
+    app: eu-datadiscovery
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: eu-datadiscovery
+  template:
+    metadata:
+      labels:
+        app: eu-datadiscovery
+    spec:
+      volumes:
+      - name: eu-configmap
+        configMap:
+          name: eu-configmap
+          items:
+            - key: config.yml
+              path: config.yml
+      containers:
+      - name: eu-datadiscovery
+        image: code.europa.eu:4567/healthdataeu-nodes/hdeupoc/cs_datadiscovery:{{ .Values.releaseTag }}
+        ports:
+        - containerPort: 8101
+        volumeMounts:
+        - name: eu-configmap
+          mountPath: /usr/src/app/config.yml
+          subPath: config.yml
+          readOnly: true

@@ -1,0 +1,525 @@
+{
+    "message": {
+        "navigation": {
+            "dashboard": "Panel",
+            "download_report": {
+                "help": "Stiahnuť kompletný report pre tento katalóg.",
+                "second_ods": "Open Document Spreadsheet (.ods)",
+                "direct": "Stiahnuť ako report",
+                "second_xls": "Microsoft Excel (.xlsx)",
+                "second_pdf": "Portable Document Format (.pdf)"
+            },
+            "catalogues": "Katalógy",
+            "about": "dokumentácia",
+            "methodology": "Metodológia",
+            "validation": "validácia"
+        },
+        "dashboard": {
+            "overview": {
+                "header": {
+                    "allCatalogues": "Všetky katalógy",
+                    "topNumber": "Top {number}",
+                    "topNumberCatalogues": "Top {number} kat."
+                },
+                "table_tooltip": {
+                    "dcat_ap": "Percento metadát kompatibilných s DCAT-AP. Táto kontrola sa vykonáva iba pre portály, ktoré dodávajú DCAT-AP, napríklad prostredníctvom rozšírenia CKANEXT-DCAT.",
+                    "machine_readability": "Percento distribúcií, ktoré sa stanú strojovo interpretovateľným formátom.",
+                    "accessibility_download_url": "Percento dostupných adries URL na prevzatie. Prístupnosť sa určuje pomocou metódy HTTP GET. Keďže DownloadURL nie je povinnou informáciou, v prípade chýbajúcich informácií sa kontrola nemôže uskutočniť.",
+                    "known_licenses": "Percento použitých známych licencií. Ďalšie informácie o známych licenciách nájdete v nasledujúcich častiach. Keďže licencia nie je povinná, kontrola sa nemôže uskutočniť, ak chýbajú informácie.",
+                    "accessibility_access_url": "Percento prístupných prístupových práv (AccessURL). Prístupnosť sa určuje pomocou metódy HTTP GET."
+                },
+                "headline": "Prehľad",
+                "table_title": {
+                    "desc": "Opis",
+                    "known_licences": "Známe licencie",
+                    "dcat_ap": "Zhoda s DCAT-AP",
+                    "accessibility_access_url": "Dostupnosť prístupovej URL ",
+                    "accessibility_download_url": "Dostupnosť URL na stiahnutie",
+                    "country": "Krajina",
+                    "scoring": "Hodnotenie",
+                    "machine_readability": "Strojová čitateľnosť",
+                    "rating": "Hodnotenie",
+                    "name": "Názov"
+                },
+                "table_description": "Nasledujúca tabuľka poskytuje prehľad štyroch uvedených kritérií. Túto tabuľku môžete usporiadať kliknutím na záhlavia stĺpcov. Upozorňujeme, že MQA môže poskytnúť len tie informácie, ktoré poskytujú zdrojové portály. Informácie týkajúce sa distribúcií, URL na stiahnutie a licencií sú nepovinné a MQA označuje chýbajúce informácie znamienkom mínus „-“. Upozorňujeme tiež, že súlad s DCAT-AP možno zistiť len vtedy, keď zdrojový portál poskytuje svoje metaúdaje v prepojených údajoch DCAT-AP. Ďalšie formáty sú označené znamienkom mínus „-“."
+            },
+            "interoperability": {
+                "plots": {
+                    "title": {
+                        "formatMediaTypeAlignment": "Formát/typ média zo slovníka",
+                        "formatMediaTypeNonProprietary": "Nevlastnícke",
+                        "mediaTypeAvailability": "Typ média",
+                        "formatAvailability": "Formát",
+                        "dcatApCompliance": "Súlad s DCAT-AP",
+                        "formatMediaTypeMachineReadable": "Strojovo čitateľné"
+                    }
+                },
+                "description": "Toto sú indikátory, ktoré zvyšujú interoperabilitu dátovej množiny",
+                "title": "Interoperabilita"
+            },
+            "reusability": {
+                "description": "Nasledujúca tabuľka popisuje, ktoré metriky sa používajú na kontrolu možnosti opätovného použitia dát. V tejto oblasti možno dosiahnuť najviac 75 bodov.",
+                "plots": {
+                    "title": {
+                        "accessRightsAlignment": "Slovník pre obmedzenie prístupu",
+                        "contactPointAvailability": "Kontaktný bod",
+                        "licenceAlignment": "Slovník pre licenciu",
+                        "publisherAvailability": "Vydavateľ",
+                        "licenceAvailability": "Informácie o licencii",
+                        "accessRightsAvailability": "Obmedzenia prístupu"
+                    }
+                },
+                "title": "Možnosť opätovného použitia"
+            },
+            "show_history": "Zobraziť históriu",
+            "contextuality": {
+                "description": "Informácia, ktorá používateľovi poskytuje ďalší kontext",
+                "plots": {
+                    "title": {
+                        "dateIssuedAvailability": "Dátum vydania",
+                        "rightsAvailability": "Práva",
+                        "byteSizeAvailability": "Veľkosť súboru",
+                        "dateModifiedAvailability": "Dátum úpravy"
+                    }
+                },
+                "title": "Kontextualita"
+            },
+            "accessibility": {
+                "plots": {
+                    "title": {
+                        "accessibilityOfDistributions": "Možnosť distribúcie",
+                        "accessUrlAvailability": "Dostupná prístupová webová adresa",
+                        "existingDownloadUrl": "Existujúce webové adresy na stiahnutie",
+                        "accessibilityAccessUrl": "Dostupnosť prístupových webových adries",
+                        "accessUrl": "Prístupová webová adresa",
+                        "accessUrlStatusCodes": "Najčastejšie kódy stavu prístupovej webovej adresy",
+                        "downloadUrlStatusCodes": "Najčastejšie kódy stavu webových adries na stiahnutie",
+                        "downloadUrlAvailability": "Parsisiųsti URL",
+                        "statusErrorCode": "Kódy chybových stavov",
+                        "accessibilityDownloadUrl": "Dostupnosť webových adries na stiahnutie"
+                    }
+                },
+                "title": "Dostupnosť",
+                "headline": "Dostupné distribúcie",
+                "description": "Nasledujúce diagramy obsahujú informácie o dostupnosti distribúcií. Pre každú URL je vypracovaná požiadavka HTTP HEAD a odpoveď je kontrolovaná. Upozorňujeme, že podľa DCAT-AP je URL na stiahnutie nepovinná, a preto musí byť v zdrojovom portáli jasne označená. Toto platí len pre zdrojové portály, ktoré v DCAT-AP poskytujú svoje metaúdaje. "
+            },
+            "site_title": "Portál európskych údajov | MQA | Kontrolný panel",
+            "findability": {
+                "title": "Možnosť vyhľadania",
+                "plots": {
+                    "title": {
+                        "keywordAvailability": "Používanie kľúčových slov",
+                        "spatialAvailability": "Geografické vyhľadávanie",
+                        "temporalAvailability": "Vyhľadávanie podľa času",
+                        "categoryAvailability": "Kategórie"
+                    }
+                },
+                "description": "Toto sú indikátory, ktoré ľuďom a strojom pomáhajú pri vyhľadávaní dátových množín"
+            },
+            "scoring": {
+                "description": "Hodnotenie vyjadruje celkovú kvalitu metadát vo všetkých dimenziách.",
+                "plots": {
+                    "known": "známe",
+                    "unknown": "neznáme",
+                    "title": {
+                        "timeBasedScoring": "Vývoj hodnotenia"
+                    }
+                },
+                "title": "Vývoj hodnotenia"
+            },
+            "show_today": "Zobraziť dnešok",
+            "weight": "Hmotnosť",
+            "points": "Body",
+            "intro": {
+                "desc": "<p>Zabezpečenie kvality metaúdajov je určené na pomoc poskytovateľom údajov a dátovým portálom pri kontrole ich metaúdajov na základe rôznych ukazovateľov. Informácie o tom, ktoré metriky používame na meranie ukazovateľov, nájdete na našej stránke metodiky.</p>\n<p>Táto stránka poskytuje všeobecný prehľad všetkých metaúdajov dostupných pre data.europa.eu. Pre podrobný prehľad jednotlivých katalógov použite stránku Katalógy a vyberte požadovaný katalóg.</p>"
+            },
+            "dimensions": "Dimenzie"
+        },
+        "catalogue_detail": {
+            "introduction": "Táto stránka uvádza bežný stav katalógu vzhľadom na distribúcie a zhody s DCAT-AP.",
+            "harvesting": {
+                "run": {
+                    "updated": "Aktualizované",
+                    "duration": "Trvanie (dni hodiny:minúty:sekundy)",
+                    "show_log": "Zobraziť položky denníka z posledného kola.",
+                    "end": "Čas ukončenia",
+                    "start": "Čas začiatku",
+                    "log_noattachment": "Pri preberaní prílohy nastala chyba",
+                    "skipped": "Vynechané",
+                    "log": "{0} Denníky {1} až {2} z {3}",
+                    "deleted": "Vymazané",
+                    "no_runs": "Predchádzajúce kolá zberu nie sú dostupné alebo ešte nie sú naplánované.",
+                    "rejected": "Odmietnuté",
+                    "added": "Pridané"
+                },
+                "repository_harvester": "Archív zdrojového katalógu",
+                "show_script": "Zobraziť transformačný skript",
+                "show_information": "Zobraziť informácie týkajúce sa zberača dát",
+                "publisher": "Poskytovateľ údajov",
+                "next_schedule": "Ďalší rozvrh",
+                "default_language": "Predvolený jazyk",
+                "homepage": "Domovská stránka",
+                "email_address": "E-mailová adresa",
+                "incremental": "Prírastkové",
+                "frequency": "Frekvencia",
+                "type": "Typ",
+                "transformation_script": "{0} Transformačný skript",
+                "title": "Zber informácií",
+                "not_present": "Tento katalóg nie je predmetom zberu, preto nie sú k dispozícii žiadne informácie o zhromažďovaní.",
+                "last_run": "Posledné kolo zberu dát"
+            },
+            "violations": {
+                "location": "Miesto porušenia",
+                "non_compliant": "Nezhodné",
+                "resultPath": "Cesta k výsledku",
+                "subheadline": "Porušenia datasetu",
+                "title": "Nevyhovujúce datasety",
+                "value": "Hodnota",
+                "desc": "Popis porušenia",
+                "site_title": "Portál európskych údajov | MQA | Porušenia",
+                "introduction": "Toto zobrazenie obsahuje všetky datasety, ktoré nie sú v zhode s pravidlami SHACL DCAT-AP.",
+                "own_headline": "Porušenia schémy DCAT-AP",
+                "resultMessage": "Hlásenie k výsledku"
+            },
+            "distributions": {
+                "introduction": "V tomto pohľade je zoznam všetkých datasetov, ktoré majú nedostupné distribúcie.",
+                "help": "Pozrite nedostupné distribúcie vo vybranom katalógu.",
+                "mediatype_checked": "Typ média (z testovacích údajov)",
+                "desc": "Datasety s nedostupnými distribúciami",
+                "not_available_access": "K dispozícii nie je žiadna prístupová URL",
+                "title": "Problémy s prístupom k distribúcii",
+                "format": {
+                    "not_machine_readable": "Nie je čitateľné strojom",
+                    "name": "Formát"
+                },
+                "not_available_dl": "K dispozícii nie je žiadna URL na stiahnutie",
+                "download_url": "Parsisiųsti URL",
+                "mediatype_given": "Typ média (z testovacích údajov)",
+                "nodistributions": "Žiadne distribúcie nie sú k dispozícii na vykonanie kontroly.",
+                "access_url": "Access URL",
+                "site_title": "Portál európskych údajov | MQA | Distribúcie",
+                "availability_checked_on": "Dostupnosť overená {date}"
+            },
+            "call_to_action": "Na získanie podrobných informácií vyberte katalóg",
+            "title": "Kontrolný panel katalógu",
+            "site_title": "Portál európskych údajov | MQA | Kontrolný panel"
+        },
+        "common": {
+            "compliant": "Súlad",
+            "json": "CKAN JSON",
+            "deu": {
+                "url": "www.data.europa.eu",
+                "title": "data.europa.eu"
+            },
+            "site_title_violations": "Porušenie schémy DCAT-AP",
+            "all": "všetko",
+            "close": "Zavrieť",
+            "affacteddatasets": "Dotknuté datasety",
+            "cataloguedetails": "Zobraziť podrobnosti o katalógu",
+            "previous": "Naspäť",
+            "violation": "Porušenie schémy DCAT-AP",
+            "edp": {
+                "title": "Portál európskych údajov"
+            },
+            "yes": "Áno",
+            "error": "Chyba",
+            "portal_page": "Stránka Portálu",
+            "since": "Od",
+            "site_title": "Kvalita metaúdajov | Oficiálny portál pre údaje EÚ",
+            "version": "Verzia",
+            "ok": "Ok",
+            "distributions": "Distribúcie",
+            "no": "Nie",
+            "violations": "Porušenia schémy DCAT-AP",
+            "download_url": "Stiahnuť URL",
+            "datasets": "Datasety",
+            "site_title_distributions": "Problémy s prístupom k distribúcii",
+            "home": "Domovská stránka",
+            "page": "Strana",
+            "notavailable": "Nedostupné",
+            "status": "Stav"
+        },
+        "methodology": {
+            "dimensions": {
+                "reuse": {
+                    "main_text": " <p>Nasledujúca tabuľka popisuje, ktoré metriky sa používajú na kontrolu možnosti opätovného použitia dát. V tejto oblasti možno dosiahnuť najviac 75 bodov.</p>",
+                    "keywords_name_6": "Vydavateľ",
+                    "keywords_name_5": "Kontaktný bod",
+                    "keywords_name_4": "Slovník pre obmedzenie prístupu",
+                    "keywords_name_3": "Obmedzenia prístupu",
+                    "keywords_name_2": "Slovník pre licenciu",
+                    "keywords_name_1": "Informácia o licencii",
+                    "keywords_metric_6": "Skontroluje sa, či je zadefinovaná vlastnosť.",
+                    "keywords_metric_5": "Skontroluje sa, či je zadefinovaná vlastnosť.",
+                    "keywords_metric_4": "<p>Skontroluje sa, či <a href='https://publications.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/access-right' target='_blank'>sú použité výrazy z kontrolovaného slovníka pre prístupové práva</a>.</p>",
+                    "keywords_metric_3": "Skontroluje sa, či je zadefinovaná vlastnosť.",
+                    "keywords_metric_2": "<p>Táto časť opisuje všetky rozmery, ktoré MQA skúma s cieľom určiť kvalitu. Rozmery sú odvodené od <a target='_blank' href='https://www.go-fair.org/fair-principles/'>FAIR princípov <i class='fas fa-external-link-alt fa-sm'></i></a>.</p>\n\n<p>MQA odporúča a pripisuje používanie kontrolovaných slovníkov. Portál data.europa.eu uverejňuje svoje kontrolované slovníky v <a href=‚https://gitlab.com/european-data-portal/edp-vocabularies‘ target=‚_blank‘>GitLab</a>. Slovníky sú odvodené z <a href=‚https://op.europa.eu/en/web/eu-vocabularies/authority-tables‘ target=‚_blank‘> Slovníky EÚ</a>.</p>",
+                    "keywords_metric_1": "Skontroluje sa, či je zadefinovaná vlastnosť.",
+                    "dcat_name_6": "dct:Publisher",
+                    "dcat_name_5": "dcat:ContactPoint",
+                    "dcat_name_4": "dct:AccessRights",
+                    "dcat_name_3": "dct:AccessRights",
+                    "dcat_name_2": "dct:License",
+                    "dcat_name_1": "dct:License",
+                    "keywords_desc_6": "Vydavateľ je osoba alebo organizácia, ktorá uverejnila dáta.",
+                    "keywords_desc_5": "Kontaktný bod obsahuje informáciu o tom, na koho sa obrátiť v prípade otázok týkajúcich sa dát.",
+                    "keywords_desc_4": "Používanie kontrolovaného slovníka zvyšuje možnosť opätovného použitia.",
+                    "keywords_desc_3": "Toto pole označuje, či je prístup k dátam verejný alebo obmedzený.",
+                    "keywords_desc_2": "Chceme obmedziť uvádzanie nesprávnych informácií o licencii. Stretávame sa napríklad s mnohými licenciami CC, pri ktorých nie sú uvedené verzie.",
+                    "keywords_desc_1": "Licencia je cenná informácia pri opätovnom používaní dát."
+                },
+                "contextual": {
+                    "main_text": "V nasledujúcej tabuľke sú uvedené niektoré vlastnosti s nízkou váhou, ktoré používateľovi poskytujú ďalší kontext. V tejto oblasti možno dosiahnuť najviac 20 bodov.",
+                    "keywords_metric_4": "Skontroluje sa, či je zadefinovaná vlastnosť.",
+                    "keywords_metric_3": "Skontroluje sa, či je zadefinovaná vlastnosť.",
+                    "keywords_metric_2": "Skontroluje sa, či je zadefinovaná vlastnosť.",
+                    "keywords_metric_1": "Skontroluje sa, či je zadefinovaná vlastnosť.",
+                    "keywords_name_4": "Dátum úpravy",
+                    "keywords_name_3": "Dátum vydania",
+                    "keywords_name_2": "Veľkosť súboru",
+                    "keywords_name_1": "Práva",
+                    "keywords_desc_4": "Dátum poslednej úpravy dátovej množiny alebo distribúcie.",
+                    "keywords_desc_3": "Dátum zverejnenia dátovej množiny alebo distribúcie.",
+                    "keywords_desc_2": "Špecifikuje veľkosť súboru v bajtoch.",
+                    "keywords_desc_1": "V niektorých prípadoch nie je na dátovú množinu možné použiť určitú licenciu. V poli „Práva“ možno uviesť referenciu k zdroju, ktorá bude používateľa informovať o právach, ktoré má pri používaní dátovej množiny.",
+                    "dcat_name_4": "dcat:Modified",
+                    "dcat_name_3": "dct:Issued",
+                    "dcat_name_2": "dcat:ByteSize",
+                    "dcat_name_1": "dcat:Rights"
+                },
+                "table": {
+                    "metric_name": "Indikátor",
+                    "dataset_and_distribution": "Dátová množina a distribúcia",
+                    "metric": "Metriky",
+                    "dataset": "Dátová množina",
+                    "desc": "Popis",
+                    "distribution": "Distribúcia",
+                    "weight": "Váha"
+                },
+                "accessible": {
+                    "main_text": " <p>Nasledujúca tabuľka popisuje, ktoré metriky sa používajú na určenie toho, či je garantovaný prístup k dátam uvedeným v distribúcii. V tejto oblasti možno dosiahnuť najviac 100 bodov.</p>",
+                    "dcat_name_3": "dcat:spatial",
+                    "dcat_name_2": "dcat:downloadURL",
+                    "dcat_name_1": "dcat:accessURL",
+                    "keywords_desc_3": "Ak existuje webová adresa na stiahnutie, skontroluje sa jej dostupnosť.",
+                    "keywords_desc_2": "Webová adresa na stiahnutie je priamy odkaz na uvedené dáta.",
+                    "keywords_desc_1": "Prístupová webová adresa nemusí byť priamy odkaz na dáta. Môže odkazovať aj na webovú adresu, ktorá umožňuje prístup k dátovej množine, alebo miesto, kde sa nachádzajú ďalšie informácie o dátovej množine.",
+                    "keywords_metric_3": "Dostupnosť uvedenej webovej adresy sa skontroluje prostredníctvom žiadosti HTTP HEAD. Ak je kód stavu odpovede v rozsahu 200 alebo 300, dostupnosť zdroja je hodnotená pozitívne.",
+                    "keywords_metric_2": "Skontroluje sa, či je zadefinovaná vlastnosť.",
+                    "keywords_metric_1": "Dostupnosť uvedenej webovej adresy sa skontroluje prostredníctvom žiadosti HTTP HEAD. Ak je kód stavu odpovede v rozsahu 200 alebo 300, dostupnosť zdroja je hodnotená pozitívne.",
+                    "keywords_name_3": "Dostupnosť webovej adresy na stiahnutie",
+                    "keywords_name_2": "Webová adresa na stiahnutie",
+                    "keywords_name_1": "Dostupnosť prístupovej webovej adresy"
+                },
+                "interoperable": {
+                    "main_text": " <p>Nasledujúca tabuľka popisuje, ktoré metriky sa používajú na určenie toho, či sa distribúcia považuje za interoperabilnú. Podľa predpokladu „totožný obsah s viacerými distribúciami“ sa na výpočet bodov použije len distribúcia s najvyšším počtom bodov. V tejto oblasti možno dosiahnuť najviac 110 bodov.</p>",
+                    "keywords_desc_6": "<p>DCAT-AP súlad sa vypočíta zo všetkých zdrojov a súborov údajov dostupných v katalógu. Táto kontrola sa vykoná len vtedy, ak sa metaúdaje pôvodne zozbierali ako DCAT-AP alebo ako platná derivate.</p><p><a href=‚https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe‘ target=‚_blank‘>DCAT-AP</a> je špecifikácia opisu prepojených verejných údajov v Európe. Portál data.europa.eu môže zbierať aj metaúdaje, ktoré nie sú plne v súlade s DCAT-AP. S cieľom zvýšiť súlad s DCAT-AP MQA kontroluje každý metaúdaj z hľadiska súladu DCAT-AP.</p>",
+                    "keywords_desc_5": "Kontroluje, či je formát distribúcie strojovo čitateľný.",
+                    "keywords_desc_4": "Kontroluje, či je formát distribúcie nevlastnícky.",
+                    "keywords_desc_3": "Kontroluje, či formát a typ média patrí do kontrolovaného slovníka.",
+                    "keywords_desc_2": "Toto pole špecifikuje typ média distribúcie.",
+                    "keywords_desc_1": "Toto pole špecifikuje formát súboru distribúcie.",
+                    "keywords_metric_6": "<p> metaúdaje sú validované na základe súboru <a href=‚https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe/releases‘ target=‚_blank‘>SHACL shapes</a>. Metaúdaje nie sú v súlade, ak validácia SHACL vykazuje aspoň jeden problém.</p>\n\n<p>MQA používa <a href=‚/shacl‘ target=‚_blank‘>data.europa.eu’s DCAT-AP SHACL</a> validačná služba.</p> \n\n<p><a href=‚https://www.w3.org/TR/shacl/‘ target=‚_blank‘>SHACL</a> je odporúčanie W3C a používa sa na validáciu grafov RDF podľa súboru tvarov.</p>",
+                    "keywords_metric_5": "Distribúcia sa považuje za strojovo čitateľnú, ak je špecifikovaný formát obsiahnutý v príslušnom slovníku data.europa.eu <a href=‚https://gitlab.com/european-data-portal/edp-vocabularies‘ target=‚_blank‘>GitLab repository</a> slovník.",
+                    "keywords_metric_4": "Distribúcia sa považuje za nechránenú, ak je špecifikovaný formát obsiahnutý v príslušnom slovníku data.europa.eu <a href=‚https://gitlab.com/european-data-portal/edp-vocabularies‘ target=‚_blank‘>GitLab repository</a> slovník.",
+                    "keywords_metric_3": "<p>Tvorba formátu sa nachádza v data.europa.eu <a href=‚https://gitlab.com/european-data-portal/edp-vocabularies‘ target=‚_blank‘>GitLab repository</a>.</p>\n\n<p>Typ média je kontrola proti <a href=‚https://www.iana.org/assignments/media-types/media-types.xhtml‘ target=‚_blank‘>IANA list</a></p>",
+                    "keywords_metric_2": "<p>Skontroluje sa, či je zadefinovaná vlastnosť.</p>",
+                    "keywords_metric_1": "<p>Skontroluje sa, či je zadefinovaná vlastnosť.</p>",
+                    "keywords_name_6": "Súlad s DCAT-AP",
+                    "keywords_name_5": "Strojovo čitateľné",
+                    "keywords_name_4": "Nevlastnícke",
+                    "keywords_name_3": "Formát/typ média zo slovníka",
+                    "keywords_name_2": "Typ média",
+                    "keywords_name_1": "Formát",
+                    "dcat_name_6": "Dátová množina a distribúcia",
+                    "dcat_name_5": "DCT:Format dcat:MediaType alebo/podvlastok",
+                    "dcat_name_4": "DCT:Format dcat:MediaType alebo/podvlastok",
+                    "dcat_name_3": "DCT:Format dcat:MediaType alebo/podvlastok",
+                    "dcat_name_2": "dcat:MediaType or subproperty of dct:Format",
+                    "dcat_name_1": "dct:Format"
+                },
+                "findability": {
+                    "keywords_desc_4": "Použitie dočasných informácií používateľom umožní vyhľadávanie podľa času.",
+                    "keywords_desc_3": "Použitie priestorových informácií používateľom umožní vyhľadať dátovú množinu pomocou geografických aspektov.",
+                    "keywords_desc_2": "Kategórie používateľom pomáhajú tematicky skúmať dátové množiny.",
+                    "keywords_desc_1": "Kľúčové slová priamo podporujú vyhľadávanie a tým pádom zvyšujú možnosť vyhľadania dátovej množiny.",
+                    "keywords_metric_4": "Skontroluje sa, či je zadefinovaná vlastnosť.",
+                    "keywords_metric_3": "Skontroluje sa, či je zadefinovaná vlastnosť.",
+                    "keywords_metric_2": "Skontroluje sa, či je k dátovej množine priradená jedna alebo viacero kategórií. Počet priradených kategórií skóre neovplyvňuje.",
+                    "keywords_metric_1": "Systém skontroluje, či sú zadefinované kľúčové slová. Počet kľúčových slov skóre neovplyvňuje.",
+                    "keywords_name_4": "Vyhľadávanie podľa času",
+                    "keywords_name_3": "Geografické vyhľadávanie",
+                    "keywords_name_2": "Kategórie",
+                    "keywords_name_1": "Používanie kľúčových slov",
+                    "dcat_name_4": " dcat:temporal",
+                    "dcat_name_3": "dcat:spatial",
+                    "dcat_name_2": "dcat:theme",
+                    "dcat_name_1": "dcat:Keyword",
+                    "main_text": "<p> Nasledujúca tabuľka popisuje metriky, ktoré ľuďom a strojom pomáhajú vyhľadať dátové množiny. V tejto oblasti možno dosiahnuť najviac 100 bodov.</p>"
+                },
+                "main_text": "<p>Táto sekcia popisuje všetky dimenzie, ktoré MQA skúma pri určovaní kvality. Dimenzie vychádzajú z <a target='_blank' href='https://www.go-fair.org/fair-principles/'>princípov FAIR <i class='fas fa-external-link-alt fa-sm'></i></a>.</p>"
+            },
+            "scoring": {
+                "table": {
+                    "bad": "Zlé",
+                    "range": "Bodový rozsah",
+                    "sufficient": "Postačujúce",
+                    "scoring_cat": "Hodnotenie",
+                    "good": "Dobré",
+                    "max_points": "Maximálny počet bodov",
+                    "excellent": "Výborné",
+                    "sum": "Celkom",
+                    "dimension": "Dimenzia"
+                },
+                "main_text": "Celkové hodnotenie dátovej množiny závisí od bodov pripočítaných za jednotlivé dimenzie.",
+                "text": "Celkové hodnotenie prebieha v štyroch skupinách hodnotenia. Mapovanie bodov na kategóriu hodnotenia je zobrazené v tabuľke nižšie. Na vyjadrenie hodnotenia v MQA sa používajú výlučne kategórie hodnotenia. Poskytovatelia tak môžu získať najvyššie hodnotenie, aj ak prídu o niekoľko bodov.",
+                "headline": "Hodnotenie"
+            },
+            "headline": "Metodika hodnotenia kvality metadát",
+            "cover": {
+                "validator_service": "DCAT-AP SHACL validačná služba API",
+                "main_text": " <p> MQA je obmedzená metaúdajmi, ktoré môže preskúmať. Prešetrovanie sa obmedzuje výlučne na metaúdaje, ktoré údaje.europa.eu zbierajú počas procesu zberu. Ak sa v zdrojových metaúdajoch vyskytnú chyby, tieto môžu sfalšovať celkový výsledok. S cieľom obmedziť tento potenciál chýb poskytuje MQA službu validácie, ktorú môžu poskytovatelia údajov použiť na validáciu svojich metaúdajov pre platné formáty a vyhovujúce DCAT-AP pred jej začlenením do procesu zberu.",
+                "validator_ui": "Webová stránka služby validácie DCAT-AP SHACL ",
+                "headline": "Čo nepokrývame"
+            },
+            "process": {
+                "main_text": "<p> Pri každom zbere sa metadáta kontrolujú aj prostredníctvom MQA. MQA meria kvalitu rôznych indikátorov (všetky indikátory sú vysvetlené v tabuľkách nižšie). Výsledky kontrol sa ukladajú ako Data Quality Vocabulary (Slovník kvality údajov) <a href='https://www.w3.org/TR/vocab-dqv/'>(DQV) <i class='fas fa-external-link-alt fa-sm'></i></a>. DQV je špecifikácia konzorcia W3C, ktorá sa používa na popísanie kvality dátovej množiny.</p>\n\n<p>Dostupnosť môže byť nestála, preto je potrebné opakovať kontroly prístupovej webovej adresy a webovej adresy na stiahnutie. Z tohto dôvodu MQA pravidelne kontroluje dostupnosť všetkých distribúcií. Na rozdiel od overovania iných indikátorov trvá táto kontrola dlhšie, pretože distribúcie sa kontrolujú prostredníctvom HTTP a jednotlivé vyžiadané webové adresy môžu mať dlhší čas odozvy. MQA používa mechanizmus, ktorý berie ohľad na to, že každá webová adresa sa niekoľko týždňov po poslednej kontrole dostupnosti kontroluje znova. </p>",
+                "headline": "Proces MQA"
+            },
+            "scope": {
+                "main_text": "<p> Pomocou MQA chceme zodpovedať nasledujúcu otázku: <br> Aká je kvalita metadát pre dáta verejného sektoru v paneurópskom regióne a ktoré prekážky najviac bránia dosahovaniu lepšej kvality? </p><p>MQA preto aktuálne skúma nasledujúce konkrétne otázky:</p><ul><li> Súlad s DCAT-AP a derivátmi DCAT-AP </li><li> Sprístupňovanie informácií, ktoré DCAT-AP sprístupňovať nemusí</li><li> Dostupnosť dát uvedených v metadátach prostredníctvom prístupovej webovej adresy a webovej adresy na stiahnutie</li><li> Strojová čitateľnosť uvedených dát </li><li> Používanie licencií</li></ul><p> Každá otázka vedie k samostatnému skúmaniu, ktoré sa podrobne popisuje nižšie.</p>",
+                "headline": "Rozsah výskumu"
+            },
+            "assumptions": {
+                "main_text": "<p> MQA vychádza z nasledujúcich predpokladov.</p><h6> Použitie nepovinných polí</h6><p> Domnievame sa, že samotné vyplnenie povinných polí DCAT-AP nestačí na poskytnutie vysoko kvalitných metaúdajov. Z tohto dôvodu sa v hodnotení kontrolujú aj polia, ktoré nie sú špecifikované ako povinné podľa DCAT-AP. Presné polia, ktoré sú začiarknuté, sú uvedené nižšie.</p><h6> \n\nIdentický obsah pre viacnásobné distribúcie</h6><p>Ak súbor údajov obsahuje viac ako jednu distribúciu, všetky distribúcie sú identické v obsahu, líšia sa len reprezentáciou údajov. Napríklad súbor údajov môže mať dve distribúcie, jedna ponúka údaje vo formáte PDF a druhá ponúka rovnaké údaje ako strojovo čitateľné RDF/XML. Táto definícia súvisí so spôsobom hodnotenia súborov údajov v MQA (druh „osvedčeného postupu“), ale nemala by sa považovať za štandardnú definíciu distribúcie.</p>",
+                "headline": "Predpoklady"
+            },
+            "intro_text": "<p><strong>The Metadata Quality Assessment (MQA) je nástroj vyvinutý konzorciom data.europa.eu na štúdium kvality metaúdajov zozbieraných data.europa.eu.</strong> Jeho cieľom je pomôcť poskytovateľom údajov a dátovým portálom kontrolovať ich kvalitu metaúdajov a dostávať návrhy na zlepšenie. Výsledky sú prezentované prostredníctvom MQA a sú k dispozícii aj ako stiahnutie. V nasledujúcom texte opisujeme funkčnosť MQA a metodiku, ktorú používa.</p>\n<p> Ak táto stránka stále neodpovedá na všetky vaše otázky, neváhajte nás kontaktovať prostredníctvom nášho formulára spätnej väzby na konci stránky. </p>",
+            "sub_headline": "Ako data.europa.eu meria kvalitu všetkých uložených metaúdajov"
+        },
+        "header": {
+            "navigation": {
+                "usingData": {
+                    "checklistForUsingData": "Kontrolné body pri používaní dát",
+                    "useCases": "Prípady použitia",
+                    "tellUsYourStory": "Povedzte nám svoj príbeh ",
+                    "title": "Použitie dát ",
+                    "benefitsOfUsingData": "Prínosy používania dát "
+                },
+                "impactStudies": {
+                    "useCases": "Prípady použitia",
+                    "overview": "Prehľad",
+                    "opendatamaturity": "Vyzretosť otvorených dát",
+                    "countryInsights": "Štatistiky krajín",
+                    "tellUsYourStory": "Povedzte nám svoj príbeh",
+                    "studies": "Identical content for multiple distributions</h6><p>If a dataset contains more than one distribution, all distributions are identical in content, they differ only in the representation of the data. For example, a dataset can have two distributions, one offering the data as PDF and the other offering the identical data as machine-readable RDF/XML. This definition is relative to how datasets are rated in the MQA (a sort of “best practice”) but should not be considered as the standard definition of distributions.</p>",
+                    "opendataimpact": "Vplyv otvorených dát",
+                    "title": "Vplyv a štúdie"
+                },
+                "training": {
+                    "dataProvidersGuide": "Príručka pre poskytovateľov dát",
+                    "whatIsOpenData": "Čo sú to otvorené dáta",
+                    "title": "Školenie",
+                    "elearning": "Elektronické vzdelávanie",
+                    "moreTrainingMaterial": "Ďalšie vzdelávacie materiály",
+                    "licensingAssistant": "Sprievodca licenciami"
+                },
+                "data": {
+                    "datasets": "Datasety",
+                    "sparqlsearch": "Vyhľadávanie SPARQL",
+                    "metadataQuality": "Kvalita metaúdajov",
+                    "licensingAssistant": "Sprievodca licenciami",
+                    "title": "Údaje",
+                    "statistics": "Štatistika",
+                    "euInternationalData": "Údaje EÚ a medzinárodné údaje",
+                    "sparqlManager": "SPARQL Manažér",
+                    "catalogues": "Katalógy",
+                    "countryData": "Údaje o krajine"
+                },
+                "resources": {
+                    "moreTrainingMaterial": "Ďalšie vzdelávacie materiály",
+                    "title": "Zdroje",
+                    "elearning": "e-vzdelávanie",
+                    "trainingCompanion": "Sprievodca pre školiteľov",
+                    "reportsAboutOpenData": "Správy o otvorených dátach"
+                },
+                "providingData": {
+                    "beHarvestedByUs": "Ako nám poskytnúť vaše dáta ",
+                    "title": "Poskytovanie údajov ",
+                    "cataloguesHarvestedByUs": "Katalógy, ktoré sme zozbierali",
+                    "practicalGuide": "Praktická príručka"
+                },
+                "whatWeDo": {
+                    "openDataMaturity": "Vyzretosť otvorených dát ",
+                    "ourActivities": "Naše aktivity",
+                    "factsheetsAndReports": "Informačné listy a správy",
+                    "title": "Čo robíme ",
+                    "calendar": "Kalendár",
+                    "featuredHighlights": "Vybrané články",
+                    "news": "Správy"
+                },
+                "about": {
+                    "beHarvestedByUs": "Ako nám poskytnúť vaše dáta",
+                    "documentation": "Dokumentácia",
+                    "title": "Informácie",
+                    "europeanDataPortal": "Portál Európskych Údajov"
+                },
+                "newsEvents": {
+                    "title": "Správy a udalosti",
+                    "events": "Udalosti",
+                    "news": "Správy"
+                }
+            },
+            "subnav": {
+                "contact": "Kontakt",
+                "legalNotice": "Právne upozornenie",
+                "search": "Vyhľadávanie",
+                "newsletter": "Spravodajca",
+                "cookies": "Súbory cookie",
+                "login": "Prihlásiť",
+                "faq": "Najčastejšie otázky"
+            },
+            "searchInputPlaceholder": "Vyhľadávanie obsahu stránky...",
+            "european": "Portál Európskych",
+            "searchOptions": {
+                "siteContent": "Obsah webu",
+                "datasets": "Datasety"
+            },
+            "dataPortal": "Údajov"
+        },
+        "footer": {
+            "links": {
+                "search": "Vyhľadávanie",
+                "newsletter": "Spravodajca",
+                "faq": "Najčastejšie otázky",
+                "contact": "Kontakt",
+                "subscribe": "Prihlásiť",
+                "cookies": "Súbory cookie",
+                "login": "Prihlásiť",
+                "legalNotice": "Právne upozornenie"
+            },
+            "managedBy": "Spravované zo strany Úradu pre vydávanie publikácií Európskej únie.",
+            "fundedBy": "Financovaný Európskou úniou",
+            "newsletter": "Prihláste sa na odber nášho bulletinu",
+            "helpUsImproveText": "Vaša spätná väzba nám pomôže zlepšiť celkovú používateľskú skúsenosť. Máte nejakí návrhy?",
+            "newsletterText": "Prihláste sa na odber nášho bulletinu",
+            "subscribe": "Prihlásiť k odberu",
+            "followUs": "Sledujte nás na",
+            "lastUpdate": "Posledná aktualizácia",
+            "helpUsImprove": "Pomôžte nám zlepšiť"
+        },
+        "maintenance_message": "Dobré správy! Pracujeme na vylepšení nášho systému. Počas tohto obdobia je tento komponent v režime údržby a nemusí zobrazovať všetky dostupné dáta.",
+        "catalogue_list": {
+            "description": "Na získanie podrobných informácií vyberte katalóg",
+            "search": {
+                "placeholder": "Vyhľadať názov katalógu alebo opis"
+            }
+        },
+        "title": "Metadata Quality Assurance",
+        "empty": "",
+        "no_data": "Pre tento indikátor nie sú k dispozícii žiadne merania",
+        "meta": {
+            "description": "Systém zabezpečenia kvality metaúdajov (Metadata Quality Assurance) ponúka všeobecný prehľad všetkých metaúdajov dostupných na portáli otvorených dát data.europa.eu podľa rôznych ukazovateľov."
+        }
+    }
+}

@@ -1,0 +1,379 @@
+{
+    "message": {
+        "datasetDetails": {
+            "openResource": "Отиване до ресурса",
+            "upload": {
+                "unknownFormat": "Неизвестен формат",
+                "resetText": "Желаете ли нулиране на цялата форма?",
+                "reset": "Нулиране на формата",
+                "individual": "Физическо лице",
+                "person": "Лице",
+                "organisation": "Организация"
+            },
+            "about": "за нас",
+            "geoInfo": "Обхват на набор от данни",
+            "translation": {
+                "link": "Щракнете тук, за да видите набора от данни на оригиналния език",
+                "message": "Заглавието и описанието на този набор от данни са машинен превод.",
+                "noTranslation": "Няма наличен превод на желания език.\nИнформацията е изведена на нейния оригинален език.",
+                "original": "Оригинален език",
+                "update": "В момента се прави актуален превод на този \nнабор от данни."
+            },
+            "options": "Опции",
+            "subnav": {
+                "activityStream": "Поток на активността",
+                "similarDatasets": "Сходни набори от данни",
+                "categories": "Категории",
+                "dataset": "Набор данни"
+            },
+            "edit": "Редактиране",
+            "follow": "Последване",
+            "preview": "Преглед",
+            "visualisation": "Открита визуализация",
+            "additionalInfo": "Допълнителна информация",
+            "feedback": "Обратна връзка",
+            "unfollow": "Прекратяване на следването",
+            "manage": "Управление ",
+            "delete": "Изтриване",
+            "geoVisualisation": "Открита геовизуализация",
+            "download": "Изтегляне",
+            "menu": "Меню"
+        },
+        "userQueries": {
+            "searchAllQueries": "Заявки за търсене…",
+            "queryDeleted": "Заявката е изтрита",
+            "querySaved": "Заявката е запазена",
+            "searchQueries": "Търсене в моите заявки…",
+            "noQueryFound": "Не са открити заявки",
+            "myQueries": "Моите заявки",
+            "noDescription": "Тази заявка няма описание",
+            "placeholderNotes": "напр. Полезни бележки за заявката",
+            "noQueriesSaved": "Не сте запазили никакви заявки.",
+            "queryFound": "{number} открита заявка",
+            "areYourSure": "Сигурни ли сте, че искате да изтриете тази заявка?",
+            "queriesFound": "{number} открити заявки",
+            "save": "Запазване на заявката",
+            "executeQuery": "Изпълнение на заявката"
+        },
+        "header": {
+            "navigation": {
+                "about": {
+                    "beHarvestedByUs": "Предоставяне на данни",
+                    "title": "За нас",
+                    "documentation": "Документи",
+                    "europeanDataPortal": "Европейски Портал за данни"
+                },
+                "training": {
+                    "whatIsOpenData": "Какво представляват свободно достъпните данни",
+                    "title": "Обучение",
+                    "dataProvidersGuide": "Ръководство за доставчици на данни",
+                    "moreTrainingMaterial": "Допълнителен материал за обучение",
+                    "elearning": "Електронно обучение",
+                    "licensingAssistant": "Лицензиращ асистент"
+                },
+                "data": {
+                    "sparqlsearch": "Търсене със SPARQL",
+                    "statistics": "Статистики",
+                    "euInternationalData": "Данни от ЕС и международни данни",
+                    "catalogues": "Каталози",
+                    "datasets": "Набори от данни",
+                    "countryData": "Данни за държавата",
+                    "metadataQuality": "Качество на метаданните",
+                    "title": "Данни"
+                },
+                "newsEvents": {
+                    "title": "Новини и събития",
+                    "events": "Събития",
+                    "news": "Новини"
+                },
+                "impactStudies": {
+                    "studies": "Изследвания",
+                    "useCases": "Използване на случаи",
+                    "tellUsYourStory": "Споделете с нас вашата история",
+                    "title": "Въздействие и изследвания",
+                    "opendataimpact": "Въздействие на свободно достъпните данн",
+                    "countryInsights": "Задълбочени анализи по държ",
+                    "overview": "Общ преглед",
+                    "opendatamaturity": "Изтичане на срока на свободно дост"
+                },
+                "covid-19": {
+                    "title": "COVID-19",
+                    "datasets": "Набори от данни",
+                    "overview": "Преглед",
+                    "initiatives": "Инициативи свързани с данни"
+                }
+            },
+            "subnav": {
+                "logout": "Излизане от профила",
+                "cookies": "Бисквитки",
+                "login": "Влизане",
+                "search": "Търсене",
+                "newsletter": "Бюлетин",
+                "contact": "Контакти",
+                "legalNotice": "Правна информация",
+                "faq": "ЧЗВ"
+            },
+            "searchOptions": {
+                "siteContent": "Съдържание на сайта",
+                "datasets": "Набори от данни"
+            },
+            "searchInputPlaceholder": "Търсене в съдържанието на сайта…",
+            "dataPortal": "Портал за данни",
+            "european": "Европейски"
+        },
+        "pagination": {
+            "previousPage": "Назад",
+            "nextPage": "Следващ"
+        },
+        "statistics": {
+            "tableHead": {
+                "trend": "Тенденция",
+                "country": "Държава",
+                "catalogue": "Каталог",
+                "numberOfDatasets": "Брой набори от данни",
+                "name": "Име",
+                "category": "Категория",
+                "percent": "Процент от общите набори от данни"
+            },
+            "totalNumber": "Общ брой набори от данни",
+            "evolution": "Развитие",
+            "datasetsPerCountryAndCatalogue": "Набори от данни по страна и каталог",
+            "datasetsPerCountry": "Набори от данни по страна",
+            "datasetsPerCatalogue": "Набори от данни по каталог",
+            "selectTimePeriod": "Избор на времевия период",
+            "selectType": "Избор на статистическия тип",
+            "statistics": "Статистики",
+            "datasetsPerCategory": "Набори от данни по категория",
+            "currentState": "Текущо състояние",
+            "meta": {
+                "description": "Статистически данни за развитието на портала за отворени данни и брой на наборите от данни по държава, категория и каталог в data.europa.eu."
+            },
+            "page": {
+                "title": "Портал за отворени данни — статистика | data.europa.eu"
+            }
+        },
+        "metadata": {
+            "updatedLowerCase": "актуализиран",
+            "conformsTo": "Съответства на",
+            "dataset": "Набор от данни",
+            "email": "Имейл",
+            "title": "Заглавие",
+            "license": "Лиценз",
+            "name": "Име",
+            "upload": "Качване",
+            "created": "Създадено",
+            "addDistribution": "Добавяне на дистрибуция",
+            "chooseFile": "Избор на файл",
+            "distribution": "Дистрибуция",
+            "label": "Обозначение",
+            "review": "Преглед",
+            "otherIdentifiers": "Други идентификатори",
+            "chooseFormat": "Избор на формат",
+            "datasets": "Набори от данни",
+            "resource": "Ресурси",
+            "spatial": "Пространствени",
+            "deleteItem": "Сигурни ли сте, че искате да изтриете този елемент?",
+            "relatedResources": "Сродни изтоници",
+            "accessUrl": "URL за достъп",
+            "documentations": "Документации",
+            "frequency": "Честота",
+            "updated": "Актуализирано",
+            "no": "Няма",
+            "landingPage": "Целева страница",
+            "metadataQuality": "Качество на метаданните",
+            "yes": "Да",
+            "chooseCategory": "Избор на категория",
+            "update ": "Обновяване ",
+            "homepage": "Начало",
+            "contactPoints": "Звено за връзка",
+            "chooseCatalogue": "Избор на каталог",
+            "chooseType": "Избор на тип",
+            "description": "Вашето съобщение",
+            "downloadUrl": "URL за изтегляне",
+            "provenances": "Произход",
+            "tags": "Тагове",
+            "format": "Формат",
+            "coordinates": "Координати",
+            "sources": "Източници",
+            "categories": "Категории",
+            "publisher": "Издател",
+            "type": "Тип",
+            "distributions": "Дистрибуции",
+            "cancel": "Затваряне",
+            "identifiers": "Идентификатори"
+        },
+        "footer": {
+            "newsletterText": "Абонирайте се за нашия бюлетин",
+            "newsletter": "Бюлетин",
+            "fundedBy": "Финансиран от Европейския съюз",
+            "lastUpdated": "Последна актуализация",
+            "links": {
+                "search": "Търсене",
+                "newsletter": "Бюлетин",
+                "cookies": "Бисквитки",
+                "legalNotice": "Правна информация",
+                "faq": "ЧЗВ",
+                "contact": "Контакти",
+                "login": "Влизане"
+            },
+            "followUs": "Последвайте ни в",
+            "subscribe": "Абониране",
+            "helpUsImprove": "Помогнете ни да подобрим услугите си",
+            "managedBy": "Управлява се от Службата за публикации на Европейския съюз.",
+            "helpUsImproveText": "Вашата обратна връзка ще ни помогне да подобрим цялостното впечатление от платформата.\nИмате ли някакви предложения?"
+        },
+        "catalogueFacets": {
+            "and": "И",
+            "facets": {
+                "countries": "Държави",
+                "licences": "Лицензи",
+                "keywords": "Ключови думи",
+                "formats": "Формати",
+                "catalogues": "Каталози",
+                "categories": "Категории"
+            },
+            "operator": "Оператор",
+            "settings": "Настройки",
+            "or": "ИЛИ",
+            "europeanCatalogues": "Европейски каталози",
+            "title": "Филтри"
+        },
+        "similarDatasets": {
+            "notFound": "Не бе намерен сходен набор от данни.",
+            "lessSimilar": "Не толкова сходни",
+            "similarDatasets": "Сходни набори от данни",
+            "verySimilar": "Много сходни",
+            "similar": "Сходни",
+            "marginalSimilar": "Ограничено сходни"
+        },
+        "catalogues": {
+            "geoBoundsMessageRemove": "Затворете това известие, за да премахнете ограничението, или използвайте функцията за нулиране.",
+            "countMessage": "намерени каталози за ",
+            "countMessageSingular": "намерен каталог за ",
+            "searchBar": {
+                "placeholder": "Търсене на каталози..."
+            },
+            "loadingMessage": "Зареждане на каталози...",
+            "geoBoundsMessagePre": "Търсенето ви беше ограничено до:",
+            "countMessageNoResult": "Няма намерени каталози за "
+        },
+        "common": {
+            "edp": {
+                "title": "Европейски портал за данни"
+            },
+            "currentCatalogueStatistics": "Статистика на текущия каталог",
+            "historicalCatalogueStatistics": "Статистика на миналия каталог"
+        },
+        "categories": {
+            "tran": "Транспорт",
+            "heal": "Здравеопазване",
+            "gove": "Правителство и публичен сектор",
+            "envi": "Околна среда",
+            "intr": "Международни въпроси",
+            "agri": "Селско стопанство, рибарство, горско стопанство и \nхрани",
+            "soci": "Население и общество",
+            "econ": "Икономика и финанси",
+            "educ": "Образование, култура и спорт",
+            "ener": "Енергетика",
+            "tech": "Наука и технологии",
+            "regi": "Региони и градове",
+            "just": "Правосъдие, правна система и обществена безопасност"
+        },
+        "distributions": {
+            "footerLink": "Изтегляне"
+        },
+        "navigation": {
+            "navItems": {
+                "map": "Карта",
+                "home": "Начало",
+                "imprint": "Отпечатък",
+                "privacyPolicy": "Правила за поверителност",
+                "about": "За нас",
+                "data": "Данни"
+            }
+        },
+        "mapModal": {
+            "disclaimer": "Отказ",
+            "fullscreen": "Пълен екран",
+            "findDatasets": "Прилагане",
+            "close": "Затваряне",
+            "drawRectangleMsg": "Начертайте правоъгълник, за да изберете регион",
+            "reset": "Изтриване"
+        },
+        "datasetFacets": {
+            "facets": {
+                "catalogues": "Каталози",
+                "formats": "Формати",
+                "categories": "Категории",
+                "licences": "Лицензи",
+                "keywords": "Ключови думи",
+                "countries": "Държави",
+                "tags": "Тагове"
+            },
+            "title": "Филтри",
+            "operator": "Оператор",
+            "and": "И",
+            "settings": "Настройки",
+            "europeanCatalogues": "Европейски каталози",
+            "or": "или"
+        },
+        "catalogue": {
+            "searchBar": {
+                "placeholder": "Търсене на каталози"
+            },
+            "countMessage": "Открити са каталози",
+            "geoBoundsMessageRemove": "Затворете това известие, за да премахнете ограничението, или използвайте функцията за нулиране.",
+            "loadingMessage": "Каталозите са извлечени"
+        },
+        "datasets": {
+            "loadingMessage": "Зареждане на набори от данни…",
+            "geoBoundsMessagePre": "Търсенето ви беше ограничено до:",
+            "saveQuery": "Запазване на запитване",
+            "createDataset": "Създаване на набор от данни",
+            "datasetsFeed": "Информационен канал за наборите от данни",
+            "countMessageSingular": "набори от данни, намерени за ",
+            "meta": {
+                "translationNotComplete": "Преводът не е завършен"
+            },
+            "noResult": "Няма намерени набори от данни за ",
+            "geoBoundsMessageRemove": "Затворете това известие, за да премахнете ограничението, или използвайте функцията за нулиране.",
+            "searchBar": {
+                "placeholder": "Търсене в наборите от данни…"
+            },
+            "showMore": "Показване на повече",
+            "findLocation": "Филтриране по местоположение",
+            "countMessage": "набори от данни, намерени за "
+        },
+        "sort": {
+            "lastCreated": "Последно създадени",
+            "nameAZ": "По име във възходящ ред",
+            "nameZA": "По име в низходящ ред",
+            "relevance": "Уместност",
+            "lastUpdated": "Последно променени",
+            "sortBy": "Подреждане по"
+        },
+        "datasetCategories": {
+            "foundCategory": "{number} намерени категории",
+            "foundCategories": "{number} намерена категория",
+            "noCategories": "Няма намерени категории"
+        },
+        "distributionLicense": {
+            "notFound": "Няма намерена информация за лиценз.",
+            "openLA": "Асистент за открит лиценз",
+            "notFoundExtended": "Няма намерена допълнителна информация за лиценз, моля, \nпроверете източника за допълнителна информация за лиценза.",
+            "licensingAssistant": "Лицензиращ асистент",
+            "notProvided": "Няма предоставен лиценз"
+        },
+        "visualisation": {
+            "previewAvailable": "Наличен преглед",
+            "info": "Ако изображението не се зареди до няколко секунди, \nщракнете тук.",
+            "loading": "Визуализацията се зарежда..."
+        },
+        "imprint": {
+            "msg": "ВМЪКНЕТЕ ОТПЕЧАТЪК ТУК"
+        },
+        "home": {
+            "msg": "За съжаление тази страница все още няма съдържание.\nПосетете раздел „Данни“ за търсене на информация!"
+        }
+    }
+}

@@ -1,0 +1,10 @@
+Flask
+flask-cors
+openpyxl
+celery
+requests
+schedule
+SQLAlchemy
+pandas
+psycopg2-binary
+requests-toolbelt

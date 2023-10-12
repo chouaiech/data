@@ -1,0 +1,76 @@
+# Note: An invalid OpenAPI 3 yaml file will cause the following exception at startup:
+# io.vertx.ext.web.api.contract.RouterFactoryException: Wrong specification url/path: webroot/openapi.yaml
+
+openapi: 3.0.3
+
+info:
+  version: ${project.version}
+  title: Metrics Similarity Service
+  x-logo:
+    url: "images/logo"
+
+servers:
+  - url: ''
+
+paths:
+  /admin/fingerprinting:
+    get:
+      description: Start fingerprinting process
+      operationId: startFingerprinting
+      responses:
+        202:
+          description: Request accepted
+
+  /similarity/{datasetId}:
+    get:
+      description: Similarities for dataset
+      summary: Retrieves a list of the x most similar datasets for a given dataset ID
+      operationId: similaritiesForDataset
+      parameters:
+        - name: datasetId
+          in: path
+          description: Dataset ID for which similar datasets are to be retrieved
+          schema:
+            type: string
+          required: true
+        - name: limit
+          in: query
+          description: Number of similarities to return. Defaults to the number configured in the application
+          schema:
+            type: number
+            format: int32
+          required: false
+      responses:
+        200:
+          description: Request is valid and has been processed
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SimilarityResponse'
+              examples:
+                example:
+                  value: [ {"uri": "http://data.set/id",
+                            "id": "id",
+                            "dist": 10} ]
+        404:
+          description: Not found
+
+components:
+  schemas:
+    SimilarityResponse:
+      description: List of datasets with their respective distances
+      type: array
+      items:
+        type: object
+        properties:
+          uri:
+            description: URI of the dataset
+            type: string
+            format: uri
+          id:
+            description: ID of the dataset
+            type: string
+          dist:
+            description: Numeric distance to the dataset passed in the request
+            type: number
+            format: int32

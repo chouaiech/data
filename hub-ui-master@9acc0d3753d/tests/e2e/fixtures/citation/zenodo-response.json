@@ -1,0 +1,59 @@
+{
+  "type": "dataset",
+  "id": "https://doi.org/10.5281/zenodo.827184",
+  "categories": [
+    "systematic review",
+    "literature search",
+    "safety",
+    "QPS",
+    "risk assessment",
+    "data collection",
+    "toxicity",
+    "http://id.agrisemantics.org/gacs/C10616",
+    "http://id.agrisemantics.org/gacs/C3077",
+    "http://id.agrisemantics.org/gacs/C1470",
+    "http://id.agrisemantics.org/gacs/C2724",
+    "http://id.agrisemantics.org/gacs/C330"
+  ],
+  "author": [
+    {
+      "family": "de Benito",
+      "given": "Amparo"
+    },
+    {
+      "family": "Ibáñez",
+      "given": "Clara"
+    },
+    {
+      "family": "Moncho",
+      "given": "Walter"
+    },
+    {
+      "family": "Martínez",
+      "given": "David"
+    },
+    {
+      "family": "Vettorazzi",
+      "given": "Ariane"
+    },
+    {
+      "family": "de Cerain",
+      "given": "Adela López"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2017,
+        7,
+        24
+      ]
+    ]
+  },
+  "abstract": "The work performed constitutes the external scientific report of the EFSA contract OC/EFSA/FEED/2015/01. The aim of the project has been to provide EFSA with a database from a review on the taxonomical description and potential toxigenic capacities of microorganisms used for the industrial production of feed additives and food enzymes. The review includes microorganisms producing feed additives and food enzymes for which EFSA has received or can potentially receive applications for safety assessment, and which have not been recommended for Qualified Presumption of Safety (QPS) status. The database also comprises the molecular taxonomical identifiers and biosynthetic pathways involved in the production of toxic compounds and responsible genes. The main result of the project is shown as a database according to the EFSA data structure has been developed. The methodological aspects and the queries used in the systematic search and the procedure applied for the screening of retrieved scientific documents are described in this report. Details are available in supplementary appendices to this report.\n\nIn total, 22970 scientific documents were screened in the literature search from which 411 were initially selected for providing pertinent data for the scope of the project. From the review of the selected articles, 474 bioactive secondary metabolites were recorded and 59 compounds were further studied for obtaining data on their toxicology and characteristic of their production by microorganisms used in industrial fermentations. The database generated in this project comprises details that characterized the conditions, genes involved and toxicity of these 59 compounds. This provides information that can be used to establish safety measures when using potentially toxigenic microorganisms in industrial fermentations.\n\nThe searching strategy was defined after a preliminary study in which, general information about the fermentative process involving the microorganisms within the scope was obtained. This allowed to identify possible problems that can arise when retrieving data from this heterogeneous group of microorganisms.\n\nSeveral groups of species and groups of keywords were established to perform the searching strategy. The groups of keywords are the following:\n\n\n\tKeywords group 1: Terms related to toxin production and hazards\n\tKeywords group 2: Terms related to feed additives and food enzymes\n\tKeywords group 3: Terms related to fermentative processes\n\tKeywords group 4: Terms related to toxicology\n\tKeywords group 5: Terms related to biosynthetic pathways\n\n\nThe microbial species has been divided into 3 groups, <strong>Species I, Species II</strong>, and <strong>Species III,</strong> according to the preliminary outcome in PubMed search:\n\n<strong>Species I</strong>: Microorganisms that produced ≤ 200 entries when searched by scientific name.\n\n<strong>Species II</strong>: Microorganisms that produced ≤ 500 entries when searched by scientific name and keywords from group\n\n<strong>Species III</strong>: Microorganisms that produced &gt; 500 entries when searched by scientific name and keywords from group 1",
+  "DOI": "10.5281/ZENODO.827184",
+  "publisher": "Zenodo",
+  "title": "Database On The Taxonomical Identification And Potential Toxigenic Capacities Of Non-Qps",
+  "URL": "https://zenodo.org/record/827184",
+  "copyright": "Creative Commons Attribution-NoDerivatives"
+}

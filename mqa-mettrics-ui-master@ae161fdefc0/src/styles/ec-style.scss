@@ -1,0 +1,59 @@
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+body {
+  font-family: normal normal 400 1rem/1.5rem arial,sans-serif !important;
+}
+
+.dimensions-item-indicator > i {
+  display: none;
+}
+
+.dimensions-item-head {
+  padding-bottom: 1.5rem;
+}
+
+th {
+  background:#F2F5F9 !important;
+  font-weight: 700;
+  color: #404040;
+  border: none !important;
+  border-bottom: none !important;
+}
+
+.ecl-table {
+  border: 1px solid #EBEBEB;
+}
+
+.ecl-table__row {
+  border-bottom: 2px solid #9F9F9F!important;
+}
+
+.ecl-table__header {
+  background:#F2F5F9;
+  font-weight: 700;
+  color: #404040;
+}
+
+.score--unknown {
+  background-color: #3f3f3f;
+}
+
+.score--bad {
+  background-color: #DA2131;
+}
+
+.score--sufficient {
+  background-color: #F29527;
+}
+
+.score--good {
+  background-color: #467A39;
+}
+
+.score--excellent {
+  background-color: #006FB4;
+}
+
+

@@ -1,0 +1,15 @@
+domibus:
+  username: ansinuno 
+  url: pt-node-domibus
+  port: 8081
+  usehttps: false
+fairdatapoint:
+  usehttps: false
+  url: metadatabroker.healthdataportal.eu
+  username: test
+messagechecker:
+  port: 8151
+  url: pt-nationalconnector-messagechecker
+datapermit:
+  port: 8102
+  url: pt-nationalconnector-datapermit

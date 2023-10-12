@@ -1,0 +1,7 @@
+domibus:
+  username: ansinuno 
+  url: pt-node-domibus
+  port: 8081
+  usehttps: false
+messagechecker:
+  port: 8151

@@ -1,0 +1,119 @@
+.datasets-top-controls {
+  display: none !important;
+}
+
+.ec-ds-title {
+  font-size: 32px !important;
+  color: #404040 !important;
+  margin-bottom: 10px !important;
+  font-weight: 700;
+}
+
+.ds-input {
+  border-radius: 0 !important;
+  height: 48px;
+}
+
+.ec-ds-search {
+  margin-left: 13px;
+  border: 1px solid #404040;
+  border-right: none;
+}
+
+.ec-ds-search-button-container {
+  margin-left: -2px;
+}
+
+.ec-ds-search-btn {
+  width: 48px;
+  height: 48px;
+  border: solid 1px #004494;
+  background-color: #004494;
+  color: #fff;
+}
+
+.ec-ds-scope-dropdown {
+  width: 200px;
+  border: solid 1px #004494 !important;
+}
+
+.ec-ds-scope-dropdown-inlay {
+  width: 200px;
+  border: none;
+}
+
+.ec-ds-scope-select {
+  background-color: #fff;
+  color: #004494;
+}
+
+.ec-ds-scope-text {
+  color: #004494;
+}
+
+.ec-ds-scope-arrow {
+  filter: brightness(0) saturate(100%) invert(15%) sepia(80%) saturate(2890%) hue-rotate(203deg) brightness(97%) contrast(101%);
+}
+
+.ec-ds-dropdown-items {
+  border-radius: 0 !important;
+  border: solid 1px #707070 !important;
+  width: 198px;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.ec-ds-dropdown-items .active {
+  color: #fff !important;
+  background-color: #004494;
+}
+
+.ds-label {
+  background-color: #707070 !important;
+  color: #fff !important;
+  padding: 6px 10px 5px 10px !important;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.ds-result-headline {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: 32px;
+  margin-left: 15px;
+}
+
+.ds-result-headline:first-letter {
+  text-transform: uppercase;
+}
+
+hr {
+  border-top: 3px solid;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.ec-sort {
+  display: inline;
+  margin-top: 20px;
+}
+
+.ec-sort-dropdown {
+  width: 200px;
+  height: 48px;
+  > button {
+    border: 1px solid #404040;
+  }
+  .dropdown-menu {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 767px) { // less than md
+  .datasets.content {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 100% !important;
+  }
+}

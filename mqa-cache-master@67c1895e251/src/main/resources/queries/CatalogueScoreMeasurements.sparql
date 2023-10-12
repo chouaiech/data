@@ -1,0 +1,22 @@
+PREFIX dqv:  <http://www.w3.org/ns/dqv#>
+PREFIX dcat:  <http://www.w3.org/ns/dcat#>
+
+SELECT (AVG(?value) as ?averageScore) WHERE
+{
+    GRAPH ?g2
+    {
+        ?ds dqv:hasQualityMeasurement [
+            dqv:isMeasurementOf <%2$s> ;
+               dqv:value ?value
+        ]
+    }
+    {
+        SELECT ?ds WHERE
+        {
+            GRAPH ?g1
+            {
+                <%1$s> dcat:dataset ?ds
+            }
+        }
+    }
+}

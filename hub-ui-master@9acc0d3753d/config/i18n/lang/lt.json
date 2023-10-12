@@ -1,0 +1,969 @@
+{
+    "message": {
+        "metadata": {
+            "catalogRecord": "Katalogo įrašas",
+            "deleteItem": "Ar tikrai norite ištrinti šį elementą?",
+            "availability": "Prieinamumas",
+            "versionInfo": "Versijos informacija",
+            "chooseCategory": "Pasirinkti kategoriją",
+            "chooseFile": "Pasirinkti failą",
+            "versionNotes": "Versijos pastabos",
+            "review": "Peržiūrėti",
+            "tooltipKeywords": "Čia įveskite savo duomenų rinkinio raktažodžius!",
+            "pageDescriptionDataset": "Pridėkite pavadinimą, aprašą, katalogą, raktažodžius ir kategorijas prie savo duomenų rinkinio!",
+            "no": "Ne",
+            "relatedResources": "Susiję ištekliai",
+            "pageDescriptionPublisher": "Pridėkite skelbėjo tipą, pavadinimą ir pradinį puslapį prie savo duomenų rinkinio!",
+            "tooltipTitle": "Čia įveskite savo duomenų rinkinio pavadinimą!",
+            "linkedData": "Susieti duomenys",
+            "numSeries": "Duomenų eilučių skaičius",
+            "releaseDate": "Išleidimo data",
+            "yes": "Taip",
+            "unitsOfMeasurement": "Matavimo vienetai",
+            "distributionsEmpty": "Atsiprašome, šiuo metu šiam duomenų rinkiniui nėra įkeltų paskirstų. Pridėkite bent vieną paskirstą!",
+            "enterDownloadUrl": "Enter Download Url",
+            "frequency": "Dažnumas",
+            "type": "Rūšis",
+            "telephone": "Telefonas",
+            "label": "Etiketė",
+            "addedToDataEuropaEU": "Pridėta prie duomenų.europa.eu",
+            "tooltipCategories": "Čia pasirinkite savo duomenų rinkinio kategorijas!",
+            "temporal": "Laikotarpis",
+            "enterDescription": "Įveskite aprašą",
+            "accrualPeriodicity": "Kaupimo periodiškumas",
+            "showXMore": "Rodyti  {increment} daugiau ",
+            "identifier": "Identifikatorius",
+            "isPartOf": "Yra po katalogo",
+            "dataServices": "Duomenų paslaugos",
+            "chooseType": "Pasirinkti rūšį",
+            "organizationName": "Organizacijos pavadinimas",
+            "catalog": "Katalogas",
+            "qualityAnnotations": "Kokybės pastabos",
+            "update": "Atnaujinti",
+            "showAll": "Rodyti viską ",
+            "coordinates": "Koordinatės",
+            "email": "El. paštas",
+            "tooltipContactType": "Čia pasirinkite savo duomenų rinkinio kontaktinio centro tipą!",
+            "checksum": "Kontrolinė suma",
+            "enterEmail": "Įveskite el. pašto adresą",
+            "cancel": "Atšaukti",
+            "conformsTo": "Atitinka",
+            "downloadUrl": "Parsisiuntimo URL",
+            "chooseLicense": "Pasirinkti licenciją",
+            "tooltipDescription": "Čia įveskite savo duomenų rinkinio aprašą!",
+            "tags": "Žymės",
+            "accessUrl": "Prieigos URL",
+            "languages": "Kalbos",
+            "title": "Pavadinimas",
+            "enterTitle": "Įveskite pavadinimą",
+            "url": "URL",
+            "resource": "Išteklius",
+            "tooltipPublisherHomepage": "Čia įveskite savo duomenų rinkinio skelbėjo pradinio puslapio adresą!",
+            "creator": "Kūrėjas",
+            "description": "Aprašas",
+            "spatial": "Erdviniai duomenys",
+            "readLess": "Skaitykite mažiau",
+            "tooltipPublisherType": "Čia pasirinkite savo duomenų rinkinio skelbėjo tipą!",
+            "accessRights": "Prieigos teisės",
+            "tooltipDistributionDownloadUrl": "Čia įveskite savo paskirstos atsisiuntimo URL!",
+            "attributes": "Požymiai",
+            "mediaType": "Medijos tipas",
+            "categories": "Kategorijos",
+            "pageDescriptionDistribution": "Pridėkite paskirstų prie savo duomenų rinkinio!",
+            "pages": "Puslapiai",
+            "goToCatalog": "Eiti į katalogo puslapį",
+            "tooltipDistributionDescription": "Čia įveskite savo paskirstos aprašą!",
+            "identifiers": "Identifikatoriai",
+            "scheme": "Schema",
+            "contactPoints": "Kontaktinis punktas",
+            "hasPart": "Turi po katalogą",
+            "showLess": "Rodyti mažiau",
+            "byteSize": "Dydis baitais",
+            "tooltipCatalog": "Čia pasirinkite savo duomenų rinkinio katalogą!",
+            "methodologyPage": "MQA metodikos puslapis",
+            "hasVersion": "Naujesnė versija",
+            "useDownloadUrl": "Noriu įvesti atsisiuntimo URL, o ne įkelti failą!",
+            "created": "Sukurta",
+            "themeTaxonomy": "Teminė taksonomija",
+            "homepage": "Pradinis puslapis",
+            "address": "Adresas",
+            "visualisations": "Vizualizavimas",
+            "tooltipDistributionFormat": "Čia pasirinkite savo paskirstos formatą!",
+            "upload": "Įkelti",
+            "notFound": "Nerasta",
+            "dimensions": "Matmenys",
+            "addDistribution": "Pridėti paskirstą",
+            "name": "Vardas",
+            "metadataQuality": "Metaduomenų kokybė",
+            "provenances": "Kilmė ",
+            "enterKeywords": "Įveskite raktažodžius",
+            "landingPage": "Įėjimo tinklalapis",
+            "tooltipDistributionTitle": "Čia įveskite savo paskirstos pavadinimą!",
+            "license": "Licencija",
+            "chooseCatalog": "Pasirinkti katalogą",
+            "enterHomepage": "Įveskite pradinio puslapio adresą",
+            "tooltipDistributionLicence": "Čia pasirinkite savo paskirstos licenciją!",
+            "readMore": "Skaitykite daugiau",
+            "format": "Formatas",
+            "chooseFormat": "Pasirinkti formatą",
+            "publisher": "Leidėjas",
+            "dataset": "Duomenų rinkinys",
+            "updated": "Atnaujinta",
+            "pageDescriptionUpload": "Pridėkite failų prie savo paskirstų!",
+            "spatialResource": "Erdvinis išteklius",
+            "distribution": "Paskirsta",
+            "tooltipContactName": "Čia įveskite savo duomenų rinkinio kontaktinio centro pavadinimą!",
+            "distributions": "Paskirstos",
+            "status": "Būsena",
+            "datasets": "Duomenų rinkiniai",
+            "showMore": "Rodyti daugiau",
+            "rights": "Teisės",
+            "tooltipContactEmail": "Čia įveskite savo duomenų rinkinio kontaktinio centro el. pašto adresą!",
+            "otherIdentifiers": "Kiti identifikatoriai",
+            "tooltipPublisherName": "Čia įveskite savo duomenų rinkinio skelbėjo pavadinimą!",
+            "enterName": "Įveskite pavadinimą",
+            "documentations": "Dokumentai",
+            "sources": "Šaltiniai",
+            "modificationDate": "Pakeitimo data",
+            "isVersionOf": "Ankstesnė versija",
+            "pageDescriptionContactPoint": "Pridėkite kontaktinio centro tipą, pavadinimą ir el. pašto adresą prie savo duomenų rinkinio!",
+            "goToDataset": "Eiti į duomenų rinkinio puslapį",
+            "updatedOnDataEuropaEU": "Atnaujinta informacija apie duomenis.europa.eu"
+        },
+        "dataupload": {
+            "info": {
+                "defaultdescription": "Spustelėkite informacinį piktogramą, kad pamatytumėte išsamų laukelio paaiškinimą.",
+                "information": "Informacija"
+            },
+            "datasets": {
+                "step2": {
+                    "source": {
+                        "label": "Šaltinis"
+                    },
+                    "type": {
+                        "placeholder": "Duomenų rinkinys Tipo vietos turėtojo tekstas"
+                    },
+                    "subject": {
+                        "help": "Duomenų rinkinio kategorija."
+                    },
+                    "isReferencedByUrl": {
+                        "label": "URL adresas"
+                    },
+                    "contactPointAddressStreet": {
+                        "placeholder": "Duomenų rinkinio kontaktinio centro adresų gatvės tekstas"
+                    },
+                    "conformsTo": {
+                        "placeholder": "Duomenų rinkinio atitiktis Padėti tekstui"
+                    },
+                    "isVersionOf": {
+                        "label": "SV versija"
+                    },
+                    "provenance": {
+                        "label": "Provenencija"
+                    },
+                    "language": {
+                        "label": "Kalba"
+                    },
+                    "qualifiedAttribution": {
+                        "help": "Nuoroda į agentą, kuriam tenka kokia nors atsakomybė už išteklius"
+                    },
+                    "temporal": {
+                        "placeholder": "Duomenų rinkinys Temporal placeholder text"
+                    },
+                    "accessRights": {
+                        "info": "Ši savybė susijusi su informacija, rodančia, ar duomenų rinkinys yra atvirieji duomenys, ar jam taikomi prieigos apribojimai, ar jis nėra viešas."
+                    },
+                    "identifier": {
+                        "help": "Ši savybė apima pagrindinį duomenų rinkinio identifikatorių."
+                    },
+                    "versionInfo": {
+                        "help": "Duomenų rinkinio versijos numeris."
+                    },
+                    "hasVersion": {
+                        "info": "Susijęs duomenų rinkinys, kuris yra aprašomo duomenų rinkinio versija, laida arba adaptacija."
+                    },
+                    "wasGeneratedBy": {
+                        "add-label": "Pridėti Was Generated"
+                    },
+                    "qualifiedRelation": {
+                        "label": "Sąlyginiai santykiai"
+                    },
+                    "conformsToTitle": {
+                        "label": "Pavadinimas"
+                    },
+                    "creatorType": {
+                        "label": "Tipas"
+                    },
+                    "spatial": {
+                        "info": "Ši savybė susijusi su geografiniu regionu, kurį apima duomenų rinkinys."
+                    },
+                    "temporalResolutionMonth": {
+                        "label": "Laiko skiriamosios gebos mėnuo"
+                    },
+                    "contactPointName": {
+                        "label": "Vardas ir pavardė (pavadinimas)"
+                    },
+                    "temporalResolutionMinute": {
+                        "placeholder": "Duomenų rinkinys Laiko skiriamoji geba Minute placeholder tekstas"
+                    },
+                    "contactPointEmail": {
+                        "label": "E. paštas"
+                    },
+                    "contactPointOrganisationName": {
+                        "label": "Organizacijos pavadinimas"
+                    },
+                    "contactPoint": {
+                        "help": "Šioje savybėje pateikiama kontaktinė informacija."
+                    },
+                    "temporalResolutionDay": {
+                        "placeholder": "Duomenų rinkinys Laiko skiriamoji geba Dienos placeholder tekstas"
+                    },
+                    "provenanceText": {
+                        "placeholder": "Duomenų rinkinys Provencija Text placeholder text text"
+                    }
+                },
+                "step1": {
+                    "publisherType": {
+                        "placeholder": "Duomenų rinkinys Leidėjo tipo vietos turėtojo tekstas"
+                    },
+                    "datasetID": {
+                        "label": "Duomenų rinkinio ID"
+                    },
+                    "modified": {
+                        "label": "Pakeistas"
+                    },
+                    "publisher": {
+                        "label": "Leidėjas"
+                    },
+                    "issued": {
+                        "help": "Duomenų rinkinio oficialaus išleidimo (pvz., paskelbimo) data. Priimtini datos formatai: MMMM-MM-DD, YYYY-MM-MM."
+                    },
+                    "publisherHomepage": {
+                        "label": "Pradžios puslapis"
+                    }
+                },
+                "step3": {
+                    "spatialResolutionInMeters": {
+                        "help": "Mažiausias erdvinis atskyrimas, kurį galima ištirpinti duomenų rinkinyje."
+                    },
+                    "mediaType": {
+                        "placeholder": "Platinimo terpės tipo tinklavietės tekstas"
+                    },
+                    "language": {
+                        "help": "Platinime vartojama kalba."
+                    },
+                    "title": {
+                        "info": "Šiame turte yra platintojui suteiktas pavadinimas. Šią savybę galima pakartoti lygiagrečiose aprašymo kalbinėse versijose."
+                    },
+                    "status": {
+                        "label": "Statusas"
+                    },
+                    "checksum": {
+                        "placeholder": "Distribucijos kontrolinės vietos turėtojo tekstas"
+                    },
+                    "hasPolicyUrl": {
+                        "placeholder": "Platintojo „Hes Policy Url“ tekstas"
+                    },
+                    "page": {
+                        "help": "Puslapis arba dokumentas apie šį platinimą."
+                    },
+                    "availability": {
+                        "placeholder": "Distribucijos prieinamumo vietos tekstas"
+                    },
+                    "format": {
+                        "placeholder": "Platinimo formato vietos turėtojo tekstas"
+                    },
+                    "conformsTo": {
+                        "add-label": "Pridėkite „Atitiktis“"
+                    },
+                    "issued": {
+                        "label": "Išduotas"
+                    },
+                    "description": {
+                        "help": "Ši savybė apima laisvos formos platinimo sąskaitą."
+                    },
+                    "hasPolicy": {
+                        "help": "Politika, kuria išreiškiamos teisės."
+                    },
+                    "temporalResolutionMonth": {
+                        "label": "Laiko skiriamosios gebos mėnuo"
+                    },
+                    "temporalResolutionHour": {
+                        "placeholder": "Duomenų rinkinys Laiko skiriamoji geba Valandos vietos laikiklis tekstas"
+                    },
+                    "licence": {
+                        "help": "Licencija, pagal kurią suteikiama prieiga prie platinimo."
+                    },
+                    "date": {
+                        "label": "Data"
+                    }
+                },
+                "stepper": {
+                    "step3": {
+                        "children": {
+                            "distribution3": {
+                                "name": "Papildoma informacija"
+                            },
+                            "distribution4": {
+                                "name": "Papildoma informacija"
+                            },
+                            "distribution1": {
+                                "name": "Bendroji informacija"
+                            },
+                            "distribution2": {
+                                "name": "Papildoma informacija"
+                            }
+                        }
+                    },
+                    "overview": "Duomenų rinkinio apžvalga"
+                }
+            },
+            "catalogues": {
+                "step2": {
+                    "isPartOf": {
+                        "info": "Ši savybė susijusi su susijusiu katalogu, į kurį fiziškai arba logiškai įtraukiamas aprašytas katalogas."
+                    },
+                    "language": {
+                        "help": "Kalba, vartojama tekstiniuose metaduomenyse, kuriuose aprašomi pavadinimai, aprašymai ir t. t."
+                    },
+                    "spatial": {
+                        "info": "Ši savybė susijusi su geografine vietove, kurią apima katalogas."
+                    },
+                    "hasPart": {
+                        "help": "Ši savybė susijusi su susijusiu katalogu, kuris yra aprašyto katalogo dalis."
+                    },
+                    "creator": {
+                        "add-label": "Pridėti kūrėją"
+                    },
+                    "creatorName": {
+                        "label": "Vardas, pavardė"
+                    }
+                },
+                "step1": {
+                    "title": {
+                        "help": "Katalogo įrašui suteiktas pavadinimas. "
+                    },
+                    "description": {
+                        "info": "Ši savybė apima įrašo laisvos formos įrašą. Šią savybę galima pakartoti lygiagrečiose aprašymo kalbinėse versijose."
+                    },
+                    "licence": {
+                        "placeholder": "Kataloge Licence placeholder tekstas"
+                    },
+                    "modified": {
+                        "label": "Pakeistas"
+                    },
+                    "licenceDescription": {
+                        "label": "Licencijos aprašymas"
+                    },
+                    "homepage": {
+                        "help": "Tinklalapis, kuris yra pagrindinis katalogo puslapis."
+                    }
+                },
+                "stepper": {
+                    "overview": "Katalogo apžvalga",
+                    "step1": {
+                        "name": "1 etapas. Sukurti katalogą"
+                    },
+                    "step2": {
+                        "name": "2 etapas. Apibrėžti katalogo savybes"
+                    }
+                }
+            },
+            "clear": "Aiškus",
+            "deletemodal": {
+                "deleteDistribution": "Ištrinti platinimą",
+                "areyousure": "Ar tikrai norite ištrinti šį paskirstymą?"
+            },
+            "createUniqueID": "Sukurti unikalų ID",
+            "saveasdraft": "Išsaugoti kaip juodraštį",
+            "savedataset": "Išsaugoti duomenų rinkinį",
+            "next": "Kitas etapas",
+            "noDistributions": "Nėra distribucijos",
+            "savedraft": "Įrašyti juodraštį",
+            "searchVocabulary": "Paieška Vocabulary",
+            "error": {
+                "general": "Įvyko klaida. Bandykite dar kartą vėliau!",
+                "invalid-message": "Trūksta kai kurių laukelių. Užpildykite visus reikiamus laukelius!"
+            },
+            "type": "Tipas",
+            "preview": "Ankstesnis etapas",
+            "submit": "Pateikti",
+            "publishdataset": "Skelbti duomenų rinkinį",
+            "validationtitle": "Patvirtinimas",
+            "publishdraft": "Paskelbti projektą",
+            "newDistribution": "Pridėti dar vieną paskirstymą",
+            "validationerror": "Tvirtinant jūsų formą įvyko klaida!",
+            "createDataset": "Sukurti duomenų rinkinį",
+            "defineDatasetProperties": "Apibrėžti duomenų rinkinio savybes",
+            "createDistributions": "Kurti skirstymus"
+        },
+        "datasetDetails": {
+            "subnav": {
+                "quality": "Kokybė",
+                "similarDatasets": "Panašūs duomenų rinkiniai",
+                "categories": "Kategorijos",
+                "dataset": "Rinkmena",
+                "activityStream": "Veiklos srautas"
+            },
+            "quality": {
+                "licenceAvailability": "Licencijos informacija",
+                "mediaTypeAvailability": "Laikmenos tipas",
+                "temporalAvailability": "Paieška pagal laiką",
+                "accessibility": "Prieinamumas",
+                "dcatApCompliance": "DCAT-AP reikalavimų laikymasis",
+                "distributions": {
+                    "downloadUrlStatusCode": "ParsisiųstiUrl būsenos kodą",
+                    "accessUrlStatusCode": "AccessURL būsenos kodas"
+                },
+                "accessRightsVocabularyAlignment": "Prieigos apribojimų žodynas",
+                "contactPointAvailability": "Kontaktinė informacija",
+                "dateIssuedAvailability": "Išleidimo data",
+                "nodata": "Atrodo, kad mums kyla klausimas. Kokybės duomenų nebuvo galima įkelti. Bandykite dar kartą vėliau.",
+                "dateModifiedAvailability": "Pakeitimo data",
+                "contextuality": "Kontekstualumas",
+                "reusability": "Pakartotinio naudojimo galimybė",
+                "accessUrlStatusCode": "Dažniausi prieigos URL būsenos kodai",
+                "downloadUrlStatusCode": "Dažniausi atsisiuntimo URL būsenos kodai",
+                "formatMediaTypeVocabularyAlignment": "Formatas / laikmenos tipas iš žodyno",
+                "metaDataQuality": "Metaduomenų kokybė",
+                "downloadUrlAvailability": "Parsisiųsti URL",
+                "dataQuality": "Duomenų kokybė",
+                "categoryAvailability": "Kategorijos",
+                "interoperability": "Sąveikumas",
+                "findability": "Randamumas",
+                "spatialAvailability": "Geografinė paieška",
+                "formatAvailability": "Formatas",
+                "byteSizeAvailability": "Failo dydis",
+                "accessRightsAvailability": "Prieigos apribojimai",
+                "distributionQuality": "Platinimo kokybė",
+                "publisherAvailability": "Leidėjas",
+                "keywordAvailability": "Raktažodžių naudojimas",
+                "rightsAvailability": "Teisės"
+            },
+            "follow": "Sekti",
+            "accessURLTooltip": "Šioje nuorodoje gali būti informacijos apie tai, kaip gauti nurodytą rinkmeną, arba yra tiesioginė nuoroda į nurodytą rinkmeną.",
+            "dataStream": "Duomenų greičiai",
+            "downloadURLTooltip": "Tai tiesioginė nuoroda į nurodytą rinkmeną.",
+            "upload": {
+                "organisation": "Organizacija",
+                "individual": "Fizinis asmuo",
+                "resetText": "Iš naujo nustatyti visą formą?",
+                "person": "Asmuo",
+                "unknownFormat": "Nežinomas formatas",
+                "reset": "Iš naujo nustatyti formą"
+            },
+            "preview": "Peržiūra. Peržiūra",
+            "feedback": "Atsiliepimai",
+            "access": "Prieiga",
+            "datasets": {
+                "modal": {
+                    "downloadingFiles": "Rinkmenų parsisiųsdinimas",
+                    "zipNumberOfFiles": "Užfiksuotos bylos Nr.",
+                    "waitingForDownload": "(laukiama parsisiųsti)",
+                    "downloadProgress": "Parsisiųsti „Progress",
+                    "notDownloaded": "Nebuvo parsisiųsdinta",
+                    "error": "Klaida! „Teb Again“",
+                    "okay": "Okay",
+                    "cancel": "Atšaukti",
+                    "close": "Uždaryti",
+                    "coupleOfMinutes": "(tai gali užtrukti po keletą minučių)",
+                    "notDownloadedTooltip": "Išsamią informaciją galima rasti pridedamoje file_report.csv rinkmenoje"
+                },
+                "leavePageWindow": {
+                    "text": "Ar tikrai norite išvykti? Kai išvyksite, parsisiųsdinimas bus sustabdytas!"
+                },
+                "downloadAll": "Parsisiųsdinti visus"
+            },
+            "translation": {
+                "update": "Atnaujinamas šio duomenų rinkinio vertimas.",
+                "original": "Originalo kalba",
+                "message": "Šio duomenų rinkinio pavadinimo ir \naprašymo vertimas yra mašininis.",
+                "noTranslation": "Šio duomenų rinkinio jūsų kalba dar nėra. Jis verčiamas.",
+                "link": "Spustelėkite čia, kad pamatytumėte duomenų rinkinį originalo kalba"
+            },
+            "cite": "Cit.",
+            "relatedResources": "Susiję ištekliai",
+            "share": "Bendrinti",
+            "geoVisualisation": "Atidaryti geovizualizaciją",
+            "download": "Atsisiųsti",
+            "intro": {
+                "distribution": "Toliau pateikiamas visų duomenų rinkinio skirstinių kokybės vertinimas. Informacijos apie tai, kokius rodiklius naudojame rodikliams matuoti, ieškokite mūsų <a href='/mqa/methodology?locale={locale}'>metodikos puslapyje</a>.",
+                "metadataQuality": "Metaduomenų kokybės užtikrinimo tikslas – padėti duomenų teikėjams ir duomenų portalams patikrinti jų metaduomenis pagal įvairius rodiklius. Informacijos apie tai, kokius rodiklius naudojame rodikliams matuoti, ieškokite mūsų <a href='/mqa/methodology?locale={locale}'>metodikos puslapyje</a>."
+            },
+            "about": "apie",
+            "datasetFeed": "Duomenų rinkinys",
+            "delete": "Ištrinti",
+            "openResource": "Eiti į išteklių",
+            "visualisation": "Atidaryti vizualizaciją",
+            "isUsedBy": "Naudoja:",
+            "unfollow": "Nebesekti",
+            "shareOn": "Bendrinti",
+            "additionalInfo": "Papildoma informacija",
+            "contactPoints": {
+                "organizationName": "Organizacijos pavadinimas"
+            },
+            "edit": "Redaguoti",
+            "menu": "Meniu",
+            "manage": "Tvarkyti",
+            "geoInfo": "Duomenų rinkinio apimtis",
+            "options": "Parinktys"
+        },
+        "tooltip": {
+            "catalogDetails": {
+                "created": "Katalogo oficialaus išleidimo (pvz., paskelbimo) data.",
+                "publisher": "Subjektas (organizacija), atsakingas už katalogo pateikimą.",
+                "updated": "Paskutinė data, kurią katalogas buvo pakeistas.",
+                "description": "Katalogo aprašymas.",
+                "title": "Katalogo pavadinimas.",
+                "metadata": "Galimybės atsisiųsti katalogo metaduomenis įvairiais susietais duomenų pateikimo būdais.",
+                "language": "Kalba, vartojama tekstiniuose metaduomenyse, kuriuose aprašomi kataloge pateiktų duomenų rinkinių pavadinimai, aprašymai ir t. t. Šią savybę galima pakartoti, jei metaduomenys pateikiami keliomis kalbomis.",
+                "spatial": "Geografinė vietovė, kuriai taikomas katalogas."
+            },
+            "datasetDetails": {
+                "frequency": "Duomenų rinkinio atnaujinimo dažnumas.",
+                "dataset": "Duomenų rinkinys arba paslaugos duomenys.",
+                "updated": "Vėliausia data, kurią duomenų rinkinys ar paslauga buvo pakeisti arba pakeisti.",
+                "versionInfo": "Duomenų rinkinio versijos numeris arba kitas versijos pavadinimas.",
+                "distributions": {
+                    "updated": "Paskutinė data, kurią buvo pakeistas arba pakeistas paskirstymas.",
+                    "title": "Platintojui suteiktas pavadinimas.",
+                    "linkedSchema": "Nustatyta schema, kurią atitinka aprašytasis paskirstymas.",
+                    "linkedData": "Pasirinktys, kaip parsisiųsti platinimo metaduomenis įvairiais susietais duomenų pateikimo būdais.",
+                    "status": "Platinimo terminas. Ji PRIVALO pasirinkti vieną iš verčių, kurios yra baigtos kurti, nuvertintos, atšauktos.",
+                    "licence": "Licencija, pagal kurią suteikiama prieiga prie platinimo.",
+                    "availability": "Nurodoma, kiek laiko planuojama užtikrinti, kad duomenų rinkinys būtų prieinamas.",
+                    "rights": "Pareiškimas, kuriame nurodomos su platinimu susijusios teisės.",
+                    "checksum": "Mechanizmas, kuriuo galima patikrinti, ar paskirstymo turinys nepasikeitė. Kontrolinė suma yra susijusi su parsisiuntimuUrl.",
+                    "mediaType": "Platinimo medijos rūšis, kaip apibrėžta IANA tvarkomame oficialiame žiniasklaidos priemonių tipų registre.",
+                    "spatialResolution": "Mažiausiasis erdvinis atskyrimas, kurį galima ištirpinti duomenų rinkinio skirstinyje, matuojamas metrais.",
+                    "byteSize": "Platinimo dydis nurodomas baitais.",
+                    "download": "Parsisiųsdinti arba prieiti prie platinimo.",
+                    "type": "Nuorodos į platintojo tipą, pvz., kad tai vizualizacija.",
+                    "created": "Oficialaus platinimo (pvz., paskelbimo) data.",
+                    "language": "Platinime vartojama kalba.",
+                    "options": "Atidarykite platinimo apžvalgą.",
+                    "temporalResolution": "Reiškia trumpiausią laiką, kurį galima ištirpinti duomenų rinkinio skirstinyje."
+                },
+                "otherIdentifier": "Antrinis duomenų rinkinio identifikatorius, pvz., MAST/ADS16, DataCite17, DOI18, EZID19 arba W3ID20.",
+                "numSeries": "Nurodomas duomenų rinkinyje esančių duomenų eilučių skaičius.",
+                "versionOf": "Susijęs duomenų rinkinys, kurio aprašytas duomenų rinkinys yra versija, leidimas arba pritaikymas.",
+                "unitsOfMeasurement": "Duomenų rinkinyje esančių stebėjimų matavimo vienetas.",
+                "distribution": "Fizinis duomenų rinkinio ar paslaugos įkūnijimas tam tikru formatu, pvz., saityno nuoroda į duomenų rinkinio rinkmeną.",
+                "quality": "Šio duomenų rinkinio ar paslaugos metaduomenų kokybės informacija.",
+                "catalogue": "Katalogas, kuriam priklauso šis duomenų rinkinys arba paslauga.",
+                "linkedData": "Duomenų rinkinio arba paslaugų metaduomenų parsisiuntimo įvairiais susietais duomenimis parinktys.",
+                "versionNotes": "Šios ir ankstesnės duomenų rinkinio versijos skirtumų aprašymas. Ši savybė gali būti pakartota lygiagrečiose redakcijos pastabų kalbinėse versijose.",
+                "similarDatasets": "Kiti duomenų rinkiniai ar paslaugos, panašūs į šį duomenų rinkinius arba paslaugas.",
+                "identifier": "Pagrindinis duomenų rinkinio identifikatorius, pvz., UII arba kitas unikalus identifikatorius pagal katalogą.",
+                "uriRef": "URIref yra unikalus data.europa.eu esančio duomenų rinkinio/duomenų paslaugos identifikatorius.",
+                "creator": "Subjektas, visų pirma atsakingas už duomenų rinkinio rengimą.",
+                "spatial": "Geografinis regionas, kurį apima duomenų rinkinys.",
+                "language": "Duomenų rinkinio kalba.",
+                "format": "Formatas, kuriuo galima naudotis šiam duomenų rinkiniui ar paslaugai.",
+                "conformsTo": "Įgyvendinimo taisyklė ar kita specifikacija.",
+                "landingPage": "Tinklalapis, kuriame pateikiama prieiga prie duomenų rinkinio, jo platinimo ir (arba) papildomos informacijos.",
+                "provenance": "Pareiškimas apie duomenų rinkinio liniją.",
+                "documentation": "Puslapis arba dokumentas apie šį duomenų rinkinį.",
+                "publisher": "Subjektas (organizacija), atsakingas už duomenų rinkinio ar paslaugos teikimą.",
+                "created": "Duomenų rinkinio arba paslaugos oficialaus išdavimo (pvz., paskelbimo) data.",
+                "relatedResource": "Susiję ištekliai.",
+                "categories": "Šiam duomenų rinkiniui ar paslaugai priskirtos kategorijos.",
+                "share": "Dalytis šiuo duomenų rinkiniu arba paslauga per socialinius tinklus.",
+                "feedback": "Praneškite mums, ką manote apie šį duomenų rinkinį ar paslaugą.",
+                "dqvData": "Galimybės atsisiųsti duomenų rinkinį arba paslaugų kokybės matavimus įvairiais susietais duomenų pateikimo būdais.",
+                "hasVersion": "Susijęs duomenų rinkinys, kuris yra aprašyto duomenų rinkinio versija, leidimas arba pritaikymas"
+            },
+            "quality": {
+                "keywordAvailability": "Raktažodžiai tiesiogiai padeda ieškoti duomenų rinkinio.&br>&br>&br>Sistemoje tikrinama, ar apibrėžti raktažodžiai. Reikšminių žodžių skaičius balui įtakos neturi.",
+                "formatMediaTypeVocabularyAlignment": "Kontrolinis formatas ir terpės tipas priklauso kontroliuojamam žodynui.&br>&br> formatą galima rasti Data.europa.eu GitLab saugykla.&br>&br>Žiniasklaidos tipas tikrinamas pagal IANA sąrašą.",
+                "licenceAvailability": "Licencija yra vertinga informacija pakartotinai naudojant duomenis.&br>&br>Patikrinama, ar savybė nustatyta, ar ne.",
+                "publisherAvailability": "Leidėjas yra asmuo arba organizacija, paskelbusi duomenis.&br>&br>Patikrinama, ar savybė nustatyta, ar ne.",
+                "formatAvailability": "Šiame lauke nurodomas platinimo rinkmenos formatas.&br>&br>Patikrinama, ar savybės nustatomos arba ne.",
+                "temporalAvailability": "Naudodami laiko informaciją naudotojai galėtų laiku atlikti paiešką.&br>&br>Tikrinama, ar savybė yra nustatyta, ar ne.",
+                "rightsAvailability": "Kai kuriais atvejais speciali licencija negali būti taikoma duomenų rinkiniui. Laukelis „Rights“ gali būti naudojamas nurodyti ištekliui, kuriuo naudotojas informuojamas apie teises, kurias jis turi naudodamasis duomenų rinkiniu.&br>&br>Patikrinama, ar savybė nustatyta, ar ne.",
+                "mediaTypeAvailability": "Šiame lauke nurodomas platinimo terpės tipas.&br>&br>Patikrinama, ar savybės nustatytos, ar ne.",
+                "accessRightsVocabularyAlignment": "Naudojant kontroliuojamą žodyną padidėja galimybė pakartotinai naudoti.&br>&br>Patikrinama, ar naudojamas kontroliuojamas prieigos teisių žodynas.",
+                "dcatApCompliance": "DCAT-AP atitiktis apskaičiuojama pagal visus kataloge esančius šaltinius ir duomenų rinkinius. Ši patikra atliekama tik tuo atveju, jei metaduomenys iš pradžių renkami kaip DCAT-AP arba kaip galiojantis išvestinis dokumentas.&br>&br>DCAT-AP yra susietų viešųjų duomenų Europoje apibūdinimo specifikacija. Portalas Data.europe.eu taip pat gali rinkti metaduomenis, kurie nevisiškai atitinka DCAT-AP reikalavimus. Siekiant padidinti atitiktį DCAT-AP, MQA tikrina, ar kiekvienas metaduomenys atitinka DCAT-AP atitiktį.&br>&br> metaduomenys patvirtinami pagal SHACL formų rinkinį. Metaduomenys neatitinka reikalavimų, jei SHACL patvirtinimo ataskaitoje nurodoma bent viena problema.&br>&br>MQA naudojama data.europe.eu’s DCAT-AP SHACL valid sevice.&br>&br> SCHACL yra W3C rekomendacija ir naudojama RDF grafikams patvirtinti pagal formų rinkinį.",
+                "accessRightsAvailability": "Šiame laukelyje nurodoma, ar prieiga prie duomenų yra vieša, ar ribota.&br>&br>Patikrinama, ar savybė nustatyta, ar ne.",
+                "accessUrlStatusCode": "AccessURL nebūtinai yra tiesioginė sąsaja su duomenimis, bet taip pat gali būti nuoroda į URL, kuriuo suteikiama prieiga prie duomenų rinkinio, arba į kurį galima gauti daugiau informacijos apie duomenų rinkinį.&br>&br> Nustatytas URL patikrinamas dėl prieinamumo naudojant HTTP HEAD užklausą. Jei atsakyme nurodytas būsenos kodas yra 200 arba 300 intervalų, išteklių prieinamumas vertinamas teigiamai.",
+                "categoryAvailability": "Kategorijos padeda naudotojams susipažinti su duomenų rinkiniais pagal temas.&br>&br>Patikrinama, ar duomenų rinkiniui priskiriama viena ar daugiau kategorijų. Priskirtų kategorijų skaičius neturi poveikio balui.",
+                "downloadUrlStatusCode": "Jei yra parsisiuntimoUrl, prieiga tikrinama.&br>&br>Nurodytas URL tikrinamas dėl e. išteklių prieinamumo naudojant HTTP HEAD užklausą. Jei atsakyme nurodytas būsenos kodas yra 200 arba 300 intervalų, išteklių prieinamumas vertinamas teigiamai.",
+                "byteSizeAvailability": "Nurodomas rinkmenos dydis baitais.&br>&br>Patikrinama, ar savybės nustatytos, ar ne.",
+                "downloadUrlAvailability": "DownloadUrl yra tiesioginė nuoroda į nurodytus duomenis.&br>&br>Patikrinama, ar savybės nustatytos, ar ne.",
+                "spatialAvailability": "Naudojant erdvinę informaciją naudotojai galėtų rasti duomenų rinkinį su geografine paieška.&br>&br>Patikrinama, ar ši savybė yra nustatyta, ar ne.",
+                "contactPointAvailability": "Kontaktiniame punkte pateikiama informacija, į kurią reikia kreiptis kilus klausimams dėl duomenų.&br>&br>Patikrinama, ar savybės nustatytos, ar ne.",
+                "dateIssuedAvailability": "Data, kurią buvo išleistas duomenų rinkinys arba pasiskirstymas.&br>&br>Patikrinama, ar savybės nustatytos, ar ne.",
+                "dateModifiedAvailability": "Data, kurią duomenų rinkinys arba pasiskirstymas paskutinį kartą buvo pakeistas.&br>&br>Patikrinama, ar savybės nustatytos, ar ne."
+            },
+            "catalogRecord": "Duomenų rinkinio įrašo kataloge aprašymas.",
+            "lastModified": "Surūšiuoti rezultatus pagal naujausius duomenų rinkinio pakeitimus",
+            "editorialContent": "Redakcinio turinio, pvz., naujienų, renginių, naudojimo atvejų, paieška",
+            "datasets": "Duomenų rinkinių paieška",
+            "relevance": "Surūšiuoti duomenų rinkinį pagal svarbą. Tinkamumas apskaičiuojamas pagal paieškos termino atitikmenis pavadinime, raktažodžiuose ir aprašyme.",
+            "contactPoints": "Kontaktinė informacija, kuria galima naudotis siunčiant pastabas apie duomenų rinkinį.",
+            "locationFilter": "Norėdami peržiūrėti duomenų rinkinius, susijusius su konkrečia vieta, spustelėkite žemėlapį ir pasinaudokite rašiklio piktograma, kad jį pasirinktumėte. Tada spustelėkite mygtuką „Taikoma“, norėdami filtruoti tik duomenų rinkinius, susijusius su pasirinkta sritimi. Atkreipkite dėmesį, kad į paieškos rezultatus bus įtraukti tik tie duomenų rinkiniai, kuriuose yra geografinės informacijos metaduomenų.",
+            "catalogues": "Katalogų paieška. Kataloge laikomi duomenų rinkiniai ir paslaugos"
+        },
+        "visualisationDistribution": {
+            "barChartExplain": "Juostinėje diagramoje pavaizduotos klasifikacinio elemento lygio skaitinės vertės kaip juostelės. Lygiai pavaizduoti vienoje diagramos ašyje, o vertės – kitoje ašyje.",
+            "semicolon": "Kabliataškis",
+            "exportSucceeded": "Konfigūracija sėkmingai sukurta!",
+            "yAxis": "y Ašiss",
+            "pipe": "Vamzdis",
+            "cancel": "Atšaukti",
+            "fileTypeNotSupported": "Bandote sukurti tokios rūšies rinkmeną, kuri nėra palaikoma.",
+            "confirm": "Patvirtinkite, kad",
+            "fileNotFound": "Bandote sukurti rinkmeną, kurios turinio nebūtų galima perskaityti.",
+            "comma": "Kablelis",
+            "space": "Erdvė",
+            "exportDataTip": "Įvesties laukelis neturi būti tuščias!",
+            "countRow": "Skaičiavimas",
+            "exportMessagesHeader": "Ar tikrai norite išsaugoti savo konfigūraciją? Prieš išsaugodami ją patikrinkite!",
+            "exportMessagesLabel": "Įrašykite savo konfigūracijos pavadinimą",
+            "exportNameExistsAlert": "Pavadinimas jau naudojamas. Bandykite kitą!",
+            "hiddenMessages": "paslėpti – spustelėkite, kad parodytumėte visus",
+            "connectedLineChart": "Prijungtos linijos schema",
+            "barChart": "Strypo žemėlapis",
+            "someRows": "Kai kurios eilutės",
+            "row": "Eilutės",
+            "tab": "Kortelė",
+            "connectToDatabaseError": "Klaida gaunant duomenis iš duomenų bazės. Pabandykite jį arba dar kartą patikrinkite savo atsakymus!",
+            "badgateway": "Serveris nežinomas arba neteisingas DNS pavadinimas.",
+            "goBack": "Žengti į priekį",
+            "forbidden": "Prieiga prie prašomų išteklių draudžiama.",
+            "unauthorized": "Prašymas nebuvo patenkintas. Ji neturi galiojančių tapatumo nustatymo duomenų.",
+            "xAxis": "X Ašis",
+            "delimiter": "Delimiteris",
+            "someColumns": "Kai kurios skiltys",
+            "exportMessagesFooter": "Spustelėkite „Patvirtinti“, kad jį išsaugotumėte!",
+            "table": "Lentelė",
+            "connectedLineChartExplain": "Tai yra tarpusavyje sujungtas scatterplotas, kuris iš esmės yra hibridas tarp scatterplot ir linijos. Kad galėtumėte tai padaryti, turite pasirinkti Xaxis."
+        },
+        "sort": {
+            "lastCreated": "Paskutinis sukurtas",
+            "lastUpdated": "Paskutinį kartą keista",
+            "nameZA": "Pavadinimą mažėjančia tvarka",
+            "relevance": "Atitikimą",
+            "sortBy": "Rūšiuoti pagal",
+            "nameAZ": "Pavadinimą didėjančia tvarka"
+        },
+        "distributionLicense": {
+            "openLA": "Atidaryti licencijos pagalbos programą",
+            "notProvided": "Nepateikta jokių licencijų",
+            "licensingAssistant": "Licencijų išdavimo asistentas",
+            "notFound": "Nerasta informacijos apie licenciją.",
+            "notFoundExtended": "Nėra papildomos informacijos apie licenciją. Norėdami gauti daugiau informacijos apie šią licenciją, patikrinkite šaltinį."
+        },
+        "catalogs": {
+            "countMessageSingular": "rastas katalogas pagal",
+            "geoBoundsMessagePre": "Jūsų paieška ribojama",
+            "downloadAsLinkedData": "Katalogas metaduomenys kaip susietieji duomenys",
+            "countMessageNoResult": "Nerasta katalogų pagal ",
+            "searchBar": {
+                "placeholder": "Ieškoti katalogų..."
+            },
+            "countMessage": "pagal  rasti katalogai",
+            "loadingMessage": "Katalogai įkeliami...",
+            "geoBoundsMessageRemove": "Apribojimui pašalinti uždarykite šį pranešimą arba naudokite atkūrimo funkciją."
+        },
+        "datasetFacets": {
+            "facets": {
+                "datascopeField": {
+                    "countryData": "Nacionaliniai duomenys",
+                    "io": "Tarptautiniai duomenys",
+                    "eu": "Europos Sąjungos duomenys"
+                },
+                "datascope": "Duomenų aprėptis",
+                "dataServices": {
+                    "dataServicesOnly": "Tik duomenų paslaugos"
+                },
+                "country": "Šalys",
+                "format": "Formatai",
+                "scoring": {
+                    "badScoring": "Qualsiasi",
+                    "sufficientScoring": "Pakankamas",
+                    "goodScoring": "Geras",
+                    "excellentScoring": "Puikus"
+                },
+                "publisher": "@:message.metadata.publisher",
+                "license": "Licencijos",
+                "keywords": "Raktažodžiai",
+                "categories": "Kategorijos",
+                "catalog": "Katalogai",
+                "countrydata": "Šalių duomenys",
+                "tags": "Žymės"
+            },
+            "title": "Filtrai",
+            "and": "IR",
+            "settings": "Filtro nustatymas",
+            "scoring": "Vertinimas",
+            "or": "ARBA",
+            "europeanCatalogs": "Europos katalogai",
+            "operator": "Vykdytojas"
+        },
+        "header": {
+            "navigation": {
+                "data": {
+                    "euInternationalData": "ES ir tarptautiniai duomenys",
+                    "datasets": "Duomenų rinkiniai",
+                    "catalogs": "Katalogai",
+                    "metadataquality": "Metaduomenų kokybė",
+                    "sparqleditor": "SPARQL redaktorius",
+                    "statistics": "Statistika",
+                    "sparqlsearch": "SPARQL paieška",
+                    "title": "Duomenys"
+                },
+                "impactStudies": {
+                    "opendataimpact": "Atvirųjų duomenų poveikis",
+                    "tellUsYourStory": "Papasakokite savo istoriją",
+                    "studies": "Tyrimai",
+                    "opendatamaturity": "Atvirųjų duomenų užbaigtumas",
+                    "countryInsights": "Šalių įžvalgos",
+                    "useCases": "Naudojimo atvejai",
+                    "title": "Poveikis ir tyrimai",
+                    "overview": "Apžvalga"
+                },
+                "training": {
+                    "licensingAssistant": "Licencijų išdavimo asistentas",
+                    "dataProvidersGuide": "Duomenų teikėjo vadovas",
+                    "moreTrainingMaterial": "Daugiau mokomosios medžiagos",
+                    "whatIsOpenData": "Atvirieji duomenys: kas tai?",
+                    "title": "Mokymas",
+                    "elearning": "e. mokymasis"
+                },
+                "about": {
+                    "beHarvestedByUs": "Mes galime rinkti jūsų duomenis",
+                    "documentation": "Dokumentai",
+                    "title": "Apie",
+                    "europeanDataPortal": "Europos Duomenų Portalas"
+                },
+                "newsEvents": {
+                    "events": "Įvykiai",
+                    "news": "Naujienos",
+                    "title": "Naujienos ir įvykiai",
+                    "stories": "Duomenų istorijos"
+                },
+                "covid-19": {
+                    "title": "COVID-19",
+                    "datasets": "Duomenų rinkiniai",
+                    "overview": "Apžvalga",
+                    "initiatives": "Su duomenimis susijusios iniciatyvos"
+                }
+            },
+            "subnav": {
+                "newsletter": "Naujienlaiškis",
+                "cookies": "Slapukai",
+                "login": "Prisijungti",
+                "contact": "Kontaktai",
+                "search": "Ieškoti",
+                "logout": "Atsijungti",
+                "legalNotice": "Teisinis pranešimas",
+                "faq": "DUK"
+            },
+            "european": "Europos",
+            "searchInputPlaceholder": "Ieškoti svetainės turinyje...",
+            "dataPortal": "duomenų portalas",
+            "searchOptions": {
+                "siteContent": "Svetainės turinys",
+                "datasets": "Duomenų rinkiniai"
+            }
+        },
+        "catalogues": {
+            "foundCataloguesSingular": "Rastas 1 katalogas",
+            "foundCatalogues": "rasti katalogai"
+        },
+        "datasets": {
+            "foundDatasets": "rastų duomenų rinkinių skaičius",
+            "countMessage": "duomenų rinkiniai (-ių) rasta pagal ",
+            "foundDatasetsSingular": "Rastas 1 duomenų rinkinys",
+            "meta": {
+                "translationNotComplete": "Vertimas nebaigtas"
+            },
+            "geoBoundsMessageRemove": "Apribojimui pašalinti uždarykite šį pranešimą arba naudokite atkūrimo funkciją.",
+            "createDataset": "Sukurti duomenų rinkinį",
+            "geoBoundsMessagePre": "Jūsų paieška ribojama",
+            "loadingMessage": "Duomenų rinkiniai įkeliami...",
+            "countMessageSingular": "duomenų rinkinys rastas pagal ",
+            "datasetsFeed": "Duomenų rinkinių sklaidos kanalas",
+            "scoreDisclaimer": "Dabartiniai paieškos rezultatai filtruojami pagal minimalų kokybės balą, jo aspektai nurodyti kairėje. Apsilankykite {0}, jei norite sužinoti daugiau apie tai, kaip matuojame kokybę.",
+            "noResult": "Duomenų rinkinių nerasta pagal",
+            "findLocation": "Filtruoti pagal vietą",
+            "searchBar": {
+                "placeholder": "Ieškoti duomenų rinkiniuose"
+            },
+            "createCatalogue": "Sukurti katalogą",
+            "saveQuery": "Išsaugoti užklausą"
+        },
+        "footer": {
+            "helpUsImproveText": "Jūsų atsiliepimai mums padės užtikrinti geresnę bendrą vartotojų patirtį. \nTurite pasiūlymų?",
+            "lastUpdated": "Paskutinis atnaujinimas",
+            "links": {
+                "cookies": "Slapukai",
+                "contact": "Kontaktai",
+                "faq": "DUK",
+                "newsletter": "Naujienlaiškis",
+                "search": "Ieškoti",
+                "login": "Prisijungti",
+                "legalNotice": "Teisinis pranešimas"
+            },
+            "subscribe": "Prenumeruoti",
+            "helpUsImprove": "Padėkite mums tobulėti",
+            "newsletterText": "Prenumeruokite mūsų naujienlaiškį",
+            "newsletter": "Naujienlaiškis",
+            "followUs": "Sekite mus",
+            "managedBy": "Tvarko Europos Sąjungos leidinių biuras.",
+            "fundedBy": "Finansuoja Europos Sąjunga"
+        },
+        "helpIcon": {
+            "dataServices": "Duomenų bazėje Data.europa.eu platinimas taip pat gali būti duomenų paslauga. Tai reiškia, kad jis susiejamas ne su rinkmena, kurią galima parsisiųsti, o su API. Jei norite filtruoti duomenų rinkinius, kuriuose yra bent viena duomenų paslauga, pasirinkite „Taip“.",
+            "scoring": "data.europa.eu matuoja visų duomenų rinkinių ir paslaugų kokybę. Skyrelyje „Duomenų/metaduomenų kokybė“ turime metodikos puslapį, kuriame aprašomas procesas. Kiekvienas duomenų rinkinys ir paslauga taip pat žymimi kokybės balais. Šis balas gali būti pakankamas, geras arba puikus. Jei filtras „Pakankamas +“ yra nustatytas, parodomi visi duomenų rinkiniai ir paslaugos, kurių balas yra pakankamas arba geresnis. Tas pats taikoma ir „Prekių“ atveju. „Puikiai“ rodo tik puikius duomenų rinkinius ir paslaugas.",
+            "license": "Licencijoje aprašomos duomenų rinkinio naudojimo teisinės sąlygos.",
+            "dataScope": "ES duomenys saugo ES institucijų duomenų rinkinius ir paslaugas. Tarptautiniuose duomenyse saugomi už ES ribų gauti duomenų rinkiniai ir paslaugos. Šalių duomenys saugo ES valstybių narių duomenų rinkinius ir paslaugas.",
+            "format": "Kiekviename duomenų rinkinyje yra nuorodos į rinkmenas arba paslaugas. Formate apibūdinama šių nuorodų rinkmenos rūšis arba paslaugos rūšis. Ne kiekvienas rinkmenos tipas gali būti naudojamas visais tikslais, pvz., skaičiavimas gali būti geriau atliekamas naudojant CSV rinkmeną, o ne PDF rinkmeną.",
+            "catalog": "Katalogas arba saugykla, kurioje laikomi duomenų rinkiniai ir paslaugos. Katalogas daugiausia yra portalas, kuriame pateikiami duomenų rinkiniai, iš kurių jie buvo surinkti.",
+            "settings": "Pasirinkite, ar jūsų filtro pasirinkimas yra išimtinis, ar ne. Jei pasirinkote IR visi paieškos rezultatai turi atitikti visus filtrus. Arba reiškia, kad bent vienas filtras turi atitikti.",
+            "categories": "Kategorijos duomenų rinkiniai, kurių tema yra bendra.",
+            "publisher": "Leidėjas yra subjektas (pvz., organizacija), atsakingas už duomenų rinkinio prieinamumą.",
+            "keywords": "Raktažodžiai yra idėjos ir temos, apibrėžiančios turinį."
+        },
+        "userQueries": {
+            "executeQuery": "Vykdyti užklausą",
+            "queriesFound": "Rasta {number} užklausos (-ų)",
+            "placeholderNotes": "pvz., keletas naudingų pastabų apie užklausą",
+            "querySaved": "Užklausa išsaugota",
+            "queryFound": "Rasta {number} užklausa",
+            "myQueries": "Mano užklausos",
+            "noDescription": "Ši užklausa neturi aprašo",
+            "noQueryFound": "Nerasta užklausų",
+            "queryDeleted": "Užklausa ištrinta",
+            "searchAllQueries": "Ieškoti užklausose…",
+            "save": "Išsaugoti užklausą",
+            "areYourSure": "Ar tikrai norite ištrinti šią užklausą?",
+            "noQueriesSaved": "Jūs neišsaugojote jokių užklausų.",
+            "searchQueries": "Ieškoti mano užklausose..."
+        },
+        "catalogFacets": {
+            "facets": {
+                "licences": "Licencijos",
+                "catalogs": "Katalogai",
+                "categories": "Kategorijos",
+                "countries": "Šalys",
+                "formats": "Formatai",
+                "keywords": "Raktažodžiai"
+            },
+            "operator": "Operatorius",
+            "title": "Filtrai",
+            "europeanCatalogs": "Europos katalogai",
+            "or": "ARBA",
+            "and": "IR",
+            "euInstitutions": "ES institucijos",
+            "settings": "Nustatymai"
+        },
+        "statistics": {
+            "statistics": "Statistika",
+            "datasetsPerCatalog": "Duomenų rinkinių pagal katalogą",
+            "currentState": "Dabartinė būsena",
+            "datasetsPerCountry": "Duomenų rinkinių pagal šalį",
+            "selectType": "Pasirinkite statistikos tipą",
+            "datasetsPerCountryAndCatalog": "Duomenų rinkinių pagal šalį ir katalogą",
+            "evolution": "Pokytis",
+            "evolutionStartEnd": "Bendro duomenų rinkinių skaičiaus pokytis nuo {start_date} iki {end_date}",
+            "increaseStartEnd": "{dataset_model} padidėjimas procentais nuo {start_date} iki {end_date}",
+            "totalNumber": "Bendras duomenų rinkinių skaičius",
+            "datasetsPerCategory": "Duomenų rinkinių pagal kategoriją",
+            "selectTimePeriod": "Pasirinkite laikotarpį",
+            "evolutionNumber": "{Dataset_model} skaičiaus raida nuo {start_date} iki {end_date}",
+            "numberDate": "{dataset_model} skaičius nuo {date}"
+        },
+        "categories": {
+            "tran": "Transportas",
+            "heal": "Sveikata",
+            "tech": "Mokslas ir technologijos",
+            "envi": "Aplinka",
+            "econ": "Ekonomika ir finansai",
+            "soci": "Gyventojų skaičius ir visuomenė",
+            "agri": "Žemės ūkis, žuvininkystė, miškininkystė ir maistas",
+            "educ": "Švietimas, kultūra ir sportas",
+            "ener": "Energetika",
+            "intr": "Tarptautiniai klausimai",
+            "gove": "Vyriausybė ir viešasis sektorius",
+            "just": "Teisingumas, teisės sistema ir visuomenės sauga",
+            "regi": "Regionai ir miestai"
+        },
+        "pagination": {
+            "nextPage": "Kitas",
+            "previousPage": "Ankstesnis"
+        },
+        "navigation": {
+            "navItems": {
+                "home": "Namai",
+                "about": "Apie",
+                "data": "Data",
+                "privacyPolicy": "Privatumo politika",
+                "map": "Žemėlapis  ",
+                "imprint": "Leidimo duomenys"
+            }
+        },
+        "catalogsAndDatasets": {
+            "noDescriptionAvailable": "Aprašymo nėra",
+            "more": "Daugiau"
+        },
+        "datasetCategories": {
+            "foundCategories": "Rasta {number} kategorija",
+            "foundCategory": "Rasta {number} kategorijos (-ų)",
+            "noCategories": "Nerasta jokių kategorijų"
+        },
+        "mapModal": {
+            "fullscreen": "Visas ekranas",
+            "findDatasets": "Taikyti",
+            "reset": "Išvalyti",
+            "close": "Uždaryti",
+            "drawRectangleMsg": "Norėdami pasirinkti regioną, nubraižykite stačiakampį",
+            "disclaimer": "Atsakomybės atsisakymas",
+            "copyright": "Žemėlapio OpenStreetMap contributors © bendraautoriai"
+        },
+        "similarDatasets": {
+            "similar": "Panašūs",
+            "verySimilar": "Labai panašūs",
+            "marginalSimilar": "Nedaug panašūs",
+            "notFound": "Panašių duomenų rinkinių nerasta.",
+            "lessSimilar": "Mažiau panašūs",
+            "similarDatasets": "Panašūs duomenų rinkiniai"
+        },
+        "searchTabs": {
+            "editorialContent": "Redakcinis turinys"
+        },
+        "visualisation": {
+            "loading": "Vizualizacija įkeliama...",
+            "previewAvailable": "Galima peržiūra",
+            "info": "Jei vizualizacija nebus įkelta po kelių sekundžių, spustelėkite čia."
+        },
+        "catalog": {
+            "loadingMessage": "Katalogai parsisiųsti",
+            "searchBar": {
+                "placeholder": "Ieškoti katalogų "
+            },
+            "geoBoundsMessageRemove": "Apribojimui pašalinti uždarykite šį pranešimą arba naudokite atkūrimo funkciją.",
+            "countMessage": "Rasta katalogų"
+        },
+        "sparql": {
+            "subHeadlineText2": "Norėdami padėti naudotojams parengti naudingas SPARQL užklausas, pateikiame puslapį su <a href='{sample_sparql_queries}'>sample SPARQL queries</a>, kurį galima atlikti per mūsų galinį tašką. Duomenų rinkiniai ir katalogai, skelbiami portale kaip RDF trilijonai, atitinka <a href='https://github.com/SEMICeu/DCAT-AP'>DCAT-AP specification</a>. Daugiau informacijos apie metaduomenis ontologija pateikiama DCAT-AP duomenų.europa.eu akademijos puslapyje adresu <a href=' https://data.europa.eu/en/academy/dcat-and-dcat-ap'> https://data.europa.eu/en/academy/dcat-and-dcat-ap</a>.",
+            "subHeadlineText1": "Visi duomenų.europa.eu metaduomenys saugomi kaip RDF trilijonai (<a href='https://www.w3.org/RDF/'>RDF</a>) ir šiame taške galima pateikti užklausą SPARQL užklausos kalba. Užklausas galima atlikti per užklausų redaktorių (toliau) arba per mašininio nuskaitymo galinį tašką (<a href='https://data.europa.eu/sparql'>https://data.europa.eu/sparql</a>)."
+        },
+        "distributions": {
+            "footerLink": "Parsisiųsti"
+        },
+        "distributionDetails": "{}",
+        "spokenLanguage": "Anglų kalba",
+        "cite": {
+            "copyToClipboard": "Nukopijuoti į iškarpą",
+            "title": "Nurodykite šį duomenų rinkinį"
+        },
+        "home": {
+            "msg": "Deja, šiame puslapyje turinio dar nėra. \nNorėdami ką nors pamatyti, eikite į domenų kortelę!"
+        },
+        "imprint": {
+            "msg": "LEIDIMO DUOMENIS ĮRAŠYKITE ČIA"
+        }
+    }
+}

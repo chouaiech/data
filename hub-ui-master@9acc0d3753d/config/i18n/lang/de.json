@@ -1,0 +1,953 @@
+{
+    "message": {
+        "metadata": {
+            "catalogRecord": "Verzeichnis der Kataloge",
+            "deleteItem": "Möchten Sie dieses Element wirklich löschen?",
+            "availability": "Verfügbarkeit",
+            "versionInfo": "Versionsinfo",
+            "chooseCategory": "Wähle eine Kategorie",
+            "chooseFile": "Wähle eine Datei",
+            "versionNotes": "Versionshinweise",
+            "review": "Rezension",
+            "tooltipKeywords": "Geben Sie hier Schlüsselwörter Ihres Datensatzes ein!",
+            "pageDescriptionDataset": "Fügen Sie Ihrem Datensatz Titel, Beschreibung, Katalog, Schlüsselwörter und Kategorien hinzu!",
+            "no": "Nein",
+            "relatedResources": "Zugehörige Resourcen",
+            "pageDescriptionPublisher": "Fügen Sie Ihrem Datensatz Herausgebertyp, Name und Homepage hinzu!",
+            "tooltipTitle": "Geben Sie hier den Titel Ihres Datensatzes ein!",
+            "linkedData": "Verknüpfte Daten",
+            "numSeries": "Anzahl der Datenreihen",
+            "releaseDate": "Veröffentlichungsdatum",
+            "yes": "Ja",
+            "unitsOfMeasurement": "Einheiten der Messung",
+            "distributionsEmpty": "Für diesen Datensatz sind derzeit leider keine hochgeladenen Distributionen verfügbar. Bitte fügen Sie mindestens eine Distribution hinzu!",
+            "enterDownloadUrl": "Geben Sie Download Url ein",
+            "frequency": "Häufigkeit",
+            "type": "Typ",
+            "telephone": "Telefon",
+            "label": "Label",
+            "addedToDataEuropaEU": "Zu data.europa.eu hinzugefügt",
+            "tooltipCategories": "Wählen Sie hier Kategorien Ihres Datensatzes aus!",
+            "temporal": "Zeitliche Abdeckung",
+            "enterDescription": "Beschreibung eingeben",
+            "accrualPeriodicity": "Periodizität der Abgrenzung",
+            "showXMore": "{increment} Mehr anzeigen ",
+            "identifier": "Kennung",
+            "isPartOf": "Ist Teilkatalog von",
+            "dataServices": "Datendienste",
+            "chooseType": "Wähle einen Typ",
+            "organizationName": "Name der Organisation",
+            "catalog": "Katalog",
+            "qualityAnnotations": "Anmerkungen zur Qualität",
+            "update": "Aktualisieren",
+            "showAll": "Alles anzeigen",
+            "coordinates": "Koordinaten",
+            "email": "E-Mail",
+            "tooltipContactType": "Wählen Sie hier den Kontaktpunkttyp Ihres Datensatzes!",
+            "checksum": "Prüfsumme",
+            "enterEmail": "E-Mail-Adresse eingeben",
+            "cancel": "Abbrechen",
+            "conformsTo": "Konform mit",
+            "downloadUrl": "Download",
+            "chooseLicense": "Wähle eine Lizenz",
+            "tooltipDescription": "Geben Sie hier die Beschreibung Ihres Datensatzes ein!",
+            "tags": "Tags",
+            "accessUrl": "Zugriff",
+            "languages": "Sprachen",
+            "title": "Titel",
+            "enterTitle": "Titel eingeben",
+            "url": "URL",
+            "resource": "Ressource",
+            "tooltipPublisherHomepage": "Geben Sie hier die Herausgeber-Homepage Ihres Datensatzes ein!",
+            "creator": "Erstellt von",
+            "description": "Beschreibung",
+            "spatial": "Gebiet",
+            "readLess": "Less less",
+            "tooltipPublisherType": "Wählen Sie hier den Herausgebertyp Ihres Datensatzes aus!",
+            "accessRights": "Zugangsrechte",
+            "tooltipDistributionDownloadUrl": "Geben Sie hier die Download-URL Ihrer Distribution ein!",
+            "attributes": "Attribute",
+            "mediaType": "Medientyp",
+            "categories": "Kategorien",
+            "pageDescriptionDistribution": "Fügen Sie Ihrem Datensatz Distributionen hinzu!",
+            "pages": "Seiten",
+            "goToCatalog": "Gehe zur Katalogseite",
+            "tooltipDistributionDescription": "Geben Sie hier die Beschreibung Ihrer Verteilung ein!",
+            "identifiers": "Identifikatoren",
+            "scheme": "Regelung",
+            "contactPoints": "Kontaktmöglichkeiten",
+            "hasPart": "Hat Teilkatalog",
+            "showLess": "Weniger anzeigen",
+            "byteSize": "Bytegröße",
+            "tooltipCatalog": "Wählen Sie hier den Katalog Ihres Datensatzes!",
+            "methodologyPage": "mqa-Methodik-Seite",
+            "hasVersion": "Hat Version",
+            "useDownloadUrl": "Ich möchte eine Download-URL eingeben, anstatt eine Datei hochzuladen!",
+            "created": "Erstellt",
+            "themeTaxonomy": "Themataxonomie",
+            "homepage": "Startseite",
+            "address": "Anschrift",
+            "visualisations": "Visualisierungen",
+            "tooltipDistributionFormat": "Wählen Sie hier das Format Ihrer Distribution!",
+            "upload": "Hochladen",
+            "notFound": "Nicht gefunden",
+            "dimensions": "Abmessungen",
+            "addDistribution": "Distribution hinzufügen",
+            "name": "Name",
+            "metadataQuality": "Metadaten-Qualität",
+            "provenances": "Ursprünge",
+            "enterKeywords": "Schlüsselwörter eingeben",
+            "landingPage": "Zielseite",
+            "tooltipDistributionTitle": "Geben Sie hier den Titel Ihrer Distribution ein!",
+            "license": "Lizenz",
+            "chooseCatalog": "Wähle einen Katalog",
+            "enterHomepage": "Startseite eingeben",
+            "tooltipDistributionLicence": "Wählen Sie hier die Lizenz Ihrer Distribution!",
+            "readMore": "Lesen Sie mehr",
+            "format": "Format",
+            "chooseFormat": "Wähle ein Format",
+            "publisher": "Datenbereitsteller",
+            "dataset": "Datensatz",
+            "updated": "Aktualisiert",
+            "pageDescriptionUpload": "Fügen Sie Dateien zu Ihren Distributionen hinzu!",
+            "spatialResource": "Räumliche Ressource",
+            "distribution": "Distribution",
+            "tooltipContactName": "Geben Sie hier den Kontaktpunktnamen Ihres Datensatzes ein!",
+            "distributions": "Distributionen",
+            "status": "Status",
+            "datasets": "Datensätze",
+            "showMore": "Mehr anzeigen",
+            "rights": "Rechte",
+            "tooltipContactEmail": "Geben Sie hier die E-Mail-Adresse der Kontaktstelle Ihres Datensatzes ein!",
+            "otherIdentifiers": "Andere Identifikatoren",
+            "tooltipPublisherName": "Geben Sie hier den Herausgebernamen Ihres Datensatzes ein!",
+            "enterName": "Name eingeben",
+            "documentations": "Dokumentationen",
+            "sources": "Quellen",
+            "modificationDate": "Änderungsdatum",
+            "isVersionOf": "Ist Version von",
+            "pageDescriptionContactPoint": "Fügen Sie Kontaktpunkttyp, Name und E-Mail zu Ihrem Datensatz hinzu!",
+            "goToDataset": "Gehe zur Datensatzseite",
+            "updatedOnDataEuropaEU": "Aktualisiert auf data.europa.eu"
+        },
+        "dataupload": {
+            "info": {
+                "defaultdescription": "Klicken Sie auf Information-icon, um eine ausführliche Erläuterung des Feldes anzuzeigen.",
+                "information": "Informationen"
+            },
+            "datasets": {
+                "step2": {
+                    "type": {
+                        "placeholder": "Text des Datensatzes Art des Platzhalters"
+                    },
+                    "isReferencedByUrl": {
+                        "label": "URL"
+                    },
+                    "conformsTo": {
+                        "placeholder": "Datensatz Übereinstimmung mit dem Text des Platzhalters"
+                    },
+                    "provenance": {
+                        "label": "Herkunft"
+                    },
+                    "qualifiedAttribution": {
+                        "help": "Link zu einem Bediensteten, der in irgendeiner Form für die Ressource verantwortlich ist"
+                    },
+                    "accessRights": {
+                        "info": "Diese Eigenschaft bezieht sich auf Informationen, aus denen hervorgeht, ob es sich bei dem Datensatz um offene Daten handelt, ob der Datensatz Zugangsbeschränkungen unterliegt oder nicht öffentlich ist."
+                    },
+                    "versionInfo": {
+                        "help": "Versionsnummer des Datensatzes."
+                    },
+                    "wasGeneratedBy": {
+                        "add-label": "WAS Generated By hinzufügen"
+                    },
+                    "conformsToTitle": {
+                        "label": "Titel"
+                    },
+                    "spatial": {
+                        "info": "Diese Eigenschaft bezieht sich auf eine geografische Region, die vom Datensatz erfasst wird."
+                    },
+                    "contactPointName": {
+                        "label": "Name des Namens"
+                    },
+                    "contactPointEmail": {
+                        "label": "E-Mail"
+                    },
+                    "contactPoint": {
+                        "help": "Diese Eigenschaft enthält Kontaktinformationen."
+                    },
+                    "provenanceText": {
+                        "placeholder": "Datensatz Provenance Text Platzhalter Text"
+                    }
+                },
+                "step1": {
+                    "datasetID": {
+                        "label": "Datensatz-ID"
+                    },
+                    "publisher": {
+                        "label": "Datenbereitsteller"
+                    },
+                    "publisherHomepage": {
+                        "label": "Startseite"
+                    }
+                },
+                "step3": {
+                    "mediaType": {
+                        "placeholder": "Text des Platzhalters „Verbreitung Medientyp“"
+                    },
+                    "title": {
+                        "info": "Diese Eigenschaft enthält einen Namen, der dem Vertrieb zugewiesen wurde. Diese Eigenschaft kann für parallele Sprachfassungen der Beschreibung wiederholt werden."
+                    },
+                    "checksum": {
+                        "placeholder": "Text des Platzhalters „Distribution Checksum“"
+                    },
+                    "page": {
+                        "help": "Eine Seite oder ein Dokument zu dieser Verteilung."
+                    },
+                    "format": {
+                        "placeholder": "Verteilungsformat „Platzhalter“"
+                    },
+                    "issued": {
+                        "label": "Ausgestellt"
+                    },
+                    "hasPolicy": {
+                        "help": "Die Politik, in der die Rechte zum Ausdruck gebracht werden."
+                    },
+                    "temporalResolutionHour": {
+                        "placeholder": "Datensatz Temporale Auflösung Stunde Platzhalter Text"
+                    },
+                    "date": {
+                        "label": "Datum"
+                    }
+                },
+                "stepper": {
+                    "step3": {
+                        "children": {
+                            "distribution3": {
+                                "name": "Zusätzliche Informationen"
+                            },
+                            "distribution4": {
+                                "name": "Zusätzliche Informationen"
+                            },
+                            "distribution1": {
+                                "name": "Allgemeine Informationen"
+                            },
+                            "distribution2": {
+                                "name": "Zusätzliche Informationen"
+                            }
+                        }
+                    },
+                    "overview": "Übersicht über den Datensatz"
+                },
+                "issued": {
+                    "placeholder": "Datensatz Ausgegebener Platzhalter Text",
+                    "label": "Ausgestellt",
+                    "info": "Diese Eigenschaft enthält das Datum der förmlichen Ausstellung (z. B. Veröffentlichung) des Datensatzes.",
+                    "help": "Datum der förmlichen Ausgabe (z. B. Veröffentlichung) des Datensatzes. Zulässige Datumsformate: JJJJ-MM-TT, JJJJ-MM, JJJJ-JJJJ."
+                },
+                "datasetID": {
+                    "label": "Datensatz-ID",
+                    "help": "Diese Eigenschaft enthält die Hauptkennung für den Datensatz.",
+                    "info": "Diese Eigenschaft enthält die Hauptkennung für den Datensatz, z. B. die URI oder eine andere eindeutige Kennung im Kontext des Katalogs."
+                },
+                "catalog": {
+                    "placeholder": "Datensatz Katalog Platzhaltertext",
+                    "label": "Katalog",
+                    "info": "Der Katalog des Datensatzes.",
+                    "help": "Der Katalog des Datensatzes."
+                },
+                "datetime": {
+                    "label": "Datumszeit"
+                },
+                "date": {
+                    "label": "Datum"
+                },
+                "title": {
+                    "placeholder": "Text des Datensatzes Titel Platzhalter",
+                    "label": "Titel",
+                    "info": "Kurzer aussagekräftiger Titel für den Datensatz. Bitte keine vollwertige Beschreibung eintragen; hierfür ist das Feld „Beschreibung“ vorgesehen. Bitte am Ende keinen Punkt setzen und Nicht ausschließlich Großbuchstaben verwenden.",
+                    "help": "Kurzer aussagekräftiger Titel für den Datensatz.",
+                    "add-label": "Titel in einer anderen Sprache hinzufügen"
+                },
+                "modified": {
+                    "placeholder": "Datensatz Modifizierter Platzhaltertext",
+                    "label": "Geändert",
+                    "info": "Letztes Datum, an dem der Datensatz geändert, aktualisiert oder geändert wurde. Zulässige Datumsformate: JJJJ-MM-TT, JJJJ-MM, JJJJ-JJJJ.",
+                    "help": "Letztes Datum, an dem der Datensatz geändert, aktualisiert oder geändert wurde."
+                },
+                "publisherType": {
+                    "label": "Typ",
+                    "placeholder": "Datensatz „Publisher Typ Platzhalter“"
+                },
+                "publisher": {
+                    "label": "Datenbereitsteller",
+                    "placeholder": "Datensatz „Publisher Platzhalter“",
+                    "info": "Für die Bereitstellung des Datensatzes zuständige Stelle (Person, Organisation, Dienst usw.).",
+                    "help": "Für die Bereitstellung des Datensatzes zuständige Stelle (Person, Organisation, Dienst usw.).",
+                    "add-label": "Publisher in einer anderen Sprache hinzufügen"
+                },
+                "publisherName": {
+                    "label": "Name des Namens",
+                    "placeholder": "Datensatz „Publisher Name Placeholder“"
+                },
+                "publisherHomepage": {
+                    "label": "Startseite",
+                    "placeholder": "Datensatz „Publisher Homepage“-Platzhaltertext"
+                },
+                "language": {
+                    "placeholder": "Text des Datensatzes „Sprachplatzhalter“",
+                    "label": "Sprache",
+                    "info": "Durch den Datensatz abgedeckte Sprachen.",
+                    "help": "Durch den Datensatz abgedeckte Sprachen."
+                },
+                "publisherEmail": {
+                    "placeholder": "Datensatz Publisher E-Mail Platzhalter Text",
+                    "label": "E-Mail"
+                },
+                "keyword": {
+                    "placeholder": "Datensatz „Stichwort Platzhalter“",
+                    "label": "Stichwort",
+                    "info": "Durch Komma getrennte Begriffe, durch die dieser Datensatz mit ähnlichen Datensätzen verknüpft werden könnte. Die Stichwörter müssen aus alphanumerischen Zeichen in Kleinbuchstaben oder folgenden Symbolen bestehen: —_. Aus mehreren Wörtern bestehende Begriffe sollten mit Bindestrichen verbunden werden: Verschmutzung, Flüsse, stoffliche-Belastung.",
+                    "add-label": "Schlüsselwort hinzufügen",
+                    "help": "Durch Komma getrennte Begriffe, durch die dieser Datensatz mit ähnlichen Datensätzen verknüpft werden könnte."
+                },
+                "description": {
+                    "placeholder": "Text des Datensatzes Platzhalter der Beschreibung",
+                    "label": "Beschreibung",
+                    "info": "Allgemeine Beschreibung des Datensatzes. Sie wird häufig zusammen mit dem Pakettitel angezeigt. Am Anfang sollte ein kurzer Satz stehen, der den Inhalt des Datensatzes prägnant beschreibt, da in manchen Datensatz-Ansichten unter Umständen nur die ersten Wörter angezeigt werden.",
+                    "help": "Allgemeine Beschreibung des Datensatzes.",
+                    "add-label": "Beschreibung in einer anderen Sprache hinzufügen"
+                }
+            },
+            "catalogues": {
+                "step2": {
+                    "language": {
+                        "help": "Eine Sprache, die in den textlichen Metadaten verwendet wird, in denen Titel, Beschreibungen usw. beschrieben werden."
+                    },
+                    "hasPart": {
+                        "help": "Diese Eigenschaft bezieht sich auf einen zugehörigen Katalog, der Teil des beschriebenen Katalogs ist."
+                    },
+                    "creatorName": {
+                        "label": "Name"
+                    }
+                },
+                "step1": {
+                    "description": {
+                        "info": "Dieses Eigentum enthält ein Freitextkonto für die Aufzeichnung. Diese Eigenschaft kann für parallele Sprachfassungen der Beschreibung wiederholt werden."
+                    },
+                    "modified": {
+                        "label": "Geändert"
+                    },
+                    "homepage": {
+                        "help": "Eine Website, die als Hauptseite für den Katalog dient."
+                    }
+                },
+                "stepper": {
+                    "overview": "Überblick über den Katalog",
+                    "step1": {
+                        "name": "Schritt 1: Katalog erstellen"
+                    },
+                    "step2": {
+                        "name": "Schritt 2: Definition der katalogischen Eigenschaften"
+                    }
+                }
+            },
+            "clear": "Klar",
+            "deletemodal": {
+                "deleteDistribution": "Verteilung löschen",
+                "areyousure": "Sind Sie sicher, dass Sie diese Distribution löschen möchten?"
+            },
+            "createUniqueID": "Erstellen Sie eine eindeutige ID",
+            "saveasdraft": "Speichern als Entwurf",
+            "savedataset": "Datensatz speichern",
+            "skipDistribution": "Distributionen überspringen",
+            "next": "Nächster Schritt",
+            "noDistributions": "Keine Distributionen verfügbar",
+            "savedraft": "Entwurf speichern",
+            "searchVocabulary": "Vokabular suchen",
+            "error": {
+                "general": "Es ist ein Fehler aufgetreten. Bitte versuchen Sie es später noch einmal.",
+                "invalid-message": "Es fehlen einige Felder. Bitte füllen Sie alle erforderlichen Felder aus!"
+            },
+            "type": "Typ",
+            "preview": "Vorangegangener Schritt",
+            "submit": "Reichen Sie bitte ein",
+            "publishdataset": "Datensatz veröffentlichen",
+            "validationtitle": "Validierung",
+            "publishdraft": "Entwurf veröffentlichen",
+            "newDistribution": "Weitere Verteilung hinzufügen",
+            "validationerror": "Es liegt ein Fehler bei der Validierung Ihres Formulars vor!",
+            "createDataset": "Datensatz erstellen",
+            "defineDatasetProperties": "Festlegung der Eigenschaften des Datensatzes",
+            "createDistributions": "Erstellen Sie Verteilungen"
+        },
+        "datasetDetails": {
+            "subnav": {
+                "quality": "Qualität",
+                "similarDatasets": "Ähnliche Datensätze",
+                "categories": "Kategorien",
+                "dataset": "Datensatz",
+                "activityStream": "Aktivitätsanzeige"
+            },
+            "quality": {
+                "licenceAvailability": "Lizenzangaben",
+                "mediaTypeAvailability": "Media Type",
+                "temporalAvailability": "Zeitbasierte Suche",
+                "accessibility": "Zugänglichkeit",
+                "dcatApCompliance": "DCAT-AP Konformität",
+                "distributions": {
+                    "downloadUrlStatusCode": "Statuscode DownloadUrl",
+                    "accessUrlStatusCode": "AccessURL-Statuscode"
+                },
+                "accessRightsVocabularyAlignment": "Zugangsbeschränkungsangaben aus Vokabular",
+                "contactPointAvailability": "Kontaktinformation",
+                "dateIssuedAvailability": "Ausstellungsdatum",
+                "nodata": "Auf unserer Seite scheint es ein Problem zu geben. Es konnten keine hochwertigen Daten geladen werden. Bitte versuchen Sie es später erneut.",
+                "dateModifiedAvailability": "Änderungsdatum",
+                "contextuality": "Kontext",
+                "reusability": "Wiederverwendbarkeit",
+                "accessUrlStatusCode": "Häufigste AccessURL Statuscodes",
+                "downloadUrlStatusCode": "Häufigste DownloadURL Statuscodes",
+                "formatMediaTypeVocabularyAlignment": "Format / Media type aus Vokabular",
+                "metaDataQuality": "Metadaten-Qualität",
+                "downloadUrlAvailability": "Download URL",
+                "dataQuality": "Qualität der Daten",
+                "categoryAvailability": "Kategorien",
+                "interoperability": "Interoperabilität",
+                "findability": "Auffindbarkeit",
+                "spatialAvailability": "Ortsbezogene Suche",
+                "formatAvailability": "Format",
+                "byteSizeAvailability": "Dateigröße",
+                "accessRightsAvailability": "Zugangsbeschränkungsangaben",
+                "distributionQuality": "Qualität der Verteilung",
+                "publisherAvailability": "Herausgeber",
+                "keywordAvailability": "Schlüsselwörter",
+                "rightsAvailability": "Rechte"
+            },
+            "follow": "Folgen",
+            "accessURLTooltip": "Dieser Link kann Informationen darüber enthalten, wie Sie die referenzierte Datei erhalten oder er ist ein direkter Link zur referenzierten Datei.",
+            "dataStream": "Daten Streams",
+            "downloadURLTooltip": "Dies ist ein direkter Link zur referenzierten Datei.",
+            "upload": {
+                "organisation": "Organisation",
+                "individual": "Individuell",
+                "resetText": "Das gesamte Formular zurücksetzen?",
+                "person": "Person",
+                "unknownFormat": "Unbekanntes Format",
+                "reset": "Formular zurücksetzen"
+            },
+            "preview": "Vorschau",
+            "feedback": "Feedback",
+            "access": "Zugang",
+            "datasets": {
+                "modal": {
+                    "downloadingFiles": "Herunterladen von Dateien",
+                    "zipNumberOfFiles": "Reißverschluss – Anzahl der Dateien",
+                    "waitingForDownload": "(Warte zum Herunterladen)",
+                    "downloadProgress": "Fortschritt herunterladen",
+                    "notDownloaded": "Nicht heruntergeladen",
+                    "error": "Fehler! Versuchen Sie Again",
+                    "okay": "Okay",
+                    "cancel": "Stornieren",
+                    "close": "Schließen",
+                    "coupleOfMinutes": "(dies kann einige Minuten in Anspruch nehmen.)",
+                    "notDownloadedTooltip": "Einzelheiten sind der beigefügten Datei_report.csv-Datei zu entnehmen."
+                },
+                "leavePageWindow": {
+                    "text": "Möchten Sie wirklich ausreisen? Das Herunterladen wird nach Ihrer Abreise gestoppt!"
+                },
+                "downloadAll": "Alle herunterladen"
+            },
+            "translation": {
+                "update": "Eine aktualisierte Übersetzung dieses Datensatzes ist in Arbeit.",
+                "original": "Originale Sprache",
+                "message": "Titel und Beschreibung dieses Datensatzes wurden maschinell übersetzt.",
+                "noTranslation": "Dieser Datensatz ist noch nicht in Ihrer Sprache verfügbar. Die Übersetzungen befinden sich in Arbeit.",
+                "link": "Hier klicken um den Datensatz in seiner ursprünglichen Sprache anzuzeigen"
+            },
+            "cite": "Datensatz zitieren",
+            "relatedResources": "Damit zusammenhängende Ressourcen",
+            "share": "Teilen",
+            "geoVisualisation": "Geo-Visualisierung öffnen",
+            "download": "Download",
+            "intro": {
+                "distribution": "Im Folgenden sind die Qualitätsmessungen aller Verteilungen des Datensatzes aufgeführt. Informationen zu den Parametern, die wir für Indikatormessungen verwenden, finden Sie auf unserer <a href='/mqa/methodology?locale={locale}'>Methodikseite</a>.",
+                "metadataQuality": "Die Metadata Quality Assurance soll Datenlieferanten und Datenportalen dabei helfen, ihre Metadaten mit verschiedenen Indikatoren abzugleichen. Informationen zu den Parametern, die wir für Indikatormessungen verwenden, finden Sie auf unserer <a href='/mqa/methodology?locale={locale}'>Methodikseite</a>."
+            },
+            "about": "über",
+            "datasetFeed": "Datensatzfeed",
+            "delete": "Löschen",
+            "openResource": "Ressource öffnen",
+            "visualisation": "Visualisierung öffnen",
+            "isUsedBy": "Wird verwendet von",
+            "unfollow": "Entfolgen",
+            "shareOn": "Teilen auf",
+            "additionalInfo": "Zusätzliche Informationen",
+            "contactPoints": {
+                "organizationName": "Name der Organisation"
+            },
+            "edit": "Bearbeiten",
+            "menu": "Menü",
+            "manage": "Verwalten",
+            "geoInfo": "Datensatzumfang",
+            "options": "Optionen"
+        },
+        "tooltip": {
+            "catalogDetails": {
+                "created": "Datum der förmlichen Ausstellung (z. B. Veröffentlichung) des Katalogs.",
+                "publisher": "Eine Einrichtung (Organisation), die für die Bereitstellung des Katalogs verantwortlich ist.",
+                "updated": "Das letzte Datum, an dem der Katalog geändert wurde.",
+                "description": "Eine Beschreibung des Katalogs.",
+                "title": "Den Titel des Katalogs.",
+                "metadata": "Optionen zum Herunterladen der Katalog-Metadaten in verschiedenen verknüpften Datendarstellungen.",
+                "language": "Sprache, die in den textlichen Metadaten zur Beschreibung der Titel, Beschreibungen usw. der Datensätze im Katalog verwendet wird. Diese Eigenschaft kann wiederholt werden, wenn die Metadaten in mehreren Sprachen bereitgestellt werden.",
+                "spatial": "Vom Katalog abgedecktes geografisches Gebiet."
+            },
+            "datasetDetails": {
+                "frequency": "Häufigkeit der Aktualisierung des Datensatzes.",
+                "dataset": "Angaben zum Datensatz oder zum Dienst.",
+                "updated": "Das letzte Datum, an dem der Datensatz oder der Dienst geändert oder geändert wurde.",
+                "versionInfo": "Versionsnummer oder andere Versionsbezeichnung des Datensatzes.",
+                "distributions": {
+                    "updated": "Letztes Datum, an dem die Verteilung geändert oder geändert wurde.",
+                    "title": "Name der Verteilung.",
+                    "linkedSchema": "Festgelegtes Schema, dem die beschriebene Verteilung entspricht.",
+                    "linkedData": "Optionen zum Herunterladen der Verteilungsmetadaten in verschiedenen verknüpften Datendarstellungen.",
+                    "status": "Ausgereiftheit der Verteilung. Sie MUSS einen der Werte annehmen, die ausgefüllt, abgewertet, Under Development, zurückgeworfen werden.",
+                    "licence": "Lizenz, in deren Rahmen der Vertrieb bereitgestellt wird.",
+                    "availability": "Gibt an, wie lange geplant ist, die Verteilung des Datensatzes verfügbar zu halten.",
+                    "rights": "Erklärung, in der die mit dem Vertrieb verbundenen Rechte angegeben sind.",
+                    "checksum": "Ein Mechanismus, mit dem überprüft werden kann, ob sich der Inhalt einer Verbreitung nicht verändert hat. Die Prüfsumme bezieht sich auf das DownloadUrl.",
+                    "mediaType": "Medientyp der Verbreitung gemäß der Definition im amtlichen Register der von der IANA verwalteten Medientypen.",
+                    "spatialResolution": "Minimale räumliche Trennung, die in einer Datensatzverteilung lösbar ist, gemessen in Metern.",
+                    "byteSize": "Enthält die Größe einer Verteilung in Bytes.",
+                    "download": "Herunterladen oder Zugriff auf die Verteilung.",
+                    "type": "Links zu einer Art der Verteilung, z. B. dass es sich um eine Visualisierung handelt.",
+                    "created": "Datum der förmlichen Ausstellung (z. B. Veröffentlichung) des Vertriebs.",
+                    "language": "In der Verteilung verwendete Sprache.",
+                    "options": "Öffnen Sie eine Vorschau der Verteilung.",
+                    "temporalResolution": "Bezieht sich auf die Mindestlaufzeit, die bei der Verteilung des Datensatzes abwicklungsfähig ist."
+                },
+                "otherIdentifier": "Sekundäre Kennung des Datensatzes wie MAST/ADS16, DataCite17, DOI18, EZID19 oder W3ID20.",
+                "numSeries": "Enthält die Anzahl der im Datensatz enthaltenen Datenreihen.",
+                "versionOf": "Verwandter Datensatz, für den der beschriebene Datensatz eine Version, Ausgabe oder Anpassung ist.",
+                "unitsOfMeasurement": "Eine Maßeinheit für die Beobachtungen im Datensatz.",
+                "distribution": "Physische Verkörperung des Datensatzes oder Dienstes in einem bestimmten Format, z. B. ein Weblink zur Datensatzdatei.",
+                "quality": "Metadatenqualitätsinformationen für diesen Datensatz oder diesen Dienst.",
+                "catalogue": "Den Katalog, zu dem dieser Datensatz oder Dienst gehört.",
+                "linkedData": "Optionen zum Herunterladen des Datensatzes oder der Dienst-Metadaten in verschiedenen verknüpften Datendarstellungen.",
+                "versionNotes": "Beschreibung der Unterschiede zwischen dieser Version und einer früheren Version des Datensatzes. Diese Eigenschaft kann für parallele Sprachfassungen der Versionsvermerke wiederholt werden.",
+                "similarDatasets": "Andere Datensätze oder Dienste, die diesem ähnlich sind.",
+                "identifier": "Hauptidentifikator für den Datensatz, z. B. der URI oder eine andere eindeutige Kennung im Zusammenhang mit dem Katalog.",
+                "uriRef": "Der URIref ist eine eindeutige Kennung für den Datensatz/Datendienst in data.europa.eu",
+                "creator": "Stelle, die in erster Linie für die Erstellung des Datensatzes verantwortlich ist.",
+                "spatial": "Geografische Region, auf die sich der Datensatz bezieht.",
+                "language": "Sprache des Datensatzes.",
+                "format": "Das für diesen Datensatz oder diesen Dienst verfügbare Format.",
+                "conformsTo": "Durchführungsvorschrift oder sonstige Spezifikation.",
+                "landingPage": "Website, auf der der Datensatz, seine Verteilungen und/oder zusätzliche Informationen zugänglich sind.",
+                "provenance": "Erklärung über die Trennung eines Datensatzes.",
+                "documentation": "Seite oder Dokument zu diesem Datensatz.",
+                "publisher": "Eine Stelle (Organisation), die für die Bereitstellung des Datensatzes oder Dienstes verantwortlich ist.",
+                "created": "Datum der förmlichen Ausgabe (z. B. Veröffentlichung) des Datensatzes oder Dienstes.",
+                "relatedResource": "Damit zusammenhängende Ressource.",
+                "categories": "Kategorien, die diesem Datensatz oder Dienst zugeordnet werden.",
+                "share": "Teilen Sie diesen Datensatz oder diesen Dienst über soziale Medien.",
+                "feedback": "Teilen Sie uns mit, was Sie an diesen Datensatz oder diesen Dienst halten.",
+                "dqvData": "Optionen zum Herunterladen von Datensatz- oder Dienstqualitätsmessungen in verschiedenen verknüpften Datendarstellungen.",
+                "hasVersion": "Verwandter Datensatz, bei dem es sich um eine Version, Ausgabe oder Anpassung des beschriebenen Datensatzes handelt"
+            },
+            "quality": {
+                "keywordAvailability": "Stichwörter unterstützen die Suche direkt und verbessern damit die Auffindbarkeit des Datensatzes.&br>&br> Das System prüft, ob Schlüsselwörter definiert sind. Die Anzahl der Stichwörter hat keine Auswirkungen auf die Punktzahl.",
+                "formatMediaTypeVocabularyAlignment": "Prüfformat und Medientyp gehören zu einem kontrollierten Vokabular.&br>&lt;br> Das Format Vokabular ist in der Daten.europa.eu GitLab repository.&lt;br>&lt;br> undlt;br>.Der Medientyp wird mit der IANA-Liste abgeglichen.",
+                "licenceAvailability": "Eine Lizenz ist wertvolle Informationen für die Weiterverwendung von Daten.&br>&lt;br> Es wird überprüft, ob die Immobilie eingestellt ist oder nicht.",
+                "publisherAvailability": "Bei dem Verleger handelt es sich um eine Person oder Organisation, die die Daten.&br>&lt;br>veröffentlicht hat. Es wird überprüft, ob die Immobilie eingestellt ist oder nicht.",
+                "formatAvailability": "Dieses Feld gibt das Dateiformat der Verteilung an.&br>&lt;br>Es wird überprüft, ob die Eigenschaft eingestellt ist oder nicht.",
+                "temporalAvailability": "Die Nutzung zeitlicher Informationen würde es den Nutzern ermöglichen, eine zeitnahe Facettensuche zu ermöglichen.&br>&lt;br>Es wird überprüft, ob die Immobilie eingestellt ist oder nicht.",
+                "rightsAvailability": "In einigen Fällen kann eine bestimmte Lizenz nicht auf einen Datensatz angewandt werden. Das Feld „Rechte“ kann verwendet werden, um einen Verweis auf eine Ressource anzugeben, mit der ein Nutzer über die Rechte informiert wird, über die er bei der Verwendung des Datensatzes.&br>&lt;br> verfügt. Es wird geprüft, ob die Immobilie eingestellt ist oder nicht.",
+                "mediaTypeAvailability": "Dieses Feld gibt die Medienart der Verteilung an.&br>&lt;br> Es wird überprüft, ob die Immobilie eingestellt ist oder nicht.",
+                "accessRightsVocabularyAlignment": "Die Verwendung eines kontrollierten Vokabulars erhöht die Wiederverwendbarkeit.&lt;br>&br> Es wird überprüft, ob das kontrollierte Vokabular für Zugangsrechte verwendet wird.",
+                "dcatApCompliance": "Die DCAT-AP-Einhaltung wird aus allen Quellen und Datensätzen berechnet, die in einem Katalog verfügbar sind. Diese Prüfung wird nur durchgeführt, wenn die Metadaten ursprünglich als DCAT-AP oder als gültiges Derivat abgelesen wurden. &br>&br> DCAT-AP ist eine Spezifikation zur Beschreibung verknüpfter öffentlicher Daten in Europa. Das Portal Data.europe.eu kann auch Metadaten gewinnen, die DCAT-AP nicht vollständig entsprechen. Um die Konformität mit DCAT-AP zu verbessern, prüft das MQA jede Metadaten für seine DCAT-AP Compliance.&br>&lt;br>&br> Die Metadaten werden anhand einer Reihe von SHACL-Formen validiert. Die Metadaten sind nicht konform, wenn die SHACL-Validierung mindestens ein Problem.&br>&br> Der MQA verwendet Data.europe.eu’s DCAT-AP SHACL validation sevice.&br> &br> SCHACL ist eine Empfehlung des W3C und wird zur Validierung von RDF-grafischen Darstellungen anhand einer Reihe von Formen verwendet.",
+                "accessRightsAvailability": "Dieses Feld gibt an, ob der Zugang zu den Daten öffentlich oder eingeschränkt ist.&br>&lt;br> Es wird überprüft, ob die Eigenschaft eingestellt ist oder nicht.",
+                "accessUrlStatusCode": "Das AccessURL ist nicht unbedingt ein direkter Link zu den Daten, sondern kann sich auch auf eine URL beziehen, die den Zugang zum Datensatz ermöglicht oder bei der weitere Informationen über den Datensatz verfügbar sind.&br>&lt;br>&br> Die angegebene URL wird über eine HTTP-HEAD-Anfrage auf Zugänglichkeit überprüft. Liegt der beantwortete Statuscode im Bereich 200 oder 300, wird die Zugänglichkeit der Ressource positiv bewertet.",
+                "categoryAvailability": "Die Kategorien helfen den Nutzern, Datensätze thematisch zu erforschen.&br>&lt;br>. Es wird überprüft, ob dem Datensatz eine oder mehrere Kategorien zugeordnet werden. Die Anzahl der zugewiesenen Kategorien hat keine Auswirkungen auf die Punktzahl.",
+                "downloadUrlStatusCode": "Wenn ein DownloadUrl vorhanden ist, wird die Zugänglichkeit geprüft.&br>&lt;br>Die angegebene URL wird über HTTP HEAD-Anfrage auf die Zugänglichkeit von e-Ressourcen überprüft. Liegt der beantwortete Statuscode im Bereich 200 oder 300, wird die Zugänglichkeit der Ressource positiv bewertet.",
+                "byteSizeAvailability": "Gibt die Größe der Datei in Bytes.&br>&lt;br> an. Es wird überprüft, ob die Immobilie eingestellt ist oder nicht.",
+                "downloadUrlAvailability": "Das DownloadUrl ist ein direkter Link zu den Referenzdaten.&br>&lt;br> Es wird überprüft, ob die Eigenschaft eingestellt ist oder nicht.",
+                "spatialAvailability": "Die Nutzung von Geodaten würde es den Nutzern ermöglichen, den Datensatz mit einer geografischen Suche zu finden.&br>&lt;br>. Es wird überprüft, ob die Eigenschaft eingestellt ist oder nicht.",
+                "contactPointAvailability": "Die Kontaktstelle enthält Informationen, die bei Fragen zu den Daten.&br>&lt;br> zu beantworten sind. Sie wird überprüft, ob die Eigenschaft eingestellt ist oder nicht.",
+                "dateIssuedAvailability": "Datum, an dem der Datensatz oder die Verteilung freigegeben wurde.&br> &br> Es wird überprüft, ob die Immobilie eingestellt ist oder nicht.",
+                "dateModifiedAvailability": "Datum, an dem der Datensatz oder die Verteilung zuletzt geändert wurde.&br>&lt;br> Es wird überprüft, ob die Eigenschaft eingestellt ist oder nicht."
+            },
+            "catalogRecord": "Eine Beschreibung des Eintrags eines Datensatzes im Katalog.",
+            "lastModified": "Sortierung der Ergebnisse nach der jüngsten Änderung des Datensatzes",
+            "editorialContent": "Suche nach redaktionellen Inhalten, z. B. Nachrichten, Veranstaltungen, Anwendungsfälle",
+            "datasets": "Nach Datensätzen suchen",
+            "relevance": "Datensatz nach Relevanz sortieren. Die Relevanz wird auf der Grundlage von Suchbegriffstreffern im Titel, Stichwörtern und Beschreibung berechnet.",
+            "contactPoints": "Kontaktdaten, die für die Übermittlung von Kommentaren zum Datensatz verwendet werden können.",
+            "locationFilter": "Zur Anzeige von Datensätzen zu einem bestimmten Standort klicken Sie auf die Karte und wählen Sie das Pen-Symbol aus. Klicken Sie auf „Apply“, um nur Datensätze zu filtern, die sich auf das ausgewählte Gebiet beziehen. Es ist zu beachten, dass nur Datensätze, die Geoinformationsmetadaten enthalten, in die Suchergebnisse aufgenommen werden.",
+            "catalogues": "Suche nach Katalogen. Ein Katalog enthält Datensätze und Dienste"
+        },
+        "visualisationDistribution": {
+            "barChartExplain": "Ein Balkendiagramm zeigt numerische Werte für Ebenen eines kategorischen Merkmals als Balken. Die Werte werden auf einer Kartenachse grafisch dargestellt, die Werte auf der anderen Achse.",
+            "semicolon": "Semikolon",
+            "exportSucceeded": "Konfiguration erfolgreich erstellt!",
+            "yAxis": "y Achse",
+            "pipe": "Rohrleitung",
+            "cancel": "Stornieren",
+            "fileTypeNotSupported": "Sie versuchen, einen Dateityp zu erstellen, der nicht unterstützt wird.",
+            "confirm": "Bestätigen Sie bitte,",
+            "fileNotFound": "Sie versuchen, eine Datei zu erstellen, deren Inhalt nicht gelesen werden konnte.",
+            "comma": "Komma",
+            "space": "Raum",
+            "exportDataTip": "Das Eingabefeld darf nicht leer sein!",
+            "countRow": "Zählung",
+            "exportMessagesHeader": "Möchten Sie Ihre Konfiguration wirklich speichern? Bitte überprüfen Sie es, bevor Sie es speichern!",
+            "exportMessagesLabel": "Bitte geben Sie den Namen Ihrer Konfiguration ein.",
+            "exportNameExistsAlert": "Der Name wird bereits verwendet. Bitte versuchen Sie ein anderes!",
+            "hiddenMessages": "werden verborgen – klicken Sie, um alle anzuzeigen.",
+            "connectedLineChart": "Karte der vernetzten Strecken",
+            "barChart": "Balkendiagramm",
+            "someRows": "Einige Reihen",
+            "row": "Zeilen",
+            "tab": "Registerkarte",
+            "connectToDatabaseError": "Fehler beim Zugriff auf Daten aus der Datenbank. Bitte versuchen Sie dies oder überprüfen Sie Ihre Eingabe erneut!",
+            "badgateway": "Server nicht verfügbar oder falscher DNS-Name.",
+            "goBack": "Gehen Sie zurück.",
+            "forbidden": "Der Zugang zu der beantragten Ressource ist untersagt.",
+            "unauthorized": "Dem Antrag wurde nicht stattgegeben. Es fehlt an gültigen Authentifizierungsdaten.",
+            "xAxis": "X Achse",
+            "delimiter": "Abgrenzungsgröße",
+            "someColumns": "Einige Spalten",
+            "exportMessagesFooter": "Klicken Sie auf „Bestätigen“, um sie zu speichern!",
+            "table": "Tabelle",
+            "connectedLineChartExplain": "Es handelt sich um eine angeschlossene Streufläche, die im Wesentlichen ein Hybridgerät zwischen einer Streukarte und einem Leinenplot ist. Sie müssen Xaxis wählen, um es zu machen."
+        },
+        "sort": {
+            "lastCreated": "Zuletzt Erstellt",
+            "lastUpdated": "Zuletzt aktualisiert",
+            "nameZA": "Name Z-A",
+            "relevance": "Relevanz",
+            "sortBy": "Sortieren nach",
+            "nameAZ": "Name A-Z"
+        },
+        "distributionLicense": {
+            "openLA": "Lizenzassistent öffnen",
+            "notProvided": "Keine Lizenz angegeben",
+            "licensingAssistant": "Lizenzassistent",
+            "notFound": "Keine Lizenzinformation gefunden.",
+            "notFoundExtended": "Es wurde keine zusätzlichen Lizenzinformation gefunden, bitte überprüfen Sie die Quelle für weitere Informationen bzgl. der Lizenz."
+        },
+        "catalogs": {
+            "countMessageSingular": "Katalog gefunden für ",
+            "geoBoundsMessagePre": "Ihre Suche wurde eingeschränkt auf:",
+            "downloadAsLinkedData": "Katalog Metadaten als verknüpfte Daten",
+            "countMessageNoResult": "Kein Katalog gefunden für ",
+            "searchBar": {
+                "placeholder": "Kataloge durchsuchen"
+            },
+            "countMessage": "Kataloge gefunden für ",
+            "loadingMessage": "Kataloge werden geladen…",
+            "geoBoundsMessageRemove": "Schließen Sie diese Meldung, um die Einschränkung zu entfernen \noder benutzen Sie die Reset Funktion."
+        },
+        "datasetFacets": {
+            "facets": {
+                "datascopeField": {
+                    "countryData": "Nationale Daten",
+                    "io": "Internationale Daten",
+                    "eu": "Daten der Europäischen Union"
+                },
+                "datascope": "Bereich der Daten",
+                "dataServices": {
+                    "dataServicesOnly": "Nur Datendienste"
+                },
+                "country": "Herkunft",
+                "format": "Formate",
+                "scoring": {
+                    "badScoring": "Jede",
+                    "sufficientScoring": "Ausreichend",
+                    "goodScoring": "Gut",
+                    "excellentScoring": "Excellent"
+                },
+                "publisher": "@:message.metadata.publisher",
+                "license": "Lizenzen",
+                "keywords": "Schlüsselwörter",
+                "categories": "Kategorien",
+                "catalog": "Kataloge",
+                "countrydata": "Länderdaten",
+                "tags": "Tags"
+            },
+            "title": "Filter",
+            "and": "UND",
+            "settings": "Filtereinstellung",
+            "scoring": "Wertung",
+            "or": "oder",
+            "europeanCatalogs": "Europäische Kataloge",
+            "operator": "Operator"
+        },
+        "header": {
+            "navigation": {
+                "data": {
+                    "euInternationalData": "EU- und internationale Daten",
+                    "datasets": "Datensätze",
+                    "catalogs": "Kataloge",
+                    "metadataquality": "Metadaten-Qualität",
+                    "sparqleditor": "SPARQL-Editor",
+                    "statistics": "Statistiken",
+                    "sparqlsearch": "SPARQL-Suche",
+                    "title": "Daten"
+                },
+                "impactStudies": {
+                    "opendataimpact": "Die Bedeutung offener Daten",
+                    "tellUsYourStory": "Teilen Sie Ihre Erfahrung mit uns",
+                    "studies": "Studien",
+                    "opendatamaturity": "Open Data Maturity",
+                    "countryInsights": "Länder-Info",
+                    "useCases": "Anwendungsfälle",
+                    "title": "Bedeutung und Studien",
+                    "overview": "Übersicht"
+                },
+                "training": {
+                    "licensingAssistant": "Lizenz-Assistent",
+                    "dataProvidersGuide": "Leitfaden für Datenanbieter",
+                    "moreTrainingMaterial": "Weiteres Trainingsmaterial",
+                    "whatIsOpenData": "Was sind offene Daten",
+                    "title": "Training",
+                    "elearning": "E-Learning"
+                },
+                "about": {
+                    "beHarvestedByUs": "Ihre Daten bereitstellen",
+                    "documentation": "Dokumentation",
+                    "title": "Über",
+                    "europeanDataPortal": "Europäisches Datenportal"
+                },
+                "newsEvents": {
+                    "events": "Veranstaltungen",
+                    "news": "Meldungen",
+                    "title": "Aktuelle Meldungen und Veranstaltungen",
+                    "stories": "Datenszenarien"
+                },
+                "covid-19": {
+                    "title": "COVID-19",
+                    "datasets": "Datensätze",
+                    "overview": "Übersicht",
+                    "initiatives": "Datenbezogene Initiativen"
+                }
+            },
+            "subnav": {
+                "newsletter": "Newsletter",
+                "cookies": "Cookies",
+                "login": "Anmelden",
+                "contact": "Kontakt",
+                "search": "Suche",
+                "logout": "Abmelden",
+                "legalNotice": "Rechtlicher Hinweis",
+                "faq": "FAQ"
+            },
+            "european": "Europäisches",
+            "searchInputPlaceholder": "Portalinhalte durchsuchen...",
+            "dataPortal": "Datenportal",
+            "searchOptions": {
+                "siteContent": "Seiteninhalt",
+                "datasets": "Datensätze"
+            }
+        },
+        "catalogues": {
+            "foundCataloguesSingular": "1 Katalog gefunden",
+            "foundCatalogues": "Anzahl der gefundenen Kataloge"
+        },
+        "datasets": {
+            "foundDatasets": "Anzahl der gefundenen Datensätze",
+            "countMessage": "Datensätze gefunden",
+            "foundDatasetsSingular": "1 Datensatz gefunden",
+            "meta": {
+                "translationNotComplete": "Übersetzung nicht vollständig"
+            },
+            "geoBoundsMessageRemove": "Schließen Sie diese Meldung, um die Einschränkung zu entfernen \noder benutzen Sie die Reset Funktion.",
+            "createDataset": "Datensatz erstellen",
+            "geoBoundsMessagePre": "Ihre Suche wurde eingeschränkt auf:",
+            "loadingMessage": "Datensätze werden abgerufen...",
+            "countMessageSingular": "Datensatz gefunden für {query}",
+            "datasetsFeed": "Datensatz-Feed",
+            "scoreDisclaimer": "Die aktuellen Suchergebnisse wurden reduziert, damit sie der eingestellten Mindestqualität entsprechen, die in Filtern links angegeben ist. Besuchen Sie unsere {0}, wenn Sie mehr über unsere Qualitätsmessungen erfahren möchten.",
+            "noResult": "Keine Datensätze gefunden für {query}",
+            "findLocation": "Nach Ort filtern",
+            "searchBar": {
+                "placeholder": "Nach Datensätzen suchen"
+            },
+            "createCatalogue": "Katalog erstellen",
+            "saveQuery": "Suchanfrage speichern"
+        },
+        "footer": {
+            "helpUsImproveText": "Ihr Feedback hilft uns, die Benutzererfahrung stetig zu verbessern. Was ist Ihr Vorschlag?",
+            "lastUpdated": "Zuletzt aktualisiert",
+            "links": {
+                "cookies": "Cookies",
+                "contact": "Kontakt",
+                "faq": "FAQ",
+                "newsletter": "Newsletter",
+                "search": "Suche",
+                "login": "Anmelden",
+                "legalNotice": "Rechtlicher Hinweis"
+            },
+            "subscribe": "Abonnieren",
+            "helpUsImprove": "Verbesserungsvorschläge",
+            "newsletterText": "Abonnieren Sie unseren Newsletter",
+            "newsletter": "Newsletter",
+            "followUs": "Folgen Sie uns",
+            "managedBy": "Verwaltet vom Amt für Veröffentlichungen der Europäischen Union.",
+            "fundedBy": "Gefördert durch die Europäische Union"
+        },
+        "helpIcon": {
+            "dataServices": "In data.europa.eu kann eine Verbreitung auch als Datendienst fungieren. Das bedeutet, dass sie nicht zu einer herunterladbaren Datei, sondern zu einer API verlinkt wird. Wählen Sie „Ja“, wenn Sie Datensätze mit mindestens einem Datendienst filtern möchten.",
+            "scoring": "data.europa.eu misst die Qualität aller Datensätze und Dienste. Im Abschnitt Daten-/Metadatenqualität haben wir eine Methodikseite, auf der das Verfahren beschrieben wird. Jeder Datensatz und jeder Dienst wird auch durch eine Qualitätsnote dargestellt. Diese Punktzahl kann ausreichend, gut oder ausgezeichnet sein. Wenn der Filter „ausreichend+“ eingestellt ist, würden alle Datensätze und Dienste angezeigt, die eine ausreichende oder bessere Punktzahl aufweisen. Gleiches gilt für „gut“. „Ausgezeichnet“ zeigt nur ausgezeichnete Datensätze und Dienste.",
+            "license": "Eine Lizenz beschreibt die rechtlichen Bedingungen für die Verwendung eines Datensatzes.",
+            "dataScope": "EU-Daten enthalten Datensätze und Dienste von EU-Organen. Internationale Daten enthalten Datensätze und Dienste, die aus Ländern außerhalb der EU stammen. Länderdaten enthalten Datensätze und Dienste aus den EU-Mitgliedstaaten.",
+            "format": "Jeder Datensatz enthält Verweise auf Dateien oder Dienste. Das Format beschreibt den Dateityp oder die Art der Dienstleistung dieser Referenzen. Nicht jeder Dateityp kann für alle Zwecke verwendet werden, z. B. kann eine Berechnung besser mit einer CSV-Datei anstelle einer PDF-Datei durchgeführt werden.",
+            "catalog": "Ein Katalog oder ein Repository, in dem Datensätze und Dienste gespeichert sind. Ein Katalog stellt in erster Linie ein Portal dar, auf dem die Datensätze erfasst werden.",
+            "settings": "Entscheiden Sie, ob Ihre Filterauswahl exklusiv ist oder nicht. Wenn Sie wählen, müssen alle Suchergebnisse mit allen Filtern übereinstimmen. Oder bedeutet, dass mindestens ein Filter übereinstimmen muss.",
+            "categories": "Eine Kategorie von Datensätzen, die ein gemeinsames Thema haben.",
+            "publisher": "Ein Verlag ist eine Einrichtung (z. B. Organisation), die für die Bereitstellung des Datensatzes verantwortlich ist.",
+            "keywords": "Stichwörter sind Ideen und Themen, die den Inhalt definieren."
+        },
+        "userQueries": {
+            "executeQuery": "Anfrage ausführen",
+            "queriesFound": "{number} Anfragen gefunden",
+            "placeholderNotes": "z.B. einige nützliche Hinweise zur Abfrage",
+            "querySaved": "Anfrage gespeichert",
+            "queryFound": "{number} Anfrage gefunden",
+            "myQueries": "Meine Anfragen",
+            "noDescription": "Diese Anfrage hat keine Beschreibung",
+            "noQueryFound": "Keine Anfrage gefunden",
+            "queryDeleted": "Anfrage gelöscht",
+            "searchAllQueries": "Sucht Anfragen...",
+            "save": "Anfrage speichern",
+            "areYourSure": "Möchten Sie diese Anfrage wirklich löschen?",
+            "noQueriesSaved": "Sie haben keine Anfragen gespeichert",
+            "searchQueries": "Sucht meine Anfragen…"
+        },
+        "catalogFacets": {
+            "facets": {
+                "licences": "Lizenzen",
+                "catalogs": "Kataloge",
+                "categories": "Kategorien",
+                "countries": "Länder",
+                "formats": "Formate",
+                "keywords": "Schlüsselwörter"
+            },
+            "operator": "Operator",
+            "title": "Filter",
+            "europeanCatalogs": "Europäische Kataloge",
+            "or": "ODER",
+            "and": "UND",
+            "euInstitutions": "EU-Institutionen",
+            "settings": "Einstellungen"
+        },
+        "statistics": {
+            "statistics": "Statistiken",
+            "datasetsPerCatalog": "Datensätze pro Katalog",
+            "currentState": "Aktueller Zustand",
+            "datasetsPerCountry": "Datensätze pro Land",
+            "selectType": "Wähle den Statistiktyp",
+            "datasetsPerCountryAndCatalog": "Datensätze pro Land und Katalog",
+            "evolution": "Evolution",
+            "evolutionStartEnd": "Entwicklung der Gesamtzahl der Datensätze zwischen {start_date} und {end_date}",
+            "increaseStartEnd": "Anstieg von {dataset_model} in % zwischen {start_date} und {end_date}",
+            "totalNumber": "Gesamtzahl der Datensätze",
+            "datasetsPerCategory": "Datensätze pro Kategorie",
+            "selectTimePeriod": "Wähle den Zeitraum",
+            "evolutionNumber": "Entwicklung der Anzahl von {dataset_model} zwischen {start_date} und {end_date}",
+            "numberDate": "Anzahl von {dataset_model} zum {date}"
+        },
+        "categories": {
+            "tran": "Verkehr",
+            "heal": "Gesundheit",
+            "tech": "Wissenschaft und Technologie",
+            "envi": "Umwelt",
+            "econ": "Wirtschaft und Finanzen",
+            "soci": "Bevölkerung und Gesellschaft",
+            "agri": "Landwirtschaft, Fischerei, Forstwirtschaft und Nahrungsmittel",
+            "educ": "Bildung, Kultur und Sport",
+            "ener": "Energie",
+            "intr": "Internationale Themen",
+            "gove": "Regierung und öffentlicher Sektor",
+            "just": "Justiz, Rechtssystem und öffentliche Sicherheit",
+            "regi": "Regionen und Städte"
+        },
+        "pagination": {
+            "nextPage": "Vor",
+            "previousPage": "Zurück"
+        },
+        "navigation": {
+            "navItems": {
+                "home": "Start",
+                "about": "Über",
+                "data": "Daten",
+                "privacyPolicy": "Datenschutzerklaerung",
+                "map": "Karte",
+                "imprint": "Impressum"
+            }
+        },
+        "catalogsAndDatasets": {
+            "noDescriptionAvailable": "Keine Beschreibung verfügbar",
+            "more": "Mehr"
+        },
+        "datasetCategories": {
+            "foundCategories": "{number} Kategorie gefunden",
+            "foundCategory": "{number} Kategorien gefunden",
+            "noCategories": "Keine Kategorien gefunden"
+        },
+        "mapModal": {
+            "fullscreen": "Vollbildschirm",
+            "findDatasets": "Anwenden",
+            "reset": "Zurücksetzen",
+            "close": "Schließen",
+            "drawRectangleMsg": "Zeichne ein Rechteck zum Auswählen einer Region",
+            "disclaimer": "Haftungsausschluss",
+            "copyright": "Karte © OpenStreetMap-Mitwirkende"
+        },
+        "similarDatasets": {
+            "similar": "Ähnlich ",
+            "verySimilar": "Sehr ähnlich",
+            "marginalSimilar": "Marginal ähnlich",
+            "notFound": "Keine ähnlichen Datensätze gefunden",
+            "lessSimilar": "Weniger ähnlich",
+            "similarDatasets": "Ähnliche Datensätze"
+        },
+        "searchTabs": {
+            "editorialContent": "Redaktionelle Inhalte"
+        },
+        "visualisation": {
+            "loading": "Visualisierung wird geladen...",
+            "previewAvailable": "Vorschau verfügbar",
+            "info": "Wenn die Visualisierung nach wenigen Sekunden nicht erscheint, bitte hier klicken."
+        },
+        "catalog": {
+            "loadingMessage": "Kataloge werden abgerufen...",
+            "searchBar": {
+                "placeholder": "Suche nach Katalogen"
+            },
+            "geoBoundsMessageRemove": "Schließen Sie diese Meldung, um die Einschränkung zu entfernen \noder benutzen Sie die Reset Funktion.",
+            "countMessage": "Kataloge gefunden"
+        },
+        "sparql": {
+            "subHeadlineText2": "Um die Nutzer bei der Erstellung nützlicher SPARQL-Anfragen zu unterstützen, stellen wir eine Seite mit Funktionselementen <a href='{sample_sparql_queries}'>sample SPARQL queries</a> zur Verfügung, die über unseren Endpunkt ausgeführt werden kann. Datensätze und Kataloge, die als RDF-Tripel auf dem Portal veröffentlicht werden, folgen der <a href='https://github.com/SEMICeu/DCAT-AP'>DCAT-AP specification</a>. Weitere Informationen zur Ontologie der Metadaten finden Sie auf der Website Data.europa.eu academy auf DCAT-AP unter: <a href=' https://data.europa.eu/en/academy/dcat-and-dcat-ap'> https://data.europa.eu/en/academy/dcat-and-dcat-ap</a>.",
+            "subHeadlineText1": "Alle Metadaten von data.europa.eu werden als RDF-Tripel (<a href='https://www.w3.org/RDF/'>RDF</a>) gespeichert und können an diesem Endpunkt mit der SPARQL-Abfragesprache abgefragt werden. Anfragen können über den Suchredakteur (unt) oder über den maschinenlesbaren Endpunkt (<a href='https://data.europa.eu/sparql'>https://data.europa.eu/sparql</a>) durchgeführt werden."
+        },
+        "distributions": {
+            "footerLink": "Download"
+        },
+        "distributionDetails": "{}",
+        "spokenLanguage": "Englisch",
+        "cite": {
+            "copyToClipboard": "Kopie an den Clipboard",
+            "title": "Zitieren Sie diesen Datensatz"
+        },
+        "home": {
+            "msg": "Sorry, this page has no content yet. Visit the Data tab to see something!"
+        },
+        "imprint": {
+            "msg": "HIER IMPRESSUM EINFÜGEN"
+        }
+    }
+}

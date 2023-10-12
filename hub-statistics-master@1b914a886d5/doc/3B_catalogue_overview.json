@@ -1,0 +1,330 @@
+{
+  "cedai": {
+    "country": "es",
+    "title": "CEDAI Catalog Service for Provision of IMEDEA metadata"
+  },
+  "avaandmete-portaal": {
+    "country": "ee",
+    "title": "avaandmete-portaal"
+  },
+  "edp-covid": {
+    "country": "eu",
+    "title": "EDP for COVID-19"
+  },
+  "data-gov-lt": {
+    "country": "lt",
+    "title": "data-gov-lt"
+  },
+  "data-gov-uk": {
+    "country": "gb",
+    "title": "data.gov.uk"
+  },
+  "govdata": {
+    "country": "de",
+    "title": "GovData"
+  },
+  "data-gov-be": {
+    "country": "be",
+    "title": "data-gov-be"
+  },
+  "geodata-info-dk": {
+    "country": "dk",
+    "title": "geodata-info-dk"
+  },
+  "data-gov-lv": {
+    "country": "lv",
+    "title": "data.gov.lv"
+  },
+  "dados-gov-pt": {
+    "country": "pt",
+    "title": "dados.gov.pt"
+  },
+  "data-gov-ua": {
+    "country": "ua",
+    "title": "data.gov.ua"
+  },
+  "data-gov-ro": {
+    "country": "ro",
+    "title": "data.gov.ro"
+  },
+  "nkod-opendata-cz": {
+    "country": "cz",
+    "title": "Czech National Open Data Portal"
+  },
+  "data-gov-ie": {
+    "country": "ie",
+    "title": "data-gov-ie"
+  },
+  "dataportaal-van-de-nederlandse-overheid": {
+    "country": "nl",
+    "title": "Dataportaal van de Nederlandse overheid"
+  },
+  "pn": {
+    "country": "eu",
+    "title": "EUMETSAT Product Navigator"
+  },
+  "geology-cz": {
+    "country": "cz",
+    "title": "EGDI Metadata Catalogue"
+  },
+  "ng-ee": {
+    "country": "ee",
+    "title": "Estonian National Geoportal"
+  },
+  "data-gov-sk": {
+    "country": "sk",
+    "title": "data.gov.sk"
+  },
+  "datos-gob-es": {
+    "country": "es",
+    "title": "datos.gob.es"
+  },
+  "data-grad-zagreb": {
+    "country": "hr",
+    "title": "DATA - Grad Zagreb"
+  },
+  "data-norge-no": {
+    "country": "no",
+    "title": "data.norge.no"
+  },
+  "dati-gov-it": {
+    "country": "it",
+    "title": "dati.gov.it"
+  },
+  "geocat-li": {
+    "country": "li",
+    "title": "geocat-li"
+  },
+  "geocatalogue-fr": {
+    "country": "fr",
+    "title": "Geocatalogue France"
+  },
+  "cuzk": {
+    "country": "cz",
+    "title": "Geoportal Czech Office for Surveying, Mapping and Cadastre"
+  },
+  "mfgi": {
+    "country": "hu",
+    "title": "GeoNetwork Hungary"
+  },
+  "geodata-se": {
+    "country": "se",
+    "title": "Geodata Portal Sweden"
+  },
+  "fmi": {
+    "country": "fi",
+    "title": "FMI Catalog"
+  },
+  "geonorge": {
+    "country": "no",
+    "title": "Geonorge"
+  },
+  "gdi-de": {
+    "country": "de",
+    "title": "GDI-DE"
+  },
+  "geoportal-lu": {
+    "country": "lu",
+    "title": "Geoportal of the Grand-Duchy of Luxembourg"
+  },
+  "government-open-data-portal-moldova": {
+    "country": "md",
+    "title": "Government Open Data Portal Moldova"
+  },
+  "opole": {
+    "country": "pl",
+    "title": "Geoportal Opole Province"
+  },
+  "inis": {
+    "country": "ro",
+    "title": "Geoportalului INIS al Rom\u00e2niei"
+  },
+  "podgik": {
+    "country": "pl",
+    "title": "Geo-System metadata catalogue"
+  },
+  "geoportal-is": {
+    "country": "is",
+    "title": "Icelandic geoportal"
+  },
+  "geoportal-lt": {
+    "country": "lt",
+    "title": "Geoportal of Lithuania"
+  },
+  "g-sip": {
+    "country": "pl",
+    "title": "G-SIP Konstancin-Jeziorna"
+  },
+  "ideandalucia": {
+    "country": "es",
+    "title": "IDEAndalucia"
+  },
+  "la-plateforme-de-donnees-luxembourgeoise": {
+    "country": "lu",
+    "title": "la-plateforme-de-donnees-luxembourgeoise"
+  },
+  "navarra": {
+    "country": "es",
+    "title": "Infrastructura de Datos Espaciales de Navarra"
+  },
+  "csw-sk": {
+    "country": "sk",
+    "title": "INSPIRE Discovery Service Slovakia"
+  },
+  "rndt": {
+    "country": "it",
+    "title": "Italian Catalogue of metadata for Spatial Data"
+  },
+  "geoportal-cr": {
+    "country": "cz",
+    "title": "INSPIRE Geoportal of the Czech Republic"
+  },
+  "metadata-si": {
+    "country": "si",
+    "title": "INSPIRE Metadata System Slovenia"
+  },
+  "jihomoravsky": {
+    "country": "cz",
+    "title": "jihomoravsky"
+  },
+  "bmlfuw-at": {
+    "country": "at",
+    "title": "bmlfuw-at"
+  },
+  "idee": {
+    "country": "es",
+    "title": "IDEE"
+  },
+  "lgia": {
+    "country": "lv",
+    "title": "Latvian Geospatial Information Agency Metadata Catalogue"
+  },
+  "national-open-data-portal-cyprus": {
+    "country": "cy",
+    "title": "National Open Data Portal Cyprus"
+  },
+  "ngr-nl": {
+    "country": "nl",
+    "title": "National Georegister of the Netherlands"
+  },
+  "odprti-podatki-slovenije": {
+    "country": "si",
+    "title": "odprti-podatki-slovenije"
+  },
+  "nipp": {
+    "country": "hr",
+    "title": "NIPP Geoportal Croatia"
+  },
+  "london-datastore": {
+    "country": "gb",
+    "title": "London Datastore"
+  },
+  "open-data-bulgaria": {
+    "country": "bg",
+    "title": "Open Data Bulgaria"
+  },
+  "mita": {
+    "country": "mt",
+    "title": "Malta Inspire Geoportal"
+  },
+  "open-data-dk": {
+    "country": "dk",
+    "title": "OPEN DATA DK"
+  },
+  "open-data-greece": {
+    "country": "gr",
+    "title": "Open Data Greece - Ministry of Administrative Reconstruction"
+  },
+  "open-data-portal-austria": {
+    "country": "at",
+    "title": "opendataportal.at"
+  },
+  "plateforme-ouverte-des-donnees-publiques-francaises": {
+    "country": "fr",
+    "title": "Plateforme ouverte des donn\u00e9es publiques fran\u00e7aises"
+  },
+  "geostat-pl": {
+    "country": "pl",
+    "title": "Portal Geostatystyczny"
+  },
+  "open-data-portal-serbia": {
+    "country": "rs",
+    "title": "Open Data Portal Serbia"
+  },
+  "open-data-finland": {
+    "country": "fi",
+    "title": "Open Data Finland"
+  },
+  "opendata-swiss": {
+    "country": "ch",
+    "title": "opendata-swiss"
+  },
+  "open-data-iceland": {
+    "country": "is",
+    "title": "Open Data Iceland"
+  },
+  "oppnadata": {
+    "country": "se",
+    "title": "oppnadata"
+  },
+  "epo": {
+    "country": "io",
+    "title": "European Patent Office"
+  },
+  "ign": {
+    "country": "es",
+    "title": "Spanish National Geographic Institute"
+  },
+  "portal-otvorenih-podataka": {
+    "country": "hr",
+    "title": "Portal otvorenih podataka"
+  },
+  "geoportal-pl": {
+    "country": "pl",
+    "title": "Geoportal Poland"
+  },
+  "edp": {
+    "country": "eu",
+    "title": "European Data Portal"
+  },
+  "esif": {
+    "country": "eu",
+    "title": "ESIF"
+  },
+  "zlinsky": {
+    "country": "cz",
+    "title": "zlinsky"
+  },
+  "sandre": {
+    "country": "fr",
+    "title": "Sandre"
+  },
+  "data-gv-at": {
+    "country": "at",
+    "title": "data-gv-at"
+  },
+  "ypes": {
+    "country": "gr",
+    "title": "Data Directory"
+  },
+  "dane-gov-pl": {
+    "country": "pl",
+    "title": "dane.gov.pl"
+  },
+  "everis": {
+    "country": "eu",
+    "title": "CB-EDP integration context data catalogue"
+  },
+  "data-gov-me": {
+    "country": "me",
+    "title": "Open data portal Montenegro"
+  },
+  "opendatascienceeurope": {
+    "country": "eu",
+    "title": "OpenDataScienceEurope"
+  },
+  "european-union-open-data-portal": {
+    "country": "eu",
+    "title": "EU institutions data"
+  }
+}

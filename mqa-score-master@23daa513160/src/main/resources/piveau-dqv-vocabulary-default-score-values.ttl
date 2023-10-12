@@ -1,0 +1,99 @@
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix pv: <https://piveau.eu/ns/voc#> .
+
+
+
+# Findability
+
+pv:keywordAvailability
+    pv:trueScore            "30"^^xsd:integer .
+
+pv:categoryAvailability
+    pv:trueScore            "30"^^xsd:integer .
+
+pv:spatialAvailability
+    pv:trueScore            "20"^^xsd:integer .
+
+pv:temporalAvailability
+    pv:trueScore            "20"^^xsd:integer .
+
+
+
+# Accessibility
+
+pv:accessUrlStatusCode
+    pv:trueScore            "50"^^xsd:integer .
+
+pv:downloadUrlAvailability
+    pv:trueScore            "20"^^xsd:integer .
+
+pv:downloadUrlStatusCode
+    pv:trueScore            "30"^^xsd:integer .
+
+
+
+# Interoperability
+
+pv:formatAvailability
+    pv:trueScore            "20"^^xsd:integer .
+#     pv:falseScore            "-5"^^xsd:integer .
+
+pv:mediaTypeAvailability
+    pv:trueScore            "10"^^xsd:integer .
+#     pv:falseScore            "-5"^^xsd:integer .
+
+pv:formatMediaTypeVocabularyAlignment
+    pv:trueScore            "10"^^xsd:integer .
+
+pv:formatMediaTypeNonProprietary
+    pv:trueScore            "20"^^xsd:integer .
+
+pv:formatMediaTypeMachineInterpretable
+    pv:trueScore            "20"^^xsd:integer .
+
+pv:dcatApCompliance
+    pv:trueScore           "30"^^xsd:integer .
+
+pv:formatMatch
+    pv:trueScore           "15"^^xsd:integer .
+
+pv:syntaxValid
+    pv:trueScore           "15"^^xsd:integer .
+
+
+
+# Reusability
+
+pv:licenceAvailability
+    pv:trueScore            "20"^^xsd:integer .
+
+pv:knownLicence
+    pv:trueScore            "10"^^xsd:integer .
+
+pv:accessRightsAvailability
+    pv:trueScore            "10"^^xsd:integer .
+
+pv:accessRightsVocabularyAlignment
+    pv:trueScore            "5"^^xsd:integer .
+
+pv:contactPointAvailability
+    pv:trueScore            "20"^^xsd:integer .
+
+pv:publisherAvailability
+    pv:trueScore            "10"^^xsd:integer .
+
+
+
+# Contextuality
+
+pv:rightsAvailability
+    pv:trueScore            "5"^^xsd:integer .
+
+pv:byteSizeAvailability
+    pv:trueScore            "5"^^xsd:integer .
+
+pv:dateIssuedAvailability
+    pv:trueScore            "5"^^xsd:integer .
+
+pv:dateModifiedAvailability
+    pv:trueScore            "5"^^xsd:integer .

@@ -1,0 +1,525 @@
+{
+    "message": {
+        "navigation": {
+            "dashboard": "Panel de control",
+            "download_report": {
+                "help": "Descargar informe completo de este catálogo.",
+                "second_ods": "Hoja de cálculo de Open Document (.ods)",
+                "direct": "Descargar como informe",
+                "second_xls": "Microsoft Excel (.xlsx)",
+                "second_pdf": "«Portable Document Format» (.pdf)"
+            },
+            "catalogues": "Catálogos",
+            "about": "Documentación",
+            "methodology": "Metodología",
+            "validation": "validación"
+        },
+        "dashboard": {
+            "overview": {
+                "header": {
+                    "allCatalogues": "todos los Catálogos",
+                    "topNumber": "Primeros {number}",
+                    "topNumberCatalogues": "Primeros Catálogos"
+                },
+                "table_tooltip": {
+                    "dcat_ap": "El porcentaje de metadatos compatibles con DCAT-AP. Esta verificación sólo se realiza para los portales que suministran DCAT-AP, por ejemplo, mediante la extensión CKANEXT-DCAT.",
+                    "machine_readability": "El porcentaje de distribuciones que se convierten en un formato interpretable por una máquina.",
+                    "accessibility_download_url": "El porcentaje de URLs de descarga disponibles. La accesibilidad se determina utilizando un método HTTP GET. Dado que el DownloadURL no es una información obligatoria, no se puede realizar una verificación en caso de que falte información.",
+                    "known_licenses": "El porcentaje de licencias conocidas utilizadas. Para obtener más información sobre las licencias conocidas, consulte las siguientes secciones. Dado que la licencia no es obligatoria, no se puede realizar una verificación si falta información.",
+                    "accessibility_access_url": "El porcentaje de AccessURLs accesibles. La accesibilidad se determina utilizando un método HTTP GET."
+                },
+                "headline": "Visión de conjunto",
+                "table_title": {
+                    "desc": "Descripción",
+                    "known_licences": "Licencias conocidas",
+                    "dcat_ap": "Compatibilidad con DCAT-AP",
+                    "accessibility_access_url": "Accesibilidad de la URL de acceso",
+                    "accessibility_download_url": "Accesibilidad de la URL de descarga",
+                    "country": "País",
+                    "scoring": "Calificación",
+                    "machine_readability": "Legibilidad automática",
+                    "rating": "Calificación",
+                    "name": "Nombre"
+                },
+                "table_description": "La siguiente tabla ofrece una visión de conjunto de los cuatro criterios mencionados. Puede ordenar la tabla pulsando en los encabezados de las columnas. Tenga en cuenta que MQA solo puede interpretar la información proporcionada por los portales de origen. Facilitar las distribuciones, la URL de descarga y la información sobre la licencia no es obligatorio, y MQA indica la información ausente con un signo menos («-»). Asimismo, la compatibilidad con DCAT-AP solo puede comprobarse si el portal de origen proporciona sus metadatos en forma de datos vinculados según la especificación DCAT-AP. Para otros formatos, aparecerá «-»."
+            },
+            "interoperability": {
+                "plots": {
+                    "title": {
+                        "formatMediaTypeAlignment": "Formato/tipo de medio del vocabulario",
+                        "formatMediaTypeNonProprietary": "Sin derechos de autor",
+                        "mediaTypeAvailability": "Tipo de medio",
+                        "formatAvailability": "Formato",
+                        "dcatApCompliance": "Cumplimento de DCAT-AP",
+                        "formatMediaTypeMachineReadable": "Legible por máquina"
+                    }
+                },
+                "description": "Estos indicadores definen  la interoperabilidad de un conjunto de datos",
+                "title": "Interoperabilidad"
+            },
+            "reusability": {
+                "description": "La siguiente tabla recoge las métricas empleadas para comprobar la reusabilidad de los datos.  La puntuación máxima en esta área es de 75 puntos",
+                "plots": {
+                    "title": {
+                        "accessRightsAlignment": "Vocabulario de las restricciones de acceso",
+                        "contactPointAvailability": "Punto de contacto",
+                        "licenceAlignment": "Vocabulario de la licencia",
+                        "publisherAvailability": "Editor",
+                        "licenceAvailability": "Información de la licencia",
+                        "accessRightsAvailability": "Restricciones de acceso"
+                    }
+                },
+                "title": "Reusabilidad"
+            },
+            "show_history": "Mostrar historial",
+            "contextuality": {
+                "description": "Información que facilita más contexto al usuario",
+                "plots": {
+                    "title": {
+                        "dateIssuedAvailability": "Fecha de publicación",
+                        "rightsAvailability": "Derechos",
+                        "byteSizeAvailability": "Tamaño de archivo",
+                        "dateModifiedAvailability": "Fecha  de modificación"
+                    }
+                },
+                "title": "Contextualidad"
+            },
+            "accessibility": {
+                "plots": {
+                    "title": {
+                        "accessibilityOfDistributions": "Accesibilidad de las distribuciones",
+                        "accessUrlAvailability": "URL de descarga disponible",
+                        "existingDownloadUrl": "URL de descarga existentes",
+                        "accessibilityAccessUrl": "Accesibilidad de las URL de acceso",
+                        "accessUrl": "URL de acceso",
+                        "accessUrlStatusCodes": "Códigos de estado de URL de acceso más frecuentes",
+                        "downloadUrlStatusCodes": "Códigos de estado de URL de descarga más frecuentes",
+                        "downloadUrlAvailability": "Latausosoite",
+                        "statusErrorCode": "Códigos de estado de error",
+                        "accessibilityDownloadUrl": "Accesibilidad de las URL de descarga"
+                    }
+                },
+                "title": "Accesibilidad",
+                "headline": "Distribuciones disponibles",
+                "description": "Los siguientes gráficos ofrecen información sobre la accesibilidad de las distribuciones. Para cada URL de una distribución se realiza una solicitud HTTP HEAD y se comprueba la respuesta. Tenga en cuenta que la URL de descarga es opcional, de acuerdo con DCAT-AP, y debe indicarse claramente como tal en el portal de origen. Esto puede aplicarse únicamente a los portales de origen que facilitan sus metadatos con arreglo a DCAT-AP."
+            },
+            "site_title": "Portal europeo de datos | MQA | Panel de control",
+            "findability": {
+                "title": "Facilidad de localización",
+                "plots": {
+                    "title": {
+                        "keywordAvailability": "Uso de palabras clave",
+                        "spatialAvailability": "Búsqueda geográfica",
+                        "temporalAvailability": "Búsqueda acotada temporalmente",
+                        "categoryAvailability": "Categorías"
+                    }
+                },
+                "description": "Estos indicadores ayudan a las personas y las máquinas a encontrar conjuntos de datos"
+            },
+            "scoring": {
+                "description": "La calificación indica la calidad de los metadatos de todas las dimensiones.",
+                "plots": {
+                    "known": "conocido",
+                    "unknown": "desconocido",
+                    "title": {
+                        "timeBasedScoring": "Evolución de la calificación"
+                    }
+                },
+                "title": "Evolución de la calificación"
+            },
+            "show_today": "Mostrar hoy",
+            "weight": "Peso",
+            "points": "Puntos",
+            "intro": {
+                "desc": "<p>La garantía de calidad de los metadatos tiene por objeto ayudar a los proveedores de datos y los portales de datos a comprobar sus metadatos en función de varios indicadores. Para obtener información sobre qué métricas utilizamos para mediciones de indicadores, consulte nuestra página de metodología.</p>\n<p>Esta página ofrece una visión general de todos los metadatos disponibles para data.europa.eu. Para obtener una vista detallada de cada catálogo individual, utilice la página Catálogos y seleccione el catálogo deseado.</p>"
+            },
+            "dimensions": "Dimensiones"
+        },
+        "catalogue_detail": {
+            "introduction": "Esta página muestra el estado general del catálogo en cuanto a distribuciones y compatibilidad con DCAT-AP.",
+            "harvesting": {
+                "run": {
+                    "updated": "Actualizado",
+                    "duration": "Duración  (dias horas:minutos:segundos)",
+                    "show_log": "Mostrar entradas de log en la última ejecución",
+                    "end": "Tiempo final",
+                    "start": "Fecha de inicio",
+                    "log_noattachment": "Ha ocurrido un error cuando al recuperar el archivo adjunto",
+                    "skipped": "Omitido",
+                    "log": "{0} Logs {1} a {2} de {3}",
+                    "deleted": "Eliminado",
+                    "no_runs": "No hay recolecciones pasadas disponibles o ya programadas.",
+                    "rejected": "Rechazado",
+                    "added": "Añadido "
+                },
+                "repository_harvester": "Catálogo de origen de repositorios",
+                "show_script": "Mostrar script de transformación",
+                "show_information": "Mostrar información de la recollección",
+                "publisher": "Editor",
+                "next_schedule": "Siguiente horario programado",
+                "default_language": "Lenguaje por defecto",
+                "homepage": "página principal",
+                "email_address": "Dirección de correo electrónico",
+                "incremental": "Incremental",
+                "frequency": "Frecuencia",
+                "type": "Tipo",
+                "transformation_script": "{0} Script de Transformación",
+                "title": "Información de recolección",
+                "not_present": "Este no es un catálogo recolectado, por lo tanto no hay información de recolección disponible.",
+                "last_run": "Última recolección"
+            },
+            "violations": {
+                "location": "Localización de la incompatibilidad",
+                "non_compliant": "No compatibles",
+                "resultPath": "Ruta de Resultados",
+                "subheadline": "Incompatibilidades del conjunto de datos",
+                "title": "Descripción de los motivos de incompatibilidad",
+                "value": "Valor",
+                "desc": "Descripción de la incompatibilidad",
+                "site_title": "Portal europeo de datos | MQA | Incompatibilidades",
+                "introduction": "Esta vista muestra un listado de todos los conjuntos de datos que no son compatibles con las reglas SHACL DCAT-AP.",
+                "own_headline": "Incompatibilidades con el esquema DCAT-AP",
+                "resultMessage": "Mensaje de Resultados"
+            },
+            "distributions": {
+                "introduction": "Esta vista recoge todos los conjuntos de datos que contienen distribuciones no accesibles.",
+                "help": "Muestra las distribuciones no accesibles del catálogo seleccionado.",
+                "mediatype_checked": "Tipo de soporte (de prueba)",
+                "desc": "Conjuntos de datos con distribuciones no accesibles",
+                "not_available_access": "No hay ninguna URL de acceso disponible",
+                "title": "Problemas de accesibilidad de distribución",
+                "format": {
+                    "not_machine_readable": "No legible por máquina",
+                    "name": "Formato"
+                },
+                "not_available_dl": "No hay ninguna URL de descarga disponible",
+                "download_url": "Latausosoite",
+                "mediatype_given": "Tipo de soporte (de prueba)",
+                "nodistributions": "No hay distribuciones disponibles para evaluación.",
+                "access_url": "Access URL",
+                "site_title": "Portal europeo de datos | MQA | Distribuciones",
+                "availability_checked_on": "Disponibilidad comprobada el {date}"
+            },
+            "call_to_action": "Seleccionar catálogo para tener detalles",
+            "title": "Panel de catálogos",
+            "site_title": "Portal europeo de datos | MQA | Panel de control"
+        },
+        "common": {
+            "compliant": "Compatible",
+            "json": "CKAN JSON",
+            "deu": {
+                "url": "www.data.europa.eu",
+                "title": "data.europa.eu"
+            },
+            "site_title_violations": "Incompatibilidad con el esquema DCAT-AP",
+            "all": "todos",
+            "close": "Cerrado",
+            "affacteddatasets": "Conjuntos de datos impactados",
+            "cataloguedetails": "Vista de detalles del catálogo",
+            "previous": "anterior",
+            "violation": "Incompatibilidad con el esquema DCAT-AP",
+            "edp": {
+                "title": "Portal europeo de datos"
+            },
+            "yes": "Sí",
+            "error": "Error",
+            "portal_page": "Página del portal",
+            "since": "Desde",
+            "site_title": "Calidad de los metadatos | Portal oficial de datos de la UE",
+            "version": "Versión",
+            "ok": "De acuerdo",
+            "distributions": "Distribuciones",
+            "no": "No",
+            "violations": "Incompatibilidades con el esquema DCAT-AP",
+            "download_url": "URL de descarga",
+            "datasets": "Conjuntos de datos",
+            "site_title_distributions": "Problemas de accesibilidad de distribución",
+            "home": "Inicio",
+            "page": "Página",
+            "notavailable": "No accesible",
+            "status": "Estado"
+        },
+        "methodology": {
+            "dimensions": {
+                "reuse": {
+                    "main_text": " <p>La siguiente tabla recoge las métricas empleadas para comprobar la reusabilidad de los datos. La puntuación máxima en este área es de 75 puntos.</p>",
+                    "keywords_name_6": "Editor",
+                    "keywords_name_5": "Punto de contacto",
+                    "keywords_name_4": "Vocabulario de las restricciones de acceso",
+                    "keywords_name_3": "Restricciones de acceso",
+                    "keywords_name_2": "Vocabulario de la licencia",
+                    "keywords_name_1": "Información de la licencia",
+                    "keywords_metric_6": "Se comprueba si se establece o no la propiedad.",
+                    "keywords_metric_5": "Se comprueba si se establece o no la propiedad.",
+                    "keywords_metric_4": "<p>Se comprueba si se emplea el <a href='https://publications.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/access-right' target='_blank'>vocabulario controlado para los derechos de acceso</a>.</p>",
+                    "keywords_metric_3": "Se comprueba si se establece o no la propiedad.",
+                    "keywords_metric_2": "<p> Esta sección describe todas las dimensiones que el MQA examina para determinar la calidad. Las dimensiones se derivan del <a target='_blank' href='https://www.go-fair.org/fair-principles/'>FAIR principios <i class='fas fa-external-link-alt fa-sm'></i></a>.</p>\n\n<p>El MQA recomienda y acredita el uso de vocabularios controlados. El portal data.europa.eu publica sus vocabularios controlados en <a href=‘https://gitlab.com/european-data-portal/edp-vocabularies’ target=‘_blank’>GitLab</a>. Los vocabularios se derivan del <a href=‘https://op.europa.eu/en/web/eu-vocabularies/authority-tables’ target=‘_blank’>EU Vocabularies</a>.</p>",
+                    "keywords_metric_1": "Se comprueba si se establece o no la propiedad.",
+                    "dcat_name_6": "dct:Publisher",
+                    "dcat_name_5": "dcat:ContactPoint",
+                    "dcat_name_4": "dct:AccessRights",
+                    "dcat_name_3": "dct:AccessRights",
+                    "dcat_name_2": "dct:License",
+                    "dcat_name_1": "dct:License",
+                    "keywords_desc_6": "El editor es la persona u organización que ha publicado los datos.",
+                    "keywords_desc_5": "El punto de contacto contiene información de la persona a la que hay que dirigir cualquier pregunta relativa a los datos.",
+                    "keywords_desc_4": "El uso de un vocabulario controlado aumenta la usabilidad.",
+                    "keywords_desc_3": "Este campo indica si el acceso a los datos es público o, por el contrario, está restringido.",
+                    "keywords_desc_2": "Nuestra pretensión es limitar la provisión de información incorrecta sobre las licencias. Nos encontramos, por ejemplo, con muchos casos de licencias CC en las que no se indica la versión.",
+                    "keywords_desc_1": "Una licencia constituye información valiosa para la reutilización de los datos."
+                },
+                "contextual": {
+                    "main_text": "La siguiente tabla recoge algunas propiedades con poco peso que ofrecen más contexto al usuario. La puntuación máxima en esta área es de 20 puntos",
+                    "keywords_metric_4": "Se comprueba si se establece o no la propiedad.",
+                    "keywords_metric_3": "Se comprueba si se establece o no la propiedad.",
+                    "keywords_metric_2": "Se comprueba si se establece o no la propiedad.",
+                    "keywords_metric_1": "Se comprueba si se establece o no la propiedad.",
+                    "keywords_name_4": "Fecha  de modificación",
+                    "keywords_name_3": "Fecha de publicación",
+                    "keywords_name_2": "Tamaño de archivo",
+                    "keywords_name_1": "Derechos",
+                    "keywords_desc_4": "La fecha de la última modificación realizada en el conjunto de datos o la distribución",
+                    "keywords_desc_3": "La fecha en la que se publicó el conjunto de datos o la distribución.",
+                    "keywords_desc_2": "Especifica el tamaño del archivo en bytes.",
+                    "keywords_desc_1": "En algunos casos, no es posible aplicar una licencia específica a un conjunto de datos. El campo «Derechos» puede utilizarse para indicar una referencia a un recurso que informará al usuario sobre los derechos de los que dispone cuando utilice el conjunto de datos.",
+                    "dcat_name_4": "dcat:Modified",
+                    "dcat_name_3": "dct:Issued",
+                    "dcat_name_2": "dcat:ByteSize",
+                    "dcat_name_1": "dcat:Rights"
+                },
+                "table": {
+                    "metric_name": "Indicador",
+                    "dataset_and_distribution": "Conjunto de datos y distribución",
+                    "metric": "Métrica",
+                    "dataset": "Conjunto de datos",
+                    "desc": "Descripción",
+                    "distribution": "Distribución",
+                    "weight": "Peso"
+                },
+                "accessible": {
+                    "main_text": " <p>La siguiente tabla describe las métricas empleadas para determinar si se garantiza el acceso a los datos a los que hacen referencia las distribuciones. La puntuación máxima en este área es de 100 puntos.</p>",
+                    "dcat_name_3": "dcat:spatial",
+                    "dcat_name_2": "dcat:downloadURL",
+                    "dcat_name_1": "dcat:accessURL",
+                    "keywords_desc_3": "Si existe una URL de descarga, se comprueba la accesibilidad.",
+                    "keywords_desc_2": "La URL de descarga es un enlace directo a los datos referenciados.",
+                    "keywords_desc_1": "La URL de acceso no tiene por qué ser necesariamente un enlace directo a los datos; también puede tratarse de una URL que da acceso al conjunto de datos o que recoge información adicional sobre el conjunto de datos. ",
+                    "keywords_metric_3": "Se comprueba la accesibilidad de la URL específica a través de una solicitud HTTP HEAD Si el código de estado de la respuesta se encuentra comprendido entre 200 y 300, el recurso supera la evaluación de accesibilidad.",
+                    "keywords_metric_2": "Se comprueba si se establece o no la propiedad.",
+                    "keywords_metric_1": "Se comprueba la accesibilidad de la URL específica a través de una solicitud HTTP HEAD Si el código de estado de la respuesta se encuentra comprendido entre 200 y 300, el recurso supera la evaluación de accesibilidad.",
+                    "keywords_name_3": "Accesibilidad de la URL de descarga",
+                    "keywords_name_2": "URL de descarga",
+                    "keywords_name_1": "Accesibilidad de la URL de acceso"
+                },
+                "interoperable": {
+                    "main_text": " <p>La siguiente tabla describe las métricas que se emplean para determinar si una distribución se considera interoperable. Partiendo de la asunción «contenido idéntico con varias distribuciones», solo la distribución con más puntos se empleará para calcular la puntuación. La puntuación máxima en este área es de 110 puntos.</p>",
+                    "keywords_desc_6": "El cumplimiento de <p>DCAT-AP se calcula en todas las fuentes y conjuntos de datos disponibles en un catálogo. Esta comprobación solo se realiza si los metadatos se recolectan originalmente como DCAT-AP o como un derivado válido.</p><p><a href=‘https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe’ target=‘_blank’>DCAT-AP</a> es una especificación para describir datos públicos vinculados en Europa. El portal data.europa.eu también puede recoger metadatos que no cumplan plenamente con el DCAT-AP. Con el fin de aumentar la conformidad con el DCAT-AP, el MQA verifica cada metadato para verificar su conformidad con el DCAT-AP.</p>",
+                    "keywords_desc_5": "Comprueba si el formato de la distribución es legible por máquina.",
+                    "keywords_desc_4": "Comprueba si el formato de la distribución no está sujeto a derechos de autor.",
+                    "keywords_desc_3": "Comprueba si el formato y el tipo de medio pertenecen a un vocabulario controlado.",
+                    "keywords_desc_2": "Este campo indica el tipo de medio de la distribución.",
+                    "keywords_desc_1": "Este campo indica el formato de archivo de la distribución.",
+                    "keywords_metric_6": "<p>Los metadatos se validan con un conjunto de <a href=‘https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe/releases’ target=‘_blank’>SHACL shapes</a>. Los metadatos no son conformes, si la validación SHACL informa al menos de un problema.</p>\n\n<p>El MQA utiliza el servicio de validación de <a href=‘/shacl’ target=‘_blank’>data.europa.eu DCAT-AP SHACL</a>.</p> \n\n<p><a href=‘https://www.w3.org/TR/shacl/’ target=‘_blank’>SHACL</a> es una recomendación del W3C y se utiliza para validar gráficos RDF contra un conjunto de formas.</p>",
+                    "keywords_metric_5": "La distribución se considera legible por máquina si el formato especificado está contenido en el correspondiente data.europa.eu <a href=‘https://gitlab.com/european-data-portal/edp-vocabularies’ target=‘_blank’>GitLab repositorio</a> vocabulario.",
+                    "keywords_metric_4": "La distribución se considera no propietaria si el formato especificado está contenido en el correspondiente data.europa.eu <a href=‘https://gitlab.com/european-data-portal/edp-vocabularies’ target=‘_blank’>GitLab repositorio</a> vocabulario.",
+                    "keywords_metric_3": "<p>El vocabulario de formato se puede encontrar en data.europa.eu <a href=‘https://gitlab.com/european-data-portal/edp-vocabularies’ target=‘_blank’>GitLab repositorio</a>.</p>\n\n<p>El tipo de medio se compara con el <a href=‘https://www.iana.org/assignments/media-types/media-types.xhtml’ target=‘_blank’>IANA list</a></p>",
+                    "keywords_metric_2": "<p>Se comprueba si se establece o no la propiedad.</p>",
+                    "keywords_metric_1": "<p>Se comprueba si se establece o no la propiedad.</p>",
+                    "keywords_name_6": "Cumplimento de DCAT-AP",
+                    "keywords_name_5": "Legible por máquina",
+                    "keywords_name_4": "Sin derechos de autor",
+                    "keywords_name_3": "Formato/tipo de medio del vocabulario",
+                    "keywords_name_2": "Tipo de medio",
+                    "keywords_name_1": "Formato",
+                    "dcat_name_6": "Conjunto de datos y distribución",
+                    "dcat_name_5": "DCT:Format dcat:MediaType o/subpropiedad de dct:Format",
+                    "dcat_name_4": "DCT:Format dcat:MediaType o/subpropiedad de dct:Format",
+                    "dcat_name_3": "DCT:Format dcat:MediaType o/subpropiedad de dct:Format",
+                    "dcat_name_2": "dcat:MediaType or subproperty of dct:Format",
+                    "dcat_name_1": "dct:Format"
+                },
+                "findability": {
+                    "keywords_desc_4": "El uso de información temporal permite a los usuarios realizar una búsqueda acotada temporalmente.",
+                    "keywords_desc_3": "El uso de información espacial permite a los usuarios hallar conjuntos de datos con una búsqueda acotada geográficamente.",
+                    "keywords_desc_2": "Las categorías ayudan a los usuarios a explorar los conjuntos de datos atendiendo a su temática.",
+                    "keywords_desc_1": "Las palabras clave ayudan de forma directa a la búsqueda y, por tanto, aumentan la facilidad de localización del conjunto de datos.",
+                    "keywords_metric_4": "Se comprueba si se establece o no la propiedad.",
+                    "keywords_metric_3": "Se comprueba si se establece o no la propiedad.",
+                    "keywords_metric_2": "Se comprueba si se asignan una o más categorías al conjunto de datos. El número de categorías asignadas no afecta a la puntuación.",
+                    "keywords_metric_1": "El sistema comprueba si se han definido palabras clave. El número de palabras clave no afecta a la puntuación.",
+                    "keywords_name_4": "Búsqueda acotada temporalmente",
+                    "keywords_name_3": "Búsqueda geográfica",
+                    "keywords_name_2": "Categorías",
+                    "keywords_name_1": "Uso de palabras clave",
+                    "dcat_name_4": " dcat:temporal",
+                    "dcat_name_3": "dcat:spatial",
+                    "dcat_name_2": "dcat:theme",
+                    "dcat_name_1": "dcat:Keyword",
+                    "main_text": "<p> La siguiente tabla recoge las métricas que ayudan a personas y máquinas a encontrar conjuntos de datos. La puntuación máxima en este área es de 100 puntos.</p>"
+                },
+                "main_text": "<p>Esta sección describe todas las dimensiones que contempla la herramienta MQA para determinar la calidad. Las dimensiones se derivan de los <a target='_blank' href='https://www.go-fair.org/fair-principles/'>principios FAIR <i class='fas fa-external-link-alt fa-sm'></i></a>.</p>"
+            },
+            "scoring": {
+                "table": {
+                    "bad": "Mala",
+                    "range": "Rango de puntos",
+                    "sufficient": "Suficiente",
+                    "scoring_cat": "Calificación",
+                    "good": "Buena",
+                    "max_points": "Puntuación máxima",
+                    "excellent": "Excelente",
+                    "sum": "Total",
+                    "dimension": "Dimensión"
+                },
+                "main_text": "La puntuación total de un conjunto de datos se obtiene sumando los puntos de cada dimensión.",
+                "text": "La puntuación final se calcula a partir de cuatro grupos de puntuación. En la siguiente tabla se muestra la asignación de los puntos a la categoría de puntuación. La representación de la puntuación en MQA se expresa exclusivamente a través de categorías de puntuación. Ello permite a los proveedores alcanzar la puntuación más elevada aunque se dé una ligera reducción de puntos.",
+                "headline": "Calificación"
+            },
+            "headline": "Metodología de evaluación de la calidad de los metadatos",
+            "cover": {
+                "validator_service": "DCAT-AP SHACL servicio de validación API",
+                "main_text": " <p> El MQA está limitado por los metadatos que puede examinar. La investigación se limita exclusivamente a los metadatos que data.europa.eu recoge durante el proceso de cosecha. Si hay errores en los metadatos de origen, estos pueden falsificar el resultado global. Para limitar este potencial de error, el MQA proporciona un servicio de validación que los proveedores de datos pueden utilizar para validar sus metadatos para formatos válidos y DCAT-AP conforme antes de integrarlos en el proceso de recolección.",
+                "validator_ui": "Página web del servicio de validación DCAT-AP SHACL ",
+                "headline": "Lo que no contemplamos"
+            },
+            "process": {
+                "main_text": "<p> En cada proceso de recolección la herramienta MQA también comprueba los metadatos. MQA cuantifica la calidad con arreglo a varios indicadores, los cuales se explican en las siguientes tablas. Los resultados de estas comprobaciones se almacenan como Vocabulario de calidad de datos <a href='https://www.w3.org/TR/vocab-dqv/'>(DQV, Data Quality Vocabulary) <i class='fas fa-external-link-alt fa-sm'></i></a>. DQV es una especificación de W3C que sirve para describir la calidad de un conjunto de datos.</p>\n\n<p>Dado que la accesibilidad puede ser volátil, es preciso llevar a cabo sucesivas comprobaciones de la URL de acceso y la URL de descarga. Por este motivo, MQA realiza comprobaciones periódicas de la accesibilidad de todas las distribuciones. A diferencia del resto de indicadores, esta operación tarda más en ejecutarse, dado que las distribuciones se comprueban a través de HTTP y el tiempo de respuesta de cada una de las URL solicitadas puede ser mayor. La herramienta MQA emplea un mecanismo que tiene en cuenta que la accesibilidad de cada URL se reevalúa pocas semanas después de la última comprobación. </p>",
+                "headline": "El proceso MQA"
+            },
+            "scope": {
+                "main_text": "<p> Con la herramienta MQA pretendemos dar respuesta a la siguiente pregunta: <br> ¿Cuál es la calidad de los metadatos del sector público en la región paneuropea y dónde se hallan los principales escollos para mejorarla? </p><p>Partiendo de esta premisa, la herramienta MQA indaga actualmente en las siguientes cuestiones concretas:</p><ul><li> Conformidad con DCAT-AP y los derivados de DCAT-AP </li><li> Divulgación de información no obligatoria para DCAT-AP</li><li> Accesibilidad de los datos referenciados en los metadatos a través de la URL de acceso y de descarga</li><li> Legibilidad por máquina de los datos referenciados </li><li> Uso de licencias</li></ul><p> Cada cuestión da lugar a su vez a exámenes individuales que se describen en detalle a continuación.</p>",
+                "headline": "Ámbito de la investigación"
+            },
+            "assumptions": {
+                "main_text": "<p> El MQA se basa en los siguientes supuestos:</p><h6> Uso de campos no obligatorios</h6><p> Creemos que llenar los campos obligatorios DCAT-AP por sí solos no es suficiente para proporcionar metadatos de alta calidad. Por esta razón, la evaluación también comprueba los campos que no se especifican como obligatorios según el DCAT-AP. Los campos exactos que se comprueban se enumeran a continuación.</p><h6> \n\nContenido idéntico para distribuciones múltiples</h6><p>Si un conjunto de datos contiene más de una distribución, todas las distribuciones son idénticas en contenido, difieren solo en la representación de los datos. Por ejemplo, un conjunto de datos puede tener dos distribuciones, una que ofrece los datos como PDF y la otra que ofrece los datos idénticos como RDF/XML legibles por máquina. Esta definición se refiere a cómo se clasifican los conjuntos de datos en la MQA (una especie de «mejor práctica») pero no debe considerarse la definición estándar de distribuciones.</p>",
+                "headline": "Asunciones"
+            },
+            "intro_text": "<p><strong>La Evaluación de la Calidad de los Metadatos (MQA) es una herramienta desarrollada por el consorcio de data.europa.eu para estudiar la calidad de los metadatos recolectados por data.europa.eu.</strong> Se pretende ayudar a los proveedores de datos y portales de datos a comprobar la calidad de sus metadatos y recibir sugerencias de mejoras. Los resultados se presentan a través del MQA y también están disponibles como descarga. A continuación describimos la funcionalidad del MQA y la metodología que utiliza.</p>\n<p> Si esta página todavía no responde a todas sus preguntas, no dude en ponerse en contacto con nosotros a través de nuestro formulario de comentarios al final de la página. </p>",
+            "sub_headline": "Cómo data.europa.eu mide la calidad de todos los metadatos almacenados"
+        },
+        "header": {
+            "navigation": {
+                "usingData": {
+                    "checklistForUsingData": "Lista de comprobación para el Uso de Datos",
+                    "useCases": "Casos de Uso",
+                    "tellUsYourStory": "Cuéntenos su experiencia",
+                    "title": "Utilizar datos",
+                    "benefitsOfUsingData": "Las ventajas de utilizar datos"
+                },
+                "impactStudies": {
+                    "useCases": "Casos de Uso",
+                    "overview": "Descripción",
+                    "opendatamaturity": "Marudez de los Datos Abiertos",
+                    "countryInsights": "Información sobre el país",
+                    "tellUsYourStory": "Cuéntenos su experiencia",
+                    "studies": "Estudios",
+                    "opendataimpact": "Impacto de los datos abiertos",
+                    "title": "Impacto y estudios"
+                },
+                "training": {
+                    "dataProvidersGuide": "Guía para proveedores de datos",
+                    "whatIsOpenData": "¿Qué son los datos abiertos?",
+                    "title": "Formación",
+                    "elearning": "Formación en línea",
+                    "moreTrainingMaterial": "Más material didáctico",
+                    "licensingAssistant": "Asistente de licencia"
+                },
+                "data": {
+                    "datasets": "Conjuntos de datos",
+                    "sparqlsearch": "Búsqueda SPARQL",
+                    "metadataQuality": "Calidad de los metadatos",
+                    "licensingAssistant": "Asistente de licencia",
+                    "title": "Datos",
+                    "statistics": "Estadísticas",
+                    "euInternationalData": "Datos de la UE e Internacionales ",
+                    "sparqlManager": "SPARQL Manager",
+                    "catalogues": "Catálogos",
+                    "countryData": "Datos del país "
+                },
+                "resources": {
+                    "moreTrainingMaterial": "Más material didáctico",
+                    "title": "Recursos",
+                    "elearning": "Formación en línea",
+                    "trainingCompanion": "Tutorial de formación",
+                    "reportsAboutOpenData": "Informes sobre los Datos Abiertos"
+                },
+                "providingData": {
+                    "beHarvestedByUs": "Confíenos sus datos",
+                    "title": "Proporcionar datos",
+                    "cataloguesHarvestedByUs": "Catálogos recolectados por nosotros",
+                    "practicalGuide": "Manual de uso"
+                },
+                "whatWeDo": {
+                    "openDataMaturity": "Madurez de los Datos Abiertos",
+                    "ourActivities": "Nuestras actividades",
+                    "factsheetsAndReports": "Fichas de datos e Informes",
+                    "title": "Misión",
+                    "calendar": "Calendario",
+                    "featuredHighlights": "Información destacada",
+                    "news": "Noticias"
+                },
+                "about": {
+                    "beHarvestedByUs": "Confíenos sus datos",
+                    "documentation": "Documentación",
+                    "title": "Acerca de",
+                    "europeanDataPortal": "Portal Europeo de Datos"
+                },
+                "newsEvents": {
+                    "title": "Noticias y eventos",
+                    "events": "Eventos",
+                    "news": "Noticias"
+                }
+            },
+            "subnav": {
+                "contact": "Contacto",
+                "legalNotice": "Aviso legal",
+                "search": "Búsqueda",
+                "newsletter": "Boletín de noticias",
+                "cookies": "Cookies",
+                "login": "Iniciar sesión",
+                "faq": "Preguntas frecuentes"
+            },
+            "searchInputPlaceholder": "Buscar contenido del sitio…",
+            "european": "Europeo",
+            "searchOptions": {
+                "siteContent": "Contenido del sitio",
+                "datasets": "Conjuntos de datos"
+            },
+            "dataPortal": "Portal de datos"
+        },
+        "footer": {
+            "links": {
+                "search": "Búsqueda",
+                "newsletter": "Boletín de noticias",
+                "faq": "Preguntas frecuentes",
+                "contact": "Contacto",
+                "subscribe": "Suscribirse",
+                "cookies": "Cookies",
+                "login": "Iniciar sesión",
+                "legalNotice": "Aviso legal"
+            },
+            "managedBy": "Gestionado por la Oficina de Publicaciones de la Unión Europea.",
+            "fundedBy": "Financiado por la Unión Europea",
+            "newsletter": "Subscribirse a nuestro boletín informativo",
+            "helpUsImproveText": "Su opinión nos ayuda a mejorar la experiencia global de los usuarios. ¿Tiene alguna sugerencia?",
+            "newsletterText": "Subscribirse a nuestro boletín informativo",
+            "subscribe": "Suscribir",
+            "followUs": "Síganos en",
+            "lastUpdate": "Última actualización",
+            "helpUsImprove": "Ayúdenos a mejorar"
+        },
+        "maintenance_message": "¡Buenas noticias! Estamos mejorando nuestro sistema. Mientras tanto, este componente está en modo de mantenimiento y no puede mostrar todos los datos disponibles.",
+        "catalogue_list": {
+            "description": "Seleccionar catálogo para tener detalles",
+            "search": {
+                "placeholder": "Buscar el nombre del catálogo o la descripción"
+            }
+        },
+        "title": "Metadata Quality Assurance",
+        "empty": "",
+        "no_data": "No existen mediciones disponibles para este indicador",
+        "meta": {
+            "description": "La herramienta de aseguramiento de calidad de los metadatos (MQA) ofrece una visión general de todos los metadatos disponibles en data.europa.eu."
+        }
+    }
+}

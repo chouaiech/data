@@ -1,0 +1,110 @@
+.distributions__actions {
+  margin-top: 2.5rem;
+  justify-content: start !important;
+  .fa-chevron-down, .fa-eye {
+    font-size: larger;
+    margin-right: 0.5em;
+  }
+}
+
+.distribution-details-table {
+  td {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+.distributions__item {
+  border-bottom: none !important;
+  //justify-content: end;
+  > div {
+    //padding: 0.5rem !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
+
+.distribution-details {
+  order: 1;
+  flex: 12 0 !important;
+  > div {
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+    h3 {
+      font-size: 1rem;
+      font-weight: bold;
+      color: #004494;
+    }
+  }
+  .show-more {
+    font-size: 0.9rem;
+  }
+  //background-color: gainsboro;
+}
+
+.distribution-format {
+  order: 2;
+  display: flex !important;
+  justify-content: center;
+  flex: 2 0 !important;
+  max-width: initial !important;
+  .circle {
+    height: unset;
+    width: unset;
+    align-self: flex-start;
+    padding: 0.25em 0.4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 0;
+  }
+  //background-color: crimson;
+}
+
+.distribution-added {
+  display: flex !important;
+  justify-content: center;
+  order: 3;
+  flex: 0 0 160px !important;
+  //background-color: cornsilk;
+}
+
+.distribution-actions {
+  order: 4;
+  flex: 0 0 200px !important;
+  .distribution-action {
+    .dropdown-item, .text-dark {
+      color: #004494 !important;
+    }
+  }
+  //background-color: cornsilk;
+}
+
+@media (min-width: 992px) { // lg
+  .distribution-actions {
+    flex: 0 0 350px !important;
+    justify-content: start !important;
+
+  }
+  .distribution-actions > div:first-child {
+    padding-left: 1rem;
+  }
+}
+
+@media (max-width: 767px) { // sm
+
+  .distributions__item {
+    justify-content: end;
+    margin-bottom: 2rem !important;
+  }
+  .distribution-added {
+    display: none !important;
+  }
+  //.distribution-details {
+  //  min-width: 400px;
+  //}
+
+}

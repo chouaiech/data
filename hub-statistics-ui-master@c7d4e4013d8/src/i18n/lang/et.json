@@ -1,0 +1,379 @@
+{
+    "message": {
+        "datasetDetails": {
+            "openResource": "Ava ressurss",
+            "upload": {
+                "unknownFormat": "Tundmatu vorming",
+                "resetText": "Kas lähtestada kogu vorm?",
+                "reset": "Lähtesta vorm",
+                "individual": "Individuaaalne",
+                "person": "Isik",
+                "organisation": "Organisatsioon"
+            },
+            "about": "kohta",
+            "geoInfo": "Andmekogumi ulatus",
+            "translation": {
+                "link": "Klõpsake siin, et vaadata andmekogumit originaalkeeles",
+                "message": "Selle andmekogumi pealkiri ja kirjeldus on masintõlkega.",
+                "noTranslation": "Soovitud keelde ei ole tõlget. Teave kuvatakse vaikimisi määratud keeles.",
+                "original": "Algne keel",
+                "update": "Toimub selle andmekogumi uuendatud tõlkimine."
+            },
+            "options": "Valikud",
+            "subnav": {
+                "activityStream": "Tegevusvoog",
+                "similarDatasets": "Sarnased andmekogumid",
+                "categories": "Kategooriad",
+                "dataset": "Andmekogum"
+            },
+            "edit": "Redigeeri",
+            "follow": "Jälgi",
+            "preview": "Eelvaade",
+            "visualisation": "Ava visualiseerimine",
+            "additionalInfo": "Lisateave",
+            "feedback": "Tagasiside",
+            "unfollow": "Lõpeta jälgimine",
+            "manage": "Halda",
+            "delete": "Kustuta",
+            "geoVisualisation": "Ava geovisualiseerimine",
+            "download": "Allalaadimine ",
+            "menu": "Menüü"
+        },
+        "userQueries": {
+            "searchAllQueries": "Otsi päringuid...",
+            "queryDeleted": "Päring kustutatud",
+            "querySaved": "Päring salvestatud",
+            "searchQueries": "Otsi minu päringuid...",
+            "noQueryFound": "Päringuid ei leitud",
+            "myQueries": "Minu päringud",
+            "noDescription": "Sellel päringul puudub kirjeldus",
+            "placeholderNotes": "nt mõningaid kasulikke märkusi päringu kohta",
+            "noQueriesSaved": "Te ei ole ühtegi päringut salvestanud",
+            "queryFound": "Leitud {number} päring",
+            "areYourSure": "Olete kindel, et soovite selle päringu kustutada?",
+            "queriesFound": "Leitud {number} päringuid",
+            "save": "Salvesta päring",
+            "executeQuery": "Teosta päring"
+        },
+        "header": {
+            "navigation": {
+                "about": {
+                    "beHarvestedByUs": "Laske meil andmekorjet teha",
+                    "title": "Meist",
+                    "documentation": "Dokumentatsioon",
+                    "europeanDataPortal": "Euroopa Andmeportaal"
+                },
+                "training": {
+                    "whatIsOpenData": "Mis on avaandmed",
+                    "title": "Koolitus",
+                    "dataProvidersGuide": "Andmepakkuja juhend",
+                    "moreTrainingMaterial": "Veel õppematerjale",
+                    "elearning": "E-õpe",
+                    "licensingAssistant": "Litsentsiabi"
+                },
+                "data": {
+                    "sparqlsearch": "SPARQL otsing",
+                    "statistics": "Statistika",
+                    "euInternationalData": "ELi ja rahvusvahelised andmed",
+                    "catalogues": "Kataloogid",
+                    "datasets": "Andmekogumid",
+                    "countryData": "Riigi andmed",
+                    "metadataQuality": "Metaandmete kvaliteet",
+                    "title": "Andmed"
+                },
+                "newsEvents": {
+                    "title": "Uudised ja sündmused",
+                    "events": "Sündmused",
+                    "news": "Uudised"
+                },
+                "impactStudies": {
+                    "studies": "Uuringud",
+                    "useCases": "Kasutusjuhtumid",
+                    "tellUsYourStory": "Jutustage oma lugu",
+                    "title": "Mõju ja uuringud",
+                    "opendataimpact": "Avaandmete mõju",
+                    "countryInsights": "Riikide ülevaated",
+                    "overview": "Ülevaade",
+                    "opendatamaturity": "Avaandmete tähtaeg"
+                },
+                "covid-19": {
+                    "title": "COVID-19",
+                    "datasets": "Andmekogumid",
+                    "overview": "Ülevaade",
+                    "initiatives": "Andmetega seotud algatused"
+                }
+            },
+            "subnav": {
+                "logout": "Logi välja",
+                "cookies": "Küpsised",
+                "login": "Sisselogimine",
+                "search": "Otsing",
+                "newsletter": "Uudiskiri",
+                "contact": "Kontakt",
+                "legalNotice": "Õigusteave",
+                "faq": "KKK"
+            },
+            "searchOptions": {
+                "siteContent": "Saidi sisu",
+                "datasets": "Andmekogumid"
+            },
+            "searchInputPlaceholder": "Otsi veebisaidilt...",
+            "dataPortal": "Andmeportaal",
+            "european": "Euroopa"
+        },
+        "pagination": {
+            "previousPage": "< Eelmine",
+            "nextPage": "Järgmine >"
+        },
+        "statistics": {
+            "tableHead": {
+                "trend": "Suundumus",
+                "country": "Riik",
+                "catalogue": "Kataloog",
+                "numberOfDatasets": "Andmekogumite arv",
+                "name": "Nimi",
+                "category": "Kategooria",
+                "percent": "Protsent kogu andmekogumist"
+            },
+            "totalNumber": "Andmekogumite koguarv",
+            "evolution": "Evolutsioon",
+            "datasetsPerCountryAndCatalogue": "Andmekogumeid riigi ja kataloogi kohta",
+            "datasetsPerCountry": "Andmekogumeid riigi kohta",
+            "datasetsPerCatalogue": "Andmekogumeid kataloogi kohta",
+            "selectTimePeriod": "Valige ajaperiood",
+            "selectType": "Valige statistika tüüp",
+            "statistics": "Statistika",
+            "datasetsPerCategory": "Andmekogumeid kategooria kohta",
+            "currentState": "Hetkeseis",
+            "meta": {
+                "description": "Tutvuge statistikaga meie avatud portaali arengu kohta ning vaadake, kui palju on andmekogusid riikide, kategooriate ja kataloogide kaupa veebisaidil data.europa.eu."
+            },
+            "page": {
+                "title": "Avatud andmete portaali statistika | Euroopa andmed"
+            }
+        },
+        "metadata": {
+            "updatedLowerCase": "uuendatud",
+            "conformsTo": "Vastab",
+            "dataset": "Andmekogum",
+            "email": "E-Mail",
+            "title": "Pealkiri",
+            "license": "Litsents",
+            "name": "Nimi",
+            "upload": "Üleslaadimine",
+            "created": "Loodud",
+            "addDistribution": "Lisa levitamine",
+            "chooseFile": "Valige fail",
+            "distribution": "Levitamine",
+            "label": "Silt",
+            "review": "Läbivaatus",
+            "otherIdentifiers": "Muud identifikaatorid",
+            "chooseFormat": "Valige vorming",
+            "datasets": "Andmekogumid",
+            "resource": "Ressurss",
+            "spatial": "Geograafiline ulatus",
+            "deleteItem": "Olete kindel, et soovite selle ühiku kustutada?",
+            "relatedResources": "Seonduvad ressursid",
+            "accessUrl": "Juurdepääsu URL",
+            "documentations": "Dokumentatsioonid",
+            "frequency": "Sagedus",
+            "updated": "Uuendatud",
+            "no": "Ei",
+            "landingPage": "Sihtleht",
+            "metadataQuality": "Metaandmete kvaliteet",
+            "yes": "Jah",
+            "chooseCategory": "Valige kategooria",
+            "update ": "Uuenda",
+            "homepage": "Avaleht",
+            "contactPoints": "Kontaktpunktid",
+            "chooseCatalogue": "Valige kataloog",
+            "chooseType": "Valige tüüp",
+            "description": "Teie sõnum",
+            "downloadUrl": "Allalaadimise URL",
+            "provenances": "Päritolu ",
+            "tags": "Sildid",
+            "format": "Vorming",
+            "coordinates": "Koordinaadid",
+            "sources": "Allikad",
+            "categories": "Kategooriad",
+            "publisher": "Väljaandja",
+            "type": "Tüüp",
+            "distributions": "Jaotused",
+            "cancel": "Tühista",
+            "identifiers": "Identifikaatorid"
+        },
+        "footer": {
+            "newsletterText": "Tellige meie uudiskiri",
+            "newsletter": "Uudiskiri",
+            "fundedBy": "Rahastaja: Euroopa Liit",
+            "lastUpdated": "Viimati uuendatud",
+            "links": {
+                "search": "Otsing",
+                "newsletter": "Uudiskiri",
+                "cookies": "Küpsised",
+                "legalNotice": "Õigusteave",
+                "faq": "KKK",
+                "contact": "Kontakt",
+                "login": "Sisselogimine"
+            },
+            "followUs": "Jälgige meid",
+            "subscribe": "Telli",
+            "helpUsImprove": "Aita meil paremaks muuta",
+            "managedBy": "Haldaja: Euroopa Liidu Väljaannete Talitus.",
+            "helpUsImproveText": "Teie tagasiside aitab meil üldist kasutajakogemust paremaks muuta. Kas teil on soovitusi?"
+        },
+        "catalogueFacets": {
+            "and": "JA",
+            "facets": {
+                "countries": "Riigid",
+                "licences": "Litsentsid",
+                "keywords": "Märksõnad",
+                "formats": "Vormingud",
+                "catalogues": "Kataloogid",
+                "categories": "Kategooriad"
+            },
+            "operator": "Käitaja",
+            "settings": "Seaded",
+            "or": "VÕI",
+            "europeanCatalogues": "Euroopa kataloogid",
+            "title": "Filtrid"
+        },
+        "similarDatasets": {
+            "notFound": "Sarnaseid andmekogumeid ei leitud",
+            "lessSimilar": "Vähem sarnased",
+            "similarDatasets": "Sarnased andmekogumid",
+            "verySimilar": "Väga sarnased",
+            "similar": "Sarnased",
+            "marginalSimilar": "Väga vähe sarnased"
+        },
+        "catalogues": {
+            "geoBoundsMessageRemove": "Piirangu eemaldamiseks sulgege antud teavitus või kasutage lähtestamise funktsiooni.",
+            "countMessage": "Leitud kataloogid",
+            "countMessageSingular": "Leitud kataloogid",
+            "searchBar": {
+                "placeholder": "Otsing kataloogides..."
+            },
+            "loadingMessage": "Kataloogide laadimine...",
+            "geoBoundsMessagePre": "Teie otsing on piiratud:",
+            "countMessageNoResult": "Päringuga „{query}” ei leitud katalooge"
+        },
+        "common": {
+            "edp": {
+                "title": "Euroopa Andmeportaal"
+            },
+            "currentCatalogueStatistics": "Praegune kataloogi statistika",
+            "historicalCatalogueStatistics": "Ajalooline kataloogi statistika"
+        },
+        "categories": {
+            "tran": "Transport",
+            "heal": "Tervis",
+            "gove": "Valitsus ja avalik sektor",
+            "envi": "Keskkond",
+            "intr": "Rahvusvahelised küsimused",
+            "agri": "Põllumajandus, kalandus, metsandus ja toit",
+            "soci": "Rahvastik ja ühiskond",
+            "econ": "Majandus ja rahandus",
+            "educ": "Haridus, kultuur ja sport",
+            "ener": "Energeetika",
+            "tech": "Teadus ja tehnoloogia",
+            "regi": "Piirkonnad ja linnad",
+            "just": "Kohtu- ja õigussüsteem ning avalik turvalisus"
+        },
+        "distributions": {
+            "footerLink": "Laadi alla"
+        },
+        "navigation": {
+            "navItems": {
+                "map": "Kaart",
+                "home": "Kodu",
+                "imprint": "Avaldaja",
+                "privacyPolicy": "Privaatsuspoliitika",
+                "about": "Kohta",
+                "data": "Andmed"
+            }
+        },
+        "mapModal": {
+            "disclaimer": "Vastutamatusesäte",
+            "fullscreen": "Täisekraan",
+            "findDatasets": "Rakenda",
+            "close": "Sulge",
+            "drawRectangleMsg": "Regiooni valimiseks joonista nelinurk",
+            "reset": "Kustuta"
+        },
+        "datasetFacets": {
+            "facets": {
+                "catalogues": "Kataloogid",
+                "formats": "Vormingud",
+                "categories": "Kategooriad",
+                "licences": "Litsentsid",
+                "keywords": "Märksõnad",
+                "countries": "Riigid",
+                "tags": "Sildid"
+            },
+            "title": "Filtrid",
+            "operator": "Operaator",
+            "and": "JA",
+            "settings": "Seaded",
+            "europeanCatalogues": "Euroopa kataloogid",
+            "or": "VÕI"
+        },
+        "catalogue": {
+            "searchBar": {
+                "placeholder": "Otsi katalooge"
+            },
+            "countMessage": "Leitud kataloogid",
+            "geoBoundsMessageRemove": "Piirangu eemaldamiseks sulgege antud teavitus või kasutage lähtestamise funktsiooni.",
+            "loadingMessage": "Katalooge otsitakse"
+        },
+        "datasets": {
+            "loadingMessage": "Andmekogumite laadimine ...",
+            "geoBoundsMessagePre": "Teie otsing on piiratud:",
+            "saveQuery": "Salvesta päring",
+            "createDataset": "Loo andmekogum",
+            "datasetsFeed": "Andmekogumite voog",
+            "countMessageSingular": "leitud andmekogumid",
+            "meta": {
+                "translationNotComplete": "Tõlge ei ole täielik"
+            },
+            "noResult": "Andmekogumeid ei leitud",
+            "geoBoundsMessageRemove": "Piirangu eemaldamiseks sulgege antud teavitus või kasutage lähtestamise funktsiooni.",
+            "searchBar": {
+                "placeholder": "Otsing andmekogumites..."
+            },
+            "showMore": "Näita rohkem",
+            "findLocation": "Filtreeri asukoha järgi",
+            "countMessage": "leiti andmekogumid"
+        },
+        "sort": {
+            "lastCreated": "Viimati loodud",
+            "nameAZ": "Nimi kasvavalt",
+            "nameZA": "Nimi kahanevalt",
+            "relevance": "Asjakohasus",
+            "lastUpdated": "Viimati muudetud",
+            "sortBy": "Järjestusalus"
+        },
+        "datasetCategories": {
+            "foundCategory": "Leiti {number} kategooriat",
+            "foundCategories": "Leiti {number} kategooria",
+            "noCategories": "Kategooriaid ei leitud"
+        },
+        "distributionLicense": {
+            "notFound": "Litsentsiteavet ei leitud.",
+            "openLA": "Ava litsentsiabi",
+            "notFoundExtended": "Täiendavat litsentsiteavet ei leitud. Küsige allikalt lisateavet litsentsi kohta.",
+            "licensingAssistant": "Litsentsiabi",
+            "notProvided": "Litsentsi ei ole"
+        },
+        "visualisation": {
+            "previewAvailable": "Eelvaade on saadaval",
+            "info": "Kui visualiseerimist mõne sekundi jooksul ei laadita, klõpsake siin.",
+            "loading": "Visualiseerimist laaditakse..."
+        },
+        "imprint": {
+            "msg": "SISESTAGE ILMUMISANDMED SIIA"
+        },
+        "home": {
+            "msg": "Vabandame, sellel lehel puudub veel sisu. Külastage teabe nägemiseks Andmete vahekaarti."
+        }
+    }
+}

@@ -1,0 +1,205 @@
+@prefix dqv:  <http://www.w3.org/ns/dqv#> .
+@prefix oa:  <http://www.w3.org/ns/oa#> .
+@prefix shacl:  <http://www.w3.org/ns/shacl#> .
+@prefix dc:   <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.eu/set/distribution/0fdd318d-bf60-49ad-8599-385a4e2fb68d>
+    dqv:hasQualityMeasurement [ a                   dqv:QualityMeasurement ;
+                                dqv:computedOn       <https://example.eu/set/distribution/0fdd318d-bf60-49ad-8599-385a4e2fb68d> ;
+                                dqv:isMeasurementOf <https://piveau.eu/ns/voc#dateIssuedAvailability> ;
+                                dqv:value           false ],
+                              [ a         dqv:QualityMeasurement ;
+                                dqv:computedOn <https://example.eu/set/distribution/0fdd318d-bf60-49ad-8599-385a4e2fb68d> ;
+                                dqv:isMeasurementOf <https://piveau.eu/ns/voc#dateModifiedAvailability> ;
+                                dqv:value false ],
+                              [ a         dqv:QualityMeasurement ;
+                                dqv:computedOn <https://example.eu/set/distribution/0fdd318d-bf60-49ad-8599-385a4e2fb68d> ;
+                                dqv:isMeasurementOf <https://piveau.eu/ns/voc#formatMediaTypeNonProprietary> ;
+                                dqv:value false ],
+                              [ a           dqv:QualityMeasurement ;
+                                dqv:computedOn <https://example.eu/set/distribution/0fdd318d-bf60-49ad-8599-385a4e2fb68d> ;
+                                dqv:isMeasurementOf <https://piveau.eu/ns/voc#mediaTypeAvailability> ;
+                                dqv:value true ],
+                              [ a                   dqv:QualityMeasurement ;
+                                dqv:computedOn       <https://example.eu/set/distribution/0fdd318d-bf60-49ad-8599-385a4e2fb68d> ;
+                                dqv:isMeasurementOf <https://piveau.eu/ns/voc#formatMediaTypeVocabularyAlignment> ;
+                                dqv:value           false ],
+                              [ a                   dqv:QualityMeasurement ;
+                                 dqv:computedOn          <https://example.eu/set/distribution/0fdd318d-bf60-49ad-8599-385a4e2fb68d> ;
+                                 dqv:isMeasurementOf <https://piveau.eu/ns/voc#rightsAvailability> ;
+                                 dqv:value           false ],
+                              [ a                   dqv:QualityMeasurement ;
+                                dqv:computedOn       <https://example.eu/set/distribution/0fdd318d-bf60-49ad-8599-385a4e2fb68d> ;
+                                dqv:isMeasurementOf <https://piveau.eu/ns/voc#byteSizeAvailability> ;
+                                dqv:value           false ],
+                              [ a                   dqv:QualityMeasurement ;
+                                dqv:computedOn       <https://example.eu/set/distribution/0fdd318d-bf60-49ad-8599-385a4e2fb68d> ;
+                                dqv:isMeasurementOf <https://piveau.eu/ns/voc#knownLicence> ;
+                                dqv:value           false ],
+                              [ a                   dqv:QualityMeasurement ;
+                                dqv:computedOn       <https://example.eu/set/distribution/0fdd318d-bf60-49ad-8599-385a4e2fb68d> ;
+                                dqv:isMeasurementOf <https://piveau.eu/ns/voc#licenceAvailability> ;
+                                dqv:value           true ],
+                              [ a                   dqv:QualityMeasurement ;
+                                dqv:computedOn       <https://example.eu/set/distribution/0fdd318d-bf60-49ad-8599-385a4e2fb68d> ;
+                                dqv:isMeasurementOf <https://piveau.eu/ns/voc#formatMediaTypeMachineInterpretable> ;
+                                dqv:value           false ],
+                              [ a                   dqv:QualityMeasurement ;
+                                dqv:computedOn       <https://example.eu/set/distribution/0fdd318d-bf60-49ad-8599-385a4e2fb68d> ;
+                                dqv:isMeasurementOf <https://piveau.eu/ns/voc#downloadUrlAvailability> ;
+                                dqv:value           false ],
+                              [ a                   dqv:QualityMeasurement ;
+                                dqv:computedOn       <https://example.eu/set/distribution/0fdd318d-bf60-49ad-8599-385a4e2fb68d> ;
+                                dqv:isMeasurementOf <https://piveau.eu/ns/voc#formatAvailability> ;
+                                dqv:value           false ] .
+
+
+<https://example.eu/set/distribution/4fb2dd90-5de0-4485-afe8-fd7859de194f>
+    dqv:hasQualityMeasurement [ a                   dqv:QualityMeasurement ;
+                                dqv:computedOn       <https://example.eu/set/distribution/4fb2dd90-5de0-4485-afe8-fd7859de194f> ;
+                                dqv:isMeasurementOf <https://piveau.eu/ns/voc#formatMediaTypeMachineInterpretable> ;
+                                dqv:value           false ],
+                              [ a                   dqv:QualityMeasurement ;
+                                dqv:computedOn       <https://example.eu/set/distribution/4fb2dd90-5de0-4485-afe8-fd7859de194f> ;
+                                dqv:isMeasurementOf <https://piveau.eu/ns/voc#mediaTypeAvailability> ;
+                                dqv:value           true ],
+                              [ a                   dqv:QualityMeasurement ;
+                                dqv:computedOn       <https://example.eu/set/distribution/4fb2dd90-5de0-4485-afe8-fd7859de194f> ;
+                                dqv:isMeasurementOf <https://piveau.eu/ns/voc#dateIssuedAvailability> ;
+                                dqv:value           false ],
+                              [ a                   dqv:QualityMeasurement ;
+                                dqv:computedOn       <https://example.eu/set/distribution/4fb2dd90-5de0-4485-afe8-fd7859de194f> ;
+                                dqv:isMeasurementOf <https://piveau.eu/ns/voc#dateModifiedAvailability> ;
+                                dqv:value           false ],
+                              [ a                   dqv:QualityMeasurement ;
+                                dqv:computedOn       <https://example.eu/set/distribution/4fb2dd90-5de0-4485-afe8-fd7859de194f> ;
+                                dqv:isMeasurementOf <https://piveau.eu/ns/voc#formatMediaTypeVocabularyAlignment> ;
+                                dqv:value           false ],
+                              [ a                   dqv:QualityMeasurement ;
+                                dqv:computedOn <https://example.eu/set/distribution/4fb2dd90-5de0-4485-afe8-fd7859de194f> ;
+                                dqv:isMeasurementOf <https://piveau.eu/ns/voc#knownLicence> ;
+                                dqv:value           false ],
+                              [ a                   dqv:QualityMeasurement ;
+                                dqv:computedOn       <https://example.eu/set/distribution/4fb2dd90-5de0-4485-afe8-fd7859de194f> ;
+                                dqv:isMeasurementOf <https://piveau.eu/ns/voc#downloadUrlAvailability> ;
+                                dqv:value           false ],
+                              [ a                   dqv:QualityMeasurement ;
+                                dqv:computedOn       <https://example.eu/set/distribution/4fb2dd90-5de0-4485-afe8-fd7859de194f> ;
+                                dqv:isMeasurementOf <https://piveau.eu/ns/voc#formatMediaTypeNonProprietary> ;
+                                dqv:value           false ],
+                              [ a                   dqv:QualityMeasurement ;
+                                dqv:computedOn       <https://example.eu/set/distribution/4fb2dd90-5de0-4485-afe8-fd7859de194f> ;
+                                dqv:isMeasurementOf <https://piveau.eu/ns/voc#rightsAvailability> ;
+                                dqv:value           false ],
+                              [ a                   dqv:QualityMeasurement ;
+                                dqv:computedOn       <https://example.eu/set/distribution/4fb2dd90-5de0-4485-afe8-fd7859de194f> ;
+                                dqv:isMeasurementOf <https://piveau.eu/ns/voc#formatAvailability> ;
+                                dqv:value           true ],
+                              [ a                   dqv:QualityMeasurement ;
+                                dqv:computedOn       <https://example.eu/set/distribution/4fb2dd90-5de0-4485-afe8-fd7859de194f> ;
+                                dqv:isMeasurementOf <https://piveau.eu/ns/voc#licenceAvailability> ;
+                                dqv:value           true ],
+                              [ a dqv:QualityMeasurement ;
+                                dqv:computedOn <https://statistik.leipzig.de/opendata/api/values?kategorie_nr=8&rubrik_nr=8&periode=y&format=csv> ;
+                                dqv:isMeasurementOf <https://piveau.eu/ns/voc#accessUrlStatusCode> ;
+                                dqv:value 404 ;
+                                prov:generatedAtTime "2019-12-06T18:26:41.682412Z"^^xsd:dateTime ],
+                              [ a                   dqv:QualityMeasurement ;
+                                dqv:computedOn       <https://example.eu/set/distribution/4fb2dd90-5de0-4485-afe8-fd7859de194f> ;
+                                dqv:isMeasurementOf <https://piveau.eu/ns/voc#byteSizeAvailability> ;
+                                dqv:value           false ] .
+
+<https://example.eu/set/data/test-dataset-2>
+    dqv:hasQualityAnnotation    [ a                    dqv:QualityAnnotation ;
+                                  oa:hasBody           [ a             <http://www.w3.org/ns/shacl#ValidationReport> ;
+                                                      shacl:result  [ a shacl:ValidationResult ;
+                                                                      shacl:focusNode <https://example.eu/set/data/test-dataset-2> ;
+                                                                      shacl:resultMessage "Value must be an instance of foaf:Agent" ;
+                                                                      shacl:resultPath dc:publisher ;
+                                                                      shacl:resultSeverity shacl:Violation ;
+                                                                      shacl:sourceConstraintComponent shacl:ClassConstraintComponent ;
+                                                                      shacl:sourceShape _:genid36 ;
+                                                                      shacl:value <https://example.de/def/publisher/fokus> ],
+                                                                    [ a shacl:ValidationResult ;
+                                                                      shacl:focusNode <https://example.eu/set/data/test-dataset-2> ;
+                                                                      shacl:resultMessage "Value must be an instance of skos:Concept" ;
+                                                                      shacl:resultPath dc:publisher ;
+                                                                      shacl:resultSeverity shacl:Violation ;
+                                                                      shacl:sourceConstraintComponent shacl:ClassConstraintComponent ;
+                                                                      shacl:sourceShape _:genid40 ;
+                                                                      shacl:value <https://example.de/def/publisher/fokus> ],
+                                                                    [ a shacl:ValidationResult ;
+                                                                      shacl:focusNode <https://example.eu/set/data/test-dataset-2> ;
+                                                                      shacl:resultMessage "Value must be an instance of vcard:Kind" ;
+                                                                      shacl:resultPath dcat:contactPoint ;
+                                                                      shacl:resultSeverity shacl:Violation ;
+                                                                      shacl:sourceConstraintComponent shacl:ClassConstraintComponent ;
+                                                                      shacl:sourceShape _:genid38 ;
+                                                                      shacl:value <https://example.de/def/contact/fokus> ],
+                                                                    [ a shacl:ValidationResult ;
+                                                                      shacl:focusNode <https://example.eu/set/data/test-dataset-2> ;
+                                                                      shacl:resultMessage "Value must be an instance of dct:Frequency" ;
+                                                                      shacl:resultPath dc:accrualPeriodicity ;
+                                                                      shacl:resultSeverity shacl:Violation ;
+                                                                      shacl:sourceConstraintComponent shacl:ClassConstraintComponent ;
+                                                                      shacl:sourceShape _:genid39 ;
+                                                                      shacl:value <http://publications.europa.eu/resource/authority/frequency/ANNUAL> ],
+                                                                    [ a shacl:ValidationResult ;
+                                                                      shacl:focusNode <https://example.eu/set/data/test-dataset-2> ;
+                                                                      shacl:resultMessage "Value does not have shape :CorporateBodyRestriction" ;
+                                                                      shacl:resultPath dc:publisher ;
+                                                                      shacl:resultSeverity shacl:Violation ;
+                                                                      shacl:sourceConstraintComponent shacl:NodeConstraintComponent ;
+                                                                      shacl:sourceShape _:genid37 ;
+                                                                      shacl:value <https://example.de/def/publisher/fokus> ] ] ;
+                                oa:hasTarget         <https://example.eu/set/data/test-dataset-2> ;
+                                dqv:inDimension      <https://piveau.eu/ns/voc#interoperability> ;
+                                prov:generatedAtTime "2019-12-06T18:26:41.682412Z"^^xsd:dateTime ] ;
+
+    dqv:hasQualityMeasurement   [ a dqv:QualityMeasurement ;
+                                 dqv:computedOn <https://example.eu/set/data/test-dataset-2> ;
+                                 dqv:isMeasurementOf <https://piveau.eu/ns/voc#contactPointAvailability> ;
+                                 dqv:value true ],
+                                [ a dqv:QualityMeasurement ;
+                                  dqv:computedOn <https://example.eu/set/data/test-dataset-2> ;
+                                  dqv:isMeasurementOf <https://piveau.eu/ns/voc#publisherAvailability> ;
+                                  dqv:value true ],
+                                [ a dqv:QualityMeasurement ;
+                                  dqv:computedOn <https://example.eu/set/data/test-dataset-2> ;
+                                  dqv:isMeasurementOf <https://piveau.eu/ns/voc#spatialAvailability> ;
+                                  dqv:value false ],
+                                [ a dqv:QualityMeasurement ;
+                                  dqv:computedOn <https://example.eu/set/data/test-dataset-2> ;
+                                  dqv:isMeasurementOf <https://piveau.eu/ns/voc#keywordAvailability> ;
+                                  dqv:value true ],
+                                [ a dqv:QualityMeasurement ;
+                                  dqv:computedOn <https://example.eu/set/data/test-dataset-2> ;
+                                  dqv:isMeasurementOf <https://piveau.eu/ns/voc#temporalAvailability> ;
+                                  dqv:value false ],
+                                [ a dqv:QualityMeasurement ;
+                                  dqv:computedOn <https://example.eu/set/data/test-dataset-2> ;
+                                  dqv:isMeasurementOf <https://piveau.eu/ns/voc#accessRightsAvailability> ;
+                                  dqv:value false ],
+                                [ a dqv:QualityMeasurement ;
+                                  dqv:computedOn <https://example.eu/set/data/test-dataset-2> ;
+                                  dqv:isMeasurementOf <https://piveau.eu/ns/voc#accessRightsVocabularyAlignment> ;
+                                  dqv:value false ],
+                                [ a dqv:QualityMeasurement ;
+                                  dqv:computedOn <https://example.eu/set/data/test-dataset-2> ;
+                                  dqv:isMeasurementOf <https://piveau.eu/ns/voc#categoryAvailability> ;
+                                  dqv:value true ],
+                                [ a dqv:QualityMeasurement ;
+                                  prov:generatedAtTime "2019-12-06T18:26:50.031626Z"^^xsd:dateTime ;
+                                  dqv:isMeasurementOf <https://piveau.eu/ns/voc#scoring> ;
+                                  dqv:value "165"^^xsd:int ;
+                                  dqv:computedOn <https://example.eu/set/data/test-dataset-2> ] .
+
+
+<https://example.eu/id/metrics/test-dataset-2>
+    a                    dqv:QualityMetadata ;
+    dc:type              <https://europeandataportal.eu/voc#MetricsLatest> ;
+    dc:type              <https://europeandataportal.eu/voc#MetricsHistory> ;
+    prov:generatedAtTime "2019-12-06T18:26:41.682489Z"^^xsd:dateTime .

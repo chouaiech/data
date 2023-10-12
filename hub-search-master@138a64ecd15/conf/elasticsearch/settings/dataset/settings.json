@@ -1,0 +1,38 @@
+{
+  "analysis": {
+    "analyzer": {
+      "edgengram_analyzer": {
+        "filter": [
+          "lowercase"
+        ],
+        "tokenizer": "edgengram_tokenizer"
+      }
+    },
+    "tokenizer": {
+      "edgengram_tokenizer": {
+        "type": "edge_ngram",
+        "min_gram": 1,
+        "max_gram": 50,
+        "token_chars": [
+          "letter",
+          "digit"
+        ]
+      }
+    },
+    "normalizer": {
+      "keyword_lowercase": {
+        "type": "custom",
+        "filter": [
+          "lowercase"
+        ]
+      }
+    }
+  },
+  "mapping": {
+    "total_fields": {
+      "limit": 2000
+    }
+  },
+  "number_of_shards": "1",
+  "number_of_replicas": "0"
+}

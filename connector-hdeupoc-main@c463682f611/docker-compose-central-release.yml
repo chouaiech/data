@@ -1,0 +1,28 @@
+version: '2.1'
+
+services:
+  centralservice-datadiscovery:
+    image: code.europa.eu:4567/healthdataeu-nodes/hdeupoc/cs_datadiscovery:b0.1
+    mem_limit: 350m
+    volumes:
+      - ${PWD}/config.yml:/usr/src/app/config.yml
+      - ~/.domibuspass:/root/.domibuspass
+      - ~/.fairdatapointpass:/root/.fairdatapointpass
+      - ${PWD}/ap_catalog.json:/usr/src/app/ap_catalog.json
+
+  centralservice-datapermit:
+    image: code.europa.eu:4567/healthdataeu-nodes/hdeupoc/cs_datapermit:b0.1
+    mem_limit: 350m
+    ports:
+      - "8103:8103"
+    volumes:
+      - ${PWD}/config.yml:/usr/src/app/config.yml
+      - ${PWD}/ap_catalog.json:/usr/src/app/ap_catalog.json
+      - ~/.domibuspass:/root/.domibuspass
+
+  centralservice-messagechecker:
+    image: code.europa.eu:4567/healthdataeu-nodes/hdeupoc/cs_messagechecker:b0.1
+    mem_limit: 350m
+    volumes:
+      - ${PWD}/config.yml:/usr/src/app/config.yml
+      - ~/.domibuspass:/root/.domibuspass

@@ -1,0 +1,40 @@
+version: "3"
+services:
+  piveau-hub-statistics:
+    image: dockerhub.fokus.fraunhofer.de:5000/piveau/piveau-hub-statistics
+    ports:
+      - 9090:9090
+    environment:
+      - HUB_MAIN_URL=https://data.europa.eu/api/hub/search/search
+      - HUB_CATALOG_URI=filter=catalogue&limit=1000
+      - HUB_DATASET_URI=q=&filter=dataset&facets='{"catalog"=[{0}]}'
+      - FILE_UPLOAD_API=
+      - FILE_UPLOAD_AUTH=
+      - DIST_API=
+      - DIST_API_AUTH=
+      - HUB_AUTH_REQUIRED=false
+      - HUB_USER=
+      - HUB_PASSWORD=
+      - DB_USER=
+      - DB_PASSWORD=
+      - DB=statistics_db
+      - DB_HOST=statistic-db
+      - DB_PORT=5442
+      - DB_IN_DOCKER=true
+    depends_on:
+      - statistic-db
+    restart: always
+
+  statistic-db:
+    image: postgres:latest
+    volumes:
+      - /tmp/pgdata/:/var/lib/postgresql
+    ports:
+      - 5442:5432
+    command: postgres -c 'max_connections=250' -c 'shared_buffers=2GB'
+    environment:
+      - POSTGRES_USER=
+      - POSTGRES_PASSWORD=
+      - POSTGRES_DB=
+    restart: always
+

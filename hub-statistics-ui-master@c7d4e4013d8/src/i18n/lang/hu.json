@@ -1,0 +1,379 @@
+{
+    "message": {
+        "datasetDetails": {
+            "openResource": "Ugrás a forráshoz",
+            "upload": {
+                "unknownFormat": "Ismeretlen formátum",
+                "resetText": "Visszaállítja a teljes űrlapot?",
+                "reset": "Űrlap visszaállítása",
+                "individual": "Egyéni",
+                "person": "Személy",
+                "organisation": "Szervezet"
+            },
+            "about": "névjegy",
+            "geoInfo": "Adatkészlet mérete",
+            "translation": {
+                "link": "Kattintson ide az adatkészlet eredeti nyelven való megtekintéséhez",
+                "message": "A jelen adatkészlet címe és leírása \ngépi fordítás eredménye.",
+                "noTranslation": "A kívánt nyelven nincs elérhető fordítás. Az információk az alapértelmezett nyelven jelennek meg",
+                "original": "Eredeti nyelv",
+                "update": "Folyamatban van ennek az adatkészletnek egy frissített fordítása."
+            },
+            "options": "Opciók",
+            "subnav": {
+                "activityStream": "Tevékenységfolyam",
+                "similarDatasets": "Hasonló adatkészletek",
+                "categories": "Kategóriák",
+                "dataset": "Adatkészlet"
+            },
+            "edit": "Szerkesztés",
+            "follow": "Követés",
+            "preview": "Előnézet",
+            "visualisation": "Megjelenítés megnyitása",
+            "additionalInfo": "Kiegészítő információk",
+            "feedback": "Visszajelzés",
+            "unfollow": "Követés megszüntetése",
+            "manage": "Kezelés ",
+            "delete": "Törlés",
+            "geoVisualisation": "A Geo-Visualisation megnyitása",
+            "download": "Letöltés",
+            "menu": "Menü"
+        },
+        "userQueries": {
+            "searchAllQueries": "Lekérdezések keresése...",
+            "queryDeleted": "Lekérdezés törölve",
+            "querySaved": "Lekérdezés mentve",
+            "searchQueries": "Keresés a lekérdezéseimben...",
+            "noQueryFound": "Nem található lekérdezés",
+            "myQueries": "Saját lekérdezések",
+            "noDescription": "Ennek a lekérdezésnek nincs leírása",
+            "placeholderNotes": "pl. néhány hasznos jegyzet a lekérdezéssel kapcsolatban",
+            "noQueriesSaved": "Nem mentett egyetlen lekérdezést sem.",
+            "queryFound": "A keresés {number} lekérdezést talált",
+            "areYourSure": "Biztosan törli ezt a lekérdezést?",
+            "queriesFound": "A keresés {number} lekérdezést talált",
+            "save": "Lekérdezés mentése",
+            "executeQuery": "Lekérdezés futtatása"
+        },
+        "header": {
+            "navigation": {
+                "about": {
+                    "beHarvestedByUs": "Gyűjtesse be velünk az adatait",
+                    "title": "Névjegy",
+                    "documentation": "Dokumentáció",
+                    "europeanDataPortal": "Európai Adatportál"
+                },
+                "training": {
+                    "whatIsOpenData": "Mik azok a nyílt hozzáférésű adatok?",
+                    "title": "Képzés",
+                    "dataProvidersGuide": "Adatszolgáltatói útmutató",
+                    "moreTrainingMaterial": "További képzési anyagok",
+                    "elearning": "Elektronikus tanulás",
+                    "licensingAssistant": "Licencelési segédlet"
+                },
+                "data": {
+                    "sparqlsearch": "SPARQL-keresés",
+                    "statistics": "Statisztikák",
+                    "euInternationalData": "Uniós és nemzetközi adatok",
+                    "catalogues": "Katalógusok",
+                    "datasets": "Adatkészletek",
+                    "countryData": "Országos adatok",
+                    "metadataQuality": "Metaadatok minősége",
+                    "title": "Adatok"
+                },
+                "newsEvents": {
+                    "title": "Hírek és események",
+                    "events": "Események",
+                    "news": "Hírek"
+                },
+                "impactStudies": {
+                    "studies": "Tanulmányok",
+                    "useCases": "Esetek felhasználása",
+                    "tellUsYourStory": "Ossza meg a történetét",
+                    "title": "Hatás és tanulmányok",
+                    "opendataimpact": "Nyílt hozzáférésű adatok hatása",
+                    "countryInsights": "Országon belüli összefüggések",
+                    "overview": "Áttekintés",
+                    "opendatamaturity": "Nyílt adatok érettsége"
+                },
+                "covid-19": {
+                    "title": "COVID19",
+                    "datasets": "Adatkészletek",
+                    "overview": "Áttekintés",
+                    "initiatives": "Adatokkal kapcsolatos kezdeményezések"
+                }
+            },
+            "subnav": {
+                "logout": "Kijelentkezés",
+                "cookies": "Cookie-k",
+                "login": "Bejelentkezés",
+                "search": "Keresés",
+                "newsletter": "Hírlevél",
+                "contact": "Kapcsolat",
+                "legalNotice": "Jogi nyilatkozat",
+                "faq": "GYIK"
+            },
+            "searchOptions": {
+                "siteContent": "Oldal tartalma",
+                "datasets": "Adatkészletek"
+            },
+            "searchInputPlaceholder": "Keresés a webhely tartalmában...",
+            "dataPortal": "Adatportál",
+            "european": "Európai"
+        },
+        "pagination": {
+            "previousPage": "Előző",
+            "nextPage": "Következő"
+        },
+        "statistics": {
+            "tableHead": {
+                "trend": "Trend",
+                "country": "Ország",
+                "catalogue": "Katalógus",
+                "numberOfDatasets": "Adatkészletek száma",
+                "name": "Név",
+                "category": "Kategória",
+                "percent": "Az összes adatkészlet százalékos aránya"
+            },
+            "totalNumber": "Adatkészletek száma összesen",
+            "evolution": "Fejlődés",
+            "datasetsPerCountryAndCatalogue": "Adatkészletek országonként és katalógusonként",
+            "datasetsPerCountry": "Adatkészletek országonként",
+            "datasetsPerCatalogue": "Adatkészletek katalógusonként",
+            "selectTimePeriod": "Időszak kiválasztása",
+            "selectType": "Statisztika típusának kiválasztása",
+            "statistics": "Statisztikák",
+            "datasetsPerCategory": "Adatkészletek kategóriánként",
+            "currentState": "Jelenlegi állapot",
+            "meta": {
+                "description": "Tekintse meg a nyílt portálunk fejlődésére vonatkozó statisztikákat, és az adatkészletek számát országonként, kategóriánként és katalógusonként a data.europa.eu oldalon."
+            },
+            "page": {
+                "title": "A nyílt hozzáférésű adatok portáljának statisztikái | EU Adatportál"
+            }
+        },
+        "metadata": {
+            "updatedLowerCase": "frissítve",
+            "conformsTo": "Megfelel a következőnek:",
+            "dataset": "Adatkészlet",
+            "email": "E-mail",
+            "title": "Cím",
+            "license": "Licenc",
+            "name": "Név",
+            "upload": "Feltöltés",
+            "created": "Létrehozva",
+            "addDistribution": "Disztribúció hozzáadása",
+            "chooseFile": "Fájl kiválasztása",
+            "distribution": "Terjesztés",
+            "label": "Címke",
+            "review": "Felülvizsgálat",
+            "otherIdentifiers": "Egyéb azonosítók",
+            "chooseFormat": "Formátum kiválasztása",
+            "datasets": "Adatkészletek",
+            "resource": "Erőforrás",
+            "spatial": "Térbeli",
+            "deleteItem": "Biztosan törli ezt az elemet?",
+            "relatedResources": "kapcsolódó elemek",
+            "accessUrl": "URL elérése",
+            "documentations": "Dokumentációk",
+            "frequency": "Gyakoriság",
+            "updated": "Frissítve",
+            "no": "Nem",
+            "landingPage": "Érkezési oldal",
+            "metadataQuality": "Metaadatok minősége",
+            "yes": "Igen",
+            "chooseCategory": "Kategória kiválasztása",
+            "update ": "Frissítés ",
+            "homepage": "Kezdőlap",
+            "contactPoints": "Kapcsolattartási pontok",
+            "chooseCatalogue": "Katalógus kiválasztása",
+            "chooseType": "Típus kiválasztása",
+            "description": "Leírás",
+            "downloadUrl": "URL letöltése",
+            "provenances": "Eredet",
+            "tags": "Címkék",
+            "format": "Formátum",
+            "coordinates": "Koordináták",
+            "sources": "Források",
+            "categories": "Kategóriák",
+            "publisher": "Közzétevő",
+            "type": "Típus",
+            "distributions": "Disztribúciók",
+            "cancel": "Mégse",
+            "identifiers": "Azonosítók"
+        },
+        "footer": {
+            "newsletterText": "Iratkozzon fel a hírlevelünkre",
+            "newsletter": "Hírlevél",
+            "fundedBy": "Amelyet az Európai Unió",
+            "lastUpdated": "Legutóbb frissítve",
+            "links": {
+                "search": "Keresés",
+                "newsletter": "Hírlevél",
+                "cookies": "Cookie-k",
+                "legalNotice": "Jogi nyilatkozat",
+                "faq": "GYIK",
+                "contact": "Kapcsolat",
+                "login": "Bejelentkezés"
+            },
+            "followUs": "Kövessen minket itt:",
+            "subscribe": "Feliratkozás",
+            "helpUsImprove": "Segítsen nekünk a javulásban",
+            "managedBy": "Gondozza: az Európai Unió Kiadóhivatala.",
+            "helpUsImproveText": "A visszajelzésével javíthatjuk az átfogó felhasználói élményt.\nVan bármilyen javaslata?"
+        },
+        "catalogueFacets": {
+            "and": "ÉS",
+            "facets": {
+                "countries": "Országok",
+                "licences": "Licencek",
+                "keywords": "Kulcsszavak",
+                "formats": "Formátumok",
+                "catalogues": "Katalógusok",
+                "categories": "Kategóriák"
+            },
+            "operator": "Operátor",
+            "settings": "Beállítások",
+            "or": "VAGY",
+            "europeanCatalogues": "Európai katalógusok",
+            "title": "Szűrők"
+        },
+        "similarDatasets": {
+            "notFound": "Nem található hasonló adatbázis.",
+            "lessSimilar": "Kevésbé hasonló",
+            "similarDatasets": "Hasonló adatkészletek",
+            "verySimilar": "Nagyon hasonló",
+            "similar": "Hasonló",
+            "marginalSimilar": "Éppen csak hasonló"
+        },
+        "catalogues": {
+            "geoBoundsMessageRemove": "Zárja be ezt az értesítést a korlátozás eltávolításához vagy a visszaállítás funkció használatához.",
+            "countMessage": "{query} vonatkozásában talált katalógusok",
+            "countMessageSingular": "{query} vonatkozásában talált katalógusok",
+            "searchBar": {
+                "placeholder": "Keresés a katalógusokban…"
+            },
+            "loadingMessage": "Katalógusok betöltése...",
+            "geoBoundsMessagePre": "A keresése korlátozva a következőre:",
+            "countMessageNoResult": "A keresés nem talált katalógus(oka)t a következő lekérdezéshez: \"{query}\\”"
+        },
+        "common": {
+            "edp": {
+                "title": "Európai adatportál"
+            },
+            "currentCatalogueStatistics": "Jelenlegi katalógusstatisztikák",
+            "historicalCatalogueStatistics": "Korábbi katalógusstatisztikák"
+        },
+        "categories": {
+            "tran": "Közlekedés",
+            "heal": "Egészségügy",
+            "gove": "Kormányzat és közszféra",
+            "envi": "Környezet",
+            "intr": "Nemzetközi ügyek",
+            "agri": "Mezőgazdaság, halászat, erdészet és élelmiszer",
+            "soci": "Népesség és társadalom",
+            "econ": "Gazdaság és pénzügy",
+            "educ": "Oktatás, kultúra és sport",
+            "ener": "Energia",
+            "tech": "Tudomány és technológia",
+            "regi": "Régiók és városok",
+            "just": "Igazságügy, jogrendszer és közbiztonság"
+        },
+        "distributions": {
+            "footerLink": "Letöltés"
+        },
+        "navigation": {
+            "navItems": {
+                "map": "Térkép",
+                "home": "Főoldal",
+                "imprint": "Nyomat",
+                "privacyPolicy": "Adatvédelmi politika",
+                "about": "Névjegy",
+                "data": "Adatok"
+            }
+        },
+        "mapModal": {
+            "disclaimer": "Felelősségkizáró nyilatkozat",
+            "fullscreen": "Teljes képernyő",
+            "findDatasets": "Alkalmaz",
+            "close": "Bezárás",
+            "drawRectangleMsg": "Rajzoljon egy téglalapot egy régió kiválasztásához",
+            "reset": "Törlés"
+        },
+        "datasetFacets": {
+            "facets": {
+                "catalogues": "Katalógusok",
+                "formats": "Formátumok",
+                "categories": "Kategóriák",
+                "licences": "Licencek",
+                "keywords": "Kulcsszavak",
+                "countries": "Országok",
+                "tags": "Címkék"
+            },
+            "title": "Szűrők",
+            "operator": "Operátor",
+            "and": "ÉS",
+            "settings": "Beállítások",
+            "europeanCatalogues": "Európai katalógusok",
+            "or": "VAGY"
+        },
+        "catalogue": {
+            "searchBar": {
+                "placeholder": "Katalógusok keresése"
+            },
+            "countMessage": "Talált katalógusok",
+            "geoBoundsMessageRemove": "Zárja be ezt az értesítést a korlátozás eltávolításához vagy a visszaállítás funkció használatához.",
+            "loadingMessage": "Katalógusok lekérve"
+        },
+        "datasets": {
+            "loadingMessage": "Adatkészletek betöltése...",
+            "geoBoundsMessagePre": "A keresése korlátozva a következőre:",
+            "saveQuery": "Lekérdezés mentése",
+            "createDataset": "Adatkészlet létrehozása",
+            "datasetsFeed": "Adatkészlet-csatorna",
+            "countMessageSingular": "adatkészletek talált \"{query} \"",
+            "meta": {
+                "translationNotComplete": "A fordítás nem teljes"
+            },
+            "noResult": "Nem található adatkészlet ehhez: ",
+            "geoBoundsMessageRemove": "Zárja be ezt az értesítést a korlátozás eltávolításához vagy a visszaállítás funkció használatához.",
+            "searchBar": {
+                "placeholder": "Keresés adatsorok..."
+            },
+            "showMore": "Több megjelenítése",
+            "findLocation": "Szűrés hely szerint",
+            "countMessage": "adatkészletek talált \\ \"{query} \""
+        },
+        "sort": {
+            "lastCreated": "Utoljára létrehozva",
+            "nameAZ": "Név növekvő ABC-sorrendben",
+            "nameZA": "Név csökkenő ABC-sorrendben",
+            "relevance": "Relevancia",
+            "lastUpdated": "Utoljára módosítva",
+            "sortBy": "Rendezés"
+        },
+        "datasetCategories": {
+            "foundCategory": "A keresés {number} kategóriát talált",
+            "foundCategories": "A keresés {number} kategóriát talált",
+            "noCategories": "A keresés nem talált kategóriá(ka)t"
+        },
+        "distributionLicense": {
+            "notFound": "Nem találtunk licencinformációkat.",
+            "openLA": "Licencsegéd megnyitása",
+            "notFoundExtended": "Nem találtunk további licencinformációkat, kérjük, lépjen kapcsolatba a forrással az engedéllyel kapcsolatos további információkért.",
+            "licensingAssistant": "Licencelési segédlet",
+            "notProvided": "Nincs kapott licenc"
+        },
+        "visualisation": {
+            "previewAvailable": "Megtekinthető előnézet",
+            "info": "Amennyiben a megjelenítés nem töltődik be néhány másodpercen belül, kattintson ide.",
+            "loading": "Megjelenítés betöltése folyamatban..."
+        },
+        "imprint": {
+            "msg": "HELYEZZE BE IDE A NYOMATOT"
+        },
+        "home": {
+            "msg": "Sajnos ezen az oldalon még nincs tartalom. Látogassa meg az Adatok lapot, ha látni szeretne valamit!"
+        }
+    }
+}

@@ -1,0 +1,525 @@
+{
+    "message": {
+        "navigation": {
+            "dashboard": "Dashboard",
+            "download_report": {
+                "help": "Download den fulde rapport om dette katalog.",
+                "second_ods": "Open Document Spreadsheet (.ods)",
+                "direct": "Download som rapport",
+                "second_xls": "Microsoft Excel (.xlsx)",
+                "second_pdf": "Portable Document Format (.pdf)"
+            },
+            "catalogues": "Kataloger",
+            "about": "Dokumentation",
+            "methodology": "Metodologi",
+            "validation": "validering"
+        },
+        "dashboard": {
+            "overview": {
+                "header": {
+                    "allCatalogues": "alle kataloger",
+                    "topNumber": "Top {number}",
+                    "topNumberCatalogues": "Top {number} kataloger"
+                },
+                "table_tooltip": {
+                    "dcat_ap": "Procentdelen af ​​DCAT-AP-kompatible metadata. Denne check udføres kun for portaler, der leverer DCAT-AP, f.eks. Via CKANEXT-DCAT-udvidelsen.",
+                    "machine_readability": "Procentdelen af ​​distributioner, der bliver et maskinfortolkeligt format.",
+                    "accessibility_download_url": "Procentdelen af ​​tilgængelige downloadwebadresser. Tilgængelighed bestemmes ved hjælp af en HTTP GET-metode. Da DownloadURL ikke er en obligatorisk information, kan en check ikke finde sted i tilfælde af manglende information.",
+                    "known_licenses": "Andelen af ​​kendte licenser, der blev brugt. For yderligere oplysninger om kendte licenser henvises til de følgende afsnit. Da licensen ikke er obligatorisk, kan en check ikke finde sted, hvis oplysninger mangler.",
+                    "accessibility_access_url": "Procentdelen af ​​tilgængelige AccessURL'er. Tilgængelighed bestemmes ved hjælp af en HTTP GET-metode."
+                },
+                "headline": "Oversigt",
+                "table_title": {
+                    "desc": "Beskrivelse",
+                    "known_licences": "Kendte licenser",
+                    "dcat_ap": "DCAT AP-kompabilitet ",
+                    "accessibility_access_url": "Tilgængelighed Access URL",
+                    "accessibility_download_url": "Tilgængelighed Download URL",
+                    "country": "Land",
+                    "scoring": "Bedømmelse",
+                    "machine_readability": "Maskinlæsbarhed",
+                    "rating": "Bedømmelse",
+                    "name": "Navn"
+                },
+                "table_description": "Følgende tabel giver et overblik over de fire nævnte kriterier. Du kan sortere i tabellen ved at klikke på spalteoverskrifterne. Bemærk, at MQA kun kan fortolke oplysninger, der leveres af kildeportalerne. Distributionerne, Download URL og licensoplysningerne er ikke obligatoriske, og MQA anfører manglende oplysninger med et minus \"-\". Bemæek også, at DCAT-AP-overholdelse kun kan bestemmes, hvis kildeportalen leverer sine metadata i DCAT-AP-forbundne data. Andre formater er angivet med et minus \"-\"."
+            },
+            "interoperability": {
+                "plots": {
+                    "title": {
+                        "formatMediaTypeAlignment": "Format / Medietype fra vokabular",
+                        "formatMediaTypeNonProprietary": "Ikke-proprietær",
+                        "mediaTypeAvailability": "Medietype",
+                        "formatAvailability": "Format",
+                        "dcatApCompliance": "DCAT-AP-kompabilitet",
+                        "formatMediaTypeMachineReadable": "Maskinlæsbarhed"
+                    }
+                },
+                "description": "Disse er indikatorer, der fremmer interoperabiliteten af et datasæt",
+                "title": "Interoperabilitet"
+            },
+            "reusability": {
+                "description": "Følgende tabel beskriver, hvilken parametre der anvendes til at kontrollere dataenes genanvendelighed. Der kan maksimalt opnås 75 point i dette område.",
+                "plots": {
+                    "title": {
+                        "accessRightsAlignment": "Vokabular for adgangsbegrænsninger",
+                        "contactPointAvailability": "Kontaktoplysninger",
+                        "licenceAlignment": "Licensvokabular",
+                        "publisherAvailability": "Udgiver",
+                        "licenceAvailability": "Licensoplysninger",
+                        "accessRightsAvailability": "Adgangsbegrænsninger"
+                    }
+                },
+                "title": "Genanvendelighed"
+            },
+            "show_history": "Vis historik",
+            "contextuality": {
+                "description": "Oplysninger, der giver brugeren mere kontekst",
+                "plots": {
+                    "title": {
+                        "dateIssuedAvailability": "Udstedelsesdato",
+                        "rightsAvailability": "Rettigheder",
+                        "byteSizeAvailability": "Filstørrelse",
+                        "dateModifiedAvailability": "Ændringsdato"
+                    }
+                },
+                "title": "Kontekst"
+            },
+            "accessibility": {
+                "plots": {
+                    "title": {
+                        "accessibilityOfDistributions": "Tilgængelighed af distributioner",
+                        "accessUrlAvailability": "AccessURL tilgængelig",
+                        "existingDownloadUrl": "Eksisterende Download URL",
+                        "accessibilityAccessUrl": "Tilgængelighed af Access URL",
+                        "accessUrl": "AccessURL",
+                        "accessUrlStatusCodes": "Hyppigste statuskoder for AccessURS",
+                        "downloadUrlStatusCodes": "Hyppigste statuskoder for Download URL",
+                        "downloadUrlAvailability": "Download URL",
+                        "statusErrorCode": "Koder for fejlstatus",
+                        "accessibilityDownloadUrl": "Tilgængelighed af Download URL"
+                    }
+                },
+                "title": "Tilgængelighed",
+                "headline": "Tilgængelige distributioner",
+                "description": "Følgende diagrammer giver oplysning om tilgængeligheden af distributioner. For hver URL af en distribution udføres der en HTTP HEAD-anmodning, og svaret kontrolleres. Bemærk, at DownloadURL er frivillig ifølge DCAT-AP og skal anføres tydeligt som sådan fra kildeportalerne. Dette kan kun være tilfældet for deres metadata i DCAT-AP."
+            },
+            "site_title": "Den Europæiske Dataportal | MQA | Dashboard",
+            "findability": {
+                "title": "Tilgængelighed",
+                "plots": {
+                    "title": {
+                        "keywordAvailability": "Brug af nøgleord",
+                        "spatialAvailability": "Geografisk søgning",
+                        "temporalAvailability": "Tidsbaseret søgning",
+                        "categoryAvailability": "Kategorier"
+                    }
+                },
+                "description": "Dette er indikatorer, der hjælper mennesker og maskiner med at finde datasæt"
+            },
+            "scoring": {
+                "description": "Vurderingen indikerer den samlede metadatakvalitet for alle dimensioner",
+                "plots": {
+                    "known": "kendt",
+                    "unknown": "ukendt",
+                    "title": {
+                        "timeBasedScoring": "Udvikling i bedømmelse"
+                    }
+                },
+                "title": "Udvikling i bedømmelse"
+            },
+            "show_today": "Vis i dag",
+            "weight": "Vægt",
+            "points": "Punkter",
+            "intro": {
+                "desc": "<p> Metadatakvalitetssikringen er beregnet til at hjælpe dataudbydere og dataportaler med at kontrollere deres metadata i forhold til forskellige indikatorer. For oplysninger om, hvilke målinger vi bruger til indikatormålinger, henvises til vores metodeside.</p>\n<p>Denne side giver et generelt overblik over alle metadata, der er tilgængelige for data.europa.eu. For at få et detaljeret billede af hvert enkelt katalog, bedes du bruge katalogsiden og vælge det ønskede katalog.</p>"
+            },
+            "dimensions": "Dimensioner"
+        },
+        "catalogue_detail": {
+            "introduction": "Denne side viser katalogets generelle status vedrørende distributioner og DCAT-AP-konformitet ",
+            "harvesting": {
+                "run": {
+                    "updated": "Opdateret",
+                    "duration": "Varighed (dage, timer:minutter:sekunder)",
+                    "show_log": "Vis logbøger for seneste kørsel",
+                    "end": "Sluttidspunkt",
+                    "start": "Starttidspunkt",
+                    "log_noattachment": "Der opstod en fejl under hentningen af vedhæftningen",
+                    "skipped": "Sprunget over",
+                    "log": "{0} Logger {1} til {2} af {3}",
+                    "deleted": "Slettet",
+                    "no_runs": "Der er ingen adgang til eller skemalagte oversigter over datahøst",
+                    "rejected": "Afvist",
+                    "added": "Tilføjet"
+                },
+                "repository_harvester": "Kildekatalog",
+                "show_script": "Vis transformationsscript",
+                "show_information": "Vis informationer om høster",
+                "publisher": "Udgiver",
+                "next_schedule": "Næste skema",
+                "default_language": "Standardsprog",
+                "homepage": "Hjemmeside",
+                "email_address": "E-mail-adresse",
+                "incremental": "Inkrementel",
+                "frequency": "Frekvens",
+                "type": "Type",
+                "transformation_script": "{0} Transformationsscript",
+                "title": "Oplysninger om datahøst",
+                "not_present": "Dette er ikke et høstet katalog, og der er derfor ingen høstede informationer til rådighed.",
+                "last_run": "Sidste høst"
+            },
+            "violations": {
+                "location": "Hvor har overtrædelsen fundet sted",
+                "non_compliant": "Stemmer ikke overens",
+                "resultPath": "Resultat sti",
+                "subheadline": "Overtrædelser af datasæt",
+                "title": "Datasæt, der ikke stemmer overens",
+                "value": "Værdi",
+                "desc": "Beskrivelse af overtrædelse",
+                "site_title": "Den Europæiske Dataportal | MQA | Overtrædelser",
+                "introduction": "Her vises alle datasæt, som ikke stemmer overens med DCAT-AP-reglerne",
+                "own_headline": "DCAT-AP-skemaovertrædelser",
+                "resultMessage": "Resultat besked"
+            },
+            "distributions": {
+                "introduction": "Her vises alle datasæt, som har ikke-tilgængelige distributioner.",
+                "help": "Se ikke-tilgængelige distributioner fra det valgte katalog.",
+                "mediatype_checked": "Type medie (fra test)",
+                "desc": "Datasæt med ikke-tilgængelige distributioner",
+                "not_available_access": "Ingen AccessURL tilgængelig",
+                "title": "Problemer med distributionstilgængelighed",
+                "format": {
+                    "not_machine_readable": "Ikke maskinlæsbar",
+                    "name": "Format"
+                },
+                "not_available_dl": "Ingen DownloadURL tilgængelig",
+                "download_url": "Download URL",
+                "mediatype_given": "Type medie (fra test)",
+                "nodistributions": "Der er ingen distributioner, der kan kontrolleres.",
+                "access_url": "Access URL",
+                "site_title": "Den Europæiske Dataportal | MQA | Distributioner",
+                "availability_checked_on": "Tilgængelighed kontrolleret den {date}"
+            },
+            "call_to_action": "Vælg et katalog for flere oplysninger",
+            "title": "Katalogoversigt",
+            "site_title": "Den Europæiske Dataportal | MQA | Dashboard"
+        },
+        "common": {
+            "compliant": "Kompatibel",
+            "json": "CKAN JSON",
+            "deu": {
+                "url": "www.data.europa.eu",
+                "title": "data.europa.eu"
+            },
+            "site_title_violations": "DCAT-AP skemaovertrædelser",
+            "all": "alle",
+            "close": "Luk",
+            "affacteddatasets": "Påvirkede datasæt",
+            "cataloguedetails": "Visning af katalogdetaljer",
+            "previous": "Forrige",
+            "violation": "DCAT-AP skemaovertrædelser",
+            "edp": {
+                "title": "Den Europæiske Dataportal"
+            },
+            "yes": "Ja",
+            "error": "Fejl",
+            "portal_page": "Portalside",
+            "since": "Siden",
+            "site_title": "Kvaliteten af metadata | Den officielle portal for EU-data",
+            "version": "Version",
+            "ok": "Ok",
+            "distributions": "Distributioner",
+            "no": "Nej",
+            "violations": "DCAT-AP skemaovertrædelser",
+            "download_url": "Download URL",
+            "datasets": "Datasæt",
+            "site_title_distributions": "Problemer med distributionstilgængelighed",
+            "home": "Hjem",
+            "page": "Side",
+            "notavailable": "Ikke tilgængelig",
+            "status": "Status"
+        },
+        "methodology": {
+            "dimensions": {
+                "reuse": {
+                    "main_text": " <p>Følgende tabel beskriver, hvilke parametre der anvendes til at kontrollere genanvendeligheden af dataene. Der kan højst opnås 75 point i dette område.</p>",
+                    "keywords_name_6": "Udgiver",
+                    "keywords_name_5": "Kontaktoplysninger",
+                    "keywords_name_4": "Vokabular for adgangsbegrænsninger",
+                    "keywords_name_3": "Adgangsbegrænsninger",
+                    "keywords_name_2": "Licensvokabular",
+                    "keywords_name_1": "Licensoplysninger",
+                    "keywords_metric_6": "Det kontrolleres, om egenskaben er sat eller ej",
+                    "keywords_metric_5": "Det kontrolleres, om egenskaben er sat eller ej",
+                    "keywords_metric_4": "<p>Det kontrolleres, om <a href='https://publications.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/access-right' target='_blank'>kontrollerede vokabular for adgangsrettigheder</a>  er anvendt.</p>",
+                    "keywords_metric_3": "Det undersøges, om egenskaben er sat eller ej.",
+                    "keywords_metric_2": "<p>Dette afsnit beskriver alle de dimensioner, som MQA'en undersøger for at bestemme kvaliteten. Dimensionerne er afledt af <a target='_blank' href='https://www.go-fair.org/fair-principles/'>FAIR principper <i class='fas fa-external-link-alt fa-sm'></i></a>.</p>\n\n<p>MQA anbefaler og tilskriver brugen af kontrollerede ordforråd. Data.europa.eu- portalen offentliggør sine kontrollerede ordforråd i <a href='https://gitlab.com/european-data-portal/edp-vocabularies' target='_blank'>GitLab</a>. Ordforrådene er afledt af <a href='https://op.europa.eu/en/web/eu-vocabularies/authority-tables' target='_blank'>EU Vocabularies</a>.</p>",
+                    "keywords_metric_1": "Det kontrolleres, om egenskaben er sat eller ej",
+                    "dcat_name_6": "dct:Publisher",
+                    "dcat_name_5": "dcat:ContactPoint",
+                    "dcat_name_4": "dct:AccessRights",
+                    "dcat_name_3": "dct:AccessRights",
+                    "dcat_name_2": "dct:License",
+                    "dcat_name_1": "dct:License",
+                    "keywords_desc_6": "Udgiveren er en person eller organisation, der har offentliggjort dataene.",
+                    "keywords_desc_5": "Kontaktpunktet indeholder oplysninger om, hvem du skal henvende dig til, hvis du har spørgsmål til dataene.",
+                    "keywords_desc_4": "Brugen af et kontrolleret vokabular øger genanvendeligheden.",
+                    "keywords_desc_3": "Dette felt indikerer, hvorvidt adgangen til dataene er offentlig eller begrænset.",
+                    "keywords_desc_2": "Vi vil gerne begrænse angivelsen af forkerte licensoplysninger. F.eks. støder vi på mange CC-licenser, der mangler versionering.",
+                    "keywords_desc_1": "En licens er værdifuld information for genanvendelse af data."
+                },
+                "contextual": {
+                    "main_text": "Følgende tabel viser visse letvægtsegenskaber, der giver større kontekst for brugeren. Der kan højest opnås 20 point i dette område.",
+                    "keywords_metric_4": "Det kontrolleres, om denne egenskab er sat eller ej.",
+                    "keywords_metric_3": "Det kontrolleres, om denne egenskab er sat eller ej.",
+                    "keywords_metric_2": "Det kontrolleres, om denne egenskab er sat eller ej.",
+                    "keywords_metric_1": "Det kontrolleres, om denne egenskab er sat eller ej.",
+                    "keywords_name_4": "Ændringsdato",
+                    "keywords_name_3": "Udstedelsesdato",
+                    "keywords_name_2": "Filstørrelse",
+                    "keywords_name_1": "Rettigheder",
+                    "keywords_desc_4": "Den dato, på hvilken datasættet eller distributionen senest blev ændret.",
+                    "keywords_desc_3": "Den dato, på hvilken datasættet eller distributionen blev frigivet.",
+                    "keywords_desc_2": "Specificerer størrelsen af filen i bytes.",
+                    "keywords_desc_1": "I nogle tilfælde kan der ikke anvendes en specifik licens til et datasæt. Feltet 'Rettigheder' kan anvendes til at angive en reference til en ressource, der vil informere en bruger om de rettigheder han har, når han bruger datasættet.",
+                    "dcat_name_4": "dcat:Modified",
+                    "dcat_name_3": "dct:Issued",
+                    "dcat_name_2": "dcat:ByteSize",
+                    "dcat_name_1": "dcat:Rights"
+                },
+                "table": {
+                    "metric_name": "Indikator",
+                    "dataset_and_distribution": "Datasæt og distribution",
+                    "metric": "Parameter",
+                    "dataset": "Datasæt",
+                    "desc": "Beskrivelse",
+                    "distribution": "Distribution",
+                    "weight": "Vægt"
+                },
+                "accessible": {
+                    "main_text": " <p>Følgende tabel beskriver, hvilke parametre der anvendes til at fastlægge, om adgang til de af distributionerne henviste data er garanteret. Der kan opnås højest 100 point i dette område.</p>",
+                    "dcat_name_3": "dcat:spatial",
+                    "dcat_name_2": "dcat:downloadURL",
+                    "dcat_name_1": "dcat:accessURL",
+                    "keywords_desc_3": "Hvis der findes en downloadURL, kontrolleres tilgængeligheden.",
+                    "keywords_desc_2": "DownloadURL'en er et direkte link til de refererede data.",
+                    "keywords_desc_1": "AccessURL'en er ikke nødvendigvis et direkte link til dataene, men kan også henvise til en URL, der giver adgang til datasættet, eller hvor flere oplysninger er tilgængelige om datasættet..",
+                    "keywords_metric_3": "Den specificerede URL kontrolleres for tilgængelighed via en HTTP HEAD-forespørgsel. Hvis den responderede statuskode ligger i 200- eller 300-intervallet, vurderes tilgængeligheden af ressourcen positivt.",
+                    "keywords_metric_2": "Det kontrolleres, om egenskaben er sat eller ej",
+                    "keywords_metric_1": "Den specificerede URL kontrolleres for tilgængelighed via en HTTP HEAD-forespørgsel. Hvis den responderede statuskode ligger i 200- eller 300-intervallet, vurderes tilgængeligheden af ressourcen positivt.",
+                    "keywords_name_3": "DownloadURL tilgængelighed",
+                    "keywords_name_2": "DownloadURL ",
+                    "keywords_name_1": "AccessURL tilgængelighed"
+                },
+                "interoperable": {
+                    "main_text": " <p>Følgende tabel beskriver de parametre, der anvendes til at bestemme, om en distribution anses for at være interoperable. Ifølge antagelsen 'identisk indhold med flere distributioner' er det kun distributionen med det højeste antal point, der anvendes til at beregne pointene. Der kan højst opnås 110 point i dette område.</p>",
+                    "keywords_desc_6": "<p>DCAT-AP compliance beregnes på tværs af alle kilder og datasæt, der er tilgængelige i et katalog. Denne kontrol udføres kun, hvis metadataene oprindeligt høstes som DCAT-AP eller som et gyldigt derivat.</p><p><a href='https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe' target='_blank'>DCAT-AP</a> er en specifikation til beskrivelse af sammenkædede offentlige data i Europa. Data.europa.eu-portalen kan også høste metadata, som ikke fuldt ud er i overensstemmelse med DCAT-AP. For at øge overensstemmelsen med DCAT-AP kontrollerer MQA hver metadata for at opfylde kravene i DCAT-AP.</p>",
+                    "keywords_desc_5": "Kontrollerer, om distributionens format er maskinlæsbart.",
+                    "keywords_desc_4": "Kontrollerer, om distributionens format er ikke-proprietært.",
+                    "keywords_desc_3": "Kontrollerer, om format og medietype hører til et kontrolleret vokabular.",
+                    "keywords_desc_2": "Dette felt specificerer distributionens medietype.",
+                    "keywords_desc_1": "Dette felt specificerer distributionens filformat.",
+                    "keywords_metric_6": "<p> metadataene valideres mod et sæt af <a href='https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe/releases' target='_blank'>SHACL- figurer</a>. Metadataene er ikke i overensstemmelse, hvis SHACL-valideringen rapporterer mindst ét problem.</p>\n\n<p>MQA'en bruger <a href='/shacl' target='_blank'>data.europa.eu's DCAT-AP SHACL</a> valideringstjeneste.</p> \n\n<p><a href='https://www.w3.org/TR/shacl/' target='_blank'>SHACL</a> er en anbefaling fra W3C og bruges til at validere RDF grafer mod et sæt former.</p>",
+                    "keywords_metric_5": "Fordelingen betragtes som maskinlæsbar, hvis det angivne format er indeholdt i det tilsvarende data.europa.eu <a href='https://gitlab.com/european-data-portal/edp-vocabularies' target='_blank'>GitLab repository</a> ordforråd.",
+                    "keywords_metric_4": "Distributionen betragtes som ikke-proprietær, hvis det angivne format er indeholdt i det tilsvarende data.europa.eu <a href='https://gitlab.com/european-data-portal/edp-vocabularies' target='_blank'>GitLab repository</a> ordforråd.",
+                    "keywords_metric_3": "<p> Formatet ordforråd findes i data.europa.eu <a href='https://gitlab.com/european-data-portal/edp-vocabularies' target='_blank'>GitLab repository</a>.</p>\n\n<p> Medietypen er afkrydset med <a href='https://www.iana.org/assignments/media-types/media-types.xhtml' target='_blank'>IANA liste</a></p>",
+                    "keywords_metric_2": "<p>Det kontrolleres, om egenskaben er sat eller ej.</p>",
+                    "keywords_metric_1": "<p>Det kontrolleres, om egenskaben er korrekt sat eller ej.</p>",
+                    "keywords_name_6": "DCAT-AP-kompabilitet",
+                    "keywords_name_5": "Maskinlæsbarhed",
+                    "keywords_name_4": "Ikke-proprietær",
+                    "keywords_name_3": "Format / Medietype fra vokabular",
+                    "keywords_name_2": "Medietype",
+                    "keywords_name_1": "Format",
+                    "dcat_name_6": "Datasæt og distribution",
+                    "dcat_name_5": "DCT:Format dcat:MediaType eller/underejendom af dct:Format",
+                    "dcat_name_4": "DCT:Format dcat:MediaType eller/underejendom af dct:Format",
+                    "dcat_name_3": "DCT:Format dcat:MediaType eller/underejendom af dct:Format",
+                    "dcat_name_2": "dcat:MediaType or subproperty of dct:Format",
+                    "dcat_name_1": "dct:Format"
+                },
+                "findability": {
+                    "keywords_desc_4": "Brug af tidsmæssige oplysninger vil gøre det muligt for brugerel at gennemføre en tidsmæssigt afgrænset søgning.",
+                    "keywords_desc_3": "Brug af geografiske oplysninger vil gøre det muligt for brugere at finde datasættet med en geografisk afgrænset søgning",
+                    "keywords_desc_2": "Kategorier hjælper brugere med at udforske datasæt tematisk.",
+                    "keywords_desc_1": "Nøgleord støtter søgningen direkte og gør således datasættet lettere at finde.",
+                    "keywords_metric_4": "Det kontrolleres, om denne egenskab er sat eller ej.",
+                    "keywords_metric_3": "Det kontrolleres, om denne egenskab er sat eller ej.",
+                    "keywords_metric_2": "Det kontrolleres, om en eller flere kategorier er henført til datasættet. Antallet af tildelte datasæt har ikke nogen betydning for bedømmelsen.",
+                    "keywords_metric_1": "Systemet kontrollerer, om der er defineret nøgleord. Antallet af nøgleord har ingen betydning for bedømmelsen.",
+                    "keywords_name_4": "Tidsbaseret søgning",
+                    "keywords_name_3": "Geografisk søgning",
+                    "keywords_name_2": "Kategorier",
+                    "keywords_name_1": "Brug af nøgleord",
+                    "dcat_name_4": " dcat:temporal",
+                    "dcat_name_3": "dcat:spatial",
+                    "dcat_name_2": "dcat:theme",
+                    "dcat_name_1": "dcat:Keyword",
+                    "main_text": "<p> Følgende tabel beskriver de parametre, der hjælper mennesker og maskiner med at finde datasæt. Der kan højest opnås 100 point i dette område.</p>"
+                },
+                "main_text": "<p>Dette afsnit beskriver alle dimensioner, som MQA undersøger for at bestemme kvaliteten. Dimensionerne er afledt af <a target='_blank' href='https://www.go-fair.org/fair-principles/'>FAIR- principper <i class='fas fa-external-link-alt fa-sm'></i></a>.</p>"
+            },
+            "scoring": {
+                "table": {
+                    "bad": "Dårlig",
+                    "range": "Pointinterval",
+                    "sufficient": "Tilstrækkelig",
+                    "scoring_cat": "Bedømmelse",
+                    "good": "God",
+                    "max_points": "Maksimumpoint",
+                    "excellent": "Fremragende",
+                    "sum": "Sum",
+                    "dimension": "Dimensioner"
+                },
+                "main_text": "Den generelle bedømmelse for et datasæt opstår som følge af sammenlægningen af pointene for hver dimension.",
+                "text": "Den endelige bedømmelse sker via fire bedømmelsesgrupper. Kortlægningen af point i forhold til bedømmelseskategorien udtrykkes udelukkende via bedømmelseskategorierne. Dette sætter leverandørerne i stand til opnå den højeste bedømmelse selv med et lille fradrag af point.",
+                "headline": "Bedømmelse"
+            },
+            "headline": "Metode for metadata-kvalitetsvurdering",
+            "cover": {
+                "validator_service": "DCAT-AP SHACL valideringstjeneste API",
+                "main_text": " <p> MQA'en er begrænset af de metadata, den kan undersøge. Undersøgelsen er begrænset til de metadata, som data.europa.eu indsamler under høsten. Hvis der er fejl i kildemetadataene, kan disse forfalske det samlede resultat. For at begrænse dette fejlpotentiale leverer MQA en valideringstjeneste, der kan anvendes af dataudbydere til at validere deres metadata for gyldige formater og kompatibelt DCAT-AP, før de integreres i høstprocessen.",
+                "validator_ui": "DCAT-AP SHACL valideringstjeneste webside ",
+                "headline": "Hvad vi ikke dækker"
+            },
+            "process": {
+                "main_text": "<p> For hver datahøst kontrolleres metadatene også af MQA. MQA måler kvaliteten af forskellige indikatorer, og hver indikator forklares i tabellerne nedenfor. Resultaterne af kontrollerne gemmes som Data Quality Vocabulary <a href='https://www.w3.org/TR/vocab-dqv/'>(DQV) <i class='fas fa-external-link-alt fa-sm'></i></a>. DQV er en specifikation af W3C, der anvendes til at beskrive kvaliteten af et datasæt.</p>\n\n<p>Da tilgængeligheden kan være volatil, er det nødvendigt med gentagne kontroller af accessURL og downloadURL. Af denne grund kontrollerer MQA løbende tilgængeligheden af alle distributioner. I modsætning til verifikationen af de øvrige indikatorer, har denne en længere løbetid, idet distributionerne kontrolleres via HTTP, og hver anmodet URL kan have en længere responstid. MQA'en anvender en mekanisme, der tager højde for, at hver URL undersøges igen for tilgængelighed inden for nogle få uger fra seneste revision. </p",
+                "headline": "MQA-processen"
+            },
+            "scope": {
+                "main_text": "<p> Formålet med MQA er at besvare følgende spørgsmål: <br> Hvad er metadatakvaliteten for data fra den offentlige sektor i hele det europæiske område, og hvor er de største forhindringer for opnåelsen af bedre kvalitet? </p><p>Baseret på dette undersøger MQA'en p.t. følgende konkrete spørgsmål:</p><ul><li> Kompabilitet af DCAT-AP og afledte DCAT-AP </li><li> Oplysninger, som DCAT-AP ikke er forpligtet til at offentliggøre</li><li> Tilgængelighed af de data, der er omtalt i metadataene via Access- og Download-URL</li><li> Maskinlæsbarhed af de refererede data </li><li> Brug af licenser</li></ul><p> Hvert spørgsmål munder igen ud i individuelle undersøgelser, som beskrives indgående nedenfor.</p>",
+                "headline": "Omfang af undersøgelsen"
+            },
+            "assumptions": {
+                "main_text": "<p> MQA er baseret på følgende antagelser.</p><h6> Brug af ikke-obligatoriske felter</h6><p>Vi mener ikke, at udfyldelse af DCAT-AP obligatoriske felter alene er tilstrækkeligt til at levere metadata af høj kvalitet. Derfor kontrollerer evalueringen også felter, der ikke er specificeret som obligatoriske i henhold til DCAT-AP. De nøjagtige felter, der er markeret, er angivet nedenfor.</p><h6> \n\nIdentisk indhold for flere distributioner</h6><p>Hvis et datasæt indeholder mere end én distribution, er alle distributioner identiske i indhold, de adskiller sig kun i gengivelsen af dataene. Et datasæt kan f.eks. have to distributioner, hvoraf den ene tilbyder dataene som PDF, og den anden tilbyder de identiske data som maskinlæsbar RDF/XML. Denne definition er i forhold til, hvordan datasæt vurderes i MQA (en slags \"bedste praksis\"), men bør ikke betragtes som standarddefinitionen af distributioner.</p>",
+                "headline": "Antagelser"
+            },
+            "intro_text": "<p><strong> Metadata Quality Assessment (MQA) er et værktøj udviklet af konsortiet af data.europa.eu til at undersøge kvaliteten af metadata høstet af data.europa.eu.</strong> Det er beregnet til at hjælpe dataudbydere og dataportaler med at kontrollere deres metadatakvalitet og modtage forslag til forbedringer. Resultaterne præsenteres via MQA og er også tilgængelige som download. I det følgende beskriver vi funktionaliteten af MQA og den metode, den anvender.</p>\n<p> Hvis denne side stadig ikke besvarer alle dine spørgsmål, er du velkommen til at kontakte os via vores feedbackformular i slutningen af siden. & lt;/p>",
+            "sub_headline": "Hvordan data.europa.eu måler kvaliteten af alle lagrede metadata"
+        },
+        "header": {
+            "navigation": {
+                "usingData": {
+                    "checklistForUsingData": "Tjekliste for anvendelse af data",
+                    "useCases": "Brugscases",
+                    "tellUsYourStory": "Fortæl os din historie",
+                    "title": "Anvendelse af data",
+                    "benefitsOfUsingData": "Fordelene ved at anvende data"
+                },
+                "impactStudies": {
+                    "useCases": "Brugscases",
+                    "overview": "Přehled",
+                    "opendatamaturity": "Åbne datas modenhed",
+                    "countryInsights": "Landebeskrivelser",
+                    "tellUsYourStory": "Fortæl os din historie",
+                    "studies": "Undersøgelser",
+                    "opendataimpact": "Virkninger af åbne data",
+                    "title": "Virkninger og undersøgelser"
+                },
+                "training": {
+                    "dataProvidersGuide": "Vejledning for dataleverandører",
+                    "whatIsOpenData": "Hvad er åbne data",
+                    "title": "Træning",
+                    "elearning": "eLearning",
+                    "moreTrainingMaterial": "Mere træningsmateriale",
+                    "licensingAssistant": "Licensing Assistant"
+                },
+                "data": {
+                    "datasets": "Datasæt",
+                    "sparqlsearch": "SPARQL-søgning",
+                    "metadataQuality": "Metadataenes kvalitet",
+                    "licensingAssistant": "Licensiassistent",
+                    "title": "Data",
+                    "statistics": "Statistikker",
+                    "euInternationalData": "EU- og internationale data",
+                    "sparqlManager": "SPARQL Manager",
+                    "catalogues": "Kataloger",
+                    "countryData": "Landedata"
+                },
+                "resources": {
+                    "moreTrainingMaterial": "Mere træningsmateriale",
+                    "title": "Ressourcer",
+                    "elearning": "eLearning",
+                    "trainingCompanion": "Træningsguide",
+                    "reportsAboutOpenData": "Rapporter om åbne data"
+                },
+                "providingData": {
+                    "beHarvestedByUs": "Høstes af os",
+                    "title": "Levering af data",
+                    "cataloguesHarvestedByUs": "Kataloger, som vi høster",
+                    "practicalGuide": "Praktisk vejledning"
+                },
+                "whatWeDo": {
+                    "openDataMaturity": "Åbne datas modenhed",
+                    "ourActivities": "Vores aktiviteter",
+                    "factsheetsAndReports": "Faktablade og rapporter",
+                    "title": "Hvad laver vi?",
+                    "calendar": "Kalender",
+                    "featuredHighlights": "Fremhævninger",
+                    "news": "Nyheder"
+                },
+                "about": {
+                    "beHarvestedByUs": "Bliv høstet af os",
+                    "documentation": "Dokumentation",
+                    "title": "Om",
+                    "europeanDataPortal": "Den Europæiske Dataportal"
+                },
+                "newsEvents": {
+                    "title": "Nyheder og begivenheder",
+                    "events": "Begivenheder",
+                    "news": "Nyheder"
+                }
+            },
+            "subnav": {
+                "contact": "Kontakt",
+                "legalNotice": "Juridisk meddelelse",
+                "search": "Søg",
+                "newsletter": "Nyhedsbrev",
+                "cookies": "Cookies",
+                "login": "Log ind",
+                "faq": "FAQ"
+            },
+            "searchInputPlaceholder": "Søg siteindhold",
+            "european": "Europæisk",
+            "searchOptions": {
+                "siteContent": "Webstedsindhold",
+                "datasets": "Datasæt"
+            },
+            "dataPortal": "Dataportal"
+        },
+        "footer": {
+            "links": {
+                "search": "Søg",
+                "newsletter": "Nyhedsbrev",
+                "faq": "FAQ",
+                "contact": "Kontakt",
+                "subscribe": "Abonnér",
+                "cookies": "Cookies",
+                "login": "Log ind",
+                "legalNotice": "Juridisk meddelelse"
+            },
+            "managedBy": "Administreret af Publikationskontoret for Den Europæiske Union.",
+            "fundedBy": "Finansieret af Den Europæiske Union",
+            "newsletter": "Abonner på vores Nyhedsbrev",
+            "helpUsImproveText": "Din feedback vil hjælpe os med at forbedre den samlede brugeroplevelse. Nogen forslag?",
+            "newsletterText": "Abonner på vores Nyhedsbrev",
+            "subscribe": "Tilmeld",
+            "followUs": "Følg os på ",
+            "lastUpdate": "Senest opdateret",
+            "helpUsImprove": "Hjælp os med at blive bedre"
+        },
+        "maintenance_message": "Gode nyheder. Vi er ved at forbedre vores system. I mellemtiden er denne enhed i vedligeholdelsesstatus og viser måske ikke alle tilgængelige data.",
+        "catalogue_list": {
+            "description": "Vælg et katalog for flere oplysninger",
+            "search": {
+                "placeholder": "Søg efter et katalognavnet eller beskrivelsen"
+            }
+        },
+        "title": "Metadata Quality Assurance",
+        "empty": "",
+        "no_data": "Der findes ingen målinger tilgængelige for denne indikator",
+        "meta": {
+            "description": "\"Metadata Quality Assurance\" giver en generel oversigt over alle de metadata, som er tilgængelige for portalen for åbne data data.europa.eu ifølge diverse indikatorer."
+        }
+    }
+}

@@ -1,0 +1,969 @@
+{
+    "message": {
+        "metadata": {
+            "catalogRecord": "Kataloogi kirje",
+            "deleteItem": "Olete kindel, et soovite selle ühiku kustutada?",
+            "availability": "Saadavus",
+            "versionInfo": "Versiooni teave",
+            "chooseCategory": "Valige kategooria",
+            "chooseFile": "Valige fail",
+            "versionNotes": "Versiooni märkused",
+            "review": "Paranda",
+            "tooltipKeywords": "Sisestage siia oma andmekogumi märksõnad",
+            "pageDescriptionDataset": "Lisage oma andmekogumile pealkiri, kirjeldus, kataloog, märksõnad ja kategooriad",
+            "no": "Ei",
+            "relatedResources": "Seonduvad ressursid",
+            "pageDescriptionPublisher": "Lisage oma andmekogumile väljaandja tüüp, nimi ja koduleht",
+            "tooltipTitle": "Sisestage siia oma andmekogumi peakiri",
+            "linkedData": "Seotud andmed",
+            "numSeries": "Andmeseeriate arv",
+            "releaseDate": "Avaldamise kuupäev",
+            "yes": "Jah",
+            "unitsOfMeasurement": "Mõõtmisühikud",
+            "distributionsEmpty": "",
+            "enterDownloadUrl": "Sisesta Download Url",
+            "frequency": "Sagedus",
+            "type": "Tüüp",
+            "telephone": "Telefon",
+            "label": "Silt",
+            "addedToDataEuropaEU": "Lisatud andmetele.europa.eu",
+            "tooltipCategories": "Valige siit oma andmekogumi kategooriad",
+            "temporal": "Ajaline katvus",
+            "enterDescription": "Sisestage kirjeldus",
+            "accrualPeriodicity": "Tekkepõhine perioodilisus",
+            "showXMore": "Näita  {increment} rohkem ",
+            "identifier": "Tunnus",
+            "isPartOf": "On järgmiste toodete alamkataloog:",
+            "dataServices": "Andmeteenused",
+            "chooseType": "Valige tüüp",
+            "organizationName": "Organisatsiooni nimi",
+            "catalog": "Kataloog",
+            "qualityAnnotations": "Kvaliteedimärkused",
+            "update": "Uuenda",
+            "showAll": "Näita kõiki",
+            "coordinates": "Koordinaadid",
+            "email": "E-Mail",
+            "tooltipContactType": "Valige siit oma andmekogumi kontaktpunkti tüüp",
+            "checksum": "Kontrollsumma",
+            "enterEmail": "Sisestage e-posti aadress",
+            "cancel": "Tühista",
+            "conformsTo": "Vastab",
+            "downloadUrl": "Allalaadimise URL",
+            "chooseLicense": "Valige litsents",
+            "tooltipDescription": "Sisestage siia oma andmekogumi kirjeldus",
+            "tags": "Sildid",
+            "accessUrl": "Juurdepääsu URL",
+            "languages": "Keeled",
+            "title": "Pealkiri",
+            "enterTitle": "Sisestage pealkiri",
+            "url": "URL",
+            "resource": "Ressurss",
+            "tooltipPublisherHomepage": "Sisestage siia oma andmekogumi väljaandja koduleht",
+            "creator": "Looja",
+            "description": "Teie sõnum",
+            "spatial": "Geograafiline ulatus",
+            "readLess": "Loe „Vähem“",
+            "tooltipPublisherType": "Valige siit oma andmekogumi väljaandja tüüp",
+            "accessRights": "Juurdepääsuõigused",
+            "tooltipDistributionDownloadUrl": "Sisestage siia oma levitamise allalaadimise URL",
+            "attributes": "Atribuudid",
+            "mediaType": "Meediatüüp",
+            "categories": "Kategooriad",
+            "pageDescriptionDistribution": "Lisage oma andmekogumisse jaotised",
+            "pages": "Leheküljed",
+            "goToCatalog": "Minge kataloogi lehele",
+            "tooltipDistributionDescription": "Sisestage siia oma levitamise kirjeldus",
+            "identifiers": "Identifikaatorid",
+            "scheme": "Kava",
+            "contactPoints": "Kontaktpunktid",
+            "hasPart": "Tal on alamkataloog",
+            "showLess": "Näita vähem",
+            "byteSize": "Baidi suurus",
+            "tooltipCatalog": "Valige siit oma andmekogumi kataloog",
+            "methodologyPage": "MQA metodoloogia lehekülg",
+            "hasVersion": "omab versiooni",
+            "useDownloadUrl": "Ma soovin sisestada faili üleslaadimise asemel allalaadimise URL-i",
+            "created": "Loodud",
+            "themeTaxonomy": "Teema taksonoomia",
+            "homepage": "Koduleht",
+            "address": "Aadress",
+            "visualisations": "Visualiseerimine",
+            "tooltipDistributionFormat": "Valige siit oma levitamise vorming",
+            "upload": "Laadi üles",
+            "notFound": "Ei leitud",
+            "dimensions": "Mõõtmed",
+            "addDistribution": "Lisa levitamine",
+            "name": "Nimi",
+            "metadataQuality": "Metaandmete kvaliteet",
+            "provenances": "Päritolu ",
+            "enterKeywords": "Sisestage märksõnad",
+            "landingPage": "Sihtleht",
+            "tooltipDistributionTitle": "Sisestage siia oma levitamise pealkiri",
+            "license": "Litsents",
+            "chooseCatalog": "Valige kataloog",
+            "enterHomepage": "Sisestage koduleht",
+            "tooltipDistributionLicence": "Valige siit oma levitamise litsents",
+            "readMore": "Lugege lähemalt",
+            "format": "Vorming",
+            "chooseFormat": "Valige vorming",
+            "publisher": "Väljaandja",
+            "dataset": "Andmekogum",
+            "updated": "Uuendatud",
+            "pageDescriptionUpload": "Lisage faile oma jaotistesse",
+            "spatialResource": "Ruumiline vahend",
+            "distribution": "Levitamine",
+            "tooltipContactName": "Sisestage siia oma andmekogumi kontaktpunkti nimi",
+            "distributions": "Jaotused",
+            "status": "Seisund",
+            "datasets": "Andmekogumid",
+            "showMore": "Näita rohkem",
+            "rights": "Õigused",
+            "tooltipContactEmail": "Sisestage siia oma andmekogumi kontaktpunkti e-posti aadress",
+            "otherIdentifiers": "Muud identifikaatorid",
+            "tooltipPublisherName": "Sisestage siia oma andmekogumi väljaandja nimi",
+            "enterName": "Sisestage nimi",
+            "documentations": "Dokumentatsioonid",
+            "sources": "Allikad",
+            "modificationDate": "Muutmise kuupäev",
+            "isVersionOf": "on versioon",
+            "pageDescriptionContactPoint": "Lisage oma andmekogumile kontaktpunkti tüüp, nimi ja e-post",
+            "goToDataset": "Minge andmekogumi lehele",
+            "updatedOnDataEuropaEU": "Ajakohastatud veebisaidil Data.europa.eu"
+        },
+        "dataupload": {
+            "info": {
+                "defaultdescription": "Klõpsake infoikoonil, et kuvada välja üksikasjalik selgitus.",
+                "information": "Teave"
+            },
+            "datasets": {
+                "step2": {
+                    "source": {
+                        "label": "Allikas:"
+                    },
+                    "type": {
+                        "placeholder": "Andmekogumi tüüpkoha valdaja tekst"
+                    },
+                    "subject": {
+                        "help": "Andmekogumi kategooria."
+                    },
+                    "isReferencedByUrl": {
+                        "label": "URL"
+                    },
+                    "contactPointAddressStreet": {
+                        "placeholder": "Andmekogumi kontaktpunkti Adress Street placeholder tekst"
+                    },
+                    "conformsTo": {
+                        "placeholder": "Andmekogum „Vastavus kohakasutajale“"
+                    },
+                    "isVersionOf": {
+                        "label": "On versiooni versioon"
+                    },
+                    "provenance": {
+                        "label": "Lähteriik"
+                    },
+                    "language": {
+                        "label": "Keel"
+                    },
+                    "qualifiedAttribution": {
+                        "help": "Seos töötajaga, kellel on mingisugune vastutus ressursi eest"
+                    },
+                    "temporal": {
+                        "placeholder": "Andmekogum Ajalise koha valdaja tekst"
+                    },
+                    "accessRights": {
+                        "info": "See omadus viitab teabele, mis näitab, kas andmekogum on avatud andmed, juurdepääsupiirangud või mitte."
+                    },
+                    "identifier": {
+                        "help": "See omadus sisaldab andmekogumi peamist tunnust."
+                    },
+                    "versionInfo": {
+                        "help": "Andmekogumi versiooni number."
+                    },
+                    "hasVersion": {
+                        "info": "See tunnus osutab seotud andmekogumile, mis on kirjeldatud andmekogumi versioon, muudatus või kohandus."
+                    },
+                    "wasGeneratedBy": {
+                        "add-label": "Lisada Was Generated By,"
+                    },
+                    "qualifiedRelation": {
+                        "label": "Kvalifitseeritud seos"
+                    },
+                    "conformsToTitle": {
+                        "label": "Pealkiri"
+                    },
+                    "creatorType": {
+                        "label": "Liik"
+                    },
+                    "spatial": {
+                        "info": "See omadus viitab andmekogumiga hõlmatud geograafilisele piirkonnale."
+                    },
+                    "temporalResolutionMonth": {
+                        "label": "Ajaline resolutsiooni kuu"
+                    },
+                    "contactPointName": {
+                        "label": "Nimi"
+                    },
+                    "temporalResolutionMinute": {
+                        "placeholder": "Andmestu Ajalise lahendamise protokolli kohatäitja tekst"
+                    },
+                    "contactPointEmail": {
+                        "label": "E-posti aadress"
+                    },
+                    "contactPointOrganisationName": {
+                        "label": "Organisatsiooni nimi"
+                    },
+                    "contactPoint": {
+                        "help": "See omadus sisaldab kontaktandmeid."
+                    },
+                    "temporalResolutionDay": {
+                        "placeholder": "Andmestu Ajalise lahendamise päeva kohatäitja tekst"
+                    },
+                    "provenanceText": {
+                        "placeholder": "Andmekogum Provenance Text placeholder text"
+                    }
+                },
+                "step1": {
+                    "publisherType": {
+                        "placeholder": "Andmestu Kirjeldaja tüüp kohahoidja tekst"
+                    },
+                    "datasetID": {
+                        "label": "Andmekogumi tunnuskood"
+                    },
+                    "modified": {
+                        "label": "Muudetud"
+                    },
+                    "publisher": {
+                        "label": "Kirjastaja"
+                    },
+                    "issued": {
+                        "help": "Andmekogumi ametliku väljaandmise kuupäev (nt avaldamine). Vastuvõetavad kuupäevavormingud: AAAA-KK-PP, AAAA-KK, AAAA."
+                    },
+                    "publisherHomepage": {
+                        "label": "Avaleht"
+                    }
+                },
+                "step3": {
+                    "spatialResolutionInMeters": {
+                        "help": "Minimaalne ruumiline hajutatus, mis on andmekogumis lahendatav."
+                    },
+                    "mediaType": {
+                        "placeholder": "Müügimeedia tüübi omaniku tekst"
+                    },
+                    "language": {
+                        "help": "Levitamisel kasutatav keel."
+                    },
+                    "title": {
+                        "info": "See omadus sisaldab jaotusüksusele antud nime. Seda omadust võib korrata kirjelduse paralleelsete keeleversioonide puhul."
+                    },
+                    "status": {
+                        "label": "Staatus"
+                    },
+                    "checksum": {
+                        "placeholder": "Jaotamine „Kontrolli koha valdaja tekst“"
+                    },
+                    "hasPolicyUrl": {
+                        "placeholder": "Jaotamispoliitika „Url placeholder“ tekst"
+                    },
+                    "page": {
+                        "help": "Käesolevat levitamist käsitlev lehekülg või dokument."
+                    },
+                    "availability": {
+                        "placeholder": "Jaotamisvõimalusega kohaomaniku tekst"
+                    },
+                    "format": {
+                        "placeholder": "Jaotamisformaadis kohaomaniku tekst"
+                    },
+                    "conformsTo": {
+                        "add-label": "Lisa nõuetele vastavus"
+                    },
+                    "issued": {
+                        "label": "Välja antud"
+                    },
+                    "description": {
+                        "help": "See omadus sisaldab levitamise vaba tekstikontot."
+                    },
+                    "hasPolicy": {
+                        "help": "Õigusi väljendav poliitika."
+                    },
+                    "temporalResolutionMonth": {
+                        "label": "Ajaline resolutsiooni kuu"
+                    },
+                    "temporalResolutionHour": {
+                        "placeholder": "Andmestu Ajaline resolutsioon Hour kohatäitja tekst"
+                    },
+                    "licence": {
+                        "help": "Litsents, mille alusel levitamine kättesaadavaks tehakse."
+                    },
+                    "date": {
+                        "label": "Kuupäev"
+                    }
+                },
+                "stepper": {
+                    "step3": {
+                        "children": {
+                            "distribution3": {
+                                "name": "Lisateave"
+                            },
+                            "distribution4": {
+                                "name": "Lisateave"
+                            },
+                            "distribution1": {
+                                "name": "Üldine teave"
+                            },
+                            "distribution2": {
+                                "name": "Lisateave"
+                            }
+                        }
+                    },
+                    "overview": "Andmekogumi ülevaade"
+                }
+            },
+            "catalogues": {
+                "step2": {
+                    "isPartOf": {
+                        "info": "See omadus on seotud kataloogiga, milles kirjeldatud kataloog on füüsiliselt või loogiliselt lisatud."
+                    },
+                    "language": {
+                        "help": "Teksti metaandmetes kasutatav keel, milles kirjeldatakse nimetusi, kirjeldusi jne."
+                    },
+                    "spatial": {
+                        "info": "See omadus viitab kataloogiga hõlmatud geograafilisele piirkonnale."
+                    },
+                    "hasPart": {
+                        "help": "See omadus viitab seotud kataloogile, mis on osa kirjeldatud kataloogist."
+                    },
+                    "creator": {
+                        "add-label": "Lisa Looja"
+                    },
+                    "creatorName": {
+                        "label": "Nimi"
+                    }
+                },
+                "step1": {
+                    "title": {
+                        "help": "Kataloogile antud nimi. "
+                    },
+                    "description": {
+                        "info": "See omadus sisaldab kirje vaba tekstikontot. Seda omadust võib korrata kirjelduse paralleelsete keeleversioonide puhul."
+                    },
+                    "licence": {
+                        "placeholder": "Kataloogi litsentsi koha omaniku tekst"
+                    },
+                    "modified": {
+                        "label": "Muudetud"
+                    },
+                    "licenceDescription": {
+                        "label": "Litsentsi kirjeldus"
+                    },
+                    "homepage": {
+                        "help": "Veebileht, mis toimib kataloogi põhileheküljena."
+                    }
+                },
+                "stepper": {
+                    "overview": "Kataloogi ülevaade",
+                    "step1": {
+                        "name": "Etapp: Loo kataloog"
+                    },
+                    "step2": {
+                        "name": "Etapp 2: Kataloogi omaduste määratlemine"
+                    }
+                }
+            },
+            "clear": "Selge",
+            "deletemodal": {
+                "deleteDistribution": "Kustuta levitamine",
+                "areyousure": "Kas olete kindel, et soovite selle jaotuse kustutada?"
+            },
+            "createUniqueID": "Loo unikaalne ID",
+            "saveasdraft": "Salvesta mustandina",
+            "savedataset": "Salvesta andmekogum",
+            "next": "Järgmine samm",
+            "noDistributions": "Levitamisvõimalusi ei ole",
+            "savedraft": "Salvesta mustand",
+            "searchVocabulary": "Otsingusõnastik",
+            "error": {
+                "general": "Tekkis viga. Palun proovige hiljem uuesti!",
+                "invalid-message": "Mõned väljad on puudu. Palun täitke kõik nõutavad väljad!"
+            },
+            "type": "Liik",
+            "preview": "Eelmine samm",
+            "submit": "Esita",
+            "publishdataset": "Avalda andmekogum",
+            "validationtitle": "Valideerimine",
+            "publishdraft": "Avalda kavand",
+            "newDistribution": "Lisa veel üks jaotus",
+            "validationerror": "Teie vormi kinnitamisel oli viga!",
+            "createDataset": "Loo andmestik",
+            "defineDatasetProperties": "Andmekogumi omaduste määratlemine",
+            "createDistributions": "Loo Distribution’i loomine"
+        },
+        "datasetDetails": {
+            "subnav": {
+                "quality": "Kvaliteet",
+                "similarDatasets": "Sarnased andmekogumid",
+                "categories": "Kategooriad",
+                "dataset": "Andmekogum",
+                "activityStream": "Tegevusvoog"
+            },
+            "quality": {
+                "licenceAvailability": "Litsentsi teave",
+                "mediaTypeAvailability": "Meediumitüüp",
+                "temporalAvailability": "Ajapõhine otsing",
+                "accessibility": "",
+                "dcatApCompliance": "DCAT-AP vastavus",
+                "distributions": {
+                    "downloadUrlStatusCode": "AllalaadimineUrl status code",
+                    "accessUrlStatusCode": "AccessURLi olekukood"
+                },
+                "accessRightsVocabularyAlignment": "Juurdepääsupiirangute terminoloogia",
+                "contactPointAvailability": "Kontaktpunkt",
+                "dateIssuedAvailability": "Väljastamise kuupäev",
+                "nodata": "Näib, et meie poolel on probleem. Kvaliteetseid andmeid ei olnud võimalik laadida. Palun proovige hiljem uuesti.",
+                "dateModifiedAvailability": "Muudatuste andmed",
+                "contextuality": "Kontekst",
+                "reusability": "Taaskasutus",
+                "accessUrlStatusCode": "Kõige sagedasemad juurdepääsu URL-i olekukoodid",
+                "downloadUrlStatusCode": "Kõige sagedasemad allalaadimise URL-i olekukoodid",
+                "formatMediaTypeVocabularyAlignment": "Vorming/meediumitüüp terminoloogiast",
+                "metaDataQuality": "Metaandmete kvaliteet",
+                "downloadUrlAvailability": "Allalaadimise URL",
+                "dataQuality": "Andmete kvaliteet",
+                "categoryAvailability": "Kategooriad",
+                "interoperability": "Koostalitlusvõime",
+                "findability": "Leitavus",
+                "spatialAvailability": "Geograafiline otsing",
+                "formatAvailability": "Vorming",
+                "byteSizeAvailability": "Faili suurus",
+                "accessRightsAvailability": "Juurdepääsupiirangud",
+                "distributionQuality": "Jaotamise kvaliteet",
+                "publisherAvailability": "Väljaandja",
+                "keywordAvailability": "Võtmesõnade kasutus",
+                "rightsAvailability": "Õigused"
+            },
+            "follow": "Jälgi",
+            "accessURLTooltip": "See link võib sisaldada teavet selle kohta, kuidas saada viidatud faili või on otselink viidatud failile.",
+            "dataStream": "Andmelüngad",
+            "downloadURLTooltip": "See on otselink viidatud failile.",
+            "upload": {
+                "organisation": "Organisatsioon",
+                "individual": "Individuaalne",
+                "resetText": "Kas lähtestada kogu vorm?",
+                "person": "Isik",
+                "unknownFormat": "Tundmatu vorming",
+                "reset": "Lähtesta vorm"
+            },
+            "preview": "Eelvaade",
+            "feedback": "Tagasiside",
+            "access": "Juurdepääs",
+            "datasets": {
+                "modal": {
+                    "downloadingFiles": "Failide allalaadimine",
+                    "zipNumberOfFiles": "Zip-number-failid",
+                    "waitingForDownload": "(enne allalaadimist)",
+                    "downloadProgress": "Laadige alla „Progress“",
+                    "notDownloaded": "Ei ole alla laaditud",
+                    "error": "Viga! Proovige Againi",
+                    "okay": "Okay",
+                    "cancel": "Loobu",
+                    "close": "Sulge",
+                    "coupleOfMinutes": "(see võib võtta paar minutit)",
+                    "notDownloadedTooltip": "Üksikasjad on esitatud lisatud failis_report.csv"
+                },
+                "leavePageWindow": {
+                    "text": "Kas soovite tõesti lahkuda? Allalaadimine peatatakse, kui lahkute!"
+                },
+                "downloadAll": "Laadi alla kõik"
+            },
+            "translation": {
+                "update": "Toimub selle andmekogumi uuendatud tõlkimine.",
+                "original": "Algne keel",
+                "message": "Selle andmekogumi pealkiri ja kirjeldus on masintõlkega.",
+                "noTranslation": "See andmekogum ei ole veel teie keeles kättesaadav. Andmeid tõlgitakse.",
+                "link": "Klõpsake siin, et vaadata andmekogumit originaalkeeles"
+            },
+            "cite": "Tsiteerida",
+            "relatedResources": "Seotud ressursid",
+            "share": "Jaga",
+            "geoVisualisation": "Ava geovisualiseerimine",
+            "download": "Allalaadimine ",
+            "intro": {
+                "distribution": "Allpool on loetletud andmekogumi kõigi jaotuste kvaliteedi mõõtmine. Selleks et saada teavet selle kohta, milliseid parameetreid me näitajate mõõtmiseks kasutame, vaadake palun meie <a href='/mqa/methodology?locale={locale}'>metoodika lehekülge</a>.",
+                "metadataQuality": "Metaandmete kvaliteeditagamise eesmärk on aidata andmeesitajatel ja andmeportaalidel võrrelda oma metaandmeid erinevate näitajatega. Selleks et saada teavet selle kohta, milliseid parameetreid me näitajate mõõtmiseks kasutame, vaadake palun meie <a href='/mqa/methodology?locale={locale}'>metoodika lehekülge</a>."
+            },
+            "about": "kohta",
+            "datasetFeed": "Andmekogum. Sissejuhatus",
+            "delete": "Kustuta",
+            "openResource": "Ava ressurss",
+            "visualisation": "Ava visualiseerimine",
+            "isUsedBy": "Mida kasutab",
+            "unfollow": "Lõpeta jälgimine",
+            "shareOn": "Jaga edasi",
+            "additionalInfo": "Lisateave",
+            "contactPoints": {
+                "organizationName": "Organisatsiooni nimi"
+            },
+            "edit": "Redigeeri",
+            "menu": "Menüü",
+            "manage": "Halda",
+            "geoInfo": "Andmekogumi ulatus",
+            "options": "Valikud"
+        },
+        "tooltip": {
+            "catalogDetails": {
+                "created": "Kataloogi ametliku väljaandmise (nt avaldamise) kuupäev.",
+                "publisher": "Üksus (organisatsioon), kes vastutab kataloogi kättesaadavaks tegemise eest.",
+                "updated": "Viimane kuupäev, mil kataloogi muudeti.",
+                "description": "Kataloogi kirjeldus.",
+                "title": "Kataloogi pealkiri.",
+                "metadata": "Kataloogi metaandmete allalaadimise võimalused erinevates lingitud andmeesitustes.",
+                "language": "Keel, mida kasutatakse kataloogis sisalduvate andmekogumite pealkirjade, kirjelduste jms kirjeldavates tekstilistes metaandmetes. Seda omadust võib korrata, kui metaandmed esitatakse mitmes keeles.",
+                "spatial": "Kataloogiga hõlmatud geograafiline piirkond."
+            },
+            "datasetDetails": {
+                "frequency": "Andmekogumi ajakohastamise sagedus.",
+                "dataset": "Andmekogumi või teenuse üksikasjad.",
+                "updated": "Viimane kuupäev, mil andmekogumit või teenust muudeti või muudeti.",
+                "versionInfo": "Andmekogumi versiooni number või muu versiooni tähis.",
+                "distributions": {
+                    "updated": "Viimane kuupäev, mil jaotust muudeti või muudeti.",
+                    "title": "Jaotusüksusele antud nimi.",
+                    "linkedSchema": "Kehtestatud skeem, millele kirjeldatud jaotus vastab.",
+                    "linkedData": "Võimalused andmete levitamise metaandmete allalaadimiseks mitmesugustes lingitud andmeesitustes.",
+                    "status": "Jaotamise lõpptähtaeg. See PEAB võtma ühe väärtustest „Completed, demorcated, Under Development, Withdrawn“.",
+                    "licence": "Litsents, mille alusel levitamine tehakse kättesaadavaks.",
+                    "availability": "Näitab, kui kaua on kavas hoida andmekogumi levitamine kättesaadavana.",
+                    "rights": "Avaldus, milles täpsustatakse levitamisega seotud õigusi.",
+                    "checksum": "Mehhanism, mille abil saab kontrollida, et jaotamise sisu ei ole muutunud. Kontrollsumma on seotud allalaadimisegaUrl.",
+                    "mediaType": "Levitamise meedialiik, nagu on määratletud IANA hallatavas meediatüüpide ametlikus registris.",
+                    "spatialResolution": "Minimaalne ruumiline eraldusvõime andmekogumi jaotuses, mõõdetuna meetrites.",
+                    "byteSize": "Sisaldab jaotuse suurust baitides.",
+                    "download": "Alla laadida või juurde pääseda levitamisele.",
+                    "type": "Lingid levitamise liigile, nt see, et tegemist on visualiseerimisega.",
+                    "created": "Levitamise ametliku väljaandmise (nt avaldamise) kuupäev.",
+                    "language": "Levitamisel kasutatav keel.",
+                    "options": "Avage väljapaneku eelvaade.",
+                    "temporalResolution": "Viitab andmekogumi jaotuse minimaalsele lahendatavale ajavahemikule."
+                },
+                "otherIdentifier": "Andmekogumi teisene tunnus, näiteks MAST/ADS16, DataCite17, DOI18, EZID19 või W3ID20.",
+                "numSeries": "Sisaldab andmekogumis sisalduvate andmeseeriate arvu.",
+                "versionOf": "Seotud andmekogu, mille kirjeldatud andmekogum on versioon, versioon või kohandus.",
+                "unitsOfMeasurement": "Andmekogumis olevate vaatluste mõõtühik.",
+                "distribution": "Andmekogumi või teenuse füüsiline kehastamine teatavas vormingus, nt veebilink andmekogumi failile.",
+                "quality": "Metaandmete kvaliteeti käsitlev teave selle andmekogumi või teenuse kohta.",
+                "catalogue": "Kataloog, kuhu see andmekogum või teenus kuulub.",
+                "linkedData": "Andmekogumi või teenuse metaandmete allalaadimise võimalused erinevates lingitud andmeesitustes.",
+                "versionNotes": "Selle versiooni ja andmekogumi eelmise versiooni vaheliste erinevuste kirjeldus. Seda omadust võib korrata versiooni märkuste paralleelsete keeleversioonide puhul.",
+                "similarDatasets": "Muud andmekogumid või teenused, mis sarnanevad käesoleva andmestikuga.",
+                "identifier": "Andmekogumi põhiidentifikaator, nt URI või muu kordumatu tunnus kataloogi kontekstis.",
+                "uriRef": "URIref on andmestiku/andmeteenuse kordumatu identifikaator data.europa.eu",
+                "creator": "Üksus, kes vastutab peamiselt andmekogumi koostamise eest.",
+                "spatial": "Andmekoguga hõlmatud geograafiline piirkond.",
+                "language": "Andmestiku keel.",
+                "format": "Selle andmekogumi või teenuse puhul kasutatav vorming.",
+                "conformsTo": "Rakenduseeskiri või muu spetsifikatsioon.",
+                "landingPage": "Veebileht, mis võimaldab juurdepääsu andmekogumile, selle levitamisele ja/või lisateabele.",
+                "provenance": "Avaldus andmekogumi järjekoha kohta.",
+                "documentation": "Seda andmekogumit käsitlev lehekülg või dokument.",
+                "publisher": "Üksus (organisatsioon), kes vastutab andmekogumi või teenuse kättesaadavaks tegemise eest.",
+                "created": "Andmekogumi või teenuse ametliku väljaandmise (nt avaldamise) kuupäev.",
+                "relatedResource": "Seotud ressurss.",
+                "categories": "Kategooriad, mis on määratud kõnealusele andmekogumile või teenusele.",
+                "share": "Jagage seda andmekogumit või teenust sotsiaalmeedia kaudu.",
+                "feedback": "Andke meile teada, mida arvate sellest andmekogumist või teenusest.",
+                "dqvData": "Andmekogumi või teenuse kvaliteedi mõõtmise allalaadimise võimalused erinevates seotud andmeesitustes.",
+                "hasVersion": "Seotud andmekogum, mis on kirjeldatud andmekogumi versioon, versioon või kohandamine"
+            },
+            "quality": {
+                "keywordAvailability": "Märksõnad toetavad otsingut otseselt ja suurendavad seega andmekogumi leitavust. &br>&br>Süsteem kontrollib, kas märksõnad on määratletud. Märksõnade arv ei mõjuta punktisummat.",
+                "formatMediaTypeVocabularyAlignment": "Kontroll-märgvorming ja andmekandja tüüp kuuluvad kontrollitavasse sõnavarasse. &br>&br> Vormisõnastik on kättesaadav andme.europa.eu GitLab repository. &br>&br> &br>Meedia tüüpi kontrollitakse IANA nimekirja alusel.",
+                "licenceAvailability": "Litsents on väärtuslik teave andmete taaskasutamiseks. &br>&br> Seda kontrollitakse, kui omadus on seatud või mitte.",
+                "publisherAvailability": "Kirjastaja on isik või organisatsioon, kes on andmed avaldanud. &br>&br>Seda kontrollitakse, kas omadus on seatud või mitte.",
+                "formatAvailability": "Sellel väljal täpsustatakse jaotuse failivorming. &br>&br>Seda kontrollitakse, kas omadus on määratud või mitte.",
+                "temporalAvailability": "Ajalise teabe kasutamine võimaldaks kasutajatel teha õigeaegset fiktiivset otsingut. &br>&br>Set kontrollitakse, kas omadus on määratud või mitte.",
+                "rightsAvailability": "Mõnel juhul ei saa andmekogumi suhtes kohaldada konkreetset litsentsi. Välja „Õigused“ saab kasutada viite esitamiseks allikale, mis teavitab kasutajat õigustest, mis tal on andmekogumi kasutamisel. &br>&br>Selle kontrollitakse, kas omadus on määratud või mitte.",
+                "mediaTypeAvailability": "Sellel andmeväljal täpsustatakse levitusvahendi tüüp. &br>&br>Set kontrollitakse, kas omadus on seatud või mitte.",
+                "accessRightsVocabularyAlignment": "Kontrollitud sõnavara kasutamine suurendab korduvkasutatavust. &br>&br>Kasutatakse kontrollitud sõnavara, mis on seotud juurdepääsuõigustega.",
+                "dcatApCompliance": "Vastavus DCAT-AP-tabelile arvutatakse kõigi kataloogis kättesaadavate allikate ja andmekogumite alusel. Seda kontrolli tehakse üksnes juhul, kui metaandmed on algselt kogutud kui DCAT-AP või kehtiv derivate. &br>&br> DCAT-AP on spetsifikatsioon, millega kirjeldatakse lingitud avalikke andmeid Euroopas. Portaal Data.europe.eu võib salvestada ka metaandmeid, mis ei vasta täielikult DCAT-AP nõuetele. Et suurendada vastavust DCAT-AP-le, kontrollib MQA iga metaandmete vastavust DCAT-AP nõuetele.&br>&br> Andmed on valideeritud SHACLi kujude alusel. Metaandmed ei vasta nõuetele, kui SHACLi valideerimisaruanded, milles on vähemalt üks väljaanne.&br>&br>MQA kasutab andmeid.europe.eu DCAT-AP SHACLi valideerimissevice. &br>&br> SCHACL on W3C soovitus ja seda kasutatakse pöördtrummelahju graafikute valideerimiseks eri kujude alusel.",
+                "accessRightsAvailability": "See väli näitab, kas juurdepääs andmetele on avalik või piiratud. &br>&br> Seda kontrollitakse, kui omadus on seatud või mitte.",
+                "accessUrlStatusCode": "AccessURL ei ole tingimata otsene link andmetele, vaid võib viidata ka URLile, mis annab juurdepääsu andmekogumile või kus on saadaval rohkem teavet andmekogumi kohta.&br>&br>Selle URLi juurdepääsetavust kontrollitakse HTTP HEAD päringu kaudu. Kui vastuse olekukood on vahemikus 200 või 300, hinnatakse ressursi kättesaadavust positiivselt.",
+                "categoryAvailability": "Kategooriad aitavad kasutajatel uurida andmestikke temaatiliselt.&br>&br>Selle kontrollitakse, kas andmekogumisse on määratud üks või mitu kategooriat. Määratud kategooriate arv ei mõjuta punktisummat.",
+                "downloadUrlStatusCode": "Kui on olemas allalaadimineUrl, kontrollitakse juurdepääsetavust.&br>&br>Teatavat URLi kontrollitakse e-ressursside juurdepääsetavuse suhtes HTTP HEAD päringu kaudu. Kui vastuse olekukood on vahemikus 200 või 300, hinnatakse ressursi kättesaadavust positiivselt.",
+                "byteSizeAvailability": "Täpsustatakse faili suurus baitides. &br>&br> Seda kontrollitakse, kui omadus on määratud või mitte.",
+                "downloadUrlAvailability": "AllalaadimineUrl on otselink viidatud andmetele. &br>&br>Set kontrollitakse, kas omadus on määratud või mitte.",
+                "spatialAvailability": "Ruumiandmete kasutamine võimaldaks kasutajatel leida andmestu geofüüsitud otsinguga. &br>&br>Set kontrollitakse, kas omadus on seadistatud või mitte.",
+                "contactPointAvailability": "Kontaktpunkt sisaldab teavet, mida kasutada, kui tekib küsimusi andmete kohta. &br>&br> Seda kontrollitakse, kas omadus on määratud või mitte.",
+                "dateIssuedAvailability": "Kuupäev, mil andmekogum või levitamine avaldati. &br>&br> Seda kontrollitakse, kui omadus märgati või mitte.",
+                "dateModifiedAvailability": "Kuupäev, mil andmekogumit või jaotust viimati muudeti.&br>&br> Seda kontrollitakse, kui omadus märgati või mitte."
+            },
+            "catalogRecord": "Kataloogis oleva andmekogumi kande kirjeldus.",
+            "lastModified": "Sortida tulemused andmekogumi viimaste muudatustega",
+            "editorialContent": "Otsige toimetatavat sisu, nt uudiseid, sündmusi, kasutusjuhtumeid",
+            "datasets": "Andmekogumite otsing",
+            "relevance": "Liigitage andmestu asjakohasuse järgi. Asjakohasus arvutatakse otsingusõnade kokkulangevuste alusel pealkirjas, märksõnades ja kirjelduses",
+            "contactPoints": "Kontaktandmed, mida saab kasutada andmekogumi kohta märkuste saatmiseks.",
+            "locationFilter": "Konkreetse asukohaga seotud andmekogumite vaatamiseks klõpsake kaardil ja kasutage selle valimiseks pliiatsi ikooni. Seejärel klõpsake nupul „Apply“, et filtreerida ainult valitud valdkonnaga seotud andmekogumeid. Pange tähele, et otsingutulemustesse lisatakse ainult sellised andmekogumid, mis sisaldavad geoteabe metaandmeid.",
+            "catalogues": "Otsige katalooge. Kataloogis hoitakse andmekogumeid ja -teenuseid"
+        },
+        "visualisationDistribution": {
+            "barChartExplain": "Tulpdiagrammi graafikul on kategoorilise tunnuse tasandite arvväärtused varrastena. Tasandid on joonistatud ühele kaarditeljele ja väärtused on esitatud teisel teljel.",
+            "semicolon": "Semikoolon",
+            "exportSucceeded": "Konfiguratsiooni loomine õnnestus!",
+            "yAxis": "y telg",
+            "pipe": "Torujuhe",
+            "cancel": "Loobu",
+            "fileTypeNotSupported": "Püüate esitada failitüübi, mida ei toetata.",
+            "confirm": "Kinnitage, et",
+            "fileNotFound": "Püüate koostada faili, mille sisu ei ole võimalik lugeda.",
+            "comma": "Koma",
+            "space": "Ruum",
+            "exportDataTip": "Sisendväli ei tohi olla tühi!",
+            "countRow": "Loendamine",
+            "exportMessagesHeader": "Kas olete kindel, et soovite oma konfiguratsiooni salvestada? Palun kontrollige seda enne salvestamist!",
+            "exportMessagesLabel": "Palun sisestage oma konfiguratsiooni nimi",
+            "exportNameExistsAlert": "Nimi on juba kasutusel. Palun proovige teist!",
+            "hiddenMessages": "on peidetud – klikkige, et näidata kõiki",
+            "connectedLineChart": "Ühendatud liinikaart",
+            "barChart": "Vöötkaart",
+            "someRows": "Mõned read",
+            "row": "Read",
+            "tab": "Vahekaart",
+            "connectToDatabaseError": "Viga andmebaasist andmete saamisel. Palun proovige seda või kontrollige oma panust uuesti!",
+            "badgateway": "Server ei ole kättesaadav või DNSi nimi on ebatäpne.",
+            "goBack": "Go Back",
+            "forbidden": "Juurdepääs taotletud ressursile on keelatud.",
+            "unauthorized": "Taotlust ei ole kohaldatud. Sellel puuduvad kehtivad autentimisvolitused.",
+            "xAxis": "X telg",
+            "delimiter": "Piiritleja",
+            "someColumns": "Mõned veerud",
+            "exportMessagesFooter": "Selle salvestamiseks klõpsake nupul „Kinnita“!",
+            "table": "Tabel",
+            "connectedLineChartExplain": "Tegemist on ühendatud hajusalaga, mis on põhimõtteliselt hübriidpaari ja vooderdise vahel. Selle avaldamiseks peate valima Xaxise."
+        },
+        "sort": {
+            "lastCreated": "Viimati loodud",
+            "lastUpdated": "Viimati muudetud",
+            "nameZA": "Nimi kahanevalt",
+            "relevance": "Asjakohasus",
+            "sortBy": "Järjestusalus",
+            "nameAZ": "Nimi kasvavalt"
+        },
+        "distributionLicense": {
+            "openLA": "Ava litsentsiabi",
+            "notProvided": "Litsentsi ei ole",
+            "licensingAssistant": "Litsentsiabi",
+            "notFound": "Litsentsiteavet ei leitud.",
+            "notFoundExtended": "Täiendavat litsentsiteavet ei leitud. Küsige allikalt lisateavet litsentsi kohta."
+        },
+        "catalogs": {
+            "countMessageSingular": "Leitud kataloog",
+            "geoBoundsMessagePre": "Teie otsing on piiratud:",
+            "downloadAsLinkedData": "Kataloogi metaandmed kui seotud andmed",
+            "countMessageNoResult": "Katalooge ei leitud",
+            "searchBar": {
+                "placeholder": "Otsi katalooge..."
+            },
+            "countMessage": "Leitud kataloogid",
+            "loadingMessage": "Kataloogide laadimine...",
+            "geoBoundsMessageRemove": "Piirangu eemaldamiseks sulgege antud teavitus või kasutage lähtestamise funktsiooni."
+        },
+        "datasetFacets": {
+            "facets": {
+                "datascopeField": {
+                    "countryData": "Riiklikud andmed",
+                    "io": "Rahvusvahelised andmed",
+                    "eu": "Euroopa Liidu andmed"
+                },
+                "datascope": "Andmete ulatus",
+                "dataServices": {
+                    "dataServicesOnly": "Ainult andmeteenused"
+                },
+                "country": "Riigid",
+                "format": "Formaadid",
+                "scoring": {
+                    "badScoring": "Iga",
+                    "sufficientScoring": "Piisav",
+                    "goodScoring": "Hea",
+                    "excellentScoring": "Suurepärane"
+                },
+                "publisher": "@:message.metadata.publisher",
+                "license": "Litsentsid",
+                "keywords": "Märksõnad",
+                "categories": "Kategooriad",
+                "catalog": "Kataloogid",
+                "countrydata": "Riigi andmed",
+                "tags": "Sildid"
+            },
+            "title": "Filtrid",
+            "and": "JA",
+            "settings": "Filtri seadistus",
+            "scoring": "Punktiarvestus",
+            "or": "VÕI",
+            "europeanCatalogs": "Euroopa kataloogid",
+            "operator": "Operaator"
+        },
+        "header": {
+            "navigation": {
+                "data": {
+                    "euInternationalData": "ELi ja rahvusvahelised andmed",
+                    "datasets": "Andmekogumid",
+                    "catalogs": "Kataloogid",
+                    "metadataquality": "Metaandmete kvaliteet",
+                    "sparqleditor": "SPARQL redaktor",
+                    "statistics": "Statistika",
+                    "sparqlsearch": "SPARQL otsing",
+                    "title": "Andmed"
+                },
+                "impactStudies": {
+                    "opendataimpact": "Avaandmete mõju",
+                    "tellUsYourStory": "Jutustage oma lugu",
+                    "studies": "Uuringud",
+                    "opendatamaturity": "Avaandmete tähtaeg",
+                    "countryInsights": "Riikide ülevaated",
+                    "useCases": "Kasutusjuhtumid",
+                    "title": "Mõju ja uuringud",
+                    "overview": "Ülevaade"
+                },
+                "training": {
+                    "licensingAssistant": "Litsentsiabi",
+                    "dataProvidersGuide": "Andmepakkuja juhend",
+                    "moreTrainingMaterial": "Veel õppematerjale",
+                    "whatIsOpenData": "Mis on avaandmed",
+                    "title": "Koolitus",
+                    "elearning": "E-õpe"
+                },
+                "about": {
+                    "beHarvestedByUs": "Laske meil andmekorjet teha",
+                    "documentation": "Dokumentatsioon",
+                    "title": "Meist",
+                    "europeanDataPortal": "Euroopa Andmeportaal"
+                },
+                "newsEvents": {
+                    "events": "Sündmused",
+                    "news": "Uudised",
+                    "title": "Uudised ja sündmused",
+                    "stories": "Andmelood"
+                },
+                "covid-19": {
+                    "title": "COVID-19",
+                    "datasets": "Andmekogumid",
+                    "overview": "Ülevaade",
+                    "initiatives": "Andmetega seotud algatused"
+                }
+            },
+            "subnav": {
+                "newsletter": "Uudiskiri",
+                "cookies": "Küpsised",
+                "login": "Sisselogimine",
+                "contact": "Kontakt",
+                "search": "Otsing",
+                "logout": "Logi välja",
+                "legalNotice": "Õigusteave",
+                "faq": "KKK"
+            },
+            "european": "Euroopa",
+            "searchInputPlaceholder": "Otsi veebisaidilt...",
+            "dataPortal": "Andmeportaal",
+            "searchOptions": {
+                "siteContent": "Saidi sisu",
+                "datasets": "Andmekogumid"
+            }
+        },
+        "catalogues": {
+            "foundCataloguesSingular": "Leitud 1 kataloog",
+            "foundCatalogues": "leitud numbrikatalooge"
+        },
+        "datasets": {
+            "foundDatasets": "leitud andmestike arv",
+            "countMessage": "leiti andmekogumid",
+            "foundDatasetsSingular": "Leitud 1 andmekogum",
+            "meta": {
+                "translationNotComplete": "Tõlge ei ole täielik"
+            },
+            "geoBoundsMessageRemove": "Piirangu eemaldamiseks sulgege antud teavitus või kasutage lähtestamise funktsiooni.",
+            "createDataset": "Loo andmekogum",
+            "geoBoundsMessagePre": "Teie otsing on piiratud:",
+            "loadingMessage": "Andmekogumite laadimine ...",
+            "countMessageSingular": "leitud andmekogum",
+            "datasetsFeed": "Andmekogumite voog",
+            "scoreDisclaimer": "Praegused otsingutulemused filtreeritakse, et need vastaksid vasakpoolsel küljel toodud soovitud minimaalsele kvaliteediskoorile. Külastage meie {0}, kui soovite lisateavet meie kvaliteedimõõdikute kohta",
+            "noResult": "Andmekogumeid ei leitud",
+            "findLocation": "Filtreeri asukoha järgi",
+            "searchBar": {
+                "placeholder": "Otsing andmekogumites"
+            },
+            "createCatalogue": "Loo kataloog",
+            "saveQuery": "Salvesta päring"
+        },
+        "footer": {
+            "helpUsImproveText": "Teie tagasiside aitab meil üldist kasutajakogemust paremaks muuta. Kas teil on soovitusi?",
+            "lastUpdated": "Viimati uuendatud",
+            "links": {
+                "cookies": "Küpsised",
+                "contact": "Kontakt",
+                "faq": "KKK",
+                "newsletter": "Uudiskiri",
+                "search": "Otsing",
+                "login": "Sisselogimine",
+                "legalNotice": "Õigusteave"
+            },
+            "subscribe": "Telli",
+            "helpUsImprove": "Aita meil paremaks muuta",
+            "newsletterText": "Tellige meie uudiskiri",
+            "newsletter": "Uudiskiri",
+            "followUs": "Jälgige meid",
+            "managedBy": "Haldaja: Euroopa Liidu Väljaannete Talitus.",
+            "fundedBy": "Rahastaja: Euroopa Liit"
+        },
+        "helpIcon": {
+            "dataServices": "Süsteemis Data.europa.eu võib levitus toimida ka andmeteenusena. See tähendab, et see ei ole seotud allalaaditava failiga, vaid rakendusliidesega. Valige „Jah“, kui soovite filtreerida andmekogumeid, millel on vähemalt üks andmeteenus.",
+            "scoring": "Data.europa.eu mõõdab kõigi andmekogumite ja teenuste kvaliteeti. Andmete/metakvaliteedi osas on meil metoodika lehekülg, kus kirjeldatakse protsessi. Iga andmekogumit ja teenust esindab ka kvaliteedihinnang. See hinnang võib olla piisav, hea või suurepärane. Kui filter „Suffi adequate+“ on seadistatud, kuvatakse kõik andmekogumid ja teenused, millel on piisav või parem hinnang. Sama kehtib ka „hea“ kohta. „Suurepärane“ näitab ainult suurepäraseid andmekogumeid ja teenuseid.",
+            "license": "Litsentsis kirjeldatakse andmekogumi kasutamise õiguslikke tingimusi.",
+            "dataScope": "ELi andmed sisaldavad ELi institutsioonide andmekogumeid ja teenuseid. Rahvusvahelistes andmetes hoitakse andmekogumeid ja -teenuseid, mis pärinevad väljastpoolt ELi. Riikide andmed sisaldavad ELi liikmesriikide andmekogumeid ja -teenuseid.",
+            "format": "Igal andmekogumil on viited failidele või teenustele. Vorming kirjeldab nende viidete faili liiki või teenuse liiki. Mitte igat liiki faili ei saa kasutada kõigil eesmärkidel, näiteks saab arvutusi teha paremini CSV-failiga PDF-faili asemel.",
+            "catalog": "Andmestikke ja teenuseid majutav kataloog või hoidla. Kataloog kujutab endast peamiselt portaali, kust andmekogud kogutakse.",
+            "settings": "Otsustage, kas filtri valik on erandlik või mitte. Kui valite JA kõik otsingutulemused peavad vastama kõigile filtritele. Või tähendab, et vähemalt üks filter peab vastama.",
+            "categories": "Kategooria hõlmab andmestikke, millel on ühine teema.",
+            "publisher": "Kirjastaja on üksus (nt organisatsioon), kes vastutab andmekogumi kättesaadavaks tegemise eest.",
+            "keywords": "Märksõnad on ideed ja teemad, mis määratlevad sisu."
+        },
+        "userQueries": {
+            "executeQuery": "Teosta päring",
+            "queriesFound": "Leitud {number} päringuid",
+            "placeholderNotes": "nt mõningaid kasulikke märkusi päringu kohta",
+            "querySaved": "Päring salvestatud",
+            "queryFound": "Leitud {number} päring",
+            "myQueries": "Minu päringud",
+            "noDescription": "Päringul puudub kirjeldus",
+            "noQueryFound": "Päringuid ei leitud",
+            "queryDeleted": "Päring kustutatud",
+            "searchAllQueries": "Otsi päringuid...",
+            "save": "Salvesta päring",
+            "areYourSure": "Olete kindel, et soovite selle päringu kustutada?",
+            "noQueriesSaved": "Te ei ole ühtegi päringut salvestanud",
+            "searchQueries": "Otsi minu päringuid..."
+        },
+        "catalogFacets": {
+            "facets": {
+                "licences": "Litsentsid",
+                "catalogs": "Kataloogid",
+                "categories": "Kategooriad",
+                "countries": "Riigid",
+                "formats": "Vormingud",
+                "keywords": "Märksõnad"
+            },
+            "operator": "Käitaja",
+            "title": "Filtrid",
+            "europeanCatalogs": "Euroopa kataloogid",
+            "or": "VÕI",
+            "and": "JA",
+            "euInstitutions": "ELi institutsioonid",
+            "settings": "Seaded"
+        },
+        "statistics": {
+            "statistics": "Statistika",
+            "datasetsPerCatalog": "Andmekogumeid kataloogi kohta",
+            "currentState": "Hetkeseis",
+            "datasetsPerCountry": "Andmekogumeid riigi kohta",
+            "selectType": "Valige statistika tüüp",
+            "datasetsPerCountryAndCatalog": "Andmekogumeid riigi ja kataloogi kohta",
+            "evolution": "Evolutsioon",
+            "evolutionStartEnd": "Andmekogumite koguarv {start_date} ja {end_date} vahel",
+            "increaseStartEnd": "{dataset_model} suurenemine protsentides {start_date} ja {end_date} vahel",
+            "totalNumber": "Andmekogumite koguarv",
+            "datasetsPerCategory": "Andmekogumeid kategooria kohta",
+            "selectTimePeriod": "Valige ajaperiood",
+            "evolutionNumber": "{dataset_model} arvu evolutsioon {start_date} ja {end_date} vahel",
+            "numberDate": "{dataset_model} arv {date} seisuga"
+        },
+        "categories": {
+            "tran": "Transport",
+            "heal": "Tervis",
+            "tech": "Teadus ja tehnoloogia",
+            "envi": "Keskkond",
+            "econ": "Majandus ja rahandus",
+            "soci": "Rahvastik ja ühiskond",
+            "agri": "Põllumajandus, kalandus, metsandus ja toit",
+            "educ": "Haridus, kultuur ja sport",
+            "ener": "Energeetika",
+            "intr": "Rahvusvahelised küsimused",
+            "gove": "Valitsus ja avalik sektor",
+            "just": "Kohtu- ja õigussüsteem ning avalik turvalisus",
+            "regi": "Piirkonnad ja linnad"
+        },
+        "pagination": {
+            "nextPage": "Järgmine > ",
+            "previousPage": "< Eelmine"
+        },
+        "navigation": {
+            "navItems": {
+                "home": "Kodu",
+                "about": "Kohta",
+                "data": "Andmed",
+                "privacyPolicy": "Privaatsuspoliitika",
+                "map": "Kaart",
+                "imprint": "Avaldaja"
+            }
+        },
+        "catalogsAndDatasets": {
+            "noDescriptionAvailable": "Kirjeldus puudub",
+            "more": "Rohkem"
+        },
+        "datasetCategories": {
+            "foundCategories": "Leiti {number} kategooriat",
+            "foundCategory": "Leiti {number} kategooriat",
+            "noCategories": "Kategooriaid ei leitud"
+        },
+        "mapModal": {
+            "fullscreen": "Täisekraan",
+            "findDatasets": "Rakenda",
+            "reset": "Kustuta",
+            "close": "Sulge",
+            "drawRectangleMsg": "Regiooni valimiseks joonista nelinurk",
+            "disclaimer": "Vastutamatusesäte",
+            "copyright": "Kaart © OpenStreetMapi kaastöötajad"
+        },
+        "similarDatasets": {
+            "similar": "Sarnased",
+            "verySimilar": "Väga sarnased",
+            "marginalSimilar": "Väga vähe sarnased",
+            "notFound": "Sarnaseid andmekogumeid ei leitud",
+            "lessSimilar": "Vähem sarnased",
+            "similarDatasets": "Sarnased andmekogumid"
+        },
+        "searchTabs": {
+            "editorialContent": "Toimetuslik sisu"
+        },
+        "visualisation": {
+            "loading": "Visualiseerimist laaditakse...",
+            "previewAvailable": "Eelvaade on saadaval",
+            "info": "Kui visualiseerimist mõne sekundi jooksul ei laadita, klõpsake siin."
+        },
+        "catalog": {
+            "loadingMessage": "Katalooge otsitakse",
+            "searchBar": {
+                "placeholder": "Otsi katalooge"
+            },
+            "geoBoundsMessageRemove": "Piirangu eemaldamiseks sulgege antud teavitus või kasutage lähtestamise funktsiooni.",
+            "countMessage": "Leitud kataloogid"
+        },
+        "sparql": {
+            "subHeadlineText2": "Selleks et aidata kasutajatel koostada kasulikke SPARQL-päringuid, esitame lehekülge, kus on esitatud <a href='{sample_sparql_queries}'>sample SPARQL queries</a> proovid, mida saab täita meie lõpp-punkti kaudu. Portaalis RDFina avaldatud andmekogumid ja kataloogid järgivad <a href='https://github.com/SEMICeu/DCAT-AP'>DCAT-AP specification</a>. Metaandmete ontoloogia täiendavaks lugemiseks vaadake DCAT-APi lehekülge Data.europa.eu akadeemia: <a href=' https://data.europa.eu/en/academy/dcat-and-dcat-ap'> https://data.europa.eu/en/academy/dcat-and-dcat-ap</a>.",
+            "subHeadlineText1": "Kõik metaandmed.europa.eu salvestatakse kui RDF triples (<a href='https://www.w3.org/RDF/'>RDF</a>) ja nende kohta saab selles lõpp-punktis kasutada SPARQLi päringukeelt. Päringuid saab teha päringu toimetaja (allpool) või masinloetava lõpp-punkti (<a href='https://data.europa.eu/sparql'>https://data.europa.eu/sparql</a>) kaudu."
+        },
+        "distributions": {
+            "footerLink": "Laadi alla"
+        },
+        "distributionDetails": "{}",
+        "spokenLanguage": "Inglise keel",
+        "cite": {
+            "copyToClipboard": "Kopeeri klapplauale",
+            "title": "Tsiteerige seda andmekogumit"
+        },
+        "home": {
+            "msg": "Vabandame, sellel lehel puudub veel sisu. Külastage teabe nägemiseks Andmete vahekaarti."
+        },
+        "imprint": {
+            "msg": "SISESTAGE ILMUMISANDMED SIIA"
+        }
+    }
+}

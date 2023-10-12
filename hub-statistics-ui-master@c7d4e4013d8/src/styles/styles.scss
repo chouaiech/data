@@ -1,0 +1,20 @@
+// import custom theme
+@import 'bootstrap_theme';
+
+// import full bootstrap framework
+@import "~bootstrap/scss/bootstrap.scss";
+
+//
+// EC restyle settings
+//
+body {
+  font: normal normal 400 1rem/1.5rem arial,sans-serif;
+}
+
+.mt-4 {
+  margin-top: 30px !important;
+}
+
+.mb-4 {
+  margin-bottom: 30px !important;
+}

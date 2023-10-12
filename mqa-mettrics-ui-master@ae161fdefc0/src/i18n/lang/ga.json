@@ -1,0 +1,525 @@
+{
+    "message": {
+        "navigation": {
+            "dashboard": "Painéal",
+            "download_report": {
+                "help": "Íoslódáil an tuairisc iomlán ar an gcatalóg seo.",
+                "second_ods": "Open Document Spreadsheet (.ods)",
+                "direct": "Íoslódáil mar thuairisc",
+                "second_xls": "Microsoft Excel (.xlsx)",
+                "second_pdf": "Portable Document Format (.pdf)"
+            },
+            "catalogues": "Catalóga",
+            "about": "Doiciméadú",
+            "methodology": "Modheolaíocht",
+            "validation": "bailíochtú"
+        },
+        "dashboard": {
+            "overview": {
+                "header": {
+                    "allCatalogues": "gach Catalóga",
+                    "topNumber": "Barr {number}",
+                    "topNumberCatalogues": "Barr {number} Catalóga"
+                },
+                "table_tooltip": {
+                    "dcat_ap": "An céatadán de mheiteashonraí comhlíontacha DCAT-AP. Ní dhéantar an seic seo ach amháin le haghaidh tairseacha a sholáthraíonn DCAT-AP, mar shampla tríd an síneadh CKANEXT-DCAT.",
+                    "machine_readability": "Céatadán na dáiltí a thagann chun bheith ina bhformáid ateangaireachta meaisín.",
+                    "accessibility_download_url": "Céatadán na URLanna íoslódála atá ar fáil. Cinntear inrochtaineacht ag baint úsáide as modh HTTP GET. Ós rud é nach faisnéis éigeantach an DownloadURL, ní féidir seiceáil a dhéanamh i gcás go bhfuil faisnéis ar iarraidh.",
+                    "known_licenses": "Céatadán na gceadúnas aitheanta a úsáidtear. Le haghaidh tuilleadh eolais ar cheadúnais aitheanta, féach na codanna seo a leanas le do thoil. Ós rud é nach bhfuil an ceadúnas éigeantach, ní féidir seiceáil a dhéanamh má tá faisnéis ar iarraidh.",
+                    "accessibility_access_url": "An céatadán de AccessURLs inrochtana. Cinntear inrochtaineacht ag baint úsáide as modh HTTP GET."
+                },
+                "headline": "Forléargas",
+                "table_title": {
+                    "desc": "Cur síos",
+                    "known_licences": "Ceadúnais aithnide",
+                    "dcat_ap": "Comhlíonadh DCAT-AP",
+                    "accessibility_access_url": "Inrochtaineacht URL Rochtana",
+                    "accessibility_download_url": "Inrochtaineacht URL Íoslódála",
+                    "country": "Tír",
+                    "scoring": "Rátáil",
+                    "machine_readability": "Inléiteacht do mheaisín",
+                    "rating": "Rátáil",
+                    "name": "Ainm"
+                },
+                "table_description": "Tugann an tábla seo a leanas forléargas ar na ceithre chritéar luaite. Is féidir an tábla a chur in ord ach cliceáil ar cheanntáisc na gcolún. Tabhair ar aird nach féidir leis an MQA eolas a léirmhíniú ach amháin mar fhaightear é ó na tairseacha foinse. Níl Dáiltí, an URL Íoslódála agus eolas ceadúnais éigeantach agus taispeánann MDA go bhfuli eolas ar iarraidh le lúide \"-\". Tabhair ar aird, leis, nach féidir comhlíonadh DCAT-AP a chinneadh ach amháin má chuir an tairseach foinse a mheiteashonraí ar fáil i sonraí nasctha DCAT-AP linked data. Cuirtear formáidí eile in iúl le lúide \"-\"."
+            },
+            "interoperability": {
+                "plots": {
+                    "title": {
+                        "formatMediaTypeAlignment": "Leagan amach/ cineál meáin ó fhoclóir",
+                        "formatMediaTypeNonProprietary": "Neamhdhílsithe",
+                        "mediaTypeAvailability": "cineál meáin",
+                        "formatAvailability": "Formáid",
+                        "dcatApCompliance": "Comhlíonadh DCAT-AP",
+                        "formatMediaTypeMachineReadable": "Inléiteacht do mheaisín"
+                    }
+                },
+                "description": "Is táscairí iad seo a ghnóthaíonn idir-inoibritheacht tacair sonraí",
+                "title": "Idir-inoibritheacht"
+            },
+            "reusability": {
+                "description": "Déantar cur síos sa tábla seo a leanas ar cad na méadrachtaí a úsáidtear chun ath-inúsáideacht sonraí a sheiceáil. Is féidir 75 pointe ar a mhéad a scóráil anseo.",
+                "plots": {
+                    "title": {
+                        "accessRightsAlignment": "Foclóir srianta rochtana",
+                        "contactPointAvailability": "Pointe teagmhála",
+                        "licenceAlignment": "Foclóir ceadúnais",
+                        "publisherAvailability": "Foilsitheoir",
+                        "licenceAvailability": "Eolas faoin gCeadúnas",
+                        "accessRightsAvailability": "Srianta rochtana"
+                    }
+                },
+                "title": "Ath-inúsáideacht"
+            },
+            "show_history": "Taispeáin stair",
+            "contextuality": {
+                "description": "Eolas a thugann tuilleadh comhthéacs don úsáideoir",
+                "plots": {
+                    "title": {
+                        "dateIssuedAvailability": "Dáta eisiúna",
+                        "rightsAvailability": "Cearta",
+                        "byteSizeAvailability": "Méid an chomhaid",
+                        "dateModifiedAvailability": "Sonraí mionathrathe"
+                    }
+                },
+                "title": "Comhthéacs"
+            },
+            "accessibility": {
+                "plots": {
+                    "title": {
+                        "accessibilityOfDistributions": "Inrochtaineacht Dáileachán",
+                        "accessUrlAvailability": "URL rochtana ar fáil",
+                        "existingDownloadUrl": "URLanna Íoslódála atá ann",
+                        "accessibilityAccessUrl": "Inrochtaineacht URL Rochtana",
+                        "accessUrl": "URL rochtana",
+                        "accessUrlStatusCodes": "Ná cóid stádais URL rochtana is coitianta",
+                        "downloadUrlStatusCodes": "Ná cóid stádais URL íóslódála is coitianta",
+                        "downloadUrlAvailability": "Parsisiųsti URL",
+                        "statusErrorCode": "Cóid Stádas Earráide",
+                        "accessibilityDownloadUrl": "Idir-inoibritheacht"
+                    }
+                },
+                "title": "Inrochtaineacht",
+                "headline": "Dáiltí a bhfuil rochtain orthu",
+                "description": "Tugann na léaráidí seo a leanas eolas ar inrochtaineacht na ndáiltí. I gcás gach URL dáilte, comhlíontar iarratas HTTP HEAD agus seiceáiltear an fhreagairt. Tabhair ar aird gur gné roghnach é an URL Íoslódála de réir DCAT-AP agus ní mór é a léiriú mar sin ar thairseach na foinse. Is féidir gurb amhlaidh amháin i gcás tairseacha foinse a sholáthraíonn a meiteashonraí in DCAT-AP."
+            },
+            "site_title": "Tairseach Sonraí Oscailte | MQA | Deais",
+            "findability": {
+                "title": "In-aimsitheacht",
+                "plots": {
+                    "title": {
+                        "keywordAvailability": "Úsáid na n-eochairfhocal",
+                        "spatialAvailability": "Geochuardach",
+                        "temporalAvailability": "Cuardach ambhunaithe",
+                        "categoryAvailability": "Catagóirí"
+                    }
+                },
+                "description": "Is táscairí iad a chabhraíonn le daoine agus meaisíní tacair sonraí a aimsiú"
+            },
+            "scoring": {
+                "description": "Léiríonn an rátáil cáilíocht iomlán na meiteashonraí i ngach toise.",
+                "plots": {
+                    "known": "aithnid",
+                    "unknown": "neamhaithnid",
+                    "title": {
+                        "timeBasedScoring": "Éabhlóid rátála"
+                    }
+                },
+                "title": "Éabhlóid rátála"
+            },
+            "show_today": "Taispeáin Inniu",
+            "weight": "Meáchan",
+            "points": "Pointí",
+            "intro": {
+                "desc": "<p>Tá an Dearbhú Cáilíochta Meiteashonraí ceaptha cabhrú le soláthraithe sonraí agus tairseacha sonraí a meiteashonraí a sheiceáil i gcoinne táscairí éagsúla. Chun faisnéis a fháil maidir leis na méadrachtaí a úsáidimid chun táscairí a thomhas, féach ar ár leathanach modheolaíochta.</p>\n<p>Cuireann an leathanach seo forbhreathnú ginearálta ar fáil ar na meiteashonraí go léir atá ar fáil do data.europa.eu. Chun léargas mionsonraithe a fháil ar gach catalóg ar leith, bain úsáid as leathanach na gCatalóg agus roghnaigh an chatalóg atá uait.</p>"
+            },
+            "dimensions": "Toisí"
+        },
+        "catalogue_detail": {
+            "introduction": "Taispeánann an leathanach seo stádas ginearálta na catalóige maidir le scaipeadh agus comhlíonadh DCAT-AP.",
+            "harvesting": {
+                "run": {
+                    "updated": "Nuashonraithe",
+                    "duration": "Fad ama (laethanta uaireanta:nóiméid: soicindí) ",
+                    "show_log": "Taispeáin iontrálacha logálaí an reatha is deireanaí",
+                    "end": "Am deiridh",
+                    "start": "Am tosaithe",
+                    "log_noattachment": "Tharla earráid agus an ceangaltán á aisghabháil",
+                    "skipped": "Fágtha ar lár",
+                    "log": "{0} Logaí {1} go {2} of {3}",
+                    "deleted": "Scriosta",
+                    "no_runs": "Níl rití buainteora roimhe seo ar fáil nó níl siad sceidealaithe fós.",
+                    "rejected": "Diúltaithe",
+                    "added": "Curtha leis"
+                },
+                "repository_harvester": "Catalóg na Foinse Taisce",
+                "show_script": "Taispeáin script trasfhoirmithe",
+                "show_information": "Taispeáin faisnéis buainteora",
+                "publisher": "Foilsitheoir",
+                "next_schedule": "An chéad sceideal eile",
+                "default_language": "Teanga réamhshocraithe",
+                "homepage": "Leathanach baile",
+                "email_address": "Seoladh ríomhphost",
+                "incremental": "Breisíoch",
+                "frequency": "Minicíocht",
+                "type": "Cineál",
+                "transformation_script": "{0} Script trasfhoirmithe",
+                "title": "Eolas á bhuain",
+                "not_present": "Ní catalóg bhuainte í seo. Dá bhrí sin níl aon fhaisnéis maidir le buain ar fáil.",
+                "last_run": "An rith buainte deiridh"
+            },
+            "violations": {
+                "location": "Suíomh an tSáraithe",
+                "non_compliant": "Neamh-chomhlíontach",
+                "resultPath": "Conair na dTorthaí",
+                "subheadline": "Sáruithe tacar sonraí",
+                "title": "Tacair sonraí neamh-chomhlíontacha",
+                "value": "Luach",
+                "desc": "Cur síos ar shárú",
+                "site_title": "Tairseach Sonraí Oscailte | MQA | Sáruithe",
+                "introduction": "San amharc seo liostáiltear gach tacar sonraí nach gcomhlíonann rialacha SHACL DCAT-AP.",
+                "own_headline": "Sáruithe scéimre DCAT-AP",
+                "resultMessage": "Teachtaireacht na dTorthaí"
+            },
+            "distributions": {
+                "introduction": "San amharc seo liostáiltear gach tacar sonraí a bhfuil dáiltí acu nach bhfuil rochtain orthu acu.",
+                "help": "Féach ar dháiltí nach bhfuil rochtain orthu ón gcatalóg roghnaithe.",
+                "mediatype_checked": "Cineál Meáin (ón tástáil)",
+                "desc": "Tacair sonraí a bhfuil dáiltí nach bhfuil rochtain orthu acu",
+                "not_available_access": "Níl URL rochtana ar fáil",
+                "title": "Saincheisteanna inrochtaineachta dáilte",
+                "format": {
+                    "not_machine_readable": "Gan a bheith inléite do mheaisín",
+                    "name": "Formáid"
+                },
+                "not_available_dl": "Níl URL Íoslódála ar fáil ",
+                "download_url": "Parsisiųsti URL",
+                "mediatype_given": "Cineál Meáin (ón tástáil)",
+                "nodistributions": "Níl dáiltí ar fáil le scrúdú.",
+                "access_url": "Access URL",
+                "site_title": "Tairseach Sonraí Oscailte | MQA | Dáiltí",
+                "availability_checked_on": "Infhaighteacht seiceáilte ar {date}"
+            },
+            "call_to_action": "Roghnaigh catalóig chun mionsonraí a fháil",
+            "title": "Deais catalóige",
+            "site_title": "Tairseach Sonraí Oscailte | MQA | Deais catalóige"
+        },
+        "common": {
+            "compliant": "comhlíontach",
+            "json": "CKAN JSON",
+            "deu": {
+                "url": "www.data.europa.eu",
+                "title": "data.europa.eu"
+            },
+            "site_title_violations": "Sárú scéimre DCAT-AP",
+            "all": "go léir",
+            "close": "Dún",
+            "affacteddatasets": "Tacair sonraí a ndéantar difear dóibh",
+            "cataloguedetails": "Amharc ar Shonraí Catalóige",
+            "previous": "roimhe",
+            "violation": "Sárú scéimre DCAT-AP",
+            "edp": {
+                "title": "Tairseach Sonraí Oscailte"
+            },
+            "yes": "Is féidir",
+            "error": "Earráid",
+            "portal_page": "Leathanach na tairsí",
+            "since": "Ó",
+            "site_title": "Cáilíocht na Meiteashonraí | data.europa.eu",
+            "version": "Leagan",
+            "ok": "Ok",
+            "distributions": "Dáiltí",
+            "no": "Níl",
+            "violations": "Sáruithe scéimre DCAT-AP",
+            "download_url": "URL Íoslódála",
+            "datasets": "Tacair sonraí",
+            "site_title_distributions": "Saincheisteanna inrochtaineachta dáilte",
+            "home": "Baile",
+            "page": "Leathanach",
+            "notavailable": "Níl rochtain air",
+            "status": "Stádas"
+        },
+        "methodology": {
+            "dimensions": {
+                "reuse": {
+                    "main_text": " <p>Déantar cur síos sa tábla seo a leanas ar na méadrachtaí a úsáidtear chun in-athúsáideacht na sonraí a sheiceáil. Is féidir 75 ar a mhéad a scóráil sa réimse seo.</p>",
+                    "keywords_name_6": "Foilsitheoir",
+                    "keywords_name_5": "Pointe teagmhála",
+                    "keywords_name_4": "Foclóir srianta rochtana",
+                    "keywords_name_3": "Srianta rochtana",
+                    "keywords_name_2": "Foclóir ceadúnais",
+                    "keywords_name_1": "Faisnéis ceadúnais",
+                    "keywords_metric_6": "Seiceáiltear cibé an bhfuil an t-airí socraithe nó nach bhfuil.",
+                    "keywords_metric_5": "Seiceáiltear cibé an bhfuil an t-airí socraithe nó nach bhfuil.",
+                    "keywords_metric_4": "<p>Seiceáiltear cibé an bhfuil an <a href='https://publications.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/access-right' target='_blank'>foclóir rialaithe maidir le cearta rochtana</a>  in úsáid.</p>",
+                    "keywords_metric_3": "Seiceáiltear cibé an bhfuil an t-airí socraithe nó nach bhfuil.",
+                    "keywords_metric_2": "“<p><strong>Uirlis is ea an Measúnú Cáilíochta Meiteashonraí (MQA) a d’fhorbair an cuibhreannas data.europa.eu chun staidéar a dhéanamh ar cháilíocht na meiteashonraí arna mbaint ag data.europa.eu.</strong> Tá sé beartaithe chun cabhrú leis soláthraithe sonraí agus tairseacha sonraí chun a gcáilíocht meiteashonraí a sheiceáil agus chun moltaí a fháil maidir le feabhsuithe Cuirtear na torthaí i láthair tríd an MQA agus tá siad ar fáil le híoslódáil freisin. Anseo a leanas déanaimid cur síos ar fheidhmiúlacht an MQA agus ar an modheolaíocht a úsáideann sé.</p >",
+                    "keywords_metric_1": "<p> Mura bhfreagraíonn an leathanach seo do cheisteanna go léir go fóill, bíodh leisce ort teagmháil a dhéanamh linn trínár bhfoirm aiseolais ag deireadh an leathanaigh. </p>\"",
+                    "dcat_name_6": "dct:Publisher",
+                    "dcat_name_5": "dcat:ContactPoint",
+                    "dcat_name_4": "dct:AccessRights",
+                    "dcat_name_3": "dct:AccessRights",
+                    "dcat_name_2": "dct:License",
+                    "dcat_name_1": "dct:License",
+                    "keywords_desc_6": "Is é an foilsitheoir an té nó an eagraíocht a d'fhoilsigh na sonraí.",
+                    "keywords_desc_5": "Gheofar sa phointe teagmhála eolas ar cé ar chóir ceisteanna maidir leis na sonraí a chur air.",
+                    "keywords_desc_4": "Méadaítear ath-inúsáideacht i gcás foclóir rialaithe.",
+                    "keywords_desc_3": "Léiríonn an réimse cibé an rochtain phoiblí nó rochtain shrianta an rochtain ar shonraí.",
+                    "keywords_desc_2": "Ba mhaith linn teorainn a chur leis an léiriú ar fhaisnéis cheadúnais mhícheart. Mar shampla, teacht orainn go leor ceadúnais CC nach bhfuil leagan.",
+                    "keywords_desc_1": "Eolas mórluachmhar is ea ceadúnas le haghaidh athúsáid sonraí."
+                },
+                "contextual": {
+                    "main_text": "Taispeántar sa tábla seo a leanas roinnt airíonn ísealmeáchain, a thugann comhthéacs don úsáideoir. Fiche pointe ar a mhéad is féidir a scóráil sa réimse seo.",
+                    "keywords_metric_4": "Seiceáiltear cibé an bhfuil an t-airí socraithe nó nach bhfuil.",
+                    "keywords_metric_3": "Seiceáiltear cibé an bhfuil an t-airí socraithe nó nach bhfuil.",
+                    "keywords_metric_2": "Seiceáiltear cibé an bhfuil an t-airí socraithe nó nach bhfuil.",
+                    "keywords_metric_1": "Seiceáiltear cibé an bhfuil an t-airí socraithe nó nach bhfuil.",
+                    "keywords_name_4": "Sonraí mionathrathe",
+                    "keywords_name_3": "Dáta eisiúna",
+                    "keywords_name_2": "Méid an chomhaid",
+                    "keywords_name_1": "Cearta",
+                    "keywords_desc_4": "An dáta ar athraíodh an tacar sonraí nó an dáileadh den uair dheiridh.",
+                    "keywords_desc_3": "An dáta ar eisíodh an tacar sonraí nó an dáileadh.",
+                    "keywords_desc_2": "Sonraíonn sé méid an chomhaid i mbearta.",
+                    "keywords_desc_1": "I gcásanna áirithe, ní féidir ceadúnas ar leith a úsáid le tacar sonraí. Is féidir an réimse 'Cearta' a úsáid chun tagairt a shonrú d'acmhainn a inseoidh d'úsáideoir cad iad na cearta atá agie agus an tacar sonraí in úsáid aige.",
+                    "dcat_name_4": "dcat:Modified",
+                    "dcat_name_3": "dct:Issued",
+                    "dcat_name_2": "dcat:ByteSize",
+                    "dcat_name_1": "dcat:Rights"
+                },
+                "table": {
+                    "metric_name": "Táscaire",
+                    "dataset_and_distribution": "Tacar sonraí agus dáileadh",
+                    "metric": "Méadrachtaí",
+                    "dataset": "Tacar sonraí",
+                    "desc": "Cur síos",
+                    "distribution": "Dáileadh",
+                    "weight": "Meáchan"
+                },
+                "accessible": {
+                    "main_text": " <p>Déantar cur síos sa tábla seo a leanas ar cad iad na méadrachtaí a úsáidtear le fáil amach cibé an ráthaítear go bhfuil rochtain ar na sonraí dá ndéantar tagairt sna dáiltí. Is féidir 100 pointe ar a mhéad a scóráil sa réimse seo.</p>",
+                    "dcat_name_3": "dcat:spatial",
+                    "dcat_name_2": "dcat:downloadURL",
+                    "dcat_name_1": "dcat:accessURL",
+                    "keywords_desc_3": "Má bhíonn URL íoslódála ann, seiceáiltear an inrochtaineacht.",
+                    "keywords_desc_2": "Is nasc díreach chuig na sonraí dá ndéantar tagairt é an URL íoslódála.",
+                    "keywords_desc_1": "Ní gá gur nasc díreach chuig na sonraí é an URL rochtana, ach is féidir gur tagairt é do URL a thugann rochtain ar an tacar sonraí nó ar áit ina bhfaighfear tuilleadh eolais faoin tacar sonraí.",
+                    "keywords_metric_3": "Seiceáiltear an URL sonraithe ó thaobh inrochtaineachta trí iarratas HTTP HEAD. Má bhíonn an cód stádais sa fhreagra sa raon 200 nó 300 range, measúnaítear inrochtaineacht na hacmhainne go dearfach.",
+                    "keywords_metric_2": "Seiceáiltear cibé an bhfuil an t-airí socraithe nó nach bhfuil.",
+                    "keywords_metric_1": "Seiceáiltear an URL sonraithe ó thaobh inrochtaineachta trí iarratas HTTP HEAD. Má bhíonn an cód stádais sa fhreagra sa raon 200 nó 300 range, measúnaítear inrochtaineacht na hacmhainne go dearfach.",
+                    "keywords_name_3": "Inrochtaineacht an URL íoslódála",
+                    "keywords_name_2": "URL íoslódála",
+                    "keywords_name_1": "Inrochtaineacht an URL rochtan"
+                },
+                "interoperable": {
+                    "main_text": " <p>Déantar cur síos sa tábla seo a leanas na méadrachtaí a úsáidtear le fáil amach cibé an meastar dáileadh a bheith idir-inoibritheach. De réir na toimhde 'inneachar comhchosúil a bhfuil roinnt dáiltí aige', ní úsáidtear ach an dáileadh a bhfuil an líon is mó pointí aige chun na pointí a ríomh. Céad pointe ar a mhéad is féidir a scóráil sa réimse seo.</p>",
+                    "keywords_desc_6": "<p>Ríomhtar comhlíonadh DCAT-AP thar gach foinse agus tacar sonraí atá ar fáil ar chatalóg. Ní dhéantar an tseiceáil seo ach amháin má lománaíodh na meiteashonraí ar dtús mar DCAT-AP nó mar dhíorthaigh bhailí.</p><p><a href='https://joinup.ec.europa.eu/solution/dcat-application -profile-data-portals-europe' target='_blank'>DCAT-AP</a> sonraíocht chun cur síos a dhéanamh ar shonraí poiblí nasctha san Eoraip. Féadfaidh an tairseach data.europa.eu meiteashonraí a bhaint freisin nach gcomhlíonann go hiomlán DCAT-AP. Chun an chomhréireacht le DCAT-AP a mhéadú, seiceálann an MQA gach meiteashonraí maidir lena chomhlíonadh DCAT-AP.</p>",
+                    "keywords_desc_5": "Seiceáiltear cibé an bhfuil formáid an dáilte inléite le meaisín.",
+                    "keywords_desc_4": "Seiceáiltear más formáid neamhdhílsithe é formáid an dáilte.",
+                    "keywords_desc_3": "Seiceáiltear cibé an mbaineann an fhormáid agus an cineál meáin le foclóir rialaithe.",
+                    "keywords_desc_2": "Sainítear sa réimse seo cineál meáin an dáilte.",
+                    "keywords_desc_1": "Sonraítear sa réimse seo formáid comhaid an dáilte.",
+                    "keywords_metric_6": "\"<p>Tá na meiteashonraí bailíochtaithe i gcoinne tacar <a href='https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe/releases' target='_blank'\" >Cruthaíonn SHACL</a>. Níl na meiteashonraí comhlíonta, má thuairiscíonn bailíochtú SHACL saincheist amháin ar a laghad.</p>\n\n<p>Úsáideann an MQA <a href='/shacl' target='_blank'>data.europa.eu seirbhís bailíochtaithe DCAT-AP SHACL</a>.</p>\n\n<p><a href='https://www.w3.org/TR/shacl/' target='_blank'>SHACL</a> is moladh ón W3C é agus úsáidtear é chun graif RDF a bhailíochtú in aghaidh tacair de chruthanna.</p>\"",
+                    "keywords_metric_5": "Meastar an dáileadh a bheith inléite ag meaisín má tá an fhormáid sonraithe sna data comhfhreagracha.europa.eu <a href='https://gitlab.com/european-data-portal/edp-vocabularies' target='_blank' Stór focal >GitLab</a>.",
+                    "keywords_metric_4": "Meastar an dáileadh a bheith neamhdhílseánaigh má tá an fhormáid sonraithe sna data comhfhreagracha.europa.eu <a href='https://gitlab.com/european-data-portal/edp-vocabularies' target='_blank' Stór focal >GitLab</a>.",
+                    "keywords_metric_3": "<p>Tá an stór focal formáide le fáil i data.europa.eu <a href='https://gitlab.com/european-data-portal/edp-vocabularies' target='_blank'>Stór GitLab</ a>.</p>\n\n<p>Seiceáil an cineál meán in aghaidh an <a href='https://www.iana.org/assignments/media-types/media-types.xhtml' target='_blank'>liosta IANA</a>< /p>",
+                    "keywords_metric_2": "<p>Seiceáiltear cibé an bhfuil an t-airí socraithe nó nach bhfuil.</p>",
+                    "keywords_metric_1": "<p>Seiceáiltear cibé an bhfuil an t-airí socraithe nó nach bhfuil.</p>",
+                    "keywords_name_6": "Comhlíonadh DCAT-AP",
+                    "keywords_name_5": "Inléite ag meaisín",
+                    "keywords_name_4": "Neamhdhílsithe",
+                    "keywords_name_3": "Leagan amach/ cineál meáin ó fhoclóir",
+                    "keywords_name_2": "cineál meáin",
+                    "keywords_name_1": "Formáid",
+                    "dcat_name_6": "Tacar sonraí agus Dáileadh",
+                    "dcat_name_5": "DCT:Format nó fo-mhaoine de dct:Format",
+                    "dcat_name_4": "DCT:Format nó fo-mhaoine de dct:Format",
+                    "dcat_name_3": "DCT:Format nó fo-mhaoine de dct:Format",
+                    "dcat_name_2": "dcat:MediaType or subproperty of dct:Format",
+                    "dcat_name_1": "dct:Format"
+                },
+                "findability": {
+                    "keywords_desc_4": "Ach eolas ama a úsáid, d'fhéadfadh úsáideoirí cuardach de réir amanna a dhéanamh.",
+                    "keywords_desc_3": "Trí eolas spásach d'fhéadfadh úsáideoirí an tacar sonraí a aimsiú le cuardach geotaobhach.",
+                    "keywords_desc_2": "Is cabhair iad catagóirí d'úsáideoirí chun tacair sonraí a thaiscéaladh ar bhonn téama.",
+                    "keywords_desc_1": "Tacaíonn eochairfhocail go díreach leis an gcuardach agus mar sin méadaíonn siad in-aimsitheacht tacar sonraí na sonraí.",
+                    "keywords_metric_4": "Seiceáil cibé an bhfuil airí socraithe nó nach bhfuil.",
+                    "keywords_metric_3": "Seiceáil cibé an bhfuil airí socraithe nó nach bhfuil.",
+                    "keywords_metric_2": "Seiceáil cibé an bhfuil catagóir amháin nó níos mó sannta don tacar sonraí. Ní bhíonn aon tionchar ag líon na gcatagóirí sannta ar an scór.",
+                    "keywords_metric_1": "Seiceálann an córas cibé an bhfuil eochairfhocail sainmhínithe. Ní bhíonn aon tionchar ag líon na n-eochairfhocal ar an scór.",
+                    "keywords_name_4": "Cuardach ambhunaithe",
+                    "keywords_name_3": "Geochuardach",
+                    "keywords_name_2": "Catagóirí",
+                    "keywords_name_1": "Úsáid na n-eochairfhocal",
+                    "dcat_name_4": " dcat:temporal",
+                    "dcat_name_3": "dcat:spatial",
+                    "dcat_name_2": "dcat:theme",
+                    "dcat_name_1": "dcat:Keyword",
+                    "main_text": "<p> Déantar cur síos sa tábla seo a leanas ar na méadrachtaí a chabhraíonn le daoine agus meaisíní tacair sonraí a aimsiú. Céad pointe ar a mhéad is féidir a scóráil sa réimse seo.</p>"
+                },
+                "main_text": "<p>Déantar cur síos sa roinn seo ar gach gné a scrúdaítear san MQA le cáilíocht a chinneadh. Díorthaítear na diminsin ó <a target='_blank' href='https://www.go-fair.org/fair-principles/'>phrionsabail CHOTHROMA <i class='fas fa-external-link-alt fa-sm'></i></a>.</p>"
+            },
+            "scoring": {
+                "table": {
+                    "bad": "Go dona",
+                    "range": "Raon na bpointí",
+                    "sufficient": "Gan tada sa bhreis",
+                    "scoring_cat": "Rátáil",
+                    "good": "Go maith",
+                    "max_points": "Pointí uasta",
+                    "excellent": "Sármhaith",
+                    "sum": "Suim",
+                    "dimension": "Gné"
+                },
+                "main_text": "Scóráil iomlán thorthaí tacar sonraí tar éis na pointí i ngach gné a shuimiú.",
+                "text": "Faightear an rátáil deiridh mar thoradh ar cheithre ghrúpa rátála. Taispeántar sa tábla thíos mapáil na bpointí ar an gcatagóir rátála. Cuirtear léiriú na rátála sa MQA in iúl tríd na gcatagóirí rátála amháin. Cuireann sé sin ar chumas na soláthraithe an rátáil is airde a bhaint amach fiú má asbhaintear líon beag pointí.",
+                "headline": "Rátáil"
+            },
+            "headline": "Modheolaíocht um Measúnú Caighdeán Meiteashonraí",
+            "cover": {
+                "validator_service": "Seirbhís bailíochtaithe DCAT-AP SHACL API",
+                "main_text": "<p> Tá an MQA teoranta ag na meiteashonraí is féidir leis a scrúdú. Tá an t-imscrúdú teoranta go heisiach do na meiteashonraí a bhailíonn data.europa.eu le linn an phróisis bhuainte. Má tá earráidí sna meiteashonraí foinseacha, féadfaidh siad seo an toradh iomlán a fhalsú. Chun an poitéinseal earráide seo a theorannú, cuireann an MQA seirbhís bailíochtaithe ar fáil ar féidir le soláthraithe sonraí a úsáid chun a meiteashonraí a bhailíochtú le haghaidh formáidí bailí agus DCAT-AP comhlíontach sula ndéantar iad a chomhtháthú sa phróiseas buainte.",
+                "validator_ui": "Leathanach gréasáin na seirbhíse bailíochtaithe DCAT-AP SHACL ",
+                "headline": "An méid nach gclúdaímid"
+            },
+            "process": {
+                "main_text": "<p> Tar éis gach cnuaschóipeála, seiceálann an MQA na meiteashonraí. Tomhaistear san MQA cáilíocht na dtáscairí éagsúla, mínítear gach táscaire sna táblaí thíos. Stóráiltear torthaí na seiceálacha mar Fhoclóir Cáílíochta Sonraí <a href='https://www.w3.org/TR/vocab-dqv/'>(DQV) <i class='fas fa-external-link-alt fa-sm'></i></a>. Is sonraíocht é DQV den W3C a úsáidtear chun cur síos a dhéanamh ar cháilíocht tacar sonraí.</p>\n\n<p>Ós rud é gur féidir leis an inrochtaineacht a bheith luaineach, is gá an URL rochtana agus an URL íoslódala a sheiceáil arís agus arís eile. Ar an ábhar sin, seiceálann an MQA inrochtaineacht na ndáiltí uile go rialta. I gcomórtas le fíorú na dtáscairí eile, tá am rite ard aige seo, ós rud é go seiceáiltear na dáiltí trí HTTP agus is féidir go mbeidh am freagartha níos faide ann i gcás gach URL iarrthar. Úsáideann an MQA meicníocht a chuireann san áireamh go ndéantar gach URL a athscrúdú maidir le hinrochtaineacht laistigh den chúpla seachtain ón athbhreithniú deiridh. </p>",
+                "headline": "Próiseas MQA"
+            },
+            "scope": {
+                "main_text": "<p> I gcás an MQA, seo í an cheist a bhíonn le freagairt againn: <br> Cad é cáilíocht na meiteashonraí i gcás sonraí earnála poiblí sa réigiún pan-Eorpach agus cá bhfuil na baic is mó ar cháilíocht níos fearr a bhaint amach? </p><p>Bunaithe ar an méid seo, tá imscrúdú ar siúl ag an MQA faoi láthair ar na ceisteanna nithiúla seo a leanas:</p><ul><li> Comhlíonann sé DCAT-AP agus díorthaigh DCAT-AP </li><li> Nochtadh eolais nach bhfuil DCAT-AP faoi cheangal aige</li><li> Inrochtaineacht na sonraí dá ndéantar tagairt sna meiteashonraí trí an URL Rochtana agus Íoslódála</li><li> Cibé an bhfuil na sonraí tagartha inléite ag meaisín </li><li> Úsáid ceadúnas</li></ul><p> Leanann imscrúdaithe aonair torthaí gach ceiste, agus déantar mionchur síos orthu thíos.</p>",
+                "headline": "Raon an taighde"
+            },
+            "assumptions": {
+                "main_text": "<p>Tá an MQA bunaithe ar na boinn tuisceana seo a leanas.</p><h6> Úsáid a bhaint as réimsí neamhéigeantacha</h6><p>Creidimid nach leor réimsí éigeantacha DCAT-AP amháin a líonadh le hard a sholáthar. meiteashonraí cáilíochta. Ar an ábhar sin, seiceálann an mheastóireacht réimsí nach bhfuil sonraithe mar éigeantach de réir DCAT-AP. Tá na réimsí cruinne a bhfuil seiceáil orthu liostaithe thíos.</p><h6>\n\nÁbhar comhionann le haghaidh ildháiltí</h6><p>Má tá níos mó ná dáileadh amháin i dtacar sonraí, tá gach dáileadh comhionann ó thaobh inneachair de, ní hionann iad ach amháin i léiriú na sonraí. Mar shampla, is féidir le dhá dháileadh a bheith ag tacar sonraí, ceann amháin ag tairiscint na sonraí mar PDF agus an ceann eile ag tairiscint na sonraí comhionann mar RDF/XML meaisín-inléite. Tá an sainmhíniú seo i gcoibhneas leis an gcaoi a rátáiltear tacair shonraí san MQA (sórt “dea-chleachtas”) ach níor cheart é a mheas mar an sainmhíniú caighdeánach ar dháileacháin.</p>",
+                "headline": "Toimhdí"
+            },
+            "intro_text": "“<p><strong>Uirlis is ea an Measúnú Cáilíochta Meiteashonraí (MQA) a d’fhorbair an cuibhreannas data.europa.eu chun staidéar a dhéanamh ar cháilíocht na meiteashonraí arna mbaint ag data.europa.eu.</strong> Tá sé beartaithe chun cabhrú leis soláthraithe sonraí agus tairseacha sonraí chun a gcáilíocht meiteashonraí a sheiceáil agus chun moltaí a fháil maidir le feabhsuithe Cuirtear na torthaí i láthair tríd an MQA agus tá siad ar fáil le híoslódáil freisin. Anseo a leanas déanaimid cur síos ar fheidhmiúlacht an MQA agus ar an modheolaíocht a úsáideann sé.</p >",
+            "sub_headline": "Conas a thomhaiseann data.europa.eu cáilíocht na meiteashonraí uile atá stóráilte"
+        },
+        "header": {
+            "navigation": {
+                "usingData": {
+                    "checklistForUsingData": "Liosta Seiceála maidir le Sonraí a Úsáid",
+                    "useCases": "Bain úsáid as Cásanna",
+                    "tellUsYourStory": "Inis dúinn do scéal",
+                    "title": "Sonraí a úsáid",
+                    "benefitsOfUsingData": "Tairbhí a bhaineann le Sonraí a Úsáid"
+                },
+                "impactStudies": {
+                    "useCases": "Bain úsáid as Cásanna",
+                    "overview": "Forléargas",
+                    "opendatamaturity": "Aibíocht Sonraí Oscailte",
+                    "countryInsights": "Léargais Tíre",
+                    "tellUsYourStory": "Inis dúinn do scéal",
+                    "studies": "Identical content for multiple distributions</h6><p>If a dataset contains more than one distribution, all distributions are identical in content, they differ only in the representation of the data. For example, a dataset can have two distributions, one offering the data as PDF and the other offering the identical data as machine-readable RDF/XML. This definition is relative to how datasets are rated in the MQA (a sort of “best practice”) but should not be considered as the standard definition of distributions.</p>",
+                    "opendataimpact": "Tionchar sonraí oscailte",
+                    "title": "Tionchar & Staidéir"
+                },
+                "training": {
+                    "dataProvidersGuide": "Treoir sholáthraí na sonraí",
+                    "whatIsOpenData": "Cad is sonraí oscailte ann?",
+                    "title": "Oiliúint",
+                    "elearning": "ríomhFhoghlaim",
+                    "moreTrainingMaterial": "Tuilleadh Ábhar Oiliúna",
+                    "licensingAssistant": "Cúntóir Ceadúnaithe"
+                },
+                "data": {
+                    "datasets": "Tacair sonraí",
+                    "sparqlsearch": "Cuardach SPARQL",
+                    "metadataQuality": "Cáilíocht Meiteashonraí",
+                    "licensingAssistant": "Cúntóir Ceadúnaithe",
+                    "title": "Sonraí",
+                    "statistics": "Staitisticí",
+                    "euInternationalData": "Sonraí an Aontais agus sonraí idirnáisiúnta",
+                    "sparqlManager": "Bainisteoir SPARQL",
+                    "catalogues": "Catalóga",
+                    "countryData": "Sonraí tíre"
+                },
+                "resources": {
+                    "moreTrainingMaterial": "Tuilleadh Ábhar Oiliúna",
+                    "title": "Acmhainní",
+                    "elearning": "ríomhFhoghlaim",
+                    "trainingCompanion": "Compánach oiliúna",
+                    "reportsAboutOpenData": "<p> Mura bhfreagraíonn an leathanach seo do cheisteanna go léir go fóill, bíodh leisce ort teagmháil a dhéanamh linn trínár bhfoirm aiseolais ag deireadh an leathanaigh. </p>\""
+                },
+                "providingData": {
+                    "beHarvestedByUs": "Lig dúinn do chuid sonraí a bhuain",
+                    "title": "Sonraí a chur ar fáil",
+                    "cataloguesHarvestedByUs": "Catalóga arna bhuain againn",
+                    "practicalGuide": "Treoir phraiticiúil"
+                },
+                "whatWeDo": {
+                    "openDataMaturity": "Aibíocht Sonraí Oscailte",
+                    "ourActivities": "Ár gcuid gníomhaíochtaí",
+                    "factsheetsAndReports": "Bileoga eolais agus Tuairiscí",
+                    "title": "A bhfuil á dhéanamh againn",
+                    "calendar": "Féilire",
+                    "featuredHighlights": "Buaicphointí faoi thrácht",
+                    "news": "Nuacht"
+                },
+                "about": {
+                    "beHarvestedByUs": "Cuir do chuid sonraí ar fáil dúinn",
+                    "documentation": "Doiciméadú",
+                    "title": "Mar gheall ar",
+                    "europeanDataPortal": "Tairseach Sonraí Eorpach"
+                },
+                "newsEvents": {
+                    "title": "Nuacht & imeachtaí",
+                    "events": "Imeachtaí",
+                    "news": "Nuacht"
+                }
+            },
+            "subnav": {
+                "contact": "Teagmháil",
+                "legalNotice": "Fógra dlí",
+                "search": "Cuardach",
+                "newsletter": "Nuachtlitir",
+                "cookies": "Fianáin",
+                "login": "Logáil isteach",
+                "faq": "FAQ"
+            },
+            "searchInputPlaceholder": "Cuardaigh inneachar an láithreáin...",
+            "european": "Eorpach",
+            "searchOptions": {
+                "siteContent": "Ábhar suímh",
+                "datasets": "Tacair shonraí"
+            },
+            "dataPortal": "Tairseach Sonraí"
+        },
+        "footer": {
+            "links": {
+                "search": "Cuardach",
+                "newsletter": "Nuachtlitir",
+                "faq": "FAQ",
+                "contact": "Teagmháil",
+                "subscribe": "Liostáil",
+                "cookies": "Fianáin",
+                "login": "Logáil isteach",
+                "legalNotice": "Fógra dlí"
+            },
+            "managedBy": "Faoi bhainistiú ag Oifig Foilseachán an Aontais Eorpaigh.",
+            "fundedBy": "Arna mhaoiniú ag an Aontas Eorpach",
+            "newsletter": "Liostaigh dár Nuachtlitir",
+            "helpUsImproveText": "Cabhróidh d'aiseolas linn an t-eispéireas iomlán d'úsáideoirí a fheabhsú. Aon mholadh?",
+            "newsletterText": "Liostaigh dár Nuachtlitir",
+            "subscribe": "Faigh síntiús",
+            "followUs": "Lean muid ar",
+            "lastUpdate": "Nuashonrú is deireanaí",
+            "helpUsImprove": "Cabhraigh linn feabhsú"
+        },
+        "maintenance_message": "Dea-scéal! Tá ár gcóras á fheabhsú againn. Idir an dá linn tá an comhbhall seo i mód cothabhála agus d’fhéadfadh sé nach dtaispeánfadh sé na sonraí uile atá ar fáil.",
+        "catalogue_list": {
+            "description": "Roghnaigh mionsonraí catalóige",
+            "search": {
+                "placeholder": "Cuardaigh ainm catalóige nó an cur síos"
+            }
+        },
+        "title": "Metadata Quality Assurance",
+        "empty": "",
+        "no_data": "Níl aon tomhas ar fáil don táscaire seo",
+        "meta": {
+            "description": "Tugann an Dearbhú Cáilíochta Meiteashonraí léargas ginearálta ar na meiteashonraí ar fad atá ar fáil don tairseach sonraí oscailte data.europa.eu de réir roinnt táscairí."
+        }
+    }
+}

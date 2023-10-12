@@ -1,0 +1,39 @@
+<configuration>
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <property name="hubSearchAppender" value="${PIVEAU_HUB_SEARCH_LOG_APPENDER:-STDOUT}"/>
+
+    <if condition='property("hubSearchAppender").equals("LOGSTASH")'>
+        <then>
+            <appender name="LOGSTASH" class="net.logstash.logback.appender.LogstashTcpSocketAppender">
+                <destination>${PIVEAU_LOGSTASH_HOST:-logstash}:${PIVEAU_LOGSTASH_PORT:-5044}</destination>
+                <encoder class="net.logstash.logback.encoder.LogstashEncoder"/>
+            </appender>
+        </then>
+    </if>
+
+    <logger name="com.mchange.v2" level="warn"/>
+    <logger name="org.elasticsearch" level="warn"/>
+    <logger name="io.netty" level="warn"/>
+    <logger name="io.vertx" level="info"/>
+    <logger name="io.swagger" level="info"/>
+    <logger name="io.swagger.v3.parser.processors" level="OFF" />
+    <logger name="org.apache.shiro" level="info"/>
+    <logger name="org.apache.http" level="info"/>
+    <logger name="io.piveau" level="${PIVEAU_LOG_LEVEL:-INFO}"/>
+    <logger name="com.networknt.schema" level="OFF"/>
+
+    <logger name="piveau.hub.search" level="${PIVEAU_HUB_SEARCH_LOG_LEVEL:-INFO}" additivity="false">
+        <appender-ref ref="${hubSearchAppender}"/>
+    </logger>
+
+    <root level="info">
+        <appender-ref ref="STDOUT"/>
+    </root>
+
+</configuration>

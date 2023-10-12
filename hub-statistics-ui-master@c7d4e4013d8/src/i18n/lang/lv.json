@@ -1,0 +1,379 @@
+{
+    "message": {
+        "datasetDetails": {
+            "openResource": "Iet uz resursu",
+            "upload": {
+                "unknownFormat": "Nezināms formāts",
+                "resetText": "Vai atiestatīt visu formu?",
+                "reset": "Atiestatīt no",
+                "individual": "Individuāli",
+                "person": "Persona",
+                "organisation": "Organizācija"
+            },
+            "about": "par",
+            "geoInfo": "Datu kopas apjoms",
+            "translation": {
+                "link": "Noklikšķiniet šeit, lai apskatītu datu kopu oriģinālvalodā",
+                "message": "Šīs datu kopas nosaukums un apraksts ir mašīntulkots.",
+                "noTranslation": "Vēlamajai valodai nav pieejams tulkojums. Informācija ir parādīta tās noklusējuma valodā.",
+                "original": "Oriģinālvaloda",
+                "update": "Šīs datu kopas atjaunināts tulkojums tiek sagatavots."
+            },
+            "options": "Iespējas",
+            "subnav": {
+                "activityStream": "Darbību plūsma",
+                "similarDatasets": "Līdzīgas datu kopas",
+                "categories": "Kategorijas",
+                "dataset": "Datu kopa"
+            },
+            "edit": "Rediģēt",
+            "follow": "Sekot",
+            "preview": "Priekšskatījums",
+            "visualisation": "Atvērt vizualizāciju",
+            "additionalInfo": "Papildu informācija",
+            "feedback": "Atsauksmes",
+            "unfollow": "Atsekot",
+            "manage": "Pārvaldīt ",
+            "delete": "Dzēst",
+            "geoVisualisation": "Atvērt ģeogrāfisko vizualizāciju",
+            "download": "Lejupielādēt",
+            "menu": "Izvēlne"
+        },
+        "userQueries": {
+            "searchAllQueries": "Meklēt vaicājumus…",
+            "queryDeleted": "Vaicājums dzēsts",
+            "querySaved": "Vaicājums saglabāts",
+            "searchQueries": "Meklēt manus vaicājumus…",
+            "noQueryFound": "Nav atrasts neviens vaicājums",
+            "myQueries": "Mani vaicājumi",
+            "noDescription": "Šim vaicājumam nav apraksta",
+            "placeholderNotes": "piem., dažas noderīgas piezīmes par šo vaicājumu",
+            "noQueriesSaved": "Nav saglabāts neviens vaicājums.",
+            "queryFound": "{number} vaicājums atrasts",
+            "areYourSure": "Vai tiešām vēlaties dzēst šo vaicājumu?",
+            "queriesFound": "{number} vaicājumi atrasti",
+            "save": "Saglabāt vaicājumu",
+            "executeQuery": "Izpildīt vaicājumu"
+        },
+        "header": {
+            "navigation": {
+                "about": {
+                    "beHarvestedByUs": "Pieteikties rasmošanai",
+                    "title": "Par",
+                    "documentation": "Dokumentācija",
+                    "europeanDataPortal": "Eiropas Datu Portāls"
+                },
+                "training": {
+                    "whatIsOpenData": "Kas ir atvērtie dati",
+                    "title": "Apmācības",
+                    "dataProvidersGuide": "Datu sniedzēja ceļvedis",
+                    "moreTrainingMaterial": "Papildu mācību materiāli",
+                    "elearning": "E-mācības",
+                    "licensingAssistant": "Licencēšanas palīgs"
+                },
+                "data": {
+                    "sparqlsearch": "SPARQL meklēšana",
+                    "statistics": "Statistika",
+                    "euInternationalData": "ES un starptautiskie dati",
+                    "catalogues": "Katalogi",
+                    "datasets": "Datu kopas",
+                    "countryData": "Valsts dati",
+                    "metadataQuality": "Metadatu kvalitāte",
+                    "title": "Dati"
+                },
+                "newsEvents": {
+                    "title": "Ziņas un notikumi",
+                    "events": "Notikumi",
+                    "news": "Ziņas"
+                },
+                "impactStudies": {
+                    "studies": "Pētījumi",
+                    "useCases": "Izmantošanas gadījumi",
+                    "tellUsYourStory": "Pastāstiet mums savu stāstu",
+                    "title": "Ietekme un pētījumi",
+                    "opendataimpact": "Atvērto datu ietekme",
+                    "countryInsights": "Informācija par valsti",
+                    "overview": "Pārskats",
+                    "opendatamaturity": "Situācija atklāto datu jomā"
+                },
+                "covid-19": {
+                    "title": "COVID-19",
+                    "datasets": "Datu kopas",
+                    "overview": "Pārskats",
+                    "initiatives": "Ar datiem saistītas iniciatīvas"
+                }
+            },
+            "subnav": {
+                "logout": "Atteikties",
+                "cookies": "Sīkdatnes",
+                "login": "Pieteikties",
+                "search": "Meklēt",
+                "newsletter": "Biļetens",
+                "contact": "Kontakti",
+                "legalNotice": "Juridisks paziņojums",
+                "faq": "BUJ"
+            },
+            "searchOptions": {
+                "siteContent": "Vietnes saturs",
+                "datasets": "Datu kopas"
+            },
+            "searchInputPlaceholder": "Meklēt vietnes saturā",
+            "dataPortal": "datu portāls",
+            "european": "Eiropas"
+        },
+        "pagination": {
+            "previousPage": "Atpakaļ",
+            "nextPage": "Tālāk"
+        },
+        "statistics": {
+            "tableHead": {
+                "trend": "Tendence",
+                "country": "Valsts",
+                "catalogue": "Katalogs",
+                "numberOfDatasets": "Datu kopu skaits",
+                "name": "Nosaukums",
+                "category": "Kategorija",
+                "percent": "Kopējo datu kopu procentuālā daļa"
+            },
+            "totalNumber": "Kopējais datu kopu skaits",
+            "evolution": "Attīstība",
+            "datasetsPerCountryAndCatalogue": "Datu kopas uz valsti un katalogu",
+            "datasetsPerCountry": "Datu kopas uz valsti",
+            "datasetsPerCatalogue": "Datu kopas uz katalogu",
+            "selectTimePeriod": "Atlasīt laika periodu",
+            "selectType": "Atlasīt statistikas veidu",
+            "statistics": "Statistika",
+            "datasetsPerCategory": "Datu kopas uz kategoriju",
+            "currentState": "Pašreizējais stāvoklis",
+            "meta": {
+                "description": "Attiecīgie statistikas dati par mūsu atvērto datu portāla attīstību un data.europa.eu datu kopu skaits pa valstīm, kategorijām un katalogiem."
+            },
+            "page": {
+                "title": "Atvērto datu portāla statistika | Eiropas dati | data.europa.eu"
+            }
+        },
+        "metadata": {
+            "updatedLowerCase": "atjaunināts",
+            "conformsTo": "Atbilst",
+            "dataset": "Datu kopa",
+            "email": "E-pasta adrese",
+            "title": "Virsraksts",
+            "license": "Licence",
+            "name": "Vārds",
+            "upload": "Augšupielādēt",
+            "created": "Izveidots",
+            "addDistribution": "Pievienot sadalījumu",
+            "chooseFile": "Izvēlēties failu",
+            "distribution": "Sadalījums",
+            "label": "Birka",
+            "review": "Pārskatīt",
+            "otherIdentifiers": "Citi identifikatori",
+            "chooseFormat": "Izvēlēties formātu",
+            "datasets": "Datu kopas ",
+            "resource": "Avoti",
+            "spatial": "Ģeogrāfiskā atrašanās vieta",
+            "deleteItem": "Vai tiešām vēlaties dzēst šo vienumu?",
+            "relatedResources": "Saistītie avoti",
+            "accessUrl": "Piekļuves URL",
+            "documentations": "Dokumentācija",
+            "frequency": "Biežums",
+            "updated": "Atjaunot",
+            "no": "Nē",
+            "landingPage": "Galvenā lapa",
+            "metadataQuality": "Metadatu kvalitāte",
+            "yes": "Jā",
+            "chooseCategory": "Izvēlēties kategoriju",
+            "update ": "Atjaunināt ",
+            "homepage": "Sākumlapa",
+            "contactPoints": "Kontaktpunkts",
+            "chooseCatalogue": "Izvēlēties katalogu",
+            "chooseType": "Izvēlēties tipu",
+            "description": "Apraksts",
+            "downloadUrl": "Lejupielādes URL",
+            "provenances": "Pirmavots",
+            "tags": "Tagi",
+            "format": "Formāts",
+            "coordinates": "Koordinātes",
+            "sources": "Avoti",
+            "categories": "Kategorijas",
+            "publisher": "Publicētājs",
+            "type": "Tips",
+            "distributions": "Sadalījumi",
+            "cancel": "Atcelt",
+            "identifiers": "Identifikatori"
+        },
+        "footer": {
+            "newsletterText": "Abonējiet mūsu biļetenu",
+            "newsletter": "Biļetens",
+            "fundedBy": "Finansē Eiropas Savienība",
+            "lastUpdated": "Pēdējo reizi atjaunināts",
+            "links": {
+                "search": "Meklēt",
+                "newsletter": "Biļetens",
+                "cookies": "Sīkdatnes",
+                "legalNotice": "Juridisks paziņojums",
+                "faq": "BUJ",
+                "contact": "Kontakti",
+                "login": "Pieteikties"
+            },
+            "followUs": "Sekojiet mums",
+            "subscribe": "Abonēt",
+            "helpUsImprove": "Palīdziet mums pilnveidoties",
+            "managedBy": "Pārvalda Eiropas Savienības Publikāciju birojs.",
+            "helpUsImproveText": "Jūsu atsauksmes palīdzēs mums uzlabot lietotāja pieredzi. Vai varat ko ieteikt?"
+        },
+        "catalogueFacets": {
+            "and": "UN",
+            "facets": {
+                "countries": "Valstis",
+                "licences": "Licences",
+                "keywords": "Atslēgvārdi",
+                "formats": "Formāti",
+                "catalogues": "Katalogi",
+                "categories": "Kategorijas"
+            },
+            "operator": "Operators",
+            "settings": "Iestatījumi",
+            "or": "VAI",
+            "europeanCatalogues": "Eiropas katalogi",
+            "title": "Filtrs"
+        },
+        "similarDatasets": {
+            "notFound": "Netika atrasta neviena līdzīga datu kopa.",
+            "lessSimilar": "Mazāk līdzīgas",
+            "similarDatasets": "Līdzīgas datu kopas",
+            "verySimilar": "Ļoti līdzīgas",
+            "similar": "Līdzīgas",
+            "marginalSimilar": "Attāli līdzīgas"
+        },
+        "catalogues": {
+            "geoBoundsMessageRemove": "Aizveriet šo paziņojumu, lai noņemtu ierobežojumu, vai izmantojiet attiestatīšanas funkciju.",
+            "countMessage": " atrasti katalogi vaicājumam ",
+            "countMessageSingular": " atrasts katalogs vaicājumam ",
+            "searchBar": {
+                "placeholder": "Meklēt katalogos..."
+            },
+            "loadingMessage": "Ielādē katalogus…",
+            "geoBoundsMessagePre": "Jūsu meklēšanas kritēriji ir ierobežoti uz:",
+            "countMessageNoResult": "Nav atrasti katalogi vaicājumam "
+        },
+        "common": {
+            "edp": {
+                "title": "Eiropas datu portāls"
+            },
+            "currentCatalogueStatistics": "Pašreizējā kataloga statistika",
+            "historicalCatalogueStatistics": "Vēsturiskā kataloga statistika"
+        },
+        "categories": {
+            "tran": "Transports",
+            "heal": "Veselība",
+            "gove": "Pārvalde un publiskais sektors",
+            "envi": "Vide",
+            "intr": "Starptautiskie jautājumi",
+            "agri": "Lauksaimniecība, zivsaimniecība, mežsaimniecība un pārtika",
+            "soci": "Iedzīvotāji un sabiedrība",
+            "econ": "Ekonomika un finanses",
+            "educ": "Izglītība, kultūra un sports",
+            "ener": "Enerģētika",
+            "tech": "Zinātne un tehnoloģija",
+            "regi": "Reģioni un pilsētas",
+            "just": "Tieslietas, tiesību sistēma un sabiedrības drošība"
+        },
+        "distributions": {
+            "footerLink": "Lejupielādēt"
+        },
+        "navigation": {
+            "navItems": {
+                "map": "Karte",
+                "home": "Sākumlapa",
+                "imprint": "Nospiedums",
+                "privacyPolicy": "Privātuma politika",
+                "about": "Par",
+                "data": "Dati"
+            }
+        },
+        "mapModal": {
+            "disclaimer": "Atruna",
+            "fullscreen": "Pilnekrāna režīms",
+            "findDatasets": "Piemērot",
+            "close": "Aizvērt",
+            "drawRectangleMsg": "Uzzīmējiet taisnstūri, lai izvēlētos reģionu",
+            "reset": "Notīrīt"
+        },
+        "datasetFacets": {
+            "facets": {
+                "catalogues": "Katalogi",
+                "formats": "Formāti",
+                "categories": "Kategorijas",
+                "licences": "Licences",
+                "keywords": "Atslēgvārdi",
+                "countries": "Valstis",
+                "tags": "Tagi"
+            },
+            "title": "Filtri",
+            "operator": "Operators",
+            "and": "UN",
+            "settings": "Iestatījumi",
+            "europeanCatalogues": "Eiropas katalogi",
+            "or": "VAI"
+        },
+        "catalogue": {
+            "searchBar": {
+                "placeholder": "Meklēt katalogus"
+            },
+            "countMessage": "Atrastie katalogi",
+            "geoBoundsMessageRemove": "Aizveriet šo paziņojumu, lai noņemtu ierobežojumu, vai izmantojiet attiestatīšanas funkciju.",
+            "loadingMessage": "Katalogi ir atgūti"
+        },
+        "datasets": {
+            "loadingMessage": "Ielādē datu kopas…",
+            "geoBoundsMessagePre": "Jūsu meklēšanas kritēriji ir ierobežoti uz:",
+            "saveQuery": "Saglabāt vaicājumu",
+            "createDataset": "Izveidot datu kopu",
+            "datasetsFeed": "Datu kopu plūsma",
+            "countMessageSingular": "atrasta datu kopa vaicājumam ",
+            "meta": {
+                "translationNotComplete": "Tulkojums nav pabeigts"
+            },
+            "noResult": "Nav atrastas datu kopas vaicājumam ",
+            "geoBoundsMessageRemove": "Aizveriet šo paziņojumu, lai noņemtu ierobežojumu, vai izmantojiet attiestatīšanas funkciju.",
+            "searchBar": {
+                "placeholder": "Meklēt datu kopās..."
+            },
+            "showMore": "Rādīt vairāk",
+            "findLocation": "Filtrēt pēc atrašanās vietas",
+            "countMessage": "atrastas datu kopas vaicājumam "
+        },
+        "sort": {
+            "lastCreated": "Pēdējo reizi izveidots",
+            "nameAZ": "Vārds, augošā secībā",
+            "nameZA": "Vārds, dilstošā secībā",
+            "relevance": "Atbilstība",
+            "lastUpdated": "Pēdējo reizi mainīts",
+            "sortBy": "Kārtot pēc"
+        },
+        "datasetCategories": {
+            "foundCategory": "{number} atrastas kategorijas",
+            "foundCategories": "{number} atrasta kategorija",
+            "noCategories": "Nav atrastas kategorijas"
+        },
+        "distributionLicense": {
+            "notFound": "Nav atrasta informācija par licenci.",
+            "openLA": "Atveriet licences palīgu",
+            "notFoundExtended": "Nav atrasta papildu informācija par licenci; lūdzu, pārbaudiet avotu, lai iegūtu papildu informāciju par licenci.",
+            "licensingAssistant": "Licencēšanas palīgs",
+            "notProvided": "Nav sniegta licence"
+        },
+        "visualisation": {
+            "previewAvailable": "Pieejams priekšskatījums",
+            "info": "Ja vizualizācija neielādējas dažu sekunžu laikā, klikšķiniet šeit.",
+            "loading": "Vizualizācija tiek ielādēta..."
+        },
+        "imprint": {
+            "msg": "IEVIETOJIET NOSPIEDUMU ŠEIT"
+        },
+        "home": {
+            "msg": "Atvainojiet, šajā lapā vēl nav satura. Apmeklējiet datu sadaļu, lai kaut ko redzētu!"
+        }
+    }
+}

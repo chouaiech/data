@@ -1,0 +1,36 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dqv:  <http://www.w3.org/ns/dqv#>
+PREFIX pv:   <https://piveau.eu/ns/voc#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX edp:  <https://europeandataportal.eu/voc#>
+
+SELECT ?statusCode (COUNT(?statusCode) as ?count) WHERE
+{
+    GRAPH ?g3
+    {
+        ?dist dqv:hasQualityMeasurement [
+            dqv:isMeasurementOf <%2$s> ;
+                dqv:value ?statusCode
+        ]
+    }
+    {
+        SELECT ?dist WHERE
+        {
+            GRAPH ?g2
+            {
+                ?ds dcat:distribution ?dist
+            }
+            {
+                SELECT ?ds WHERE
+                {
+                    GRAPH ?g1
+                    {
+                        ?g a dcat:Catalog ;
+                            dct:spatial <%1$s> ;
+                            dcat:dataset ?ds
+                    }
+                }
+            }
+        }
+    }
+}

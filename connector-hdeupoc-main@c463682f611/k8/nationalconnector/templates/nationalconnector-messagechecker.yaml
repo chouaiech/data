@@ -1,0 +1,57 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: nc-messagechecker-service
+  namespace: {{ .Values.namespace }}
+spec:
+  selector:
+    app: nc-messagechecker
+  ports:
+    - protocol: TCP
+      port: 8151
+      targetPort: 8151
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nc-messagechecker
+  namespace: {{ .Values.namespace }}
+  labels:
+    app: nc-messagechecker
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nc-messagechecker
+  template:
+    metadata:
+      labels:
+        app: nc-messagechecker
+    spec:
+      volumes:
+      - name: nc-configmap
+        configMap:
+          name: nc-configmap
+          items:
+            - key: config.yml
+              path: config.yml
+      - name: nc-pass
+        secret:
+          secretName: passwords
+          items:
+            - key: .domibuspass
+              path: .domibuspass
+      containers:
+      - name: nc-messagechecker
+        image: code.europa.eu:4567/healthdataeu-nodes/hdeupoc/nc_messagechecker:{{ .Values.releaseTag }}
+        ports:
+        - containerPort: 8151
+        volumeMounts:
+        - name: nc-configmap
+          mountPath: /usr/src/app/config.yml
+          subPath: config.yml
+          readOnly: true
+        - name: nc-pass
+          mountPath: /root/.domibuspass
+          subPath: .domibuspass
+          readOnly: true

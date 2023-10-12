@@ -1,0 +1,30 @@
+# Project files
+.idea
+.DS_Store
+prepare_upload.sh
+docker-compose-prod.yml
+docker-compose-dev.yml
+
+# Archive files
+archive/*
+*.xlsx
+*.csv
+*.zip
+*.log
+*.db
+*.sql
+
+# Python environment files
+*.pyc
+__pycache__/
+
+# OS files
+_MACOSX
+
+
+# other Files
+edp_stats7.py
+env
+*.env
+/.project
+/.pydevproject

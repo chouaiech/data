@@ -1,0 +1,246 @@
+{
+  "defaultMapExtent": [
+    {
+      "crs": "EPSG:4326",
+      "extent": [
+        -9.8814,
+        33.7852,
+        31.441,
+        61.7495
+      ]
+    },
+    {
+      "crs": "EPSG:3857",
+      "extent": [
+        -1100000,
+        4000000,
+        3500000,
+        8800000
+      ]
+    },
+    {
+      "crs": "EPSG:3035",
+      "extent": [
+        1896628,
+        1507846,
+        4662111,
+        6829874
+      ]
+    }
+  ],
+  "baseLayer": [
+    {
+      "type": "WMTS",
+      "crs": "EPSG:4326",
+      "url": "https://gisco-services.ec.europa.eu/maps/tiles/OSMCartoComposite/{TileMatrixSet}/{TileMatrix}/{TileCol}/{TileRow}.png",
+      "options": {
+        "matrixSet": "EPSG4326",
+        "topLeft": [
+          -180,
+          90
+        ],
+        "resolutions": [
+          0.703125,
+          0.3515625,
+          0.17578125,
+          0.087890625,
+          0.0439453125,
+          0.02197265625,
+          0.010986328125,
+          0.0054931640625,
+          0.00274658203125,
+          0.00137329101562,
+          0.000686645507812,
+          0.000343322753906,
+          0.000171661376953,
+          8.58306884766e-05,
+          4.29153442383e-05,
+          2.14576721191e-05,
+          1.07288360596e-05,
+          5.36441802979e-06,
+          2.68220901489e-06
+        ]
+      },
+      "minZoom": 1,
+      "attributions": [
+        "© <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors",
+        "© <a href=\"https://ec.europa.eu/eurostat/web/gisco\">GISCO</a>"
+      ]
+    },
+    {
+      "type": "WMTS",
+      "crs": "EPSG:3857",
+      "url": "https://gisco-services.ec.europa.eu/maps/tiles/OSMCartoComposite/{TileMatrixSet}/{TileMatrix}/{TileCol}/{TileRow}.png",
+      "options": {
+        "matrixSet": "EPSG3857",
+        "topLeft": [
+          -20037508.3428,
+          20037508.3428
+        ],
+        "resolutions": [
+          156543.033928,
+          78271.516964,
+          39135.758482,
+          19567.879241,
+          9783.9396205,
+          4891.96981025,
+          2445.98490513,
+          1222.99245256,
+          611.496226281,
+          305.748113141,
+          152.87405657,
+          76.4370282852,
+          38.2185141426,
+          19.1092570713,
+          9.55462853565,
+          4.77731426782,
+          2.38865713391,
+          1.19432856696,
+          0.597164283478
+        ]
+      },
+      "minZoom": 1,
+      "attributions": [
+        "© <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors",
+        "© <a href=\"https://ec.europa.eu/eurostat/web/gisco\">GISCO</a>"
+      ]
+    },
+    {
+      "type": "WMTS",
+      "crs": "EPSG:3035",
+      "url": "https://gisco-services.ec.europa.eu/maps/tiles/OSMCartoComposite/{TileMatrixSet}/{TileMatrix}/{TileCol}/{TileRow}.png",
+      "options": {
+        "matrixSet": "EPSG3035",
+        "topLeft": [
+          0,
+          6000000.0
+        ],
+        "resolutions": [
+          156543.033928,
+          78271.516964,
+          39135.758482,
+          19567.879241,
+          9783.9396205,
+          4891.96981025,
+          2445.98490513,
+          1222.99245256,
+          611.496226281,
+          305.748113141,
+          152.87405657,
+          76.4370282852,
+          38.2185141426,
+          19.1092570713,
+          9.55462853565,
+          4.77731426782,
+          2.38865713391,
+          1.19432856696,
+          0.597164283478
+        ]
+      },
+      "minZoom": 1,
+      "attributions": [
+        "© <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors",
+        "© <a href=\"https://ec.europa.eu/eurostat/web/gisco\">GISCO</a>"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "code": "bg",
+      "label": "Български"
+    },
+    {
+      "code": "cs",
+      "label": "čeština"
+    },
+    {
+      "code": "da",
+      "label": "dansk"
+    },
+    {
+      "code": "de",
+      "label": "Deutsch"
+    },
+    {
+      "code": "el",
+      "label": "Ελληνικά"
+    },
+    {
+      "code": "en",
+      "label": "English"
+    },
+    {
+      "code": "es",
+      "label": "español"
+    },
+    {
+      "code": "et",
+      "label": "eesti"
+    },
+    {
+      "code": "fr",
+      "label": "français"
+    },
+    {
+      "code": "ga",
+      "label": "Gaeilge"
+    },
+    {
+      "code": "hr",
+      "label": "Hrvatski"
+    },
+    {
+      "code": "hu",
+      "label": "Magyar"
+    },
+    {
+      "code": "it",
+      "label": "italiano"
+    },
+    {
+      "code": "lt",
+      "label": "lietuvių"
+    },
+    {
+      "code": "lv",
+      "label": "latviešu"
+    },
+    {
+      "code": "mt",
+      "label": "Malti"
+    },
+    {
+      "code": "nl",
+      "label": "Nederlands"
+    },
+    {
+      "code": "pl",
+      "label": "polski"
+    },
+    {
+      "code": "pt",
+      "label": "português"
+    },
+    {
+      "code": "ro",
+      "label": "română"
+    },
+    {
+      "code": "sk",
+      "label": "slovenčina"
+    },
+    {
+      "code": "sl",
+      "label": "slovenščina"
+    },
+    {
+      "code": "fi",
+      "label": "suomi"
+    },
+    {
+      "code": "sv",
+      "label": "svenska"
+    }
+  ],
+  "supportTicketPrefix": "https://www.europeandataportal.eu/en/feedback/form?"
+}

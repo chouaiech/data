@@ -1,0 +1,19 @@
+domibus:
+  username: {username} 
+  url: localhost
+  port: 8080
+  usehttps: false
+  from: domibus-blue
+  to: domibus-red
+gateway:
+  port: 8100
+  usehttps: true
+  keyFileName: localhost.key
+  crtFileName: localhost.crt
+  message_list_size: 100
+datapermit:
+  port: 8102
+  url: localhost
+  usehttps: false 
+  keyfilename: localhost.key
+  crtfilename: localhost.crt

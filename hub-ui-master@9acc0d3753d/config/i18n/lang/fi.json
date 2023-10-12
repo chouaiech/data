@@ -1,0 +1,969 @@
+{
+    "message": {
+        "metadata": {
+            "catalogRecord": "Luetteloluetteloa koskeva rekisteri",
+            "deleteItem": "Haluatko varmasti poistaa tämän kohdan?",
+            "availability": "Saatavuus",
+            "versionInfo": "Versiotiedot",
+            "chooseCategory": "Valitse luokka",
+            "chooseFile": "Valitse tiedosto",
+            "versionNotes": "Versiohuomautukset",
+            "review": "Tarkasta",
+            "tooltipKeywords": "Syötä tietoaineistosi avainsanat tähän!",
+            "pageDescriptionDataset": "Lisää otsikko, kuvaus, luettelo, avainsanat ja luokat tietoaineistoosi!",
+            "no": "Ei",
+            "relatedResources": "liittyvät kohteet",
+            "pageDescriptionPublisher": "Lisää julkaisijan tyyppi, nimi ja kotisivu tietoaineistoosi!",
+            "tooltipTitle": "Syötä tietoaineistosi otsikko tähän!",
+            "linkedData": "Linkitetyt tiedot",
+            "numSeries": "Tietosarjojen lukumäärä",
+            "releaseDate": "Julkaisupäivä",
+            "yes": "Kyllä",
+            "unitsOfMeasurement": "Mittausyksiköt",
+            "distributionsEmpty": "Tälle tietoaineistolle ei valitettavasti ole tällä hetkellä saatavilla ladattuja jakeluita. Lisää vähintään yksi jakelu!",
+            "enterDownloadUrl": "Enter Download Url",
+            "frequency": "Tiheys",
+            "type": "Tyyppi",
+            "telephone": "Puhelimitse",
+            "label": "Tunnusmerkki",
+            "addedToDataEuropaEU": "Lisätty dataan.europa.eu",
+            "tooltipCategories": "Valitse tietoaineistosi luokat tässä!",
+            "temporal": "Ajallinen kattavuus",
+            "enterDescription": "Syötä kuvaus",
+            "accrualPeriodicity": "Kertymän jaksottaisuus",
+            "showXMore": "Näytä {increment}  lisää ",
+            "identifier": "Tunniste",
+            "isPartOf": "Onko seuraavien osaluettelo:",
+            "dataServices": "Datapalvelut",
+            "chooseType": "Valitse tyyppi",
+            "organizationName": "Organisaation nimi",
+            "catalog": "Luettelo",
+            "qualityAnnotations": "Laatua koskevat huomautukset",
+            "update": "Päivitä ",
+            "showAll": "Näytä kaikki ",
+            "coordinates": "Koordinaatit",
+            "email": "S-posti",
+            "tooltipContactType": "Valitse tietoaineistosi yhteyspisteen tyyppi tässä!",
+            "checksum": "Tarkistussumma",
+            "enterEmail": "Syötä sähköpostiosoite",
+            "cancel": "Peruuta",
+            "conformsTo": "Vastaa",
+            "downloadUrl": "Latauksen URL-osoite",
+            "chooseLicense": "Valitse lisenssi",
+            "tooltipDescription": "Syötä tietoaineistosi kuvaus tähän!",
+            "tags": "Tagit",
+            "accessUrl": "Sivustoon siirtymisen URL",
+            "languages": "Kielet",
+            "title": "Otsikko",
+            "enterTitle": "Syötä otsikko",
+            "url": "URL-osoite",
+            "resource": "Tietoaineistolinkki",
+            "tooltipPublisherHomepage": "Syötä tietoaineistosi julkaisijan kotisivu tähän!",
+            "creator": "Luoja",
+            "description": "Viestisi",
+            "spatial": "Alueellinen",
+            "readLess": "Lue vähemmän",
+            "tooltipPublisherType": "Valitse tietoaineistosi julkaisijatyyppi tässä!",
+            "accessRights": "Käyttöoikeudet",
+            "tooltipDistributionDownloadUrl": "Syötä jakelusi lataus-URL tähän!",
+            "attributes": "Attribuutit",
+            "mediaType": "Median tyyppi",
+            "categories": "Luokat",
+            "pageDescriptionDistribution": "Lisää jakelut tietoaineistoosi!",
+            "pages": "Sivut",
+            "goToCatalog": "Mene luettelosivulle",
+            "tooltipDistributionDescription": "Syötä jakelusi kuvaus tähän!",
+            "identifiers": "Tunnisteet",
+            "scheme": "Ohjelma",
+            "contactPoints": "Yhteyspisteet",
+            "hasPart": "Jolla on alaluettelo",
+            "showLess": "Näytä vähemmän",
+            "byteSize": "Tavukoko",
+            "tooltipCatalog": "Valitse tietoaineistosi luettelo tässä!",
+            "methodologyPage": "MQA-metodologiasivu",
+            "hasVersion": "On versio",
+            "useDownloadUrl": "Haluan syöttää lataus-URL:in tiedoston lataamisen sijaan!",
+            "created": "Laadittu",
+            "themeTaxonomy": "Teemaluokitusjärjestelmä",
+            "homepage": "Kotisivu",
+            "address": "Osoite",
+            "visualisations": "Havainnollistaminen",
+            "tooltipDistributionFormat": "Valitse jakelusi muoto tässä!",
+            "upload": "Lataa",
+            "notFound": "Ei löytynyt",
+            "dimensions": "Mitat",
+            "addDistribution": "Lisää jakelu",
+            "name": "Nimi",
+            "metadataQuality": "Metadatan laatu",
+            "provenances": "Alkuperä",
+            "enterKeywords": "Syötä avainsanat",
+            "landingPage": "Laskeutumissivu",
+            "tooltipDistributionTitle": "Syötä jakelusi otsikko tähän!",
+            "license": "Lisenssi",
+            "chooseCatalog": "Valitse luettelo",
+            "enterHomepage": "Syötä kotisivu",
+            "tooltipDistributionLicence": "Valitse jakelusi lisenssi tässä!",
+            "readMore": "Lue lisää",
+            "format": "Muoto",
+            "chooseFormat": "Valitse muoto",
+            "publisher": "Julkaisija",
+            "dataset": "Tietoaineisto",
+            "updated": "Päivitetty",
+            "pageDescriptionUpload": "Lisää tiedostot jakeluusi!",
+            "spatialResource": "Spatiaalinen resurssi",
+            "distribution": "Jakelu",
+            "tooltipContactName": "Syötä tietoaineistosi yhteyspisteen nimi tähän!",
+            "distributions": "Jakelut",
+            "status": "Tila",
+            "datasets": "Tietoaineistot",
+            "showMore": "Näytä lisää",
+            "rights": "Oikeudet",
+            "tooltipContactEmail": "Syötä tietoaineistosi yhteyspisteen sähköpostiosoite tähän!",
+            "otherIdentifiers": "Muut tunnisteet",
+            "tooltipPublisherName": "Syötä tietoaineistosi julkaisijan nimi tähän!",
+            "enterName": "Syötä nimi",
+            "documentations": "Asiakirjat",
+            "sources": "Lähteet",
+            "modificationDate": "Muokkauspäivä",
+            "isVersionOf": "On versio",
+            "pageDescriptionContactPoint": "Lisää yhteyspisteen tyyppi, nimi ja sähköposti tietoaineistoosi!",
+            "goToDataset": "Mene tietoaineiston sivulle",
+            "updatedOnDataEuropaEU": "Päivitetty data.europa.eu"
+        },
+        "dataupload": {
+            "info": {
+                "defaultdescription": "Napsauta ”Inform-icon”-painiketta ja näytä kentän yksityiskohtainen selitys.",
+                "information": "Tiedottaminen"
+            },
+            "datasets": {
+                "step2": {
+                    "source": {
+                        "label": "Lähde: lähde"
+                    },
+                    "type": {
+                        "placeholder": "Dataset Typeplace” -teksti"
+                    },
+                    "subject": {
+                        "help": "Tietokokonaisuuden luokka."
+                    },
+                    "isReferencedByUrl": {
+                        "label": "URL-osoite"
+                    },
+                    "contactPointAddressStreet": {
+                        "placeholder": "Tietosisällön yhteyspisteen osoite Street placeholder text"
+                    },
+                    "conformsTo": {
+                        "placeholder": "Tietoaineistojen Vaihtoehdot – Painopisteen teksti"
+                    },
+                    "isVersionOf": {
+                        "label": "On versio Of"
+                    },
+                    "provenance": {
+                        "label": "Lähtöisyys"
+                    },
+                    "language": {
+                        "label": "Kieli"
+                    },
+                    "qualifiedAttribution": {
+                        "help": "Linkki edustajaan, jolla on jonkinlainen vastuu resurssista"
+                    },
+                    "temporal": {
+                        "placeholder": "Tietosarja Ajallinen paikkateksti"
+                    },
+                    "accessRights": {
+                        "info": "Tämä ominaisuus viittaa tietoihin, jotka osoittavat, onko datajoukko avoin data, onko siihen pääsyrajoituksia vai eikö se ole julkinen."
+                    },
+                    "identifier": {
+                        "help": "Tämä ominaisuus sisältää tietojoukon pääasiallisen tunnisteen."
+                    },
+                    "versionInfo": {
+                        "help": "Tietokokonaisuuden versionumero."
+                    },
+                    "hasVersion": {
+                        "info": "Tällä tarkoitetaan asiaan liittyvää datajoukkoa, joka on kuvatun datajoukon versio, laitos tai mukautus."
+                    },
+                    "wasGeneratedBy": {
+                        "add-label": "Lisää Was Generated By"
+                    },
+                    "qualifiedRelation": {
+                        "label": "Pätevä suhde"
+                    },
+                    "conformsToTitle": {
+                        "label": "Otsikko"
+                    },
+                    "creatorType": {
+                        "label": "Tyyppi"
+                    },
+                    "spatial": {
+                        "info": "Tämä ominaisuus koskee maantieteellistä aluetta, joka kuuluu datajoukon piiriin."
+                    },
+                    "temporalResolutionMonth": {
+                        "label": "Ajallinen resoluutio Kuukausi"
+                    },
+                    "contactPointName": {
+                        "label": "Nimi"
+                    },
+                    "temporalResolutionMinute": {
+                        "placeholder": "Aineiston ajallinen resoluutio Minuutin paikkatietoteksti"
+                    },
+                    "contactPointEmail": {
+                        "label": "Sähköposti"
+                    },
+                    "contactPointOrganisationName": {
+                        "label": "Organisaation nimi"
+                    },
+                    "contactPoint": {
+                        "help": "Tämä ominaisuus sisältää yhteystietoja."
+                    },
+                    "temporalResolutionDay": {
+                        "placeholder": "Aineiston ajallisen resoluution päivän paikkatietoteksti"
+                    },
+                    "provenanceText": {
+                        "placeholder": "Datajoukon provenance Provenance Provenance Text placeholder text (dataset Provenance Provenance Text placeholder text)"
+                    }
+                },
+                "step1": {
+                    "publisherType": {
+                        "placeholder": "Dataset Publisher Type placeholder -teksti"
+                    },
+                    "datasetID": {
+                        "label": "Tietokokonaisuuden tunnus"
+                    },
+                    "modified": {
+                        "label": "Muutettu"
+                    },
+                    "publisher": {
+                        "label": "Julkaisija"
+                    },
+                    "issued": {
+                        "help": "Tietokokonaisuuden virallisen liikkeeseenlaskun (esim. julkaisun) päivämäärä. Hyväksyttävät päivämäärämuodot: YYYY-KK-PP, YYYY-KK, YYYY."
+                    },
+                    "publisherHomepage": {
+                        "label": "Etusivu"
+                    }
+                },
+                "step3": {
+                    "spatialResolutionInMeters": {
+                        "help": "Pienin mahdollinen paikkatietoerottelu, joka voidaan erottaa datajoukossa."
+                    },
+                    "mediaType": {
+                        "placeholder": "Jakeluvälinetyypin paikkaa koskeva teksti"
+                    },
+                    "language": {
+                        "help": "Jakelussa käytetty kieli."
+                    },
+                    "title": {
+                        "info": "Tässä kiinteistössä on jakelukeskukselle annettu nimi. Tämä ominaisuus voidaan toistaa kuvauksen rinnakkaisissa kieliversioissa."
+                    },
+                    "status": {
+                        "label": "Tila"
+                    },
+                    "checksum": {
+                        "placeholder": "Jakelutarkistussumman paikkaa koskeva teksti"
+                    },
+                    "hasPolicyUrl": {
+                        "placeholder": "Jakkupolitiikka Url placeholder -teksti"
+                    },
+                    "page": {
+                        "help": "Sivu tai asiakirja tästä jakelusta."
+                    },
+                    "availability": {
+                        "placeholder": "Jakelun käytettävyyden paikkaa koskeva teksti"
+                    },
+                    "format": {
+                        "placeholder": "Jakelumuodon paikkakirjan teksti"
+                    },
+                    "conformsTo": {
+                        "add-label": "Lisää vaatimusten mukaisuutta"
+                    },
+                    "issued": {
+                        "label": "Myönnetty"
+                    },
+                    "description": {
+                        "help": "Tähän kiinteistöön sisältyy vapaatekstitili jakelusta."
+                    },
+                    "hasPolicy": {
+                        "help": "Oikeudet ilmaiseva politiikka."
+                    },
+                    "temporalResolutionMonth": {
+                        "label": "Ajallinen resoluutio Kuukausi"
+                    },
+                    "temporalResolutionHour": {
+                        "placeholder": "Aineiston ajallinen erottelukyky Hour placeholder -teksti"
+                    },
+                    "licence": {
+                        "help": "Lisenssi, jonka nojalla jakelu on saatavilla."
+                    },
+                    "date": {
+                        "label": "Päiväys"
+                    }
+                },
+                "stepper": {
+                    "step3": {
+                        "children": {
+                            "distribution3": {
+                                "name": "Lisätiedot"
+                            },
+                            "distribution4": {
+                                "name": "Lisätiedot"
+                            },
+                            "distribution1": {
+                                "name": "Yleiset tiedot"
+                            },
+                            "distribution2": {
+                                "name": "Lisätiedot"
+                            }
+                        }
+                    },
+                    "overview": "Data-aineistoa koskeva yleiskatsaus"
+                }
+            },
+            "catalogues": {
+                "step2": {
+                    "isPartOf": {
+                        "info": "Tämä ominaisuus viittaa siihen liittyvään luetteloon, johon kuvattu luettelo sisältyy fyysisesti tai loogisesti."
+                    },
+                    "language": {
+                        "help": "Kieli, jota käytetään teksteissä, jotka kuvaavat otsikoita, kuvauksia jne."
+                    },
+                    "spatial": {
+                        "info": "Tällä kiinteistöllä tarkoitetaan luettelon kattamaa maantieteellistä aluetta."
+                    },
+                    "hasPart": {
+                        "help": "Tämä ominaisuus viittaa siihen liittyvään luetteloon, joka on osa kuvattua luetteloa."
+                    },
+                    "creator": {
+                        "add-label": "Lisää luoja"
+                    },
+                    "creatorName": {
+                        "label": "Nimi"
+                    }
+                },
+                "step1": {
+                    "title": {
+                        "help": "Luettelossa oleva nimi. "
+                    },
+                    "description": {
+                        "info": "Tämä ominaisuus sisältää tietueen vapaan tekstitilin. Tämä ominaisuus voidaan toistaa kuvauksen rinnakkaisissa kieliversioissa."
+                    },
+                    "licence": {
+                        "placeholder": "Luettelo Licence Plaholder -teksti"
+                    },
+                    "modified": {
+                        "label": "Muutettu"
+                    },
+                    "licenceDescription": {
+                        "label": "Lisenssin kuvaus"
+                    },
+                    "homepage": {
+                        "help": "Verkkosivusto, joka toimii luettelon pääsivuna."
+                    }
+                },
+                "stepper": {
+                    "overview": "Luettelo – Yleiskatsaus",
+                    "step1": {
+                        "name": "Vaihe 1: Luo luettelo"
+                    },
+                    "step2": {
+                        "name": "Vaihe 2: Määrittele luettelon ominaisuudet"
+                    }
+                }
+            },
+            "clear": "Selkeä",
+            "deletemodal": {
+                "deleteDistribution": "Poista jakelu",
+                "areyousure": "Haluatko varmasti poistaa tämän jakelun?"
+            },
+            "createUniqueID": "Luo yksilöllinen tunnus",
+            "saveasdraft": "Tallenna luonnos",
+            "savedataset": "Tallenna tietoaineisto",
+            "next": "Seuraava vaihe",
+            "noDistributions": "Jakelua ei ole saatavilla",
+            "savedraft": "Tallenna luonnos",
+            "searchVocabulary": "Hakusanasto",
+            "error": {
+                "general": "Virhe on tapahtunut. Yritä myöhemmin uudelleen!",
+                "invalid-message": "Joitakin kenttiä puuttuu. Täytä kaikki vaaditut kentät!"
+            },
+            "type": "Tyyppi",
+            "preview": "Edellinen vaihe",
+            "submit": "Lähetä",
+            "publishdataset": "Julkaise tietoaineisto",
+            "validationtitle": "Validointi",
+            "publishdraft": "Julkaise luonnos",
+            "newDistribution": "Lisää toinen jakelu",
+            "validationerror": "Lomakkeen validoinnissa oli virhe!",
+            "createDataset": "Luo datajoukko",
+            "defineDatasetProperties": "Määrittele datajoukon ominaisuudet",
+            "createDistributions": "Luo jakeluja"
+        },
+        "datasetDetails": {
+            "subnav": {
+                "quality": "Laatu",
+                "similarDatasets": "Samankaltaiset tietoaineistot",
+                "categories": "Luokat",
+                "dataset": "Tietoaineisto",
+                "activityStream": "Aktiivisuusvirta"
+            },
+            "quality": {
+                "licenceAvailability": "Lisenssitiedot",
+                "mediaTypeAvailability": "Mediatyyppi",
+                "temporalAvailability": "Aikaperusteinen haku",
+                "accessibility": "Saavutettavuus",
+                "dcatApCompliance": "DCAT-AP-yhteensopivuus",
+                "distributions": {
+                    "downloadUrlStatusCode": "LatausUrl-tilakoodi",
+                    "accessUrlStatusCode": "AccessURL-tilan koodi"
+                },
+                "accessRightsVocabularyAlignment": "Käyttörajoitusten sanasto",
+                "contactPointAvailability": "Yhteyspiste",
+                "dateIssuedAvailability": "Julkaisupäivä",
+                "nodata": "Puolellamme näyttää olevan ongelma. Laadukkaita tietoja ei voitu ladata. Yritä myöhemmin uudelleen.",
+                "dateModifiedAvailability": "Muokkaustiedot",
+                "contextuality": "Tilannekohtaisuus",
+                "reusability": "Uudelleenkäytettävyys",
+                "accessUrlStatusCode": "Useimmin käytettyjen verkko-osoitteiden tilakoodit",
+                "downloadUrlStatusCode": "Useimmin käytettyjen latausosoitteiden tilakoodit",
+                "formatMediaTypeVocabularyAlignment": "Formaatti/mediatyyppi sanastosta",
+                "metaDataQuality": "Metadatan laatu",
+                "downloadUrlAvailability": "Latausosoite",
+                "dataQuality": "Tietojen laatu",
+                "categoryAvailability": "Luokat",
+                "interoperability": "Yhteentoimivuus",
+                "findability": "Löydettävyys",
+                "spatialAvailability": "Maantieteellinen haku",
+                "formatAvailability": "Muoto",
+                "byteSizeAvailability": "Tiedostokoko",
+                "accessRightsAvailability": "Käyttörajoitukset",
+                "distributionQuality": "Jakelun laatu",
+                "publisherAvailability": "Julkaisija",
+                "keywordAvailability": "Avainsanojen käyttö",
+                "rightsAvailability": "Oikeudet"
+            },
+            "follow": "Seuraa",
+            "accessURLTooltip": "Tämä linkki voi sisältää tietoa siitä, miten saada viitetiedosto tai on suora linkki viitetiedostoon.",
+            "dataStream": "Data-altistukset",
+            "downloadURLTooltip": "Tämä on suora linkki viitetiedostoon.",
+            "upload": {
+                "organisation": "Organisaatio",
+                "individual": "Yksilöllinen",
+                "resetText": "Palautetaanko koko lomake?",
+                "person": "Henkilö",
+                "unknownFormat": "Tuntematon muoto",
+                "reset": "Palauta lomake"
+            },
+            "preview": "Esikatselu",
+            "feedback": "Palaute",
+            "access": "Pääsy tietoihin",
+            "datasets": {
+                "modal": {
+                    "downloadingFiles": "Tiedostojen lataaminen",
+                    "zipNumberOfFiles": "Tiedostot zip {numero-tiedostot",
+                    "waitingForDownload": "(odottaa lataamista)",
+                    "downloadProgress": "Lataa Progress-ohjelma",
+                    "notDownloaded": "Ei ladattu",
+                    "error": "Virhe! Try Again",
+                    "okay": "Okay",
+                    "cancel": "Peruuta",
+                    "close": "Sulje",
+                    "coupleOfMinutes": "(tämä voi kestää pari minuuttia)",
+                    "notDownloadedTooltip": "Lisätietoja on liitteenä olevassa file_report.csv-tiedostossa."
+                },
+                "leavePageWindow": {
+                    "text": "Haluatko varmasti poistua maasta? Download-toiminto pysähtyy, kun lähdet!"
+                },
+                "downloadAll": "Lataa kaikki"
+            },
+            "translation": {
+                "update": "Tämän tietoaineiston käännöksen päivitys on meneillään.",
+                "original": "Alkuperäinen kieli",
+                "message": "Tämän tietoaineiston otsikko ja kuvaus \novat konekäännetyt.",
+                "noTranslation": "Tämä data-aineisto ei ole vielä saatavilla ilmoittamallasi kielellä. Käännökset ovat tekeillä.",
+                "link": "Tutustu tietoaineistoon alkuperäisellä kielellä napsauttamalla tästä"
+            },
+            "cite": "Vrt.",
+            "relatedResources": "Asiaan liittyvät resurssit",
+            "share": "Jaa",
+            "geoVisualisation": "Avaa Geo-visualisointi",
+            "download": "Lataa",
+            "intro": {
+                "distribution": "Seuraavassa luetellaan tietokokonaisuuden kaikkien jakautumisten laatumittaukset. Tietoa indikaattorimittauksissa käytettävistä mittareista on saatavilla <a href='/mqa/methodology?locale={locale}'>menetelmäsivulta</a>.",
+                "metadataQuality": "Metatietojen laadunvarmistuksen tarkoituksena on auttaa datan tarjoajia ja dataportaaleja tarkistamaan metatietojaan eri indikaattoreiden perusteella. Tietoa indikaattorimittauksissa käytettävistä mittareista on saatavilla <a href='/mqa/methodology?locale={locale}'>menetelmäsivulta</a>."
+            },
+            "about": "tietoja",
+            "datasetFeed": "Data-aineisto Feed",
+            "delete": "Poista",
+            "openResource": "Siirry resurssiin",
+            "visualisation": "Avaa visualisointi",
+            "isUsedBy": "On käyttänyt",
+            "unfollow": "Lopeta seuraaminen",
+            "shareOn": "Jaa kohteessa",
+            "additionalInfo": "Lisätietoja",
+            "contactPoints": {
+                "organizationName": "Organisaation nimi"
+            },
+            "edit": "Muokkaa",
+            "menu": "Valikko",
+            "manage": "Hallinnoi ",
+            "geoInfo": "Tietoaineiston laajuus",
+            "options": "Vaihtoehdot"
+        },
+        "tooltip": {
+            "catalogDetails": {
+                "created": "Luettelon virallisen liikkeeseenlaskun (esim. julkaisun) päivämäärä.",
+                "publisher": "Taho (organisaatio), joka vastaa luettelon asettamisesta saataville.",
+                "updated": "Viimeisin päivämäärä, jona luetteloa muutettiin.",
+                "description": "Luettelon kuvaus.",
+                "title": "Luettelon nimi.",
+                "metadata": "Vaihtoehtoja luettelon metatietojen lataamiseksi erilaisista linkitetyistä dataesityksistä.",
+                "language": "Kieli, jota käytetään luettelon tietoaineistojen otsikoita, kuvauksia jne. kuvaavissa metatiedoissa. Tämä ominaisuus voidaan toistaa, jos metatiedot toimitetaan useilla kielillä.",
+                "spatial": "Luettelon kattama maantieteellinen alue."
+            },
+            "datasetDetails": {
+                "frequency": "Tietosarjan päivitystiheys.",
+                "dataset": "Tietosisältö tai palvelutiedot.",
+                "updated": "Viimeisin päivämäärä, jona tietoaineistoa tai palvelua on muutettu tai muutettu.",
+                "versionInfo": "Tietojoukon versionumero tai muu versionimi.",
+                "distributions": {
+                    "updated": "Viimeisin päivä, jona jakelua muutettiin tai muutettiin.",
+                    "title": "Jakelukeskukselle annettu nimi.",
+                    "linkedSchema": "Vakiintunut skeema, jonka mukainen kuvattu jakelu on.",
+                    "linkedData": "Vaihtoehdot jakelumetatietojen lataamiseksi erilaisissa linkitetyissä dataesityksissä.",
+                    "status": "Jakauman maturiteetti. ON PITÄÄ ottaa yksi arvoista, jotka on saatu valmiiksi, depreced, Under Development, Withdrawn.",
+                    "licence": "Lisenssi, jonka nojalla jakelu on saatavilla.",
+                    "availability": "Ilmoitetaan, kuinka kauan tietojoukon jakelu on tarkoitus pitää saatavilla.",
+                    "rights": "Lausunto, jossa täsmennetään jakeluun liittyvät oikeudet.",
+                    "checksum": "Mekanismi, jolla voidaan varmistaa, että jakelun sisältö ei ole muuttunut. Tarkistussumma liittyy lataamiseen Url.",
+                    "mediaType": "Levityksen mediatyyppi sellaisena kuin se on määritelty IANA:n hallinnoimassa virallisessa mediatyyppien rekisterissä.",
+                    "spatialResolution": "Pienin paikkatietoerottelu, joka voidaan erottaa datajoukon jakaumasta metreinä mitattuna.",
+                    "byteSize": "Sisältää levityksen koon tavuina.",
+                    "download": "Lataa tai käyttää jakelua.",
+                    "type": "Linkkejä johonkin jakelutyyppiin, esim. siihen, että kyseessä on visualisointi.",
+                    "created": "Jakelun virallinen liikkeeseenlaskupäivä (esim. julkaisupäivä).",
+                    "language": "Jakelussa käytetty kieli.",
+                    "options": "Avaa esikatselu jakelusta.",
+                    "temporalResolution": "Viittaa vähimmäisaikaan, joka voidaan purkaa datajoukon jakaumassa."
+                },
+                "otherIdentifier": "Tietokokonaisuuden toissijainen tunniste, kuten MAST/ADS16, DataCite17, DOI18, EZID19 tai W3ID20.",
+                "numSeries": "Sisältää datajoukkoon sisältyvien tietosarjojen määrän.",
+                "versionOf": "Asiaan liittyvä datajoukko, josta kuvattu datajoukko on versio, painos tai mukautus.",
+                "unitsOfMeasurement": "Aineistossa olevien havaintojen mittayksikkö.",
+                "distribution": "Tietokokonaisuuden tai palvelun fyysinen ilmentymä tietyssä muodossa, esim. verkkolinkki tiedostoon.",
+                "quality": "Tämän tietokokonaisuuden tai palvelun metadatan laatutiedot.",
+                "catalogue": "Luettelo, johon tämä tietoaineisto tai palvelu kuuluu.",
+                "linkedData": "Vaihtoehdot datajoukon tai palvelun metadatan lataamiseksi erilaisissa linkitetyissä dataesityksissä.",
+                "versionNotes": "Kuvaus tämän version ja tietojoukon aiemman version välisistä eroista. Tämä ominaisuus voidaan toistaa versiomuistien rinnakkaisissa kieliversioissa.",
+                "similarDatasets": "Muut tämänkaltaiset tietoaineistot tai palvelut.",
+                "identifier": "Tietojoukon pääasiallinen tunniste, esim. URI tai muu yksilöivä tunniste luettelon yhteydessä.",
+                "uriRef": "URIref on data.europa.eu-tietopalvelun yksilöllinen tunniste",
+                "creator": "Taho, joka on ensisijaisesti vastuussa tietokokonaisuuden tuottamisesta.",
+                "spatial": "Datajoukon kattama maantieteellinen alue.",
+                "language": "Datajoukon kieli.",
+                "format": "Tätä tietoaineistoa tai palvelua varten käytettävissä oleva muoto.",
+                "conformsTo": "Täytäntöönpanosääntö tai muu täsmennys.",
+                "landingPage": "Verkkosivusto, jolla on pääsy tietojoukkoon, sen jakeluun ja/tai lisätietoihin.",
+                "provenance": "Tietosarjan lineaarista kuvausta koskeva ilmoitus.",
+                "documentation": "Sivu tai asiakirja tästä tietokokonaisuudesta.",
+                "publisher": "Yhteisö (organisaatio), joka vastaa tietoaineiston tai palvelun asettamisesta saataville.",
+                "created": "Tietoaineiston tai palvelun virallinen myöntämispäivä (esim. julkaisupäivä).",
+                "relatedResource": "Asiaan liittyvät resurssit.",
+                "categories": "Tähän tietosisältöön tai palveluun osoitetut luokat.",
+                "share": "Jakaa tämän data-aineiston tai palvelun sosiaalisen median kautta.",
+                "feedback": "Kerro meille, mitä mieltä olet tästä tietokokonaisuudesta tai palvelusta.",
+                "dqvData": "Vaihtoehdot datajoukon tai palvelun laatua koskevien mittausten lataamiseksi erilaisissa linkitetyissä dataesityksissä.",
+                "hasVersion": "Asiaan liittyvä datajoukko, joka on kuvatun datajoukon versio, painos tai mukautus"
+            },
+            "quality": {
+                "keywordAvailability": "Avainsanat tukevat hakua suoraan ja parantavat siten datajoukon &lt;br>&lt;br>Järjestelmä tarkistaa, onko avainsanat määritelty. Avainsanojen määrällä ei ole vaikutusta pisteytykseen.",
+                "formatMediaTypeVocabularyAlignment": "Tarkista kostea muoto ja mediatyyppi kontrolloidulla sanastolla.lt;br>&br>Mocabulary on data.europa.eu GitLab repository.lt;br>&lt;br>Menettyyppi tarkistetaan IANA-luettelosta.",
+                "licenceAvailability": "Lisenssi on arvokas tieto datan. &br> &lt;br>Tarkistetaan.",
+                "publisherAvailability": "Kustantaja on henkilö tai organisaatio, joka on julkaissut datan. &br>&lt;br>Tarkastetaan, onko ominaisuus asetettu vai ei.",
+                "formatAvailability": "Tässä kentässä ilmoitetaan tiedostomuoto.. &br>&lt;br>Tarkataanko ominaisuus märkänä vai ei.",
+                "temporalAvailability": "Ajallisten tietojen käyttö mahdollistaisi sen, että käyttäjät voivat tehdä oikea-aikaisesti kasvotusten haun. &br> &lt;br>Tarkistetaan, onko ominaisuus asetettu vai ei.",
+                "rightsAvailability": "Joissakin tapauksissa tietojoukkoon ei voida soveltaa erityistä lisenssiä. ”Oikeudet”-kenttää voidaan käyttää täsmentämään viittaus resurssiin, joka antaa käyttäjälle tietoa oikeuksista, joita hänellä on data-aineistoa. &br>&lt;br>Tarkistetaan kosteikkona.",
+                "mediaTypeAvailability": "Tässä kentässä ilmoitetaan mediatyyppi.. &br>&lt;br> Tarkistetaan, onko ominaisuus asetettu vai ei.",
+                "accessRightsVocabularyAlignment": "Kontrolloidun sanaston käyttö lisää uudelleenkäytettävyyttä. &br>&lt;br>Tarkistetaan kosteana käyttöoikeudet sisältävää hallittua sanastoa.",
+                "dcatApCompliance": "DCAT-AP-vaatimusten noudattaminen lasketaan kaikista luettelossa olevista lähteistä ja tietokokonaisuuksista. Tämä tarkistus tehdään vain, jos metatiedot on alun perin korjattu DCAT-AP-muodossa tai voimassa olevana derivate. &lt;br> DCAT-AP:n avulla kuvataan linkitettyjä julkisia tietoja Euroopassa. Data.europe.eu-portaalissa voidaan myös kerätä metatietoja, jotka eivät täysin vastaa DCAT-AP:n vaatimuksia. DCAT-AP:n vaatimusten noudattamisen parantamiseksi MQA tarkastaa jokaisen metatiedon DCAT-AP:n vaatimustenmukaisuuden. &br> &lt;br>metatiedot validoidaan SHACL-muotojen perusteella. Metatiedot eivät ole vaatimusten mukaisia, jos SHACL-validointiraportti on vähintään yksi numero.lt;br> &lt;br>MQA käyttää dataa.europe.eu:n DCAT-AP SHACL-validointisvice.lt;br>&lt;br> SCHACL on W3C:n suositus ja sitä käytetään RDF-kaavioiden validointiin eri muodoissa.",
+                "accessRightsAvailability": "Tässä kentässä ilmoitetaan, onko datan käyttöoikeus julkinen vai rajoitettu. &br>&lt;br>Tarkistetaan, onko ominaisuus asetettu vai ei.",
+                "accessUrlStatusCode": "AccessURL ei välttämättä ole suora linkki tietoihin, vaan se voi viitata myös URL-osoitteeseen, joka antaa pääsyn tietojoukkoon tai jossa lisätietoja tietokokonaisuudesta on saatavilla. &br> &br>Määrän URL-osoitteen saatavuus tarkistetaan HTTP-HEAD-pyynnön avulla. Jos vastauksen tilakoodi on alueella 200 tai 300, resurssin saavutettavuus arvioidaan positiivisesti.",
+                "categoryAvailability": "Luokat auttavat käyttäjiä tutustumaan tietoaineistoihin temaattisesti.lt;br>&lt;br>Tarkistetaanko datajoukkoon yksi tai useampi luokka. Annettujen luokkien lukumäärällä ei ole vaikutusta pisteytykseen.",
+                "downloadUrlStatusCode": "Jos latausUrl on olemassa, käytettävyys tarkastetaan. &br>&lt;br>Määrätyllä URL-osoitteella varmistetaan e-resurssien saatavuus HTTP-HEAD-pyynnön kautta. Jos vastauksen tilakoodi on alueella 200 tai 300, resurssin saavutettavuus arvioidaan positiivisesti.",
+                "byteSizeAvailability": "Määrittää tiedoston koon ttes. &lt;br>&lt;br>Tarkistetaan märkänä, onko ominaisuus asetettu vai ei.",
+                "downloadUrlAvailability": "LatausUrl on suora linkki viitedataan. &br> &lt;br>Tarkistetaan, onko ominaisuus asetettu vai ei.",
+                "spatialAvailability": "Paikkatietojen käyttö mahdollistaisi sen, että käyttäjät löytäisivät data-aineiston, jossa on geospektioitu haku. &br> &lt;br>Tarkistetaan, onko ominaisuus asetettu vai ei.",
+                "contactPointAvailability": "Yhteyspiste sisältää tietoja, joihin on vastattava, jos kyseessä on data. &br>&lt;br> Tarkistetaan, onko ominaisuus asetettu vai ei.",
+                "dateIssuedAvailability": "Tietokokonaisuuden tai jakelun julkaisupäivä. &br> &lt;br>Tarkistetaan, onko ominaisuus asetettu vai ei.",
+                "dateModifiedAvailability": "Päivämäärä, jona tietosisältöä tai jakelua on viimeksi muutettu. &br> &lt;br>Tarkistetaan, onko ominaisuus asetettu vai ei."
+            },
+            "catalogRecord": "Kuvaus tietojoukon luettelossa olevasta merkinnästä.",
+            "lastModified": "Lajitellaan tulokset viimeisimmän tietojoukon muutoksen mukaan",
+            "editorialContent": "Hae toimituksellista sisältöä, esim. uutisia, tapahtumia, käyttötapauksia",
+            "datasets": "Tietoaineistojen haku",
+            "relevance": "Lajittele datajoukko merkityksellisyyden mukaan. Merkityksellisyys lasketaan otsikon, avainsanojen ja kuvauksen hakusanatulosten perusteella.",
+            "contactPoints": "Yhteystiedot, joita voidaan käyttää tietojoukkoa koskevien kommenttien lähettämiseen.",
+            "locationFilter": "Jos haluat tarkastella tiettyyn paikkaan liittyviä tietoaineistoja, napsauta karttaa ja valitse se kynäkuvakkeella. Napsauta ”Apply”-painiketta suodattaaksesi vain valittua aluetta koskevat tietokokonaisuudet. Huomaa, että hakutuloksiin sisällytetään ainoastaan data-aineistot, jotka sisältävät paikkatietometatietoja.",
+            "catalogues": "Hae luetteloita. Luettelo sisältää tietoaineistoja ja palveluja"
+        },
+        "visualisationDistribution": {
+            "barChartExplain": "Pylväskaaviossa esitetään numeeriset arvot kategorioiden tasoille tankoina. Tasot esitetään yhdelle kartta-akselille ja arvot toiselle akselille.",
+            "semicolon": "Puolipistemäärä",
+            "exportSucceeded": "Konfiguraatio luotiin onnistuneesti!",
+            "yAxis": "y Axis",
+            "pipe": "Putki",
+            "cancel": "Peruuta",
+            "fileTypeNotSupported": "Yrität tehdä tiedostotyypistä, jota ei ole tuettu.",
+            "confirm": "Vahvista, että",
+            "fileNotFound": "Yrität tallentaa tiedoston, jonka sisältöä ei ole voitu lukea.",
+            "comma": "Pilkkua",
+            "space": "Avaruusala",
+            "exportDataTip": "Syöttökenttä ei saa olla tyhjä!",
+            "countRow": "Laskenta",
+            "exportMessagesHeader": "Haluatko varmasti tallentaa kokoonpanosi? Tarkista se ennen tallentamista!",
+            "exportMessagesLabel": "Kirjoita kokoonpanosi nimi",
+            "exportNameExistsAlert": "Nimi on jo käytössä. Kokeile toista!",
+            "hiddenMessages": "olet piilossa – näytä kaikki",
+            "connectedLineChart": "Yhdistettyä linjaa koskeva kuvio",
+            "barChart": "Pylvään kuvio",
+            "someRows": "Joitakin rivejä",
+            "row": "Rivit",
+            "tab": "Välilehti",
+            "connectToDatabaseError": "Virhe tietojen saamisessa tietokannasta. Yritä se tai tarkista syöttämäsi tiedot uudelleen!",
+            "badgateway": "Palvelinta ei ole saatavilla tai DNS-nimi on virheellinen.",
+            "goBack": "Go Back",
+            "forbidden": "Pyydettyjen resurssien käyttö on kielletty.",
+            "unauthorized": "Pyyntöä ei ole sovellettu. Siinä ei ole päteviä todentamisvaltuuksia.",
+            "xAxis": "X toimintalinja",
+            "delimiter": "Raja-arvo",
+            "someColumns": "Joitakin sarakkeita",
+            "exportMessagesFooter": "Napsauta Vahvista-painiketta, jos haluat tallentaa sen!",
+            "table": "Taulukko",
+            "connectedLineChartExplain": "Se on toisiinsa yhteydessä oleva sirontaputki, joka on pohjimmiltaan hajakuormituksen ja vuorauksen välinen hybridi. Sinun on valittava Xaxis, jotta se saadaan."
+        },
+        "sort": {
+            "lastCreated": "Viimeksi luotu",
+            "lastUpdated": "Viimeksi muokattu",
+            "nameZA": "Nimi Å-A",
+            "relevance": "Tärkeys",
+            "sortBy": "Järjestys",
+            "nameAZ": "Nimi, nouseva"
+        },
+        "distributionLicense": {
+            "openLA": "Avaa lisenssiassistentti",
+            "notProvided": "Ei lisenssiä käytettävissä",
+            "licensingAssistant": "Lisenssiassistentti",
+            "notFound": "Lisenssitietoa ei löydy.",
+            "notFoundExtended": "Lisenssitietoa ei löydy. Tarkista lähteestä tarkemmat lisenssitiedot."
+        },
+        "catalogs": {
+            "countMessageSingular": "luettelo löytyi ",
+            "geoBoundsMessagePre": "Hakusi on rajattu seuraavaan:",
+            "downloadAsLinkedData": "Luettelo Metadata linkitettynä datana",
+            "countMessageNoResult": "Luetteloita ei löytynyt ",
+            "searchBar": {
+                "placeholder": "Hae luetteloita..."
+            },
+            "countMessage": "luetteloa löytyi haulla ",
+            "loadingMessage": "Ladataan katalogeja…",
+            "geoBoundsMessageRemove": "Sulje tämä ilmoitus rajoituksen poistamiseksi tai käytä palautustoimintoa."
+        },
+        "datasetFacets": {
+            "facets": {
+                "datascopeField": {
+                    "countryData": "Kansalliset tiedot",
+                    "io": "Kansainväliset tiedot",
+                    "eu": "Euroopan unionin tiedot"
+                },
+                "datascope": "Tietojen laajuus",
+                "dataServices": {
+                    "dataServicesOnly": "Ainoastaan datapalvelut"
+                },
+                "country": "Maat",
+                "format": "Formaatit",
+                "scoring": {
+                    "badScoring": "Mikä tahansa",
+                    "sufficientScoring": "Kohtalainen",
+                    "goodScoring": "Hyvä",
+                    "excellentScoring": "Erinomainen"
+                },
+                "publisher": "@:message.metadata.publisher",
+                "license": "Lisenssit",
+                "keywords": "Avainsanat",
+                "categories": "Luokat",
+                "catalog": "Luettelot",
+                "countrydata": "Maatiedot",
+                "tags": "Tagit"
+            },
+            "title": "Suodattimet",
+            "and": "JA",
+            "settings": "Suodatinasetus",
+            "scoring": "Pistelasku",
+            "or": "tai",
+            "europeanCatalogs": "Eurooppalaiset luettelot",
+            "operator": "Ylläpitäjä"
+        },
+        "header": {
+            "navigation": {
+                "data": {
+                    "euInternationalData": "EU ja kansainväliset tiedot",
+                    "datasets": "Tietoaineistot",
+                    "catalogs": "Luettelot",
+                    "metadataquality": "Metadatan laatu",
+                    "sparqleditor": "SPARQL-editori",
+                    "statistics": "Tilastot",
+                    "sparqlsearch": "SPARQL-haku",
+                    "title": "Data"
+                },
+                "impactStudies": {
+                    "opendataimpact": "Avoimen datan vaikutukset",
+                    "tellUsYourStory": "Kerro meille tarinasi",
+                    "studies": "Tutkimukset",
+                    "opendatamaturity": "Avoimen datan kypsyys",
+                    "countryInsights": "Maakohtaiset tiedot",
+                    "useCases": "Käyttötapaukset",
+                    "title": "Vaikutukset ja tutkimukset",
+                    "overview": "Yleiskatsaus"
+                },
+                "training": {
+                    "licensingAssistant": "Lisenssiassistentti",
+                    "dataProvidersGuide": "Datan tuottajan opas",
+                    "moreTrainingMaterial": "Lisää koulutusmateriaalia",
+                    "whatIsOpenData": "Mitä avoin data on",
+                    "title": "Koulutus",
+                    "elearning": "eLearning"
+                },
+                "about": {
+                    "beHarvestedByUs": "Tarjoudu haravointikohteeksemme",
+                    "documentation": "Dokumentaatio",
+                    "title": "Tietoja",
+                    "europeanDataPortal": "Euroopan Dataportaali"
+                },
+                "newsEvents": {
+                    "events": "Tapahtumat",
+                    "news": "Uutiset",
+                    "title": "Uutiset ja tapahtumat",
+                    "stories": "Tietotarinat"
+                },
+                "covid-19": {
+                    "title": "COVID-19",
+                    "datasets": "Tietoaineistot",
+                    "overview": "Yleiskatsaus",
+                    "initiatives": "Tietoon liittyvät hankkeet"
+                }
+            },
+            "subnav": {
+                "newsletter": "Uutiskirje",
+                "cookies": "Evästeet",
+                "login": "Sisäänkirjautuminen",
+                "contact": "Ota yhteyttä",
+                "search": "Hae",
+                "logout": "Kirjaudu ulos",
+                "legalNotice": "Oikeudellinen huomautus",
+                "faq": "UKK"
+            },
+            "european": "Euroopan",
+            "searchInputPlaceholder": "Hae sivun sisällöstä…",
+            "dataPortal": "Dataportaali",
+            "searchOptions": {
+                "siteContent": "Sivuston sisältö",
+                "datasets": "Tietoaineistot"
+            }
+        },
+        "catalogues": {
+            "foundCataloguesSingular": "1 luettelo löytyi",
+            "foundCatalogues": "löydettyjen luetteloiden lukumäärä"
+        },
+        "datasets": {
+            "foundDatasets": "tietoaineistot löytyvät",
+            "countMessage": "tietoaineistoa löytyi haulla ",
+            "foundDatasetsSingular": "1 tietokokonaisuus löydetty",
+            "meta": {
+                "translationNotComplete": "Käännös ei ole valmis"
+            },
+            "geoBoundsMessageRemove": "Sulje tämä ilmoitus rajoituksen poistamiseksi tai käytä palautustoimintoa.",
+            "createDataset": "Luo tietoaineisto",
+            "geoBoundsMessagePre": "Hakusi on rajattu seuraavaan:",
+            "loadingMessage": "Ladataan tietoaineistoja…",
+            "countMessageSingular": "löytyi tietoaineisto",
+            "datasetsFeed": "Tietoaineistojen syöte",
+            "scoreDisclaimer": "Tämänhetkiset hakutulokset on suodatettu, jotta ne vastaavat vasemmalla määritettyä laadun vähimmäistulosta Katso {0}, jos haluat lisätietoa laatumittauksistamme.",
+            "noResult": "Haulle  ei löytynyt tietoaineistoja",
+            "findLocation": "Suodata sijainnin mukaan",
+            "searchBar": {
+                "placeholder": "Hae tietoaineistoja"
+            },
+            "createCatalogue": "Luo luettelo",
+            "saveQuery": "Tallenna haku"
+        },
+        "footer": {
+            "helpUsImproveText": "Palautteesi avulla voimme parantaa yleistä käyttökokemusta. Onko sinulla ehdotuksia?",
+            "lastUpdated": "Viimeksi päivitetty",
+            "links": {
+                "cookies": "Evästeet",
+                "contact": "Ota yhteyttä",
+                "faq": "UKK",
+                "newsletter": "Uutiskirje",
+                "search": "Haku",
+                "login": "Sisäänkirjautuminen",
+                "legalNotice": "Oikeudellinen huomautus"
+            },
+            "subscribe": "Tilaa",
+            "helpUsImprove": "Auta meitä parantamaan",
+            "newsletterText": "Tilaa uutiskirjeemme",
+            "newsletter": "Uutiskirje",
+            "followUs": "Seuraa meitä",
+            "managedBy": "Euroopan unionin julkaisutoimiston hallinnoima.",
+            "fundedBy": "Rahoitetaan Euroopan unionin"
+        },
+        "helpIcon": {
+            "dataServices": "Data.europa.eu-järjestelmässä jakelu voi toimia myös datapalveluna. Se ei siis liity ladattavaan tiedostoon vaan sovellusrajapintaan. Valitse ”Kyllä”, jos haluat suodattaa datajoukkoja, joilla on vähintään yksi datapalvelu.",
+            "scoring": "data.europa.eu mittaa kaikkien tietokokonaisuuksien ja palvelujen laatua. Data/Metadatan laatua koskevassa osiossa on menetelmäsivu, jossa kuvataan prosessia. Kutakin tietokokonaisuutta ja palvelua edustaa myös laatupistemäärä. Tämä pistemäärä voi olla riittävä, hyvä tai erinomainen. Jos suodatin ”riittävä+” asetetaan, näytetään kaikki tietokokonaisuudet ja palvelut, joilla on riittävä tai parempi pistemäärä. Sama pätee ”hyvään”. ”Erinomainen” sisältää vain erinomaiset tietokokonaisuudet ja palvelut.",
+            "license": "Lisenssissä kuvataan oikeudelliset edellytykset, joiden mukaisesti tietoaineistoa voidaan käyttää.",
+            "dataScope": "EU:n data sisältää tietoaineistoja ja palveluja EU:n toimielimiltä. Kansainvälisellä datalla on EU:n ulkopuolelta tulevia tietoaineistoja ja palveluja. Maakohtaiset tiedot sisältävät tietoaineistoja ja palveluja EU:n jäsenvaltioista.",
+            "format": "Kussakin tietokokonaisuudessa on viittauksia tiedostoihin tai palveluihin. Muoto kuvaa näiden viitetietojen tiedosto- tai palvelutyyppiä. Kaikkia tiedostotyyppejä ei voida käyttää kaikkiin tarkoituksiin. Esimerkiksi laskelma voidaan tehdä paremmin CSV-tiedostolla PDF-tiedoston sijaan.",
+            "catalog": "Luettelo tai tietokanta, jossa säilytetään tietoaineistoja ja -palveluja. Luettelo edustaa enimmäkseen portaalia, josta tietoaineistot on kerätty.",
+            "settings": "Päätä, onko suodattimen valinta yksinomainen vai ei. Jos valitset JA kaikkien hakutulosten on vastattava kaikkia suodattimia. Tai tarkoittaa, että vähintään yhden suodattimen on vastattava toisiaan.",
+            "categories": "Luokka koostuu tietoaineistoista, joilla on yhteinen aihe.",
+            "publisher": "Julkaisija on yhteisö (esim. organisaatio), joka vastaa datajoukon asettamisesta saataville.",
+            "keywords": "Avainsanat ovat ideoita ja aiheita, jotka määrittävät sisällön sisällön."
+        },
+        "userQueries": {
+            "executeQuery": "Tee kysely",
+            "queriesFound": "{number} kyselyä löytyi",
+            "placeholderNotes": "esim. joitain hyödyllisiä muistiinpanoja kyselystä",
+            "querySaved": "Kysely tallennettu",
+            "queryFound": "{number} kysely löytyi",
+            "myQueries": "Omat kyselyt",
+            "noDescription": "Tällä kyselyllä ei ole kuvausta",
+            "noQueryFound": "Kyselyä ei löytynyt",
+            "queryDeleted": "Kysely poistettu",
+            "searchAllQueries": "Hae kyselyitä…",
+            "save": "Tallenna kysely",
+            "areYourSure": "Haluatko varmasti poistaa tämän kyselyn?",
+            "noQueriesSaved": "Et ole tallentanut kyselyitä",
+            "searchQueries": "Hae kyselyitäni…"
+        },
+        "catalogFacets": {
+            "facets": {
+                "licences": "Lisenssit",
+                "catalogs": "Luettelot",
+                "categories": "Luokat",
+                "countries": "Maat",
+                "formats": "Muodot",
+                "keywords": "Avainsanat"
+            },
+            "operator": "Operaattori",
+            "title": "Suodattimet",
+            "europeanCatalogs": "Eurooppalaiset luettelot",
+            "or": "TAI",
+            "and": "JA",
+            "euInstitutions": "EU:n toimielimet",
+            "settings": "Asetukset"
+        },
+        "statistics": {
+            "statistics": "Tilastot",
+            "datasetsPerCatalog": "Tietoaineistot luetteloa kohti",
+            "currentState": "Nykyinen tila",
+            "datasetsPerCountry": "Tietoaineistot maata kohti",
+            "selectType": "Valitse tilastollinen tyyppi",
+            "datasetsPerCountryAndCatalog": "Tietoaineistot maata ja luetteloa kohti",
+            "evolution": "Evoluutio",
+            "evolutionStartEnd": "Tietoaineistojen kokonaismäärän kehitys välillä {start_date} ja {end_date}",
+            "increaseStartEnd": "Mallin {dataset_model} kasvu prosentteina välillä {start_date} ja {end_date}",
+            "totalNumber": "Tietoaineistojen kokonaismäärä",
+            "datasetsPerCategory": "Tietoaineistot luokkaa kohti",
+            "selectTimePeriod": "Valitse ajanjakso",
+            "evolutionNumber": "{dataset_model} -määrän kehitys välillä {start_date} ja {end_date}",
+            "numberDate": "Numero {dataset_model} / {date}"
+        },
+        "categories": {
+            "tran": "Liikenne",
+            "heal": "Terveys",
+            "tech": "Tiede ja teknologia",
+            "envi": "Ympäristö",
+            "econ": "Talous ja raha-asiat",
+            "soci": "Väestö ja yhteiskunta",
+            "agri": "Maanviljelys, kalatalous, metsänhoito ja elintarvikkeet",
+            "educ": "Koulutus, kulttuuri ja urheilu",
+            "ener": "Energia",
+            "intr": "Kansainväliset kysymykset",
+            "gove": "Valtioneuvosto ja julkinen sektori",
+            "just": "Oikeus, oikeusjärjestelmä ja yleinen turvallisuus",
+            "regi": "Alueet ja kaupungit"
+        },
+        "pagination": {
+            "nextPage": "Seuraava",
+            "previousPage": "Edellinen"
+        },
+        "navigation": {
+            "navItems": {
+                "home": "Aloitussivu",
+                "about": "Tietoja",
+                "data": "Data",
+                "privacyPolicy": "Tietosuojakäytäntö",
+                "map": "Kartta",
+                "imprint": "Julkaisutiedot"
+            }
+        },
+        "catalogsAndDatasets": {
+            "noDescriptionAvailable": "Kuvausta ei ole saatavilla",
+            "more": "Lisää"
+        },
+        "datasetCategories": {
+            "foundCategories": "{number} luokka löytyi",
+            "foundCategory": "{number} luokkaa löytyi",
+            "noCategories": "Luokkia ei löytynyt"
+        },
+        "mapModal": {
+            "fullscreen": "Koko näyttö",
+            "findDatasets": "Ota käyttöön",
+            "reset": "Tyhjennä",
+            "close": "Sulje",
+            "drawRectangleMsg": "Valitse alue piirtämällä suorakulmio",
+            "disclaimer": "Vastuuvapauslauseke",
+            "copyright": "Kartta © OpenStreetMap-tekijät"
+        },
+        "similarDatasets": {
+            "similar": "Samankaltaiset",
+            "verySimilar": "Hyvin samankaltaiset",
+            "marginalSimilar": "Vähäisessä määrin samankaltaiset",
+            "notFound": "Samankaltaisia tietoaineistoja ei löytynyt",
+            "lessSimilar": "Vähemmän samankaltaiset",
+            "similarDatasets": "Samankaltaiset tietoaineistot"
+        },
+        "searchTabs": {
+            "editorialContent": "Toimituksellinen sisältö"
+        },
+        "visualisation": {
+            "loading": "Visualisointia ladataan...",
+            "previewAvailable": "Esikatselu saatavilla",
+            "info": "Jos visualisointi ei lataudu muutamassa sekunnissa, napsauta tästä."
+        },
+        "catalog": {
+            "loadingMessage": "Katalogeja löydetty",
+            "searchBar": {
+                "placeholder": "Hae katalogeja"
+            },
+            "geoBoundsMessageRemove": "Sulje tämä ilmoitus rajoituksen poistamiseksi tai käytä palautustoimintoa.",
+            "countMessage": "Katalogeja löydetty"
+        },
+        "sparql": {
+            "subHeadlineText2": "Jotta käyttäjät voivat laatia hyödyllisiä SPARQL-hakuja, toimitamme sivun, jonka sisältö on <a href='{sample_sparql_queries}'>sample SPARQL queries</a> ja joka voidaan toteuttaa päätepisteen kautta. Portaalissa RDF-tiedostoina julkaistut tietokokonaisuudet ja luettelot seuraavat <a href='https://github.com/SEMICeu/DCAT-AP'>DCAT-AP specification</a>. Lisätietoja metatietoontologiasta on DCAT-AP:n data.europa.eu-akatemiasivulla osoitteessa <a href=' https://data.europa.eu/en/academy/dcat-and-dcat-ap'> https://data.europa.eu/en/academy/dcat-and-dcat-ap</a>.",
+            "subHeadlineText1": "Kaikki data.europa.eu-metatiedot tallennetaan RDF triples -muodossa (<a href='https://www.w3.org/RDF/'>RDF</a>), ja niistä voidaan tehdä kyselyjä käyttämällä tässä päätepisteessä SPARQL-hakukieltä. Kyselyt voidaan tehdä kyselyn päätoimittajan (jäljempänä) tai koneellisesti luettavan päätepisteen (<a href='https://data.europa.eu/sparql'>https://data.europa.eu/sparql</a>) kautta."
+        },
+        "distributions": {
+            "footerLink": "Lataa"
+        },
+        "distributionDetails": "{}",
+        "spokenLanguage": "Englanti",
+        "cite": {
+            "copyToClipboard": "Kopio lippaaseen",
+            "title": "Mainitkaa tämä tietokokonaisuus."
+        },
+        "home": {
+            "msg": "Pahoittelemme, tällä sivulla ei ole vielä sisältöä. Katso Tieto-välilehdeltä lisää!"
+        },
+        "imprint": {
+            "msg": "SYÖTÄ JULKAISUTIEDOT TÄHÄN"
+        }
+    }
+}

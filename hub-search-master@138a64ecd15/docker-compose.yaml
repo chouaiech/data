@@ -1,0 +1,45 @@
+version: '3'
+
+networks:
+  elastic-nw:
+    name: elastic-network
+services:
+  hub-search:
+    container_name: piveau-hub-search
+    networks:
+      elastic-nw: {}
+    build: ./
+    depends_on:
+      - elasticsearch
+    environment:
+      - JAVA_OPTS=-Xms300m -Xmx1g
+    env_file:
+      - ./conf/search-elastic-env.properties
+      - ./conf/search-env.properties
+    ports:
+      - 8082:8080
+      - 8083:8081
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.17.2
+    container_name: elasticsearch
+    logging:
+      options:
+        max-size: "50m"
+    volumes:
+      - elasticsearch:/usr/share/elasticsearch/data
+    environment:      
+      - ES_JAVA_OPTS=-Xms2G -Xmx4G
+    env_file:
+      - ./conf/search-elastic-env.properties
+      - ./conf/elastic-env.properties
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    networks:
+      elastic-nw: {}
+    ports:
+      - 9200:9200
+      - 9300:9300
+volumes:
+  elasticsearch:
