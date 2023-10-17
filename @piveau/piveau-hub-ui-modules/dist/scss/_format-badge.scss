@@ -1,0 +1,41 @@
+.format-badge {
+    color: #fff;
+    background-color: $format-color-default;
+
+    &[type="HTML"] {
+      background-color: $format-color-html;
+    }
+    &[type="JSON"] {
+      background-color: $format-color-json;
+    }
+    &[type="XML"] {
+      background-color: $format-color-xml;
+    }
+    &[type="TXT"] {
+      background-color: $format-color-txt;
+    }
+    &[type="CSV"] {
+      background-color: $format-color-csv;
+    }
+    &[type="XLS"] {
+      background-color: $format-color-xls;
+    }
+    &[type="ZIP"] {
+      background-color: $format-color-zip;
+    }
+    &[type="API"] {
+      background-color: $format-color-api;
+    }
+    &[type="PDF"] {
+      background-color: $format-color-pdf;
+    }
+    &[type="SHP"] {
+      background-color: $format-color-shp;
+    }
+    &[type="RDF"],
+    &[type="NQUAD"],
+    &[type="NTRIPLES"],
+    &[type="TURTLE"] {
+      background-color: $format-color-ld;
+    }
+  }

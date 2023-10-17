@@ -1,0 +1,78 @@
+.dataset-info-box {
+  @extend .card;
+  
+  border-left: 3px solid $primary;
+
+  @each $color, $value in $theme-colors {
+    &.dataset-info-box-#{$color} {
+      border-left-color: $value;
+    }
+  }
+
+  box-shadow: $data-info-box-box-shadow;
+  transition: all .3s cubic-bezier(.25,.8,.25,1);
+
+  &-header {
+    @extend .card-header;
+  }
+
+  &-body {
+    @extend .card-body;
+  }
+
+  &-footer {
+    @extend .card-footer;
+
+    &-catalog-img {
+      max-width: 30px;
+      max-height: 19px;
+    }
+
+    &-catalog-description {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 1;
+      overflow: hidden;
+    }
+  }
+
+  &:hover {
+    box-shadow: $data-info-box-box-shadow-hover;
+    cursor: pointer;
+  }
+
+  .catalog-img {
+    height: auto;
+    max-height: 200px;
+
+    &--big {
+      max-width: 126.41px;
+      max-height: 85.09px;
+    }
+  }
+
+  &-header > h2 {
+    margin: 0;
+    font-size: $data-info-box-header-font-size;
+  }
+
+  &-body {
+    min-height: 150px;
+  }
+
+  &-description {
+
+    // line clamp
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: $data-info-box-body-line-clamp;
+    overflow: hidden;
+  }
+
+  &--catalog {
+    .dataset-info-box-body {
+      min-height: initial;
+    }
+    
+  }
+}

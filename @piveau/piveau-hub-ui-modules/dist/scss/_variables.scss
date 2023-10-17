@@ -1,0 +1,23 @@
+// Format colors
+$format-color-default: #595959!default;
+$format-color-html: #285C76!default;
+$format-color-json: var(--dark-orange)!default;
+$format-color-xml: #8F4300!default;
+$format-color-txt: #2B5E73!default;
+$format-color-csv: var(--badge-green)!default;
+$format-color-xls: #1A6537!default;
+$format-color-zip: #252525!default;
+$format-color-api: #923560!default;
+$format-color-pdf: #B30519!default;
+$format-color-shp: var(--badge-black)!default;
+$format-color-ld: #0b4498!default;
+$format-color-rdf: $format-color-ld!default;
+$format-color-nquad: $format-color-ld!default;
+$format-color-ntriples: $format-color-ld!default;
+$format-color-turtle: $format-color-ld!default;
+
+// DataInfoBox
+$data-info-box-header-font-size: 1.5rem!default;
+$data-info-box-box-shadow: 0 1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24)!default;
+$data-info-box-box-shadow-hover: 0 8px 16px rgb(0 0 0 / 25%), 0 4px 8px rgb(0 0 0 / 22%)!default;
+$data-info-box-body-line-clamp: 4!default;
